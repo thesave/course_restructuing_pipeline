@@ -2,7 +2,7 @@
 
 Tools of the DISI service-teaching working group for turning the syllabi of
 current courses into a reviewed proposal of reusable modules and their
-dependencies. The overall design is in `pipeline design/` (schema and the
+dependencies. The overall design is in `0.pipeline design/` (schema and the
 proposal for the upstream stages); `AGENTS.md` describes every component.
 
 ## Setup
@@ -24,6 +24,10 @@ see `requirements-embeddings.txt`.
 # Tests
 .venv/bin/python -m unittest discover -s tests -p 'test_*.py'
 
+# Stage 1: evidence preparation (syllabus items, prerequisites, course facts);
+# check data/evidence/2025/report.md and record corrections in overrides.yml there
+.venv/bin/python -m evidence prepare data/courses/2025 data/evidence/2025
+
 # Solve the first attempt's prototype area and review the proposal in the browser
 D=first-attempt/programming-languages
 .venv/bin/python -m modules_engine solve $D/topics.yml $D/dependencies.yml \
@@ -37,5 +41,5 @@ D=first-attempt/programming-languages
     --review data/modules-engine/demo/review.yml --output data/modules-engine/demo-revised
 
 # Render the pipeline schema (pdf, png or an editable drawio file)
-"pipeline design/render.sh" drawio
+"0.pipeline design/render.sh" drawio
 ```

@@ -1,0 +1,116 @@
+format: evidence/1
+course: '72940'
+title: Computational Models And Languages M
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-16'
+    to: '2025-12-16'
+  teaching_ids:
+  - '517544'
+  teachers:
+  - name: Denti, Enrico
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '517544'
+  laboratory:
+    value: true
+    evidence:
+    - The course adopts a constructive approach, where lectures (with slide projection) and foundational
+      aspects are interleaved with practical examples, exercises, case studies - both during the lectures,
+      in the form of live lab, and as proposal for autonomous exercises at home, according to the "individual
+      continuous lab" formula.
+    - In addition to the above-mentioned individual lab, actual lab sessions are also organised when appropriate.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of this course unit, conceived according to a multi-paradigm and multi-language constructive
+    approach, the student has a deep knowledge on the fundamental concepts of programming languages and
+    related computational models, knows the foundations of computability, knows and is able to apply the
+    basic interpreter and compiler techniques, and possesses the basic concepts of functional programming
+    and is able to apply such concepts in typical practical situations.
+- id: o2
+  text: More precisely, the student will know the main formal methods for language definition in terms
+    of syntax and semantics, for both programming languages and specification languages, and will be able
+    to apply the main techniques for language evaluation and recognition for interpreters and compilers,
+    including the use of the most common tools.
+- id: o3
+  text: Students will also be able to define reasonably simple languages understanding their properties,
+    implementing the corresponding interpreters, and evaluating the pros and cons of different choices/computational
+    paradigms in application design.
+contents:
+- id: c1
+  text: 'The course aims to provide a rational view over the fundamental concepts of programming languages,
+    relating them to the different computational models and to the problem of language translation and
+    recognition: solid foundations are coupled to a strong experimental approach.'
+- id: c2
+  text: Computability and Turing machine (5hrs)
+- id: c3
+  text: 'Formal description of programming languages: grammars and Chomsky classification. Relationship
+    between grammars and language interpreters/translators: lexical analysis, top-down and bottom-up techniques
+    for the syntactical analysis of regular languages and context-free languages. Overview on methods
+    for the formal description of the semantic aspects of a language. (18hrs)'
+- id: c4
+  text: 'Structure and organisation of interpreters/compilers, and their run-time support: examples in
+    Java. Parser generator tools. (14hrs)'
+- id: c5
+  text: 'Introduction to Model-Driven approaches: the Xtext case. (3 hrs)'
+- id: c6
+  text: Iterative vs. recursive computational models, tail recursion optimisation, basic concepts of functional
+    programming, closures, models for function evaluation, intro to the basics of Lambda calculus (9hrs)
+- id: c7
+  text: Javascript as an example of (dynamic) functional language with a prototype-based object model
+    (6hrs)
+- id: c8
+  text: Scala and Kotlin as notable examples of blended programming languages on the Java platform. (9hrs)
+prerequisites: []
+bibliography: Please refer either to the course page at the site indicted below, or to the slides on the
+  VirtuaLe site.
+removed: []

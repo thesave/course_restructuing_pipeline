@@ -1,0 +1,117 @@
+format: evidence/1
+course: B5079
+title: Digital Humanities and Data Management for Cultural Heritage
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - Blended Learning
+  campi:
+  - Ravenna
+  schedules:
+  - from: '2025-11-12'
+    to: '2025-12-12'
+  teaching_ids:
+  - '531650'
+  teachers:
+  - name: Barzaghi, Sebastian
+    affiliation: dbc
+    role:
+    - adjunct professor
+  programmes:
+  - code: 0962
+    name: History
+    department: disci
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6664'
+    name: History
+    department: disci
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6740'
+    name: Library and Archive Science
+    department: dbc
+    campus: Ravenna
+    cycle: second
+    languages:
+    - italian
+  - code: '9077'
+    name: Library and Archive Science
+    department: dbc
+    campus: Ravenna
+    cycle: second
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - 'Cooperative Learning in person, through practical and collaborative activities: students will work
+      together to solve problems related to a case study introduced during the course, used as a didactic
+      lab to integrate theory and practice and to develop skills useful for the final exam.'
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student is familiar with the main theories, methodologies, and techniques
+    belonging to the fields of Digital Humanities and Linked Open Data.
+- id: o2
+  text: Furthermore, they are able to apply the acquired knowledge to represent and manage data in the
+    humanities and to produce, manage, and publish digital resources related to cultural heritage following
+    the principles of open science.
+contents:
+- id: c1
+  text: The course aims to introduce students to the topics of Digital Humanities (DH) and Data Management
+    (DM).
+- id: c2
+  text: During the course, particular attention will be given to the use of digital tools and methodologies
+    for the proper management of humanities data throughout the entire life cycle of a DH project, with
+    a focus on bibliographic, archival, documentary, and artistic domains.
+- id: c3
+  text: Students will acquire both theoretical and practical knowledge of the languages, models, tools,
+    and principles necessary to conceive, design, and implement a digital resource based on FAIR (Findable,
+    Accessible, Interoperable, and Reusable) data management, capable of enhancing cultural heritage.
+prerequisites: []
+bibliography: |-
+  The lecture notes, bibliography, and any other additional materials will be made available to students free of charge on the institutional Virtuale platform; further materials will be uploaded to the course's GitHub repository. Specifically, the bibliography consists of freely accessible texts and web resources, also in English, recommended to students for preparation before, during, and after the lectures.
+
+  Attending students:
+
+  1. Introduction and chapters 1, 14, 19, 31, and 36 of Schreibman, S., Siemens, R., & Unsworth, J. (Eds.). (2008). A Companion to Digital Humanities. John Wiley & Sons. http://www.digitalhumanities.org/companion/
+  2. University guidelines for research data management. https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf
+  3. Tomasi, F. (2020). Digital Humanities e organizzazione della conoscenza: una pratica di insegnamento nel LODLAM. AIB Studi, 60 (2). https://aibstudi.aib.it/article/download/12068/11652?inline=1
+  4. Benvenuti, N. (2003). L'importanza dei metadati nella costruzione della rete globale. Bollettino AIB (1992-2011), 43(3), 331-350. http://bollettino.aib.it/article/view/5032
+  5. Tammaro, A. M. (2017). Data literacy: formare docenti e studenti alla gestione dei dati di ricerca. Biblioteche oggi, 35, 19-25. http://dx.doi.org/10.3302/0392-8586-201707-019-1
+
+  Non-attending students:
+
+  1. Introduction and chapters 1, 14, 19, 31, and 36 of Schreibman, S., Siemens, R., & Unsworth, J. (Eds.). (2008). A Companion to Digital Humanities. John Wiley & Sons. http://www.digitalhumanities.org/companion/
+  2. University guidelines for research data management. https://www.unibo.it/it/allegati/Lineeguidaricerca_v4_HR.pdf/@@download/file/Lineeguidaricerca_v4_HR.pdf
+  3. Dataset: select and organize data. https://www.unibo.it/it/allegati/Scheda_Dataset.pdf/@@download/file/Scheda_Dataset.pdf
+  4. Research data: types, formats, methods. https://www.unibo.it/it/allegati/Scheda_Datidellaricerca.pdf/@@download/file/Scheda_Datidellaricerca.pdf
+  5. Copyright and research data. https://www.unibo.it/it/allegati/Scheda_Dirittodautore.pdf/@@download/file/Scheda_Dirittodautore.pdf
+  6. Managing software. https://www.unibo.it/it/allegati/Scheda_Gestireilsoftware.pdf/@@download/file/Scheda_Gestireilsoftware.pdf
+  7. Metadata and documentation. https://www.unibo.it/it/allegati/Scheda_Metadati.pdf/@@download/file/Scheda_Metadati.pdf
+  8. The FAIR principles. https://www.unibo.it/it/allegati/Scheda_PrincipiFAIR.pdf/@@download/file/Scheda_PrincipiFAIR.pdf
+  9. Repositories for data deposition. https://www.unibo.it/it/allegati/Scheda_Repository.pdf/@@download/file/Scheda_Repository.pdf
+  10. Respecting privacy in research data management. https://www.unibo.it/it/allegati/Scheda_Rispettodellaprivacy.pdf/@@download/file/Scheda_Rispettodellaprivacy.pdf
+  11. Using different types of standards. https://www.unibo.it/it/allegati/Scheda_Tipidistandard.pdf/@@download/file/Scheda_Tipidistandard.pdf
+  12. Tomasi, F. (2020). Digital Humanities e organizzazione della conoscenza: una pratica di insegnamento nel LODLAM. AIB Studi, 60 (2). https://aibstudi.aib.it/article/download/12068/11652?inline=1
+  13. Benvenuti, N. (2003). L'importanza dei metadati nella costruzione della rete globale. Bollettino AIB (1992-2011), 43(3), 331-350. http://bollettino.aib.it/article/view/5032
+  14. Tammaro, A. M. (2017). Data literacy: formare docenti e studenti alla gestione dei dati di ricerca. Biblioteche oggi, 35, 19-25. http://dx.doi.org/10.3302/0392-8586-201707-019-1
+removed: []

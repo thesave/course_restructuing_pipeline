@@ -1,0 +1,127 @@
+format: evidence/1
+course: '69731'
+title: Computer Architecture
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 12
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-05-21'
+  - from: '2026-02-17'
+    to: '2026-05-21'
+  teaching_ids:
+  - '536883'
+  - '536886'
+  teachers:
+  - name: Cappelli, Raffaele
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Ferrara, Matteo
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Maltoni, Davide
+    affiliation: disi
+    role:
+    - full professor
+  - name: Pandolfini, Serafino
+    affiliation: disi
+    role:
+    - phd student
+  - name: Semprini, Gloria
+    affiliation: disi
+    role:
+    - teaching tutor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '536883'
+    - '536886'
+  laboratory:
+    value: true
+    evidence:
+    - Laboratory
+    - 'Note: As concerns the teaching methods of this course unit, all students must attend Module 1,
+      2 (https://www.unibo.it/en/services-and-opportunities/health-and-assistance/health-and-safety/online-course-on-health-and-safety-in-study-and-internship-areas)
+      on Health and Safety online'
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Providing the student with the concepts
+- id: o2
+  text: necessary for understanding computer architectures and assembly programming
+- id: o3
+  text: Providing the student with the concepts necessary for understanding computer architectures and
+    assembly programming.
+contents:
+- id: c1
+  text: Introduction and history of computers
+- id: c2
+  text: Information coding
+- id: c3
+  text: Architecture of a computer and its peripherals
+- id: c4
+  text: The ISA level and the assembly language
+- id: c5
+  text: Boole's algebra
+- id: c6
+  text: The level of digital logic
+- id: c7
+  text: Examples of real computer architecturs
+- id: c8
+  text: Parallel architectures
+prerequisites: []
+bibliography: |-
+  ARCHITETTURA DEI CALCOLATORI
+
+  by Andrew Tanenbaum and Todd Austin
+
+  Sesta Edizione (2013)
+
+  Pearson Italia
+removed: []

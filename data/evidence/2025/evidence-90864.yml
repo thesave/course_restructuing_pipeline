@@ -1,0 +1,81 @@
+format: evidence/1
+course: '90864'
+title: Elements of Computer Technologies for Fashion E-Commerce
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Rimini
+  schedules:
+  - from: '2025-11-05'
+    to: '2025-12-12'
+  teaching_ids:
+  - '445171'
+  teachers:
+  - name: Marfia, Gustavo
+    affiliation: dar
+    role:
+    - full professor
+  programmes:
+  - code: '6636'
+    name: Fashion Cultures and Practices
+    department: dar
+    campus: Rimini
+    cycle: first
+    languages:
+    - italian
+  - code: '9064'
+    name: Fashion Cultures and Practices
+    department: dar
+    campus: Rimini
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - Lectures and lab sessions.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student has the necessary knowledge to understand the basics of the
+    technologies involved in the construction of an e-commerce platform for fashion.
+- id: o2
+  text: Acquires the ability to design the user interface of an e-commerce system, also for the mobile
+    context.
+- id: o3
+  text: Understands the advantages and disadvantages of different possible architectural solutions.
+contents:
+- id: c1
+  text: 'Infrastructure: Internet and WWW'
+- id: c2
+  text: Web Servers
+- id: c3
+  text: ECommerce platforms
+- id: c4
+  text: Social Media Systems
+- id: c5
+  text: Security
+- id: c6
+  text: Analysis of fashion ECommerce platforms
+- id: c7
+  text: Immersive ECommerce platforms
+- id: c8
+  text: Use of AI paradigms
+prerequisites: []
+bibliography: Bibliography provided by the Lecturer at the beginning of the course.
+removed: []

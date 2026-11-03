@@ -1,0 +1,136 @@
+format: evidence/1
+course: '92858'
+title: Autonomous and Adaptive Systems M
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-27'
+    to: '2026-06-05'
+  teaching_ids:
+  - '468076'
+  teachers:
+  - name: Franceschelli, Giorgio
+    affiliation: disi
+    role:
+    - research fellow
+  - name: Musolesi, Mirco
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6700'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9063'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '468076'
+  laboratory:
+    value: true
+    evidence:
+    - Lectures in the classroom and in the lab.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of this course student will have a solid understanding of the state of the art and
+    the key conceptual and practical aspects of the design, implementation and evaluation of intelligent
+    machines and autonomous systems that learn by interacting with their environment.
+- id: o2
+  text: The course also takes into consideration ethical, societal and philosophical aspects related to
+    these technologies.
+contents:
+- id: c1
+  text: 'Introduction to the design of adaptive and autonomous systems: intelligent agents and intelligent
+    machines, automatic vs autonomous decision-making.'
+- id: c2
+  text: 'Introduction to Reinforcement Learning (RL): multi-armed bandits, Montecarlo methods, tabular
+    methods, approximation function methods, and policy-based methods.'
+- id: c3
+  text: Applications of RL to games, classic control theory problems and robotics.
+- id: c4
+  text: 'Introduction to algorithmic game theory for multi-agent learning systems: cooperation and coordination,
+    social dilemmas, and Multi-Agent Reinforcement Learning.'
+- id: c5
+  text: Bio-inspired adaptive systems.
+- id: c6
+  text: 'Intelligent machines that create: Generative Learning and AI creativity.'
+- id: c7
+  text: 'The "brave new world": agentic AI systems, design of agents based on large language models/foundational
+    models, training using Reinforcement Learning from human-feedback (RLHF) and Direct Preference Optimization
+    (DPO).'
+- id: c8
+  text: 'Open problems and the future: safety, value alignment, super-intelligence, controllability, and
+    self-awareness.'
+- id: c9
+  text: Ethical and philosophical implications of AI and autonomous systems.
+- id: c10
+  text: The course will include labs in which we will discuss implementation oriented aspects of the techniques
+    and methodologies presented during the course.
+prerequisites: []
+bibliography: |-
+  During the course, the instructor will provide an extensive list of pointers (scientific papers, technical documentation, books, etc.) for each topic.
+
+  Useful textbooks for the course include the following:
+
+  - Christopher M. Bishop and Hugh Bishop. Deep Learning: Foundations and Concepts. Springer. 2023.
+  - Francois Chollet. Deep Learning with Python. Second Edition. Manning. 2022.
+  - Dario Floreano and Claudio Mattiussi. Bio-inspired Artificial Intelligence: Theories, Methods and Technologies. MIT Press. 2008.
+  - David Foster. Generative Deep Learning: Teaching Machines to Paint, Write, Compose and Play. Second Edition. O’Reilly. 2023.
+  - Robin R. Murphy. Introduction to AI Robotics. Second Edition. MIT Press. 2019.
+  - Peter Norvig and Stuart J. Russell. Artificial Intelligence: A Modern Approach. Fourth Edition. Pearson. 2020.
+  - Max Pumperla and Kevin Ferguson. Deep Learning and the Game of Go. Manning. 2019.
+  - Richard R. Sutton and Andrew G. Barto. Reinforcement Learning: An Introduction. MIT Press 2018.
+removed: []

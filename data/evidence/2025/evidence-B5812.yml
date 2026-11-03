@@ -1,0 +1,95 @@
+format: evidence/1
+course: B5812
+title: Cybersecurity Governance
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-17'
+    to: '2025-11-27'
+  teaching_ids:
+  - '504413'
+  teachers:
+  - name: Colajanni, Michele
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '5889'
+    name: Digital Innovation Policies and Governance
+    department: sps
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6777'
+    name: Digital Innovation Policies and Governance
+    department: sps
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '504413'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The course aims to provide the knowledge to understand and assess the main threats to information
+    and social systems from cyber-attacks as well as the main ways to mitigate the risks in public and
+    private organisations.
+- id: o2
+  text: Upon completion of the course, the student will be able to apply the acquired knowledge to deal
+    with cyber risks in multiple organisational contexts by defining priorities for intervention.
+contents:
+- id: c1
+  text: The course addresses the strategic and management issues of cybersecurity from the perspective
+    of states and public and private organizations of various sizes.
+- id: c2
+  text: After describing the current digital landscape, the course addresses the priority objectives of
+    each entity, along with the cyber threats and internal vulnerabilities that jeopardize these objectives.
+- id: c3
+  text: Cyber risks must be assessed to define intervention priorities for prevention, detection, and
+    response.
+- id: c4
+  text: 'For each phase, risk management must operate at the following levels:'
+- id: c5
+  text: strategic
+- id: c6
+  text: management
+- id: c7
+  text: operational
+- id: c8
+  text: 'The final section will address other risks and countermeasures related to:'
+- id: c9
+  text: disinformation
+- id: c10
+  text: cyber conflict
+- id: c11
+  text: smart society
+- id: c12
+  text: Artificial Intelligence
+- id: c13
+  text: The use of AI tools for cybersecurity management is not prohibited, but encouraged, provided it
+    is declared and the results are shared by the class.
+prerequisites: []
+bibliography: Slides, lecturer notes, book chapters, scientific articles, and online resources are available
+  on virtuale.unibo.it.
+removed: []

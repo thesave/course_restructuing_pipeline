@@ -1,0 +1,140 @@
+format: evidence/1
+course: 29227-B
+title: Foundations of Informatics T
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-06-04'
+  teaching_ids:
+  - '513877'
+  teachers:
+  - name: Baldini, Samuele
+    affiliation: din
+    role:
+    - phd student
+  - name: Lepore, Roberto
+    affiliation: difa
+    role:
+    - phd student
+  - name: Manservisi, Sandro
+    affiliation: din
+    role:
+    - full professor
+  - name: Teodori, Francesco
+    affiliation: din
+    role:
+    - researcher
+  programmes:
+  - code: 0924
+    name: Energy Engineering
+    department: din
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '5978'
+    name: Energy Engineering
+    department: din
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6678'
+    name: Energy Engineering
+    department: din
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6717'
+    name: Energy Engineering
+    department: din
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - Class lectures and laboratory tutorials with Personal Computers.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The aim of the course is to give the student a general overview about computers and scientific
+    computing.
+- id: o2
+  text: After this introductory part, the course is focused on the C++ language and on numerical methods
+    both at an elementary level.
+contents:
+- id: c1
+  text: I. The Linux operating system
+  items:
+  - id: c1.1
+    text: 'preliminary notions: shell use; basic commands; filesystem and partitions; operating system
+      installation;'
+- id: c2
+  text: II. Introduction to C++
+  items:
+  - id: c2.1
+    text: 'Fundamentals: variable and arithmetic expressions; for loops; if statements; constants: input
+      and output; arrays; functions; passing arguments by reference; external variables and scope.'
+  - id: c2.2
+    text: 'Pointers and arrays: pointers and addresses; pointers and function arguments; address arithmetic;
+      pointers and arrays; dynamic memory allocation; pointer arrays; pointers to pointers; multidimensional
+      arrays; command line arguments;function pointers; void pointers.'
+  - id: c2.3
+    text: 'Classes: basics of classes; operator overloading; self referential classes.'
+  - id: c2.4
+    text: 'Header files and libraries: header files; conditional inclusion; compiling multiple files;
+      the Makefile.'
+  - id: c2.5
+    text: 'Toward numerical applications: sources of errors: absolute, relative and percentage errors;
+      numerical cancellation and error propagation; machine precision and significant digits.'
+- id: c3
+  text: III. Introduction to numerical methods
+  items:
+  - id: c3.1
+    text: 'Function approximation: Lagrangian interpolation, Taylor polynomial and series.'
+  - id: c3.2
+    text: 'Finite difference methods: approximation of the first, second and n-th derivative with backward
+      and forward finite differences, with first and second order truncation error; approximation of the
+      first, second and n-th derivative with centered finite differences. ODE of the second order.'
+  - id: c3.3
+    text: 'Root-finding algorithms: solution of linear system with Gauss method. Non linear equation:
+      bisection and Newton-Raphson''s (tangent) method. The secant method and Regula Falsi method.'
+  - id: c3.4
+    text: 'Numerical integration: rectangle rule, trapezoidal rule, Simpson''s formula. Gauss quadrature.
+      Local and global truncation error and order of convergence.'
+prerequisites: []
+bibliography: |-
+  Instructor lecture notes and lab tutorial (on AMS campus https://virtuale.unibo.it/ )
+
+  Additional books:
+  Aguilar, L. J., & Dragoni, A. F. (2021). Fondamenti di programmazione in C++: Algoritmi, strutture dati e oggetti. Milano: McGraw-Hill.
+
+  Shtern, V. (2001). Core C [plus plus]: A software engineering approach. Upper Saddle River, N.J: Prentice Hall PTR.
+
+  Overland, B. (2001). C++ in plain English. Foster, City, CA: I.D.G. Books.
+
+  Ceri, Mandrioli, Sbattella. Informatica: arte e mestiere. McGraw-Hill
+  Monegato. Fondamenti di calcolo numerico. Levrotto & Bella
+  Epperson. Introduzione all'analisi numerica. McGraw-Hil
+removed: []

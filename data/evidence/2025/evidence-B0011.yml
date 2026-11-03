@@ -1,0 +1,154 @@
+format: evidence/1
+course: B0011
+title: Software Process Engineering
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-18'
+    to: '2025-12-19'
+  teaching_ids:
+  - '483714'
+  - '526566'
+  teachers:
+  - name: Ciatto, Giovanni
+    affiliation: disi
+    role:
+    - tenure-track researcher
+  - name: Pianini, Danilo
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '483714'
+    - '526566'
+  laboratory:
+    value: true
+    evidence:
+    - Lectures and practical lab sessions.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: 'By the end of the course, the student is expected to master advanced techniques for organising
+    the software development process, and in particular:'
+- id: o2
+  text: ability to set up, evolve, and maintain an agile development process, including build automation,
+    multi-platform and multi-target testing, continuous integration, and continuous delivery;
+- id: o3
+  text: advanced knowledge of modern version control systems
+- id: o4
+  text: understanding of the software licensing (with a focus on open source products) and of the existing
+    models of software versioning;
+- id: o5
+  text: capacity of performing a domain-first analysis in a technology-independent fashion, leveraging
+    techniques of Domain-Driven (DDD) and Model Driven (MDD) development;
+- id: o6
+  text: 'knowledge of supporting tools for DDD/MDD: creation of domain-specific languages (DSLs) and corresponding
+    code generators, development of language-internal DSLs in modern programming languages.'
+contents:
+- id: c1
+  text: MODULE 1
+  heading: true
+  items:
+  - id: c1.1
+    text: Introduction to Kotlin
+  - id: c1.2
+    text: Internal domain-specific languages in Kotlin
+  - id: c1.3
+    text: Build automation (Gradle as reference tool)
+  - id: c1.4
+    text: Automated Quality Assurance
+  - id: c1.5
+    text: Software versioning
+  - id: c1.6
+    text: Software licensing
+  - id: c1.7
+    text: Teamwork organization via git
+  - id: c1.8
+    text: Advanced version control (submodules, rebasing, cherry-picking, squashing, stashing)
+  - id: c1.9
+    text: Continuous integration (GitHub Actions)
+  - id: c1.10
+    text: Continuous delivery/deployment
+- id: c2
+  text: MODULE 2
+  heading: true
+  items:
+  - id: c2.1
+    text: Domain-Driven Design
+  - id: c2.2
+    text: Model-Driven Design
+  - id: c2.3
+    text: External and Internal Domain-Specific Languages (DLSs)
+  - id: c2.4
+    text: Containerization
+  - id: c2.5
+    text: Orchestration
+  - id: c2.6
+    text: Multi-Platform Programming (Kotlin)
+  - id: c2.7
+    text: Bug hunting and Performance Engineering
+prerequisites: []
+bibliography: |-
+  The teachers' slides are freely available online, references are available on Virtuale, and in any case they can be retrieved from the GitHub profile of the course's main teacher.
+
+  Suggested books (not required for the course):
+
+  - Domain-driven design - Eric Evans
+  - Fundamentals of Software Architecture. An Engineering Approach - Mark Richards, Neal Ford
+  - Pattern, Principles and Practices of Domain-Driven Design - Scott Millett, Nick Tune
+
+  Additional suggested readings:
+
+  - Mastering Kotlin - Nate Ebel
+  - Kotlin in Action - Dmitry Jemerov, Svetlana Isakova
+  - Practical Domain-Driven Design in Java - Vijay Nair
+  - Model-Driven Software Development. Technology, Engineering, Management - Thomas Stahl, Markus Völter
+  - Implementing Domain-Specific Languages with Xtext and Xtend - Lorenzo Bettini
+removed: []

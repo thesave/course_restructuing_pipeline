@@ -1,0 +1,117 @@
+format: evidence/1
+course: B9254
+title: Basic IT Skills
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 1
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-05-05'
+    to: '2026-05-07'
+  teaching_ids:
+  - '550197'
+  teachers:
+  - name: Vecchio, Yari
+    affiliation: dimevet
+    role:
+    - tenure-track researcher
+  programmes:
+  - code: '5984'
+    name: Veterinary Medicine
+    department: dimevet
+    campus: Ozzano dell'Emilia
+    cycle: single
+    languages:
+    - italian
+  - code: '6197'
+    name: Veterinary Medicine
+    department: dimevet
+    campus: Ozzano dell'Emilia
+    cycle: single
+    languages:
+    - english
+  - code: '6735'
+    name: Veterinary Medicine
+    department: dimevet
+    campus: Ozzano dell'Emilia
+    cycle: single
+    languages:
+    - italian
+  - code: '8617'
+    name: Veterinary Medicine
+    department: dimevet
+    campus: Ozzano dell'Emilia
+    cycle: single
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - The course consists of theoretical lectures and guided practical exercises in the computer lab.
+    - The practical exercises take place at individual workstations in the computer lab, allowing students
+      to directly apply the concepts they have learned.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: He/she is able to effectively use the tools of the Office suite to create, analyse and present
+    documents, spreadsheets and presentations.
+- id: o2
+  text: They will also have acquired basic knowledge of artificial intelligence and will be able to recognise
+    its practical applications in a professional context.
+contents:
+- id: c1
+  text: This course is part of the Integrated Course B9090 - Soft Skills.
+- id: c2
+  text: 'The Integrated Course B9090 - SOFT SKILLS contributes to the achievement of the following ESEVT
+    Day One Competences: 1.1, 1.4, 1.6, 1.11, 1.12.'
+- id: c3
+  text: The BASICS OF COMPUTER SCIENCE course will address the fundamental concepts and tools for the
+    effective and informed use of digital technologies in academic and professional settings.
+- id: c4
+  text: Specifically, the lessons will cover the following topics
+  items:
+  - id: c4.1
+    text: 'Introduction to computer science: basic concepts (hardware, software, networks), computer architecture,
+      and operating systems (1 hour)'
+  - id: c4.2
+    text: 'Word processing and presentations: creating and formatting text documents, managing styles,
+      indexes, and bibliographies. Techniques and tools for creating clear, professional, and effective
+      presentations. (2 hours)'
+  - id: c4.3
+    text: 'Spreadsheets: organizing data, using basic formulas and functions, creating charts for data
+      analysis and visualization. (2 hours)'
+  - id: c4.4
+    text: 'Online communication and collaboration: professional email, cloud storage, tools for teamwork
+      (e.g., Office 365, Teams, OneDrive). (1 hour)'
+  - id: c4.5
+    text: 'Cybersecurity and privacy: recognizing the main threats (viruses, malware, phishing), protecting
+      your devices, data, and digital identity. (1 hour)'
+  - id: c4.6
+    text: 'Introduction to new tools: using artificial intelligence tools, using medical informatics software
+      (1 hour)'
+prerequisites: []
+bibliography: |-
+  The teaching materials (slides, exercises, guides) are available on the Virtual platform (https://virtuale.unibo.it/).
+
+  Further reading:
+
+  - Rosati, Alberto (2025) Medical Informatics: A Guide to Health Information Systems. McGraw-Hill Education
+  - Marengo A. and Pagano A (2021) Basic Informatics: With Connect. With online updates. McGraw-Hill Education
+
+  Links to online guides and web resources will also be provided.
+removed: []

@@ -1,0 +1,95 @@
+format: evidence/1
+course: 41731-A
+title: Web-related Technologies
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-19'
+    to: '2025-12-12'
+  teaching_ids:
+  - '378225'
+  teachers:
+  - name: Delnevo, Giovanni
+    affiliation: disi
+    role:
+    - tenure-track researcher
+  - name: Mirri, Silvia
+    affiliation: disi
+    role:
+    - full professor
+  - name: Olaiya, Kelvin Oluwada Milare Obuneme
+    affiliation: disi
+    role:
+    - phd student
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '378225'
+  laboratory:
+    value: true
+    evidence:
+    - Lectures and laboratory activities.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student has acquired basic notions about web sites development via
+    client side and server side technologies and on representation of documents via markup and style sheets.
+contents:
+- id: c1
+  text: 'Fundamentals: HTTP, MIME, character encodings, markup.'
+- id: c2
+  text: 'Basic web Technologies: URI, HTML5, CSS3, JSON.'
+- id: c3
+  text: Server-side technologies for web applications, in particular PHP.
+- id: c4
+  text: Client-side technologies for web applications, in particular Javascript.
+- id: c5
+  text: HCI techniques, User eXperience (UX), Web accessibility and usability.
+prerequisites: []
+bibliography: Slides and additional on-line resources will be made available on Virtuale.
+removed: []

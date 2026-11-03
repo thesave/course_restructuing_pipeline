@@ -1,0 +1,182 @@
+format: evidence/1
+course: B0833
+title: Computer Security Laboratory T
+sources:
+  outcomes: it
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-18'
+    to: '2026-06-03'
+  teaching_ids:
+  - '487362'
+  teachers:
+  - name: Barone, Leonardo
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Pevere, Pierluca
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Prandini, Marco
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '487362'
+  laboratory:
+    value: true
+    evidence:
+    - The course is worth 6 CFU/ECTS corresponding to 60 hours of classroom or lab activity.
+    - Lab activities will encompass both guided exercises to get acquainted with the tools, and challenges
+      that students will be asked to solve, typically working in groups.
+  equivalent_courses:
+  - '88325'
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Conoscenza delle problematiche di sicurezza delle informazioni, dei sistemi per la loro elaborazione,
+    e delle reti che li interconnettono.
+- id: o2
+  text: Conoscenza delle minacce alla sicurezza e delle contromisure per prevenirle, rilevarne la manifestazione
+    e contenerne gli effetti.
+- id: o3
+  text: Capacità di utilizzare strumenti di "penetration testing" per validare la sicurezza di un sistema
+    attraverso la ricerca delle sue vulnerabilità e la misura degli effetti del loro sfruttamento.
+contents:
+- id: c1
+  text: The course's goal is to provide an overview of the topics which are relevant to secure computing
+    systems, with a practical approach.
+- id: c2
+  text: Foundations
+  items:
+  - id: c2.1
+    text: Security properties of information and systems
+  - id: c2.2
+    text: 'Definitions: threat, vulnerability, exploit, risk'
+  - id: c2.3
+    text: Attack methods and impact
+  - id: c2.4
+    text: 'Hints: formal models for development, security frameworks, certifications'
+- id: c3
+  text: Red Teaming
+  items:
+  - id: c3.1
+    text: Vulnerability origins and identification
+  - id: c3.2
+    text: The cybersecurity kil chain
+  - id: c3.3
+    text: Enumeration, scanning and brute forcing of credentials
+  - id: c3.4
+    text: Configuration mistakes exploitation for privilege escalation
+  - id: c3.5
+    text: Vulnerability exploitation on web-based applications (cross-site scripting, path traversal,
+      code injection, etc.)
+  - id: c3.6
+    text: Vulnerability exploitation on binary code (buffer overflow, shellcoding, return to libc, etc.)
+- id: c4
+  text: Information security
+  items:
+  - id: c4.1
+    text: Cryptography essentials
+  - id: c4.2
+    text: 'Data at rest: anonymization and encryption'
+  - id: c4.3
+    text: 'Data in transit: secure communication protocols and VPNs'
+- id: c5
+  text: Blue teaming
+  items:
+  - id: c5.1
+    text: Physical security
+  - id: c5.2
+    text: Basic operating system hardening
+  - id: c5.3
+    text: Authentication systems
+  - id: c5.4
+    text: Access control models and their implementation
+  - id: c5.5
+    text: 'Network-based attack prevention: firewalls'
+  - id: c5.6
+    text: 'Attack detection: IDS, IPS, SIEM'
+  - id: c5.7
+    text: Incident response and recovery
+prerequisites:
+- id: p1
+  text: 'Entry requirements: IN ORDER TO EFFECTIVELY FOLLOW THE COURSE, A GOOD GRASP OF COMPUTER NETWORKS
+    AND OPERATING SYSTEMS IS ESSENTIAL. BASIC PROFICIENCY WITH LINUX COMMAND LINE IS NEEDED.'
+bibliography: |-
+  Slides published on Virtuale (https://virtuale.unibo.it/) are a guide for the lectures, not a comprehensive study material. On the same platform, all lab exercises and their solutions are available, including suggested exercises to do at home.
+
+  Textbook in Italian
+
+  - "Sicurezza dei computer e delle reti" di William Stallings, a cura di Alessandra de Paola e Giuseppe Lo Re - Pearson (2022)
+
+  or in English:
+
+  - "Security in Computing" by Shari Lawrence Pfleeger, Charles P. Pfleeger, Jonathan Margulies - Pearson (2015)
+  - "Cybersecurity – Attack and Defense Strategies - Second Edition" by Yuri Diogenes, Erdal Ozkaya - Packt Publishing (2019)
+
+  Older but quite effective to tackle Red Teaming:
+
+  - "Hacking Exposed 7" by Stuart McClure, Joel Scambray, George Kurtz - McGraw-Hill (2012)
+
+  For students in need of an introduction (or simply wishing to have a reference handy) about Linux as a security operations platform:
+
+  - "Linux Essentials for Cybersecurity", by Denise Kinsey, William Rothwell - Pearson IT Certification (2018)
+  - "Cybersecurity Ops with bash", by Paul Troncone, Carl Albing - O'Reilly Media (2019)
+removed:
+- text: IMPORTANT FORMAL NOTE
+  reason: formal note
+- text: THE COURSES
+  reason: formal note
+- text: 88325 - Computer and Network Security Lab T (PART OF 88326 System Administration and Security
+    T I.C.)
+  reason: formal note
+- text: B0833 - LABORATORIO DI SICUREZZA INFORMATICA T
+  reason: formal note
+- text: ARE THE SAME COURSE, SHOWN WITH DIFFERENT CODES FOR FORMAL REASONS; THEY CANNOT BE CHOSEN TOGETHER,
+    EVEN IF THE STUDY PLANS COMPILATION SYSTEM ALLOWS IT
+  reason: formal note

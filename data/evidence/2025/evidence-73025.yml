@@ -1,0 +1,251 @@
+format: evidence/1
+course: '73025'
+title: Distributed Systems M
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-15'
+    to: '2025-12-17'
+  teaching_ids:
+  - '467983'
+  teachers:
+  - name: Foschini, Luca
+    affiliation: disi
+    role:
+    - full professor
+  - name: Montebugnoli, Sofia
+    affiliation: disi
+    role:
+    - phd student
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '467983'
+  laboratory:
+    value: true
+    evidence:
+    - lab exercises, in which the students will be solicited to
+    - 'Lab exercises will include:'
+    - 1 esercitazione su EJB in WildFly
+    - 1 esercitazione su EJB e JPA
+    - 1 esercitazione su Spring
+    - 1 esercitazione su FaaS
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: This graduate course aims at providing students with deep advanced know-how about the methodologies,
+    models, tools, and mechanisms for the design, implementation, and runtime evaluation/validation of
+    enterprise applications deployed over wide-scale distributed systems.
+- id: o2
+  text: The learning outcomes of the course will include
+  items:
+  - id: o2.1
+    text: 'architecture modeling principles for distributed enterprise applications: requirements and
+      design principles'
+  - id: o2.2
+    text: Design, development, and implementation of distributed applications based on Application Servers
+      (e.g., JBoss) and components (e.g., Enterprise Java Beans)
+  - id: o2.3
+    text: management of complex and articulated container-based distributed systems, also via lightweight
+      models and technologies (e.g., via Spring) and via advanced persistency solutions (e.g., via the
+      JPA and Hibernate technologies)
+  - id: o2.4
+    text: design, development, and implementation of distributed support systems for runtime monitoring
+      and control (properties such as scalability, fault-tolerance, reliability, ...; e.g., via the JMX
+      technology)
+  - id: o2.5
+    text: design, development, and implementation of highly scalable distributed applications for high-end
+      clusters, by specifically considering the clustering support available in JBoss (full configuration);
+      some introductory notions of online stream processing over big data
+contents:
+- id: c1
+  text: 'The course will aim at deeply and thoroughly facing the following topics:'
+- id: c2
+  text: methodologies and architectural models for the design, implementation, and deployment of enterprise-level
+    distributed applications
+- id: c3
+  text: component-based model evolution and component integration into distributed architectures (typically
+    3-tier and Web-integrated)
+- id: c4
+  text: Application Servers (e.g., JBoss) and middleware/frameworks for the runtime support of enterprise-level
+    distributed applications
+- id: c5
+  text: differentiated naming services and their integration, especially in enterprise-level deployment
+    environments; examples related to Java Naming and Directory Interface (JNDI)
+- id: c6
+  text: from the starting Enterprise Java Beans model (EJB1.0) to the current widespread adoption of EJB
+    3.0 (motivations and evolution guidelines)
+- id: c7
+  text: Persistency
+- id: c8
+  text: Interactions with data
+- id: c9
+  text: Session-oriented and message-oriented components
+- id: c10
+  text: Interceptors
+- id: c11
+  text: Transactions
+- id: c12
+  text: Examples and exercises
+- id: c13
+  text: (integrated with the JBoss application server)
+  items:
+  - id: c13.1
+    text: messaging systems, e.g., Java Messaging System (JMS) and rapid overview of Enterprise Service
+      Bus and Java Business Integration
+  - id: c13.2
+    text: 'towards effective and efficient enterprise models with lightweight containers: the Spring example'
+  - id: c13.3
+    text: Spring and inversion of control
+  - id: c13.4
+    text: Spring and aspect-oriented
+- id: c14
+  text: programming
+  items:
+  - id: c14.1
+    text: transaction management
+  - id: c14.2
+    text: 'persistency: evolution of persistency support models in the development of enterprise applications.
+      The examples of JPA and Hibernate.'
+  - id: c14.3
+    text: transparent
+- id: c15
+  text: persistency
+  items:
+  - id: c15.1
+    text: mapping and query
+- id: c16
+  text: support
+  items:
+  - id: c16.1
+    text: metadata support
+  - id: c16.2
+    text: performance
+  - id: c16.3
+    text: 'monitoring, control, and runtime management of application servers and of distributed support
+      frameworks in general: the JMX example'
+  - id: c16.4
+    text: efficiency/effectiveness
+- id: c17
+  text: and performance evaluation
+  items:
+  - id: c17.1
+    text: scalability
+  - id: c17.2
+    text: fault-tolerance
+  - id: c17.3
+    text: reliability
+  - id: c17.4
+    text: clustering and proprietary mechanisms/solutions for clustering in JBoss
+  - id: c17.5
+    text: directions of evolution towards asynchronous models and technologies for high scalability of
+      enterprise servers
+  - id: c17.6
+    text: Framework node.js and asynch event management
+  - id: c17.7
+    text: Function as a Service (FaaS) and supporting frameworks
+  - id: c17.8
+    text: introductory notions about high-performance online stream processing of big data over clustered
+      distributed systems
+  - id: c17.9
+    text: several case studies (also provided via seminars via external companies, added to the regular
+      classes schedule)
+- id: c18
+  text: The course will be associated with a set of practical lab exercises, in which the students will
+    be solicited to perform guided exercise activities but in an autonomous way and in their free time.
+- id: c19
+  text: These activities will be necessary to complete the study of the course and to reach the desired
+    skills; texts and solutions of these ees will be made available at the official course Web site.
+- id: c20
+  text: The set of proposed lab exercises will include
+  items:
+  - id: c20.1
+    text: 1 exercise about EJB in the WildFly application server
+  - id: c20.2
+    text: 1 exercise about messaging and Java Business Integration (JBI)
+  - id: c20.3
+    text: 1 exercise about Spring
+  - id: c20.4
+    text: 1 exercise about JMX
+  - id: c20.5
+    text: 1 exercise about clustering in WildFly
+prerequisites:
+- id: p1
+  text: 'Previous course requirements: no one (but some contents from the BSc courses of Computer Networks
+    T and Web Technologies T will be useful in some classes)'
+bibliography: |-
+  All the teachning material (presentation slides, discussed
+  exercises with solutions, exercise proposals, project examples and
+  proposals) used during the classes will be available for download
+  at Virtuale course pages.
+
+  As a possible useful reference to the material used in the previous academic year, please refer also to the already available URL:
+
+  https://virtuale.unibo.it/course/view.php?id=60681
+
+  In addition, there are suggested books useful for deepening
+  several of the topics addressed by the course:
+
+  - A.L. Rubinger, B. Burke, Enterprise JavaBeans
+    3.1, 1st ed., O'Reilly, 2010
+  - D. Ayers et al., Professional Java Server Programming:
+    with Servlets, JavaServer Pages (JSP), XML, Enterprise JavaBeans
+    (EJB), JNDI, CORBA, Jini and Javaspaces, 1st edition,
+    Wrox, 1999
+  - C. Walls, Spring in Action, 3rd ed.,
+    Manning, 2011
+  - C. Bauer, G. King, Java Persistence with
+    Hibernate, Manning, 2006
+  - J.S. Perry, Java Management
+    Extensions, 1° ed., O'Reilly, 2002
+
+  Additional useful online sources of information and of
+  teaching material:
+
+  - SUN tutorial, http://java.sun.com/j2ee/overview.html
+  - http://lia.deis.unibo.it/Courses/sd1213-info/lucidi/JavaEETutorial.pdf (http://lia.deis.unibo.it/Courses/sd1213-info/lucidi/JavaEETutorial.pdf)EJB tutorial by IBM (http://www.ibm.com/developerworks/java/tutorials/j-gsejb/)
+  - Uso di Eclipse IDE e JBoss (http://en.wikibooks.org/wiki/J2EE_Programming/IDE/Eclipse)
+removed: []

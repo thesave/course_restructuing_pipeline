@@ -1,0 +1,137 @@
+format: evidence/1
+course: '91259'
+title: Architecture and Platforms for Artificial Intelligence
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-15'
+    to: '2025-11-24'
+  teaching_ids:
+  - '446607'
+  teachers:
+  - name: Benini, Luca
+    affiliation: dei
+    role:
+    - full professor
+  - name: Marzolla, Moreno
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Nadalini, Davide
+    affiliation: dei
+    role:
+    - phd student
+  programmes:
+  - code: '6700'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '9063'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '446607'
+  laboratory:
+    value: true
+    evidence:
+    - Both Module 1 and Module 2 include hands-on sessions requiring a student laptop.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student has a deep understanding of the requirements of machine-learning
+    workloads for computing systems, has an understanding of the main architectures for accelerating machine
+    learning workloads and heterogeneous architectures for embedded machine learning, and of the most
+    popular platforms made available by cloud providers to specifically support machine/deep learning
+    applications.
+contents:
+- id: c1
+  text: Module 1
+  heading: true
+  items:
+  - id: c1.1
+    text: Introduction to parallel programming.
+  - id: c1.2
+    text: 'Parallel programming patterns: embarrassingly parallel, decomposition, master/worker, scan,
+      reduce.'
+  - id: c1.3
+    text: 'Shared-Memory programming with OpenMP. OpenMP programming model: the “omp parallel” construct,
+      scoping constructs and other work-sharing constructs.'
+  - id: c1.4
+    text: 'GPU programming with CUDA. CUDA architecture and memory hierarchy. The CUDA programming model:
+      threads, groups, grid. Synchronization primitives and shared memory.'
+- id: c2
+  text: Module 2
+  heading: true
+  items:
+  - id: c2.1
+    text: From ML to DNNs - a computational perspective
+    items:
+    - id: c2.1.1
+      text: Introduction to key computational kernels (dot-product, matrix multiply...).
+    - id: c2.1.2
+      text: Inference vs training - workload analysis characterization.
+    - id: c2.1.3
+      text: 'The NN computational zoo: DNNs, CNNs, RNNs, Attention-based Networks, State Based networks.'
+  - id: c2.2
+    text: Running ML workloads on programmable processors
+    items:
+    - id: c2.2.1
+      text: recap of processor instruction set architecture (ISA) with focus on data processing.
+    - id: c2.2.2
+      text: 'improving processor ISAs for ML: RISC-V and ARM use cases.'
+    - id: c2.2.3
+      text: fundamentals of parallel processor architecture and parallelization of ML workloads.
+  - id: c2.3
+    text: Algorithmic optimizations for ML
+    items:
+    - id: c2.3.1
+      text: Key bottlenecks taxonomy of optimization techniques.
+    - id: c2.3.2
+      text: Algorithmic techniques (e.g. Strassen, Winograd, FFT).
+    - id: c2.3.3
+      text: 'Model distillation: efficient NN models - depthwise convolutions, inverse bottleneck, optimized
+        attention, introduction to Neural Architectural Search.'
+    - id: c2.3.4
+      text: 'Quantization and sparsity: scalar, block, vector.'
+prerequisites:
+- id: p1
+  text: 'Prerequisites for module 1: good knowledge of C programming in the Unix/Linux environment, and
+    basic understanding of computer architectures and concurrency theory.'
+- id: p2
+  text: 'Prerequisites for module 2: Programming in C, basic computer architecture concepts, basics linear
+    algebra and vector calculu.'
+bibliography: |-
+  Suggested readings for Module 1: selected parts from the following books:
+
+  - Peter Pacheco, Matthew Malensek, An Introduction to Parallel Programming [https://shop.elsevier.com/books/an-introduction-to-parallel-programming/pacheco/978-0-12-804605-0], 2nd ed., Morgan Kaufmann, 2021, ISBN 9780128046050.
+  - CUDA C programming guide, NVidia Corporation, freely available at http://docs.nvidia.com/cuda/cuda-c-programming-guide/
+
+  Suggested readings for Module 2: selected parts from the following books:
+
+  - Dive into Deep Learning (online: d2l.ai).
+  - Efficient Processing of Deep Neural Networks (online: https://link.springer.com/book/10.1007/978-3-031-01766-7 ).
+  - Machine Learning Systems (online: mlsysbook.ai).
+removed: []

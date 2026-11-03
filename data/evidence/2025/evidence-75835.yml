@@ -1,0 +1,139 @@
+format: evidence/1
+course: '75835'
+title: Web Technologies
+sources:
+  outcomes: it
+  contents: it
+  bibliography: it
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italiano
+  teaching_modes:
+  - Lezioni in presenza (totalmente o parzialmente)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-15'
+    to: '2025-12-03'
+  teaching_ids:
+  - '392954'
+  teachers:
+  - name: Di Iorio, Angelo
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Paolini, Lorenzo
+    affiliation: disi
+    role:
+    - phd student
+  - name: Pedretti, Carlo Teo
+    affiliation: disi
+    role:
+    - phd student
+  programmes:
+  - code: '5975'
+    name: Communication Sciences
+    department: dar
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6601'
+    name: Humanities
+    department: ficlit
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6620'
+    name: Communication Sciences
+    department: dar
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6665'
+    name: Philosophy
+    department: filo
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8014'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8850'
+    name: Humanities
+    department: ficlit
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '9216'
+    name: Philosophy
+    department: filo
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '392954'
+  laboratory:
+    value: true
+    evidence:
+    - Lezioni ed esercitazioni
+    - Il corso prevede sia lezioni frontali che esercitazioni in aula sugli argomenti trattati, condotte
+      sia dal docente che dal tutor.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Al termine del corso, lo studente conosce le tecnologie più importanti utilizzate in ambito World
+    Wide Web. È in grado di scrivere documenti nei linguaggi del Web, di curarne l'aspetto visivo, di
+    verificarne la correttezza e universalità, e di realizzare semplici applicazioni distribuite sul Web.
+contents:
+- id: c1
+  text: Il corso si occupa delle principali tecnologie Web, con enfasi sia su aspetti teorici che pratici.
+- id: c2
+  text: Le lezioni sono divise in due parti, di cui la seconda opzionale per gli studenti che mutuano
+    il corso, per le lauree in Lettere, Scienze della Comunicazione e Filosofia.
+- id: c3
+  text: 'Parte I: Tecnologie Web di base'
+  heading: true
+  items:
+  - id: c3.1
+    text: Princìpi ed evoluazione del World Wide Web, organismi e processi di standardizzazione
+  - id: c3.2
+    text: 'Protocolli e Architettura delle applicazioni: URI, HTTP, REST, progettazione API'
+  - id: c3.3
+    text: Linguaggi di markup e XML
+  - id: c3.4
+    text: HTML
+  - id: c3.5
+    text: CSS
+  - id: c3.6
+    text: Javascript e Ajax
+- id: c4
+  text: 'Parte II: Sviluppo backend e framework client-side'
+  heading: true
+  items:
+  - id: c4.1
+    text: 'Tecnologie server-side per applicazioni web: NodeJs e e framework server-side'
+  - id: c4.2
+    text: 'Introduzione ai framework client-side: Vue, React, Angular'
+prerequisites: []
+bibliography: |-
+  Vista la rapida evoluzione della materia, non viene usato un unico testo di riferimento.
+
+  Tutto il materiale didattico sarà reso disponibile sulla piattaforma Virtuale, inclusi riferimenti a materiale on-line di approfondimento e risorse utili per esercitarsi.
+removed: []

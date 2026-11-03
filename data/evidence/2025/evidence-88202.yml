@@ -1,0 +1,108 @@
+format: evidence/1
+course: '88202'
+title: Machine Learning
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-17'
+    to: '2025-12-17'
+  teaching_ids:
+  - '503880'
+  teachers:
+  - name: Di Domenico, Nicolò
+    affiliation: disi
+    role:
+    - phd student
+  - name: Maltoni, Davide
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '6715'
+    name: Electronics and Information Engineering
+    department: dei
+    campus: Cesena
+    cycle: second
+    languages:
+    - italian
+  - code: '8770'
+    name: Electronics and Telecommunications Engineering for Energy
+    department: dei
+    campus: Cesena
+    cycle: second
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '503880'
+  laboratory:
+    value: true
+    evidence:
+    - Lectures + Practical (guided) sessions in lab.
+    - 'Lab assignments and solutions at:'
+    - 'Note: As concerns the teaching methods of this course unit, all students must attend Module 1,
+      2 (https://www.unibo.it/en/services-and-opportunities/health-and-assistance/health-and-safety/online-course-on-health-and-safety-in-study-and-internship-areas)
+      on Health and Safety online'
+  equivalent_courses: []
+  same_syllabus_as:
+  - '81610'
+outcomes:
+- id: o1
+  text: Providing the student with the concepts necessary
+  items:
+  - id: o1.1
+    text: to understand and apply machine learning approaches;
+  - id: o1.2
+    text: implement classification, regression and clustering algorithms to solve problems in different
+      applicative fields; use neural networks and other deep learning techniques.
+contents:
+- id: c1
+  text: Artificial Intelligence and Machine Learning
+- id: c2
+  text: Supervided and Unsupervised Learning
+- id: c3
+  text: Classification and Regression
+- id: c4
+  text: 'Classifiers: Bayes, k-Nearest Neighbor, Support Vector Machines, Multiclassifiers'
+- id: c5
+  text: Clustering (K-means, EM) and Dimensionality Reduction (PCA, DA)
+- id: c6
+  text: Neural Networks (NN)
+- id: c7
+  text: Introduction to Deep Learning
+- id: c8
+  text: Convolutional Neural Networks (CNN)
+- id: c9
+  text: Recurrent Neural Networks (RNN)
+- id: c10
+  text: Transformers and Large Language Models (LLM)
+- id: c11
+  text: Reinforcement Learning (RL)
+prerequisites: []
+bibliography: |-
+  Teacher's slides at:
+
+  http://bias.csr.unibo.it/maltoni/ml
+removed: []

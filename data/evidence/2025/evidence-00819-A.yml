@@ -1,0 +1,95 @@
+format: evidence/1
+course: 00819-A
+title: Programming
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 9
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-17'
+    to: '2025-12-12'
+  teaching_ids:
+  - '498813'
+  teachers:
+  - name: Bedei, Andrea
+    affiliation: disi
+    role:
+    - phd student
+  - name: Girau, Roberto
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Salomoni, Paola
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '6007'
+    name: Computer Systems Technologies
+    department: disi
+    campus: Cesena, Imola
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '498813'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student has a basic understanding of programming using the C language,
+    both from a conceptual and practical perspective, for the development of medium-complexity software
+    applications.
+- id: o2
+  text: 'In particular:'
+- id: o3
+  text: they possess the methodological foundations for the analysis and development of software systems
+    according to the imperative paradigm
+- id: o4
+  text: they are familiar with programming techniques, both conceptually and practically, and are able
+    to apply them to real-world cases of medium complexity
+- id: o5
+  text: they know and can use fundamental data structures and related algorithms
+- id: o6
+  text: they have fundamental knowledge of the functional aspects of modern object-oriented languages.
+contents:
+- id: c1
+  text: The Programming course is designed to provide strong competence in programming.
+- id: c2
+  text: The course begins with an introduction to the algorithmic approach to problem-solving using computers.
+- id: c3
+  text: Then, using the C programming language — which is explained in detail without assuming any prior
+    knowledge — the course analyzes several fundamental problems and some of the main and most interesting
+    solution algorithms.
+- id: c4
+  text: Topics covered include memory organization in a computer (addresses, words, pointers), data types,
+    data structures, the structure of a program, inclusion of headers and libraries, pointers and pointer
+    arithmetic, arrays and matrices and their memory representation, complex data structures, library
+    functions and user-defined functions, parameter passing, recursive functions, input/output functions,
+    file-handling functions, functions for direct memory management, and string functions.
+- id: c5
+  text: The course also covers algorithm design and analysis.
+prerequisites:
+- id: p1
+  text: No prior knowledge of computer science is required.
+bibliography: |-
+  Brian W. Kernighan, Dennis M. Ritchie. Linguaggio C. Jackson libri.
+
+  Copies of the presentations used in class and notes provided by the lecturerers.
+removed: []

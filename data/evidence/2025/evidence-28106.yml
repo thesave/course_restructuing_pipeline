@@ -1,0 +1,140 @@
+format: evidence/1
+course: '28106'
+title: Computer Science for Environmental Sciences
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Ravenna
+  schedules:
+  - from: '2026-02-24'
+    to: '2026-05-05'
+  teaching_ids:
+  - '524407'
+  teachers:
+  - name: Russo, Stefano
+    affiliation: dimec
+    role:
+    - adjunct professor
+  programmes:
+  - code: '6642'
+    name: Environmental Sciences
+    department: bigea
+    campus: Ravenna
+    cycle: first
+    languages:
+    - italian
+  - code: '8011'
+    name: Environmental Sciences
+    department: bigea
+    campus: Ravenna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - Laboratory exercises
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The student will learn computer skills, with the ability to apply them to data processing and
+    presentation in environmental sciences.
+- id: o2
+  text: In particular, the student will learn concepts about computer architecture, main computer tools,
+    Internet and databases.
+- id: o3
+  text: The student will be learn also some rudiments of programming.
+contents:
+- id: c1
+  text: Module 1 (in person)
+  heading: true
+  items:
+  - id: c1.1
+    text: Introduction to spreadsheets for environmental data
+  - id: c1.2
+    text: Organizing data in Excel
+  - id: c1.3
+    text: Cleaning and preparing data
+  - id: c1.4
+    text: Automation in Excel with VBA
+  - id: c1.5
+    text: VBA macros for data cleaning
+  - id: c1.6
+    text: Practical examples of macros for environmental datasets
+  - id: c1.7
+    text: How to use an AI system to generate VBA macros
+  - id: c1.8
+    text: Inserting generated macros into Excel
+  - id: c1.9
+    text: Verifying and debugging macros
+  - id: c1.10
+    text: Best practices
+- id: c2
+  text: Module 2 (E-learning)
+  heading: true
+  items:
+  - id: c2.1
+    text: Personal productivity applications
+    items:
+    - id: c2.1.1
+      text: Spreadsheets
+    - id: c2.1.2
+      text: Slide presentations
+  - id: c2.2
+    text: Computer networks
+    items:
+    - id: c2.2.1
+      text: Computer networks
+    - id: c2.2.2
+      text: The Internet
+    - id: c2.2.3
+      text: Protocols
+  - id: c2.3
+    text: Markup and HTML
+    items:
+    - id: c2.3.1
+      text: Hypertext
+    - id: c2.3.2
+      text: Markup classification
+    - id: c2.3.3
+      text: Web 1.0 and Web 2.0
+    - id: c2.3.4
+      text: HTML and CSS
+    - id: c2.3.5
+      text: Social networks
+    - id: c2.3.6
+      text: Collaborative tools
+  - id: c2.4
+    text: Databases
+    items:
+    - id: c2.4.1
+      text: I database relazionali
+    - id: c2.4.2
+      text: Le chiavi
+      language: it
+    - id: c2.4.3
+      text: I linguaggi di interrogazione (SQL)
+      language: it
+    - id: c2.4.4
+      text: Creazione di tabelle e query
+      language: it
+prerequisites: []
+bibliography: |-
+  The reference texts will be communicated at the beginning of the course.
+  Teaching materials will be made available online.
+removed: []

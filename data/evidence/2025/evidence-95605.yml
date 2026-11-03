@@ -1,0 +1,90 @@
+format: evidence/1
+course: '95605'
+title: Web and Mobile Systems
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-17'
+    to: '2025-12-17'
+  teaching_ids:
+  - '517116'
+  teachers:
+  - name: Mirri, Silvia
+    affiliation: disi
+    role:
+    - full professor
+  - name: Prandi, Catia
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5815'
+    name: Digital Transformation Management
+    department: disi
+    campus: Cesena, Forlì
+    cycle: second
+    languages:
+    - english
+  - code: '6823'
+    name: Digital Transformation Management
+    department: disi
+    campus: Cesena, Forlì
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '517116'
+  laboratory:
+    value: true
+    evidence:
+    - Lectures and practical activities in lab.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student knows the most important technologies used in the World
+    Wide Web and in the mobile context.
+- id: o2
+  text: The student knows platforms and systems that can be used to design and develop Web sites and applications.
+- id: o3
+  text: The students is able to create web documents and simple distributed web and mobile applications,
+    defining a friendly user interface on the basis of the human computer interaction methodologies.
+contents:
+- id: c1
+  text: The course is composed of two modules, one related to the web technologies (such as HTML, CSS);
+    the other focuses on the mobile ecosystem.
+- id: c2
+  text: Main contents of this class are the following ones
+  items:
+  - id: c2.1
+    text: Evolution of the web and mobile technologies
+  - id: c2.2
+    text: Introduction to the main mobile operating systems
+  - id: c2.3
+    text: Web and mobile architectures
+  - id: c2.4
+    text: 'Web standards and technologies: HTTP, URI, HTML5, CSS3'
+  - id: c2.5
+    text: Frameworks, platforms and tool for Web and mobile development
+  - id: c2.6
+    text: User interface and interaction for the Web and for the mobile ecosystem.
+prerequisites: []
+bibliography: Due to the rapid evolution of the topics of the course, there is no textbook available to
+  cover the whole discipline. Students therefore access the slides of the course and all the didactical
+  materials on the on Virtuale, the official platform of the University of Bologna.
+removed: []

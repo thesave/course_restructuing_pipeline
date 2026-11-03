@@ -1,0 +1,105 @@
+format: evidence/1
+course: B8905
+title: Foundations of Programming
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-04-13'
+    to: '2026-05-21'
+  teaching_ids:
+  - '543578'
+  teachers:
+  - name: Garagnani, Massimiliano
+    affiliation: filo
+    role:
+    - associate professor
+  programmes:
+  - code: '6824'
+    name: Semiotics
+    department: filo
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8886'
+    name: Semiotics
+    department: filo
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - The course will consist of two face-to-face lectures a week (2 hours each), complemented by weekly
+      hands-on laboratory sessions (2 hours).
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: 'Students who successfully complete this module will be able to: 1.'
+- id: o2
+  text: Understand basic programming concepts and constructs such as strings numbers, assignments, sequential
+    and selective executions, loops and functions; 2.
+- id: o3
+  text: Write short programs that use the fundamental program constructs including standard conditional
+    and iterative control structures; 3.
+- id: o4
+  text: Write simple programs involving the drawing of basic geometric shapes; 4.
+- id: o5
+  text: Write basic animation programs; 5.
+- id: o6
+  text: Understand and explain the basic ideas of programming, including variables, basic types and control
+    structures; 6.
+- id: o7
+  text: Design and implement small programs that use simple control structures, including conditionals
+    and loops; 7.
+- id: o8
+  text: Implement basic, but complete interactive programs
+contents:
+- id: c1
+  text: The course aims to provide students with a basic understanding of computer programming.
+- id: c2
+  text: Upon completion, students will have the skills necessary to design, develop, and test a small
+    software system using a high-level, object-oriented programming language (i.e., Python).
+- id: c3
+  text: fundamental concepts of digital information processing (including integers and floating-point
+    numbers, strings, assignments, variables, libraries, lists and files);
+- id: c4
+  text: basic programming constructs, such as sequential and selective execution, loops, user-defined
+    functions and classes;
+- id: c5
+  text: The "for", "while", "if-else", "elif" Python statements; built-in functions (such as "range()",
+    "input()", and type-conversion functions); modules & turtles; lists and objects;
+- id: c6
+  text: fundamental principles and techniques of information processing (including conditional and iterative
+    control, string manipulation).
+- id: c7
+  text: Students who successfully complete this course will be able to design and implement small (but
+    complete) interactive programs that apply basic control structures and object-oriented programming
+    concepts to solve a problem computationally.
+prerequisites: []
+bibliography: |-
+  Allen B. Downey: “Think Python: How to think like a Computer Scientist”, Green Tea Press, 2015 (Second Ed.).
+
+  John Zelle: “Python programming: an introduction to Computer Science”. Franklin, Beedle & Associates Inc., 2010 (Second Ed.)
+
+  Charles Dierbach: “Introduction to Computer Science Using Python: a computational problem-solving focus”. John Wiley & Sons, 2013
+removed: []

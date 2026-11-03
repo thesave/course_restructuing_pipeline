@@ -1,0 +1,74 @@
+format: evidence/1
+course: B0061
+title: Computer Methods for Digital Transformation
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-05-15'
+  teaching_ids:
+  - '518190'
+  teachers:
+  - name: Di Iorio, Angelo
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Lodi, Giorgia
+    affiliation: sps
+    role:
+    - adjunct professor
+  programmes:
+  - code: '5889'
+    name: Digital Innovation Policies and Governance
+    department: sps
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6777'
+    name: Digital Innovation Policies and Governance
+    department: sps
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '518190'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The course aims to provide fundamental knowledge on the main tools and methodologies for planning,
+    developing, and evaluating software-based digital transformations, also using a very practical learning
+    by doing approach with hands-on exercises in class.
+- id: o2
+  text: At the end of the course the student will be able to evaluate and apply the principles that guide
+    the social, collaborative development process of software services and products for the digital transformation,
+    in particular is able to define and analyze the requirements of a new service or digital product and
+    to collaborate in an IT-type development process.
+contents:
+- id: c1
+  text: This course is in Italian.
+- id: c2
+  text: See the Italian description
+prerequisites: []
+bibliography: Kelly The art of agile product ownership, APress 2019
+removed: []

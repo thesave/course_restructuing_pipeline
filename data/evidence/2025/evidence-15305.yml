@@ -1,0 +1,108 @@
+format: evidence/1
+course: '15305'
+title: Foundations of Informatics A
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-04-22'
+  teaching_ids:
+  - '518106'
+  teachers:
+  - name: Casadei, Roberto
+    affiliation: disi
+    role:
+    - rtdb
+  - name: Domini, Davide
+    affiliation: disi
+    role:
+    - phd student
+  - name: Micelli, Leonardo
+    affiliation: dei
+    role:
+    - teaching tutor
+  - name: Montagna, Sara
+    affiliation: unibo
+    role:
+    - external associate professor
+  programmes:
+  - code: '5834'
+    name: Electronics Engineering
+    department: dei
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6669'
+    name: Biomedical Engineering
+    department: dei
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6670'
+    name: Electronics Engineering
+    department: dei
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '518106'
+  laboratory:
+    value: true
+    evidence:
+    - Teaching is carried out through lectures accompanied by practical exercises in the laboratory, structured
+      according to active learning approaches.
+  equivalent_courses: []
+  same_syllabus_as:
+  - 09730
+outcomes:
+- id: o1
+  text: 'At the end of the course, the student will be acquainted with the basics of information representation,
+    computation, algorithms, and computer programming (in particular: imperative, structured programming).'
+- id: o2
+  text: The student will be able to design and implement algorithms in a programming language.
+contents:
+- id: c1
+  text: 'Introduction to informatics: an overview of the field.'
+- id: c2
+  text: 'Basics of computer architecture: Von Neuman architecture; main components of modern computers;
+    software levels.'
+- id: c3
+  text: 'Representation of information: binary code; representation of numeric information (two''s complement,
+    floating-point representation); representation of non-numeric information.'
+- id: c4
+  text: 'Introduction to algorithms, data structures, and programming: definition of algorithm; examples
+    of algorithms; fundamental data structures; notations for representing algorithms (pseudo-code, flow
+    diagrams); programming languages.'
+- id: c5
+  text: 'The C programming language: fundamental constructs of the language: types, values, operators,
+    expressions, functions, control flow structures, cycles; structured programming; iteration and recursion;
+    arrays e pointers; algorithms on arrays (reverse, ordering, search); strings of characters.'
+prerequisites: []
+bibliography: |-
+  Suggested textbooks:
+
+  - Paul J. Deitel, Harvey M. Deitel, "Il linguaggio C: fondamenti e tecniche di programmazione", 9/Ed, Pearson, ISBN 978-8891906236 (ISBN e-book: 978-8891906243)
+  - Brookshear, J. Glenn. Computer science: an overview. Boston: Addison-Wesley, 2012.
+
+  For further topics on the C programming language:
+
+  - Brian W. Kernighan and Dennis M. Ritchie, "The C Programming Language, Second Edition", Prentice Hall, Inc., 1988. ISBN 0-13-110362-8 (paperback), 0-13-110370-9 (hardback).
+removed: []

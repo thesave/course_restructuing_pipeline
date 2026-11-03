@@ -1,0 +1,144 @@
+format: evidence/1
+course: '91411'
+title: Intelligent Robotic Systems
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-18'
+    to: '2026-05-29'
+  teaching_ids:
+  - '447106'
+  teachers:
+  - name: Roli, Andrea
+    affiliation: disi
+    role:
+    - researcher
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '447106'
+  laboratory:
+    value: true
+    evidence:
+    - The course is composed of class lessons and lab activities.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, students have acquired knowledge and competencies for designing a system
+    composed of one or more robots (here, we call "robot" an autonomous system which exists in the physical
+    world, can sense its environment and can act on it to achieve some goals).
+- id: o2
+  text: In particular, students know the main models, methods, architectures and tools for programming
+    robots equipped with nontrivial computational and cognitive capabilities.
+contents:
+- id: c1
+  text: Introduction to robotics
+  items:
+  - id: c1.1
+    text: Brief history of robotics
+  - id: c1.2
+    text: Notions of robot and its behavior in a physical environment
+  - id: c1.3
+    text: Main issues in intelligent robotic systems design
+- id: c2
+  text: Behavior-based robotics
+  items:
+  - id: c2.1
+    text: Overview of main paradigms for coordinating behaviors
+  - id: c2.2
+    text: The Subsumption Architecture
+  - id: c2.3
+    text: Motor schemas
+  - id: c2.4
+    text: Fuzzy logic and fuzzy systems
+  - id: c2.5
+    text: Behavior trees
+  - id: c2.6
+    text: 'Experimental evaluation and parameter tuning of control software for robots: practical guidelines'
+  - id: c2.7
+    text: Swarm robotics
+- id: c3
+  text: Robot adaptation and learning
+  items:
+  - id: c3.1
+    text: Artificial evolution and evolutionary robotics
+  - id: c3.2
+    text: Automatic design of robot programs
+  - id: c3.3
+    text: Associative learning
+  - id: c3.4
+    text: Reinforcement learning
+  - id: c3.5
+    text: Value-based learning and intrinsic motivation
+- id: c4
+  text: Deliberative control
+  items:
+  - id: c4.1
+    text: Informed search algorithms. A* and its variants for path planning problems
+  - id: c4.2
+    text: 'Robot planning: definitions, principles, and main approaches'
+  - id: c4.3
+    text: Navigation problems and main solution approaches
+- id: c5
+  text: Lab activitiesExperiments in simulation and with physical robots (Thymio) with the aim of experiencing
+    with the various kinds of control and testing the knowledge acquired.
+prerequisites: []
+bibliography: |-
+  Course textbooks:
+
+  - S. Nolfi, "Behavioral and Cognitive Robotics - An adaptive perspective", CNR-ISTC, 2021. Available for download: https://bacrobotics.com/
+  - R. Pfeifer and C. Scheier, "Understanding intelligence", The MIT Press, 1999.
+
+  Additional books:
+
+  - R. Pfeifer and J. Bongard, "How the body shapes the way we think", The MIT Press, 2007.
+  - M. Mataric, "The Robotic Primer", The MIT Press, 2007.
+  - U. Nehmzow, Robot Behaviour: Design, Description, Analysis and Modelling, Springer, 2009.
+
+  Papers and further teaching matters are available from the course website.
+removed: []

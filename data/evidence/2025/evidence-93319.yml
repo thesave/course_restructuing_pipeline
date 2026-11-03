@@ -1,0 +1,106 @@
+format: evidence/1
+course: '93319'
+title: INTRODUZIONE ALL'APPRENDIMENTO AUTOMATICO
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-25'
+    to: '2025-12-19'
+  teaching_ids:
+  - '455112'
+  teachers:
+  - name: Asperti, Andrea
+    affiliation: disi
+    role:
+    - full professor
+  - name: Zandoli, Silvia
+    affiliation: disi
+    role:
+    - phd student
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '455112'
+  laboratory:
+    value: true
+    evidence:
+    - Supplementary lab sessions are also planned, with the support of teaching assistants.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: 'During the course, the student will be introduced to the complex themes pertaining to the simulation
+    of intelligent behavior by means of machines, with practical experimentation of basic machine learning
+    techniques for different tasks: supervised, unsupervised, with reinforcement.'
+- id: o2
+  text: The course will also provide rudiments of image processing, since images will be extensively used
+    as experimental test bench for the aforementioned learning techniques.
+contents:
+- id: c1
+  text: 'The course is essentially structured in two parts: one dedicated to traditional Machine Learning
+    techniques, and the other focused on an introduction to neural networks and deep learning.'
+- id: c2
+  text: In the first part, the goal is to highlight the typical approach of machine learning, centered
+    on defining a parametric class of models, formulating a loss function to compare them, and optimizing
+    the parameters to find the best model.
+- id: c3
+  text: Emphasis will be placed on the importance of the probabilistic approach and on the distinction
+    between discriminative and generative models.
+- id: c4
+  text: Key concepts in the field will be introduced, such as entropy, likelihood, and the gradient descent
+    technique.
+- id: c5
+  text: In the second part of the course, neural networks will be introduced, along with the notion of
+    layers and the important case of convolutional networks.
+- id: c6
+  text: Some simple models will be described and their practical application will be shown on basic problems
+    of image classification and transformation.
+prerequisites: []
+bibliography: |-
+  Suggested readings
+
+  - FIRST PART: Mathematics for Machine Learning (http://mml-book.github.io). by Deisenroth, Faisal, and Ong. Free PDF from Cambridge University Press
+  - SECOND PART: Dive into Deep Learning (http://d2l.ai) by Zhang et al. (D2L). Free Online Book with several notebooks.
+removed: []

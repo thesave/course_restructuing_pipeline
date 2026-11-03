@@ -1,0 +1,133 @@
+format: evidence/1
+course: '99195'
+title: Cyber-Physical Systems Programming M
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-17'
+    to: '2025-12-19'
+  teaching_ids:
+  - '481265'
+  - '514421'
+  teachers:
+  - name: Acquaviva, Andrea
+    affiliation: dei
+    role:
+    - full professor
+  - name: Barchi, Francesco
+    affiliation: dei
+    role:
+    - rtda
+  programmes:
+  - code: 0934
+    name: Electronic Engineering
+    department: dei
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '6671'
+    name: Automation Engineering
+    department: dei
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6711'
+    name: Automation Engineering
+    department: dei
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '6716'
+    name: Electronic Engineering
+    department: dei
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8891'
+    name: Automation Engineering
+    department: dei
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '9217'
+    name: Automation Engineering
+    department: dei
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - The course consists of theoretical lessons and guided laboratories.
+    - In the theoretical lessons, the main concepts will be presented and then addressed practically using
+      prototype boards and drones in the laboratory, which will be used as examples of CPS.
+    - The laboratories will be guided by the instructor, and students will be provided with hardware to
+      gain programming experience.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The course provides the student with a basic knowledge of software architectures as well as the
+    development, programming and design environments for cyber-physical systems, with particular emphasis
+    on the coexistence of control tasks, data stream processing, and IoT communication with real-time
+    and cybersecurity requirements.
+- id: o2
+  text: The student will learn to use compilers, libraries, runtimes and middleware for heterogeneous
+    platforms and architectures, equipped with multicore processors, co-processors and HW and SW accelerators
+    for the processing of data streams from sensors and towards actuators.
+contents:
+- id: c1
+  text: 'Introduction to software development and cross-compilation for cyber-physical systems (CPS):
+    compiler, bootloader, system calls, RTOS, middleware, real-time applications (e.g. controllers, real-time
+    sensor data processing)'
+- id: c2
+  text: 'Embedded firmware development (baremetal programming) for embedded systems: C runtime, call stack,
+    development of drivers'
+- id: c3
+  text: Real-time operating systems (RTOS) for CyberPhysical Systems (e.g. Nuttx, Zephyr, SEL4, PikeOS
+    and automotive RTOSes); RTOS configuration and drivers for CPS (Examples on FreeRTOS and NuttX)
+- id: c4
+  text: Middleware for CPS (microROS, xrce-DDS, DDS)
+- id: c5
+  text: 'Case study: Programming the Crazyflie drone'
+- id: c6
+  text: 'Advanced topics: i) Elements of cybersecurity applied to CPS (Trusted Execution Environments,
+    Trusted Platform Modules for firmware signature/verification and secure communication, control flow
+    integrity); ii) Elements of Artificial Intelligence for autonomous CPS (neural networks and deep reinforcement
+    learning)'
+- id: c7
+  text: 'Laboratory topics: i) Baremetal programming on QEMU emulator; ii) Learning the development environment
+    of FreeRTOS/Crazyflie; iii) Development of a sensor drivers in FreeRTOS/Crazyflie, debugging howto;
+    iv) Development of applications on Crazyflie (e.g. flight controller, autonomous flight)'
+prerequisites: []
+bibliography: |-
+  Teaching materials:
+
+  - slides provided by the teacher
+  - scientific articles provided by the teacher
+  - pointers to specific manuals and websites
+removed: []

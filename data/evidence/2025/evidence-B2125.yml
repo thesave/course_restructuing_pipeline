@@ -1,0 +1,194 @@
+format: evidence/1
+course: B2125
+title: Machine Learning and Data Mining M
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-24'
+    to: '2025-12-17'
+  teaching_ids:
+  - '493396'
+  teachers:
+  - name: Genovese, Alberto
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Gurioli, Andrea
+    affiliation: disi
+    role:
+    - phd student
+  - name: Sartori, Claudio
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6671'
+    name: Automation Engineering
+    department: dei
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6700'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '6711'
+    name: Automation Engineering
+    department: dei
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8891'
+    name: Automation Engineering
+    department: dei
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '9063'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '9217'
+    name: Automation Engineering
+    department: dei
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '493396'
+  laboratory:
+    value: true
+    evidence:
+    - The laboratory activity will be an integral part of the learning process.
+  equivalent_courses: []
+  same_syllabus_as:
+  - '95631'
+outcomes:
+- id: o1
+  text: At the end of the course the student knows and understands
+  items:
+  - id: o1.1
+    text: the motivation and the components of the Data Mining process;
+  - id: o1.2
+    text: the general concepts, technologies and methodologies of Data Warehouse, OLAP and Data Lake,
+      as enabling factors of the Data Mining process;
+  - id: o1.3
+    text: the principles and the most relevant use cases of a wide set of Machine Learning algorithms
+      which are used to extract relevant and actionable information from large amounts of data. At the
+      end of the course the student is able to
+  - id: o1.4
+    text: design the main steps of a Data Mining process - choose the Machine Learning methods best suited
+      for the process - evaluate the quality of the result in order to support strategic and operational
+      decisions.
+contents:
+- id: c1
+  text: Part 1 - Data Mining
+  heading: true
+  items:
+  - id: c1.1
+    text: Introduction to the Data Mining Process
+  - id: c1.2
+    text: Architectures of systems with data mining components
+  - id: c1.3
+    text: Enterprise Data Warehouse
+  - id: c1.4
+    text: Data Lake
+  - id: c1.5
+    text: Case studies
+- id: c2
+  text: Part 2 - Machine Learning
+  heading: true
+  items:
+  - id: c2.1
+    text: 'What is Machine Learning: some history and motivating examples'
+  - id: c2.2
+    text: Theory of learning
+  - id: c2.3
+    text: Supervised vs unsupervised learning
+  - id: c2.4
+    text: Classification and regression
+  - id: c2.5
+    text: Model Selection, validation and presentation of results
+  - id: c2.6
+    text: Regression
+  - id: c2.7
+    text: Classification with linear discrimination, decision trees, Bayesian inference, Support Vector
+      Machines, k-nearest neighbors, logistic regression, random forests, adaboost
+  - id: c2.8
+    text: Ensemble learning, boosting, bagging
+  - id: c2.9
+    text: Association rules and the Apriori algorithm
+  - id: c2.10
+    text: Clustering/segmentation with k-means, dbscan, Expectation Maximization, hierarchical methods,
+      kernel methods
+  - id: c2.11
+    text: Analysis of case studies
+  - id: c2.12
+    text: CRISP-DM methodology
+prerequisites:
+- id: p1
+  text: Fundamentals of programming
+- id: p2
+  text: Fundamentals of calculus and linear algebra
+- id: p3
+  text: Fundamentals of statistics and probabilities
+- id: p4
+  text: Useful some general notion on Data Base Management Systems
+bibliography: |-
+  - Introduction to machine learning / Ethem Alpaydin. - 3. ed. - Cambridge : The MIT Press, 2014. - XXII, 613 p. - link to the online version [https://ebookcentral.proquest.com/lib/unibo/detail.action?docID=3339851]
+  - Scikit-Learn [https://scikit-learn.org/stable/documentation.html ], or Python Data Science Handbook [https://jakevdp.github.io/PythonDataScienceHandbook/]
+  - Shearer C., The CRISP-DM model: the new blueprint for data mining, J Data Warehousing (2000); 5:13—22.
+removed: []

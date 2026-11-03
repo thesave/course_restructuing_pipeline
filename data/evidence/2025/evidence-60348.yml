@@ -1,0 +1,144 @@
+format: evidence/1
+course: '60348'
+title: Informatics
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 10
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-09'
+    to: '2026-05-14'
+  teaching_ids:
+  - '529124'
+  teachers:
+  - name: Remoli, Gloria
+    affiliation: stat
+    role:
+    - phd student
+  - name: Sartori, Claudio
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '6661'
+    name: Statistical Sciences
+    department: stat
+    campus: Bologna
+    cycle: first
+    languages:
+    - english
+    - italian
+  - code: '6810'
+    name: Statistical Sciences
+    department: stat
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '8873'
+    name: Statistical Sciences
+    department: stat
+    campus: Bologna
+    cycle: first
+    languages:
+    - english
+    - italian
+  - code: '9222'
+    name: Statistical Sciences
+    department: stat
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: true
+    disi_teaching_ids:
+    - '529124'
+  laboratory:
+    value: true
+    evidence:
+    - Laboratory activity is designed
+    - You can find information on following the course in e-learning mode looking up the “Health and safety
+      mandatory training” at “Studying” section of your programme website.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The main objectives of the course are to provide
+  items:
+  - id: o1.1
+    text: general knowledge and understanding of the Information and Communication Technologies, their
+      concepts and terminology
+  - id: o1.2
+    text: good understanding of the main concepts of computer programming and of the structure of algorithms,
+      including the elements of computational complexity
+  - id: o1.3
+    text: ability to write the solution to a problem in terms of algorithm, with special reference to
+      simple statistical computations
+  - id: o1.4
+    text: good understanding of the R language, including its data types and the language constructs for
+      structured programming
+  - id: o1.5
+    text: ability to translate an algorithm into an R program.
+contents:
+- id: c1
+  text: Hardware, software, description of different computer types.
+- id: c2
+  text: Architecture of a personal computer; central processing unit, input and output devices, mass memories,
+    main memories, memory sizes, performances of a computer.
+- id: c3
+  text: Types of software.
+- id: c4
+  text: Operating system and application programs.
+- id: c5
+  text: Principles of operating systems from the user point of view.
+- id: c6
+  text: Programming environments.
+- id: c7
+  text: Local and wide area networks.
+- id: c8
+  text: Networking.
+- id: c9
+  text: E-mail, internet and web access.
+- id: c10
+  text: Data security.
+- id: c11
+  text: 'Basics of programming: definition and design of an algorithm, data types.'
+- id: c12
+  text: Data types in R.
+- id: c13
+  text: Structured programming, sequence, iteration, choice; procedures and functions.
+- id: c14
+  text: Structured programming in R.
+- id: c15
+  text: Generation and usage of random values in R.
+- id: c16
+  text: Design of programs.
+- id: c17
+  text: Implementation and test of programs with the R language.
+- id: c18
+  text: 'Laboratory activity: programming with the R language.'
+prerequisites: []
+bibliography: |-
+  W. John Braun and Duncan J. Murdoch, A First Course in
+  Statistical Programming with R, Cambridge University Press, (editions from 2007 are all valid)
+
+  ICDL Computer Essentials (syllabus (https://icdl.org/workforce/computer-essentials/))
+
+  - In English: many books available, e.g. ICDL Plus Computer Essentials (https://www.amazon.com/gp/product/B08RDZ6YCK?ref_=dbs_p_pwh_rwt_anx_cl_0&storeType=ebooks)
+
+  ICDL Online Essentials (syllabus (https://icdl.org/workforce/online-essentials/))
+
+  - In English: many books available, e.g. ICDL plus Online Essentials (https://www.amazon.com/gp/product/B08RDWNDXT?ref_=dbs_p_pwh_rwt_anx_cl_1&storeType=ebooks) (English Edition)
+removed: []

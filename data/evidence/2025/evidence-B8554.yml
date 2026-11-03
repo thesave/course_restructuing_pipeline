@@ -1,0 +1,169 @@
+format: evidence/1
+course: B8554
+title: SISTEMI SOFTWARE A OGGETTI T
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 12
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-06-04'
+  teaching_ids:
+  - '543011'
+  - '543012'
+  teachers:
+  - name: Arlotti, Lorenzo
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Denti, Enrico
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Doti, Gabriele
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Leonetti, Nicola
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Molesini, Ambra
+    affiliation: disi
+    role:
+    - adjunct professor
+  - name: Proietti, Michele
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Zoccadelli, Lorenzo
+    affiliation: disi
+    role:
+    - teaching tutor
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '543011'
+    - '543012'
+  laboratory:
+    value: true
+    evidence:
+    - MS Teams is also exploited for blended learning, and to support team work during lab hours.
+    - 'Generally speaking, the more theorectical module is strictly integrated with the lab module, which
+      is mainly devoted to lab experiments and exercises, both in groups and as individual activities:
+      each week, a task is assigned to be completed during the lab session.'
+    - Due to the relevant lab work expected, this course requires the mandatory previous participation
+      to both 1 & 2 modules about safety at work, as per the Italian law.
+    - Conversely, AI techniques are NEVER allowed during the lab sessions, nor are they allowed during
+      the final examination in any way.
+    - The student will be asked to leave the lab immediately and the exam will be considered as FAILED
+      with no further discussion.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The course aims to provide an in-depth concptual & practical knowedlge about the basics concepts,
+    methodologies, technologies and tools for the design and development of medium-size applications according
+    to the object-oriented paradigm.
+- id: o2
+  text: At the end, the student
+  items:
+  - id: o2.1
+    text: knows the methodological foundations for the analysis and development of object-oriented software
+      applications
+  - id: o2.2
+    text: knows the corresponding techniques in depth both from the conceptual and practical viewpoints
+  - id: o2.3
+    text: is able to apply such knowledge and techniques to medium-size applications using the Java language
+  - id: o2.4
+    text: knows in depth the fundamental data structures and related algorithms
+  - id: o2.5
+    text: has the fundamental notions of functional programming in modern OO-blended languages (Java,
+      Kotlin, Scala, C#)
+  - id: o2.6
+    text: is able to develop simple graphical user interfaces in JavaFX according to the event-driven
+      programming pattern
+- id: o3
+  text: Throughout the course, while the Java language and platform are the main reference (and the only
+    one required for assessment in the final examination), a multi-language approach is adopted when introducing
+    concepts and constructs, presenting the Java approch in comparison with other object-oriented languages
+    such as C#, Scala, Kotlin, so as to provide a broader view.
+contents:
+- id: c1
+  text: Basic concepts of programming languages.
+- id: c2
+  text: Language families -- imperative, functional, logic, and object-oriented languages (5hrs).
+- id: c3
+  text: 'Introduction to Object-oriented software design in a multi-language perspective: singleton objects,
+    abstract data types, classes and objects.'
+- id: c4
+  text: 'Basic concepts of the Java language and architecture: classes, instances, object construction
+    and deletion, inheritance, polymorphism.'
+- id: c5
+  text: Abstract classes, interfaces, multiple inheritance.
+- id: c6
+  text: (30hrs + 12hrs lab)
+- id: c7
+  text: Lambda expressions and functional interfaces.
+- id: c8
+  text: (12hrs + 6hrs lab)
+- id: c9
+  text: Exceptions and exception handling.
+- id: c10
+  text: I/O streams and file access, object serialization.
+- id: c11
+  text: 'Data structures: lists, hashmaps, trees and related algorithms.'
+- id: c12
+  text: (20hrs + 12hrs lab)
+- id: c13
+  text: Introduction functional programming in general and specifically to Java streams.
+- id: c14
+  text: (3rhs)
+- id: c15
+  text: 'Basic elements for GUI construction in Java on the JavaFX platform: event-driven programming,
+    event listeners.'
+- id: c16
+  text: (10hrs + 10hrs lab)
+prerequisites: []
+bibliography: Please see the course's web portal and the course slides.
+removed: []

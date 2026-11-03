@@ -1,0 +1,182 @@
+format: evidence/1
+course: '57828'
+title: Informatics
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 3
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-03-04'
+    to: '2026-05-06'
+  teaching_ids:
+  - '361001'
+  teachers:
+  - name: Russo, Stefano
+    affiliation: dimec
+    role:
+    - adjunct professor
+  programmes:
+  - code: '8487'
+    name: Environment and Workplace Prevention Techniques
+    department: dimec
+    campus: Imola
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, students will be able to
+  items:
+  - id: o1.1
+    text: understand the fundamental components of a computing device (control unit, processing unit,
+      peripherals, memory, etc.);
+  - id: o1.2
+    text: understand the fundamental elements of an operating system (in particular, how Windows is organised);
+  - id: o1.3
+    text: understand and know how to use the main application programmes, in particular word processing,
+      spreadsheets and database processing;
+  - id: o1.4
+    text: know how to solve problems using certain available software;
+  - id: o1.5
+    text: understand the structure of and know how to use the World Wide Web.
+contents:
+- id: c1
+  text: Digtal and information technologies in the profession of Prevention Technician
+- id: c2
+  text: The importance of information and digital technologies for the profession
+- id: c3
+  text: Basic concepts of information technology
+  items:
+  - id: c3.1
+    text: Meaning and implications of the term “digital”
+  - id: c3.2
+    text: Computational thinking
+  - id: c3.3
+    text: The concept of algorithms
+  - id: c3.4
+    text: 'The computer: nature, name, functions'
+  - id: c3.5
+    text: The computer as a general executor of algorithms
+  - id: c3.6
+    text: 'From algorithm to computer programme: principles of programming and programming languages'
+  - id: c3.7
+    text: Visual block programming
+- id: c4
+  text: The hardware and logic components of a computer
+  items:
+  - id: c4.1
+    text: Hardware architecture of a computer
+  - id: c4.2
+    text: Software architecture
+  - id: c4.3
+    text: Life cycle of a programme
+  - id: c4.4
+    text: Types of software
+  - id: c4.5
+    text: Concept of files and file formats
+  - id: c4.6
+    text: The operating system and file management
+  - id: c4.7
+    text: IT security and data protection
+  - id: c4.8
+    text: The relevance of IT for the technical-healthcare sector
+- id: c5
+  text: Windows operating system
+  items:
+  - id: c5.1
+    text: Functions of the operating system
+  - id: c5.2
+    text: File system, hierarchical organisation
+  - id: c5.3
+    text: The Windows file manager
+  - id: c5.4
+    text: Utilities
+- id: c6
+  text: Word processing applied to the professional context
+  items:
+  - id: c6.1
+    text: Document editing
+  - id: c6.2
+    text: Inserting tables, headers, notes, images
+  - id: c6.3
+    text: Text file formats
+  - id: c6.4
+    text: Exporting to PDF or PDF/A
+  - id: c6.5
+    text: Printing and archiving
+- id: c7
+  text: Spreadsheets for data processing and reporting
+  items:
+  - id: c7.1
+    text: Structure and functionality of a spreadsheet
+  - id: c7.2
+    text: Cells, formulas, useful functions
+  - id: c7.3
+    text: Creating tables, charts and reports
+  - id: c7.4
+    text: Filters, sorting, conditional formatting
+  - id: c7.5
+    text: Exporting/importing data in a spreadsheet
+  - id: c7.6
+    text: Printing and archiving
+- id: c8
+  text: Databases and structured archive management
+  items:
+  - id: c8.1
+    text: 'Basic concepts: tables, records, keys'
+  - id: c8.2
+    text: Designing and creating databases for structured data management
+  - id: c8.3
+    text: Importing/exporting data
+- id: c9
+  text: Network, web and cloud services
+  items:
+  - id: c9.1
+    text: Computer networks
+  - id: c9.2
+    text: Client-server model
+  - id: c9.3
+    text: 'Internet: history, founding principles, protocol stacks, applications The World Wide Web'
+  - id: c9.4
+    text: Web applications
+  - id: c9.5
+    text: Browsing the web, using institutional portals,
+  - id: c9.6
+    text: Searching for information online
+  - id: c9.7
+    text: Use of cloud tools for online collaboration and storage
+prerequisites: []
+bibliography: |-
+  - INFORMATICA DI BASE 7/ED di Dennis Curtin, Kim Foley, Kunal Sen, Cathy Morin, Agostino Marengo, Alessandro Pagano - 2021 Mc Grow Hill.
+
+  Alternatively::
+
+  - Informatica di base di Stefano Allegrezza, Edizioni SIMPLE, Macerata, 2009.
+
+  For everyone:
+
+  - Analisi e gestione delle basi di dati di Stefano Allegrezza, Edizioni SIMPLE, Macerata, 2010.
+
+  In addition:
+
+  Italian-language teaching materials made available by the instructor on the University's VIRTUAL platform.
+removed: []

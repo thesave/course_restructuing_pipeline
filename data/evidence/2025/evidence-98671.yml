@@ -1,0 +1,83 @@
+format: evidence/1
+course: '98671'
+title: Business Analytics
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 3
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Forli
+  schedules:
+  - from: '2025-09-18'
+    to: '2025-12-01'
+  teaching_ids:
+  - '478372'
+  teachers:
+  - name: Bergamaschi, Francesco
+    affiliation: disa
+    role:
+    - adjunct professor
+  programmes:
+  - code: '5892'
+    name: Management and Economics
+    department: disa
+    campus: Forlì
+    cycle: first
+    languages:
+    - english
+  - code: '6614'
+    name: Management and Economics
+    department: disa
+    campus: Forlì
+    cycle: first
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - Lectures and practical applications in laboratory.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course students master the design, creation and interpretation of corporate
+    Business Intelligence (BI) and Business Analytics (BA) reports.
+- id: o2
+  text: They will understand the different design choices and technologies and the different options on
+    how to implement BI and BA reports.
+- id: o3
+  text: The course will also discuss Descriptive, Prescriptive and Predictive Analytics and show how to
+    include in a BI report Analytics calculations using R.
+- id: o4
+  text: This course is integrated with Management Control System Lab as it completes the integrated course
+    Analytics for Management (I.C.) with the competences needed to collect, clean and analyze the data
+    coming from different parts of the organization in order to support an analytical approach to management.
+contents:
+- id: c1
+  text: Databases architecture and Management
+- id: c2
+  text: Extract, Transform and Load Principles and Techniques
+- id: c3
+  text: Data Modeling Techniques
+- id: c4
+  text: Data Visualization Techniques
+- id: c5
+  text: Report Sharing Techniques
+- id: c6
+  text: Hints on Business Analytics using Power BI and R
+prerequisites: []
+bibliography: 'Winston/Albright - Business Analytics: Data Analysis & Decision Making, Cengage International
+  Edition, 2024'
+removed: []

@@ -1,0 +1,166 @@
+format: evidence/1
+course: '96859'
+title: Embedded Systems and Internet of Things
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-17'
+    to: '2025-12-18'
+  teaching_ids:
+  - '526556'
+  teachers:
+  - name: Burattini, Samuele
+    affiliation: disi
+    role:
+    - adjunct professor
+  - name: Ricci, Alessandro
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '526556'
+  laboratory:
+    value: true
+    evidence:
+    - Learning is based on hand-in-hand theory (lectures) and practice (lab), promoting group work.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The course introduces the concepts, methods and techniques concerning design and programming of
+    embedded software, i.e. software for embedded systems, focusing in particular on an Internet of Things
+    (IoT) perspective.
+- id: o2
+  text: 'More in detail, upon completing this course a student will have:'
+- id: o3
+  text: a general background about embedded systems, including Cyber-Physical Systems and Internet-of-Things
+    (IoT);
+- id: o4
+  text: basic knowledge about the hardware of embedded systems, from microcontrollers to SoC (System-on-a
+    Chip), sensors, actuators, wired/wireless communication technologies and protocols;
+- id: o5
+  text: basic knowledge about real-time operating systems, their organisation and scheduling techniques
+- id: o6
+  text: solid knowledge about embedded software design and programming techniques, to deal with aspects
+    related to real-time, reactivity, concurrency, and about main models adopted for that purpose (finite
+    state machines - time triggered and event triggered, tasks and their scheduling);
+- id: o7
+  text: knowledge about design and programming embedded software systems for mobile and wearable computing;
+- id: o8
+  text: basic knowledge about main aspects and issues concerning Internet of Things and the organisation
+    and architecture of IoT systems;
+- id: o9
+  text: the capability of developing embedded system & IoT projects, involving the design and programming
+    of embedded software for microcontrollers or SoC based architectures, and their integration/communication
+    with applications running on mobile devices and with services/backends on the server side.
+contents:
+- id: c1
+  text: Introduction to Embedded Systems and Internet of Things (IoT)
+  items:
+  - id: c1.1
+    text: '- basics about HW (microcontrollers, SoC, sensors, actuators and electronics)'
+- id: c2
+  text: Programming Models and Techniques for Embedded Systems
+  items:
+  - id: c2.1
+    text: '- super-loop'
+  - id: c2.2
+    text: '- Finite State Machines (time-driven and event-driven)'
+  - id: c2.3
+    text: '- Task'
+  - id: c2.4
+    text: '- event-driven architectures'
+  - id: c2.5
+    text: '- architectures base on a Real-Time OS'
+- id: c3
+  text: Networks of Embedded Systems and IoT
+  items:
+  - id: c3.1
+    text: '- models, architectures, communication protocols, wireless technologies for embedded systems'
+  - id: c3.2
+    text: '- message passing models'
+  - id: c3.3
+    text: '- Integration with mobile systems and mobile app programming'
+  - id: c3.4
+    text: '- Basics about IoT architectures and platforms'
+- id: c4
+  text: Advanced Themes (intro)
+  items:
+  - id: c4.1
+    text: '- Web of Things (WoT)'
+  - id: c4.2
+    text: '- Digital Twins'
+  - id: c4.3
+    text: '- From IoT to Augmented/Mixed Reality and Back: Mirror/Augmented Worlds'
+- id: c5
+  text: In LAB
+  heading: true
+  items:
+  - id: c5.1
+    text: Arduino UNO as microcontroller platform
+    items:
+    - id: c5.1.1
+      text: '- introduction to C++ and Wiring framework'
+  - id: c5.2
+    text: ESP32 as SoC/IoT oriented platform with FreeRTOS real-time OS
+  - id: c5.3
+    text: Android as mobile platform
+prerequisites: []
+bibliography: |-
+  An Embedded Software Primer (David E. Simon) - Addison Wesley
+
+  - Programming Embedded Systems: An Introduction to Time-Oriented Programming (Vahid, Givargis, Miller)
+  - Patterns of Time Triggered Embedded Systems (M. Pont) - Addison Wesley
+  - Exploring Arduino: Tools and Techniques for Engineering Wizardry. J. Blum. Wiley
+  - Design Patterns for Embedded Systems in C (B.P. Douglas) - Elsevier
+  - The Internet of Things (S. Greengard) - MIT Press
+  - Learning Internet of Things (P. Waher) - Packt
+  - Building Internet of Things with The Arduino (C. Doukas)
+  - Designing the Internet of Things (McEwen & Cassimally) - Wiley
+removed: []

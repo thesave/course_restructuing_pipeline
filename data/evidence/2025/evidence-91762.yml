@@ -1,0 +1,126 @@
+format: evidence/1
+course: '91762'
+title: Combinatorial Decision Making and Optimization
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-06-04'
+  teaching_ids:
+  - '530690'
+  teachers:
+  - name: Amadini, Roberto
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Kiziltan, Zeynep
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Quarta, Angelo
+    affiliation: disi
+    role:
+    - research fellow
+  programmes:
+  - code: '6700'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '9063'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '530690'
+  laboratory:
+    value: true
+    evidence:
+    - The main teaching methods are frontal lectures, including practical exercises, and hands-on experience
+      using personal laptops.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student has an understanding of the most popular methods in operations
+    research and artificial intelligence for modeling and solving complex combinatorial optimization problems
+    such as constraint programming, integer linear programming, SAT and SMT.
+contents:
+- id: c1
+  text: The first half of the course (Module 1) will introduce the fundamental concepts in Constraint
+    Programming (CP) and Boolean Satisfiability (SAT), which are two general-purpose approaches in Artificial
+    Intelligence (AI) to combinatorial decision making and optimization.
+- id: c2
+  text: 'The topics include:'
+- id: c3
+  text: Introduction to combinatorial decision making and optimization
+- id: c4
+  text: Modelling in CP
+- id: c5
+  text: Constraint propagation and global constraints
+- id: c6
+  text: Constructive tree search and propagation, branching heuristics, randomization and search restarts,
+    Large Neighbourhood Search (LNS)
+- id: c7
+  text: The SAT problem and encoding in SAT
+- id: c8
+  text: Basic solving techniques (resolution, unit propagation, DPLL algorithm)
+- id: c9
+  text: Conflict-driven clause learning algorithms
+- id: c10
+  text: SAT encodings
+- id: c11
+  text: The second half of the course (Module 2) will introduce the fundamentals of Satisfiability Modulo
+    Theory (SMT), which is a generalization of SAT.
+- id: c12
+  text: The last part of the module will be about essential Operations Research results from Linear Programming
+    (LP) and in particular Integer Linear Programming (ILP), by prioritizing the width of the covered
+    area over the depth of the introduction.
+- id: c13
+  text: Satisfiability Modulo Theories (SMT)
+- id: c14
+  text: Eager vs lazy SMT encoding, the DPLL(T) algorithm
+- id: c15
+  text: SMT theory solvers and combinations of theories
+- id: c16
+  text: Linear Programming (LP)
+- id: c17
+  text: Simplex algorithm and duality
+- id: c18
+  text: Integer Linear Programming (ILP)
+- id: c19
+  text: Extensions and hybrid methods
+- id: c20
+  text: The course will also host invited lectures by pioneer researchers in the field in order to provide
+    a broader perspective on the AI-based approaches to combinatorial decision making and optimization.
+prerequisites:
+- id: p1
+  text: Problem solving in artificial intelligence (covered by 91248 - Fundamentals of Artificial Intelligence
+    and Knowledge Representation), logic for computer science and basic notions of algorithms and programming
+    preferably in Python (covered by B5726 - Languages and Algorithms for Artificial Intelligence), basic
+    algebra and analysis.
+bibliography: |-
+  - Lecture slides and bibliography of scientific articles provided by the teaching staff.
+  - Handbook of Constraint Programming. F. Rossi, P. van Beek, T. Walsh (eds), Elsevier Science, 2006.
+  - Handbook of Satisfiability. A. Biere, M. Heule, H. van Maaren, T. Walsh (eds), IOS Press, second edition, 2021.
+removed: []

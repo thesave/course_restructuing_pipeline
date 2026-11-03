@@ -1,0 +1,149 @@
+format: evidence/1
+course: '28004'
+title: Foundations of Informatics T-1
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 9
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-06-05'
+  - from: '2026-02-20'
+    to: '2026-05-29'
+  teaching_ids:
+  - '536944'
+  - '536947'
+  teachers:
+  - name: Benenati, Alessio
+    affiliation: disi
+    role:
+    - phd student
+  - name: Bujari, Armir
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Giordani, Francesco
+    affiliation: din
+    role:
+    - teaching tutor
+  - name: Penzo, Wilma
+    affiliation: disi
+    role:
+    - researcher
+  programmes:
+  - code: 0925
+    name: Engineering Management
+    department: din
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: 0936
+    name: Engineering Management
+    department: din
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6679'
+    name: Engineering Management
+    department: din
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6718'
+    name: Engineering Management
+    department: din
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '536944'
+    - '536947'
+  laboratory:
+    value: true
+    evidence:
+    - 'Lectures are integrated with computer-based experiences in a laboratory, held by the tutor: each
+      experience tackles a particular theme, for which real problems are proposed; such problems are to
+      be solved using the knowledge obtained during lecture hours.'
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Basic and operative knowledge of computer architectures.
+- id: o2
+  text: Knowledge of principles, methodologies, and tools for solving low-complexity problems.
+- id: o3
+  text: Capability of applying the competencies in the projcet and development of small programs, following
+    the object-oriented paradigm.
+- id: o4
+  text: Capability of applying the competencies in the project and development of small programs, following
+    the object-oriented paradigm.
+contents:
+- id: c1
+  text: Computer Architecture
+- id: c2
+  text: General architecture of a computer.
+- id: c3
+  text: Von Neumann machine.
+- id: c4
+  text: Memory devices.
+- id: c5
+  text: Computer software
+- id: c6
+  text: The operating system.
+- id: c7
+  text: 'Tools for programming: editors, debuggers, compilers, and interpreters.'
+- id: c8
+  text: Development phases of a program.
+- id: c9
+  text: Programming concepts
+- id: c10
+  text: Methods for problem solving.
+- id: c11
+  text: Algorithms.
+- id: c12
+  text: Methodologies of structured and modular programming.
+- id: c13
+  text: Iteration and recursion.
+- id: c14
+  text: Programming languages
+- id: c15
+  text: 'Programming languages: concepts and history.'
+- id: c16
+  text: Syntax and semantics.
+- id: c17
+  text: Java Language
+- id: c18
+  text: Introduction to object-oriented programming.
+- id: c19
+  text: Object-oriented paradigm.
+- id: c20
+  text: Fundamenals of the Java programming language.
+- id: c21
+  text: Algorithms and data structures in Java.
+- id: c22
+  text: Inheritance.
+- id: c23
+  text: Advanced data structures in Java.
+prerequisites: []
+bibliography: |-
+  1. A. Chianese, V. Moscato, A. Picariello, C. Sansone: Le radici dell'informatica, I edizione. Maggioli Editore
+  2. W. Savitch: Programmazione con Java, II edizione. Pearson
+    Some additional slides (in Italian) may be provided by the teacher on the web site, that will also provide exam exercises (with solutions), programming software, etc.
+removed: []

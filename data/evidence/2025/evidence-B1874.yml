@@ -1,0 +1,119 @@
+format: evidence/1
+course: B1874
+title: Project Management and Software Engineering for Cultural Heritage
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-11-10'
+    to: '2025-12-17'
+  teaching_ids:
+  - '490904'
+  teachers:
+  - name: Bonora, Paolo
+    affiliation: ficlit
+    role:
+    - adjunct professor
+  programmes:
+  - code: '6736'
+    name: Digital Humanities and Digital Knowledge
+    department: ficlit
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '9224'
+    name: Digital Humanities and Digital Knowledge
+    department: ficlit
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The course aims to provide basic knowledge about project management and software engineering applied
+    to Digital Humanities (DH).
+- id: o2
+  text: Students will identify effective project management practices and their related processes.
+- id: o3
+  text: They will learn to apply the generally recognized practices to successfully manage DH projects.
+- id: o4
+  text: Through experimentation on real case studies, students will learn to design and manage a typical
+    DH software process step by step.
+- id: o5
+  text: At the same time, the course introduces the concepts and methods required for the construction
+    of systems applied to the Humanities.
+- id: o6
+  text: It aims to develop a basic understanding of the discipline of software engineering through the
+    direct application of related design patterns and best practices adapted to the DH domain.
+- id: o7
+  text: 'Upon successful completion of this course, students will be able to: identify the key processes
+    and requirements of both disciplines; initiate a software project; plan for time and cost; plan for
+    project risks, and change control.'
+contents:
+- id: c1
+  text: The course introduces basic theoretical and practical aspects of Project Management and Software
+    Engineering for the Cultural Heritage domain.
+- id: c2
+  text: The course aims to provide DHDK students with an overview of the two disciplines to give them
+    the indispensable tools to manage multidisciplinary DH projects.
+- id: c3
+  text: Theoretical and methodological approaches will be put into practice through case studies including
+    those suggested by students.
+- id: c4
+  text: The course is organised in two parts
+- id: c5
+  text: 'Part 1: Software Project Management will focus on'
+  heading: true
+  items:
+  - id: c5.1
+    text: Project Management in software development;
+  - id: c5.2
+    text: Resource management and planning;
+  - id: c5.3
+    text: 'The software lifecycle: from requirements to delivery.'
+- id: c6
+  text: 'Part 2: Introduction to Software Engineering will introduce key concepts about'
+  heading: true
+  items:
+  - id: c6.1
+    text: Software design basic theory and practices;
+  - id: c6.2
+    text: Agile vs. structured software development processes;
+  - id: c6.3
+    text: Software validation and verification.
+prerequisites: []
+bibliography: |-
+  Slides, handouts and papers will be available for download from the course website on Virtuale.
+
+  The following suggested readings could be helpful to students as background material:
+
+  Hughes B. and Cotterell M., Software project management, 5th ed., 2009, MC Graw Hill
+
+  Sommerville Ian, Software Engineering, 10th ed., 2017, Pearson
+removed:
+- text: Students with specific learning disorders (SLD) or temporary/permanent disabilities should contact
+    the appropriate University office (https://site.unibo.it/studenti-con-disabilita-e-dsa/en)immediately
+    and agree with the teacher the most effective strategies for attending the lectures and preparing
+    for the final exam.
+  reason: accessibility

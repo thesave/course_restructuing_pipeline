@@ -1,0 +1,74 @@
+format: evidence/1
+course: B4940
+title: DATA SCIENCE FOR FASHION SYSTEM
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Rimini
+  schedules:
+  - from: '2026-02-06'
+    to: '2026-03-19'
+  teaching_ids:
+  - '501679'
+  teachers:
+  - name: Marfia, Gustavo
+    affiliation: dar
+    role:
+    - full professor
+  programmes:
+  - code: '6059'
+    name: Fashion Studies
+    department: dar
+    campus: Rimini
+    cycle: second
+    languages:
+    - english
+  - code: '6780'
+    name: Fashion Studies
+    department: dar
+    campus: Rimini
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - Lectures and lab hours.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the Course the student will have the knowledge necessary to apply specific Data
+- id: o2
+  text: Science techniques to fashion e commerce.
+- id: o3
+  text: Specifically, the student will be able to identify scenarios where these technologies have a high
+    potential for use and to adopt them in the design of advanced e commerce solutions.
+contents:
+- id: c1
+  text: The course focuses on the increasing potential and use of data science in the Fashion System (FS).
+- id: c2
+  text: 'The content that will be presented during the course is organized as follows:'
+- id: c3
+  text: Presentation and discussion of representative use cases related to the adoption of data science
+    techniques in the FS;
+- id: c4
+  text: 'Understanding the fundamentals of a data science workflow: data sources, data understanding,
+    data preparation, modeling, evaluation and deployment.'
+prerequisites: []
+bibliography: Slides and handouts provided by the instructor.
+removed: []

@@ -1,0 +1,127 @@
+format: evidence/1
+course: '72787'
+title: Mobile Application Programming
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-06-03'
+  teaching_ids:
+  - '385090'
+  teachers:
+  - name: Ceccarini, Chiara
+    affiliation: disi
+    role:
+    - rtda
+  - name: Prandi, Catia
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Tumedei, Gianni
+    affiliation: disi
+    role:
+    - phd student
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '385090'
+  laboratory:
+    value: true
+    evidence:
+    - Lectures in the classroom and laboratory lessons.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student has theoretical and practical tools fundamental for the
+    development of native applications on the iOS and Android platforms, as well as an important introduction
+    to the design and development of performing applications for smartphones.
+- id: o2
+  text: In particular, the student knows the architecture, and the graphical interfaces of smartphone
+    applications.
+contents:
+- id: c1
+  text: Mobile applications design (circa 15%)
+- id: c2
+  text: Introduction to Android (circa 50%)
+- id: c3
+  text: Components and resources
+- id: c4
+  text: Activity and Intent
+- id: c5
+  text: Material design
+- id: c6
+  text: Menu, Dialog and Toast
+- id: c7
+  text: Data management
+- id: c8
+  text: Volley
+- id: c9
+  text: Multithreading and services
+- id: c10
+  text: Sensors
+- id: c11
+  text: Camera
+- id: c12
+  text: Map and GPS
+- id: c13
+  text: Introduction to iOS (circa 30%)
+- id: c14
+  text: Swift language
+- id: c15
+  text: MVVM and SwiftUI
+- id: c16
+  text: Core data
+- id: c17
+  text: Events, multi-touch and gesture
+- id: c18
+  text: Map kit and GPS
+- id: c19
+  text: Introduction to hybrid mobile applications and the main related technologies (5%)
+prerequisites: []
+bibliography: Virtuale platform.
+removed: []

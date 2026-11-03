@@ -1,0 +1,103 @@
+format: evidence/1
+course: 96346-A
+title: Informatics
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-23'
+    to: '2026-04-20'
+  teaching_ids:
+  - '534208'
+  teachers:
+  - name: Tura, Francesco
+    affiliation: dsg
+    role:
+    - researcher
+  programmes:
+  - code: '6606'
+    name: Employment and Business Relations Consultant
+    department: dsg
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '9230'
+    name: Employment and Business Relations Consultant
+    department: dsg
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course students will have got knowlegde of all main e-government authentication
+    systems.
+- id: o2
+  text: Moreover they will be able to use online services provided by Italian government bodies such as
+    INPS, INAIL, Italian Revenue Agency, Local Chambers of Commerce.
+- id: o3
+  text: Lastly they will easily consult documentary databanks.
+contents:
+- id: c1
+  text: 'First Part: Dematerialisation and no paper transaction technologies'
+  heading: true
+  items:
+  - id: c1.1
+    text: Electronic documents
+  - id: c1.2
+    text: UE Legislation on digital transformation
+  - id: c1.3
+    text: Electronic Identification
+  - id: c1.4
+    text: Electronic Trust Services
+  - id: c1.5
+    text: Electronic document management
+- id: c2
+  text: 'Second Part: Italian Government portals'
+  heading: true
+  items:
+  - id: c2.1
+    text: Italian Companies House
+  - id: c2.2
+    text: Italian municipal desks for productive activities (SUAP)
+  - id: c2.3
+    text: Regional information services for mandatory communications
+  - id: c2.4
+    text: Revenue Agency
+  - id: c2.5
+    text: Italian national institution of social security (INPS)
+  - id: c2.6
+    text: Italian National Institute for Insurance Against Occupational Accidents (INAIL)
+  - id: c2.7
+    text: Telematic services for Justice of the Peace - Italian Police service for biometric passport
+      - Italian Department of Interior service for electronic identity card
+  - id: c2.8
+    text: This course takes part into the Bologna University didactic innovation project
+prerequisites: []
+bibliography: |-
+  Francesco Tura, La transizione digitale nei servizi per cittadini e imprese, Seconda edizione aggiornata, Bologna, Esculapio, 2025.
+
+  P.S. It is very not recommended to use other educational material that is not textbook or slides published on virtuale.unibo.it.
+  Every educational material with other origin could be obsolete, inaccurate or misleading.
+removed: []

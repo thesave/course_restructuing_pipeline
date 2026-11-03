@@ -1,0 +1,116 @@
+format: evidence/1
+course: B3567
+title: INTRODUCTION TO QUANTUM COMPUTING
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-05-22'
+  teaching_ids:
+  - '518554'
+  teachers:
+  - name: Dal Lago, Ugo
+    affiliation: disi
+    role:
+    - full professor
+  - name: Lancelot, Adrienne
+    affiliation: disi
+    role:
+    - research scholarship holder
+  - name: Lanese, Ivan
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '518554'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student is acquainted with the basic mathematical notions underlying
+    quantum computing seen as an alternative computing paradigm, and knows how to implement quantum algorithms
+    as families of quantum circuits.
+- id: o2
+  text: Moreover, he has an understanding of more advanced topics like quantum cryptography, quantum error
+    correction, and the development of graphical languages for quantum circuits.
+contents:
+- id: c1
+  text: First module
+  heading: true
+  items:
+  - id: c1.1
+    text: overview on quantum computing
+  - id: c1.2
+    text: 'mathematical background: linear algebra and complex Hilbert spaces'
+  - id: c1.3
+    text: qubits and their mathematical representation
+  - id: c1.4
+    text: 'a quantum computational model: quantum circuits'
+  - id: c1.5
+    text: sample circuits (Deutsch, Bernstein-Vazirani)
+- id: c2
+  text: Second module
+  heading: true
+  items:
+  - id: c2.1
+    text: quantum computational complexity
+  - id: c2.2
+    text: quantum algorithms (Simon, Grover, Shor)
+  - id: c2.3
+    text: quantum error correction
+  - id: c2.4
+    text: quantum protocols
+  - id: c2.5
+    text: overview on quantum programming and quantum graphical languages
+prerequisites: []
+bibliography: |-
+  [1] P. Kaye, R. Laflamme, M. Mosca. An introduction to quantum computing. Oxford University Press, 2007.
+  [2] M. Hirvensalo. Quantum computing. Springer, 2004.
+removed: []

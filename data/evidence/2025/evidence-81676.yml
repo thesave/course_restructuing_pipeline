@@ -1,0 +1,131 @@
+format: evidence/1
+course: '81676'
+title: Digital Forensic
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-22'
+    to: '2025-12-19'
+  teaching_ids:
+  - '518523'
+  teachers:
+  - name: Amoroso, Alessandro
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '518523'
+  laboratory:
+    value: true
+    evidence:
+    - Considering the type of the activities and the teaching methodology, to participate to this course
+      it is required to partecipate at the e-learning modules Modules 1 and 2 of Health and Safety Training
+      Courses [https://elearning-sicurezza.unibo.it/course/index.php?categoryid=41] . [https://elearning-sicurezza.unibo.it/]
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the students will know the main topics of digital forensics.
+- id: o2
+  text: 'Moreover, they have used several basic tools to manage some common scenarios: single device (computer,
+    tablet, smartphone) and several kinds of file, networking (wireless and wired), e-mail and social
+    media.'
+- id: o3
+  text: The students will know the importance of the chain of custody and also the main procedures to
+    acquire, conserve and analyze the data.
+- id: o4
+  text: The students will know both the importance of the final report and the conceptual instruments
+    for its appropriate drafting
+contents:
+- id: c1
+  text: Understanding the Digital Forensics Profession and Investigations
+- id: c2
+  text: The Investigator's Office and Laboratory
+- id: c3
+  text: Data Acquisition
+- id: c4
+  text: Processing Crime and Incident Scenes
+- id: c5
+  text: Working with Windows and CLI Systems
+- id: c6
+  text: Current Digital Forensics Tools
+- id: c7
+  text: Linux and Macintosh File Systems
+- id: c8
+  text: Recovering Graphics Files
+- id: c9
+  text: Digital Forensics Analysis and Validation
+- id: c10
+  text: Virtual Machine Forensics, Live Acquisitions, and Network Forensics
+- id: c11
+  text: E-mail and Social Media Investigations
+- id: c12
+  text: Mobile Device Forensics
+- id: c13
+  text: Cloud Forensics
+- id: c14
+  text: Report Writing for High-Tech Investigations
+- id: c15
+  text: Expert Testimony in Digital Investigations
+- id: c16
+  text: Ethics for the Expert Witness
+prerequisites: []
+bibliography: |-
+  Nelson B., Phillips A., Steuart C., Wilson R., Guide to Computer Forensics and Investigations (7-th ed.). Cengage. [https://faculty.cengage.com/works/9780357672884]
+
+  Quenau R., Einaudi, 2014. [http://www.einaudi.it/libri/libro/raymond-queneau/esercizi-di-stile/978880622074]
+
+  [http://www.einaudi.it/libri/libro/raymond-queneau/esercizi-di-stile/978880622074]Nelson B., Philips A., Steuart C., , Cengage, 2018 [https://www.cengage.co.uk/books/9781337568944/]
+
+  ISO/IEC 27037:2012, Information technology - Security techniques - Guidelines for identification, collection, acquisition and preservation of digital evidence [https://www.iso.org/standard/44381.html]
+
+  ISO/IEC 27041:2015, Information technology - Security techniques - Guidance on assuring suitability and adequacy of incident investigative method [https://www.iso.org/standard/44405.html]
+
+  ISO/IEC 27042:2015, Preview Information technology - Security techniques - Guidelines for the analysis and interpretation of digital evidence [https://www.iso.org/standard/44406.html]
+
+  ISO/IEC 27043:2015 Preview, Information technology - Security techniques - Incident investigation principles and processes [https://www.iso.org/standard/44407.html]
+removed: []

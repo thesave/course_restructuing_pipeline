@@ -1,0 +1,141 @@
+format: evidence/1
+course: B0010
+title: Software Architecture and Platforms
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-22'
+    to: '2025-12-19'
+  teaching_ids:
+  - '526565'
+  teachers:
+  - name: Ricci, Alessandro
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '526565'
+  laboratory:
+    value: true
+    evidence:
+    - Three credits (about 30 hours) are devoted to theory and activities in the classroom and three credits
+      (about 30 hours) to practice in the lab.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The goal of this course is to introduces the essential concepts of software architecture and related
+    abilities expected for a software architect in the practice of software engineering, including the
+    application of modern architectures (e.g.
+- id: o2
+  text: Service-Oriented Architectures and REST, microservices, event-driven Architectures, cloud-computing
+    architectures) to concrete application contexts, including cyber-physical systems and the IoT.
+- id: o3
+  text: The student will learn to
+  items:
+  - id: o3.1
+    text: analyze how a software architecture relates to an organization and identify its quality attributes;
+  - id: o3.2
+    text: design software architectures using fundamental principles, patterns, and styles;
+  - id: o3.3
+    text: implement, deploy and manage software architectures using proper software platforms;
+  - id: o3.4
+    text: document and evaluate software architectures, using standard languages (e.g. UML) and tools.
+contents:
+- id: c1
+  text: Software Architecture introduction
+  items:
+  - id: c1.1
+    text: '- What do we mean for Software Architecture and Architectural Thinking'
+  - id: c1.2
+    text: '- The Role of Software Architect'
+- id: c2
+  text: Software Architecture foundations
+  items:
+  - id: c2.1
+    text: '- Basic Concepts and Design Principles'
+  - id: c2.2
+    text: '- Architectural Styles and Patterns'
+  - id: c2.3
+    text: main examples including Layered Architecture, Clean Architecture, Service-Oriented Architecture,
+      Microservices, Event-Driven Architecture
+- id: c3
+  text: Software Architecture and the Software Engineering Process
+  items:
+  - id: c3.1
+    text: '- Architectural Significant Requirements'
+  - id: c3.2
+    text: '- Designing, implementing, evaluating, documenting, evolving a software architecture'
+  - id: c3.3
+    text: '- Software Architectures and Domain-Driven Design'
+  - id: c3.4
+    text: '- Software Architectures and DevOps'
+- id: c4
+  text: Software Architectures in Practice - selected domains and case studies
+  items:
+  - id: c4.1
+    text: '- Pervasive Computing, Internet of Things and Web of Things - with a focus on Digital Twins'
+  - id: c4.2
+    text: '- Enterprise Applications and Cloud Computing'
+  - id: c4.3
+    text: '- Autonomous/Intelligent Systems - with a focus on Intelligent Agents and Cognitive Architectures'
+prerequisites: []
+bibliography: |-
+  Mark Richardson and Neal Ford. Fundamental of Software Architecture - An Engineering Approach O'Reilly (2020)
+
+  Richard N. Taylor et al. Software Architecture - Foundations, Theory, and Practice. Wiley (2010)
+
+  Robert C. Martin. Clean Architecture. Addison Wesley (2018)
+
+  Len Bas et al. Software Architecture in Practice. Addison Wesley (2022, 4th ed.)
+
+  Martin Fowler. Patterns of Enterprise Application Architecture. Addison Wesley (2003)
+
+  Gregor Hohpe. The Software Architect Elevator. O'Reilly (2020)
+removed: []

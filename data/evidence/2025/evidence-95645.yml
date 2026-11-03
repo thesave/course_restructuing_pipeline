@@ -1,0 +1,85 @@
+format: evidence/1
+course: '95645'
+title: Foundations of Web Systems
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-05-25'
+  teaching_ids:
+  - '498820'
+  teachers:
+  - name: Delnevo, Giovanni
+    affiliation: disi
+    role:
+    - tenure-track researcher
+  - name: Mirri, Silvia
+    affiliation: disi
+    role:
+    - full professor
+  - name: Testa, Alex
+    affiliation: disi
+    role:
+    - teaching tutor
+  programmes:
+  - code: '6007'
+    name: Computer Systems Technologies
+    department: disi
+    campus: Cesena, Imola
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '498820'
+  laboratory:
+    value: true
+    evidence:
+    - Lectures and laboratory activities.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student knows the main Web standards and the client-side scripting
+    languages.
+- id: o2
+  text: The student can design and develop Web applications, by using markup languages, stylesheets and
+    client-side scripts.
+contents:
+- id: c1
+  text: This class presents the standards at the basis of the Web, the main concepts and principles driving
+    the design and the implementation of Web-based applications, and the main technologies supporting
+    the develoment of client-side Web applications.
+- id: c2
+  text: In particular, the class introduces the following topics
+  items:
+  - id: c2.1
+    text: 'Foundations and standards at the basis of the Web: HTTP, URI, charsets and character encoding,
+      hypertexts and markup.'
+  - id: c2.2
+    text: 'Web Standards technologies: HTML5, CSS3, JSON.'
+  - id: c2.3
+    text: Client-side scripting languages for the development of Web-based applications, with specific
+      regards to Javascript.
+  - id: c2.4
+    text: Introduction to the Javascript client-side frameworks, with specific regards to VueJS.
+  - id: c2.5
+    text: HCI (Human-Computer Interaction) methodologies, User eXperience (UX), Web accessibility and
+      Web usability.
+prerequisites: []
+bibliography: Slides and additional on-line resources will be made available on Virtuale.
+removed: []

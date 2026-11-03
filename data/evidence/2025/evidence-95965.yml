@@ -1,0 +1,101 @@
+format: evidence/1
+course: '95965'
+title: Artificial Intelligence and Machine Learning for Business
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-10-27'
+    to: '2025-12-04'
+  teaching_ids:
+  - '467512'
+  teachers:
+  - name: Magro, Giuseppe
+    affiliation: dimevet
+    role:
+    - adjunct professor
+  programmes:
+  - code: '5814'
+    name: Food Animal Metabolism and Management in the Circular Economy
+    department: dimevet
+    campus: Ozzano dell'Emilia
+    cycle: second
+    languages:
+    - english
+  - code: '6815'
+    name: Food Animal Metabolism and Management in the Circular Economy
+    department: dimevet
+    campus: Ozzano dell'Emilia
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student is in possession of the basic knowledge of cutting-edge models
+    and applications of artificial intelligence, with particular attention to machine learning.
+- id: o2
+  text: In particular, they are able to have a practical vision to select the appropriate methods to solve
+    concrete problems
+contents:
+- id: c1
+  text: 1 Decision Support Systems
+  items:
+  - id: c1.1
+    text: The concept of dynamic system and sustainability
+  - id: c1.2
+    text: The structure of the decision-making process
+  - id: c1.3
+    text: Classic and new generation decision support systems
+  - id: c1.4
+    text: Operational techniques for implementing evidence based decision support systems
+- id: c2
+  text: 2 The Mathematical Models for Data Science
+  items:
+  - id: c2.1
+    text: Methods for developing mathematical models for business
+  - id: c2.2
+    text: Classification and clustering regression algorithms
+  - id: c2.3
+    text: Data Mining and automatic learning methods
+  - id: c2.4
+    text: Operational data exploration tools for Business
+- id: c3
+  text: 3 Machine Learning
+  items:
+  - id: c3.1
+    text: Methodological and functional framework of learning systems
+  - id: c3.2
+    text: Machine learning operational tools
+  - id: c3.3
+    text: Analytical Platforms for Data Science from an ESG perspective
+- id: c4
+  text: 4 Applications of Machine Learning to concrete business cases
+- id: c5
+  text: Operational tools of E-governance for the Business
+- id: c6
+  text: Practical applications of ML for supervised learning predictions and recommendations
+- id: c7
+  text: Exercises of co-design of monitoring systems of ESG Business performances
+prerequisites: []
+bibliography: Course Materials
+removed: []

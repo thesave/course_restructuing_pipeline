@@ -1,0 +1,117 @@
+format: evidence/1
+course: '81940'
+title: Artificial Intelligence
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-24'
+    to: '2025-12-17'
+  teaching_ids:
+  - '518551'
+  teachers:
+  - name: Gabbrielli, Maurizio
+    affiliation: disi
+    role:
+    - full professor
+  - name: Gurioli, Andrea
+    affiliation: disi
+    role:
+    - phd student
+  - name: Pivi, Francesco
+    affiliation: disi
+    role:
+    - phd student
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '518551'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student will know the principal languages, the modeling techniques
+    and the reasoning methods that are at the base of artificial intelligence.
+- id: o2
+  text: In particular the student will be able to construct systems that exhibit intelligent behaviours,
+    often simulating the behavior of human experts of a specific discipline.
+- id: o3
+  text: Moreover she will be able to model and solve simple constraint and optimization problems by using
+    constraint programming.
+contents:
+- id: c1
+  text: Introduction to artificial intelligence.
+- id: c2
+  text: The principal technologies and applications of artificial intelligence.
+- id: c3
+  text: The notion of agent.
+- id: c4
+  text: Non informed search strategies.
+- id: c5
+  text: Informed search strategies.
+- id: c6
+  text: Search with adversaries.
+- id: c7
+  text: 'Modeling of problems with costraints and CSP: basic notions.'
+- id: c8
+  text: Logic programming.
+- id: c9
+  text: Constraint programming, basic notions of MiniZinc.
+- id: c10
+  text: Introduction to machine learning.
+- id: c11
+  text: Sub-symbolic computation and neural networks .
+- id: c12
+  text: Large language models
+- id: c13
+  text: Philosophical aspects and future challenges.
+prerequisites: []
+bibliography: |-
+  Russell, Norvig. Artificial Intelligence: A Modern Approach, 3rd Edition. Pearson (Intl) 2010 (US edition) and 2016 (Global edition).
+
+  Handouts provided during the course.
+removed: []

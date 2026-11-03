@@ -1,0 +1,142 @@
+format: evidence/1
+course: 08574-B
+title: Operating Systems
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 12
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-24'
+    to: '2026-05-21'
+  teaching_ids:
+  - '320578'
+  teachers:
+  - name: Bassi, Luca
+    affiliation: difa
+    role:
+    - phd student
+  - name: Davoli, Renzo
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Orlandello, Luca
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Sciullo, Luca
+    affiliation: ctl
+    role:
+    - adjunct professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '320578'
+  laboratory:
+    value: true
+    evidence:
+    - Laboratory project to be carried out in groups (outside of class hours)
+    - Given the type of activity and teaching methods adopted, attendance at this training activity requires
+      all students to first participate in Modules 1 and 2 of the e-learning course on workplace safety
+      [https://elearning-sicurezza.unibo.it/].
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The objective of the course is to illustrate the structure and the methods to build modern multitaking
+    operating systems.
+- id: o2
+  text: This course also explains how to install, program and administer an operating system.
+contents:
+- id: c1
+  text: Module 1
+  heading: true
+  items:
+  - id: c1.1
+    text: 'Operating Systems: Definition and History'
+  - id: c1.2
+    text: Concurrent Programming
+  - id: c1.3
+    text: Structure of the OS
+  - id: c1.4
+    text: Scheduling
+  - id: c1.5
+    text: Resource Management
+  - id: c1.6
+    text: Central Memory Management
+  - id: c1.7
+    text: Secondary memory management
+  - id: c1.8
+    text: File System
+  - id: c1.9
+    text: Security in Operating Systems
+- id: c2
+  text: Module 2
+  heading: true
+  items:
+  - id: c2.1
+    text: C language
+  - id: c2.2
+    text: System Call
+  - id: c2.3
+    text: Programming tools
+  - id: c2.4
+    text: Shell Scripting
+  - id: c2.5
+    text: Python language
+prerequisites: []
+bibliography: |-
+  Suggested books (these books are quite equivalent)
+
+  - Silbershatz, Galvin, Gagne. Applied Operating System Concepts. Addison Wesley (any edition)
+  - Gary Nutt. Operating Systems - A modern Perspective. Addison Wesley
+  - Tanenbaum, Woodhill. Operating System Design and Implementation. Prentice Hall
+  - William Stallings. Operating Systems. Prentice Hall
+    For the laboratory assignments:
+  - Michael Goldweber, Renzo Davoli µMPS3 Principles of Operation.
+  - Michael Goldweber, Renzo Davoli Student Guide to the Pandos Operating System.
+  - Richard Stevens. Advanced Programming in UNIX. Addison-Wesley
+  - Eric Steven Raymond. The Art of Unix Programming. Addison-Wesley
+    Further readings:
+  - G. Andrews. Concurrent Programming. Benjamin/Cummings, 1991.
+    On-line documents
+removed: []

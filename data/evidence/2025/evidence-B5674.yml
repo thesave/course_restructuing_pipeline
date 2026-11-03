@@ -1,0 +1,78 @@
+format: evidence/1
+course: B5674
+title: Management of Digital Media
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 5
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-15'
+    to: '2025-10-20'
+  teaching_ids:
+  - '503988'
+  teachers:
+  - name: Bersaglia, Luca
+    affiliation: disa
+    role:
+    - adjunct professor
+  programmes:
+  - code: '6114'
+    name: Innovation and Organization of Culture and the Arts
+    department: disa
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '6795'
+    name: Innovation and Organization of Culture and the Arts
+    department: disa
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The student is expected to understand the functions and processes of transformations within the
+    media industries and the innovations connected to new digital technologies applied to creative industries.
+contents:
+- id: c1
+  text: The digital revolution has fundamentally reshaped our world, transforming how we create, distribute,
+    and consume everything from news and entertainment to social connections.
+- id: c2
+  text: This course, Management of Digital Media, is an in-depth exploration of the economic principles
+    and models that govern this new landscape.
+- id: c3
+  text: The course will be focused on two of the most important media industries, music and video.
+- id: c4
+  text: For each of them, it will be introduced and analyzed the value chain, all the relevant typologies
+    of players and how the technological evolution and the changes in consumer habits are influencing
+    the markets’ dynamics and their structure.
+prerequisites: []
+bibliography: |-
+  Case Studies
+
+  “Spotify: Face the Music (Update 2024)” (Govert Vroom, Isaac Sastre Boquet, IESE Business School, 2024)
+
+  “Netflix: Disrupting Digital Streaming” (Siddarth Rawat, Essec Business School, 2017)
+
+  “The Netflix Pivot” (Angus Finney, Allegre L Hadida - Cambridge Judge Business School, 2025)
+removed: []

@@ -1,0 +1,167 @@
+format: evidence/1
+course: B5796
+title: Scalable and Reliable Services M
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-05-26'
+  teaching_ids:
+  - '504348'
+  teachers:
+  - name: Colajanni, Michele
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9063'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '504348'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as:
+  - '97431'
+outcomes:
+- id: o1
+  text: Digital services have to meet various requirements in terms of performance, scalability and reliability.
+- id: o2
+  text: We analyze the whole lifecycle of high quality services, from design to deployment, testing and
+    operation.
+- id: o3
+  text: In each phase, we aim to provide the students with the ability to gather and analyze data, to
+    identify sources of outages and critical dependencies, and to avoid bottlenecks and single points
+    of failure.
+- id: o4
+  text: Finally, we expect students to be prepared to evaluate and discuss alternatives and justify investment
+    in support of business services.
+contents:
+- id: c1
+  text: Introduction
+- id: c2
+  text: Cloud services
+- id: c3
+  text: Cloud provider architectures
+- id: c4
+  text: 'High-quality services: performance, scalability, reliability (and security)'
+- id: c5
+  text: Lifecycle of high-quality services
+- id: c6
+  text: 'Part 1: Architectures for scalable and reliable services'
+  heading: true
+  items:
+  - id: c6.1
+    text: Sources of outages and critical dependencies
+  - id: c6.2
+    text: Bottlenecks and single points of failure
+  - id: c6.3
+    text: 'Design: maturity assessment, architectural principles for reliability and scalability, AKF
+      scale cube model'
+  - id: c6.4
+    text: Migration to cloud
+  - id: c6.5
+    text: 'Critical data management: Strategy, Governance, Management'
+  - id: c6.6
+    text: Implementation alternatives on cloud platforms and multi-clouds
+- id: c7
+  text: 'Part 2: Service deployment'
+  heading: true
+  items:
+  - id: c7.1
+    text: Secure and robust software production
+  - id: c7.2
+    text: Secure and robust DevOps
+  - id: c7.3
+    text: Labs on cloud platforms
+- id: c8
+  text: 'Part 3: Tests'
+  heading: true
+  items:
+  - id: c8.1
+    text: Benchmarking
+  - id: c8.2
+    text: Performance testing
+  - id: c8.3
+    text: Stress testing
+- id: c9
+  text: 'Part 4: Scalable and reliable organizations'
+  heading: true
+  items:
+  - id: c9.1
+    text: Roles and responsibilities
+  - id: c9.2
+    text: Leaders and managers
+  - id: c9.3
+    text: Putting all together
+  - id: c9.4
+    text: Capacity planning
+  - id: c9.5
+    text: Understanding and managing complexity
+  - id: c9.6
+    text: Managing changes
+- id: c10
+  text: 'Part 5: Issues, incident and crises'
+  heading: true
+  items:
+  - id: c10.1
+    text: Performance monitoring
+  - id: c10.2
+    text: Warning signs in operation
+  - id: c10.3
+    text: Incidents management
+  - id: c10.4
+    text: Crisis management
+prerequisites: []
+bibliography: Slides, teacher's notes, book chapters, scientific articles and online resources indicated
+  on the Virtuale website.
+removed: []

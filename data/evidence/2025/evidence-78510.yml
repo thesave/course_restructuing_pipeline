@@ -1,0 +1,69 @@
+format: evidence/1
+course: '78510'
+title: Informatics
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 2
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-03-27'
+    to: '2026-05-08'
+  teaching_ids:
+  - '401461'
+  teachers:
+  - name: Gorrieri, Roberto
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '8479'
+    name: Podiatry
+    department: dibinem
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '401461'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student will have the basic knowledge about computer tools useful
+    for their profession.
+contents:
+- id: c1
+  text: Introduction to computer science, from the point of view of a user of computer services. History
+    of computer science. Organization of the italian health system.
+- id: c2
+  text: Introduction to computer architecture. CPU, memories, I/O devices.
+- id: c3
+  text: Introduction to programming languages and software.
+- id: c4
+  text: Operating systems and computer networks. Taxonomy.
+- id: c5
+  text: Internet and the world-wide-web.
+- id: c6
+  text: Security, data protection, cryptography, digital signature, certified email.
+- id: c7
+  text: 'A useful application: Microsoft Excel'
+prerequisites: []
+bibliography: 'Alberto Rosotti. Informatica Medica: Una guida ai sistemi informativi sanitari (terza edizione).
+  McGraw Hill, 2025.'
+removed: []

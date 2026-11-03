@@ -1,0 +1,143 @@
+format: evidence/1
+course: '28652'
+title: IT Systems T-1
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 9
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-05-29'
+  teaching_ids:
+  - '324370'
+  teachers:
+  - name: Grandi, Fabio
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Tomasi, Cesare
+    affiliation: din
+    role:
+    - teaching tutor
+  programmes:
+  - code: 0925
+    name: Engineering Management
+    department: din
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: 0936
+    name: Engineering Management
+    department: din
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6679'
+    name: Engineering Management
+    department: din
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6718'
+    name: Engineering Management
+    department: din
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '324370'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Aim of the course is to provide the methodological tools which are necessary for the correct design
+    and use of an information system and for the development of applications on a relational DBMS platform,
+    and to provide some knowledge of the base technologies which are deployed in their implementation.
+contents:
+- id: c1
+  text: Enterprise Information Systems and Data Base Management Systems (DBMS).
+- id: c2
+  text: Introduction to the fundamental concepts on information systems and relational data bases.
+- id: c3
+  text: 'Relational theory: basic definitions, relational algebra, normal forms.'
+- id: c4
+  text: 'The SQL language: DDL and DML.'
+- id: c5
+  text: Simple and complex queries (including grouping and nesting), views.
+- id: c6
+  text: SQL for applications.
+- id: c7
+  text: Technology of Relational Systems.
+- id: c8
+  text: The control of concurrent accesses and the management of transactions.
+- id: c9
+  text: Recovery of information after malfunctions.
+- id: c10
+  text: 'Advanced architectures: parallelism, replication.'
+- id: c11
+  text: 'Distributed data bases:'
+- id: c12
+  text: fragmentation, distributed transactions.
+- id: c13
+  text: Outline of physical organization (B+tree indexes, join methods, optimization).
+- id: c14
+  text: Design of Information Systems.
+- id: c15
+  text: Analysis of enterprise organization, requirements collection.
+- id: c16
+  text: 'The conceptual design of data: the Entity-Relationship model and the data schemata.'
+- id: c17
+  text: 'The flow and operation schemata: Data-Flow'
+- id: c18
+  text: Diagrams and Workflows.
+- id: c19
+  text: Design methodologies.
+- id: c20
+  text: Integrated design of data and functions. relational logical design.
+- id: c21
+  text: Design with ERP systems.
+prerequisites:
+- id: p1
+  text: A prior knowledge and understanding of the basic organization and functionalities of a modern
+    computer system is required to attend with profit this course.
+- id: p2
+  text: These notions are normally achieved by giving an exam of Foundations of Informatics.
+- id: p3
+  text: 'Fluent spoken and written Italian is a necessary pre-requisite: all lectures and tutorials, and
+    all study material will be in Italian.'
+bibliography: |-
+  Recommended readings:
+
+  - P. ATZENI, S. CERI, S. PARABOSCHI, R. TORLONE, Databases,
+    McGraw-Hill, second edition, 1999 (free download at http://dbbook.dia.uniroma3.it/).
+  - F. GRANDI, Esercizi di Basi di Dati (in Italian), Esculapio,
+
+  - L. BARESI, C. FRANCALANCI, F.A. SCHREIBER, L. TANCA,
+    Progettazione Integrata di Dati e Funzioni (in Italian), Esculapio,
+
+  Reference books:
+
+  - R. VAN DER LANS, Introduction to SQL, Addison-Wesley, 2006.
+
+  Copy of the slides used during the lectures can be downloaded from the Virtuale platform.
+removed: []

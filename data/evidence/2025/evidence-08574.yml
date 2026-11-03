@@ -1,0 +1,103 @@
+format: evidence/1
+course: 08574
+title: Operating Systems
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 9
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-05-21'
+  teaching_ids:
+  - '501527'
+  teachers:
+  - name: Iannoli, Andrea
+    affiliation: mat
+    role:
+    - research scholarship holder
+  - name: Sangiorgi, Davide
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '6060'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6641'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8014'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '501527'
+  laboratory:
+    value: true
+    evidence:
+    - The integrated course consists of about 110 hours, of which 40% in the "Laboratory" module, where
+      the topics exposed in the main lectures are further discussed with examples and exercises.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student knows the fundamental concepts and algorithms in use in
+    modern operating systems.
+- id: o2
+  text: The student also learns how to use programming languages, mainly those based on objects, to handle
+    concurrency and distribution and to program services
+contents:
+- id: c1
+  text: Introduction to operating systems (OS)
+- id: c2
+  text: Summary of concepts of architecture of computing systems
+- id: c3
+  text: General organisation of an OS
+- id: c4
+  text: Processes and threads
+- id: c5
+  text: Concurrency and communication
+- id: c6
+  text: CPU Scheduling
+- id: c7
+  text: Memory management
+- id: c8
+  text: File systems
+- id: c9
+  text: Concepts of distributed systems
+- id: c10
+  text: Distributed comunication
+- id: c11
+  text: Protection, security and cryptography
+prerequisites: []
+bibliography: |-
+  Silberschatz, Galvin, and Gagne, Applied Operating Systems Concepts, John Wiley and Sons (various editions exist, all valid). Note: other books are well possible, discuss this with the lecturer
+
+  Concerning object-oriented programming in Java with concurrency and distribution, an excellent text is: "Oggetti concorrenza distribuzione. Programmare a diversi livelli di astrazione", Crafa Silvia, edizioni Esculapio, 2014 (there are several English text on the same topic)
+removed:
+- text: See the course main web page, reachable from the lecturer's web page, for more details.
+  reason: pointer

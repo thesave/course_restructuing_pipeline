@@ -1,0 +1,69 @@
+format: evidence/1
+course: '75198'
+title: Health Information Processing Systems
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 1
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-10-31'
+    to: '2025-11-28'
+  teaching_ids:
+  - '459706'
+  teachers:
+  - name: Favero, Luca
+    affiliation: dimec
+    role:
+    - adjunct professor
+  programmes:
+  - code: '8488'
+    name: Nursing and Midwifery Sciences
+    department: dimec
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student must use comprehensive computer systems, software and databases
+    to collect, organize and catalog health information.
+contents:
+- id: c1
+  text: Case mix classification systems
+- id: c2
+  text: SDO and DRG
+- id: c3
+  text: Introduction to hospital information systems
+- id: c4
+  text: Corporate and regional databases
+- id: c5
+  text: Use of data and database in healthcare
+- id: c6
+  text: healthcare Indicators
+- id: c7
+  text: SOLE network and electronic health record (fascicolo sanitario elettronico)
+prerequisites: []
+bibliography: The topics covered are such that the relevant textbooks would be many and very extensive.
+  For the purposes of teaching, it is therefore not necessary to delve further into the topics on the
+  program with material other than that presented and always available to students. Therefore it is sufficient
+  to carry out the study only on the slides presented in the classroom.
+removed: []

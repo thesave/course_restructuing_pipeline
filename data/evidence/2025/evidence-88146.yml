@@ -1,0 +1,73 @@
+format: evidence/1
+course: '88146'
+title: Fundamentals of Computer Programming P2
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 3
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-05-26'
+  teaching_ids:
+  - '498976'
+  teachers:
+  - name: Bartolomei, Luca
+    affiliation: disi
+    role:
+    - pre-doc research fellow
+  - name: Mattoccia, Stefano
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '6009'
+    name: Mechatronics
+    department: dei
+    campus: Bologna, Imola, Lugo
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '498976'
+  laboratory:
+    value: true
+    evidence:
+    - Each topic will be followed by exercises and/or lab experiments.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Learning basic digital design principles and organization of computer architectures.
+- id: o2
+  text: A particular outome concern the ability to understand the link between hardware and software.
+- id: o3
+  text: Each topic will be followed by detailed exercises.
+contents:
+- id: c1
+  text: Logic design principles.
+- id: c2
+  text: Structure and organization of a computer system.
+- id: c3
+  text: Memory devices.
+- id: c4
+  text: Central Processing Unit (CPU) and machine language.
+- id: c5
+  text: Interrupts.
+- id: c6
+  text: Hardware/software interaction with laboratory experiments.
+prerequisites: []
+bibliography: Slides availablein Virtuale.
+removed: []

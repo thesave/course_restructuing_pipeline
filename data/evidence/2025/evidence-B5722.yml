@@ -1,0 +1,270 @@
+format: evidence/1
+course: B5722
+title: Embedded Sensors
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-23'
+    to: '2025-12-17'
+  teaching_ids:
+  - '504122'
+  teachers:
+  - name: Tartagni, Marco
+    affiliation: dei
+    role:
+    - full professor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '6715'
+    name: Electronics and Information Engineering
+    department: dei
+    campus: Cesena
+    cycle: second
+    languages:
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '9266'
+    name: Biomedical Engineering
+    department: dei
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - The Biomedical Engineering part provides a brief laboratory experience.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student acquires the knowledge for understanding and using electronic
+    sensors.
+- id: o2
+  text: In particular, the student learns to analyze the main issues related to sensing and to interpret
+    data from sensors for subsequent data and signal processing.
+- id: o3
+  text: Through concrete design examples, the tools are focused on the need for continuous technological
+    development to meet the growing requirements of design in the fields of computer science and ICT infrastructure.
+- id: o4
+  text: Subsequently, the student will be able to learn the main implementation techniques of sensors
+    by combining previous knowledge of computer systems with some concepts of electronic design that will
+    be introduced in the course.
+contents:
+- id: c1
+  text: PART I (6 CFU)
+  heading: true
+  items:
+  - id: c1.1
+    text: Program for
+    items:
+    - id: c1.1.1
+      text: SENSORI INTELLIGENTI [Laurea Magistrale in Ingegneria Elettronica e dell'Informazione]
+    - id: c1.1.2
+      text: SENSORS & NANOTECHNOLOGY [Laurea Magistrale in Biomedical Engineering]
+    - id: c1.1.3
+      text: EMBEDDED SENSORS [Laurea Magistrale in Ingegneria e Scienze Informatiche]
+  - id: c1.2
+    text: The goal of Part I is to give students fundamental know-how in sensor system design, approached
+      from the perspective of behavioral building blocks and their technological implementation.
+- id: c2
+  text: FUNDAMENTALS
+  heading: true
+  items:
+  - id: c2.1
+    text: Introduction of the course, example of research.
+  - id: c2.2
+    text: Fundamentals on sensors. Signals and information. Sensor as an information classifier. Interface,
+      raw data and signal processing (Machine Learning).
+  - id: c2.3
+    text: Basics on measurements. Characterization and operating mode. The concept of distributions and
+      estimation. DC measurements. Digits and full-scale. Random and systematic errors. Introduction to
+      the resolution, precision and accuracy concepts. The role of time and AC measurements. Power spectral
+      distributions.
+  - id: c2.4
+    text: Ideal sensor modeling. Interface as a black-box. The quasi-static function and its limits. The
+      concept of sensitivity. Time and space quantization, the A/D converter. Acquisition chains and gain
+      plots. Signal bandwidth.
+  - id: c2.5
+    text: Recall of mathematical tools. Random signals, power and correlations. Random and ergodic processes.
+  - id: c2.6
+    text: Non-ideal sensor modeling. The resolution/uncertainty duality. The law of propagation of errors.
+  - id: c2.7
+    text: Comparing signal with noise. The concept of minimum detectable signal. The signal-to-noise ratio
+      and the dynamic range. Systematic error modeling.
+  - id: c2.8
+    text: The quantization process. The concepts of number of resolution levels and effective number of
+      bits. Relationship with Information Theory. Resolution degradation in acquisition chains. Example
+      of designs. The role of bandwidth, oversampling and non-aliasing filters.
+  - id: c2.9
+    text: Feedback sensor design with examples.
+  - id: c2.10
+    text: Sensor trade-offs and example of design.
+- id: c3
+  text: ELECTRONIC INTERFACE DESIGN
+  heading: true
+  items:
+  - id: c3.1
+    text: '[This section is OPTIONAL and NOT REQUIRED for EMBEDDED SENSORS students]'
+  - id: c3.2
+    text: Introduction of noise in circuit design. PSD and noise density. Thermal noise shot noise ad
+      flicker noise. KTC noise. Superimposition of noise powers in uncorrelated signals. Equivalent noise
+      bandwidth. Noise in OPAMPs.
+  - id: c3.3
+    text: Resistance sensors with examples.
+  - id: c3.4
+    text: Strain-gauges.
+  - id: c3.5
+    text: RTDs e PRTs.
+  - id: c3.6
+    text: Thermistors, NTC e PTC.
+  - id: c3.7
+    text: Magnetic sensors.
+  - id: c3.8
+    text: Capacitive sensors. Kelvin guard ring. Charge amplifier. Differential capacitive sensing. Capacitive
+      accelerometers. Noise in charge amplifiers. Correlated double sampling (CDS).
+  - id: c3.9
+    text: Lock-in e chopper sensing. Complex impedance measurements by lock-in sensing.
+  - id: c3.10
+    text: Introduction to optical sensors. The photodiode. Charge and voltage photodiode readout in storage
+      mode. Passive pixel CMOS sensors (PPS) and active pixel (APS) sensors. APS with correlated doble
+      sampling.
+  - id: c3.11
+    text: Sensor networks.
+- id: c4
+  text: SENSORS ECOSYSTEMS
+  heading: true
+  items:
+  - id: c4.1
+    text: '[This section is OPTIONAL and NOT REQUIRED for SENSORI ELETT.'
+  - id: c4.2
+    text: INTELLIGENTI students]
+  - id: c4.3
+    text: Brief overview of embedded sensor networks. I2C and SPI.
+  - id: c4.4
+    text: Brief overview of wireless sensor communications and networks.
+- id: c5
+  text: TOWARDS MACHINE LEARNING EMBEDDED SENSORS
+  heading: true
+  items:
+  - id: c5.1
+    text: The concept of predictive models. Measured vs. predicted measurements plots.
+  - id: c5.2
+    text: 'Dealing with multiple variables: scatter plots and correlation matrix in multivariate analysis.'
+  - id: c5.3
+    text: Reduction of variables using decomposition techniques. The PCA.
+  - id: c5.4
+    text: Reduction to output values, introduction to the PLS technique
+  - id: c5.5
+    text: 'Example of application: embedded spectral sensors'
+- id: c6
+  text: PART II (NANOTECHNOLOGY SECTION, 3 CFU)
+  heading: true
+  items:
+  - id: c6.1
+    text: Program for
+    items:
+    - id: c6.1.1
+      text: SENSORS & NANOTECHNOLOGY [Laurea Magistrale in Biomedical Engineering]
+  - id: c6.2
+    text: Part II is offered exclusively to students in Biomedical Engineering and is intended to introduce
+      the physical foundations of biosensor transduction principles at the micro- and nanoscale.
+  - id: c6.3
+    text: These concepts will then be applied in the context of protocols and instruments for biomedical
+      laboratories.
+  - id: c6.4
+    text: This part will also include a hands-on laboratory experience at the end of the course.
+  - id: c6.5
+    text: Photons, electrons and energetic interactions with matter. Fluorescence, phosphorescence and
+      Raman scattering. Photon-electron transduction. Black body emission. Quantum efficiency and spectral
+      sensitivity of transduction in semiconductors. Responsivity.
+  - id: c6.6
+    text: Basics of geometrical optics. Refraction and diffraction. Optical resolution and its limits.
+      Optical microscope. Basics of electron microscopy. Basics of atomic force microscope (AFM).
+  - id: c6.7
+    text: The origin of noise. Brownian noise. Thermal noise and its derivation. Poisson processes. Shot
+      noise and related derivation. The flicker noise and its derivation. Physical origin of flicker noise.
+  - id: c6.8
+    text: Introduction of biosensing principles. Ion-electron transduction. Electrical polarization of
+      the matter. Metal-liquid interface and interfacial states. Electrical models of ion/electron interfaces
+      and electro impedance spectroscopy.
+  - id: c6.9
+    text: 'Introduction to nanotechnology. Nanosensors: nanopores, nanotubes, nanowires, graphene, nanodots.'
+  - id: c6.10
+    text: Lab experience on electro-impedance or Raman spectrometry.
+prerequisites: []
+bibliography: |-
+  Main texbook
+
+  M. Tartagni, Electronic Sensor Design Principles, Cambridge Press, 2021
+
+  Physical principles:
+
+  R. Feynman et al., The Feynman Lectures on Physics, Addison Wesley, 1963
+
+  Noise in electronics:
+
+  P. Gray, R. Meyer, Analysis and Design of Analog Integrated Circuits, Wiley 1993
+
+  Ion/electron interface, micro- and nano-fabrication:
+
+  H. Morgan, N. Green, AC Electrokinetics: colloids and nanoparticles, RSP Press, 2001
+
+  M. Madou, Fundamentals of Microfabrication, CRC Press, 2002
+
+  Electronic interfaces:
+
+  D. Johns, K. Martin, Analog Integrated Circuit Design, Wiley, 1997
+
+  B. Razavi, Design of Analog CMOS Integrated Circuits, McGraw-Hill, 2000
+
+  Machine learning and multivariate analysis:
+
+  Kevin Dunn, “Process improvement using data”, [Online]. Available: https://learnche.org/pid/ (Main texbook M. Tartagni, Electronic Sensor Design Principles, Cambridge Press, 2021 ------------------------------------------------------------------------------------ Physical principles: R. Feynman et al., The Feynman Lectures on Physics, Addison Wesley, 1963 Noise in electronics: P. Gray, R. Meyer, Analysis and Design of Analog Integrated Circuits, Wiley 1993 Ion/electron interface, micro- and nano-fabrication: H. Morgan, N. Green, AC Electrokinetics: colloids and nanoparticles, RSP Press, 2001 M. Madou, Fundamentals of Microfabrication, CRC Press, 2002 Electronic interfaces: D. Johns, K. Martin, Analog Integrated Circuit Design, Wiley, 1997 B. Razavi, Design of Analog CMOS Integrated Circuits, McGraw-Hill, 2000 Machine learning and multivariate analysis: Kevin Dunn, “Process improvement using data”, [Online]. Available: https://learnche.org/pid/ K. P. Murphy, Probabilistic machine learning: an introduction. Cambridge, Massachusetts: The MIT Press, 2022.)
+
+  K. P. Murphy, Probabilistic machine learning: an introduction. Cambridge, Massachusetts: The MIT Press, 2022.
+removed: []

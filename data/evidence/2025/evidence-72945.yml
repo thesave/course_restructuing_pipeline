@@ -1,0 +1,102 @@
+format: evidence/1
+course: '72945'
+title: Real-Time Systems M
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-15'
+    to: '2025-12-16'
+  teaching_ids:
+  - '517549'
+  teachers:
+  - name: Faldella, Eugenio
+    affiliation: unibo
+    role:
+    - former professor
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - Autonomous laboratory activities are also welcome and promoted by suggesting ideas and possible
+      case studies.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The course aims to provide a rational view of the main issues involved in the design of real-time
+    systems, emphasizing peculiar principles, implementation strategies, supporting environments and performance
+    evaluation methods.
+contents:
+- id: c1
+  text: 'An introduction to real-time systems: peculiar features and typical application domains.'
+- id: c2
+  text: Hard vs. soft real-time tasks.
+- id: c3
+  text: Temporal parameters and reference models for periodic, sporadic and aperiodic tasks.
+- id: c4
+  text: 'Real-time scheduling approaches: the clock-driven approach and the priority-driven approach.'
+- id: c5
+  text: 'Algorithms for scheduling hard real-time periodic/sporadic tasks: RM, DM, EDF and LSTF.'
+- id: c6
+  text: 'Server-based strategies for optimizing the response time of soft real-time aperiodic tasks: polling
+    server, deferrable server, priority exchange server, sporadic server, constant utilization server,
+    total bandwidth server.'
+- id: c7
+  text: 'Shared resources access protocols: priority inheritance protocol, priority-ceiling protocol,
+    immediate priority-ceiling protocol, stack resource policy.'
+- id: c8
+  text: 'Pre-run-time schedulability analysis of systems that schedule tasks using static or dynamic priorities:
+    processor-utilization analysis, response-time analysis, processor-demand analysis.'
+- id: c9
+  text: Exemplification of theoretical and methodological issues with reference to design patterns typical
+    of the industrial automation application domain.
+prerequisites: []
+bibliography: |-
+  1. J. W. S. LIU: 'REAL-TIME SYSTEMS', PRENTICE HALL, 2000.
+  2. J. COOLING: 'SOFTWARE ENGINEERING FOR REAL-TIME SYSTEMS', ADDISON WESLEY, 2003.
+  3. G. C. BUTTAZZO: 'HARD REAL-TIME COMPUTING SYSTEMS', Third Edition, SPRINGER, 2011.
+removed: []

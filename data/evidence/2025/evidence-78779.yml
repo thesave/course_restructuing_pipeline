@@ -1,0 +1,225 @@
+format: evidence/1
+course: '78779'
+title: Mobile Systems M
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-18'
+    to: '2026-06-04'
+  teaching_ids:
+  - '468026'
+  teachers:
+  - name: Bellavista, Paolo
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '468026'
+  laboratory:
+    value: true
+    evidence:
+    - The course will be accompanied by a set of practical lab exercises, where students will be solicited
+      to complete guided project activities, including a significant amount of autonomous personal work.
+    - These activities will be needed to complete the exam preparation and to achieve the desired abilities/skills;
+      text and solutions of lab exercises will be available at the course Web site.
+    - 'Lab activities will include (list to be completed and finalized):'
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the students are able to effectively develop and dynamically manage the
+    runtime provisioning of mobile services.
+- id: o2
+  text: This requires acquiring expertise and theoretical skills, as well as design/implementation abilities,
+    related to models and solutions for mobile systems, for mobile services provided on top of them, and
+    for support systems (middleware) needed for their effective runtime execution.
+contents:
+- id: c1
+  text: The course intends to provide students with methodology, modeling, design, and implementation
+    skills/expertise related to the development, deployment, and runtime evaluation of mobile systems,
+    of mobile services, and of middleware supports for the effective management of those services at provisioning
+    time.
+- id: c2
+  text: 'Introduction to wireless communication systems: propagation models; fading models; rapid introductory
+    overview of main types of wireless communication technologies'
+- id: c3
+  text: 'IEEE 802.11: general features; from CSMA/CD over Ethernet to CSMA/CA; hidden and exposed terminal
+    issues; MACA; configurations for infrastructured and ad-hoc modes;'
+- id: c4
+  text: IEEE 802.16;
+- id: c5
+  text: IEEE 802.20;
+- id: c6
+  text: IEEE 802.11 for municipal meshes;
+- id: c7
+  text: Wi-Fi Direct.
+- id: c8
+  text: 'Cellular networks and handoff: GSM architecture; handoff with common MSC; handoff with differentiated
+    MSCs; handoff classification'
+- id: c9
+  text: 'Bluetooth: protocol stack; different possible topologies; discovery service; scatternet and multi-hop
+    communications; software stack for Bluetooth Java programming'
+- id: c10
+  text: 'Rapid overview of ZigBee: features, architecture, possible topologies'
+- id: c11
+  text: 'Mobile Ad Hoc Network (MANET): definition and application domains; routing in MANET, reactive/proactive/geographic/hybrid
+    routing; Dynamic Source Routing (DSR); Ad-hoc On Demand Distance Vector (AODV); Greedy Perimeter Stateless
+    Routing (GPSR); rapid overview on clustering solutions; LEACH, HEED, REDMAN'
+- id: c12
+  text: 'Mobility and handoff management: introduction and definitions'
+- id: c13
+  text: 'Location update and location search. Mobile IP: features, architecture, protocol, issues. Hierarchical
+    Mobile IPv6 (HMIPv6). Split connection and I-TCP'
+- id: c14
+  text: 'Positioning systems: motivations; taxonomy (physical/symbolic, centralized/distributed, absolute/relative,
+    accuracy, precision, cost, and limitations). Base techniques: lateration, time difference of arrival,
+    angulation, scene analysis, proximity'
+- id: c15
+  text: Positioning systems for ad-hoc networks
+- id: c16
+  text: 'Positioning systems with additional hardware. GPS: features, limitations, differential GPS. Active
+    Badge, AHLoS'
+- id: c17
+  text: 'Positioning systems with no additional hardware: based on Bluetooth, PlaceLab, RADAR, Ekahau,
+    Sensor Fusion, Universal Location Framework, JSR-179'
+- id: c18
+  text: 'Development platforms for mobile systems (smart phone): overview, general concepts, definitions;
+    concise comparison of J2ME, .NET CF, FlashLite, Android.'
+- id: c19
+  text: 'Android: introduction; architecture; OS kernel layer; power management and wakelock; native libraries;
+    Dalvik VM; application framework; core applications; application model; activity lifecycle; intents
+    and intent filters; threading model; examples and exercises. Description of the proposed exercise
+    on Android'
+- id: c20
+  text: 'Rapid overview on iOS: architecture; multi-tasking model; simple programming examples; native/Web
+    applications for iOS (introductory overview of HTML5); unlocking and jailbreaking'
+- id: c21
+  text: 'Mobile middleware: definitions, motivations, advantages. Relevance of determining principles
+    and patterns. Internet principles: end-to-end and robustness principles. Web principles. SOA principles.
+    Mobile computing principles. Cross-layering principle. Architectural patterns, general and specific
+    for mobile computing.'
+- id: c22
+  text: 'Internet of Things (IoT) platforms: definitions and reference architectues, primary state-of-the-art
+    platforms in the market, mobile and industrial IoT, research directions under current investigation,
+    use cases of industrial applications'
+- id: c23
+  text: 'Discovery services: definition, taxonomy, auto-configuration, discovery, access to resources/services'
+- id: c24
+  text: Jini, with description of proposed exercise
+- id: c25
+  text: Service location Protocol (SLP)
+- id: c26
+  text: 'UPnP: architecture, description files, bridging possibilities, examples and exercises. Description
+    of proposed exercise on UPnP'
+- id: c27
+  text: 'Session management in converged 4G networks: Session Initiation Protocol (SIP), main features,
+    scalability limitations. Session management in IP Multimedia Sub-system (IMS): architecture, functional
+    entities, protocol examples, limitations in terms of monitoring, load-balancing, and scalability'
+- id: c28
+  text: 'Messaging support in mobile systems: motivations; principles and architecture; protocols for
+    message exchange; locator'
+- id: c29
+  text: 'JMS: features, architecture, messaging models, reliability and quality, examples'
+- id: c30
+  text: CORBA Messaging (AMI and TII)
+- id: c31
+  text: Rapid overview on XMPP, Web Services, and RESTful Web Services
+- id: c32
+  text: 'Event management and pub/sub model: possible topologies for event routers. Propagation of interests
+    and subscriptions. Routing decisions'
+- id: c33
+  text: 'Examples of distributed event systems: OMG DDS (partitions and quality levels); Java model for
+    distributed events; General Event Notification Architecture (GENA); RSS/Atom; SIP Event Framework;
+    Web Services Eventing & Notification'
+- id: c34
+  text: 'Data synchronization in mobile systems: pessimistic/optimistic approaches; versioning; detection;
+    reconciliation'
+- id: c35
+  text: 'SyncML: representation protocol; synchronization protocol; examples'
+- id: c36
+  text: 'Edge/Fog Computing: efficient integration of sensor-edge-cloud; distributed control and intelligence;
+    offloading; proactive approaches and mobility prediction'
+- id: c37
+  text: 'ETSI Mobile Edge Computing and O-RAN: emerging standard specifications; deployment approaches
+    in 5G; orchestration and ETSI MANO; new platforms for Open Radio Access Networking in 5G'
+- id: c38
+  text: Selection of primary application domains (4 examples, from vehicular ad hoc applications to federated
+    social spontaneous networks),also to suggest/solicit some possible project activities to associate
+    with the course
+- id: c39
+  text: Several case studies (also presented within company seminars, in addition to the regular lectures
+    hours)
+- id: c40
+  text: The course will be associated with a set of practical lab exercises, where the students will have
+    the opportunity of completing their preparation through guided and simplified projects, to be solved
+    autonomously.
+- id: c41
+  text: These lab activities will be necessary for the full achievement of the desired abilities and course
+    objectives; texts and solutions of proposed exercises will be available at the Course Web site.
+- id: c42
+  text: The proposed set of exercises is described in the Teaching Methods section.
+prerequisites:
+- id: p1
+  text: 'Constraints on previous knowledge: nothing (but the contents of the courses "Computer Networks
+    T", "Web Technologies T" and, only very partially, "Infrastructures for Cloud Computing and Big Data
+    M" could be useful and valuable in a few parts of the course)'
+bibliography: |-
+  Suggested texts/manuals (useful sometimes as references, not adopted as textbooks):
+
+  - S. Tarkoma, Mobile Middleware, Wiley, 2009
+  - Ke-Lin Du, M.N.S. Swamy, Wireless Communication Systems, Cambridge University Press, 2010
+  - Z. Mednieks, L. Dornin, G.B. Meike, M. Nakamura, Programming Android, O'Reilly, 2nd edition, 2012
+  - D. Sillars, High-Performance Android Apps, O'Reilly, 2014
+
+  Other valuable on-line sources of information (for a complete list on the different topics covered by the course, please see the lectures slides):
+
+  - Lectures of the Mobile & Pervasive Computing course, Univ. Carnegie-Mellon
+  - Lectures of the Mobile Computing course, Univ. Ohio
+  - Lectures of the Pervasive Computing course, MIT
+  - Lectures of the Mobile Computing course, Virginia Tech
+  - Lectures of the Mobile Computing and Sensor Networks course, NJIT
+removed: []

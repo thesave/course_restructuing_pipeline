@@ -1,0 +1,159 @@
+format: evidence/1
+course: '66860'
+title: Mobile Applications Laboratory
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially) In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules: []
+  teaching_ids:
+  - '367016'
+  teachers:
+  - name: Montori, Federico
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6060'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6641'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8014'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '367016'
+  laboratory:
+    value: true
+    evidence:
+    - In particular, after presenting the basic notions and development tools (iOS Xcode and Android SDK),
+      the course is divided into two parallel but asymmetrical tracks of lectures and laboratory sessions
+      focused on mobile application development in the Android and iOS environments.
+    - This approach fosters understanding of the principles and their practical implementation, enabling
+      students to independently develop their own prototype applications outside the classroom (using
+      personal development tools or the course’s teaching laboratory facilities).
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student knows methodological and technological aspects, and application
+    development tools for mobile devices both under iOS (iPhone, iPad, iPod Touch) and Android platforms.
+- id: o2
+  text: Students will understand the management of devices with innovative user interfaces, multi-touch,
+    event management, ObjectiveC programming, Xcode and Cocoa Touch, Eclipse and Android SDK, design patterns,
+    I/O, sensors and geo-localization/maps APIs, networking services, debugging and testing of applications.
+- id: o3
+  text: In addition, students will understand the basic issues of applications' execution in wireless
+    mobile scenarios, and will experience the most relevant platforms for mobile applications' development,
+    APIs of internal devices, multimedia management, iPhone and Android SDK and design of applications
+    under a Model-View-Control pattern.
+contents:
+- id: c1
+  text: Overview of the technological aspects of mobile devices
+- id: c2
+  text: Differences between hybrid, native, and Web applications
+- id: c3
+  text: Android Setup
+- id: c4
+  text: Android Architecture and Components
+- id: c5
+  text: Kotlin for Android
+- id: c6
+  text: Android Activities
+- id: c7
+  text: Android Views, Layouts, and Events
+- id: c8
+  text: Android Resources
+- id: c9
+  text: Android Intents
+- id: c10
+  text: iOS Setup
+- id: c11
+  text: iOS Architecture and Components
+- id: c12
+  text: Swift for iOS
+- id: c13
+  text: iOS Storyboards and UIKit
+- id: c14
+  text: iOS Targets, Actions, and Outlets
+- id: c15
+  text: Architectural Design Patterns
+- id: c16
+  text: Android Background Work
+- id: c17
+  text: Android Data Management
+- id: c18
+  text: Android Fragments and Navigation
+- id: c19
+  text: Pervasive computing (maps, sensors, …)
+- id: c20
+  text: Programmatic UI and Compose
+- id: c21
+  text: Programmatic UI and SwiftUI
+- id: c22
+  text: Unit Tests and UI Tests
+- id: c23
+  text: Flutter
+- id: c24
+  text: React Native
+prerequisites: []
+bibliography: |-
+  Online material on https://developer.apple.com/library/ios/navigation/
+
+  Online material on https://developer.android.com/
+removed: []

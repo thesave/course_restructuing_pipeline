@@ -1,0 +1,106 @@
+format: evidence/1
+course: '96007'
+title: Foundations of Computer Architecture and Operating Systems
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-17'
+    to: '2025-12-09'
+  teaching_ids:
+  - '498814'
+  teachers:
+  - name: Notaro, Fabio
+    affiliation: disi
+    role:
+    - phd student
+  - name: Pellegrini, Lorenzo
+    affiliation: disi
+    role:
+    - rtda
+  programmes:
+  - code: '6007'
+    name: Computer Systems Technologies
+    department: disi
+    campus: Cesena, Imola
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '498814'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student will know the principles and methods underlying the logical
+    design of machines that receive, process, and generate binary signals.
+- id: o2
+  text: 'The student will also understand the elementary principles used to describe the machine from
+    two perspectives: behavior (i.e., "what it does") and structure (i.e., "how it is built").'
+- id: o3
+  text: The student will be familiar with the architecture of computers and their structuring into layers,
+    and will be able to understand low-level programming languages used to program information processors.
+- id: o4
+  text: The student will also be familiar with the functionalities of the operating system, the issues
+    of multi-user systems and concurrency, the character-based user interface, and the structure of the
+    filesystem.
+contents:
+- id: c1
+  text: The course is divided into two parts
+- id: c2
+  text: Elements of Computer Architecture
+  items:
+  - id: c2.1
+    text: '- Introduction to computer science and the history of computers'
+  - id: c2.2
+    text: '- Numbering systems'
+  - id: c2.3
+    text: '- Binary representation of information'
+  - id: c2.4
+    text: '- Computer arithmetic'
+  - id: c2.5
+    text: '- Boolean algebra'
+  - id: c2.6
+    text: '- Computer architecture'
+  - id: c2.7
+    text: '- The motherboard, CPU, and machine language'
+  - id: c2.8
+    text: '- Memory, interfaces, and peripherals'
+- id: c3
+  text: The Operating System
+  items:
+  - id: c3.1
+    text: '- Functionality of the operating system'
+  - id: c3.2
+    text: '- CPU scheduling'
+  - id: c3.3
+    text: '- Concurrency and parallelism'
+  - id: c3.4
+    text: '- Memory management'
+  - id: c3.5
+    text: '- File system management'
+  - id: c3.6
+    text: '- Management of I/O devices'
+prerequisites: []
+bibliography: |-
+  - Lecturer's slides
+  - Silberschatz, P.B. Galvin, G. Gagne, Sistemi operativi. Concetti ed esempi, dalla nona edizione in avanti, Pearson Education Italia (2014)
+  - A. S. Tanenbaum, T. Austin, “Architettura dei Calcolatori”, 6/Ed., Pearson Education Limited, 2013
+removed: []

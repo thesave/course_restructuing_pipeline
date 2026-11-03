@@ -1,0 +1,103 @@
+format: evidence/1
+course: '72796'
+title: Data Intensive Applications
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-19'
+    to: '2026-06-05'
+  teaching_ids:
+  - '385100'
+  teachers:
+  - name: Moro, Gianluca
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Pasolini, Roberto
+    affiliation: disi
+    role:
+    - teaching tutor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '385100'
+  laboratory:
+    value: true
+    evidence:
+    - Lectures are followed by aided laboratory practicals on real case studies of machine learning and
+      data science for the development of artificial intelligence applications in several industrial and
+      social domains.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student is able to design and develop intelligent applications of
+    corporate interest by processing structured and unsctructured data with modern data science methods
+    and fundamental machine learning technologies.
+contents:
+- id: c1
+  text: The course covers the fundamentals of data science and machine learning from basic algorithms
+    to neural networks for developing AI applications in python.
+- id: c2
+  text: Course Content Details
+- id: c3
+  text: Lectures and Laboratories
+- id: c4
+  text: course web site (https://virtuale.unibo.it/course/view.php?id=52948) (https://virtuale.unibo.it/course/view.php?id=52948)
+- id: c5
+  text: The material view does not require the enrolment to the course (in this case access the course
+    web site selecting "spontaneous registration")
+prerequisites: []
+bibliography: |-
+  - Materials and bibliographic references supplied by the teacher
+
+  Suggested course book
+
+  - Data Science from Scratch (https://iol.unibo.it/mod/book/view.php?id=222834), Joel Grus, O’Reilly Media, 2019 early edition freely available (http://www.egeaeditore.it/eng/products/ict-e-sistemi-informativi/data-science-con-python__.aspx) (previous edition 2015). Italian edition 2021, Data Science con Python. Dai Fondamenti al Machine Learning. Scientific Editor Gianluca Moro. Published by EGEA.
+removed:
+- text: https://bit.ly/3aG9Brb
+  reason: link

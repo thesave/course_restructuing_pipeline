@@ -1,0 +1,169 @@
+format: evidence/1
+course: '81932'
+title: Big Data
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-17'
+    to: '2025-12-10'
+  teaching_ids:
+  - '412684'
+  - '526528'
+  teachers:
+  - name: Gallinucci, Enrico
+    affiliation: disi
+    role:
+    - tenure-track researcher
+  programmes:
+  - code: '5815'
+    name: Digital Transformation Management
+    department: disi
+    campus: Cesena, Forlì
+    cycle: second
+    languages:
+    - english
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '412684'
+    - '526528'
+  laboratory:
+    value: true
+    evidence:
+    - As concerns the teaching methods of this course unit, all students must attend Module 1, 2 on Health
+      and Safety (https://www.unibo.it/en/services-and-opportunities/health-and-assistance/health-and-safety/online-course-on-health-and-safety-in-study-and-internship-areas)
+      online.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student:- Knows the applications of Big Data technologies and the
+    respective challenges - Knows the available hardware and software architectures to handle Big Data
+    - Knows the techniques to store the data, the programming languages and paradigms generally adopted
+    in this kind of systems - Knows the design methodologies for the different kinds of applications in
+    the area of Big Data - Acquires practical expertise in using the different technologies through laboratory
+    and projects.
+- id: o2
+  text: 'In particular, the main technologies used in practical exercises will be NoSQL databases and
+    the Hadoop platform: Hive, Spark, Tez, Dremel, Giraph, Storm, Mahout, and Open R'
+contents:
+- id: c1
+  text: Modules
+  heading: true
+  items:
+  - id: c1.1
+    text: The course is split into two modules.
+  - id: c1.2
+    text: The first module (20 hours) is mostly theoretical and it is shared with the Master's Degree
+      in Digital Transformation Management (corresponding to Module 1 of Big Data and Cloud Platforms
+      (https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2025/466768)).
+  - id: c1.3
+    text: The second module (30 hours) is mostly practical and it is exclusive to the Master's Degree
+      in Computer Science and Engineering.
+- id: c2
+  text: 'Introduction to the course and to Big Data: what they are and how to use them'
+- id: c3
+  text: Cluster computing to handle Big Data
+- id: c4
+  text: Hardware and software architectures
+- id: c5
+  text: The Apache Hadoop framework and its modules (HDFS, YARN)
+- id: c6
+  text: Hadoop-specific data structures (Apache Parquet)
+- id: c7
+  text: 'The MapReduce paradigm: basic principles, limitations, design of algorithms'
+- id: c8
+  text: The Apache Spark system
+- id: c9
+  text: Architecture, data structures,basic principles
+- id: c10
+  text: Data partitioning and shuffling
+- id: c11
+  text: Optimization of the computation
+- id: c12
+  text: SQL on Big Data with Spark SQL
+- id: c13
+  text: Data streaming
+- id: c14
+  text: The architecture to handle data streaming
+- id: c15
+  text: Approximated algorithms in the streaming context
+- id: c16
+  text: NoSQL databases
+- id: c17
+  text: Handling Big Data in the Cloud
+- id: c18
+  text: Cluster on-premises vs in the cloud
+- id: c19
+  text: The technological stack in the cloud
+- id: c20
+  text: Deploy of a real case study on a cloud provider
+- id: c21
+  text: Designing non-trivial problems under the MapReduce paradigm
+prerequisites:
+- id: p1
+  text: A prior knowledge of relational databases, Java and Scala programming languages, and Unix-like
+    systems is required to attend the course.
+- id: p2
+  text: Attendance of Business Intelligence and Data Mining courses is encouraged.
+- id: p3
+  text: Classes and teaching material are in English.
+- id: p4
+  text: A good comprehension of English is thus required to use the material and interact during class.
+- id: p5
+  text: Exam can be given in Italian.
+bibliography: |-
+  - Slides
+
+  Recommended readings:
+
+  - Tom White. Hadoop - The Definitive Guide (4th edition). O'Reilly, 2015
+  - Matei Zaharia, Holden Karau, Andy Konwinski, Patrick Wendell. Learning Spark, 2nd Edition**. O'Reilly, 2020
+  - Andrew G. Psaltis. *Streaming Data - Understanding the real-time pipeline.*Manning, 2017
+  - Ian Foster, Dennis Gannon. Cloud Computing for Science and Engineering. MIT Press, 2017
+
+  Further readings will be mentioned during the course.
+removed: []

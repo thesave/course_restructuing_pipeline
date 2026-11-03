@@ -1,0 +1,113 @@
+format: evidence/1
+course: '93469'
+title: Human Data Science
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-05-08'
+  teaching_ids:
+  - '479054'
+  teachers:
+  - name: Roccetti, Marco
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '479054'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: This course aims to demonstrate ways in which human-centric perspectives lead to new approaches
+    to analyzing, evaluating and understanding machine learning (ML) models.
+- id: o2
+  text: For instance, a conventional focus on traditional computational criteria may be insufficient to
+    identify suitable ML-based systems.
+- id: o3
+  text: Instead, reflecting on the training data and their role and quality, as well as relying on tight
+    action-feedback loops that engage humans, may bring to modified model behaviors that are beneficial
+    to users, helping them to understand those models as more than simple black boxes.
+- id: o4
+  text: Misuses of big data, lack of specific attention to their quality and absence of humans in the
+    loop are discussed with the aim to understand what makes Data Science different.
+contents:
+- id: c1
+  text: Human Data Science integrates the study of data science with breakthroughs in humans and algorithms
+    to advance our ecosystem of knowledge and help everyone make better, more insightful decisions.
+- id: c2
+  text: 'Case studies will be presented to illustrate the following:'
+- id: c3
+  text: 'Inferential Modeling: Foundations of logical inference (Modus Ponens/Tollens) vs. probabilistic
+    reasoning (Bayesian updating) to model human reasoning and decision-making under uncertainty.'
+- id: c4
+  text: 'Data reliability: Regression, Hypothesis testing, CI, sampling bias.'
+- id: c5
+  text: 'Variance-based Analytics: Variance partitioning, reliability assessment, and data integrity as
+    critical tools to separate signal from noise in complex human domains.'
+- id: c6
+  text: 'Datification/Interaction: Understanding how we transform human behavior into data and the risks
+    of misinterpretation.'
+- id: c7
+  text: 'Predictive/Prescient Intelligence: The promises and limits of forecasting human-centric events.'
+- id: c8
+  text: 'Data Thinking & Delusion: Navigating the data deluge, from information profusion to the critical
+    necessity of filtering.'
+- id: c9
+  text: 'Models for Humans and Machines: Machine learning and Deep learning architectures as cognitive
+    augmentations rather than replacements.'
+- id: c10
+  text: 'Human-Machine Collaboration Workflow: Designing feedback loops that maintain human agency and
+    oversight.'
+- id: c11
+  text: 'Human factors and ELSI: Ethical, Legal, and Social Implications of algorithm-driven decisions.'
+prerequisites: []
+bibliography: Scientific papers and reports delivered by the Lecturer during the course
+removed: []

@@ -1,0 +1,185 @@
+format: evidence/1
+course: '81678'
+title: Laboratory of Making
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-05-12'
+  teaching_ids:
+  - '544349'
+  - '545359'
+  teachers:
+  - name: Davoli, Renzo
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Iannoli, Andrea
+    affiliation: mat
+    role:
+    - research scholarship holder
+  - name: Montori, Federico
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6060'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6641'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8014'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '544349'
+    - '545359'
+  laboratory:
+    value: true
+    evidence:
+    - Lectures in the classroom and/or in the lab, with the use of design materials.
+    - Given the type of activity and teaching methods adopted, attendance at this training activity requires
+      all students to first participate in Modules 1 and 2 of the e-learning course on workplace safety
+      [https://elearning-sicurezza.unibo.it/].
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of this course students will be able to design and create digitally enabled "things"
+    consisting of single board computers, sensors and actuators.
+- id: o2
+  text: They will be also able to study and implements all the software components needed by their "things"
+    to interface peripherals, to process data and to communicate/interoperate.
+- id: o3
+  text: Tools to create physical objects will be studied in this course as well, both additive and subtractive
+    manifacturing methods.
+- id: o4
+  text: The students will learn how to implement innovative software for CNC-like machines (3D printers,
+    CNC mills, laser cutters, etc).
+- id: o5
+  text: In this way a student can design physical and digitally enabled objects and tools from blueprint
+    to prototype.
+- id: o6
+  text: Such "digital craft working" professionals can provide original solutions for both practical and
+    artistic challenges.
+- id: o7
+  text: Subjects of the course will also be the design and development of teaching methods for computer
+    Science based on Making, and Making as a problem solving paradigm.
+- id: o8
+  text: At the end of the course, the student is able to design and build objects composed of microsystems,
+    sensors, and actuators, as well as to study and develop the related software components for interfacing,
+    processing, and communication.
+- id: o9
+  text: The purpose of the course is to integrate knowledge of computer science with the basics of analog
+    and digital electronics for interfacing, processing, and communication, including radio transmission.
+- id: o10
+  text: The course also introduces the principles of operation of tools for the physical 3D realization
+    of objects through constructive or subtractive synthesis, and provides skills related to software
+    for the innovative use of 3D printers.
+- id: o11
+  text: In this way, the student is capable of formulating and carrying out digital craftsmanship projects
+    to deliver original and creative solutions for specific practical problems or artistic purposes.
+- id: o12
+  text: Additionally, skills will be provided for designing and developing teaching methodologies in computer
+    science based on the concept of Making, as well as constructive problem-solving techniques
+contents:
+- id: c1
+  text: Module 1
+  heading: true
+  items:
+  - id: c1.1
+    text: 'Introduction: Digital Artisans'
+  - id: c1.2
+    text: 'Electronics with passive components: electric current, intensity, potential, power, energy,
+      Kirchhoff''s laws, resistors, Ohm''s laws, capacitors, inductors, transformers.'
+  - id: c1.3
+    text: 'Semiconductors: diodes, transistors'
+  - id: c1.4
+    text: 'Use of laboratory instruments: multimeter, oscilloscope, logic analyzer'
+  - id: c1.5
+    text: Digital Electronics
+  - id: c1.6
+    text: Radio Waves
+  - id: c1.7
+    text: 'FPGA and HDL: verilog, workbench/simulation'
+- id: c2
+  text: Module 2
+  heading: true
+  items:
+  - id: c2.1
+    text: 'The course contents include the following topics, ranging from electronics to computer science:'
+  - id: c2.2
+    text: Arduinos and microcontrollers
+  - id: c2.3
+    text: Raspberry Pi e Systems-on-Chip
+  - id: c2.4
+    text: Serial communication protocols (OneWire, I2C, SPI, UART)
+  - id: c2.5
+    text: Engines and H-bridges
+  - id: c2.6
+    text: Radio Frequency Identification (RFID)
+  - id: c2.7
+    text: VoIP telephone exchanges (Asterisk)
+  - id: c2.8
+    text: Principles of 3D Printing
+prerequisites: []
+bibliography: |-
+  Lecture slides, teacher handouts.
+  “Electronics for Makers - Second Edition” by Paolo Aliverti, LSWR Editions
+removed: []

@@ -1,0 +1,237 @@
+format: evidence/1
+course: '97466'
+title: Digital represention of the Landscape Project
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-24'
+    to: '2026-05-14'
+  teaching_ids:
+  - '517925'
+  teachers:
+  - name: Barbaresi, Alberto
+    affiliation: distal
+    role:
+    - associate professor
+  programmes:
+  - code: '5830'
+    name: Sciences and Technologies for Green and Landscape
+    department: distal
+    campus: Imola
+    cycle: first
+    languages:
+    - italian
+  - code: '6628'
+    name: Sciences and Technologies for Green and Landscape
+    department: distal
+    campus: Imola
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, students will understand the theoretical foundations and operational
+    tools for using digital technologies to support the representation of green space and landscape design.
+- id: o2
+  text: Specifically, students will acquire basic knowledge of computer science applied to digital graphic
+    representation, as well as the methodologies and tools necessary for its use in the visual representation
+    of open space design projects.
+- id: o3
+  text: 'In particular, students will be able to:'
+- id: o4
+  text: Use software applications to manage various graphic file formats;
+- id: o5
+  text: Use CAD-type software tools;
+- id: o6
+  text: Represent landscapes and open space designs by managing and processing drawings and layout sheets
+    using appropriate applications.
+contents:
+- id: c1
+  text: The course aims to provide students with both critical and cultural tools and theoretical foundations
+    related to the field of landscape representation, as well as practical skills for using digital tools
+    in support of landscape survey/design representation.
+- id: c2
+  text: The course also fosters informed decision-making in the use of digital graphics for project control,
+    communication, and presentation.
+- id: c3
+  text: By the end of the course, students will have acquired the cultural, methodological, and technical
+    skills needed to access, navigate, and manage the basics of digital graphic representation.
+- id: c4
+  text: They will also develop communicative and organizational tools to effectively present graphical
+    materials, supporting their future professional autonomy.
+- id: c5
+  text: Specifically, students will acquire fundamental knowledge of computer-based digital graphics,
+    along with methodologies and tools for representing surveys/designs of open spaces.
+- id: c6
+  text: 'They will be able to:'
+- id: c7
+  text: Organize and manage the digital graphic rendering of survey data and any design elements through
+    coherent and professionally effective presentations;
+- id: c8
+  text: Use software to manage various graphic formats, particularly AutoCAD and basic image editing tools;
+- id: c9
+  text: Represent landscape design projects by managing and producing drawings and layout sheets with
+    appropriate graphic applications.
+- id: c10
+  text: Teaching Unit 1.
+- id: c11
+  text: 'Theoretical Content: General Culture on Digital Representation'
+- id: c12
+  text: Expected Learning Outcomes
+  items:
+  - id: c12.1
+    text: Students will understand the structure and functions of the main software used in digital project
+      design, with particular focus on applications for open space representation.
+  - id: c12.2
+    text: They will develop awareness and practical knowledge in organizing survey/design layouts, digitally
+      representing entire projects, and appreciating the relevance and potential of digital representation—including
+      a retrospective understanding of the evolution of graphic software tools.
+- id: c13
+  text: Main Topics
+  items:
+  - id: c13.1
+    text: 'Computer graphics: raster and vector graphics;'
+  - id: c13.2
+    text: Overview of software for project representation used throughout the course;
+  - id: c13.3
+    text: Existing condition analysis and photographic documentation;
+  - id: c13.4
+    text: The role of digital representation in landscape design.
+- id: c14
+  text: Teaching Unit 2.
+- id: c15
+  text: 'Theoretical Content: Vision, Perception, and Landscape Survey'
+- id: c16
+  text: Expected Learning Outcomes
+  items:
+  - id: c16.1
+    text: Considering representation as a language and site interpretation as a form of knowledge, students
+      will learn the conceptual and technical principles of environmental perception and its graphical
+      transposition.
+  - id: c16.2
+    text: Emphasis will be placed on survey/design representation in urban, rural, and landscape contexts.
+  - id: c16.3
+    text: Students will become aware of visual perception as both an environmental and cultural/aesthetic
+      learning process.
+  - id: c16.4
+    text: They will begin to perceive landscape signs and develop the foundations of visual and graphic
+      thinking, initiating the morphologic and conceptual reading of the site and its digital iconographic
+      translation.
+- id: c17
+  text: Main Topics
+  items:
+  - id: c17.1
+    text: Methods and techniques for landscape survey and representation;
+  - id: c17.2
+    text: 'Drawing tools: from sketching to digital drawing;'
+  - id: c17.3
+    text: Digital graphic techniques for surveying;
+  - id: c17.4
+    text: Scale variation in landscape project representation;
+  - id: c17.5
+    text: Techniques for representing vegetation in landscape design.
+- id: c18
+  text: Teaching Unit 3.
+- id: c19
+  text: 'Practical Content: AutoCAD Software'
+- id: c20
+  text: Expected Learning Outcomes
+  items:
+  - id: c20.1
+    text: Students will become familiar with the AutoCAD interface and deepen their knowledge of its main
+      tools and commands for appropriate use in landscape design.
+- id: c21
+  text: Main Topics
+  items:
+  - id: c21.1
+    text: 'AutoCAD interface: main toolbars and their functions, drawing units;'
+  - id: c21.2
+    text: Layer management, line types, Properties panel;
+  - id: c21.3
+    text: Object snap, object editing via grips;
+  - id: c21.4
+    text: Texts and dimensions;
+  - id: c21.5
+    text: 'Blocks: creation and modification;'
+  - id: c21.6
+    text: Image insertion and management;
+  - id: c21.7
+    text: Print layout management and sheet setup.
+- id: c22
+  text: Teaching Unit 4.
+- id: c23
+  text: Logical Organization of Sheets and Image Libraries
+- id: c24
+  text: Expected Learning Outcomes
+  items:
+  - id: c24.1
+    text: Through proper use of 2D drawing tools, students will learn how to logically structure and sequence
+      layout sheets for effective project representation.
+  - id: c24.2
+    text: They will also understand the value of building and maintaining a graphic library—an essential
+      resource for any design professional.
+- id: c25
+  text: Main Topics
+  items:
+  - id: c25.1
+    text: 'Layout sheet structure and organization: pagination, layout, sequence, headers;'
+  - id: c25.2
+    text: Organization and management of graphic libraries for landscape project representation.
+- id: c26
+  text: Teaching Unit 5.
+- id: c27
+  text: 'Practical Content: Computer-Aided Drawing'
+- id: c28
+  text: Expected Learning Outcomes
+  items:
+  - id: c28.1
+    text: Students will be able to use digital tools to create graphic and photographic materials for
+      representing landscape projects.
+  - id: c28.2
+    text: They will also be able to translate their understanding of a site into visual form, logically
+      organize layout structures, and sequence the sheets for clear and effective project communication.
+- id: c29
+  text: Main Topics
+  items:
+  - id: c29.1
+    text: Digital drawing of a survey and related project;
+  - id: c29.2
+    text: Final layout and sequencing of sheets;
+  - id: c29.3
+    text: Preparation of print files.
+prerequisites: []
+bibliography: |-
+  Essential readings on the topics of representation (books and journals available at the Vespignani Complex Library):
+
+  - Hutchison E., Drawing for Landscape Architecture, Thames & Hudson, NY 2011
+  - Wilk S., Construction and Design Manual. Drawing for Landscape Architects, DOM Publishers, Berlin 2014
+  - Pasquali M. (ed.), Archipel: l’arte di fare giardini, Bollati Boringhieri, Torino 2008 (especially the chapter on "Drawing")
+
+  Additionally, the following articles will be made available to students at the beginning of the course through the “Virtuale” platform and are considered essential:
+
+  - “Speaking about Drawing. An exploration of representation in recent landscape architecture” by S. Noel van Dooren, in TOPOS 80/2012, pp. 43–54
+  - “The Critical Visual Landscape,” Thinking Eye section, in JoLA, 3/2015, pp. 38–51
+
+  Course lecture notes (handouts) will also be considered essential for exam preparation. Any further references will be provided during the course based on the specific topics covered.
+removed: []

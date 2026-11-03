@@ -1,0 +1,81 @@
+format: evidence/1
+course: '58348'
+title: Lab-based Course on Operating Systems
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules: []
+  teaching_ids:
+  - '501528'
+  teachers:
+  - name: Persiani, Michele
+    affiliation: disi
+    role:
+    - research fellow
+  - name: Sangiorgi, Davide
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '6060'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6641'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8014'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '501528'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the lab course, the student is capable of reasoning with the concepts and the theory
+    examined during the main course.
+contents:
+- id: c1
+  text: 'Support for the main topics in the "Operating System" course, notably:'
+- id: c2
+  text: Java threads
+- id: c3
+  text: Sinchronisation among processes
+- id: c4
+  text: Communication primitives for networks
+- id: c5
+  text: Shell and shell programming
+- id: c6
+  text: Client-server programming
+prerequisites: []
+bibliography: See information in the "Operating System" module.
+removed: []

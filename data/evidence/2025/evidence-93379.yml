@@ -1,0 +1,115 @@
+format: evidence/1
+course: '93379'
+title: Digital Culture
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 9
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-16'
+    to: '2025-12-15'
+  teaching_ids:
+  - '455220'
+  teachers:
+  - name: Ronsivalle, Gaetano Bruno
+    affiliation: disa
+    role:
+    - adjunct professor
+  programmes:
+  - code: '6613'
+    name: Management and Marketing
+    department: disa
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8406'
+    name: Management and Marketing
+    department: disa
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student will be familiar with the fundamental principles of digital
+    culture and the relationship between the frontier topics of digital technological development and
+    business management.
+- id: o2
+  text: The student will therefore be able to understand and implement the development of digital technology
+    in the managerial management of the company, both internally, such as human resources and operations
+    management, and externally, such as the management of marketing activities.
+contents:
+- id: c1
+  text: Module 1 - The New Digital Intelligence
+  heading: true
+  items:
+  - id: c1.1
+    text: LU1. The Discrete Charm of Digital - The new paradigm and the IT revolution - Contrast between
+      "analog" and "digital"
+  - id: c1.2
+    text: LU2. Journey to the Center of Oasis - Impact of digitalization on various aspects of reality
+      - Effects of the IT revolution in astronomical, ecological, political, economic, social, and individual
+      spheres
+  - id: c1.3
+    text: 'LU3. Hercules at the Crossroads: Decision, Future and Complexity - Effects of the digital revolution
+      on decision-making process phases - Methods of predicting the future'
+  - id: c1.4
+    text: LU4. The New Digital Intelligence - Characteristics of the new "digital intelligence" - The
+      six fundamental dimensions (data acquisition, memory, processing, representation, activation, and
+      adaptation)
+  - id: c1.5
+    text: LU5. From Primordial Chaos to the Kingdom of Bits - The concept of "data" - Methods of constructing
+      and acquiring digital data
+  - id: c1.6
+    text: 'LU6. In Search of Lost Data - Digital memory: fundamental characteristics and properties -
+      The four types of logical architecture'
+  - id: c1.7
+    text: LU7. Physiology of Positronic Thinking - The calculation dimension in digital intelligence -
+      Main methods and algorithms of Machine Learning, time series analysis, and Text Analysis
+  - id: c1.8
+    text: LU8. The Color of Data - Infographic communication techniques - Principles of Data Visualization
+  - id: c1.9
+    text: LU9. The Geometric Construction of Decisions - Characteristics of activation - The logical-functional
+      architecture of an automatic decision system
+  - id: c1.10
+    text: LU10. Digital Intelligence in the Mirror - The dimension of adaptation - Monitoring the quality
+      of a decision-making process
+- id: c2
+  text: Module 2 - Methods and Tools of the New Digital Intelligence
+  heading: true
+  items:
+  - id: c2.1
+    text: Digital Data Acquisition and Storage
+  - id: c2.2
+    text: Machine Learning Laboratory
+  - id: c2.3
+    text: Principles of Data Storytelling
+  - id: c2.4
+    text: LLMs and Generative AI Platforms
+  - id: c2.5
+    text: Artificial Agents for Productivity and Business Processes
+prerequisites: []
+bibliography: |-
+  1. G. B. Ronsivalle, La nuova intelligenza digitale. Come trasformare i dati in decisioni per progettare il futuro. Maggioli, 2022
+  2. G.B. Ronsivalle, I. Baccan, A. Bersan, The Orange Box. Laboratorio di Machine Learning. Wemole, 2024.
+removed: []

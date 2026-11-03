@@ -1,0 +1,206 @@
+format: evidence/1
+course: 95631-A
+title: Machine Learning and Data Mining
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-22'
+    to: '2025-12-17'
+  teaching_ids:
+  - '466769'
+  teachers:
+  - name: Francia, Matteo
+    affiliation: disi
+    role:
+    - tenure-track researcher
+  - name: Golfarelli, Matteo
+    affiliation: disi
+    role:
+    - full professor
+  - name: Pasini, Manuele
+    affiliation: disi
+    role:
+    - phd student
+  programmes:
+  - code: '5815'
+    name: Digital Transformation Management
+    department: disi
+    campus: Cesena, Forlì
+    cycle: second
+    languages:
+    - english
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '6823'
+    name: Digital Transformation Management
+    department: disi
+    campus: Cesena, Forlì
+    cycle: second
+    languages:
+    - english
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '466769'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: After the course the student
+  items:
+  - id: o1.1
+    text: kows the main machine learning techniques
+  - id: o1.2
+    text: knows the methodologies for handling a mining project
+  - id: o1.3
+    text: develops practical skills in the analysis and interpretation of results through practical exercises
+      with commercial tools and / or open source ones.
+contents:
+- id: c1
+  text: The course is organized on two modules.
+- id: c2
+  text: The first one is shared by both the students from Ingegneria e Scienze Informatiche (ISI), and
+    the strudents from Digital Transformation Management (DTM).
+- id: c3
+  text: The second module is specific to each degree.
+- id: c4
+  text: 'Module I: Data Mining (ISI + DTM)'
+  heading: true
+  items:
+  - id: c4.1
+    text: 'Introduction to Data Mining: areas of applicability'
+  - id: c4.2
+    text: The knowledge discovery process
+  - id: c4.3
+    text: Designing a Data Miing Process
+  - id: c4.4
+    text: The CRISP-DM methodology
+  - id: c4.5
+    text: Understanding and preparing data
+  - id: c4.6
+    text: Features of different data types
+  - id: c4.7
+    text: Statistical data analysis
+  - id: c4.8
+    text: Data quality
+  - id: c4.9
+    text: 'Preprocessing: attributes selection and creation'
+  - id: c4.10
+    text: Measuring similarities and dissimilarities
+  - id: c4.11
+    text: Data mining techniques
+  - id: c4.12
+    text: Classification through decision trees and bayesian networks
+    items:
+    - id: c4.12.1
+      text: Association rules
+    - id: c4.12.2
+      text: Clustering
+    - id: c4.12.3
+      text: Outlier detection
+    - id: c4.12.4
+      text: Data understanding and validation
+    - id: c4.12.5
+      text: The Weka software [http://www.cs.waikato.ac.nz/ml/weka/]
+    - id: c4.12.6
+      text: Case studies analysis
+- id: c5
+  text: 'Modulo II ISI: Text Mining'
+  heading: true
+  items:
+  - id: c5.1
+    text: Text Representation, Retrieval, Classification and Opinion Mining
+  - id: c5.2
+    text: Language Models, Transformers, Efficient Attention Mechanisms, Retrieval-Augmented Generation
+      with VectorDB
+  - id: c5.3
+    text: Vision-Language Models, Graph Machine Learning and Neuro-symbolic Methods for Trustworthy AI
+  - id: c5.4
+    text: Generative Large Language Models, Prompt Engineering, Evaluation Methods, Compression and Quantization,
+      Parameter-Efficient Fine-Tuning (e.g. QLoRA, Prompt Tuning) and Large Action Models
+  - id: c5.5
+    text: 'Labs on real-word case studies - Text Summarization, Information Extraction, Chatbot and Function
+      Call Generation etc. - with Python and open source tools: Hugging Face framework, LangChain, LlamaIndex,
+      Milvus etc.'
+- id: c6
+  text: 'Modulo II DTM: Machine Learning'
+  heading: true
+  items:
+  - id: c6.1
+    text: Introduction to Neural Network & Deep Learning
+  - id: c6.2
+    text: Theory and application of the CRISP-DM methodology to real datasets and use cases
+  - id: c6.3
+    text: Data acquisition and processing
+  - id: c6.4
+    text: Preprocessing and Feature Extraction
+  - id: c6.5
+    text: Modeling
+  - id: c6.6
+    text: Output understanding
+prerequisites: []
+bibliography: |-
+  ------------ Modulo I: Data Mining (ISI + DTM)
+
+  Pang-Ning Tan, Michael Steinbach, Vipin Kumar Introduction to Data Mining. Pearson International, 2006.
+
+  ------------ Modulo II ISI: Text Mining (Prof. Gianluca Moro)
+
+  The teaching material is provided by the instructor on the course’s “virtual” portal, as the field of Natural Language Processing is rapidly evolving. The following bibliographic references are freely accessible and serve as suggested material for certain chapters covered in some lectures:
+
+  Gerhard Paaß , Sven Giesselbach. Foundation Models for Natural Language Processing Pre-trained Language Models Integrating Media Book Open Access © 2023 (https://link.springer.com/content/pdf/10.1007/978-3-031-23190-2.pdf) (disponibile gratuitamente)
+
+  Dan Jurafsky and James H. Martin. Speech and Language Processing (3rd ed. draft, 2024) (https://web.stanford.edu/~jurafsky/slpdraft/)
+
+  GitHub repository con codice, dataset modelli e riferimenti allo stato dell’arte (https://disi-unibo-nlp.github.io/)
+
+  Christopher Manning, Hinrich Schutze, Prabhakar Raghavan. Introduction to Information Retrieval. Cambridge University Press, 2008
+removed:
+- text: 'Modulo II ISI: Text Mining (Prof. Gianluca Moro)'
+  reason: instructor
+- text: 'Modulo II DTM: Machine Learning (Prof. Matteo Francia)'
+  reason: instructor

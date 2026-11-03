@@ -1,0 +1,136 @@
+format: evidence/1
+course: '93478'
+title: COMPUTER VISION
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-05-21'
+  teaching_ids:
+  - '518552'
+  teachers:
+  - name: Bartolucci, Filippo
+    affiliation: disi
+    role:
+    - phd student
+  - name: Lisanti, Giuseppe
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '518552'
+  laboratory:
+    value: true
+    evidence:
+    - Teaching methods include taught lessons and laboratory sessions.
+    - The datasets and code snippets for the laboratory sessions will be provided.
+    - The code used in the lab is based on Python, the OpenCV library, the Scikit-learn library and the
+      PyTorch framework.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: 'At the end of the course the students will be able to implement algorithms addressing relevant
+    computer vision tasks, such as: object detection, semantic segmentation, image and video captioning.'
+- id: o2
+  text: During the course they will learn the basics of image, video analysis and computer vision.
+- id: o3
+  text: They will gain knowledge about the design and implementation of convolutional neural networks,
+    recurrent neural networks and how to combine them.
+- id: o4
+  text: During the course they will also acquire familiarity with the relevant frameworks used to design
+    modern deep architecture.
+contents:
+- id: c1
+  text: The course introduces concepts, and tools for the design and implementation of image acquisition,
+    processing, and analysis techniques.
+- id: c2
+  text: 'List of the contents:'
+- id: c3
+  text: 'Image Formation and Acquisition: geometry of image formation; lenses; field of view and depth
+    of field; image sampling and quantization.'
+- id: c4
+  text: 'Spatial Filtering: convolution and correlation; mean and Gaussian filtering; median filtering;
+    bilateral filtering.'
+- id: c5
+  text: 'Edge Detection: image gradient; non-maxima suppression; Laplacian of Gaussian; Canny edge detector.'
+- id: c6
+  text: 'Local Invariant Features: detectors and descriptors; Harris corners; scale-invariant features;
+    SIFT features.'
+- id: c7
+  text: 'Camera calibration: projective coordinates and perspective projection matrix; intrinsic and extrinsic
+    camera parameters; Zhang''s algorithm.'
+- id: c8
+  text: 'Recall on Convolutional Neural Networks: filters, striding, and padding; Pooling Layers, Normalization
+    Layers, successful CNN architectures.'
+- id: c9
+  text: 'Attention Mechanism: self-attention in RNN; Transformer architecture; Vision Transformer.'
+- id: c10
+  text: 'Object Detection: two-stages, one-stage, and anchor-free detectors; RoI pooling operator; feature
+    pyramid networks.'
+- id: c11
+  text: 'Semantic Segmentation: fully convolutional networks; transposed and dilated convolutions; RoI
+    Align operator; semantic, instance, and panoptic segmentation.'
+- id: c12
+  text: 'Metric Learning: deep metric learning; contrastive and triplet losses; application to different
+    recognition/identification tasks.'
+prerequisites:
+- id: p1
+  text: Linear Algebra
+- id: p2
+  text: Basic knowledge of Machine Learning and Deep Learning
+- id: p3
+  text: Programming and Python
+bibliography: |-
+  All the slides from the lectures of the course will be made available on the Virtuale platform. There is no official textbook; further details on some of the topics of the course can be found in:
+
+  - Gonzalez, R. C., "Digital Image Processing", Pearson education, 2009.
+  - Hartley, R., & Zisserman, A., "Multiple View Geometry in Computer vision". Cambridge university press, 2003.
+  - http://d2l.ai/ - Aston Zhang and Zachary C. Lipton and Mu Li and Alexander J. Smola "Dive into Deep Learning", 2020
+
+  Further readings, such as scientific papers and online resources, might be recommended during the lectures of the course.
+removed: []

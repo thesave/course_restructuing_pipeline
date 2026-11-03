@@ -1,0 +1,119 @@
+format: evidence/1
+course: '37760'
+title: Systems Simulation
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-30'
+    to: '2025-12-11'
+  teaching_ids:
+  - '518514'
+  teachers:
+  - name: Donatiello, Lorenzo
+    affiliation: unibo
+    role:
+    - emeritus professor
+  - name: Loli Piccolomini, Elena
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '518514'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course students will have acquired methods and tools to design, implement and
+    validate simulation models for the performance analysis and assessment of computer and communication
+    systems and for the analysis of social systems.
+- id: o2
+  text: Students will be able to design, implement and validate simulation models for the analysis and
+    assessment of complex systems.
+contents:
+- id: c1
+  text: classification of systems and models;
+- id: c2
+  text: discrete event models
+- id: c3
+  text: 'analytical models: queueing systems and queueing networks;'
+- id: c4
+  text: design of simulation experiments;
+- id: c5
+  text: random number generation and random variate generation;
+- id: c6
+  text: discrete events simulazione techniques;
+- id: c7
+  text: agent based simulation;
+- id: c8
+  text: simulation and machine learning;
+- id: c9
+  text: digital twin;
+- id: c10
+  text: design and implementation of simulators and simulation tools;
+- id: c11
+  text: input and output data analysis of simulation models;
+- id: c12
+  text: verification, validation and testing of simulation models;
+- id: c13
+  text: introduction to parallel and distributed simulation;
+- id: c14
+  text: analysis and evaluation of complex systems.
+- id: c15
+  text: Introduction to Virtual Reality.
+prerequisites: []
+bibliography: |-
+  - M. Law, W. D. Kelton. Simulation Modellino and Analysis, McGraw-Hill, 2015.
+  - R. M. Fujimoto. Parallel and Distributed Simulation Systems, Wiley Interscience, 2000.
+  - Jerry Banks, John S. Carson, II,Barry L. Nelson, David M. Nicol. Discrete-Event System Simulation, 5/E, Prentice Hall, 2013.
+  - Christos G. Cassandras, S. Lafortune. Introduction to Discrete Events Systems, Springer, 2021.
+  - Macal, C., and M. J. North. 2009. Agent-based modeling and simulation. In Proceedings of the 2009 Winter Simulation Conference, ed. M. D. Rossetti, R. R. Hill, B. Johansson, A. Dunkin, and R. G. Ingalls.
+  - A. Sharma, E. Kosasih, J. Zhang, A. Brintrup, A. Calinescu. Digital Twins: State of the art theory and pratice, challenges, and open research questions. In Journal of Industrial Infromation Integration, vol 30, 2022, https://doi.org/10.1016/j.jii.2022.100383.
+  - Steven M. LaValle. Virtual Reality, Cambridge University Press, 2023
+removed: []

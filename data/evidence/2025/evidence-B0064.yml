@@ -1,0 +1,88 @@
+format: evidence/1
+course: B0064
+title: Introduction to Data Science and Computational Thinking
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-03-04'
+    to: '2026-05-21'
+  teaching_ids:
+  - '518193'
+  teachers:
+  - name: Poggi, Francesco
+    affiliation: sps
+    role:
+    - adjunct professor
+  programmes:
+  - code: '5889'
+    name: Digital Innovation Policies and Governance
+    department: sps
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6777'
+    name: Digital Innovation Policies and Governance
+    department: sps
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of this course, the students will have a good knowledge and understanding of the fundamental
+    principles of algorithmics and of programming in Python, with specific focus on problems with large
+    amount of data.
+- id: o2
+  text: The students will be able to apply the acquired knowledge to read, write, and test programs using
+    the Python programming language.
+- id: o3
+  text: Moreover, the student will be able to understand prototypes and programs written by other people.
+- id: o4
+  text: Thanks to the acquired knowledge, the student will be able to evaluate pros and cons of a prototype
+    or of an implementation in the Python language of a program using typical algorithmic techniques to
+    handle data structures coming from the web or from open repositories.
+contents:
+- id: c1
+  text: To define a solid and homogeneous base of the structure of the computational process.
+- id: c2
+  text: To structure the concept of programming and of programming languages.
+- id: c3
+  text: Elaborate the concept of digital transformation.
+- id: c4
+  text: Evidence the concept of production of software, both from a organizational and from a cognitive
+    viewpoint.
+- id: c5
+  text: Present how the use of computational thinking and of the informatics tools could help solving
+    problems of organizing systems, of understanding complex structures, and of forecasting possible events.
+- id: c6
+  text: Use text processing and its understanding as a paradigmm of the process of digital transformation
+prerequisites: []
+bibliography: |-
+  The course does not have a mandatory textbook. Here below there is a list of suggested readings:
+
+  - Dirk Hovy, Text Analysis in Python for Social Scientists - Discovery and Exploration, Cambridge University Press, 2021, ISBN 978-1108873352
+  - Sofía De Jesús , Dayrene Martinez, Applied Computational Thinking with Python, Packt Publishing, 2020, ISBN 978-1839219436
+  - Autori multipli, The LaTeX Wikibook, Wikibooks community, https://en.wikibooks.org/wiki/LaTeX
+removed: []

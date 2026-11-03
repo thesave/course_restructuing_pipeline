@@ -1,0 +1,99 @@
+format: evidence/1
+course: B2696
+title: 'Language, Technology, Research I: Computational Thinking'
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Forli
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-05-06'
+  teaching_ids:
+  - '521960'
+  teachers:
+  - name: Barron Cedeno, Luis Alberto
+    affiliation: dit
+    role:
+    - associate professor
+  programmes:
+  - code: '5979'
+    name: Languages and Technologies for Intercultural Communication
+    department: dit
+    campus: Forlì
+    cycle: first
+    languages:
+    - italian
+  - code: '6604'
+    name: Languages and Technologies for Intercultural Communication
+    department: dit
+    campus: Forlì
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The student knows the basic features (terms, concepts and methods) of computational thinking.
+- id: o2
+  text: 'S/he is able to: understand and use different types of data and data structures; design and implement
+    scripts and use core libraries for the processing of numerical and textual data; apply the acquired
+    knowledge to solve problems with computing tools.'
+contents:
+- id: c1
+  text: The course teaches how to use some of the computational tools that can help a professional in
+    language and intercultural communication to solve problems.
+- id: c2
+  text: It pays particular attention to large-scale problems and to the implementation of solutions that
+    go beyond using standard software.
+- id: c3
+  text: Introduction to computational thinking
+- id: c4
+  text: Decomposition
+- id: c5
+  text: Pattern recognition
+- id: c6
+  text: Abstraction
+- id: c7
+  text: Algorithmic thinking
+- id: c8
+  text: Introduction to programming
+- id: c9
+  text: Jupyter notebooks
+- id: c10
+  text: Basic operations
+- id: c11
+  text: Dealing with text
+- id: c12
+  text: Methods
+- id: c13
+  text: Classes This lesson represents the minimum necessary introduction to follow lessons on natural
+    language processing and machine translation fine tuning (e.g., within the Translation and Technology
+    (https://corsi.unibo.it/2cycle/SpecializedTranslation/course-structure-diagram/piano/2023/9174/C09/000/2023)
+    MA curriculum).
+prerequisites: []
+bibliography: |-
+  1. Church, K. W. (1994). Unix for poets (https://www.cs.upc.edu/~padro/Unixforpoets.pdf). Notes of a course from the European Summer School on Language and Speech Communication, Corpus Based Methods.
+  2. Colburn, T. and G. Shute (2007). Abstraction in computer science (https://www.d.umn.edu/~tcolburn/papers/Abstraction.pdf). Minds and Machines, 17:169–184.
+  3. Erickson, J. (2019). Algorithms (http://jeffe.cs.illinois.edu/teaching/algorithms/). Independently published
+  4. Hey, T. and G. Pápay (2014). The Computing Universe: A Journey through a Revolution (https://www.cambridge.org/core/books/computing-universe/254200CEE6406C377BBB8E1E3ECA6FF9).Cambridge University Press
+  5. Jeannet M Wing. Computational thinking (https://www.cs.cmu.edu/afs/cs/usr/wing/www/publications/Wing06.pdf). Commun. ACL 49(3) [1], 33-35 (2006)
+  6. Numerous Wikipedia (https://en.wikipedia.org/wiki/Main_Page) articles on relevant topics
+removed: []

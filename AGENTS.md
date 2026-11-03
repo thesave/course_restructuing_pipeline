@@ -6,14 +6,16 @@ reviewed proposal of reusable modules and their dependencies. It was forked
 from `unibo-courses-cs-restructuring` (the scraping, clustering and LLM
 restructuring project), keeping only the parts written for the new pipeline.
 The pipeline design, with the steps that exist and those still proposed, is in
-`pipeline design/`:
+`0.pipeline design/`:
 
 ```text
-pipeline design/analysis-pipeline.mmd   overall schema (render.sh -> pdf|png|drawio)
-pipeline design/upstream-proposal.md    design of the courses -> topics stages
+0.pipeline design/analysis-pipeline.mmd overall schema (render.sh -> pdf|png|drawio)
+0.pipeline design/upstream-proposal.md  design of the courses -> topics stages
+evidence/                               stage 1: citable syllabus items and course facts
 network_analysis/                       topic affinity (co-teaching, embeddings, consensus)
 modules_engine/                         constraint solver for modules, review page, rendering
 data/courses/2025/                      course corpus (syllabi and course facts)
+data/evidence/2025/                     stage 1 output, report and reviewer overrides
 data/modules-engine/<area>/             engine inputs and runs (none yet)
 first-attempt/                          artefacts of the first attempt, reference only
 ```
@@ -36,7 +38,8 @@ feasibility.
   commit `bf1a5c5`; `data/courses/README.md` describes the fields. It is the
   input of the new upstream stages, which re-extract topics from the syllabi,
   so the topics of the source project's restructuring attempts are not
-  imported. Until those stages exist, `modules_engine prepare` and
+  imported. Of those stages, only evidence preparation (stage 1) exists so
+  far. Until topic extraction exists, `modules_engine prepare` and
   `network_analysis` still read an attempt directory of the source project
   (`data/restructuring/attempt-*/topics-global.yml`), as a bridge.
 - `first-attempt/programming-languages/` keeps the prototype area of the
@@ -63,7 +66,7 @@ feasibility.
   `.venv/bin/python -m unittest discover -s tests -p 'test_*.py'`.
 - Node is used for Mermaid only: after `npm install`, mermaid-cli renders
   diagrams, the review page inlines `node_modules/mermaid/dist/mermaid.min.js`,
-  and `pipeline design/mermaid-to-drawio.mjs` uses Puppeteer.
+  and `0.pipeline design/mermaid-to-drawio.mjs` uses Puppeteer.
   `mermaid-config.json` sets the classic look, SVG text labels (no HTML labels)
   and raised size limits; generated Mermaid labels carry no HTML markup.
 - Use Conventional Commits with a meaningful scope (for example,
@@ -73,7 +76,7 @@ feasibility.
   `00819-B` are meaningful.
 - Preserve atomic writes for generated artefacts.
 
-## `pipeline design/`
+## `0.pipeline design/`
 
 - `analysis-pipeline.mmd`: the overall schema. It uses only Mermaid 10 syntax
   with quoted labels, so editors bundling older Mermaid (such as VS Code's
@@ -89,6 +92,48 @@ feasibility.
   review, re-annotation, derived inputs, dependency proposal and review),
   quality gates, the human checks closing each model-driven stage, the pilot
   on a small set of service courses and the open questions for the group.
+
+## `evidence/`
+
+Stage 1 of the upstream design, without model calls.
+`.venv/bin/python -m evidence prepare data/courses/2025 data/evidence/2025 [--overrides FILE]`
+writes one `evidence-<course>.yml` per course (`format: evidence/1`; the course
+id comes from the file name, so suffixes such as `-A` survive) and
+`report.md`. Every run processes the whole corpus, because shared syllabi are
+found across courses.
+
+- Sections come from the English syllabus when present, else from the Italian
+  one (`sources` records which). Learning outcomes and contents become item
+  trees (`o1`, `c3`, `c3.2`: module headings, then groups such as "The UML
+  language:", then leaves); paragraphs are split into sentences; hard-wrapped
+  lines are joined; merged courses with several outcome texts keep each
+  distinct item once. Items of an English section detected as Italian carry
+  `language: it`. The bibliography is kept as plain text.
+- `prerequisites` gathers prerequisite statements (blocks under headings such
+  as "Prerequisites" or "Requirements/Prior knowledge", lead-ins such as
+  "Students are expected to have:", and matching sentences), so that topic
+  extraction does not read them as course material; outcome phrasing ("at the
+  end ... is expected to know") is excluded. `removed` lists administrative
+  remarks (instructors, links, accessibility, timetables, language of
+  teaching, pointers to web pages, the "IMPORTANT FORMAL NOTE" blocks, whose
+  codes become `facts.equivalent_courses`).
+- `facts`: credits, sectors, languages, campi, schedules, teaching ids,
+  teachers, programmes (department and cycle), `service` (the domain
+  definition above, with the DISI teaching ids behind it), `laboratory` (a
+  keyword flag on the teaching methods with the sentences behind it; UniBo's
+  workplace-safety requirement counts), and `same_syllabus_as` (courses with
+  identical outcomes and contents).
+- Parsing is heuristic, so the stage ends with a human check: `report.md`
+  lists prerequisites, removed text, prose contents, long items, untranslated
+  passages, Italian sections, outcome variants, shared syllabi, equivalent
+  courses and laboratory flags. Corrections go into `overrides.yml` next to
+  the output (`courses: {ID: {prerequisites, contents, drop, laboratory,
+  note}}`, items named by the ids of the uncorrected output; moved items keep
+  their ids), which every run reapplies; unknown courses or ids are errors.
+  When the parser changes, check that the ids named in the overrides still
+  point at the same items.
+
+Tests are in `tests/test_evidence.py`.
 
 ## `network_analysis/`
 

@@ -1,0 +1,181 @@
+format: evidence/1
+course: '37635'
+title: Data Structure and Algorithms
+sources:
+  outcomes: it
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 12
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-05-15'
+  teaching_ids:
+  - '524324'
+  teachers:
+  - name: Bonini, Roberto
+    affiliation: dibinem
+    role:
+    - phd student
+  - name: De Palma, Giuseppe
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Di Lena, Pietro
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Zavattaro, Gianluigi
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '5827'
+    name: Mathematics
+    department: mat
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6730'
+    name: Mathematics
+    department: mat
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '524324'
+  laboratory:
+    value: true
+    evidence:
+    - The course is taught during the second semester, and it comprises theoretical lessons and practical
+      programming laboratory lectures.
+    - Moreover, practical design and implementation of data structures are considered in the laboratory
+      lessons.
+  equivalent_courses: []
+  same_syllabus_as:
+  - 11929-A
+outcomes:
+- id: o1
+  text: Al termine del corso lo studente
+  items:
+  - id: o1.1
+    text: conosce gli algoritmi per risolvere problemi computazionali di base su strutture di dati elementari;
+  - id: o1.2
+    text: conosce le tecniche di base per calcolare il costo computazionale degli algoritmi;
+  - id: o1.3
+    text: conosce le classi di complessità computazionale P, NP e NP-hard;
+  - id: o1.4
+    text: è in grado di progettare algoritmi efficienti per risolvere semplici problemi computazionali;
+  - id: o1.5
+    text: è in grado di stimare in ordine di grandezza il costo computazionale degli algoritmi;
+  - id: o1.6
+    text: è in grado di analizzare la complessità computazionale di problemi computazionali di base;
+  - id: o1.7
+    text: è in grado di dare una valutazione circa l'efficienza e la correttezza di un algoritmo;
+  - id: o1.8
+    text: è capace di elaborare e di presentare un progetto per la risoluzione di problemi computazionali
+      di base
+contents:
+- id: c1
+  text: Design and analysis of algorithms.
+- id: c2
+  text: Computational complexity.
+- id: c3
+  text: Orders of growth.
+- id: c4
+  text: Recurrence equations.
+- id: c5
+  text: 'Sorting algorithms: SelectionSort, InsertionSort, MergeSort, QuickSort, CountingSort, RadixSort.'
+- id: c6
+  text: 'Data structures: lists, queues, stacks .'
+- id: c7
+  text: Trees.
+- id: c8
+  text: Tree visits (preorder, inorder, postorder).
+- id: c9
+  text: Binary search trees and binary balanced search trees.
+- id: c10
+  text: Dictionaries.
+- id: c11
+  text: Hash tables.
+- id: c12
+  text: 'Heaps: HeapSort and Priority queues.'
+- id: c13
+  text: Union-find structures.
+- id: c14
+  text: 'Design techniques: divide-&-conquer, greedy, dynamic programming.'
+- id: c15
+  text: Graphs.
+- id: c16
+  text: DFS and BFS visits.
+- id: c17
+  text: 'Algorithms on graphs: Minimum Spanning Tree (Prim, Kruskal), Shortest Paths (Bellman-Ford, Dijkstra,
+    Floyd-Warshall).'
+- id: c18
+  text: Complexity.
+- id: c19
+  text: The P and NP classes.
+- id: c20
+  text: NP-completeness.
+- id: c21
+  text: There are also practical lectures in which data structures are implemented and used, and the Object-Oriented
+    paradigm as well as some Java notions are introduced.
+prerequisites: []
+bibliography: |-
+  Main text:
+
+  Camil Demetrescu, Irene Finocchi, Giuseppe F. Italiano
+  Algoritmi e strutture dati
+  McGraw-Hill - terza edizione. 2025.
+
+  Suggested books:
+
+  A.A. Bertossi & A. Montresor, Algoritmi e Strutture di Dati, Citta' Studi Edizioni, Torino. Terza edizione. 2014.
+
+  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein
+  Introduzione agli algoritmi e strutture dati
+  McGraw-Hill - quarta edizione. 2023.
+removed: []

@@ -1,0 +1,106 @@
+format: evidence/1
+course: 96346-B
+title: Computer Science
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 2
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-11-10'
+    to: '2025-12-16'
+  teaching_ids:
+  - '483266'
+  teachers:
+  - name: Cercenelli, Laura
+    affiliation: dibinem
+    role:
+    - adjunct professor
+  programmes:
+  - code: '5915'
+    name: Orthopaedics Techniques
+    department: dibinem
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8470'
+    name: Dietistic
+    department: dimec
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as:
+  - 07276-B
+outcomes:
+- id: o1
+  text: At the end of the module the student has the basic knowledge on the following topics:systems of
+    numeration, the four operations in binary basis.
+- id: o2
+  text: Elements of Boolean algebra and logical functions.
+- id: o3
+  text: The HW structure of a computer (CPU internal memory, mass memory, IO peripherals) and the SW (operating
+    system and programs/apps).
+- id: o4
+  text: Basic principles of algorithms and programmimg.
+- id: o5
+  text: The student will also acquire knowledge of the main digital formats for images and 3D modeling
+    software for medical applications.
+contents:
+- id: c1
+  text: Introduction to Computer Science (CS) and its evolution
+  items:
+  - id: c1.1
+    text: CS history and birth of Internet;
+  - id: c1.2
+    text: introduction to Artificial Intelligence and its applications in Medicine
+- id: c2
+  text: Representation of the Information
+  items:
+  - id: c2.1
+    text: Encoding of numbers and numbering systems;
+  - id: c2.2
+    text: The four operations in binary basis
+  - id: c2.3
+    text: Digital coding of texts and images;
+- id: c3
+  text: HW and SW structure of a computer;
+- id: c4
+  text: Boolean algebra;
+- id: c5
+  text: Programming and Algorithms;
+- id: c6
+  text: Insights on personal utility tools (Microsoft Word/Excel/PowerPoint) (EXERCISE IT Lab.); Research
+    data management (personal data protection; file protection).
+- id: c7
+  text: Section reserved to CdL Orthopedic Techniques
+  items:
+  - id: c7.1
+    text: Technologies for 3D modeling of anatomical structures;
+  - id: c7.2
+    text: Technologies and materials for additive printing in medicine;
+  - id: c7.3
+    text: Segmentation and 3D modeling software in the medical field;
+  - id: c7.4
+    text: Practical sessions of 3D design of customized devices (EXERCISES Computer Lab)
+prerequisites: []
+bibliography: Course presentation slides uploaded by the professor to the university platforms
+removed: []

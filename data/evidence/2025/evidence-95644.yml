@@ -1,0 +1,80 @@
+format: evidence/1
+course: '95644'
+title: Computer Networks and Network Programming
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-23'
+    to: '2025-12-19'
+  teaching_ids:
+  - '498819'
+  teachers:
+  - name: Callegati, Franco
+    affiliation: disi
+    role:
+    - full professor
+  - name: Melis, Andrea
+    affiliation: disi
+    role:
+    - tenure-track researcher
+  - name: Rinieri, Lorenzo
+    affiliation: disi
+    role:
+    - adjunct professor
+  programmes:
+  - code: '6007'
+    name: Computer Systems Technologies
+    department: disi
+    campus: Cesena, Imola
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '498819'
+  laboratory:
+    value: true
+    evidence:
+    - Class lectures and laboratory exercises.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student should be able to understand the more common technologies
+    used to design network applications and the most common protocols.
+contents:
+- id: c1
+  text: The course will present the basic principles of network applications.
+- id: c2
+  text: The theoretical concepts presented will be applied in laboratory projects aimed at understanding
+    the implementation of network application in today Internet.
+- id: c3
+  text: 'Computer networks: protocols, client-server architecture, protocol layers and service models.'
+- id: c4
+  text: 'Protocol analysis: sniffing, collection of traffic traces, analysis and debug, use of the Wireshark
+    protocol analyzer.'
+- id: c5
+  text: 'Internet: addressing, IP forwarding and routing, ICMP, DHCP and NAT.'
+- id: c6
+  text: 'Transport layer: services, multiplexing and demultiplexing, connectionless service, UDP protocol,
+    reliable data transfer, connection-oriented communication, TCP protocol, congestion control.'
+- id: c7
+  text: 'Basics of cybersecurity: authentication, authorization, digital signatures and certificates.'
+prerequisites: []
+bibliography: James Kurose, Keith W. Ross. Computer Networking [Global Edition] Pearson; 8th edition (June
+  10, 2021), ISBN 1292405465.
+removed: []

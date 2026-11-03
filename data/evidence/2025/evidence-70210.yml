@@ -1,0 +1,98 @@
+format: evidence/1
+course: '70210'
+title: Lab-based Course on Computer Graphics
+sources:
+  outcomes: it
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 2
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-23'
+    to: '2025-12-12'
+  teaching_ids:
+  - '535949'
+  teachers:
+  - name: Gamberini, Enrico
+    affiliation: da
+    role:
+    - adjunct professor
+  programmes:
+  - code: '6729'
+    name: Architecture
+    department: da
+    campus: Cesena
+    cycle: single
+    languages:
+    - italian
+  - code: '9265'
+    name: Architecture
+    department: da
+    campus: Cesena
+    cycle: single
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - Practical lessons in the laboratory with exercise in order to verify the level of knowledges
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Al termine del modulo lo studente acquisisce le conoscenze di base dell'informatica applicata
+    alla rappresentazione grafica digitale, le metodologie e gli strumenti pratici per l'utilizzo dei
+    sistemi operativi digitali più diffusi nel campo dell'architettura.
+- id: o2
+  text: In particolare, lo studente è in grado di
+  items:
+  - id: o2.1
+    text: gestire criticamente i formati grafici digitali, nelle caratterizzazioni raster e vettoriale;
+  - id: o2.2
+    text: acquisire le conoscenze di base sull'utilizzo di strumenti informatici CAD;
+  - id: o2.3
+    text: rappresentare un edificio, o sue parti e componenti, ed è in grado di gestire e elaborare disegni
+      tecnici digitali e tavole architettoniche.
+contents:
+- id: c1
+  text: The course is organized in order to afford the technical and theoretical tools for the right representation
+    of the architectural project.
+- id: c2
+  text: This course is intended as an overall introduction to information technology and to computer use.
+- id: c3
+  text: The course will give to the student the methodology and the practical tools in order to work with
+    the applications and with the most common operating systems.
+- id: c4
+  text: 'Classroom lessons and laboratory practices will focus on this topics:'
+- id: c5
+  text: 'Introduction to using computer for graphic applications: computer overall, CPU, Input/Output
+    devices, random access memory (RAM), mass storage, graphics cards, Operating system.'
+- id: c6
+  text: 'Raster graphics: overall, pixel definition, color space, image and device resolution, lossy and
+    non-lossy data compression, most common raster formats and their main feature, Adobe Photoshop.'
+- id: c7
+  text: 'Vector graphics and tecnical drawing: overall, functions and tools of a drawing application,
+    graphic primitives, modify tools, layers, line styles and weight, screen frequency, print, design
+    and development of a graphic layout, most common vector and vector/raster formats, Autodesk AutoCad.'
+prerequisites: []
+bibliography: |-
+  D. Martini, M. Bertolo, A. Rizzi, Comunicazione visiva digitale, ed. Addison Welley, Milano, 2001
+
+  L. Santapaga, M. Trasi, AutoCAD guida facile al disegno CAD 2D e 3D, ed. Apogeo, 2016
+
+  GIMP Manual: https://docs.gimp.org/2.8/en/
+
+  The teacher will provide online handouts.
+removed: []

@@ -1,0 +1,128 @@
+format: evidence/1
+course: '93466'
+title: FONDAMENTI DI CYBERSECURITY
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-05-11'
+  teaching_ids:
+  - '455457'
+  teachers:
+  - name: Dinelli, Michele
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Elias, Jocelyne
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '455457'
+  laboratory:
+    value: true
+    evidence:
+    - The course is worth 6 CFU and consists of lectures and practical exercises/Lab.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The objective of the course is to present the theory, mechanisms, techniques and tools that are
+    effective in increasing the security of a computer system.
+- id: o2
+  text: At the end of the course, the student will be familiar with the mathematical foundations of modern
+    cryptography, authentication, authorization and access control mechanisms that are suitable for achieving
+    confidentiality, integrity and availability of computer systems.
+- id: o3
+  text: The student will also acquire the knowledge necessary to assess the potentials and limitations
+    of current technologies.
+contents:
+- id: c1
+  text: Vulnerability Assessment
+- id: c2
+  text: Penetration testing
+- id: c3
+  text: TOR / Dark Web
+- id: c4
+  text: One-time pad
+- id: c5
+  text: Stream Ciphers
+- id: c6
+  text: Real-World Stream Ciphers
+- id: c7
+  text: Cryptographic Systems with secret key
+- id: c8
+  text: Cryptographic Systems with public key
+- id: c9
+  text: DES
+- id: c10
+  text: AES
+- id: c11
+  text: RSA Digital Signatures
+- id: c12
+  text: Public-key infrastructures
+- id: c13
+  text: Wifi network security
+- id: c14
+  text: SDR and radio attacks
+- id: c15
+  text: Access Control
+- id: c16
+  text: Patches and Exploits
+- id: c17
+  text: Reverse engineering
+prerequisites: []
+bibliography: |-
+  - Computer Security: Principles and Practice (4th Edition), Stallings and Brown, Pearson, 2018.
+  - Crittografia, William Stallings
+  - A Graduate Course in Applied Cryptography, Dan Boneh, Victor Shoup. (Approccio Matematico)
+  - Cryptography, Theory and Practice, Fourth Edition, Douglas R. Stinson and Maura B. Paterson.
+  - Hackers 7.0, George Kurtz, Joel Scambray, and Stuart McClure; Apogeo, 2013.
+  - Serious Cryptography: A Practical Introducion to Modren Encryption, Jean-Philippe Aumasson.
+  - Applied Cryptography: Protocols, Algorithms, and Source Code in C, Bruce Schneier.
+  - Information Security: Principles and Practice, Mark Stamp.
+removed: []

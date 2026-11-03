@@ -1,0 +1,111 @@
+format: evidence/1
+course: '82202'
+title: Informatic
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 2
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Ravenna
+  schedules:
+  - from: '2025-11-19'
+    to: '2026-01-14'
+  teaching_ids:
+  - '446882'
+  teachers:
+  - name: Piccinini, Filippo
+    affiliation: dimec
+    role:
+    - associate professor
+  programmes:
+  - code: '9080'
+    name: Speech and Language Therapy
+    department: dibinem
+    campus: Faenza
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the module, the student will have the basic IT skills necessary to use the main
+    computer tools, to manage information systems within healthcare services, and to use the internet
+    for research and medical informatics purposes.
+contents:
+- id: c1
+  text: Basic knowledge
+  items:
+  - id: c1.1
+    text: The computer, algorithms, software, and hardware;
+  - id: c1.2
+    text: Computer networks and the Internet.
+- id: c2
+  text: Introduction to health informatics
+  items:
+  - id: c2.1
+    text: Main areas of informatics applied to healthcare activities;
+  - id: c2.2
+    text: Dematerialization of documents in the clinical and healthcare context;
+  - id: c2.3
+    text: Tools for validation and transmission of electronic documents;
+  - id: c2.4
+    text: Digital archives and storage of medical records in public healthcare organizations;
+  - id: c2.5
+    text: Protection and processing of health-related data.
+- id: c3
+  text: How to create and edit a text document using word processing software
+  items:
+  - id: c3.1
+    text: Electronic writing and word processing software;
+  - id: c3.2
+    text: File formats;
+  - id: c3.3
+    text: Creating documents with MS Word.
+- id: c4
+  text: How to organize, process, and analyze biometric and clinical data using spreadsheets
+  items:
+  - id: c4.1
+    text: Organizing, summarizing, processing, analyzing, and visualizing data with MS Excel;
+  - id: c4.2
+    text: Importing and exporting data;
+  - id: c4.3
+    text: Creating, storing, and sharing spreadsheets with Google Drive and Google Sheets.
+- id: c5
+  text: How to create a relational database
+  items:
+  - id: c5.1
+    text: Database structure;
+  - id: c5.2
+    text: Database architecture;
+  - id: c5.3
+    text: Relational model;
+  - id: c5.4
+    text: Designing a database.
+- id: c6
+  text: How to present and communicate data on screen
+  items:
+  - id: c6.1
+    text: Presentations using MS PowerPoint.
+- id: c7
+  text: Introduction to bibliographic search engines.
+- id: c8
+  text: 'The future: introduction to big data and telemedicine.'
+prerequisites: []
+bibliography: Antonino Letizia, Informatica. Seconda Edizione. 2024. Zanichelli.
+removed: []

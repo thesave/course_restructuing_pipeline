@@ -1,0 +1,157 @@
+format: evidence/1
+course: '70155'
+title: Data Bases
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 9
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-16'
+    to: '2025-12-10'
+  teaching_ids:
+  - '378069'
+  teachers:
+  - name: Di Felice, Marco
+    affiliation: disi
+    role:
+    - full professor
+  - name: Esposito, Alfonso
+    affiliation: disi
+    role:
+    - phd student
+  programmes:
+  - code: '6060'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6641'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8014'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '378069'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student
+  items:
+  - id: o1.1
+    text: knows the relational data model and the SQL language;
+  - id: o1.2
+    text: is able to design and develop a relational database;
+  - id: o1.3
+    text: is capable of processing a project to implement an information system.
+contents:
+- id: c1
+  text: The course program is divided into four parts, each addressing complementary topics related to
+    databases and information systems.
+- id: c2
+  text: In the first part, the fundamental concepts of the course are introduced (data, information, database,
+    etc.), along with the characteristics of the relational model and relational DBMSs, and the main functionalities
+    of languages used for performing CRUD operations on data.
+- id: c3
+  text: In this context, the features of the SQL language for creating, modifying, and querying relational
+    databases are explained in detail.
+- id: c4
+  text: Additionally, there are brief discussions on alternative approaches to the relational model (NoSQL
+    databases) and technologies for big data management.
+- id: c5
+  text: The second part presents methodologies and tools for designing databases based on the analysis
+    of system requirements.
+- id: c6
+  text: 'This includes a detailed discussion of the traditional phases of software engineering applied
+    to data design: requirements analysis, conceptual design, logical design, physical design, performance
+    analysis of data models, and normalization techniques.'
+- id: c7
+  text: The third part provides a (brief) overview of data mining techniques and algorithms based on supervised
+    and unsupervised learning methods, aimed at creating classification and prediction models from the
+    data stored in a database.
+- id: c8
+  text: Examples of applications of these techniques in industrial and business contexts are also provided.
+- id: c9
+  text: Finally, the fourth part introduces the main features of Web Information Systems (WIS), and presents
+    some technologies used for the development of web applications that can interface with SQL databases.
+- id: c10
+  text: Summary of course topics
+  items:
+  - id: c10.1
+    text: 'Course Introduction: Information, Data, and DBMS'
+- id: c11
+  text: Models and Languages for Databases
+  items:
+  - id: c11.1
+    text: 'The relational model: basic concepts, integrity constraints, and keys'
+  - id: c11.2
+    text: Features of relational Database Management Systems (DBMSs)
+  - id: c11.3
+    text: 'The SQL language: data definition, data modification, queries, view definitions, transactions'
+  - id: c11.4
+    text: Alternative approaches to the relational model, brief overview of NoSQL and big data technologies
+- id: c12
+  text: Database Design
+  items:
+  - id: c12.1
+    text: 'Conceptual design: the E/R model, requirements gathering and analysis, conceptual design strategies,
+      quality assessment'
+  - id: c12.2
+    text: 'Logical design: restructuring E/R schemas, translation into the relational model, quality analysis
+      of E/R schemas'
+  - id: c12.3
+    text: 'Normalization techniques: normal forms (Boyce-Codd, third normal form), decomposition into
+      normal form'
+  - id: c12.4
+    text: 'Physical design: indexes and data storage techniques'
+- id: c13
+  text: Introduction to Data Mining
+  items:
+  - id: c13.1
+    text: General concepts and application scenarios of data mining techniques
+  - id: c13.2
+    text: Classification and clustering algorithms
+- id: c14
+  text: DBMS for Applications
+  items:
+  - id: c14.1
+    text: 'Examples of DBMSs: MySQL, MongoDB, Cassandra'
+  - id: c14.2
+    text: SQL and server-side scripting languages (PHP + MySQL)
+prerequisites: []
+bibliography: |-
+  The reference textbook of the course is the following:
+
+  - Paolo Atzeni, Stefano Ceri, Stefano Paraboschi, Riccardo Torlone, "Basi di dati" 5/ed, 2018, ISBN: 9788838694455
+
+  Moreover, these books are recommended for the project development:
+
+  - Kevin Yank, "Sviluppare applicazioni con PHP e MySQL" 1/ed, 2012, ISBN: 9788850331826
+removed: []

@@ -1,0 +1,73 @@
+format: evidence/1
+course: 07276-C
+title: Computer Science
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 2
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-10-15'
+    to: '2025-12-23'
+  teaching_ids:
+  - '359894'
+  teachers:
+  - name: Gaspari, Mauro
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '8476'
+    name: Physiotherapy
+    department: dibinem
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '359894'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student will have acquired the knowledge and understanding of the
+    basic IT skills necessary for the use of common digital tools, the management of service information
+    systems, and the use of the internet in research, medical informatics, telemedicine, and biomedical
+    instrumentation.
+contents:
+- id: c1
+  text: Basic Notions on Operating systems and computer architectures.
+- id: c2
+  text: Configuration and use of a PC connected to the Internet.
+- id: c3
+  text: Spreadsheets and search engines.
+- id: c4
+  text: Firms information systems, networks and Web infrastructure.
+- id: c5
+  text: Databases and SQL queries.
+- id: c6
+  text: Further insights will also be provided on medical devices and the application of artificial intelligence
+    in the medical and physiotherapy context.
+prerequisites: []
+bibliography: |-
+  Informatica per l'impresa tra soluzioni proprietarie ed open source.
+  Mauro GASPARI, Gianluigi ROVEDA, Sara ZUPPIROLI
+  Bonomo Editore 2023 (Fourth Edition)
+
+  Additional material consisting of scientific articles indicated during the course.
+removed: []

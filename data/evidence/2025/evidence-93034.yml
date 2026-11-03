@@ -1,0 +1,151 @@
+format: evidence/1
+course: '93034'
+title: Foundations of Computer Science T
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 12
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-16'
+    to: '2025-12-16'
+  teaching_ids:
+  - '543007'
+  - '543008'
+  teachers:
+  - name: Aimi, Alessandro
+    affiliation: disi
+    role:
+    - research fellow
+  - name: Borghesi, Andrea
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Chesani, Federico
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Crawford III, William Arthur
+    affiliation: disi
+    role:
+    - phd student
+  - name: Di Modica, Giuseppe
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Grundler, Giulia
+    affiliation: disi
+    role:
+    - research scholarship holder
+  - name: Quarta, Angelo
+    affiliation: disi
+    role:
+    - research fellow
+  - name: Tazzioli, Davide
+    affiliation: disi
+    role:
+    - phd student
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '543007'
+    - '543008'
+  laboratory:
+    value: true
+    evidence:
+    - Classrooms and labs are interspersed each other, so that the introduction of a concept or an element
+      of the language together with some examples is followed by a lab lesson, where the student is asked
+      to use the acquired knowledge to solve problems using "programming in-the-small" techniques in C.
+      For this reason, a content introduced within the Module 1 is usually tackled one week later within
+      Module 2, so that the student is given enough time to acquire the new notions.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Acquisition of principles, methodologies and tools for designing algorithms that solve problems
+    of a medium difficulty.
+- id: o2
+  text: Ability to apply such knowledge in the development of algorithms and computer programs, using
+    a high-level programing language.
+contents:
+- id: c1
+  text: 'Introduction to modern elaboration systems: brief history of informatics, introduction to the
+    von Neumann architecture and to the modern hardware devices, information representation, basic concepts
+    of operating systems.'
+- id: c2
+  text: Introduction to the concept of algorithm, Turing's specific and universal machines, problems solutions
+    and (non) computable functions, high- and low-level programming languages, syntax definition by means
+    of EBNF grammars.
+- id: c3
+  text: 'Introduction to the C language: values, types, constants, variables, operators and expressions,
+    pointers, arrays and strings, structures.'
+- id: c4
+  text: 'Structural and procedural programming in C: control instructions, functions, procedures.'
+- id: c5
+  text: 'Input and output in C: I/O primitives, I/O based on the stream abstraction, access to files.'
+- id: c6
+  text: 'Principles and basic methodologies for designing and developing algorithms: solving small-scale
+    problems, iteration and recursion, programs structured in many modules in the C language.'
+- id: c7
+  text: 'Runtime structure of C programs: runtime representation of programs, activation records and functions.'
+- id: c8
+  text: Dynamic allocation of memory for scalar types, structures and array; memory managing and memory
+    leaking issues in C.
+- id: c9
+  text: 'Ordering algorithms: Naive Sort, Bubble Sort, Insert Sort, Merge Sort, and Quick Sort.'
+- id: c10
+  text: 'Introduction to Abstract Data Types (ADT): type definition and operations (constructors, selectors,
+    predicates, functions and transformators). Some fundamentals ADT: lists, queues, stacks.'
+prerequisites:
+- id: p1
+  text: 'Prerequisites: no prerequisites are required to attend this course. Indeed, the student is gradually
+    introduced to the principles and methods of imperative programming, and in particular towards structured
+    and procedural programming styles. The basic and fundamental notions required to understand the course
+    contents are provided within the course itself, and no assumption is made about previous knowledge.
+    Previous experience and knowledge about programming languages might be of some help.'
+bibliography: |-
+  Texts to consult on Programming and the C language: when available, the english versions of these textbooks are recommended
+
+  - H. Deitel, P. Deitel. "Il Linguaggio C - Fondamenti e Tecniche di Programmazione", Pearson 2022 o edizioni precedenti.
+  - A. Kelley, I. Pohl. "C: Didattica e Programmazione", Pearson Education, 2018, o edizioni precedenti.
+  - A. Bellini, A. Guidi. "Linguaggio C: Guida alla Programmazione", Mc Graw-Hill, 2021, o edizioni precedenti.
+removed: []

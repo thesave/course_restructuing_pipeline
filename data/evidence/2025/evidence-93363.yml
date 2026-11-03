@@ -1,0 +1,81 @@
+format: evidence/1
+course: '93363'
+title: Advanced Programming
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-16'
+    to: '2026-01-15'
+  teaching_ids:
+  - '455200'
+  teachers:
+  - name: Lippolis, Anna Sofia
+    affiliation: fabit
+    role:
+    - teaching tutor
+  - name: Nuzzolese, Andrea Giovanni
+    affiliation: fabit
+    role:
+    - adjunct professor
+  programmes:
+  - code: '6619'
+    name: Genomics
+    department: fabit
+    campus: Bologna
+    cycle: first
+    languages:
+    - english
+  - code: '9211'
+    name: Genomics
+    department: fabit
+    campus: Bologna
+    cycle: first
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: 'By the end of the course the student is provided with basic information technology notions and
+    ability to use basic software tools, including: operating systems, search engines, word processing,
+    image manipulation and graphics, multimedia representation of data, including both proprietary and
+    open source technologies.'
+contents:
+- id: c1
+  text: The course will tackle advanced programming techniques.
+- id: c2
+  text: In particular, the course will be focused on Object-Oriented computing and Array-Oriented computing
+    for scientific computing.
+- id: c3
+  text: Both paradigm will be investigated by using Python as the reference programming language.
+- id: c4
+  text: Accordingly, the students will be presented with the mail Python modules and libraries for scientific
+    computing, such as, NumPy, Pandas, and SciPY.
+- id: c5
+  text: Finally, the Unified Modelling Language (UML) will be taught to provide the reference standard
+    language to visualise the design of software application.
+prerequisites: []
+bibliography: |-
+  - John V. Guttag; Introduction to Computation and Programming Using Python (2 ed.); The MIT Press. [https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition]
+  - http://www.python.org [http://www.python.org/]
+  - References to additional material will be provided during the course.
+removed: []

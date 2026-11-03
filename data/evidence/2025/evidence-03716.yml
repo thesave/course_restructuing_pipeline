@@ -1,0 +1,139 @@
+format: evidence/1
+course: '03716'
+title: Digital Design Principles and Computer Architecture
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 9
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-06-05'
+  teaching_ids:
+  - '447691'
+  - '469202'
+  teachers:
+  - name: Roffia, Luca
+    affiliation: disi
+    role:
+    - adjunct professor
+  - name: Sarti, Elena
+    affiliation: dei
+    role:
+    - teaching tutor
+  programmes:
+  - code: '5834'
+    name: Electronics Engineering
+    department: dei
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6669'
+    name: Biomedical Engineering
+    department: dei
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6670'
+    name: Electronics Engineering
+    department: dei
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6705'
+    name: Biomedical Engineering
+    department: dei
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+  - code: '9082'
+    name: Biomedical Engineering
+    department: dei
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '9266'
+    name: Biomedical Engineering
+    department: dei
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+  service:
+    value: true
+    disi_teaching_ids:
+    - '469202'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student possesses the methods and tools needed to approach the design
+    of simple microprocessor-based systems with awareness.
+- id: o2
+  text: The student learns to analyse and synthesize combinational and sequential logic networks (both
+    synchronous and asynchronous).
+- id: o3
+  text: This knowledge forms the foundation for studying the architectures of modern electronic computers,
+    through which the student acquires an understanding of their general operating principles, performance
+    impact, processor design, and the mutual relationship between hardware and software.
+- id: o4
+  text: 'Beyond the specific content, the student develops one of the key skills currently required in
+    the information engineering industry: the ability to manage project complexity, becoming accustomed
+    to the practice of abstraction, understood as the process of effectively and hierarchically representing
+    the essence of a computing system.'
+contents:
+- id: c1
+  text: '- Binary encoding of information'
+- id: c2
+  text: Analysis and synthesis of combinational logic networks, asynchronous sequential networks, and
+    synchronous sequential networks
+- id: c3
+  text: Finite state machine model
+- id: c4
+  text: Principles of computer operation
+- id: c5
+  text: Von Neumann architecture
+- id: c6
+  text: Program execution model
+- id: c7
+  text: Memory and I/O device addressing
+- id: c8
+  text: Computer hardware architecture
+- id: c9
+  text: Instruction Set Architecture (ISA)
+- id: c10
+  text: General considerations on machine languages
+- id: c11
+  text: R-R (RISC) architectures and M-R (CISC) architectures
+- id: c12
+  text: Measurement of computer performance
+- id: c13
+  text: Impact of architecture on performance
+- id: c14
+  text: Internal structure of a CPU and implementation using a sequential organization (DLX)
+- id: c15
+  text: Design of microprocessor-based systems
+prerequisites: []
+bibliography: |-
+  R. Laschi, M. Prandini: "Appunti di Reti Logiche", Esculapio 2007
+  Hennessy Patterson: "Computer architecture: a quantitative approach" - Morgan Kaufmann pub. Inc., second edition
+  Giacomo Bucci: ìArchitetture dei calcolatori elettroniciî McGraw-Hill
+removed: []

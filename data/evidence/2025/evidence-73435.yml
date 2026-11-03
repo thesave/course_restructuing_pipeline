@@ -1,0 +1,119 @@
+format: evidence/1
+course: '73435'
+title: Project Management
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-06-04'
+  teaching_ids:
+  - '412683'
+  teachers:
+  - name: Boschetti, Marco Antonio
+    affiliation: mat
+    role:
+    - full professor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course students
+  items:
+  - id: o1.1
+    text: know the basic principles of Project Management and can manage different approaches used in
+      software production, from the most traditional ones to the iterative and adaptive approaches typical
+      of the “agile” project management;
+  - id: o1.2
+    text: know some tools used in project management and have gained a better understanding of some practical
+      aspects also through practical exercises;
+  - id: o1.3
+    text: can participate in or manage a software development project.
+contents:
+- id: c1
+  text: Introduction to project management.
+- id: c2
+  text: Definition of project, program, portfolio.
+- id: c3
+  text: Definition of scope, quality, resources and their interrelationship.
+- id: c4
+  text: Definition of project management.
+- id: c5
+  text: Definition of processes and knowledge areas involved in project management according to the Project
+    Management Body of Knowledge (PMBOK).
+- id: c6
+  text: Management of integration, scope, time, cost, quality, human resources, communications, risk,
+    procurement, and stakeholders.
+- id: c7
+  text: 'The life cycle of a project and its management: traditional, incremental, iterative, and adaptive.'
+- id: c8
+  text: Scoping process group.
+- id: c9
+  text: Planning process group.
+- id: c10
+  text: Launching/executing process group.
+- id: c11
+  text: Monitoring and controlling process group
+- id: c12
+  text: Closing process group.
+- id: c13
+  text: Exercises.
+- id: c14
+  text: Seminars.
+prerequisites: []
+bibliography: |-
+  - Lecture Notes.
+  - Project Management Institute, “A Guide to the Project Management Body of Knowledge (PMBOK® Guide)”, Sixth Edition, 2017, ISBN: 978-1628253825.
+  - Project Management Institute, “Agile Practice Guide”, 2017, ISBN: 978-1628251999.
+  - F.P. Brooks, “The mythical man-month: essays on software engineering - Anniversary Edition”, 1995, Addison-Wesley, ISBN: 978-0201835953.
+  - R.K. Wysocki, “Effective Project Management: Traditional, Agile, Extreme, 6th Edition”, 2011, Wiley, ISBN: 978-1-1180-1619-0.
+removed: []

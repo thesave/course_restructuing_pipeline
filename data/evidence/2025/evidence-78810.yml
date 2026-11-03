@@ -1,0 +1,132 @@
+format: evidence/1
+course: '78810'
+title: Real Time Systems for Automation M
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 12
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-15'
+    to: '2026-05-28'
+  teaching_ids:
+  - '455152'
+  teachers:
+  - name: Galassi, Andrea
+    affiliation: disi
+    role:
+    - rtda
+  - name: Grundler, Giulia
+    affiliation: disi
+    role:
+    - research scholarship holder
+  - name: Torroni, Paolo
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5822'
+    name: Electrical Energy Engineering
+    department: dei
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6675'
+    name: Electrical Energy Engineering
+    department: dei
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6711'
+    name: Automation Engineering
+    department: dei
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '6714'
+    name: Electrical Energy Engineering
+    department: dei
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '9066'
+    name: Electrical Energy Engineering
+    department: dei
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '455152'
+  laboratory:
+    value: true
+    evidence:
+    - Presential lectures covering theory and exercises and supervised hands-on lab sessions, meant to
+      be highly interactive.
+    - Autonomous work on lab assignments.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student
+  items:
+  - id: o1.1
+    text: is familiar with the fundamental concepts underlying modern operating system organization and
+      functioning, with an emphasis on real-time systems for automation
+  - id: o1.2
+    text: is able to realize simple concurrent applications using system calls and synchronization mechanisms
+  - id: o1.3
+    text: is able to analyze, design and implement simple real-time concurrent applications
+contents:
+- id: c1
+  text: The course is organized into modules.
+- id: c2
+  text: Python (20 hours), September/October. First part of "Module 1". Covers the basic of Python and
+    object-oriented programming. Lectures and hands-on lab.
+- id: c3
+  text: 'Operating Systems (40 hours), October/December. Second part of "Module 1". Topics: Overview and
+    system structures. Processes and threads. Scheduling. Process synchronisation and deadlocks. Memory
+    and I/O. Lectures.'
+- id: c4
+  text: 'Operating Systems Lab (15 hours), October/November. First part of "Module 2". Topics: Linux shell,
+    system call programming, POSIX, threads, synchronization. Hands-on lab.'
+- id: c5
+  text: 'Real-Time (30 hours), February/May. Corresponds to "Module 3". Topics: Basic concepts or real-time
+    systems. Aperiodic task scheduling. Clock-based and priority-based scheduling of periodic tasks. Resource
+    access protocols. Lectures.'
+- id: c6
+  text: 'Real-Time Lab (15 hours). Second part of "Module 2", March/May. Topics: real-time system programming
+    using vxWorks and Workbench. How to build a metascheduler for hard real-time periodic tasks that share
+    resources. Hands-on lab.'
+prerequisites: []
+bibliography: |-
+  Textbooks:
+
+  - Abraham Silberschatz, Peter B. Galvin, Greg Gagne. Operating System Concepts (http://os-book.com/), 9th Edition. International Student Version. Wiley 2013. ISBN: 978-1-118-09375-7. Editions 8 or 10 are equally good.
+    Chapters 1 — 9 & 13
+  - Giorgio C. Buttazzo. Hard Real-Time Computing Systems: Predictable Scheduling Algorithms and Applications (http://www.springer.com/computer/communication+networks/book/978-1-4614-3019-3), 3rd Edition. Springer 2011. ISBN: 978-1-4614-3019-3
+    Chapters 1 — 4, 7 & 11
+
+  Software:
+
+  - Linux, Eclipse+CDT (https://github.com/eclipse-cdt) (open software)
+  - vxWorks 7 and Workbench 4 (WindRiver)
+removed: []

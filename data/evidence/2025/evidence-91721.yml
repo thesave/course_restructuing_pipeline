@@ -1,0 +1,110 @@
+format: evidence/1
+course: '91721'
+title: Laboratory of Virtual Reality and Advanced Reality
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-22'
+    to: '2025-12-19'
+  teaching_ids:
+  - '518544'
+  teachers:
+  - name: Marfia, Gustavo
+    affiliation: dar
+    role:
+    - full professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - Lectures and lab hours.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student knows the fundamental theoretical principles, the hardware
+    and the main software platforms required to design and create virtual and augmented reality environments.
+- id: o2
+  text: Furthermore, the student acquires the skills necessary to design, create, modify and interact
+    with such environments
+contents:
+- id: c1
+  text: Introduction to Augmented and Virtual Reality (AR/VR)
+- id: c2
+  text: 'Principles: Computer Graphics in AR/VR'
+- id: c3
+  text: 'Principles: Perception and Human Factors (Designing and developing 3D UI: strategies and evaluation)'
+- id: c4
+  text: 'Principles: Interaction in AR/VR (Selection and manipulation, Travel, Navigation, Way finding,
+    System control, Symbolic input)'
+- id: c5
+  text: 'Hardware: Output (Visual, Auditory, Haptic, Vestibular, and Olfactory Channels)'
+- id: c6
+  text: 'Hardware: Input (Tracking Systems, Input Devices)'
+- id: c7
+  text: VR contents (Standards and Designing)
+- id: c8
+  text: 'Software: Platforms (Introduction, VR runtime systems, Real Time Physics Engines, Distributed
+    Virtual Environments, Collaborative Virtual Environments, Game Engines)'
+- id: c9
+  text: Mixed Reality (Mixed Reality Continuum - AR to VR, Mixed Reality Technologies)
+- id: c10
+  text: Avatar
+- id: c11
+  text: Applications of AR/VR
+- id: c12
+  text: Future of AR/VR
+- id: c13
+  text: Exercises/Demonstrations
+prerequisites: []
+bibliography: |-
+  LaValle, Steven. "Virtual reality." (2016). Harvard
+
+  JERALD J.: The VR Book: Human-Centered Design for Virtual Reality. ACM and Morgan & Claypool Publishers, 2016.
+
+  SCHMALSTIEG D., HAULLERER T.: Augmented Reality Principles and Practice (Usability). Addison-Wesley Professional, 2016.
+removed: []

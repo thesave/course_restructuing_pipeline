@@ -1,0 +1,147 @@
+format: evidence/1
+course: '72942'
+title: Information Security M
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-06-05'
+  teaching_ids:
+  - '517546'
+  teachers:
+  - name: Marchesano, Alessandro
+    affiliation: disi
+    role:
+    - pre-doc research fellow
+  - name: Montanari, Rebecca
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '517546'
+  laboratory:
+    value: true
+    evidence:
+    - The course will be complemented by a set of group work activities focused on the discussion of real-world
+      use cases, as well as a set of practical lab exercises in which students will be encouraged to carry
+      out guided activities through personal and independent work.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student will have in-depth knowledge of the algorithms, mechanisms,
+    protocols, and main management infrastructures for protecting information security and computing systems
+    against intentional attacks.
+- id: o2
+  text: The student will also learn the fundamental theoretical concepts underlying the construction of
+    cryptographic mechanisms.
+- id: o3
+  text: In particular, thanks to the acquired knowledge, the student will be able to apply and adopt the
+    most suitable mechanisms, protocols, and infrastructures depending on the specific characteristics
+    of the application contexts.
+- id: o4
+  text: Moreover, the student will be capable of designing security mechanisms/services based on well-defined
+    engineering principles and reasoned criteria, aiming to achieve the best possible balance between
+    security needs and other application requirements (usability, maintainability, scalability, etc.).
+contents:
+- id: c1
+  text: The aim of the course is to provide an in-depth study of the models, systems and mechanisms for
+    securing processing systems with both a theoretical and a practical focus.
+- id: c2
+  text: 'Suggested background: to gain more from the course it is important to have clear the concepts
+    and tools provided by the computer networks, operating systems and computer security laboratory courses.'
+- id: c3
+  text: The course contents are divided into three macro-areas
+  items:
+  - id: c3.1
+    text: Modern cryptography applied
+  - id: c3.2
+    text: Insights and pitfalls in using PRNG, stream ciphers and block ciphers, cryptographically secure
+      hash functions, asymmetric ciphers
+  - id: c3.3
+    text: Examples of attacks based on the incorrect use of ciphers and correct methods of use
+  - id: c3.4
+    text: Examples of cryptographic applications in some scenarios (wireless networks, cloud, IoT, ..)
+  - id: c3.5
+    text: Symmetric and asymmetric cryptographic key management models and systems (Key distribution center,
+      PKI, PGP)
+  - id: c3.6
+    text: Authentication Models and Systems
+  - id: c3.7
+    text: Recalls on authentication systems and principles of designing secure authentication protocols
+  - id: c3.8
+    text: Single Sign-on authentication models with related examples of protocols / systems (Kerberos,
+      ...)
+  - id: c3.9
+    text: Federated authentication models with relative examples of protocols / systems (Oauth, OpenID,
+      SAML, ..)
+  - id: c3.10
+    text: Blockchain technologies
+  - id: c3.11
+    text: Principles of operation
+  - id: c3.12
+    text: Hints of operation of the Bitcoin and Ethereum platforms
+- id: c4
+  text: The course will be accompanied by a set of practical lab exercises, in which students will be
+    encouraged to carry out guided activities in the form of personal and independent work.
+- id: c5
+  text: The texts and solutions of the exercises will be made available on the course website.
+prerequisites: []
+bibliography: |-
+  Slides on the course web site
+  References:
+
+  [1] Bruce Schneier: “Applied Cryptography ” John Wiley 1996
+
+  [2] A.J. Menezes, P.C. Van Oorschot, S.A. Vanstone: “Handbook of Applied Cryptography” CRC Press 1997
+
+  [3] William Stalling: “Sicurezza delle reti. Applicazioni e standard ” Addison Wesley Longman Italia
+
+  [4] William Stallings: "Crittografia e sicurezza delle reti", Mc Graw Hill
+
+  [5] G. Karame, E. Androulaki: "Bitcoin and Blockchain Security", Artech House computer security series
+removed: []

@@ -1,0 +1,165 @@
+format: evidence/1
+course: '98735'
+title: Python Coding and Data Science
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-05-18'
+  teaching_ids:
+  - '518146'
+  teachers:
+  - name: Bartolini, Nicola
+    affiliation: disa
+    role:
+    - adjunct professor
+  - name: Cordioli, Alberto
+    affiliation: stat
+    role:
+    - adjunct professor
+  programmes:
+  - code: '5885'
+    name: Greening Energy Market and Finance
+    department: stat
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '6693'
+    name: Greening Energy Market and Finance
+    department: stat
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The focus of the course is on Phython coding & Data Science which have gained great popularity
+    in the last few years, especially in the field of financial applications.
+- id: o2
+  text: Students will acquire a good knowledge of Coding with a special focus to financial application
+    and frontier topics of green finance.
+contents:
+- id: c1
+  text: Basic computer programming
+  items:
+  - id: c1.1
+    text: Introduction to programming languages
+  - id: c1.2
+    text: Programming fundamentals (syntax & semantics, variables, data types, operators, control flow,
+      ..)
+- id: c2
+  text: Introduction to Python
+  items:
+  - id: c2.1
+    text: Why Python for Data Science
+  - id: c2.2
+    text: Installing and configuring the Python environment
+  - id: c2.3
+    text: Running Python scripts
+  - id: c2.4
+    text: Python basics
+- id: c3
+  text: Python Data Types and Data Structures
+  items:
+  - id: c3.1
+    text: Primitive data types
+  - id: c3.2
+    text: Data structures
+  - id: c3.3
+    text: Manipulating data structures
+  - id: c3.4
+    text: Example of algorithms
+- id: c4
+  text: File Management and Operating System
+  items:
+  - id: c4.1
+    text: File operations
+  - id: c4.2
+    text: Interaction with the operating system
+- id: c5
+  text: Advanced topics
+  items:
+  - id: c5.1
+    text: Fundamental OOP concepts
+  - id: c5.2
+    text: Exception handling
+- id: c6
+  text: Modules and packages
+  heading: true
+  items:
+  - id: c6.1
+    text: Using standard and third-party libraries
+  - id: c6.2
+    text: Introduction to NumPy
+    items:
+    - id: c6.2.1
+      text: Arrays and matrices
+    - id: c6.2.2
+      text: Mathematical and statistical operations with NumPy
+    - id: c6.2.3
+      text: Array manipulation
+    - id: c6.2.4
+      text: Advanced NumPy functions
+  - id: c6.3
+    text: Data Analysis with Pandas
+    items:
+    - id: c6.3.1
+      text: 'Data structures in Pandas: Series and DataFrame'
+    - id: c6.3.2
+      text: Reading and writing data with Pandas
+    - id: c6.3.3
+      text: Data manipulation and cleaning
+    - id: c6.3.4
+      text: Data visualization with Pandas
+  - id: c6.4
+    text: Machine Learning with Scikit-Learn
+    items:
+    - id: c6.4.1
+      text: Introduction to Machine Learning
+    - id: c6.4.2
+      text: Supervised vs unsupervised learning
+    - id: c6.4.3
+      text: Scikit-Learn workflow
+    - id: c6.4.4
+      text: Examples
+  - id: c6.5
+    text: Introduction to Big Data
+    items:
+    - id: c6.5.1
+      text: Introduction to Apache Spark
+    - id: c6.5.2
+      text: PySpark fundamental
+prerequisites: []
+bibliography: |-
+  https://docs.python.org/3/tutorial/
+
+  https://numpy.org/doc/stable/reference/index.html
+
+  https://docs.scipy.org/doc/scipy/tutorial/index.html
+
+  https://pandas.pydata.org/docs/getting_started/tutorials.html
+
+  https://matplotlib.org/stable/tutorials/introductory/index.html
+removed: []

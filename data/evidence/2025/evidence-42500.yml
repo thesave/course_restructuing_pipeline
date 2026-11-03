@@ -1,0 +1,121 @@
+format: evidence/1
+course: '42500'
+title: Semantic Web
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-25'
+    to: '2026-06-04'
+  teaching_ids:
+  - '412687'
+  teachers:
+  - name: Carbonaro, Antonella
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Moro, Gianluca
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '412687'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student is familiar with the concepts, standards and languages that
+    constitute the architecture of the Semantic Web, the technologies and models for the representation
+    of metadata and ontologies, and the ways in which different resources can be integrated and utilised
+    (e.g. according to the Linked Data approach).
+- id: o2
+  text: The course explores the new ways of organising, integrating, managing and retrieving resources
+    that the Semantic Web and the Web of Data make available today.
+contents:
+- id: c1
+  text: This course is aimed at providing both a solid conceptual framework on the subject of knowledge
+    representation in the Web of Data, and the basis for the development and use of Knowledge Graphs (KGs)
+    by means of the most widespread tools in computer science and shared standards, highlighting issues
+    of interest and analysing some specific topics.
+- id: c2
+  text: The growth of Web contents requires the study of theories, methodologies and techniques for the
+    conceptualisation of these contents.
+- id: c3
+  text: This course aims to provide students with an understanding of the formal assumptions, languages
+    and technologies that allow applications to be realised, as well as specific skills in the use and
+    development of computer systems for the semantic management of knowledge.
+- id: c4
+  text: 'In particular, Module 1 (48 hours) covers the following topics:'
+- id: c5
+  text: KG in the Web of Data (Semantic Web, Linked Open Data)
+- id: c6
+  text: Semantic technologies (RDF, RDFS, logical inference, RDFa, microformats)
+- id: c7
+  text: Querying RDF (DBPedia KG, SPARQL)
+- id: c8
+  text: Knowledge representation using ontologies (OWL)
+- id: c9
+  text: KG applications (ontologies, KG programming, visualisation and analytics)
+- id: c10
+  text: The topics covered in Module 2 (10 hours) are
+  items:
+  - id: c10.1
+    text: KG embeddings, KG completion, KG mappings and alignment, semantic search
+  - id: c10.2
+    text: Graph machine learning
+prerequisites: []
+bibliography: |-
+  Lecture notes distributed by the lecturer during the course and published on the reference site.
+
+  Text for further reading:
+
+  Semantic Web for the Working Ontologist: Effective Modeling for Linked Data, RDFS, and OWL, third edition, Dean Allemang, James Hendler, Fabien Gandon.
+removed: []

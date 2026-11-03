@@ -1,0 +1,106 @@
+format: evidence/1
+course: '95648'
+title: Software Design and Development
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 9
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-18'
+    to: '2025-12-12'
+  teaching_ids:
+  - '498808'
+  teachers:
+  - name: Aguzzi, Gianluca
+    affiliation: disi
+    role:
+    - adjunct professor
+  - name: Deluigi, Luca
+    affiliation: aform
+    role:
+    - teaching tutor
+  - name: Filaseta, Angelo
+    affiliation: disi
+    role:
+    - adjunct professor
+  - name: Pianini, Danilo
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '6007'
+    name: Computer Systems Technologies
+    department: disi
+    campus: Cesena, Imola
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '498808'
+  laboratory:
+    value: true
+    evidence:
+    - The course combines lectures with partially guided laboratory sessions.
+    - In the laboratory, students are introduced to the main development tools and assigned programming
+      tasks to strengthen their practical skills through active approaches.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student will possess a foundational understanding of programming
+    paradigms for software in-the-large, such as the object-oriented and functional paradigms, their main
+    design patterns, and their embodiment in modern programming languages and related development frameworks.
+- id: o2
+  text: The student will therefore be able to design and develop complete small- to medium-scale applications,
+    making use of development processes and agile techniques, including the DevOps approach to project
+    management.
+contents:
+- id: c1
+  text: Fundamentals of analysis, design, and object-oriented programming
+- id: c2
+  text: 'Java language: overview and development tools'
+- id: c3
+  text: 'Core and typical concepts of object-oriented languages: classes, objects, methods, fields, instantiation'
+- id: c4
+  text: 'Polymorphism, inheritance, and reuse: interfaces and abstract classes'
+- id: c5
+  text: 'Advanced aspects: generic programming, annotations, exception handling, elements of functional
+    programming (lambda expressions)'
+- id: c6
+  text: Core libraries for program development
+- id: c7
+  text: Input/output management
+- id: c8
+  text: Graphical user interface programming
+- id: c9
+  text: Introductory elements of concurrent programming
+- id: c10
+  text: Introduction to design patterns and effective programming techniques
+- id: c11
+  text: 'Development tools and basics of DevOps: JDK, IntelliJ IDEA, Git, Gradle, continuous integration'
+prerequisites: []
+bibliography: |-
+  Reference text:
+
+  - Bruce Eckel, Thinking in Java — Fourth Edition
+
+  Additional recommended texts:
+
+  - Joshua Bloch, Effective Java — Second Edition
+  - Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides, Design Patterns
+
+  Purchasing these books is not required, as substitute slides will be provided. The course will also make use of tutorials and technical documentation available online.
+removed: []

@@ -1,0 +1,72 @@
+format: evidence/1
+course: '88016'
+title: Statistics
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 2
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Ravenna
+  schedules:
+  - from: '2025-10-08'
+    to: '2026-01-07'
+  teaching_ids:
+  - '446880'
+  teachers:
+  - name: Piccinini, Filippo
+    affiliation: dimec
+    role:
+    - associate professor
+  programmes:
+  - code: '9080'
+    name: Speech and Language Therapy
+    department: dibinem
+    campus: Faenza
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the module, the student will have the knowledge and the ability to understand the
+    concepts and possible applications of basic statistics in the biomedical and clinical fields, ranging
+    from anthropometry to biometrics, as well as to the planning, organization, and management of healthcare
+    services.
+contents:
+- id: c1
+  text: Overview of experimental and observational study designs;
+- id: c2
+  text: Introduction to statistics;
+- id: c3
+  text: Univariate and bivariate descriptive statistics;
+- id: c4
+  text: Inferential statistics and probability;
+- id: c5
+  text: Frequency tables and graphical representations;
+- id: c6
+  text: 'Summary measures of a distribution: mean, median, mode;'
+- id: c7
+  text: Variability measures, confidence intervals, precision/bias;
+- id: c8
+  text: Main statistical tests and their practical applications;
+- id: c9
+  text: Use of Excel for data processing.
+prerequisites: []
+bibliography: Andrea Sgarro, Laura Franzoi, Paolo Vicig. Statistica di Base. 2022. Zanichelli.
+removed: []

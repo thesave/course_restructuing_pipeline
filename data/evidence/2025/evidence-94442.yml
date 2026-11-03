@@ -1,0 +1,164 @@
+format: evidence/1
+course: '94442'
+title: Design of Web Applications T
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-06-04'
+  teaching_ids:
+  - '461145'
+  teachers:
+  - name: Bartolini, Ilaria
+    affiliation: disi
+    role:
+    - full professor
+  - name: Caruso, Marco
+    affiliation: disi
+    role:
+    - teaching tutor
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '461145'
+  laboratory:
+    value: true
+    evidence:
+    - A non-negligible part of the course (around 30% of the hours) is composed by lab exercises, with
+      proposed tasks and supervised by teachers and tutors.
+    - Each lab exercise addresses a topic presented and discussed in the previous classroom lectures,
+      within a practical and operational perspective (also usage of state-of-the-art development and programming
+      tools).
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student masters the principles of the design and development of
+    Web applications, with particular attention to data-intensive applications.
+contents:
+- id: c1
+  text: Models for Designing Web Applications
+  items:
+  - id: c1.1
+    text: 'Data model: E/R e UML'
+    language: it
+  - id: c1.2
+    text: Hypertext model (WebML)
+  - id: c1.3
+    text: Content management model (WebML)
+- id: c2
+  text: Design of Web Applications
+  items:
+  - id: c2.1
+    text: Overview of the development process
+  - id: c2.2
+    text: Requirements specifications and data design
+  - id: c2.3
+    text: Hypertext design in WebML
+- id: c3
+  text: Implementation of Web Applications
+  items:
+  - id: c3.1
+    text: 'Architecture design and multilayer organisation: Services, Business Logic, and Application'
+  - id: c3.2
+    text: Data implementation
+  - id: c3.3
+    text: Hypertext implementation
+  - id: c3.4
+    text: 'Tools for model-based development of Web applications: Web Ratio and IFML'
+- id: c4
+  text: 'Services: Models and technologies for the effective and efficient management of the impedance
+    mismatch'
+- id: c5
+  text: 'Direct access to databases: Interfaces and abstractions'
+- id: c6
+  text: 'Object-based architectures vs. relational databases: The impedance mismatch'
+- id: c7
+  text: 'Methodologies for persistence designing and developing: The "brute force" approach (JDBC), pattern
+    DAO, and Object-Relational Mapping (ORM) - Entity Beans - Hibernate library'
+- id: c8
+  text: 'Services: Transactional models'
+  items:
+  - id: c8.1
+    text: Isolation levels
+  - id: c8.2
+    text: 'Transactional models: JDBC, JTA e Hibernate'
+- id: c9
+  text: Data description and XML
+  items:
+  - id: c9.1
+    text: 'Descrizione delle informazioni: XML e XHTML'
+    language: it
+  - id: c9.2
+    text: 'Tipizzazione di XML: DTD vs. XML Schema'
+  - id: c9.3
+    text: Accenni a XSL e XSLT
+  - id: c9.4
+    text: 'XML e Java: Parser XML (modelli DOM e SAX)'
+    language: it
+- id: c10
+  text: N.B.
+- id: c11
+  text: Significant part of the course is dedicated to carrying out guided laboratory exercises.
+prerequisites:
+- id: p1
+  text: A good knowledge of Java language and its application framework is required, as well as the fundamentals
+    of Web Technologies and Databases.
+bibliography: |-
+  All the lectures slides are available for download at the course Web site. For further information the student can refer the following books and links:
+
+  W3C, XML
+  XML In a Nutshell, Second Edition, by Elliotte Rusty Harold and W. Scott Means. O'Reilly.
+  http://www.w3.org/XML/
+  http://www.w3.org/Style/XSL/
+
+  Design Web Applications
+  Progettazione di dati e applicazioni per il web, by Stefano Ceri et al. McGraw-Hill
+  Designing data-intensive web applications, by Stefano Ceri et al. Morgan Kaufmann
+  Interaction Flow Modeling Language: Model-Driven UI Engineering of Web and Mobile Apps with IFML, by Marco Brambilla at al. Morgan Kaufmann
+
+  Hibernate
+  Java persistence with Hibernate - Bauer - Manning
+removed: []

@@ -1,0 +1,88 @@
+format: evidence/1
+course: B5780
+title: Computational Methods for Bioinformatics
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 10
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-11-03'
+    to: '2026-01-22'
+  teaching_ids:
+  - '524682'
+  teachers:
+  - name: Lanese, Ivan
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Manfredi, Matteo
+    affiliation: fabit
+    role:
+    - adjunct professor
+  programmes:
+  - code: '6767'
+    name: Bioinformatics
+    department: fabit
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '8020'
+    name: Bioinformatics
+    department: fabit
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: true
+    disi_teaching_ids:
+    - '524682'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student has the knowledge for developing and using tools for sequence
+    and structure analysis of biomolecules and more generally for annotation problems in the genomic era.
+- id: o2
+  text: In particular, the student will be able to independently write programs in Python language.
+- id: o3
+  text: He/she will be also able to discuss the theoretical basis of sequence alignment tools (dynamic
+    programming and heuristic algorithms) and to implement them.
+contents:
+- id: c1
+  text: The course is composed of 2 modules
+  items:
+  - id: c1.1
+    text: 'Python programming, including: variables, expressions and statements, functions, conditionals,
+      iteration, strings, lists, tuples, dictionaries, files, recursion and object-oriented programming.'
+  - id: c1.2
+    text: Brief introduction to linux (at the beginning of the course) and to dynamic programming and
+      pairwise alignment algorithms (local, global and semiglobal) and their python implementation (at
+      the end of the course).
+prerequisites: []
+bibliography: |-
+  No specific book is required. Updated teaching material is available through the Virtuale website.
+
+  For further information we suggest:
+
+  Cay Horstmann, Rance D. Necaise. Python for Everyone, Wiley
+
+  Allen B. Downey. Think Python: How to Think Like a Computer Scientist, O’ Reilly
+
+  for the Python programming part.
+removed: []

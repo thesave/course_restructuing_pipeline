@@ -1,0 +1,113 @@
+format: evidence/1
+course: '81672'
+title: Emerging Programming Paradigms
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-05-15'
+  teaching_ids:
+  - '479059'
+  teachers:
+  - name: Padovani, Luca
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '479059'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: In recent years there is a renaissance of the development of programming language, motivated by
+    the introduction of multicore processors and the need of finding simpler way to exploit them.
+- id: o2
+  text: Go, Scala, Erlang, Clojure, Rust are examples of languages that are interesting to the industrial
+    world and that are rooted into both new and old programming paradigms.
+- id: o3
+  text: At the end of the course the student will know the main emerging programming paradigms, how to
+    critically weight their weak and strong characteristics and she will have acquired new programming
+    skills.
+contents:
+- id: c1
+  text: This course introduces a number of different programming languages highlighting the underlying
+    principles, the peculiar features, the strengths and the interesting implementation aspects.
+- id: c2
+  text: A recurring and common theme across all the presented arguments concerns the role of types in
+    conceiving and using constructs and programming idioms enabling the development of code that is robust,
+    modularly composable and that provides strong correctness guarantees.
+- id: c3
+  text: 'The arguments include:'
+- id: c4
+  text: Classless object-oriented programming
+- id: c5
+  text: Limits of the object-oriented programming paradigm
+- id: c6
+  text: Traits in Go and in Rust, type classes in Haskell
+- id: c7
+  text: 'Case study: code testing with QuickCheck'
+- id: c8
+  text: Compositional approaches to programming with side effects
+- id: c9
+  text: The origin of monads and classical monads (partial computations, state, I/O)
+- id: c10
+  text: Monad transformations
+- id: c11
+  text: 'Case studies: non-deterministic parsing, concurrent programming with Software Transactional Memory'
+- id: c12
+  text: Certified programming
+- id: c13
+  text: From parametric to dependent types
+- id: c14
+  text: 'Case studies: certified programming on numbers, lists and sized vectors'
+prerequisites: []
+bibliography: The teacher will provide slides and programs presented during the lectures, in addition
+  to pointers to papers, manuals and other online material.
+removed: []

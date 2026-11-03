@@ -1,0 +1,164 @@
+format: evidence/1
+course: 04138
+title: Programming Languages
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 12
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-23'
+    to: '2026-05-21'
+  teaching_ids:
+  - '320579'
+  teachers:
+  - name: Gabbrielli, Maurizio
+    affiliation: disi
+    role:
+    - full professor
+  - name: Giallorenzo, Saverio
+    affiliation: disi
+    role:
+    - tenure-track researcher
+  - name: Gorrieri, Roberto
+    affiliation: disi
+    role:
+    - full professor
+  - name: Pennino, Federico
+    affiliation: disi
+    role:
+    - research scholarship holder
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '320579'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student will know the principal techniques for defining the syntax
+    and the semantics of the most common programming languages; they will also know how to implement the
+    principal constructs.
+contents:
+- id: c1
+  text: First module, first semester
+  heading: true
+  items:
+  - id: c1.1
+    text: The evolution of programming languages.
+  - id: c1.2
+    text: From assembly to higher level languages.
+  - id: c1.3
+    text: Abstract machines, intepreters and compilers.
+  - id: c1.4
+    text: 'Description of a programming language: syntax, semantics, pragmatics and implementation.'
+  - id: c1.5
+    text: Syntax (BNF).
+  - id: c1.6
+    text: Structured Operational Semantics (SOS).
+  - id: c1.7
+    text: 'Regular grammars, regular expressions, and finite automata: equivalences and principal theorems
+      (e.g., pumping lemma).'
+  - id: c1.8
+    text: Design of lexical analysers.
+  - id: c1.9
+    text: Lex.
+  - id: c1.10
+    text: 'Context free grammars and push-down automata: equivalences and principal theorems (e.g., pumping
+      theorem).'
+  - id: c1.11
+    text: 'Deterministic context free grammars: algorithms for parsing; grammars LL(1), LR(0), SLR, LR(1),
+      LALR(1).'
+  - id: c1.12
+    text: YACC.
+- id: c2
+  text: Second module, second semester
+  heading: true
+  items:
+  - id: c2.1
+    text: Environment, scoping rules and their implementation.
+  - id: c2.2
+    text: Stack of the activation records; heap.
+  - id: c2.3
+    text: 'Memory management: garbage collection.'
+  - id: c2.4
+    text: Sequence control, procedures, recursion.
+  - id: c2.5
+    text: Types and type checking.
+  - id: c2.6
+    text: 'Parameters and parameter passing: by value, by reference, by result, by name.'
+  - id: c2.7
+    text: Functional parameters; closures.
+  - id: c2.8
+    text: Exceptions.
+  - id: c2.9
+    text: 'The object-oriented paradigm: classes and objects, initialization, inheritance and late-binding.'
+  - id: c2.10
+    text: Subtyping is not inheritance.
+  - id: c2.11
+    text: The logical paradigm.
+  - id: c2.12
+    text: The functional paradigm (Scala).
+  - id: c2.13
+    text: The concurrent paradigm and service-oriented computing (Jolie).
+prerequisites: []
+bibliography: |-
+  Maurizio Gabbrielli, Simone Martini
+
+  Linguaggi di programmazione: principi e paradigmi. Seconda edizione. McGraw-Hill Italia, 2010. ISBN 88-386-6573-8.
+
+  For the second module, one can use also the new English edition:
+  Maurizio Gabbrielli, Simone Martini, Saverio Giallorenzo. Programming Languages: Principles and Paradigms [http://www.springer.com/computer/book/978-3031341434]. Springer, 2023. ISBN 978-3031341434 .
+removed:
+- text: 'First module, first semester; instructor: Roberto Gorrieri'
+  reason: instructor
+- text: http://www.cs.unibo.it/~gorrieri/
+  reason: link
+- text: 'Second module, second semester; instructors: Maurizio Gabbrielli and Saverio Giallorenzo'
+  reason: instructor
+- text: http://www.unibo.it/SitoWebDocente/default.htm?UPN=maurizio.gabbrielli%40unibo.it
+  reason: link
+- text: https://www.unibo.it/sitoweb/saverio.giallorenzo2
+  reason: link

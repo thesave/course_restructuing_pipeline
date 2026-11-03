@@ -1,0 +1,103 @@
+format: evidence/1
+course: 27311-A
+title: Humanistic IT
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-09'
+    to: '2026-03-18'
+  teaching_ids:
+  - '423208'
+  teachers:
+  - name: Garagnani, Massimiliano
+    affiliation: filo
+    role:
+    - associate professor
+  programmes:
+  - code: '5975'
+    name: Communication Sciences
+    department: dar
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6620'
+    name: Communication Sciences
+    department: dar
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6665'
+    name: Philosophy
+    department: filo
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '9216'
+    name: Philosophy
+    department: filo
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - The course will consist of face-to-face lectures (2 hours each), complemented each week by 2 hours
+      of hands-on laboratory sessions.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student understands the concept of information and knows the methods
+    of digital representation and the systems of automatic data processing in the field of humanities;
+    he/she possesses theoretical knowledge, methodological skills and techniques to represent and process
+    humanistic data.
+contents:
+- id: c1
+  text: The course aims to provide students with a basic understanding of computer programming and the
+    tools for encoding, analyzing, and storing texts in digital format.
+- id: c2
+  text: Upon completion, students will have the skills necessary to design, develop, and test a small
+    software system capable of manipulating text using a high-level, object-oriented programming language
+    (i.e., Python).
+- id: c3
+  text: fundamental concepts of digital information processing (including integers and floating-point
+    numbers, strings, assignments, variables, libraries, lists and files);
+- id: c4
+  text: basic programming constructs, such as sequential and selective execution, loops, user-defined
+    functions and classes;
+- id: c5
+  text: fundamental principles and techniques of information processing (including conditional and iterative
+    control, string manipulation, and creation and automated processing of text documents).
+- id: c6
+  text: Students who successfully complete this course will be able to design and implement small (but
+    complete) interactive programs that use basic control structures; drawing also upon object-oriented
+    programming concepts, they'll be able to produce, analyze, modify, and store texts and other resources
+    in digital format.
+prerequisites: []
+bibliography: |-
+  Allen B. Downey: “Think Python: How to think like a Computer Scientist”, Green Tea Press, 2015 (Second Ed.).
+
+  John Zelle: “Python programming: an introduction to Computer Science”. Franklin, Beedle & Associates Inc., 2010 (Second Ed.)
+
+  Charles Dierbach: “Introduction to Computer Science Using Python: a computational problem-solving focus”. John Wiley & Sons, 2013
+removed: []

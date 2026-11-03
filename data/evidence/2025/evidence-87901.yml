@@ -1,0 +1,147 @@
+format: evidence/1
+course: '87901'
+title: Methods and Advanced Technologies for Interpreting
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 5
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Forli
+  schedules:
+  - from: '2025-09-29'
+    to: '2025-12-04'
+  teaching_ids:
+  - '504526'
+  teachers:
+  - name: Lecci, Claudia
+    affiliation: dit
+    role:
+    - adjunct professor
+  programmes:
+  - code: '6057'
+    name: Intepreting
+    department: dit
+    campus: Forlì
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '6825'
+    name: Intepreting
+    department: dit
+    campus: Forlì
+    cycle: second
+    languages:
+    - english
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - As concerns the teaching methods of this course unit, all students must attend Module 1, 2 on Health
+      and Safety (https://www.unibo.it/en/services-and-opportunities/health-and-assistance/health-and-safety/online-course-on-health-and-safety-in-study-and-internship-areas)
+      online.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The student – knows and is able to use the ICT resources, both traditional and electronic, required
+    for the interpretation of oral speeches.
+- id: o2
+  text: S/he knows and is able to use the terminography tools necessary for the interpretation of oral
+    speeches.
+- id: o3
+  text: S/he has the basic terminology skills required for the interpretation.
+- id: o4
+  text: S/he is able to autonomously build terminology databases necessary for the interpretation of oral
+    speeches - s/he is able to autonomously think out further technological expertise and to use it in
+    other professional fields.
+contents:
+- id: c1
+  text: This course appears in both the InConf and InTeCo curricula, but under different names.
+- id: c2
+  text: In particular, for InConf the course name is METODI E TECNOLOGIE AVANZATE PER L'INTERPRETAZIONE,
+    while for InTeCo the name is TECHNOLOGY-ASSISTED INTERPRETING I.
+- id: c3
+  text: For the InConf curriculum
+- id: c4
+  text: The course is delivered in the first semester and focuses on the looking up of glossaries in the
+    interpretation booth and on the development of expertise in the area of voice recognition software
+    for the production of real-time subtitles (also known as speech-to-text interpreting - STTI).
+- id: c5
+  text: The first part of the course focuses on the use of speech recognition software for the production
+    of intralingual live subtitles will be introduced.
+- id: c6
+  text: After a theoretical introduction to the production of written text from public speeches, some
+    of the the speech recognition tools available today will be presented.
+- id: c7
+  text: Among these, the focus will be on DIT.tafono (free speaker-independent software) and Dragon Naturally
+    Speaking (commercial speaker-dependent software).
+- id: c8
+  text: This will be followed by practical exercises in the production of written texts from voice input
+    using both written and audio (visual) material.
+- id: c9
+  text: Afterwards, the techniques for real-time production of subtitles for audio-visual products will
+    be presented (especially for deaf people).
+- id: c10
+  text: Then, in the second part, the use of tools useful to looking up terminological resources in the
+    interpretation booth (CAI tools) will be presented, focusing in particular on InterpretBank.
+- id: c11
+  text: For the InTeCo curriculum
+- id: c12
+  text: This course includes a platform-based part and a face-to-face part, which borrows the hours from
+    InConf's METODI E TECNOLOGIE AVANZATE PER L'INTERPRETAZIONE course.
+- id: c13
+  text: In the face-to-face part, the use of speech recognition software for the production of intralingual
+    live subtitles will be introduced.
+prerequisites: []
+bibliography: |-
+  During lessons based on theoretical aspects, the teacher will be using the following bibliographical references:
+
+  AENOR (2005) Norma UNI: 153020. Audiodescripciòn para personas con discapacidad visual. Requisitos para la audiodescripciòn y elaboraciòn de audioguías. Madrid: AENOR
+
+  Arma, Saveria (2011) "The Language of Audio Description from a Corpus-Based Perspective". Dottorato in Lingua Inglese per Scopi Speciali, Università degli Studi di Napoli Federico II, Facoltà di Scienze Politiche. Online at http://www.fedoa.unina.it/8740/1/ARMA_Saveria_23.pdf Benecke, Bernd (2004) "Audio-Description". In Meta 49 (1), pp. 78-80
+
+  Berber-Irabian, 2010. “New Technologies and Electronic Tools in Conference Interpreting” Doctoral dissertation ISG Tarragona.
+  Dubuc R., “Manuel pratique de terminologie”, Conseil international de la langue française
+
+  Eugeni, C. (2007). “Il rispeakeraggio televisivo per sordi: per una sottotitolazione mirata del TG”. In InTRAlinea, vol. 9
+  http://www.intralinea.org/archive/article/Il_rispeakeraggio_televisivo_per_sordi
+
+  Eugeni, Carlo & Mack, Gabriele (ed.). 2006. First international seminar on new technologies in real time intralingual subtitling. inTRAlinea Special Issue Respeaking. Online at http://www.intralinea.it/specials/respeaking/ita_open.php
+
+  Fantinuoli C. (2016), InterpretBank. Redefining computer-assisted interpreting tools. Proceedings of the Translating and the Computer 38 Conference in London. Geneva: Editions Tradulex, 42-52
+
+  Fantinuoli C. (2018) "The use of comparable corpora in interpreting practice and teaching". The Interpreters' Newsletter 23, 133-149
+
+  Fantinuoli C. (2019) "The technological turn in interpreting: the challenges that lie ahead". Proceedings of the conference Übersetzen und Dolmetschen 4.0. - Neue Wege im digitalen Zeitalter, 334-354
+
+  Fantinuoli C., Pisani E. (2021) "Measuring the impact of automatic speech recognition on interpreter’s performances in simultaneous interpreting", In: Empirical studies of translation and interpreting: the post-structuralist apporach, Edited by Caiwen Wang and Binghan Zheng. Routledge
+
+  Felber H., 1984. “Terminology Manual”, Infoterm-UNESCO
+
+  Kalina, S., 2010. “New Technologies in Conference Interpreting” in Lee-Jahnke & Prunc (eds.), Am Schnittpunkt von Philologie und Translationswissenschaft. Festschrift zu Ehren von Martin Forstner. Bern: Peter Lang, 79-96
+
+  Lodge, N. K. Green, N. W. and Nunn, J. P. (1994) "Audetel, Audio Described Television – the Launch of National Trials". In Proceedings International Broadcasting Convention, IEE conference 397, Amsterdam, September 1994, pp. 140-145
+
+  Ryan, Marie-Laure (2004) (ed.) Narrative Across Media: the languages of storytelling. University of Nebraska Press. Salway, Andrew and Graham, Mike (2003) "Extracting Information about Emotions in Films". In Proceedings. 11th ACM Conference on Multimedia 2003, 4th-6th Nov. 2003, pp. 299-302
+
+  Romero-Fresco, P. (2015). “Respeaking”. In F. Pöchhacker, N. Grbić, P. Mead e R. Setton (2015). 350-351
+
+  Romero-Fresco, P. e J. Martínez Pérez (2015) “Accuracy Rate in Live Subtitling: The NER Model”. In R. Baños Piñero e J. Díaz Cintas (2015). 28-50
+
+  Sandrelli, A. (2021) “Eventi dal vivo e accessibilità: Uno studio di caso sul respeaking interlinguistico”. Lingue e Linguaggi, 43, 145-168.
+removed:
+- text: The course will be held in Italian, with educational interpreting in English.
+  reason: language of teaching

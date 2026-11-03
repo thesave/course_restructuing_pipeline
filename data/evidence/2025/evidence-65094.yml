@@ -1,0 +1,83 @@
+format: evidence/1
+course: '65094'
+title: ADVANCED PROGRAMMING
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-17'
+    to: '2025-12-18'
+  teaching_ids:
+  - '480805'
+  teachers:
+  - name: Baglione, Enrico
+    affiliation: difa
+    role:
+    - adjunct professor
+  programmes:
+  - code: '5895'
+    name: Science of Climate
+    department: difa
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '6697'
+    name: Science of Climate
+    department: difa
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: 'This course will be devoted to complete the preparation by giving the student all elements of
+    programming with modern languages: e.g. python, object-oriented programming.'
+contents:
+- id: c1
+  text: 'The Python programming language: from basics to advanced programming for scientific computing.'
+- id: c2
+  text: The first part includes a quick overview over variables, data types, operators, control structures,
+    functions, lists, tuples, dictionaries, file handling.
+- id: c3
+  text: Within the second part the student will start exploring the versatility and power for scientific
+    computing, learning how to unleash the potential of Python by mastering essential libraries such as
+    NumPy, SciPy, Pandas, Matplotlib and Scikit-Learn.
+- id: c4
+  text: These libraries will be the tools for efficiently managing, analyzing, and visualizing large datasets
+    commonly encountered in scientific research.
+- id: c5
+  text: The student will apply the learned skills in the resolution of simple physical equations (ex.
+- id: c6
+  text: D’alembert equations, heat equation, transport equation) with the help of basic numerical modeling,
+    in the extraction of major statistical properties from physical datasets and comparison with theoretical
+    predictions, in the visualization and graphical representation of datasets and their properties.
+- id: c7
+  text: The course will introduce to some basics of shell commands to optimize and automate workflows
+    and series of codes.
+prerequisites: []
+bibliography: |-
+  - Notes of the teacher.
+  - How to Think Like a Computer Scientist: Learning with Python, di Allen Downey, Jeff Elkner e Chris Meyers. Gree Tea Press (available at: https://media.readthedocs.org/pdf/howtothink/latest/howtothink.pdf )
+  - Python in Earth Science, a brief introduction by Sujan Koirala and Jake Nelson (Max Planck Institute for Biogeochemistry, Jena, Germany) (http://hydro.iis.u-tokyo.ac.jp/~sujan/docs/PythonInEarthScience.pdf )
+removed: []

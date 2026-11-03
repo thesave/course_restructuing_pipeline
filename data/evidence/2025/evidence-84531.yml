@@ -1,0 +1,206 @@
+format: evidence/1
+course: '84531'
+title: Infrastructures For Cloud Computing and Big Data M
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-19'
+    to: '2026-06-05'
+  teaching_ids:
+  - '517618'
+  teachers:
+  - name: Corradi, Antonio
+    affiliation: unibo
+    role:
+    - former professor
+  - name: Sabbioni, Andrea
+    affiliation: disi
+    role:
+    - rtda
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '517618'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The class tends to enhance the capacity of orientating in the process of defining the strategies
+    for a distributed system and applying them in different related applications.
+- id: o2
+  text: The students face the principles and the main problems of distributed large systems and are exposed
+    to some standard and widely solutions, by following the class and via individual work.
+- id: o3
+  text: 'At the end, students are expected to be able to know the properties of most diffused middleware
+    and the evolutions one can expect from that technology, by mastering the properties for designing
+    a real application: most well spread strategies are presented and discussed.'
+contents:
+- id: c1
+  text: 'The course covers several topics central in modern global data and processing infrastructures,
+    such as Data Centers, MultiCloud Systems, Federation of resources, etc. typically supporting Industry
+    5.0 and Smart city applications, via the following basic concepts:'
+- id: c2
+  text: Advanced models for large distributed & cloud systems, from C/S to message exchange. Particular
+    importance is given to the distinction and the implications of the two models and their goals
+- id: c3
+  text: Replication, group and many-to-many communication, and systems for QoS
+- id: c4
+  text: Middleware for development and management of large distributed & cloud systems
+- id: c5
+  text: Infrastructures for global data storage and processing
+- id: c6
+  text: Specific modern systems for big data processing and scalable global supports
+- id: c7
+  text: All above issues are basic topics on which students must be aware of and very competent of, obtained
+    by deep reflections and personal considerations.
+- id: c8
+  text: The class explores the following topics
+- id: c9
+  text: Advanced models for large distributed & cloud systems
+  items:
+  - id: c9.1
+    text: 'Class Starting: general information and presentation of the Class (use cases)'
+  - id: c9.2
+    text: 'Goals, Basics, and Models: classifications, C/S vs. Message exchange, service and cloud models,
+      parallelization models'
+  - id: c9.3
+    text: 'Middleware & Cloud Models: definitions, categories, basic organization, and patterns for large
+      distributed and cloud systems, Cloud internals design.'
+- id: c10
+  text: Different consistency degrees and impact on service properties (BASE and CAP)
+- id: c11
+  text: 'Replication: models, strategies and protocols'
+- id: c12
+  text: 'Communication and groups: models, protocols and algorithms'
+- id: c13
+  text: Systems and protocols for QoS
+- id: c14
+  text: Multicast and MOM middleware
+- id: c15
+  text: Middleware for large distributed & cloud systems
+  items:
+  - id: c15.1
+    text: 'CORBA: middleware and operating environment'
+  - id: c15.2
+    text: 'MOM: examples of very thin environments'
+  - id: c15.3
+    text: 'OpenStack: an example of a widely-diffused cloud IaaS'
+- id: c16
+  text: Novel infrastructures for global data storage and processing
+  items:
+  - id: c16.1
+    text: 'Global data storage: solutions for non-traditional NoSQL data memorization (Cassandra and MongoDB)'
+  - id: c16.2
+    text: 'Global data processing: batching and streaming based big data processing (Map-Reduce, Spark,
+      and Storm and S4)'
+  - id: c16.3
+    text: Main properties for effective design projects
+prerequisites: []
+bibliography: |-
+  G. Coulouris, J. Dollimore, T. Kindberg: "Distributed Systems: concepts and Design", Addison-Wesley, (fifth edition) 2012.
+
+  M. Kleppmann:, "Designing Data-Intensive Applications“, O’Reilly, 2017
+
+  A.S. Tanenbaum, M. v. Steen "Distributed Systems: Principles and Paradigms", Prentice-Hall, (second edition) 2006 / 2013.
+
+  B. Forouzan, F. Mosharraf: “Computer Networks, a top down approach”, McGraw-Hill, 2011.
+
+  M.L. Liu, "Distributed Computing", Addison-Wesley, 2003.
+
+  D.L. Galli: "Distributed Operating Systems: Concepts and Practice", Prentice-Hall, 2000.
+
+  L. Peterson, B. Davie, "Computer Networks, A Systems Approach", (fifth edition) Morgan Kaufmann Series in Networking, 2011,
+
+  V.K. Garg, “Elements of Distributed Computing”, Wiley, 2002.
+
+  L. Carlson, “Programming for PaaS, A Practical Guide to Coding for Platform-as-a-Service”, O Reilly, 2013.
+
+  J. Siegel, “Pure CORBA: a code-intensive reference”, (second edition), SAMS Publishing, 2002.
+
+  F. Halsall, “Multimedia Communications”, Addison-Wesley, 2001.
+
+  D.A. Chappel, T. Jewell, “Java Web Services”, O'Reilly, 2002.
+
+  E. Newcomer, “Understanding Web Services”, Addison-Wesley, 2002.
+
+  T. Erl et al., “Cloud computing : concepts, technology, & architecture”, Prentice Hall, 2013.
+
+  B. Wilder, “Cloud architecture patterns”, Beijing, 2013.
+
+  A. T. Velte et al., “Cloud computing: a practical approach”, McGraw-Hill, 2010.
+
+  J. Rhoton, “Cloud computing explained”, Recursive Press, 2009.
+
+  T. Fifield et al., “Openstack operations guide: set up and manage your OpenStack cloud”, O'Reilly, 2014.
+
+  S. Holla, “Orchestrating Docker”, Packt Publishing, 2015.
+
+  O. Hane, “Build your own PaaS with Docker”, Packt Publishing, 2015.
+
+  T.D. Nadeau and K. Gray, “SDN: software defined networks”, O'Reilly, 2013.
+
+  L. Carlson, “Programming for Paas”, O'Reilly, 2013.
+
+  T. White, “Hadoop: the definitive guide”, O'Reilly, 2012.
+
+  E. Sammer, “Hadoop operations”, O'Reilly, 2012.
+
+  K. Rankin, “DevOps troubleshooting”, Addison-Wesley, 2013.
+
+  D. Sui et al., “Crowdsourcing geographic knowledge”, Springer, 2013.
+
+  Z. Yan et al., “Semantics in mobile sensing”, Morgan & Claypool, 2014.
+
+  R. Copeland, “MongoDB applied design patterns”, O'Reilly, 2013.
+
+  J. Carpenter, “Cassandra: The Definitive Guide”, 3rd Edition, O'Reilly, 2020.
+
+  Silvano Gai, “Building a Future-Proof Cloud Infrastructure: A Unified Architecture for Network, Security, and Storage Services, Addison-Wesley, 2020.
+
+  Brendan Gregg, “Systems Performance”, 2nd Edition, Pearson, 2020.
+removed: []

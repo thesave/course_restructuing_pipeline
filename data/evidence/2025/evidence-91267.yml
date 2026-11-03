@@ -1,0 +1,85 @@
+format: evidence/1
+course: '91267'
+title: Multi-Agent Systems
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-05-12'
+  teaching_ids:
+  - '446615'
+  teachers:
+  - name: Calegari, Roberta
+    affiliation: disi
+    role:
+    - tenure-track researcher
+  programmes:
+  - code: '6700'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '9063'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '446615'
+  laboratory:
+    value: true
+    evidence:
+    - Lab activity
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student understands the conceptual and technical foundation of multi-agent
+    systems, and is able to model complex computational and socio-technical systems in terms of agent-oriented
+    abstractions; build complex computational and socio-technical systems using agent-oriented technologies
+    and methodologies; design and engineer intelligent systems as multi-agent systems, by integrating
+    techniques and methods from artificial intelligence in an effective and methodologically-sound way.
+contents:
+- id: c1
+  text: General Issues of Multi-Agent Systems
+- id: c2
+  text: Drivers for Intelligent Systems • Agents for Complex Distributed Systems • On Autonomy.
+- id: c3
+  text: Concepts & Definitions • Artefacts for Agents.
+- id: c4
+  text: 'Function and Use in MAS • Automated Reasoning • Reasoning Agents • Coordination of Multi-Agent
+    Systems • Self-Organising Systems • Nature-Inspired Coordination & Self-Organisation • Simulation
+    & Multi-Agent Systems: An Introduction'
+- id: c5
+  text: Technologies for Multi-Agent Systems
+- id: c6
+  text: 'Agents in JADE • Programming Intentional Agents: Exercises in Jason'
+- id: c7
+  text: Scientific Competences
+- id: c8
+  text: Sources of Scientific Literature for Intelligent & Autonomous Systems • Systematic Literature
+    Review.
+- id: c9
+  text: A Methodology for Scientific Surveys
+prerequisites: []
+bibliography: The bibliography is made available through the course web site.
+removed: []

@@ -7,7 +7,7 @@ flowchart TB
   courses[("Course corpus<br/>syllabi and course facts")]
 
   subgraph upstream ["From courses to topics"]
-    evidence(["1 · Evidence preparation<br/>(no LLM)"]):::proposed
+    evidence(["1 · Evidence preparation<br/>(no LLM)"])
     extraction(["2 · Per-course topic extraction<br/>(LLM, each course on its own)"]):::proposed
     raw[("Raw topics<br/>with evidence and attributes")]:::proposed
     canonicalisation(["3 · Canonicalisation<br/>(embeddings + LLM)"]):::proposed

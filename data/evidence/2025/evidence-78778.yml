@@ -1,0 +1,136 @@
+format: evidence/1
+course: '78778'
+title: Intelligent Systems M
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-05-25'
+  teaching_ids:
+  - '468025'
+  teachers:
+  - name: De Filippo, Allegra
+    affiliation: disi
+    role:
+    - rtda
+  - name: Milano, Michela
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '468025'
+  laboratory:
+    value: true
+    evidence:
+    - Lectures and laboratory exercises
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the students are able to use the main AI techniques to develop tools
+    for solving real life applications.
+- id: o2
+  text: The students are able to understand and apply a wide range of techniques such as constraint programming,
+    symbolic and sub-symbolic machine learning techniques, planning and swarm intelligence.
+contents:
+- id: c1
+  text: PLANNING
+  heading: true
+  items:
+  - id: c1.1
+    text: Non-linear planning
+  - id: c1.2
+    text: Conditional planning
+  - id: c1.3
+    text: Graph-based planning
+  - id: c1.4
+    text: Planning for robotics
+- id: c2
+  text: OPTIMIZATION
+  heading: true
+  items:
+  - id: c2.1
+    text: Constraint Programming and Global constraints
+  - id: c2.2
+    text: Search strategies
+  - id: c2.3
+    text: Applications
+- id: c3
+  text: SWARM INTELLIGENCE
+  heading: true
+  items:
+  - id: c3.1
+    text: Ant colony
+  - id: c3.2
+    text: Bee Colony
+  - id: c3.3
+    text: Particle Swarm Optimization
+- id: c4
+  text: MACHINE LEARNING
+  heading: true
+  items:
+  - id: c4.1
+    text: (symbolic and sub-symbolic approaches)
+    items:
+    - id: c4.1.1
+      text: Decision trees - random forests
+    - id: c4.1.2
+      text: Neural networks
+    - id: c4.1.3
+      text: Bayesian approaches
+    - id: c4.1.4
+      text: Inductive logic programming
+prerequisites: []
+bibliography: |-
+  E. Rich, K. Knight: "Intelligenza Artificiale", McGraw Hill, Seconda Edizione 1992.
+
+  E. Charniak, D. McDermott, "Introduzione all'Intelligenza Artificiale", Masson, 1988.
+
+  M.Ginsberg: "Essentials of Artificial Intelligence", Morgan Kaufman,1993.
+
+  P. H. Winston: "Artificial Intelligence: Third Edition", Addison-Wesley, 1992.
+removed: []

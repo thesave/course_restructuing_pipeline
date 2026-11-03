@@ -1,0 +1,99 @@
+format: evidence/1
+course: 11929-B
+title: Algorithm and Data Structures
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-18'
+    to: '2025-12-15'
+  teaching_ids:
+  - '498823'
+  teachers:
+  - name: Casadei, Roberto
+    affiliation: disi
+    role:
+    - rtdb
+  - name: Maniezzo, Vittorio
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '6007'
+    name: Computer Systems Technologies
+    department: disi
+    campus: Cesena, Imola
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '498823'
+  laboratory:
+    value: true
+    evidence:
+    - Practical exercises in lab
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student knows the basic data structures and the notable algorithms
+    from the literature operating on them.
+- id: o2
+  text: The student is familiar with the main techniques for estimating the computational cost of algorithms
+    and is able to design and implement efficient solutions to solve common problems in the field of information
+    technology disciplines.
+contents:
+- id: c1
+  text: 'The course consists of two modules: one primarily introducing algorithms and data structures,
+    and the second introducing the Python language.'
+- id: c2
+  text: The algorithms and data structures of interest will be presented using an abstract language (pseudocode)
+    independent of syntactical details, and during the exercises, they will then be translated mainly
+    using the C language.
+- id: c3
+  text: Python will offer another perspective, useful both in this course and especially in subsequent
+    courses.
+- id: c4
+  text: The topics covered during the course include
+  items:
+  - id: c4.1
+    text: Concepts of algorithms and efficiency/complexity
+  - id: c4.2
+    text: Analysis and asymptotic notation of complexity (Big O)
+  - id: c4.3
+    text: Recursive algorithms and the divide-and-conquer methodology
+  - id: c4.4
+    text: Search algorithms
+  - id: c4.5
+    text: Sorting algorithms
+  - id: c4.6
+    text: 'Elementary data structures: stacks, queues, lists'
+  - id: c4.7
+    text: Hash tables
+  - id: c4.8
+    text: Graphs and graph traversal algorithms
+  - id: c4.9
+    text: Binary search trees
+prerequisites: []
+bibliography: |-
+  The provided material is necessary and sufficient.
+
+  For further study, the following texts are suggested:
+
+  - Introduzione agli algoritmi e strutture dati. Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest. McGraw-Hill Education, 2010
+  - Algoritmi e strutture dati - Astrazione, progetto e realizzazione. Pasquale Foggia, Mario Vento. McGraw-Hill, 2011
+removed: []

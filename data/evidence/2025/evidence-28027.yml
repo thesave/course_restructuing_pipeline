@@ -1,0 +1,119 @@
+format: evidence/1
+course: '28027'
+title: Information Systems T
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 9
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-15'
+    to: '2025-12-17'
+  teaching_ids:
+  - '434702'
+  teachers:
+  - name: Ciaccia, Paolo
+    affiliation: disi
+    role:
+    - full professor
+  - name: D'Arpa, Mattia
+    affiliation: disi
+    role:
+    - teaching tutor
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '434702'
+  laboratory:
+    value: true
+    evidence:
+    - Guided class and lab practice will allow the student to work out the theoretical materials by applying
+      them to problems of various complexity degree.
+    - As concerns the teaching methods of this course unit, all students must attend Module 1, 2 [https://www.unibo.it/en/services-and-opportunities/health-and-assistance/health-and-safety/online-course-on-health-and-safety-in-study-and-internship-areas]
+      on Health and Safety online
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Knowledge of models and tools for organizing, managing and designing relational databases.
+contents:
+- id: c1
+  text: 'Database Management Systems (DBMSs) Information Systems and the role of DBMSs. Basic functionalities
+    of DBMSs: 3-tier architecture, languages, access and concurrency control, fault tolerance.'
+- id: c2
+  text: 'The Relational Data Model Basic concepts: domains, attributes, tuples and relations, 1NF relations,
+    null values. Data constraints: on domains, tuples, keys, referential integrity.'
+- id: c3
+  text: 'The Relational Algebra Unary operators: selection, projection, and renaming. Binary operators:
+    natural join, union, and difference. Derived operators: intersection, theta-join, and division. Algebra
+    with null values: 3-valued logic, outer join. Expressions and basic equivalence rules.'
+- id: c4
+  text: The SQL (Structured Query Language) Language Data definition language (DDL) and definition of
+    constraints. The "Select-From-Where" block. Ordering the result. Insert, delete, and update data.
+    Aggregate queries. Nested queries. Definition of views and recursive queries. Granting and revoking
+    authorities and privileges. Triggers. Transactions.
+- id: c5
+  text: Data Base Design Data-oriented design. Design steps. Conceptual and logical data models. Basic
+    abstraction primitives.
+- id: c6
+  text: 'The Entity-Relationship (E-R) Model Basic elements: entities, relationships, attributes. Internal
+    and external identifiers. Hierarchies.'
+- id: c7
+  text: Conceptual Design (hints) Collecting and analyzing requirements. Design strategies. Typical design
+    patterns.
+- id: c8
+  text: 'Logical Design Mapping entities and relationships onto relational tables. Restructuring an E-R
+    schema: dropping hierarchies, managing multi-valued attributes, choosing the principal identifiers.
+    Optimization criteria: Workloads (data volumes and navigation schemas), redundancy analysis, partitioning
+    and merging entities and relationships.'
+- id: c9
+  text: Normalization of Relational Schemas Functional dependencies and data anomalies. Normal forms (3NF
+    and BCNF). Schema decompositions. Lossless and dependency preservation decompositions. Functional
+    dependencies and E-R schemas.
+prerequisites: []
+bibliography: |-
+  Copies of lectures' slides are enough to prepare the exam (available at http://www-db.disi.unibo.it/courses/SI-T/ and on the Virtuale platform).
+
+  Any standard textbook on relational DBMS's is valuable to deepen your knowledge on the course topics, in particular:
+
+  - P. Atzeni, S. Ceri, P. Fraternali, S. Paraboschi, R. Torlone: Basi di Dati [https://www.mheducation.it/basi-di-dati-6-ed-con-connect-9788838656545-italy], 6/ed McGraw-Hill, 2023
+removed: []

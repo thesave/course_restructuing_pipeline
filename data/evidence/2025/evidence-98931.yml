@@ -1,0 +1,137 @@
+format: evidence/1
+course: '98931'
+title: Fundamentals of Artificial Intelligence
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-15'
+    to: '2025-12-17'
+  teaching_ids:
+  - '478963'
+  teachers:
+  - name: Francobaldi, Matteo
+    affiliation: disi
+    role:
+    - research fellow
+  - name: Giovanelli, Joseph
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Milano, Michela
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '6700'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '6736'
+    name: Digital Humanities and Digital Knowledge
+    department: ficlit
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '9224'
+    name: Digital Humanities and Digital Knowledge
+    department: ficlit
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '478963'
+  laboratory:
+    value: true
+    evidence:
+    - Frontal lessons based on slides, with discussion of practical examples and lab activities.
+    - Autonomous lab activities are encouraged.
+  equivalent_courses: []
+  same_syllabus_as:
+  - '91248'
+outcomes:
+- id: o1
+  text: At the end of the course, the student knows the main knowledge representation techniques and reasoning
+    methods that underlie artificial intelligence problem solving.
+- id: o2
+  text: The student is able to develop simple solvers for artificial intelligence systems.
+contents:
+- id: c1
+  text: The course introduces the fundamental principles and methods used in Artificial Intelligence to
+    solve problems, with a special focus on the search in the state space, planning, knowledge representation
+    and reasoning, and on the methods for dealing with uncertain knowledge.
+- id: c2
+  text: The course will include hands-on labs and seminars on selected topics.
+- id: c3
+  text: Module 1
+  heading: true
+  items:
+  - id: c3.1
+    text: 'Introduction to Artificial Intelligence: historical perspective, main application fields, introduction
+      to knowledge-based systems and architectural organization.'
+  - id: c3.2
+    text: 'Problem-solving in AI: representation through the notion of state, forward e backward reasoning,
+      solving as a search and search strategies. Games. Constraint satisfaction problems.'
+  - id: c3.3
+    text: Local Search methods, meta heuristics, solving through decomposition, constraint relaxation,
+      branch-and-bound techniques
+  - id: c3.4
+    text: Introduction to Planning, Linear planning, partial order planning, graph-based methods (GraphPlan),
+      Scheduling.
+- id: c4
+  text: Module 2
+  heading: true
+  items:
+  - id: c4.1
+    text: Introduction to knowledge representation and reasoning
+  - id: c4.2
+    text: 'Representing Terminological Knowledge: semantic networks, description logics, foundation of
+      ontologies'
+  - id: c4.3
+    text: Representing actions, situations, and events.
+  - id: c4.4
+    text: 'Rule-based systems: Prolog and extensions, meta-interpreters, DCG, planning in prolog, Prolog
+      for temporal reasoning with the Event Calculus, LPAD.'
+  - id: c4.5
+    text: Forward chaining and RETE, Drools.
+- id: c5
+  text: Module 3
+  heading: true
+  items:
+  - id: c5.1
+    text: Reasoning under Uncertainty; Probability Queries; Independence
+  - id: c5.2
+    text: Bayesian Network representation and reasoning; Exact and approximate inference.
+prerequisites:
+- id: p1
+  text: 'Prerequisites: user-level knowledge of a high-level programming language, in order to successfully
+    understand case studies and applications presented during the lessons.'
+bibliography: |-
+  A comprehensive list of textbooks is available on the Web site, and it is reported also in the course slides.
+
+  Recommended textbook:
+
+  - S. J. Russel, P. Norvig, Artificial Intelligence: A modern approach, Prentice Hall, International edition.
+    Further readings:
+  - R. J. Brachman, H. J. Levesque, Knowledge Representation and Reasoning, Elsevier, 2004.
+  - F. Baader, D. Calvanese, D.L. McGuinness, D. Nardi, P.F. Patel-Schneider (editors), The description logic handbook: Theory, implementation, and applications, Cambridge University Press New York, NY, USA, 2007
+removed: []

@@ -1,0 +1,106 @@
+format: evidence/1
+course: '81934'
+title: HUMAN COMPUTER INTERACTION
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-19'
+    to: '2025-12-19'
+  teaching_ids:
+  - '526530'
+  teachers:
+  - name: Prandi, Catia
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '526530'
+  laboratory:
+    value: true
+    evidence:
+    - Lectures and practical activities in lab.
+    - Given the type of activity and teaching methods adopted, attendance at this training activity requires
+      all students to first participate in the e-learning training modules on workplace safety.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student
+  items:
+  - id: o1.1
+    text: understands the principles and methodologies for designing interaction systems with a computer
+      system;
+  - id: o1.2
+    text: understands theories and methodologies for evaluating interface usability;
+  - id: o1.3
+    text: understands the principles and methodologies of User Experience and Experience Design.
+contents:
+- id: c1
+  text: The course will focus on three key areas
+  items:
+  - id: c1.1
+    text: 'Introduction to Human-Computer Interaction: Covering foundational models like Norman’s Model
+      of Interaction and Abowd and Beale''s interaction framework, along with tools, techniques, and environments
+      for HCI.'
+  - id: c1.2
+    text: 'Human-Centered Interactive Application Development: Exploring tasks and methods for designing,
+      developing, and evaluating interactive applications. Topics include needfinding strategies, prototyping
+      (low- and high-fidelity), mental models, visual design, heuristic evaluation, and basics of user
+      studies. This section emphasizes the design process, with students applying concepts to a specific
+      application domain through a group project carried out during lab sessions.'
+  - id: c1.3
+    text: '"Beyond Traditional Interaction" Paradigms: Investigating advanced interaction paradigms, such
+      as AI-driven systems, tangible interaction, voice user interfaces, and gesture-based interaction.
+      These topics will be explored from multiple perspectives, including their rationale, vision, contemporary
+      examples, and associated development tools.'
+prerequisites: []
+bibliography: |-
+  - Alan Dix, Janet Finlay, Gregory Abowd, Russell Beale: Human Computer Interaction, 3rd Edition, Prentice Hall, 2004, ISBN 0130461091
+  - Shneiderman, Plaisant, Cohen, Jacobs, Elmqvist and Diakopoulos: Designing the User Interface: Strategies for Effective Human-Computer Interaction, 6th Edition, Pearson, 2016, ISBN 013438038X / 9780134380384
+removed: []

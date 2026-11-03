@@ -1,0 +1,115 @@
+format: evidence/1
+course: '95646'
+title: Virtualized Systems
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-19'
+    to: '2026-05-22'
+  teaching_ids:
+  - '498812'
+  teachers:
+  - name: Ferretti, Stefano
+    affiliation: disi
+    role:
+    - full professor
+  - name: Ghini, Vittorio
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Vitali, Anna
+    affiliation: disi
+    role:
+    - phd student
+  programmes:
+  - code: '6007'
+    name: Computer Systems Technologies
+    department: disi
+    campus: Cesena, Imola
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '498812'
+  laboratory:
+    value: true
+    evidence:
+    - Classroom lectures and exercises, and laboratory activities.
+    - A lot of practical exercises are developed in the lectures so as to introduce the laboratory activities,
+      in which the students, under the supervision of the professor, check their knowledges, propose and
+      solve their doubts and improve their skill.
+    - Extensions of the lab activities are regularly suggested, and the solutions published, so as to
+      allow individual studies and autonomous lab activities.
+    - Some laboratory activities simulate the execution of the theoretical/practical exam so as to familiarize
+      the students with the course assessment methods.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student knows the bash scripting language, the basic principles
+    of virtualization, the concept of container, the Infrastructure as Code model and the basic language
+    and tools to develop a virtualized system.
+contents:
+- id: c1
+  text: The course provides the knowledge of the basic principles of virtualization and the abilities
+    to apply the Infrastructure as Code model.
+- id: c2
+  text: Bash scripting.
+- id: c3
+  text: Recall of local system management.
+- id: c4
+  text: Overview on communication security aspects for information systems, server farms and network.
+    Protocols and utilities (ssh, tls/ssl, dtls). Basic Linux tools (iptables/netfilter). NAT and protocols
+    for NAT overcoming (STUN,TURN,ICE). Protocols and tools for proxying, socks.
+- id: c5
+  text: Notes on distributed filesystems (NFS) and block storages (iSCSI).
+- id: c6
+  text: Virtualization principle, platform for virtualization, container, application areas of virtualization.
+- id: c7
+  text: 'Cloud systems: cloud service types such as SaaS, PaaS, IaaS.'
+- id: c8
+  text: Overview on cloud platform for on-premise cloud (OpenStack, Proxmox).
+- id: c9
+  text: 'A simple example of Infrastructure as Code model: creating and configuring a Linux virtual machine
+    by code (Vagrant, cloud init, ansible). Notes on Terraform'
+- id: c10
+  text: 'Micro-services Architectures: language-independent, component-based, software architectures.
+    Message Bus (at a kernel level, local system or cloud scope). Most prominent examples of Micro-services
+    Architectures in a local context and cloud context. SaaS, PaaS and IaaS cloud services.'
+- id: c11
+  text: 'A prominent example of container-level virtualization: Docker. The docker API. Virtual networks
+    between docker containers. Building a container image automatically using Dockerfile; Introduction
+    to Docker Compose; Docker Swarm - how to run multi-container applications in host clusters using a
+    native docker tool.'
+- id: c12
+  text: 'Kubernetes: orchestration of virtual machines, services and containers. On premise orchestration
+    products on cluster or on single node (minikube).'
+- id: c13
+  text: 'Infrastructure as Code model: Languages and systems for orchestrazione (Terraform, Juju, ...).'
+- id: c14
+  text: 'Introduction to Serverless systems and Function-as-a-Service (FaaS) model: Microsoft Azure Functions,
+    AWS Lambda, Google Cloud Functions.'
+- id: c15
+  text: Notes on IDentity Management (IDM), IDM platforms and protocols based on Windows o.s. (Active
+    Directory, LDAP) and based on Linux o.s. (Kerberos, openLDAP) .
+- id: c16
+  text: 'Development of distributed applications: continuous development.'
+prerequisites: []
+bibliography: Slides and notes provided through course web site (see 'Links to further information' after
+  the beginning of course)
+removed: []

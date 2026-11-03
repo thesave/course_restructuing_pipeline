@@ -1,0 +1,146 @@
+format: evidence/1
+course: '28659'
+title: Web Technologies T
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 9
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-16'
+    to: '2025-12-18'
+  teaching_ids:
+  - '461146'
+  - '461147'
+  teachers:
+  - name: Bellavista, Paolo
+    affiliation: disi
+    role:
+    - full professor
+  - name: Di Modica, Giuseppe
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Drudi, Elisa
+    affiliation: ciri-ict
+    role:
+    - research fellow
+  - name: Garbugli, Andrea
+    affiliation: disi
+    role:
+    - teaching tutor
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '461146'
+    - '461147'
+  laboratory:
+    value: true
+    evidence:
+    - Each lab exercise deals with a specific topic presented during the "regular" teaching lectures,
+      by proposing a practical programming activity (which calls for the usage of specific programming
+      IDEs and tools).
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Skills, knowledge, and ability to apply the primary existing models and tools for the design,
+    implementation, deployment, and optimization of Web-based systems and applications.
+contents:
+- id: c1
+  text: 'The origins of the Web: the static model Short historical introduction The originary World Wide
+    Web model Primary model elements: the HTTP protocol and the URIs Languages for page content description:
+    HTML and CSS'
+- id: c2
+  text: 'The evolution of the Web model Towards a more dynamic approach: personalization, state, sessions,
+    and conversations State management Server-side programming: Servlet, JSP Client-side programming:
+    Javascript, Ajax'
+- id: c3
+  text: 'Towards Enterprise-oriented server-side environments Multi-layer architectures: horizontal and
+    vertical distribution, business logics separation, component-container models Rapid notes on Model
+    View Controller for the Web and on Java Model 2 Enterprise Java Beans as a notable example of technology
+    compliant with the heavy container model Spring as a notable example of technology compliant with
+    the lightweight container model'
+- id: c4
+  text: 'Emerging client-side technologies: single page applications, react.js, and directions of evolution
+    of front-end technologies'
+- id: c5
+  text: 'Emerging server-side technologies: event-oriented and stateless models, node.js, asynchronous
+    I/O management'
+- id: c6
+  text: 'Upgrading towards HTTP2/0: Websocket motivations and mechanisms, in Javascript (client side)
+    and Java (server side)'
+- id: c7
+  text: 'Introductory elements of HTTP3/0: motivations and primary characteristics of the QUIC protocol'
+- id: c8
+  text: Please see also the full description of the course contents on the related Website on Virtuale
+    @UNIBO, which will be populated and enriched progressively during the lecturing period.
+- id: c9
+  text: To have a preliminary idea of the contents, please refer to the contents of the previous academic
+    year.
+prerequisites: []
+bibliography: |-
+  Primary source of material, information, and exercises: the lecturing slides available at the course Website
+
+  General-purpose
+  V. Della Mea, L. Di Gaspero, I. Scagnetto, Programmazione Web Lato Server, 2a edizione, Apogeo, 2011
+  V. Roberto, M. Frailis, A. Gugliotta, P. Omero, Introduzione alle Tecnologie Web, McGraw-Hill, 2010
+
+  W3C, HTML, CSS, javascript
+  World Wide Web Consortium: http://www.w3.org [http://www.w3.org/]
+  HTML 4.01 Specifications: http://www.w3.org/TR/html4/
+  World Wide Web Consortium CSS Reference: http://www.w3.org/Style/CSS/
+  World Wide Web Consortium CSS2 Specifications: http://www.w3.org/TR/REC-CSS2/
+  Client-Side JavaScript Guide: http://www.w3schools.com/js/default.asp
+
+  Enterprise Architectures and Solutions
+  A.L. Rubinger, B. Burke, Enterprise JavaBeans 3.1, 6th ed., O’Reilly, 2010
+  C. Walls, Spring in Action, 3rd ed., Manning, 2011
+  Spring: http://www.springsource.org/
+
+  Client- and Server-side Evolutionary Trends
+  A. Banks, Learning React: Functional Web Development With React and Redux, O’Reilly, 2017
+  S. Powers, Node: Moving to the Server Side, O’Reilly, 2016
+  A. Lombardi, WebSocket: Lightweight Client-Server Communications, O’Reilly, 2014
+  React: https://reactjs.org/docs/getting-started.html
+  Node: https://nodejs.org/en/ §Websocket: https://javascript.info/websocket
+removed: []

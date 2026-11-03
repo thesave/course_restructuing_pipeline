@@ -1,0 +1,148 @@
+format: evidence/1
+course: B4826
+title: Informatics for the Humanities
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 3
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - E-learning
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-30'
+    to: '2025-12-11'
+  teaching_ids:
+  - '502318'
+  teachers:
+  - name: Asprino, Luigi
+    affiliation: lilec
+    role:
+    - adjunct professor
+  programmes:
+  - code: 0979
+    name: Foreign Languages and Literature
+    department: lilec
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6602'
+    name: Foreign Languages and Literature
+    department: lilec
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6603'
+    name: Languages, Markets and Cultures of Asia and Mediterranean Africa
+    department: lilec
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '9264'
+    name: Languages, Markets and Cultures of Asia and Mediterranean Africa
+    department: lilec
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student knows the basic theoretical concepts of computer science,
+    learns the operating principles of hardware and software systems and knows the basic technical vocabulary
+    of the discipline.
+- id: o2
+  text: They acquire the rudiments of scripting (Python language) for text analysis.
+- id: o3
+  text: They become familiar with the structure and functioning of the Internet and the Web and is able
+    to create a web page.
+- id: o4
+  text: They will be able to use the most important collaborative document management and to write, collect
+    and code a bibliography.
+contents:
+- id: c1
+  text: The Informatics for the Humanities course is delivered entirely online via the Teams platform.
+- id: c2
+  text: The course is divided into four units, which aim to provide theoretical and practical knowledge
+    of computer science useful for humanities studies, particularly linguistics.
+- id: c3
+  text: 'The topics covered in each unit and lesson are listed below:'
+- id: c4
+  text: Introduction to computer science
+  items:
+  - id: c4.1
+    text: What is computer science?
+  - id: c4.2
+    text: Hardware and software
+  - id: c4.3
+    text: Information systems
+  - id: c4.4
+    text: Software and data
+  - id: c4.5
+    text: Algorithms and flowchart diagrams
+  - id: c4.6
+    text: 'How to organize data in a program - data structures: List, Queue, Stack, Set, Dictionary, Graph,
+      Tree, Vector, Tensor'
+  - id: c4.7
+    text: 'How a computer is made: Computer architecture'
+- id: c5
+  text: The Internet and the web
+  items:
+  - id: c5.1
+    text: Computer networks
+  - id: c5.2
+    text: 'Classification of networks: LAN, MAN, WAN'
+  - id: c5.3
+    text: The ISO/OSI stack
+  - id: c5.4
+    text: 'Connections between networks: communication protocols'
+  - id: c5.5
+    text: The World Wide Web and how to create a web page with HTML
+- id: c6
+  text: Computer science for text analysis
+  items:
+  - id: c6.1
+    text: Introduction to programming languages
+  - id: c6.2
+    text: 'Automatically finding patterns in text (words, groups of words, etc.): Regular expressions
+      (Regex)'
+  - id: c6.3
+    text: Scripting with Python
+  - id: c6.4
+    text: An overview of machine learning
+- id: c7
+  text: Collaborative environments for document management and writing
+- id: c8
+  text: Word processing programs
+- id: c9
+  text: Latex and Overleaf
+- id: c10
+  text: Google Doc and OneDrive
+- id: c11
+  text: 'How to build a bibliography: Scholar, Scopus, and search engines'
+prerequisites: []
+bibliography: |-
+  The slides used during the lessons will be made available to students on the University's VIRTUALE platform [https://virtuale.unibo.it/] before the start of the lesson.
+
+  The following texts will be used as references:
+
+  - Dennis P. Curtin et. al. "INFORMATICA DI BASE" VII edizione (2021). Mc Graw Hill
+  - Allen Downey. “Pensare in Python” Edizione 2. Green Tea Press
+removed: []

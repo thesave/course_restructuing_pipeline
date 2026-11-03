@@ -1,0 +1,121 @@
+format: evidence/1
+course: 93034-A
+title: Foundations of Computer Science T
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-18'
+    to: '2026-06-04'
+  teaching_ids:
+  - '517362'
+  teachers:
+  - name: Lombardi, Michele
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5822'
+    name: Electrical Energy Engineering
+    department: dei
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6675'
+    name: Electrical Energy Engineering
+    department: dei
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6714'
+    name: Electrical Energy Engineering
+    department: dei
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '9066'
+    name: Electrical Energy Engineering
+    department: dei
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '517362'
+  laboratory:
+    value: true
+    evidence:
+    - The course will meld lectures delivered as tutorials with hands-on sessions.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The student is introduced to the principles, project methodologies and fundamental tools for the
+    development of computer applications, investigating some classic computational problems, proceeding
+    for each of them to the identification of suitable solution algorithms, formalized in terms of the
+    C programming language.
+- id: o2
+  text: 'The student acquires:'
+- id: o3
+  text: familiarity and mastery of the programming language;
+- id: o4
+  text: ability to translate a problem into an algorithm;
+- id: o5
+  text: theoretical aspects of computer science and computing systems.
+contents:
+- id: c1
+  text: After a discussion with the Electrical Engineering course coordination, the course program has
+    been modified to use Python as a target language.
+- id: c2
+  text: All other learning outcomes are unchanged.
+- id: c3
+  text: The course content will include
+  items:
+  - id: c3.1
+    text: Introduction to Computer Science
+  - id: c3.2
+    text: Using the terminal emulator
+  - id: c3.3
+    text: Python interpreter and Jupyter notebbok
+  - id: c3.4
+    text: Structured Programming
+  - id: c3.5
+    text: Functions
+  - id: c3.6
+    text: Collections
+  - id: c3.7
+    text: Operative System and Hardware
+  - id: c3.8
+    text: Vector computations in Python
+  - id: c3.9
+    text: Elements of Functional Programming in Python
+  - id: c3.10
+    text: Elements of Object Oriented Programming in Python
+  - id: c3.11
+    text: Elements of numerical methods in Python
+- id: c4
+  text: In terms of applications, the course will focus on the solution on using Python to address numerical
+    problems.
+prerequisites: []
+bibliography: 'There is no reference text: teaching material will consists of interactive notebooks and
+  PDF slides, with references to online resource for more details.'
+removed: []

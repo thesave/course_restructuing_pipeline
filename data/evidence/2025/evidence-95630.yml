@@ -1,0 +1,136 @@
+format: evidence/1
+course: '95630'
+title: Big Data and Cloud Platforms
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-17'
+    to: '2025-12-09'
+  teaching_ids:
+  - '466768'
+  teachers:
+  - name: Francia, Matteo
+    affiliation: disi
+    role:
+    - tenure-track researcher
+  - name: Gallinucci, Enrico
+    affiliation: disi
+    role:
+    - tenure-track researcher
+  programmes:
+  - code: '5815'
+    name: Digital Transformation Management
+    department: disi
+    campus: Cesena, Forlì
+    cycle: second
+    languages:
+    - english
+  - code: '6823'
+    name: Digital Transformation Management
+    department: disi
+    campus: Cesena, Forlì
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '466768'
+  laboratory:
+    value: true
+    evidence:
+    - As concerns the teaching methods of this course unit, all students must attend Module 1, 2 on Health
+      and Safety (https://www.unibo.it/en/services-and-opportunities/health-and-assistance/health-and-safety/online-course-on-health-and-safety-in-study-and-internship-areas)
+      online.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student
+  items:
+  - id: o1.1
+    text: Knows the applications of Big Data technologies and the respective challenges
+  - id: o1.2
+    text: Knows the hardware and software architectures proposed to handle Big Data
+  - id: o1.3
+    text: Knows the techniques to store the data and the fundamentals aspect of new generation database
+      systems
+  - id: o1.4
+    text: Knows the programming paradigms generally adopted in this kind of systems and the main analysis
+      methodologies (batch, interactive, streaming)
+  - id: o1.5
+    text: Learns the design patterns that regulate the deployment in the Cloud of complex ICT solutions
+  - id: o1.6
+    text: Learns some of the most relevant components of the Cloud Platforms, with a specific focus on
+      those services that enable Big Data management and IoT applications
+  - id: o1.7
+    text: Is able to make decisions concerning the appropriate Cloud Platform and the related services
+      to be adopted
+  - id: o1.8
+    text: Knows the billing models that lay behind Cloud Computing services and learns how to estimate
+      the cost of a specific solution, to support project management, to prepare quotations, or to support
+      the management control system
+  - id: o1.9
+    text: Acquires practical expertise through laboratory activities in using some of the main open-source
+      Big Data software tools, as well as some of the most adopted Cloud Computing services available
+      on the market
+contents:
+- id: c1
+  text: Big Data Architectures and Paradigms
+  items:
+  - id: c1.1
+    text: Hardware infrastructures and software architectures
+  - id: c1.2
+    text: Data storage in distributed file systems and NoSQL databases
+  - id: c1.3
+    text: The MapReduce programming paradigm
+  - id: c1.4
+    text: Main principles of application design and optimization based on Apache Spark
+  - id: c1.5
+    text: Architectures and algorithms to handle streams of data
+- id: c2
+  text: Handling Big Data in the Cloud
+  items:
+  - id: c2.1
+    text: 'Introduction to data platforms: shifting from databases to well-integrated data ecosystems'
+  - id: c2.2
+    text: Definition of cloud and taxonomy of cloud services
+  - id: c2.3
+    text: Introduction to the most relevant Cloud Platforms, with a specific focus on those services that
+      enable data platforms and IoT applications
+  - id: c2.4
+    text: Introduction to the billing models that lay behind Cloud Computing services. Cluster migration
+      Cluster on-premises vs in the cloud
+  - id: c2.5
+    text: Deploy real case studies on a cloud provider
+- id: c3
+  text: Seminars by companies working with cloud and big data platforms
+prerequisites: []
+bibliography: |-
+  The slides contain the material necessary for studying the subject.
+
+  Attending lectures and seminars is highly recommended in order to complete the knowledge required to master the subject and apply it to real case studies.
+
+  Recommended readings:
+
+  - Ian Foster, Dennis Gannon. Cloud Computing for Science and Engineering. MIT Press, 2017
+  - Zburivsky, Danil, and Lynda Partner. Designing Cloud Data Platforms. Simon and Schuster, 2021.
+  - Tom White. Hadoop - The Definitive Guide (4th edition). O'Reilly, 2015
+  - Matei Zaharia, Holden Karau, Andy Konwinski, Patrick Wendell. Learning Spark, 2nd Edition. O'Reilly, 2020
+  - Andrew G. Psaltis. Streaming Data - Understanding the real-time pipeline. Manning, 2017
+
+  Further readings will be mentioned during the course.
+removed: []

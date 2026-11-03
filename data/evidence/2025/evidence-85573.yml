@@ -1,0 +1,124 @@
+format: evidence/1
+course: '85573'
+title: Usability and User Experience
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-05-21'
+  teaching_ids:
+  - '424782'
+  teachers:
+  - name: Pedretti, Carlo Teo
+    affiliation: disi
+    role:
+    - phd student
+  - name: Spinaci, Gianmarco
+    affiliation: ficlit
+    role:
+    - phd student
+  - name: Vitali, Fabio
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6736'
+    name: Digital Humanities and Digital Knowledge
+    department: ficlit
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '9063'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '9224'
+    name: Digital Humanities and Digital Knowledge
+    department: ficlit
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '424782'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student is able to design and evaluate software systems with respect
+    to the dimensions of practicality, experience, affection, meaning and value that they may have on
+    the target audience.
+- id: o2
+  text: Characteristics such as ease of use, usefulness and efficiency are fundamental for the positive
+    evaluation of the user experience of the system.
+- id: o3
+  text: The student will be able to focus the functional analysis of the software on the characteristics
+    and needs of the target audience, will be able to drive the development process so as to guarantee
+    a constant connection between the technical and implementation features and the expectation of the
+    audience, and will be able to evaluate whether and according to which metrics a software satisfies
+    these expectations.
+contents:
+- id: c1
+  text: 'The course content is divided in distinct parts:'
+- id: c2
+  text: 'Background: The evolution of the discipline from Human Computer Interaction to User Experience
+    Design. A description of its scope: the human, the computer, and their interaction.'
+- id: c3
+  text: 'Usability analysis and design: A systematic discussion of the techniques and standards for the
+    management of the process of user experience design, with particular attention to the phases of usability
+    analysis (with and without the participation of users) and the user- and goal-oriented usability design
+    methodologies.'
+- id: c4
+  text: 'Guidelines, patterns and methods for usability design: A discussion, with historical aspects,
+    of the framework on which the concrete aspects of usability design is based. we will also give strong
+    attention to the problem of usability for web applications and mobile apps.'
+- id: c5
+  text: 'Applications of User Experience Design to complex systems (e.g. AI Systems): short module reserved
+    to students in Artificial Intelligence, optional for the other students.'
+prerequisites: []
+bibliography: |-
+  Parts of the course are based on:
+
+  - Human Computer Interaction, Alan Dix, Janet E. Finlay, Gregory D. Abowd, Russell Beale. Prentice Hall; ISBN: 978-0132390484
+  - The Design of Everyday Things , Donald A. Norman, MIT Print, January 2014, ISBN: 978-0262525671
+  - Elements of User Experience,The: User-Centered Design for the Web and Beyond, 2nd Edition, Jesse James Garrett, New Riders, 2011, ISBN: 978-0321683687
+removed:
+- text: Teaching will be mostly in English (some explanations will be repeated in Italian if needed and
+    when asked).
+  reason: language of teaching
+- text: The exam will be allowed in both Italian and English.
+  reason: language of teaching
+- text: Students with specific learning disorders (SLD) or temporary/permanent disabilities should contact
+    the appropriate University office ( https://site.unibo.it/studenti-con-disabilita-e-dsa/en ) immediately
+    and agree with the teacher the most effective strategies for attending the lectures and preparing
+    for the exam.
+  reason: accessibility

@@ -1,0 +1,100 @@
+format: evidence/1
+course: B5292
+title: Knowledge Engeneering for the Humanities
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 3
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-04-09'
+    to: '2026-05-15'
+  teaching_ids:
+  - '529334'
+  teachers:
+  - name: Presutti, Valentina
+    affiliation: lilec
+    role:
+    - associate professor
+  programmes:
+  - code: '6724'
+    name: Language, Society and Communication
+    department: lilec
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '8874'
+    name: Language, Society and Communication
+    department: lilec
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - Lectures, lab practice, homework, and self-assessment quizzes.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student is familiar with the core technologies of the web and the
+    semantic web.
+- id: o2
+  text: They are able to effectively use knowledge graphs and the tools to model and query them.
+- id: o3
+  text: They know the state of the art of artificial intelligence technologies.
+contents:
+- id: c1
+  text: This module aims to provide the student with an in-depth knowledge of knowledge graphs and methods
+    and tools to query them.
+- id: c2
+  text: The study of the modeling of knowledge graphs based on ontology will be addressed, as well as
+    the practical use of some software tools to support their exploration and querying.
+- id: c3
+  text: Furthermore, the characteristics of Large Language Models and the main prompting techniques will
+    be studied.
+- id: c4
+  text: In particular, the following tools will be used
+  items:
+  - id: c4.1
+    text: SPARQL query engine
+  - id: c4.2
+    text: Graffoo; OWL diagrams notation
+  - id: c4.3
+    text: Github
+  - id: c4.4
+    text: 'LLMs: GPT, Llama, Mistral, Mixtral, Gemini'
+prerequisites: []
+bibliography: |-
+  Notes, slides and exercises are available at https://virtuale.unibo.it/
+
+  Topics not addressed by the notes and other material on iol are to be studied on the following books / articles / web resources:
+
+  - - https://w3id.org/arco/
+
+  - https://protegewiki.stanford.edu/wiki/Ontology101
+  - http://owl.cs.manchester.ac.uk/publications/talks-and-tutorials/protg-owl-tutorial/
+  - https://www.w3.org/TR/rdf-sparql-query/
+  - https://essepuntato.it/graffoo/
+  - https://projects.dharc.unibo.it/melody
+  - http://wit.istc.cnr.it/stlab-tools/fred/
+  - https://github.com/
+  - Johan van Benthem, Hans van Ditmarsch, Jan van Eijck, Jan Jaspars: Logic in action (2006) reperibile online: http://www.logicinaction.org/
+  - Dean Allemang and James Hendler. 2008. Semantic Web for the Working Ontologist: Effective Modeling in RDFS and OWL. Morgan Kaufmann Publishers Inc., San Francisco, CA, USA.
+  - Pascal Hitzler, Aldo Gangemi, Krzysztof Janowicz, Adila Krisnadhi, Valentina Presutti: Ontology Engineering with Ontology Design Patterns - Foundations and Applications. Studies on the Semantic Web 25, IOS Press 2016, ISBN 978-1-61499-675-0
+removed: []

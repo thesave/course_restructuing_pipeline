@@ -1,0 +1,178 @@
+format: evidence/1
+course: 08574-A
+title: Operating Systems
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 12
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-17'
+    to: '2025-12-16'
+  teaching_ids:
+  - '378218'
+  teachers:
+  - name: Arruzzoli, Arianna
+    affiliation: dsg
+    role:
+    - phd student
+  - name: Cohen, David
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Ferretti, Stefano
+    affiliation: disi
+    role:
+    - full professor
+  - name: Ghini, Vittorio
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Moretti, Mauro
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Quattrini, Erik Marino
+    affiliation: disi
+    role:
+    - teaching tutor
+  programmes:
+  - code: '5834'
+    name: Electronics Engineering
+    department: dei
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6669'
+    name: Biomedical Engineering
+    department: dei
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6670'
+    name: Electronics Engineering
+    department: dei
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '6705'
+    name: Biomedical Engineering
+    department: dei
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '9082'
+    name: Biomedical Engineering
+    department: dei
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '9266'
+    name: Biomedical Engineering
+    department: dei
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '378218'
+  laboratory:
+    value: true
+    evidence:
+    - Classroom lectures and laboratory activities.
+    - A lot of practical exercises are developed in the lectures so as to introduce the laboratory activities,
+      in which the students, under the supervision of the professor, check their knowledge, propose and
+      solve their doubts, and improve their skill.
+    - Extensions of the lab activities are regularly suggested, and the solutions published, so as to
+      allow individual studies and autonomous lab activities.
+    - Some laboratory activities simulate the execution of the practical exam so as to familiarize the
+      students with the practical exam.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The course introduces main issues related to design and implementation of modern operating systems.
+- id: o2
+  text: Moreover, the course provides the basic knowledges of their structure, implementation and system
+    administration procedures.
+contents:
+- id: c1
+  text: Introduction and history of operating systems.
+- id: c2
+  text: ANSI C programming language.
+- id: c3
+  text: Shell and Shell scripting.
+- id: c4
+  text: Thread and processes.
+- id: c5
+  text: Concurrent programming.
+- id: c6
+  text: Deadlock, Starvation e Busy Waiting.
+- id: c7
+  text: Inter Process Communications.
+- id: c8
+  text: CPU scheduling.
+- id: c9
+  text: Memory management and virtual memory.
+- id: c10
+  text: Secondary memory management and file systems.
+- id: c11
+  text: I/O management.
+- id: c12
+  text: 'Case study: Linux and Windows.'
+- id: c13
+  text: Linux Kernel.
+- id: c14
+  text: Introduction to virtualization, container, docker, kubernetes, IaaS and PaaS services.
+prerequisites: []
+bibliography: |-
+  Silberschatz, P.B. Galvin, G. Gagne, Sistemi operativi. Concetti ed esempi, nona edizione, Pearson Education Italia (2014)
+  (English version: A. Silberschatz, P.B. Galvin, G. Gagne, Operating System Concepts - since Ninth Edition, John Wiley & Sons, Inc.).
+removed: []

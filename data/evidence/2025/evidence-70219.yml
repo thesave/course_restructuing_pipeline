@@ -1,0 +1,123 @@
+format: evidence/1
+course: '70219'
+title: Object-Oriented Programming
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 12
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-18'
+    to: '2025-12-16'
+  teaching_ids:
+  - '378219'
+  teachers:
+  - name: Baiardi, Martina
+    affiliation: disi
+    role:
+    - phd student
+  - name: Cortecchia, Angela
+    affiliation: disi
+    role:
+    - phd student
+  - name: Pianini, Danilo
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Viroli, Mirko
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '378219'
+  laboratory:
+    value: true
+    evidence:
+    - in the lab
+    - In lab, we illustrate various development tools, e assign developing tasks to exercise practical
+      abilities of students.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, students will be acquainted with basic knowledge of the object-oriented
+    paradigm of software construction, of its basic design patterns, its incarnation in the Java programming
+    language and the corresponding framework, including advanced aspects like GUIs, multi-threading and
+    events.
+contents:
+- id: c1
+  text: Basic elements of object-oriented programming and design
+- id: c2
+  text: 'The case of the java programming language: overview and development tools'
+- id: c3
+  text: 'Basic functionality: classes, objects, methods, fields, and instantiation'
+- id: c4
+  text: 'Polimorphism, inheritance, reuse:: interfaces and abstract classes'
+- id: c5
+  text: 'Advanced aspects: generics, annotations, exceptions, inner classes, lambda expressions'
+- id: c6
+  text: Basic libraries for program construction
+- id: c7
+  text: I/O management and graphical interfaces
+- id: c8
+  text: Elements of concurrency programming in Java
+- id: c9
+  text: Brief overview of design patterns and techniques of effective programming
+- id: c10
+  text: 'Development tools: JDK, VSCode, Git'
+prerequisites: []
+bibliography: |-
+  Reference book:
+  Bruce Eckel. Thinking in Java -- Fourth Edition
+  Additional books:
+  Joshua Block. Effective Java -- Second Edition
+
+  Erich Gamma, Richard Elm, Ralph Johnson, John Vlissides.
+  Design Patterns
+
+  The course will also rely on tutorials and documentation
+  available on the Internet.
+removed: []

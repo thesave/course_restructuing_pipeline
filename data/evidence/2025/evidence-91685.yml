@@ -1,0 +1,118 @@
+format: evidence/1
+course: '91685'
+title: History of Informatics and Computing Systems
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-05-12'
+  teaching_ids:
+  - '447912'
+  teachers:
+  - name: Martini, Simone
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '447912'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: On completion of the course the student will know and be able to describe the main ideas that
+    led to the stored-program electronic computer.
+- id: o2
+  text: He/she knows the milestones in the creation and development of computer science in the second
+    half of the last century and can recognise how these have influenced contemporary computer science.
+contents:
+- id: c1
+  text: This course will present some milestones in the construction of the current form of computer science.
+- id: c2
+  text: We will introduce the main ideas, thought patterns and principles that have contributed to the
+    birth and evolution of certain areas of computer science, through certain architectures, machines
+    and languages, but without dwelling too much on their details.
+- id: c3
+  text: The reference period is from 1945 (first general purpose programmable electronic computer) to
+    the early 1980s.
+- id: c4
+  text: In the various (temporal or conceptual) segments, we will see the evolution of architectures,
+    operating systems and programming languages, showing how these topics are interconnected.
+- id: c5
+  text: Given the lecturer's expertise, programming languages will receive special attention.
+- id: c6
+  text: 'Introduction: what it means to ‘do computer science history’'
+- id: c7
+  text: 'Prehistory: before 1945'
+- id: c8
+  text: First programmable electronic computers
+- id: c9
+  text: 'Calculators find a market, indeed more than one: the 1950s'
+- id: c10
+  text: Mainframes and the birth of computing as a discipline
+- id: c11
+  text: Mini-computers and microprocessors
+- id: c12
+  text: Communicating and collaborating
+- id: c13
+  text: Personal computers
+prerequisites: []
+bibliography: |-
+  One possible textbook:
+
+  Thomas Haigh, Paul E. Ceruzzi. A New History of Modern Computing. MIT Press, 2021.
+
+  Some sources in: Brian Randell (a cura di). The Origins of Digital Computers: Selected Papers. Springer, 1982.
+
+  Other texts:
+
+  1. Martin Campbell-Kelly, William F. Aspray, Jeffrey R. Yost, Honghong Tinn, Gerardo Con Díaz and Nathan Ensmenger. Computer–A History of the Information Machine (Fourth Edition). Routledge, 2023.
+  2. Tedre, Matti (2014). The Science of Computing: Shaping a Discipline. Chapman Hall.
+  3. Mark Priestley (2011). A Science of Operations. Springer
+removed: []

@@ -1,0 +1,102 @@
+format: evidence/1
+course: B8396
+title: Basic IT Skills
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 1
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-03-16'
+    to: '2026-03-30'
+  teaching_ids:
+  - '542823'
+  teachers:
+  - name: Montori, Federico
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5984'
+    name: Veterinary Medicine
+    department: dimevet
+    campus: Ozzano dell'Emilia
+    cycle: single
+    languages:
+    - italian
+  - code: '6197'
+    name: Veterinary Medicine
+    department: dimevet
+    campus: Ozzano dell'Emilia
+    cycle: single
+    languages:
+    - english
+  - code: '6735'
+    name: Veterinary Medicine
+    department: dimevet
+    campus: Ozzano dell'Emilia
+    cycle: single
+    languages:
+    - italian
+  - code: '8617'
+    name: Veterinary Medicine
+    department: dimevet
+    campus: Ozzano dell'Emilia
+    cycle: single
+    languages:
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '542823'
+  laboratory:
+    value: true
+    evidence:
+    - The course includes both theoretical lectures and practical/laboratory sessions.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: 'By the end of the course, the student: understands the functionality of software for online information
+    research and for creating text documents, spreadsheets, and presentations; is able to create a text
+    document and apply the desired formatting; is able to use the basic functions of a spreadsheet; is
+    able to create a professional presentation.'
+contents:
+- id: c1
+  text: This Course is part of the Integrated Course "Transversal Skills".
+- id: c2
+  text: The Integrated Course aims to provide the student with fundamental competences in digital literacy,
+    evidence-based approach, and personal and professional well-being.
+- id: c3
+  text: 'The Integrated Course "Transversal Skills" contributes to the achievement of the following ESEVT
+    Day One Competences: 1.1, 1.2, 1.4, 1.5, 1.6, 1.8, 1.9, 1.10, 1.11, 1.12, 1.13, 1.14, 1.15.'
+- id: c4
+  text: Specific Course contents
+  items:
+  - id: c4.1
+    text: '3h: usage of writing and presentation tools with a focus on formatting (Microsoft Word, Microsoft
+      Power Point, Latex).'
+  - id: c4.2
+    text: 2h lecture + 1h practical
+  - id: c4.3
+    text: '3h: usage of spreadsheet (Microsoft Excel).'
+  - id: c4.4
+    text: 2h lecture + 1h practical
+  - id: c4.5
+    text: '2h: basics of generative artificial intelligence and prompt engineering (ChatGPT, Gemini, ...).'
+  - id: c4.6
+    text: 1h lecture + 1h practical
+prerequisites: []
+bibliography: The teaching materials (Lecture Slides) for this course are available on the Virtuale Learning
+  Environment (https://virtuale.unibo.it/?lang=en)
+removed: []

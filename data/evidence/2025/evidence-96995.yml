@@ -1,0 +1,115 @@
+format: evidence/1
+course: '96995'
+title: Programmable Networking
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-20'
+    to: '2026-05-29'
+  teaching_ids:
+  - '526560'
+  teachers:
+  - name: Callegati, Franco
+    affiliation: disi
+    role:
+    - full professor
+  - name: Melis, Andrea
+    affiliation: disi
+    role:
+    - tenure-track researcher
+  - name: Rinieri, Lorenzo
+    affiliation: disi
+    role:
+    - adjunct professor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '526560'
+  laboratory:
+    value: true
+    evidence:
+    - Lectures and practical activities in lab
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The student will learn the modern network programming and automation methodologies and the related
+    enabling technologies.
+- id: o2
+  text: The student will learn how to use a platform for virtual network programming and automation in
+    a cloud computing environment and a control plane for software defined networks.
+- id: o3
+  text: Moreover the student will learn how to use specific data models for the design and for the programming
+    of network services, according to the current standards.
+contents:
+- id: c1
+  text: Network Virtualization and cloud computing
+  items:
+  - id: c1.1
+    text: 'Network virtualization: Linux namespaces, virtual bridges and virtual switches'
+  - id: c1.2
+    text: 'Virtual networking in cloud computing: examples with Docker and OpenStack'
+- id: c2
+  text: Software Defined Networking
+  items:
+  - id: c2.1
+    text: SDN architecture
+  - id: c2.2
+    text: The OpenFlow protocol
+  - id: c2.3
+    text: Examples of SDN programming with OpenFlow
+- id: c3
+  text: Programming the data plane
+  items:
+  - id: c3.1
+    text: The P4 language
+  - id: c3.2
+    text: Example of programming switches behavior with P4
+prerequisites: []
+bibliography: 'Jason Edelman, Scott S. Lowe, Matt Oswalt, "Network Programmability and Automation: Skills
+  for the Next-Generation Network Engineer", O''Reilly Media; 1 edizione (31 marzo 2018)'
+removed: []

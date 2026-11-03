@@ -1,0 +1,112 @@
+format: evidence/1
+course: '84339'
+title: Advanced Database Systems
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-25'
+    to: '2026-06-05'
+  teaching_ids:
+  - '421625'
+  teachers:
+  - name: Golfarelli, Matteo
+    affiliation: disi
+    role:
+    - full professor
+  - name: Lumini, Alessandra
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '421625'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: 'The course has a dual purpose: (1) understand NoSql architectures and get familiar with the design
+    of non-relational data models; (2) deepen the knowledge of relational DBMSs and improves her practical
+    capabilities.'
+- id: o2
+  text: In both cases the theoretical knowledge will be combined with practical skills through laboratory
+    activities
+contents:
+- id: c1
+  text: NoSQL DBMS Design --------------
+  items:
+  - id: c1.1
+    text: Modelli dati non relazionali (Document-based, Graph-based, Column oriented)
+  - id: c1.2
+    text: 'Architetture per DBMS non relazionali: Cluster, Sharding e persistenza'
+    language: it
+  - id: c1.3
+    text: Progettazione dei dati in DBMS NoSQL
+    language: it
+  - id: c1.4
+    text: Esercitazioni di laboratorio con MongoDB
+    language: it
+- id: c2
+  text: Relational DBMSs Management and Programming ----------
+  items:
+  - id: c2.1
+    text: Database administration
+  - id: c2.2
+    text: Database programming and active database
+  - id: c2.3
+    text: Provisioning and resource optimization
+prerequisites: []
+bibliography: |-
+  Teacher slides
+  R. van der Lans Introduzione a SQL . Addison-Wesley, 2001.
+  R. A. Elmasri, S.B. Navathe. Sistemi di basi di dati - Complementi. Pearson, 2005.
+  Making Sense of NoSQ. Daniel G. McCreary and Ann M. Kelly. Manning, 2013.
+  Martin J. Fowler & Pramodkumar J. Sadalage. Nosql Distilled: A Brief Guide to the Emerging World of Polyglot Persistence. Addison Wesley, 2009.
+removed: []

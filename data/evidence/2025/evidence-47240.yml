@@ -1,0 +1,78 @@
+format: evidence/1
+course: '47240'
+title: Web Systems Engineering
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-18'
+    to: '2025-12-18'
+  teaching_ids:
+  - '498809'
+  teachers:
+  - name: Ceccarini, Chiara
+    affiliation: disi
+    role:
+    - rtda
+  - name: Testa, Alex
+    affiliation: disi
+    role:
+    - teaching tutor
+  programmes:
+  - code: '6007'
+    name: Computer Systems Technologies
+    department: disi
+    campus: Cesena, Imola
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '498809'
+  laboratory:
+    value: true
+    evidence:
+    - Lectures and laboratory exercises.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student is familiar with the main web stacks, LAMP and MEAN.
+- id: o2
+  text: They are able to develop web applications and services, both client-side and server-side.
+- id: o3
+  text: They know and can appropriately use the main frameworks and content management systems for web
+    development.
+- id: o4
+  text: 'They also understand the key differences between the main types of mobile device applications:
+    web apps, hybrid apps, and native apps.'
+contents:
+- id: c1
+  text: Comparison of different Web Architectures and Solution Stacks
+- id: c2
+  text: MEAN stack solution, with an introduction to Node.js
+- id: c3
+  text: Introduction to Build Tools
+- id: c4
+  text: 'Supersets of Web Languages: TypeScript, SCSS, and SASS'
+- id: c5
+  text: LAMP Stack Solution, with a focus on PHP
+- id: c6
+  text: 'Key differences between the main types of mobile applications: Web Apps, Hybrid Apps, and Native
+    Apps'
+prerequisites: []
+bibliography: The slides and additional materials will be made available on Virtuale.
+removed: []

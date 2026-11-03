@@ -1,7 +1,7 @@
 // Convert a Mermaid flowchart into an editable draw.io diagram laid out as
 // Mermaid renders it (with the repository's mermaid-config.json, as render.sh).
 //
-//   node "pipeline design/mermaid-to-drawio.mjs" INPUT.mmd [OUTPUT.drawio]
+//   node "0.pipeline design/mermaid-to-drawio.mjs" INPUT.mmd [OUTPUT.drawio]
 //
 // Mermaid parses the file and renders it in headless Chrome; node and group
 // boxes, colours and edge routes are read from the rendered SVG. Cell ids are

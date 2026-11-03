@@ -1,0 +1,111 @@
+format: evidence/1
+course: '58437'
+title: Parallel Calculus
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-19'
+    to: '2026-05-08'
+  teaching_ids:
+  - '544187'
+  teachers:
+  - name: Marzolla, Moreno
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '544187'
+  laboratory:
+    value: true
+    evidence:
+    - Solutions are provided after the lab sessions, order to support self-study.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, students know the main high performance computing architectures; can
+    design and analyze parallel algorithms for different models of parallel computation; can implement
+    parallel algorithms on shared and distributed memory architectures using the most suitable languages,
+    tools and technologies
+contents:
+- id: c1
+  text: Parallel algorithms and parallel models of computation.
+- id: c2
+  text: 'Introduction to HPC architectures: Flynn taxonomy, shared memory and distributed memory architectures;
+    GPGPU'
+- id: c3
+  text: Parallel programming patterns (embarassingly parallel; stencil; work farm; scan; reduce)
+- id: c4
+  text: Programming shared-memory architectures with C/OpenMP
+- id: c5
+  text: Programming distributed-memory architectures with C/MPI
+- id: c6
+  text: GPGPU programming
+- id: c7
+  text: Brief introduction to SIMD programming using compiler intrinsics or auto-vectorization (GCC compiler)
+- id: c8
+  text: 'Performance evaluation of parallel programs: measuring and understanding speedup and efficiency'
+prerequisites:
+- id: p1
+  text: This course assumes the following prerequisites
+  items:
+  - id: p1.1
+    text: Programming in C.
+  - id: p1.2
+    text: Knowledge of the Unix/Linux environment (how to use the shell, how to write a basic Makefile,
+      ecc.).
+  - id: p1.3
+    text: Basic knowledge of computer architectures.
+bibliography: |-
+  Selected parts from the following textbooks:
+
+  - Joseph Jaja, An Introduction to Parallel Algorithms, ‎Addison-Wesley, 1st edition, 1992, ISBN 978-0201548563.
+  - Peter Pacheco and Matthew Malensek, An Introduction to Parallel Programming, Morgan Kauìffman, 2nd edition, 2021, ISBN 9780128046050; the first edition is fine, too: Peter Pacheco, An Introduction to Parallel Programming, Morgan Kaufmann, 2011, ISBN 978-0123742605
+  - Jason Sanders, Edward Kandrot, CUDA by Example: An Introduction to General-Purpose GPU Programming [https://developer.nvidia.com/cuda-example], Addison-Wesley, 2010, ISBN 978-0131387683
+  - Georg Hager, Gerhard Wellein, Introduction to High Performance Computing for Scientists and Engineers, CRC Press; 1 edition (July 2, 2010), ISBN 978-1439811924
+    Additional teaching material (including lecture slides and programming exercises) will be made available on the course web site.
+removed: []

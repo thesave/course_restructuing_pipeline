@@ -1,0 +1,121 @@
+format: evidence/1
+course: '90106'
+title: Software Engineering
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 9
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-05-22'
+  teaching_ids:
+  - '501529'
+  teachers:
+  - name: Capone, Orazio Andrea
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Grotto, Giovanni
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Rossi, Davide
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '6060'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6641'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8014'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '501529'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: This is a software engineering course concerning software development processes and practices,
+    with specific focus on those useful for the requirement and the design of software systems.
+- id: o2
+  text: Specifically, the students will learn how to apply principles, practices and patterns to the analysis,
+    design and construction of software systems.
+- id: o3
+  text: They will learn how to address the issues related to the internal quality of software systems.
+- id: o4
+  text: They also will learn the main agile and plan-based methods and how to work in a development team.
+contents:
+- id: c1
+  text: Introduction to Software Engineering
+- id: c2
+  text: The software process model
+- id: c3
+  text: The analisys model
+- id: c4
+  text: Introduction to UML
+- id: c5
+  text: 'UML: Use case'
+- id: c6
+  text: 'UML: Classes'
+- id: c7
+  text: Analisys model – domain model
+- id: c8
+  text: 'UML: Activities'
+- id: c9
+  text: 'UML: Interactions'
+- id: c10
+  text: OO principles
+- id: c11
+  text: GRASP
+  heading: true
+  items:
+  - id: c11.1
+    text: Design Patterns
+  - id: c11.2
+    text: Agile software development
+  - id: c11.3
+    text: Modern patterns and frameworks
+  - id: c11.4
+    text: 'Testing: unit, integration and acceptance tests'
+  - id: c11.5
+    text: Build automation tools
+  - id: c11.6
+    text: 'Continuous Integration: practices and tools'
+prerequisites: []
+bibliography: |-
+  Craig Larman, Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development (3rd Edition), Prentice Hall
+
+  Other textbooks and resources will be suggested during the lectures
+removed: []

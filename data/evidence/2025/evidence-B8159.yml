@@ -1,0 +1,212 @@
+format: evidence/1
+course: B8159
+title: INFORMATICA
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Rimini
+  schedules:
+  - from: '2026-02-10'
+    to: '2026-05-22'
+  teaching_ids:
+  - '542201'
+  teachers:
+  - name: Lodi, Stefano
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5901'
+    name: Statistics, Finance and Insurance
+    department: stat
+    campus: Rimini
+    cycle: first
+    languages:
+    - italian
+  - code: '6660'
+    name: Statistics, Finance and Insurance
+    department: stat
+    campus: Rimini
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '542201'
+  laboratory:
+    value: true
+    evidence:
+    - 'NOTE: As concerns the teaching methods of this course unit, all students must attend Module 1,
+      2 on Health and Safety online [https://www.unibo.it/en/services-and-opportunities/health-and-assistance/health-and-safety/online-course-on-health-and-safety-in-study-and-internship-areas]
+      .'
+    - lessons in a laboratory, or in a lecture room using personal computers owned by students, employing
+      one fourth of the total number of course hours, each comprising both frontal expositions and exercises
+      on programming techniques and the solution of query and data analysis problems, presented in the
+      expositions.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student is familiar with the architecture of a computer and understands
+    the basic elements of programming and relational database querying.
+- id: o2
+  text: The student is able to
+  items:
+  - id: o2.1
+    text: develop simple programs and queries with particular focus on examples of statistical processing
+  - id: o2.2
+    text: use the R and SQL languages.
+contents:
+- id: c1
+  text: Coding of information
+  items:
+  - id: c1.1
+    text: Binary codings
+  - id: c1.2
+    text: Binary numbers
+  - id: c1.3
+    text: Character codes
+- id: c2
+  text: Operating systems
+  items:
+  - id: c2.1
+    text: Single-user
+  - id: c2.2
+    text: Multi-user
+  - id: c2.3
+    text: Client/server
+- id: c3
+  text: Computer architectures
+  items:
+  - id: c3.1
+    text: Von Neumann architecture
+  - id: c3.2
+    text: Fetch cycle
+- id: c4
+  text: Networks
+  items:
+  - id: c4.1
+    text: Local networks
+  - id: c4.2
+    text: Geographic networks
+  - id: c4.3
+    text: Network interconnection
+- id: c5
+  text: Internet
+  items:
+  - id: c5.1
+    text: Communication protocols
+  - id: c5.2
+    text: Domain Name System
+- id: c6
+  text: The R language
+  items:
+  - id: c6.1
+    text: Vectors
+  - id: c6.2
+    text: Lists
+  - id: c6.3
+    text: Matrices
+  - id: c6.4
+    text: Data frames
+  - id: c6.5
+    text: Reading and writing files
+  - id: c6.6
+    text: Conditional and looping instructions
+  - id: c6.7
+    text: Function definition
+  - id: c6.8
+    text: Graphics and packages
+- id: c7
+  text: The relational model of data
+  items:
+  - id: c7.1
+    text: Attributes
+  - id: c7.2
+    text: Relation and database schema
+  - id: c7.3
+    text: Tuple, relation and database
+  - id: c7.4
+    text: Relational algebra
+- id: c8
+  text: Integrity constraints
+  items:
+  - id: c8.1
+    text: Keys and superkeys
+  - id: c8.2
+    text: Referential integrity
+- id: c9
+  text: The SQL language
+  items:
+  - id: c9.1
+    text: General Characteristics
+  - id: c9.2
+    text: Expressions and basic predicates
+  - id: c9.3
+    text: Subselect
+  - id: c9.4
+    text: FROM, WHERE, SELECT clause
+  - id: c9.5
+    text: BETWEEN, LIKE, IS NULL predicates
+  - id: c9.6
+    text: Join and subquery
+  - id: c9.7
+    text: IN predicate
+  - id: c9.8
+    text: Quantified predicates
+  - id: c9.9
+    text: GROUP BY, HAVING clause
+  - id: c9.10
+    text: Column functions
+  - id: c9.11
+    text: Correlated subqueries
+  - id: c9.12
+    text: Outer Joins
+  - id: c9.13
+    text: Set operations and full-select
+  - id: c9.14
+    text: Statement CREATE TABLE
+  - id: c9.15
+    text: 'Integrity constraints: PRIMAY KEY, UNIQUE, FOREIGN KEY'
+  - id: c9.16
+    text: Statement INSERT, UPDATE, DELETE
+  - id: c9.17
+    text: Statement GRANT, REVOKE
+  - id: c9.18
+    text: Statement CREATE VIEW
+- id: c10
+  text: 'Laboratory exercises: application of programming notions in R and SQL to simple cases of data
+    transformation and analysis.'
+- id: c11
+  text: The exercises will be carried out on personal computers owned by students, using preinstalled
+    software on remote university computers.
+prerequisites: []
+bibliography: |-
+  Course slides and exercises are available on Virtuale [http://virtuale.unibo.it/] .
+
+  All books are optional.
+
+  Recommended on the R language:
+
+  - Muggeo, V. (2005). Il linguaggio R : concetti introduttivi ed esempi. Disponibile come E-book (Cercare nel Catalogo del Polo Bolognese SEBINA YOU [http://sol.unibo.it.ezproxy.unibo.it/SebinaOpac/SebinaYOU.do] )
+
+  Statistical processing with R in more depth (in English):
+
+  - Fischetti, T. (2015). Data Analysis with R. United Kingdom: Packt Publishing. Disponibile come E-book (Cercare nel Catalogo del Polo Bolognese SEBINA YOU [http://sol.unibo.it.ezproxy.unibo.it/SebinaOpac/SebinaYOU.do] )
+
+  The SQL language in more depth:
+
+  - Van der Lans, R. F. (2001). Introduction to SQL.
+removed: []

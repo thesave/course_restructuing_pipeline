@@ -1,0 +1,199 @@
+format: evidence/1
+course: '93315'
+title: Computer Networks
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 12
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-23'
+    to: '2026-05-22'
+  teaching_ids:
+  - '455456'
+  teachers:
+  - name: Bononi, Luciano
+    affiliation: disi
+    role:
+    - full professor
+  - name: Mazza, Milena
+    affiliation: mat
+    role:
+    - research scholarship holder
+  - name: Ribeiro Zyrianoff, Ivan Dimitry
+    affiliation: dicam
+    role:
+    - adjunct professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '455456'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The student will learn
+  items:
+  - id: o1.1
+    text: the fundamentals of the computer networks;
+  - id: o1.2
+    text: main technologies and communication protocols, including the TCP/IP suite for Internet and packet-based
+      communication;
+  - id: o1.3
+    text: the Internet architecture, the way Internet operates, inter-process communication and the design
+      and development of inter-process communication protocols, including the principles and technologies
+      for Wireless communications.
+contents:
+- id: c1
+  text: 'Foundation topics: definitions, history and development of computer networks.'
+- id: c2
+  text: Topologies, network resources, and logical channels.
+- id: c3
+  text: 'Computer Network performances: indexes and their meaning in different application contexts.'
+- id: c4
+  text: Circuit-switched and packet-switched networks.
+- id: c5
+  text: Network communication protocols.
+- id: c6
+  text: 'Network architectures: HW and SW.'
+- id: c7
+  text: 'Network Service architectures: Client/server, Peer to peer, hybrid.'
+- id: c8
+  text: ISO OSI Reference Model.
+- id: c9
+  text: 'Physical layer: transmission medium, signals, encoding/decoding specifically focusing on radio
+    communications.'
+- id: c10
+  text: 'Data Link layer: communication channels, Medium Access Control techniques, MAC addressing, Reliable
+    communication, Error detection and correction.'
+- id: c11
+  text: 'Local Area Network technologies: hub, repeater, bridge, switch.'
+- id: c12
+  text: LAN connectivity.
+- id: c13
+  text: LAN topologies and links.
+- id: c14
+  text: 'Wireless systems (local networks): design of radio communication systems, antennas, wireless
+    propagation, link budget, Decibels, enconding, error detection and correction techniques, MAC protocols
+    (e.g.'
+- id: c15
+  text: IEEE 802.11 and Bluetooth).
+- id: c16
+  text: 'Mobile systems: Mobile IP, TCP variants.'
+- id: c17
+  text: Virtual channels (MPLS) and virtual networks (VLAN).
+- id: c18
+  text: 'Network Layer: IPv4 protocol and addressing.'
+- id: c19
+  text: IPv6.
+- id: c20
+  text: Domains and hierarchical addressing.
+- id: c21
+  text: Subnetting and supernetting, IPv4 network classes, CIDR, IP configuration.
+- id: c22
+  text: Network Address Translation (NAT).
+- id: c23
+  text: SDN e OpenFlow.
+- id: c24
+  text: ICMP.
+- id: c25
+  text: ARP e RARP.
+- id: c26
+  text: DHCP.
+- id: c27
+  text: Design of network and subnetworks in IP domains.
+- id: c28
+  text: Management and configuration of LANs (SNMP).
+- id: c29
+  text: Troubleshooting and analysis of network performance and issues.
+- id: c30
+  text: Networks of networks and inter-networking.
+- id: c31
+  text: Forwarding and routing IP (local and ISP-based - interdomain).
+- id: c32
+  text: Router.
+- id: c33
+  text: Multicasting.
+- id: c34
+  text: 'Transport layer: Transmission Control Protocol (TCP), performance of end-to-end communications,
+    Congestion control.'
+- id: c35
+  text: Flow control.
+- id: c36
+  text: Sockets and socket programming (examples) with UDP/TCP.
+- id: c37
+  text: Inter-process communications over Internet.
+- id: c38
+  text: Session and Presentation layers.
+- id: c39
+  text: 'Application layer: examples of protocols and services at the application layer.'
+- id: c40
+  text: SMTP (email), http (WWW), DNS, streaming video, gaming, P2P, VoIP.
+- id: c41
+  text: Quality of service.
+- id: c42
+  text: Real Time communication.
+- id: c43
+  text: Security of communication networks.
+- id: c44
+  text: Privacy, crittography, integrity and digital signature.
+- id: c45
+  text: 'Secure transport layer (TCP): SSL.'
+- id: c46
+  text: Secure network layer.
+- id: c47
+  text: IPsec.
+- id: c48
+  text: Virtual Private Networks (VPN).
+- id: c49
+  text: Firewalls and Intrusion Detection.
+prerequisites: []
+bibliography: |-
+  Recommended readings:
+
+  - J.F. Kurose, K.W. Ross, Computer Networking: A Top-Down Approach, last edition
+  - Larry L. Peterson, Bruce S. Davie, Computer Networks: A Systems Approach, last edition
+  - the slides and experimentation material illustrated during the classes and lab experiences will be provided online before the classes on the Virtuale platform.
+removed: []

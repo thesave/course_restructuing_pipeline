@@ -1,0 +1,146 @@
+format: evidence/1
+course: B2133
+title: Big Data Analytics and Text Mining
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-19'
+    to: '2025-12-19'
+  teaching_ids:
+  - '491926'
+  teachers:
+  - name: Frisoni, Giacomo
+    affiliation: disi
+    role:
+    - research fellow
+  - name: Lodi, Stefano
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Moro, Gianluca
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '6700'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '9063'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '491926'
+  laboratory:
+    value: true
+    evidence:
+    - Lessons and lab activities are held also online with Teams using slides, colab notebooks and our
+      servers.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student understands how corpora and big data sets can be analyzed
+    to derive strategic knowledge and data-driven decisions.
+- id: o2
+  text: The student is able to address the main data and text analytics tasks such as data selection,
+    transformation, analysis and interpretation, moreover is able to leverage deep learning pipelines
+    and advanced solutions for text mining and natural language understanding downstream goals.
+contents:
+- id: c1
+  text: Module 1 - Text Mining and Large Language Models (Prof. Gianluca Moro (https://disi-unibo-nlp.github.io))
+  heading: true
+  items:
+  - id: c1.1
+    text: The module focuses on the following state-of-the-art deep learning advancements to cope with
+      challenging and highly business demanded natural language processing and understanding tasks with
+      core open source technologies
+  - id: c1.2
+    text: (see the virtuale space of the course (https://virtuale.unibo.it/course/view.php?id=70599) and
+      our GitHub repo (https://disi-unibo-nlp.github.io/))
+  - id: c1.3
+    text: Neural Language Modeling Foundations Transformer Architecture, Pre-Training and Fine-Tuning
+      Techniques, Decoding Strategies, Evaluation (Natural Language Generation Metrics, LLM-as-a-judge).
+  - id: c1.4
+    text: Large Language Models Scaling Laws, Prompting vs Fine-Tuning, Instruction Fine-Tuning, Preference
+      Alignment, Efficient Attention Mechanisms (e.g., BigBird, Performer, Key-Value Caching, Multi-Query
+      Attention)
+  - id: c1.5
+    text: Compression and Quantization Methods (GPTQ, AWQ, GGUF), Parameter-Efficient Fine-Tuning (e.g.,
+      LoRA, QLoRA, GaLoRE, Prompt Tuning), Mixture-of-Experts, Vision-Language Models.
+  - id: c1.6
+    text: Knowledge-Enhanced Natural Language Processing. Retrieval-Augmented Generation (Chunking Strategies,
+      Architectures) and VectorDBs, Agents and Tool Calling (Large Action Models - LAM), Graph Neural
+      Networks, Graph Injection into Language Models for Trustworthiness.
+  - id: c1.7
+    text: Labs on real-world case studies and in enterprise settings with core technologies Python, Pytorch,
+      HuggingFace, LlamaIndex
+  - id: c1.8
+    text: '- Prompting vs Full Fine-Tuning vs Parameter-Efficient Fine-Tuning for Dialogue Summarization;
+      Foundational Multimodal Large Language Models for Visual Question Answering.'
+  - id: c1.9
+    text: '- Efficient, Retrieval-Augmented Conversational Agents for Qustion-Answering in the Legal Domain.'
+  - id: c1.10
+    text: '- Graph Learning, Embedding and Injection into Language Models for Semantics-Aware Lay Summarization;
+      GraphRAG and Structured Query Generation to Interact with DBMS and Knowledge Graphs in Multi-Source
+      Question Answering;'
+  - id: c1.11
+    text: '- Graph Verbalization into Large Language Model Prompts for Medical Question Answering.'
+  - id: c1.12
+    text: The module introduces also new published SOTA results in top-tier AI conferences for research
+      and industrial projects, we also achieved on some of these topics (https://disi-unibo-nlp.github.io/applications/).
+- id: c2
+  text: Module 2 - Big Data Analytics
+  heading: true
+  items:
+  - id: c2.1
+    text: Data Mining in Big Data Environments
+  - id: c2.2
+    text: Maps and reductions in parallel programming. The MapReduce programming model.
+  - id: c2.3
+    text: The Hadoop implementation of MapReduce.
+  - id: c2.4
+    text: The Python API to the Spark system and examples of parallel programs.
+  - id: c2.5
+    text: The Machine Learning Library (MLlib) of Spark.
+prerequisites: []
+bibliography: |-
+  Readings/Bibliography
+
+  Module 1 - Text Mining and Large Language Models (Prof. Gianluca Moro)
+
+  Readings: Slides, lab notebooks, datasets and recent papers will be supplied by the teacher, also from our repo (https://disi-unibo-nlp.github.io/)
+
+  Suggested readings: Natural Language Processing Recipes (https://www.aitskadapa.ac.in/e-books/CSE/DEEP%20LEARNING/Natural%20Language%20Processing%20Recipes_%20Unlocking%20Text%20Data%20with%20Machine%20Learning%20and%20Deep%20Learning%20using%20Python%20(%20PDFDrive%20).pdf) Unlocking Text Data with Machine Learning and Deep Learning using Python, Akshay Kulkarni and Adarsha Shivananda, 2024
+
+  Module 2 - Big Data Analytics (Prof. Stefano Lodi)
+
+  - White, T. (2009). Hadoop: The definitive guide 4th Edition. Reilly
+    Media.
+  - Chambers, B., & Zaharia, M. (2018). Spark: The definitive guide: Big
+    data processing made simple. Reilly Media, Inc.
+removed:
+- text: Module 2 - Big Data Analytics (Prof. Stefano Lodi)
+  reason: instructor

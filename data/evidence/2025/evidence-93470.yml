@@ -1,0 +1,147 @@
+format: evidence/1
+course: '93470'
+title: Cybersecurity
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-05-28'
+  teaching_ids:
+  - '517112'
+  teachers:
+  - name: Andruccioli, Manuel
+    affiliation: disi
+    role:
+    - phd student
+  - name: D'Angelo, Gabriele
+    affiliation: disi
+    role:
+    - researcher
+  - name: Ferretti, Stefano
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '5815'
+    name: Digital Transformation Management
+    department: disi
+    campus: Cesena, Forlì
+    cycle: second
+    languages:
+    - english
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '6823'
+    name: Digital Transformation Management
+    department: disi
+    campus: Cesena, Forlì
+    cycle: second
+    languages:
+    - english
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '517112'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student knows the basic principles of computer security and he/she
+    is able to identify the main problems of computer and network security.
+- id: o2
+  text: He/she gets to understand and explain the main protocols and mechanisms used for securing communications
+    and data transfer.
+- id: o3
+  text: He/she is able to perform a critical evaluation of the security of a computing infrastructure
+    and to suggest the best countermeasures to mitigate the vulnerabilities, reduce the risk and increase
+    the resilience to attacks.
+- id: o4
+  text: He/she is also capable of contributing to the design of systems that are secure by design and
+    understanding the basic problems of computer forensics.
+- id: o5
+  text: Finally, he/she is able to design and contribute to the enhancement of the security of devices
+    exposed to the Internet.
+contents:
+- id: c1
+  text: Computer and network security basics. Threats, risks, attacks, and assets. Security functional
+    requirements.
+- id: c2
+  text: Small introduction to cryptography. Symmetric Encryption. Public-Key Encryption. Digital Signatures
+    and Key Management.
+- id: c3
+  text: User authentication and authentication-related problems.
+- id: c4
+  text: Access control.
+- id: c5
+  text: Malicious software.
+- id: c6
+  text: Denial-of-Service (DoS) and Distributed Denial-of-Service (DDoS) attacks.
+- id: c7
+  text: Security aspects in design and implementation of software.
+- id: c8
+  text: Security management and risk assessment. Management. Risk analysis and evaluation. Design and
+    implementation of security policies. Social engineering and human-in-the loop. Auditing.
+- id: c9
+  text: Basic computer forensics and anti-computer forensics techniques.
+- id: c10
+  text: Hardening of computing devices.
+prerequisites: []
+bibliography: |-
+  Teaching materials:
+
+  - course book;
+  - slides (available on Virtuale (https://virtuale.unibo.it));
+  - additional resources (i.e., selected scientific papers and technical articles).
+
+  The course book is: Computer Security: Principles and Practice (https://www.pearson.com/uk/educators/higher-education-educators/program/Stallings-Computer-Security-Principles-and-Practice-Global-Edition-4th-Edition/PGM1911398.html), 4/E William Stallings, Lawrie Brown. Global Edition. ISBN-10: 1292220619. ISBN-13: 978-1292220611
+
+  The detailed knowledge of the previously listed teaching material is mandatory for a positive outcome of the examination. The study of the slides is not sufficient for getting an adequate knowledge of the course topics.
+
+  A list with the parts of the course book that are in the course program is available on Virtuale (https://virtuale.unibo.it). The additional resources are discussed during the lessons and then reported on Virtuale. The reading of these additional resources has the goal to provide a deep knowledge of some specific security aspects.
+
+  On Virtuale (https://virtuale.unibo.it) is also available a list of "Frequently Asked Questions".
+removed: []

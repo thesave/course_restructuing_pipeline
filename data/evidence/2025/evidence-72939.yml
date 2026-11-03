@@ -1,0 +1,118 @@
+format: evidence/1
+course: '72939'
+title: Software Systems Engineering M
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-06-03'
+  teaching_ids:
+  - '517543'
+  teachers:
+  - name: Natali, Antonio
+    affiliation: unibo
+    role:
+    - former professor
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Detailed knowledge about languages, models and technologies for the analysis, the development,
+    the documentation, the deployment and the maintenance of (distributed) software systems.
+contents:
+- id: c1
+  text: At the end of the course, the student
+  items:
+  - id: c1.1
+    text: is able to set-up cooperative software production processes, based on agile (SCRUM) development
+      that exploit also executable models exprressed using custom meta-models;
+  - id: c1.2
+    text: is able to design and develop software systems with related testing plans, in an incremental
+      and evolutive way, by starting from the problem and from the application domain rather than from
+      the implementation technology, also by using executable models of requirement and problem analysis;
+  - id: c1.3
+    text: is able to critically evaluate the continuos evolution of software technologies, both as regars
+      the computational aspects and the software development process, by operationally acquiring knowledge
+      on languages, methodologies and tools such as Kotlin, Gradle, SCRUM, SpringBoot, DevOps, Docker,
+      etc.
+  - id: c1.4
+    text: is able to understand the role of the different styles of software architectures (layers, client-server,
+      pipeline, microkernel, service-based, event-driven, space-based, microservices) and how to select
+      the most appropriate architectural style for each different sub-system;
+  - id: c1.5
+    text: is able to face the analysis, the design and development of distributed, heterogeneous proactive-reactive
+      applications (together with related development platforms and run-time supports) with particular
+      reference to computational models based on message-passing and event-driven paradigms;
+  - id: c1.6
+    text: is able to realize message-based interactions among distributed software components by using
+      high-level logical models and implementations based on different protocols (TCP, UDP, HTTP, CoAP,
+      MQTT);
+  - id: c1.7
+    text: is able to understand how it is possible to design and build software development environments
+      able to automatic code generation (Sofware Factories in ecosystems like Eclipse and IntelliJ) based
+      on Model Driven Software Development (MDSD) and on Domain Specific Languages (DSL), by considering
+      also AI Generated Code technologies;
+  - id: c1.8
+    text: is able to develop application able to combine high-level aspects (with particular reference
+      to AI) with low-level aspects related to Internet of Things (IOT) devices, in the context of both
+      virtual and real environments, built by using low-cost computers like RaspberryPi and Arduino;
+  - id: c1.9
+    text: is able to apply the concepts, the devices and the tools developed in the course for the design
+      and development of a final application that exploits one or more IOT devices - in particular Differental
+      Drive Robots (DDR) with sensors - that can operate in relatively autonomous way in different virtual
+      or real enviroments, without modifying the software that does express the business logic of the
+      problem.
+prerequisites: []
+bibliography: |-
+  The teacher provides lerning material as a reference guide for the reading of more detailed papers and books
+
+  More spefically, each case-study discussed in the course is furnished with HTML documents that can be used as documention, as learning material and also as a starting point for more specialized versions built by the student.
+removed: []

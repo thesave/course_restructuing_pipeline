@@ -1,0 +1,91 @@
+format: evidence/1
+course: '88155'
+title: Industrial Informatics P
+sources:
+  outcomes: it
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-06-04'
+  teaching_ids:
+  - '499017'
+  teachers:
+  - name: Mora, Alessio
+    affiliation: disi
+    role:
+    - rtda
+  - name: Sartini, Matteo
+    affiliation: dei
+    role:
+    - adjunct professor
+  - name: Zandoli, Silvia
+    affiliation: disi
+    role:
+    - phd student
+  - name: Zanni, Alessandro
+    affiliation: disi
+    role:
+    - teaching tutor
+  programmes:
+  - code: '6009'
+    name: Mechatronics
+    department: dei
+    campus: Bologna, Imola, Lugo
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '499017'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Al termine del modulo lo studente conosce i criteri di progetto del software di automazione orientati
+    a favorirne la portabilità in ambienti di esecuzione differenziati.
+- id: o2
+  text: In particolare lo studente è in grado di applicare, con riferimento a relativamente semplici sistemi,
+    l’approccio progettuale “divide et impera”, procedendo alla definizione del ruolo delle singole entità
+    costituenti ed identificando idonei modelli per la descrizione formale del loro comportamento.
+contents:
+- id: c1
+  text: Module 1 of this course provides a comprehensive introduction to the fundamental concepts and
+    mechanisms underlying modern operating systems.
+- id: c2
+  text: It begins by presenting the role, structure, and objectives of an operating system, focusing on
+    how it abstracts and manages hardware resources such as CPU, memory, input/output devices, and files
+    to provide an execution environment for programs.
+- id: c3
+  text: The course then examines processes and threads, explaining how programs are represented and executed,
+    and how the operating system manages their lifecycle, resources, and multiprogramming.
+- id: c4
+  text: It addresses concurrency and synchronization issues, including mutual exclusion, race conditions,
+    and deadlocks, and presents the main mechanisms used to coordinate interacting processes.
+- id: c5
+  text: CPU scheduling is analyzed to understand how the operating system allocates processor time and
+    evaluates different scheduling policies in terms of performance, fairness, and efficiency.
+- id: c6
+  text: The course also covers memory management, including virtual memory, paging, and segmentation,
+    highlighting how memory is allocated, protected, and organized to support efficient execution.
+- id: c7
+  text: Finally, it introduces file systems and I/O management, explaining how persistent data and hardware
+    devices are handled through file abstractions, file operations, and device access mechanisms.
+prerequisites: []
+bibliography: A. S. Tanenbaum, H. Bos. «I Moderni Sistemi Operativi»
+removed: []

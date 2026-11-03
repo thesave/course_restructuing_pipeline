@@ -1,0 +1,104 @@
+format: evidence/1
+course: '96346'
+title: INFORMATICA
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-25'
+    to: '2026-05-13'
+  teaching_ids:
+  - '520631'
+  teachers:
+  - name: Felli, Paolo
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Romanella, Daniele
+    affiliation: disi
+    role:
+    - teaching tutor
+  programmes:
+  - code: '5940'
+    name: Materials Science
+    department: difa
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6830'
+    name: Materials Science
+    department: difa
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '520631'
+  laboratory:
+    value: true
+    evidence:
+    - Lectures and laboratory exercises.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student possesses necessary knowledge of computer structure and
+    appropriate familiarity with modern programming languages, particularly Python.
+- id: o2
+  text: Such knowledge is adequate and sufficient to address and solve simple scientific problems through
+    the design and implementation of suitable algorithms and data structures.
+- id: o3
+  text: Laboratory activities introduce them to initial examples of applied methods and models.
+contents:
+- id: c1
+  text: The course introduces the main concepts of computer science, problem-solving, and abstract machines.
+- id: c2
+  text: 'It then delves into programming in Python, with particular attention to:'
+- id: c3
+  text: The Python machine
+- id: c4
+  text: Names and their visibility
+- id: c5
+  text: Functions
+- id: c6
+  text: Modifiable and non-modifiable objects
+- id: c7
+  text: Basic data types (numbers, strings, lists, dictionaries, etc.)
+- id: c8
+  text: Abstract data types (binary trees)
+- id: c9
+  text: Furthermore, the course presents some classes of algorithms (e.g., sorting) with an overview of
+    computational complexity.
+- id: c10
+  text: It discusses the limitations of effective procedures and the existence of problems that are unsolvable
+    algorithmically.
+- id: c11
+  text: Laboratory activity is included, to support students in understanding and applying the concepts
+    learned during the lessons.
+prerequisites: []
+bibliography: |-
+  John V. Guttag: Introduzione alla programmazione con python, Egea, 2021 (traduzione italiana ridotta di: Introduction to Computation and Programming Using Python Third Edition: With Application to Computational Modeling and Understanding Data, MIT Press, 2021)
+
+  Further readings:
+
+  Allen B. Downey: How to Think Like a Computer Scientist: Learning with Python. Online interactive edition: https://runestone.academy/ns/books/published/thinkcspy/index.html
+
+  Allen B. Downey: Think Python 2e, O'Reilly Media, 2012. ISBN 978-1449330729. https://greenteapress.com/wp/think-python-2e/
+
+  Jessen Havill: Discovering Computer Science: Interdisciplinary Problems, Principles, and Python Programming. Chapman and Hall/CRC. ISBN 9781482254143
+removed: []

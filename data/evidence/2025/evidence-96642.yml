@@ -1,0 +1,150 @@
+format: evidence/1
+course: '96642'
+title: Virtualization and System Integration
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-05-27'
+  teaching_ids:
+  - '469640'
+  teachers:
+  - name: Barbone, Ciro
+    affiliation: disi
+    role:
+    - adjunct professor
+  - name: Ghini, Vittorio
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '469640'
+  laboratory:
+    value: true
+    evidence:
+    - Classroom lectures and exercises, and laboratory activities.
+    - A lot of practical exercises are developed in the lectures so as to introduce the laboratory activities,
+      in which the students, under the supervision of the professor, check their knowledges, propose and
+      solve their doubts and improve their skill.
+    - Extensions of the lab activities are regularly suggested, and the solutions published, so as to
+      allow individual studies and autonomous lab activities.
+    - Some laboratory activities simulate the execution of the theoretical/practical exam so as to familiarize
+      the students with the course assessment methods.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The course provides the knowledge and the abilities of the Systems Integration and Testing Engineer.
+- id: o2
+  text: At the end of the course, the student knows the basic principles of virtualization, Identity management
+    systems, and network protection techniques (NAT and firewall, in particular).
+- id: o3
+  text: He knows the main issues that hinder the deployment of distributed services and applications on
+    contexts that are heterogeneous in terms of users, services, APIs and operating systems ; he knows
+    the main tools and methods usable to design and deploy distributed applications; the main protocols,
+    systems and tools to allow the interactions among basic services provided by different operating systems;
+    he knows the most prominent management platforms for on-premise cloud systems.
+- id: o4
+  text: Moreover, he knows the main protocols, tools and platforms commonly used to configure, deploy,
+    maintain and monitor, in centralized and automated manner, a number of distributed systems, services
+    and applications.
+contents:
+- id: c1
+  text: The course provides the knowledge and the abilities of the System Integration and Testing Engineer.
+- id: c2
+  text: The System Integration and Testing Engineer, his tasks and skills
+- id: c3
+  text: Recall of local system management.
+- id: c4
+  text: Overview on communication security aspects for information systems, server farms and network.
+    Protocols and utilities, ssh, tls/ssl, dtls.
+- id: c5
+  text: Notes on network management, basic tools, filtering, iptables/netfilter.
+- id: c6
+  text: Network protocols (OPC)for interaction with industrial systems (PLC).
+- id: c7
+  text: Notes on protection of local networks and server farm, NAT, Firewall and protocols for overcoming,
+    concepts of Proxy/Relay, protocols and tools for proxying, socks.
+- id: c8
+  text: Notes on distributed filesystems and block storages.
+- id: c9
+  text: 'Virtualization principle, platform for virtualization, container, application areas of virtualization:
+    from server farm to smartphone.'
+- id: c10
+  text: 'Micro-services Architectures: language-independent, component-based, software architectures.
+    Message Bus (at a kernel level, local system or cloud scope). Most prominent examples of Micro-services
+    Architectures in a local context and cloud context.'
+- id: c11
+  text: 'An example of container-level virtualization: Docker. The docker API. Virtual networks between
+    docker containers. Build a container image automatically using Dockerfile; Introduction to Docker
+    Compose; Docker Swarm - how to run multi-container applications in host clusters using a native docker
+    tool. Kubernetes: orchestration of virtual machines, services and containers. On premise orchestration
+    products on cluster or on single node (minikube).'
+- id: c12
+  text: Notes on management platform for on premise cloud.
+- id: c13
+  text: IDentity Management (IDM), IDM platforms and protocols based on Windows o.s. (Active Directory,
+    LDAP) and based on Linux o.s. (Kerberos, openLDAP) .
+- id: c14
+  text: Interactions between Windows and Linux systems, application areas and protocols, most significant
+    examples.
+- id: c15
+  text: 'Centralized management of distributed services and development of supporting applications: Centralized
+    monitoring, protocols, applications, SNMP, Nagios, other applications. Centralized Configuration,
+    Centralized Authentication, Centralized Maintenance. Development of distributed application, in particular
+    those devoted to dynamic configuration and monitoring of local and distributed systems.'
+- id: c16
+  text: Most significant examples of systems integration.
+prerequisites:
+- id: p1
+  text: For the understanding of the course content, a solid background knowledge, gained in the exams
+    of programming, operating systems and computer networks, is required.
+bibliography: Slides and notes provided through course web site (see 'Links to further information' after
+  the beginning of course)
+removed: []

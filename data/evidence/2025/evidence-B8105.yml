@@ -1,0 +1,252 @@
+format: evidence/1
+course: B8105
+title: Computational Management of Data
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 12
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-10-13'
+    to: '2026-03-18'
+  teaching_ids:
+  - '542133'
+  teachers:
+  - name: Heibi, Ivan
+    affiliation: ficlit
+    role:
+    - rtda
+  - name: Peroni, Silvio
+    affiliation: ficlit
+    role:
+    - associate professor
+  programmes:
+  - code: '6736'
+    name: Digital Humanities and Digital Knowledge
+    department: ficlit
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '9224'
+    name: Digital Humanities and Digital Knowledge
+    department: ficlit
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - Face-to-face classes for 60 hours, plus face-to-face laboratory sessions in the laboratory for max.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student knows the high-level principles and the historical and theoretical
+    backgrounds for solving problems efficiently using computational tools and information-processing
+    agents, as well as the theoretical and practical groundings for modelling, gathering and managing
+    data using computational techniques.
+- id: o2
+  text: The student is able to understand and use the main data structures for organising information,
+    develop algorithms for addressing computational-related tasks, implement such algorithms in a specific
+    programming language, write and share data using standard formats for spreadsheet and Web consumption,
+    understand and create databases through database management systems, retrieve data using appropriate
+    query languages, build and interpret graphs showing basic descriptive statistics computed from data,
+    and develop and integrate data-driven workflows into software applications.
+contents:
+- id: c1
+  text: The course is organised in two blocks.
+- id: c2
+  text: The first block (module 1) is organised in a series of lectures.
+- id: c3
+  text: Each lecture introduces a specific topic, includes mentions to some related historical facts and
+    to people (indicated between squared brackets) who have provided interesting insights on the subject.
+- id: c4
+  text: The lectures are accompanied by several hands-on sessions for learning the primary constructs
+    of the programming language that will be used for implementing and running the various algorithms
+    proposed.
+- id: c5
+  text: The second block (module 2 and 3) is organised in a series of theoretical lectures and hands-on
+    sessions.
+- id: c6
+  text: In each lecture, it is provided a theoretical introduction about the specific topic of the lecture.
+- id: c7
+  text: In each hands-on session to be held with a computer, it is run a laboratory activity session based
+    on existing tools that enable the experimentation with the topics introduced in the theoretical lectures.
+- id: c8
+  text: List of lectures
+- id: c9
+  text: First block (module 1, October-December)
+  items:
+  - id: c9.1
+    text: Introduction to Computational Thinking [Chomsky]
+  - id: c9.2
+    text: What is a computer?
+  - id: c9.3
+    text: Comparing natural languages and programming languages
+  - id: c9.4
+    text: 'Abstraction: the main tool of Computational Thinking'
+  - id: c9.5
+    text: Algorithms [Lovelace]
+  - id: c9.6
+    text: What is an algorithm?
+  - id: c9.7
+    text: First machines and programmers
+  - id: c9.8
+    text: 'How to develop an algorithm: flowcharts'
+  - id: c9.9
+    text: 'Our first algorithm: input, process, decision, output'
+  - id: c9.10
+    text: Computability [Turing]
+  - id: c9.11
+    text: The computational cost of an algorithm
+  - id: c9.12
+    text: The halting problem (or, can we compute everything?)
+  - id: c9.13
+    text: 'Assessing the output: test-driven development'
+  - id: c9.14
+    text: Programming Languages [Hopper]
+  - id: c9.15
+    text: History of programming languages
+  - id: c9.16
+    text: Python
+  - id: c9.17
+    text: 'Writing our first algorithm in Python: variables, assignments, and conditional statements'
+  - id: c9.18
+    text: 'Organising information: ordered structures [Knuth]'
+  - id: c9.19
+    text: What is a data structure?
+  - id: c9.20
+    text: List
+  - id: c9.21
+    text: Stack
+  - id: c9.22
+    text: Queue
+  - id: c9.23
+    text: Brute-force algorithms [Holberton]
+  - id: c9.24
+    text: 'Iterations: for and while constructs'
+  - id: c9.25
+    text: Linear search
+  - id: c9.26
+    text: Insertion sort
+  - id: c9.27
+    text: 'Organising information: unordered structures [Borges]'
+  - id: c9.28
+    text: Can data structures be infinite?
+  - id: c9.29
+    text: Set
+  - id: c9.30
+    text: Dictionary
+  - id: c9.31
+    text: Recursion [Hofstadter]
+  - id: c9.32
+    text: 'An intuition: the Little Harmonic Labyrinth'
+  - id: c9.33
+    text: Recursive approaches in Linguistics and Physics
+  - id: c9.34
+    text: Recursive algorithms
+  - id: c9.35
+    text: Divide and conquer algorithms [von Neumann]
+  - id: c9.36
+    text: Ordering billions of books
+  - id: c9.37
+    text: Merge sort
+  - id: c9.38
+    text: Dynamic programming algorithms [Fibonacci]
+  - id: c9.39
+    text: 'Golden ratio and rabbits: how do they relate to each other?'
+  - id: c9.40
+    text: Keeping track of past solutions to sub-problems
+  - id: c9.41
+    text: Fibonacci sequence
+  - id: c9.42
+    text: 'Organising information: trees [Garcia Marquez]'
+  - id: c9.43
+    text: Genealogy and document markup
+  - id: c9.44
+    text: Tree
+  - id: c9.45
+    text: Backtracking algorithms [AlphaGo]
+  - id: c9.46
+    text: Playing board games with trees
+  - id: c9.47
+    text: Peg solitaire
+  - id: c9.48
+    text: 'Organising information: graphs [Euler]'
+  - id: c9.49
+    text: The city of Königsberg
+  - id: c9.50
+    text: Graph
+  - id: c9.51
+    text: Greedy algorithms [Evelyn Berezin]
+  - id: c9.52
+    text: Wordprocessors
+  - id: c9.53
+    text: Line wrap
+- id: c10
+  text: Second block (modules 2 and 3, February-March)
+  items:
+  - id: c10.1
+    text: '[Lecture] Introduction to the course and final project specifications'
+  - id: c10.2
+    text: '[Lecture] What is a datum and how it can be represented computationally'
+  - id: c10.3
+    text: '[Hands-on] Data formats and methods for storing data in Python'
+  - id: c10.4
+    text: '[Lecture] Introduction to data modelling'
+  - id: c10.5
+    text: '[Hands-on] Implementation of data models via Python classes'
+  - id: c10.6
+    text: '[Lecture] Processing and querying the data'
+  - id: c10.7
+    text: '[Hands-on] Introduction to Pandas'
+  - id: c10.8
+    text: '[Lecture] Database Management Systems'
+  - id: c10.9
+    text: '[Hands-on] Configuring and populating a relational database'
+  - id: c10.10
+    text: '[Lecture] SQL, a query language for relational databases'
+  - id: c10.11
+    text: '[Hands-on] Configuring and populating a graph database'
+  - id: c10.12
+    text: '[Lecture] SPARQL, a query language for RDF databases'
+  - id: c10.13
+    text: '[Hands-on] Interacting with databases using Pandas'
+  - id: c10.14
+    text: '[Lecture] Describing and visualising data'
+  - id: c10.15
+    text: '[Hands-on] Descriptive statistics and graphs about data using Pandas'
+prerequisites: []
+bibliography: |-
+  Lecture notes will be made freely available to students in the GitHub repository of the course (https://github.com/comp-data/2025-2026) before the beginning of the course. Slides and any additional material will be made also available a few days before each lecture in the same repository. No additional books or papers are needed for passing the final exam successfully.
+
+  The following suggested readings could be helpful to students as background material, in order to practice basic terminologies of the course:
+
+  - Peroni, S., Heibi, I., Massari, A. (2025). Think and Compute: a Primer for Digital Humanists. https://thinkcompute.github.io – created for this course.
+  - Tagliaferri, L. (2018). How To Code in Python. ISBN: 978-0999773017. Full text available online (https://www.digitalocean.com/community/books/digitalocean-ebook-how-to-code-in-python).
+  - Wing, J. M. (2008). Computational thinking and thinking about computing. Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, 366 (1881): 3717. DOI: https://doi.org/10.1098/rsta.2008.0118. Full text available online (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2696102/).
+  - Nardelli, E. (2019). Do we really need computational thinking? Communications of the ACM, 62 (2): 32-35. DOI: https://doi.org/10.1145/3231587
+removed:
+- text: The dates and times of all the lectures above are available in the section "Schedule" of the GitHub
+    repository of the course (https://github.com/comp-data/2025-2025/blob/main/README.md#schedule).
+  reason: schedule
+- text: Students with specific learning disorders (SLD) or temporary/permanent disabilities should contact
+    the appropriate University office (https://site.unibo.it/studenti-con-disabilita-e-dsa/en) immediately
+    and agree with the teachers the most effective strategies for attending the lectures and preparing
+    for the exam.
+  reason: accessibility

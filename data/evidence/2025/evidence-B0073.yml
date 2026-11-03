@@ -1,0 +1,90 @@
+format: evidence/1
+course: B0073
+title: ELABORAZIONE DI TESTI E GESTIONE DOCUMENTALE
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-05-11'
+  teaching_ids:
+  - '483948'
+  teachers:
+  - name: Di Iorio, Angelo
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5889'
+    name: Digital Innovation Policies and Governance
+    department: sps
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6777'
+    name: Digital Innovation Policies and Governance
+    department: sps
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '483948'
+  laboratory:
+    value: true
+    evidence:
+    - Laboratory activities are also planned, focusing on the languages studied during the course and
+      the use of some Python libraries.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The course aims to provide knowledge about models, processes, and tools for the representation
+    and processing of digital documents, particularly administrative and regulatory documents, and their
+    organization into accessible and interoperable document repositories.
+- id: o2
+  text: At the end of the course, the student will know the main techniques for extracting information
+    from text documents.
+- id: o3
+  text: The student will be able to represent and link digital text documents, design complex document
+    repositories, and analyze texts to automatically extract meaningful information.
+contents:
+- id: c1
+  text: The course includes an introductory part on the main techniques for document markup and the identification
+    of their structural components, with a particular focus on XML technologies and validation languages.
+- id: c2
+  text: The main document formats will also be studied, along with their characteristics, fields of application,
+    and limitations.
+- id: c3
+  text: Subsequently, some languages and tools for the transformation between document formats will be
+    covered.
+- id: c4
+  text: Additionally, the course will address some models and tools for the automatic extraction of information
+    from text, as well as the main Natural Language Processing techniques.
+prerequisites: []
+bibliography: |-
+  Due to the rapid evolution of the subject, no single textbook is used.
+
+  All teaching materials will be made available on Virtuale, including references to online resources for further study and useful practice for the project work.
+removed:
+- text: Students with SLD or temporary or permanent disabilities.
+  reason: accessibility
+- text: It is suggested that they get in touch as soon as possible with the relevant University office
+    (https://site.unibo.it/studenti-con-disabilita-e-dsa/en) and with the lecturer in order to seek together
+    the most effective strategies for following the lessons and/or preparing for the examination.
+  reason: accessibility

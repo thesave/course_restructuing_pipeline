@@ -1,0 +1,117 @@
+format: evidence/1
+course: '72671'
+title: Complements of Programming Languages
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-05-21'
+  teaching_ids:
+  - '518517'
+  teachers:
+  - name: Laneve, Cosimo
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '518517'
+  laboratory:
+    value: true
+    evidence:
+    - Lectures, computing laboratory
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Nowadays the software development requires fast and sophisticated code transformation and analysis
+    tools.
+- id: o2
+  text: For example, Java code is verified by the Virtual Machine before execution to check basic correctness
+    properties about the memory and the locks that are used.
+- id: o3
+  text: Facebook, before releasing its mobile apps, always submits them to a tool that finds bugs without
+    running the code.
+- id: o4
+  text: The applications of performance-critical systems and asset-management systems would be impossible
+    to build and evolve without compilers that derive correct and optimized machine code from high-level
+    source code.
+- id: o5
+  text: The objective of this course is to discuss modern code transformation and analysis techniques
+    and illustrate their implementation.
+- id: o6
+  text: For this reason, the course will refer to a framework, ANTLR, now widely used in academia and
+    industry to build all sorts of languages, tools, and frameworks.
+- id: o7
+  text: For example, Twitter search uses ANTLR for query parsing, with over 2 billion queries a day.
+- id: o8
+  text: 'LEARNING OUTCOMES: At the end of the course, the student knows the fundamentals of code transformation
+    and static analysis.'
+- id: o9
+  text: He is able to apply the theory by extending a small, yet expressive and powerful language, by
+    means of the ANTLR framework.
+contents:
+- id: c1
+  text: Introduction to code transformation and analysis.
+- id: c2
+  text: The ANTLR framework and the corresponding Lexical and Syntactical Analysis.
+- id: c3
+  text: 'Semantic analysis: symbol table, type checking, static analysis of properties about resource
+    and asset consumptions.'
+- id: c4
+  text: Intermediate code generation for standard and advanced features of programming languages.
+- id: c5
+  text: Virtual Machines and Interpreters.
+prerequisites: []
+bibliography: |-
+  - Cosimo Laneve: Progettare ed Eseguire Linguaggi di Programmazione, 2025.
+  - material on the e-learning website.
+
+  OTHER READINGS
+
+  - Torben Morgensen: Basics of Compiler Design. 2010.
+  - Terence Parr: Language Implementation Patterns. 2010
+removed: []

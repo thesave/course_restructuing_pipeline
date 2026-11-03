@@ -1,0 +1,103 @@
+format: evidence/1
+course: '90107'
+title: BASI DI DATI
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 9
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-24'
+    to: '2025-12-19'
+  teaching_ids:
+  - '443720'
+  teachers:
+  - name: Branchetti, Simone
+    affiliation: disi
+    role:
+    - phd student
+  - name: Montesi, Danilo
+    affiliation: disi
+    role:
+    - full professor
+  - name: Pistore, Laura
+    affiliation: disi
+    role:
+    - teaching tutor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '443720'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student
+  items:
+  - id: o1.1
+    text: knows the relational data model ed the basic constructors of SQL;
+  - id: o1.2
+    text: can design and develop a database;
+  - id: o1.3
+    text: is capable of processing a project to implement and information system.
+contents:
+- id: c1
+  text: Databases
+- id: c2
+  text: Relational data model
+- id: c3
+  text: Relational algebra and calculus
+- id: c4
+  text: SQL
+- id: c5
+  text: Database design methodology
+- id: c6
+  text: ER data model and quality verification
+- id: c7
+  text: 'Laboratory: notions about the architecture of a DBMS, indexes, transactions and design examples'
+prerequisites: []
+bibliography: 'Paolo Atzeni, Stefano Ceri, Stefano Paraboschi, Riccardo Torlone, Basi di dati - 6/ed,
+  2023, ISBN: 9788838656545'
+removed: []

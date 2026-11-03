@@ -1,0 +1,182 @@
+format: evidence/1
+course: '17628'
+title: Concurrent and Distributed Programming
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-05-29'
+  teaching_ids:
+  - '526527'
+  teachers:
+  - name: Ricci, Alessandro
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '526527'
+  laboratory:
+    value: true
+    evidence:
+    - Three credits (about 30 hours) are devoted to theory and exercises in the classroom and three credits
+      (about 30 hours) to practice in the lab.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The course introduces the principles, methods and techniques concerning concurrent and distributed
+    programming involved in modern software development.
+- id: o2
+  text: 'Upon completing this course, a student will have a solid conceptual and practical knowledge about:'
+- id: o3
+  text: 'the spectrum of concurrent programming: multi-threaded programming, task-oriented modeling and
+    design, message-based communication models, actor-based programming, asynchronous and reactive programming'
+- id: o4
+  text: 'from concurrent to distributed programming: distributed algorithms, service-oriented computing.'
+contents:
+- id: c1
+  text: The course is organized in four main parts
+  items:
+  - id: c1.1
+    text: Concurrent programming - basic concepts and models
+  - id: c1.2
+    text: introduction - main concepts and aspects
+  - id: c1.3
+    text: modelling a concurrent program/system
+    items:
+    - id: c1.3.1
+      text: '- specifying liveness and safety properties in LTL'
+    - id: c1.3.2
+      text: '- verifying properties with model-checking - pragmatics'
+  - id: c1.4
+    text: design and development of concurrent programs
+    items:
+    - id: c1.4.1
+      text: '- methods, architectures'
+  - id: c1.5
+    text: interaction models and mechanisms
+    items:
+    - id: c1.5.1
+      text: '- shared memory'
+- id: c2
+  text: semaphores, monitors
+  items:
+  - id: c2.1
+    text: visual formalism - Petri Nets, Statecharts, Activity Diagrams In lab
+  - id: c2.2
+    text: multi-threaded programming in Java
+    items:
+    - id: c2.2.1
+      text: '- basic mechanisms and libraries'
+    - id: c2.2.2
+      text: '- implementing monitors in Java'
+  - id: c2.3
+    text: verification of concurrent programs in JPF
+  - id: c2.4
+    text: Asynchronous programming models and techniques
+  - id: c2.5
+    text: async programming based on task-oriented approaches
+    items:
+    - id: c2.5.1
+      text: '- future mechanism'
+  - id: c2.6
+    text: async programming based on events and event-loop architecture
+    items:
+    - id: c2.6.1
+      text: '- mechanisms and design styles (Continuation Passing style (CPS), promises, asynch/await)'
+  - id: c2.7
+    text: async programming based on Reactice Programming
+    items:
+    - id: c2.7.1
+      text: '- reactive extensions (Rx) In lab'
+  - id: c2.8
+    text: task-oriented framework in Java - Executors
+  - id: c2.9
+    text: asynchronous programming in JavaScript/Nodejs and Vertx
+  - id: c2.10
+    text: Reactive Programming in RxJava
+  - id: c2.11
+    text: Concurrent programming based on message-passing
+  - id: c2.12
+    text: message passing models
+    items:
+    - id: c2.12.1
+      text: '- based on channels, synchronous and asynchronous'
+    - id: c2.12.2
+      text: '- actor model In Lab'
+  - id: c2.13
+    text: channel-based message-passing in the Go language
+  - id: c2.14
+    text: actor-based programming based on Akka framework (Java or Scala)
+  - id: c2.15
+    text: From Concurrent to Distributed Programming
+  - id: c2.16
+    text: introduction - main concepts and aspects
+  - id: c2.17
+    text: distributed algorithms
+  - id: c2.18
+    text: distributed programming with actors
+  - id: c2.19
+    text: distributed programming using message-oriented middleware
+  - id: c2.20
+    text: distributed programming using RPC-like models
+  - id: c2.21
+    text: introduction to service-oriented computing and cloud computing In Lab
+  - id: c2.22
+    text: actor-based distributed programming using Akka framework (Java or Scala)
+  - id: c2.23
+    text: distributed application programming using message-oriented and RPC-like middlewares using RabbitMQ
+      and Java RMI technologies
+prerequisites: []
+bibliography: |-
+  - Principle of Concurrent and Distributed Programming (Ben-Ari) - Addison Wesley
+  - Java Concurrency in Practice - Brian Goetz, Doug Lea et al - Addison Wesley
+  - Foundations of Multithreaded, Parallel, and Distributed Programming - Gregory R. Andrews - Addison-Wesley
+  - Concurrency - State Models & Java Programs - Jeff Magee & Jeff Kramer - Wiley
+removed: []

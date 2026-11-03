@@ -1,0 +1,163 @@
+format: evidence/1
+course: '84401'
+title: Context-Aware Systems
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-05-20'
+  teaching_ids:
+  - '518530'
+  teachers:
+  - name: Ciabattini, Leonardo
+    affiliation: disi
+    role:
+    - phd student
+  - name: Di Felice, Marco
+    affiliation: disi
+    role:
+    - full professor
+  - name: Trotta, Angelo
+    affiliation: disi
+    role:
+    - tenure-track researcher
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '518530'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student is able to design, deploy and evaluate ubiquitous systems
+    and mobile applications able to adapt their behaviors to the context characteristics and to the current
+    location/activity of the user.
+- id: o2
+  text: 'At the end of the course, the student: -knows the fundamental concepts of context-aware computing,
+    and the main techniques for the localization of users/devices and the human activity recognition;
+    -knows the fundamental models of context-data representation and managing;'
+- id: o3
+  text: knows the main middleware and software architectures in order to deploy adaptive and ubiquitous
+    applications and services
+contents:
+- id: c1
+  text: The course addresses topics related to the design and development of ubiquitous and context-aware
+    systems and applications, made possible today by the widespread availability of devices capable of
+    sensing their environment and processing collected data.
+- id: c2
+  text: The course is organized into two main blocks.
+- id: c3
+  text: In the first block, the definitions of “context” and “context-aware systems” are introduced, along
+    with reference software architectures and system typologies, with a focus on the design and implementation
+    of location-aware and activity-aware systems.
+- id: c4
+  text: Special attention is given to spatial data management, including technologies for localization,
+    visualization of geospatial data on maps, storage, and location intelligence.
+- id: c5
+  text: The second block focuses on the lifecycle of designing distributed context-aware systems, with
+    an emphasis on mobile edge computing approaches, where workload allocation takes into account the
+    current location of users/devices.
+- id: c6
+  text: 'Relevant technologies and frameworks for edge computing are presented, including:'
+- id: c7
+  text: Software containerization (Docker)
+- id: c8
+  text: Task orchestration (Docker Swarm and Kubernetes)
+- id: c9
+  text: Service migration based on device/user mobility
+- id: c10
+  text: In the final week of the course, seminars by industry professionals working in the field are scheduled.
+- id: c11
+  text: List of course topics
+  items:
+  - id: c11.1
+    text: Introduction and definitions of context and context-aware systems
+  - id: c11.2
+    text: Use cases of context-aware systems
+- id: c12
+  text: Location-aware systems
+  items:
+  - id: c12.1
+    text: Location-based services
+  - id: c12.2
+    text: Localization technologies
+  - id: c12.3
+    text: Mapping APIs
+  - id: c12.4
+    text: Spatial database management systems
+  - id: c12.5
+    text: Location intelligence
+  - id: c12.6
+    text: Privacy and spatial data
+- id: c13
+  text: Activity-aware systems
+  items:
+  - id: c13.1
+    text: Architectures and algorithms for Human Activity Recognition (HAR)
+  - id: c13.2
+    text: HAR using supervised AI techniques
+- id: c14
+  text: Mobile edge computing architectures
+  items:
+  - id: c14.1
+    text: Definition and application examples of mobile edge computing
+  - id: c14.2
+    text: Software modularization techniques (via Docker containers)
+  - id: c14.3
+    text: Orchestration of services and workloads (Docker Swarm, Kubernetes)
+  - id: c14.4
+    text: Metrics for task allocation based on user/device context (e.g., location)
+prerequisites: []
+bibliography: |-
+  Slides are available on the Virtuale platform.
+
+  Suggested readings:
+
+  - Richard Ferraro, Murat Aktihanoglu, Location Aware Applications, Manning Editions
+  - Stefan Posland, Ubiquitous Computing: Smart Devices, Environments And Interactions, Wiley Edition
+removed: []

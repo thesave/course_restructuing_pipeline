@@ -1,0 +1,110 @@
+format: evidence/1
+course: '95604'
+title: Operating Systems and Networks
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-17'
+    to: '2025-12-17'
+  teaching_ids:
+  - '517115'
+  teachers:
+  - name: Callegati, Franco
+    affiliation: disi
+    role:
+    - full professor
+  - name: Girau, Roberto
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5815'
+    name: Digital Transformation Management
+    department: disi
+    campus: Cesena, Forlì
+    cycle: second
+    languages:
+    - english
+  - code: '6823'
+    name: Digital Transformation Management
+    department: disi
+    campus: Cesena, Forlì
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '517115'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student knows the main technical problems and the related solution
+    behind networking with particular reference to the Internet.
+- id: o2
+  text: The student can understand the functional principles of a network service and the related quality
+    of service issues as well as the Internet protocol architecture and the main protocols.
+- id: o3
+  text: The student knows how to implement some basic network applications and is able to analyze a protocol
+    behavior.
+contents:
+- id: c1
+  text: Communication principles
+  items:
+  - id: c1.1
+    text: Signals and bandwidth
+  - id: c1.2
+    text: Analog communication
+  - id: c1.3
+    text: Digital communication
+  - id: c1.4
+    text: Communication services
+- id: c2
+  text: Operating Systems
+  items:
+  - id: c2.1
+    text: Computer architecture
+  - id: c2.2
+    text: OS functionality and organization
+  - id: c2.3
+    text: Processes and threads
+  - id: c2.4
+    text: Memory Management;
+  - id: c2.5
+    text: IO Management
+- id: c3
+  text: 'Module 2: Networks'
+  heading: true
+  items:
+  - id: c3.1
+    text: Networks architectures
+  - id: c3.2
+    text: What is a network protocol
+  - id: c3.3
+    text: 'How the Internet works: IP and routing'
+  - id: c3.4
+    text: Organization of the Internet
+  - id: c3.5
+    text: Basics on network security
+prerequisites: []
+bibliography: |-
+  - Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau, (2018). Hard-copy and electronic editions are available; the PDF form is free.
+  - J.F. Kurose, K. W. Ross, Computer Networking (Global Edition), Pearson Education; 8th edition (2021)
+removed: []

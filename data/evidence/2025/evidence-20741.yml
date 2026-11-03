@@ -1,0 +1,69 @@
+format: evidence/1
+course: '20741'
+title: Information Processing Systems
+sources:
+  outcomes: en
+  contents: en
+  bibliography: ''
+facts:
+  credits:
+  - 1
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-25'
+    to: '2026-03-24'
+  teaching_ids:
+  - '544224'
+  teachers:
+  - name: Moni, Cristina
+    affiliation: dimec
+    role:
+    - adjunct professor
+  programmes:
+  - code: '8484'
+    name: Biomedical Laboratory techniques
+    department: dimec
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student knows the main operating systems, computer networks, data
+    organization and communication flows.
+contents:
+- id: c1
+  text: Importance of Computerization
+- id: c2
+  text: LIS (Laboratory Information System) and HIS (Hospital Information System)
+- id: c3
+  text: Hub and Spoke System
+- id: c4
+  text: Tracking workflows in Clinical Pathology, Pathological Anatomy, and Transfusion Medicine (test
+    configuration, instrument connection tracking, department configuration, user authorization, registry
+    changes, etc.)
+- id: c5
+  text: 'Non-Compliance Management: errors in patient entry (incorrect patient records, incorrect sampling
+    dates, etc.) and their repercussions: EHR (electronic health record), repeated sampling, delays, etc.'
+- id: c6
+  text: Data archiving in Clinical Pathology, Pathological Anatomy, and Transfusion Medicine
+- id: c7
+  text: New role of the Biomedical Laboratory Technician and new role of "System Administrator"
+prerequisites: []
+bibliography: ''
+removed: []

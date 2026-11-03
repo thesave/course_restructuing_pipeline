@@ -1,0 +1,126 @@
+format: evidence/1
+course: '66857'
+title: Logic for Computer Science
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-23'
+    to: '2025-12-19'
+  teaching_ids:
+  - '524333'
+  teachers:
+  - name: Capone, Orazio Andrea
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Sacerdoti Coen, Claudio
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '524333'
+  laboratory:
+    value: true
+    evidence:
+    - The course takes place in the first semester and is structured into in-class lectures and weekly
+      lab exercises.
+    - The lab exercises are designed to ensure that students fully acquire the expected competencies,
+      particularly with regard to proving new theorems and writing recursive programs.
+    - During the lab sessions, students can ask both the instructor and a lab assistant—who will always
+      be present—for clarification and support.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The student will know propositional calculus and first order logic.
+- id: o2
+  text: He will be able to write and understand logical propositions and to verify them.
+contents:
+- id: c1
+  text: Paradoxes and Their Resolution
+  items:
+  - id: c1.1
+    text: Justification of formal logic.
+  - id: c1.2
+    text: Use of paradoxes to demonstrate negative results in computer science (overview).
+- id: c2
+  text: Introduction to Axiomatic Set Theory
+  items:
+  - id: c2.1
+    text: ZF, relations, functions, quotients, cardinality.
+  - id: c2.2
+    text: Cantor’s Theorem.
+- id: c3
+  text: Propositional Logic
+  items:
+  - id: c3.1
+    text: Syntax and both classical and intuitionistic semantics (overview).
+  - id: c3.2
+    text: Classical and intuitionistic natural deduction for propositional logic.
+  - id: c3.3
+    text: Soundness, compactness, and completeness theorems (without proofs).
+- id: c4
+  text: First-Order Logic
+  items:
+  - id: c4.1
+    text: Syntax of first-order logic (predicates, terms, quantifiers, free and bound variables, alpha-conversion,
+      and substitution).
+  - id: c4.2
+    text: Semantics and natural deduction for first-order logic.
+- id: c5
+  text: Recursion
+- id: c6
+  text: BNF for Grammar Definitions.Structural induction and structural recursion.
+- id: c7
+  text: Practical lab sessions are planned for topics 2–5.
+prerequisites: []
+bibliography: |-
+  - A. Asperti - A. Ciabattoni, Logica a informatica, McGraw Hill, 1997
+  - A. Masini, Logica simbolica, McGraw Hill, 2023.
+
+  Both textbooks cover most of the topics discussed during the lectures. For the remaining ones (intuitionistic semantics, BNF, recursion, and structural induction), supplementary material will be provided by the instructor.
+removed: []

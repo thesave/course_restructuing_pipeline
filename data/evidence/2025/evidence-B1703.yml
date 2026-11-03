@@ -1,0 +1,198 @@
+format: evidence/1
+course: B1703
+title: Introduction to Programming
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 12
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-09'
+    to: '2026-05-20'
+  teaching_ids:
+  - '520931'
+  teachers:
+  - name: Corazza, Michele
+    affiliation: dsg
+    role:
+    - rtda
+  - name: Peroni, Silvio
+    affiliation: ficlit
+    role:
+    - associate professor
+  programmes:
+  - code: '5946'
+    name: Data, Methods and Theoretical Models For Linguistics
+    department: ficlit
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6725'
+    name: Data, Methods and Theoretical Models For Linguistics
+    department: ficlit
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student has the necessary IT background and an appropriate knowledge
+    of programming languages.
+- id: o2
+  text: He can use the acquired knowledge to autonomously design algorithms and data structures.
+- id: o3
+  text: He knows how to work independently, but also to be part of a work group.
+contents:
+- id: c1
+  text: The course is organised in two blocks.
+- id: c2
+  text: The first block (module 1) is organised in a series of lectures.
+- id: c3
+  text: Each lecture introduces a specific topic, includes mentions to some related historical facts and
+    to people (indicated between squared brackets) who have provided interesting insights on the subject.
+- id: c4
+  text: The lectures are accompanied by several laboratory sessions, to be held with a computer, for learning
+    the primary constructs of the programming language that will be used for implementing and running
+    the various algorithms proposed.
+- id: c5
+  text: The second block (module 2) is organised in a series of practical hands-on sessions.
+- id: c6
+  text: In particular, each hands-on session will be held with a computer and includes laboratory activities
+    based on existing tools that enable the experimentation with the topics introduced in the lectures
+    in the first block.
+- id: c7
+  text: List of lectures
+- id: c8
+  text: First block (module 1, February-March)
+  items:
+  - id: c8.1
+    text: Introduction to Computational Thinking [Chomsky]
+  - id: c8.2
+    text: What is a computer?
+  - id: c8.3
+    text: Comparing natural languages and programming languages
+  - id: c8.4
+    text: 'Abstraction: the main tool of Computational Thinking'
+  - id: c8.5
+    text: Algorithms [Lovelace]
+  - id: c8.6
+    text: What is an algorithm?
+  - id: c8.7
+    text: First machines and programmers
+  - id: c8.8
+    text: 'How to develop an algorithm: flowcharts'
+  - id: c8.9
+    text: 'Our first algorithm: input, process, decision, output'
+  - id: c8.10
+    text: 'Laboratory: installing Python'
+  - id: c8.11
+    text: Programming Languages [Hopper]
+  - id: c8.12
+    text: History of programming languages
+  - id: c8.13
+    text: Python
+  - id: c8.14
+    text: 'Writing our first algorithm in Python: variables, assignments, and conditional statements'
+  - id: c8.15
+    text: 'Organising information: ordered structures [Knuth]'
+  - id: c8.16
+    text: What is a data structure?
+  - id: c8.17
+    text: List and similar structures
+  - id: c8.18
+    text: Brute-force algorithms [Holberton]
+  - id: c8.19
+    text: 'Iterations: for and while constructs'
+  - id: c8.20
+    text: Linear search
+  - id: c8.21
+    text: 'Laboratory: Python basic constructs'
+  - id: c8.22
+    text: 'Organising information: unordered structures [Borges]'
+  - id: c8.23
+    text: Can data structures be infinite?
+  - id: c8.24
+    text: Set
+  - id: c8.25
+    text: Dictionary
+  - id: c8.26
+    text: Recursion [Hofstadter]
+  - id: c8.27
+    text: 'An intuition: the Little Harmonic Labyrinth'
+  - id: c8.28
+    text: Recursive approaches in Linguistics and Physics
+  - id: c8.29
+    text: Recursive algorithms
+  - id: c8.30
+    text: 'Laboratory: using lists'
+  - id: c8.31
+    text: Divide and conquer algorithms [von Neumann and Fibonacci]
+  - id: c8.32
+    text: Ordering billions of books
+  - id: c8.33
+    text: Fibonacci sequence
+  - id: c8.34
+    text: 'Laboratory: using sets and dictionaries'
+  - id: c8.35
+    text: 'Organising information: trees and graphs [Garcia Marquez and Euler]'
+  - id: c8.36
+    text: Genealogy and document markup
+  - id: c8.37
+    text: Tree
+  - id: c8.38
+    text: The city of Königsberg
+  - id: c8.39
+    text: Graph
+  - id: c8.40
+    text: 'Laboratory: reading and processing CSV and JSON files'
+- id: c9
+  text: Second block (module 2, April-May)
+  items:
+  - id: c9.1
+    text: 'Strings: from basic constructs to advanced features'
+  - id: c9.2
+    text: Introducing regular expressions
+  - id: c9.3
+    text: Arrays and matrixes with numpy
+  - id: c9.4
+    text: Data manipulation with Pandas
+  - id: c9.5
+    text: Data visualisation
+prerequisites: []
+bibliography: |-
+  Lecture notes will be made freely available to students in the GitHub repository of the course (https://github.com/intro-prog/2025-2026) before the beginning of the course. Slides and any additional material will be made also available a few days before each lecture in the same repository.
+
+  The following suggested readings could be helpful to students as background material, in order to practice basic terminologies of the course:
+
+  - Peroni, S. (2020). Computational Thinking and Programming book. https://comp-think.github.io
+  - Tagliaferri, L. (2018). How To Code in Python. ISBN: 978-0999773017. Full text available online (https://www.digitalocean.com/community/books/digitalocean-ebook-how-to-code-in-python).
+  - Downey, A. B. (2015). Think Python. 2nd edition. O'Reilly. https://greenteapress.com/wp/think-python-2e/
+  - Severance, C. R. (2016). Python for Everybody - Exploring Data Using Python 3. CreateSpace Independent Publishing Platform. https://www.py4e.com/book
+removed:
+- text: The dates and times of all the lectures above are available in the section "Calendario" of the
+    GitHub repository of the course (https://github.com/intro-prog/2025-2026/#calendario).
+  reason: schedule
+- text: Students with specific learning disorders (SLD) or temporary/permanent disabilities should contact
+    the appropriate University office (https://site.unibo.it/studenti-con-disabilita-e-dsa/en) immediately
+    and agree with the teachers the most effective strategies for attending the lectures and preparing
+    for the exam.
+  reason: accessibility

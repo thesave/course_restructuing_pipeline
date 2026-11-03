@@ -1,0 +1,82 @@
+format: evidence/1
+course: '69259'
+title: Computer Science
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-23'
+    to: '2025-12-19'
+  teaching_ids:
+  - '524525'
+  teachers:
+  - name: Trotta, Angelo
+    affiliation: disi
+    role:
+    - tenure-track researcher
+  programmes:
+  - code: '6648'
+    name: Geological Sciences
+    department: bigea
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8015'
+    name: Geological Sciences
+    department: bigea
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '524525'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student knows the basic concepts of digital information processing,
+    with particular focus to the organization of the computer and networks, databases (especially geographic
+    ones), digital graphics.
+- id: o2
+  text: 'The student is able to:'
+- id: o3
+  text: apply the basic concepts of traditional cartography in their application to numerical cartography;
+- id: o4
+  text: be able to manage simple numerical cartography applications and georeference raster and vector
+    elements.
+contents:
+- id: c1
+  text: The Informatics module consists of two parts. The first is an introduction to computer science,
+    with particular emphasis on coding and information processing. The second involves a laboratory activity
+    on data collection and analysis, and development of a server-side application.
+- id: c2
+  text: In the Numerical Cartography module, the fundamental concepts of cartography will be addressed
+    with particular reference to numerical and computer aspects. The basic principles of cartography will
+    be covered, such as cartographic projections, coordinate systems, and representation of geographical
+    data. Moreover, part of the course will involve an introduction to digital cartography and GIS, with
+    particular attention towards specific computer tools to import, create, manage and analyze geographical
+    data.
+prerequisites: []
+bibliography: |-
+  - Luca Mari, Giacomo Buonanno, Donatella Sciuto Informatica e cultura dell'informazione (seconda edizione) McGraw-Hill, 2013. ISBN: 978-88-386-6576-9
+  - Elvio Lavagna, Guido Locarno, Geocartografia - Guida alla lettura delle carte geotopografiche, Zanichelli,2007
+  - Mario Boffi, Scienza dell'informazione geografica. Introduzione ai GIS, Zanichelli, 2004
+removed: []

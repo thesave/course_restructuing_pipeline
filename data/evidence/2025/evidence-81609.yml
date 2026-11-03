@@ -1,0 +1,135 @@
+format: evidence/1
+course: '81609'
+title: Languages, Compilers and Computational Models
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 12
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-23'
+    to: '2025-12-18'
+  teaching_ids:
+  - '526519'
+  teachers:
+  - name: Bravetti, Mario
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '526519'
+  laboratory:
+    value: true
+    evidence:
+    - Lectures with whiteboard/PC/beamer and experiences in laboratory.
+    - As concerns the teaching methods of this course unit, all students must attend Module 1, 2 on Health
+      and Safety online (https://www.unibo.it/en/services-and-opportunities/health-and-assistance/health-and-safety/online-course-on-health-and-safety-in-study-and-internship-areas).
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student knows
+  items:
+  - id: o1.1
+    text: foundational aspects of logics, automata, regular expressions and grammars
+  - id: o1.2
+    text: techniques for the design and implementation, via compilers, of programming languages
+  - id: o1.3
+    text: languages, models and techniques for the description and property verification of concurrent
+      and distributed software systems.
+contents:
+- id: c1
+  text: Automata and formal languages
+  items:
+  - id: c1.1
+    text: finite state automata
+  - id: c1.2
+    text: regular expressions and their relationship with finite state automata
+  - id: c1.3
+    text: context free grammars
+  - id: c1.4
+    text: pushdown automata and their relationship with context free grammars
+  - id: c1.5
+    text: Turing machines
+  - id: c1.6
+    text: recursive and recursively enumerable languages and their relationship with Turing machines
+- id: c2
+  text: Basic logic
+  items:
+  - id: c2.1
+    text: propositional logic
+  - id: c2.2
+    text: predicate logic
+- id: c3
+  text: Compilers
+  items:
+  - id: c3.1
+    text: lexical analyzers
+  - id: c3.2
+    text: syntactic analyzers
+  - id: c3.3
+    text: static program checking
+  - id: c3.4
+    text: code generation
+- id: c4
+  text: Computational models
+  items:
+  - id: c4.1
+    text: transition systems for the modeling of system behavior
+  - id: c4.2
+    text: temporal logics for property specification and verification
+  - id: c4.3
+    text: concurrent finite state processes with synchronization and interleaving
+  - id: c4.4
+    text: Petri nets
+prerequisites: []
+bibliography: |-
+  Hopcroft, Motwani, Ullman. "Automi, Linguaggi e Calcolabilità", terza edizione. Addison-Wesley, 2009.
+
+  Aho, Lam, Sethi, Ullman. "Compilatori: principi, tecniche e strumenti", seconda edizione. Addison-Wesley, 2009.
+
+  Huth, Ryan. "Logic in Computer Science: Modelling and Reasoning about Systems", second edition. Cambridge University Press, 2004.
+removed: []

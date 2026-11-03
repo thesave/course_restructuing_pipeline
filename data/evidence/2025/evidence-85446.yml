@@ -1,0 +1,95 @@
+format: evidence/1
+course: '85446'
+title: Knowledge Representation and Extraction
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-04-13'
+    to: '2026-05-19'
+  teaching_ids:
+  - '533916'
+  teachers:
+  - name: Gangemi, Aldo
+    affiliation: filo
+    role:
+    - full professor
+  programmes:
+  - code: '6736'
+    name: Digital Humanities and Digital Knowledge
+    department: ficlit
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '9224'
+    name: Digital Humanities and Digital Knowledge
+    department: ficlit
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - A tutor will complement the course with hands-on and small projects in order to improve practical
+      skills in realistic settings.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: This course aims to initiate to methods for interpretation of data and content as knowledge sources.
+- id: o2
+  text: 'At the end of the new course the students will be able to: master the basics of knowledge representation
+    and reasoning, with application to the Semantic Web (ontologies, linked data, knowledge patterns);
+    be familiar with the state-of-the-art in knowledge representation and extraction technologies; use
+    applications to automatically extract knowledge from text; analyse the knowledge requirements of a
+    customer, and produce a plan to implement them.'
+contents:
+- id: c1
+  text: The students will master the basics of representation and extraction of knowledge, intended as
+    data suitable to machine querying jointly with automated reasoning and generalised inferences.
+- id: c2
+  text: 'The course includes the following themes:'
+- id: c3
+  text: Knowledge Representation as computational logic methods (knowledge graphs, ontology design patterns,
+    description logic, linked data frameworks)
+- id: c4
+  text: Knowledge Extraction as a hybridization of either rule-based heuristics (scraping, linguistic
+    patterns, graph-based data analysis), or statistical methods (generative AI models) for extracting
+    data from arbitrary content
+- id: c5
+  text: Representation and extraction will be presented both from a foundational (philosophical, cognitive)
+    viewpoint, as well as optimal satisfaction of task-oriented requirements
+- id: c6
+  text: The Web and Generative AI models will be the computational platforms to learn, test, and apply
+    the learnt methods, with examples from multiple domains, with a focus on social sciences and humanities.
+- id: c7
+  text: Multiple software components will be introduced during the course in order to make the students
+    accustomed to semantic technologies
+prerequisites: []
+bibliography: |-
+  Specific teaching materials, including papers, slides and exercises, will be available on the course site.
+  Anyways, the following texts can be used as a generic reference for the course:
+
+  - Logic in Action course by Johan van Benthem group (only chapters 1:4): http://www.logicinaction.org
+  - World Wide Web Consortium Semantic Web standards portal: https://www.w3.org/standards/semanticweb/
+  - P. Hitzler, A. Gangemi, K. Janowicz, A. Krishnadi, V. Presutti (eds.). Ontology Engineering with Ontology Design Patterns: Foundations and Applications, IOS Press, Amsterdam (2016)
+  - Gangemi, A. and Nuzzolese, A.G. Logic-Augmented Generation. Journal of Web Semantics, 2025, https://www.sciencedirect.com/science/article/pii/S1570826824000453
+  - De Giorgis, S., Gangemi, A., Russo, A. Neurosymbolic graph enrichment for Grounded World Models. Information Processing & Management, 62, 4, 2025, https://www.sciencedirect.com/science/article/pii/S030645732500069X
+removed: []

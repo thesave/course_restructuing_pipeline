@@ -1,0 +1,91 @@
+format: evidence/1
+course: B5293
+title: Computer Studies and Humanities
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 3
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-12'
+    to: '2026-03-20'
+  teaching_ids:
+  - '529335'
+  teachers:
+  - name: Presutti, Valentina
+    affiliation: lilec
+    role:
+    - associate professor
+  programmes:
+  - code: '6724'
+    name: Language, Society and Communication
+    department: lilec
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '6824'
+    name: Semiotics
+    department: filo
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8874'
+    name: Language, Society and Communication
+    department: lilec
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as:
+  - B8929
+outcomes:
+- id: o1
+  text: The student knows how to apply specific software and informatics programmes to language and communication
+    ambits.
+contents:
+- id: c1
+  text: This course aims at providing the student with an understanding of informatics, the Web, and artificial
+    intelligence, with specific focus on its current applications.
+- id: c2
+  text: The topics addressed in the course are summarised as follow
+  items:
+  - id: c2.1
+    text: Basics of informatics and historical introduction
+  - id: c2.2
+    text: 'Internet and the Web: basics of Web page design (HTML, CSS)'
+  - id: c2.3
+    text: The Semantic Web and basics of ontology and knowledge graph design
+  - id: c2.4
+    text: Artificial Intelligence (overview of applications and methods)
+prerequisites: []
+bibliography: |-
+  Notes, slides and exercises are available at https://virtuale.unibo.it/
+
+  Topics not addressed by the notes and other material on iol are to be studied on the following books / articles / web resources:
+
+  - Web tutorial W3School (HTML) - https://www.w3schools.com/html/default.asp
+  - Web tutorial W3School (CSS) -https://www.w3schools.com/css/default.asp
+  - Johan van Benthem, Hans van Ditmarsch, Jan van Eijck, Jan Jaspars: Logic in action (2006) reperibile online: http://www.logicinaction.org/
+  - Dean Allemang and James Hendler. 2008. Semantic Web for the Working Ontologist: Effective Modeling in RDFS and OWL. Morgan Kaufmann Publishers Inc., San Francisco, CA, USA.
+  - Pascal Hitzler, Aldo Gangemi, Krzysztof Janowicz, Adila Krisnadhi, Valentina Presutti: Ontology Engineering with Ontology Design Patterns - Foundations and Applications. Studies on the Semantic Web 25, IOS Press 2016, ISBN 978-1-61499-675-0
+removed: []

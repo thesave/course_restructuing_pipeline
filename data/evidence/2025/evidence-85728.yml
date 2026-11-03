@@ -1,0 +1,124 @@
+format: evidence/1
+course: '85728'
+title: Real Time OS M
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-17'
+    to: '2026-06-03'
+  teaching_ids:
+  - '484399'
+  teachers:
+  - name: Barchi, Francesco
+    affiliation: dei
+    role:
+    - rtda
+  - name: Guarino, Idio
+    affiliation: disi
+    role:
+    - rtda
+  programmes:
+  - code: '5917'
+    name: Electronic Engineering for Intelligent Vehicles
+    department: dei
+    campus: Parma, Bologna, Modena
+    cycle: second
+    languages:
+    - english
+  service:
+    value: true
+    disi_teaching_ids:
+    - '484399'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The course covers the fundamentals of modern real-time operating systems.
+- id: o2
+  text: Arguments that are addressed in the course are architecture, organization, and functionalities
+    of modern operating systems, task management and resource allocation, mechanisms and tools for synchronisation
+    and concurrent programming, characteristics of real-time operating systems and main scheduling algorithms
+    for hard real-time periodic processes.
+contents:
+- id: c1
+  text: 'The first part of the course covers the fundamentals of programming modern OS and RTOS on embedded
+    devices:'
+- id: c2
+  text: General-Purpose OS (1 CFU)
+- id: c3
+  text: Kernel and shell
+- id: c4
+  text: C programming review
+- id: c5
+  text: Processes, threads and virtual memory
+- id: c6
+  text: Input and output
+- id: c7
+  text: Real Time OS (2 CFU)
+- id: c8
+  text: Introduction to real-time systems
+- id: c9
+  text: Embedded devices and bare-metal programming
+- id: c10
+  text: Bootstrapping
+- id: c11
+  text: Interrupts
+- id: c12
+  text: Static and dynamic memory allocation
+- id: c13
+  text: Peripherals
+- id: c14
+  text: FreeRTOS (Part 1)
+- id: c15
+  text: Tasks, scheduling, and priorities
+- id: c16
+  text: Interrupts and ISRs
+- id: c17
+  text: Heap management strategies
+- id: c18
+  text: 'The second part of the course covers advanced topics in modern RTOS:'
+- id: c19
+  text: FreeRTOS (Part 2) (2 CFU)
+- id: c20
+  text: Inter-task communication
+- id: c21
+  text: Critical sections, mutexes, and semaphores
+- id: c22
+  text: Starvation and deadlocks
+- id: c23
+  text: Priority inversion and unbounded priority inversion
+- id: c24
+  text: Software and Hardware Timers
+- id: c25
+  text: Critical sections in ISRs
+- id: c26
+  text: Symmetric multiprocessing (SMP - overview)
+- id: c27
+  text: Other RTOS (1 CFU)
+- id: c28
+  text: NuttX
+- id: c29
+  text: Zephyr
+prerequisites: []
+bibliography: |-
+  - "Hard Real-Time Computing Systems" (3rd edition) - Giorgio Buttazzo
+  - "Hands-On RTOS with Microcontrollers" - Brian Amos
+  - "Modern Operating Systems" (5th edition) - Andrew S. Tanenbaum, Herbert Bos
+  - "Operating System Concepts" (10th Edition) - Abraham Silberschatz, Peter B. Galvin, Greg Gagne
+removed: []

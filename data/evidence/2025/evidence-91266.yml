@@ -1,0 +1,121 @@
+format: evidence/1
+course: '91266'
+title: Machine Learning for Computer Vision
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-15'
+    to: '2025-12-18'
+  teaching_ids:
+  - '446614'
+  teachers:
+  - name: Merli, Edoardo
+    affiliation: disi
+    role:
+    - phd student
+  - name: Salti, Samuele
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '6700'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '9063'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '446614'
+  laboratory:
+    value: true
+    evidence:
+    - Lectures, complemented by in-class hands-on sessions, where selected topics will be studied from
+      a practical point of view by using the Python language and the PyTorch library.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student masters the most popular modern machine-learning approaches
+    to computer-vision tasks, with particular reference to specialized deep-learning architectures.
+- id: o2
+  text: The student has both a theoretical understanding and the necessary practical skills required to
+    develop state-of-the-art image and video analysis systems for real-world applications.
+contents:
+- id: c1
+  text: The course is held in the first semester, from September to December.
+- id: c2
+  text: 'Advanced CNNs: : ResNeXt and grouped convolutions, MobileNets, EfficientNet and RegNet.'
+- id: c3
+  text: Attention and vision Transformers. Transformers and atttention. Image classification architectures
+    based on Transformers.
+- id: c4
+  text: Object detection. Introduction to ensemble learning via boosting. The Viola-Jones detector and
+    its applications. Specialized NN architectures for object detection. Two-stages, one-stage, and anchor-free
+    detectors. Feature Pyramid Networks. Imbalanced learning and the focal loss. DEtection TRansformer
+    (DETR) and the Hungarian loss. Hands-on session on object detection.
+- id: c5
+  text: Semantic/instance/panoptic segmentation. Ensemble learning via bagging and random forests. The
+    algorithm behind the Kinect body part segmentation. Transposed and dilated convolutions. Fully Convolutional
+    Networks, U-net, DeepLab. Instance segmentation and Mask R-CNN. Panoptic segmentation, MaskFormer.
+- id: c6
+  text: 'Depth estimation from monocular images: photometric loss and Monodepth.'
+- id: c7
+  text: Metric and representation learning. Deep metric learning and its applications to face recognition/identification
+    and beyond. Contrastive and triplet loss, ArcFace, NT-Xent loss, CLIP. Hands-on session on metric
+    learning.
+- id: c8
+  text: 'Image generation with GANs and diffusion models: metrics for generative tasks. Generative Adversarial
+    Networks and Denoising Diffusion Probabilistic Models. Stable diffusion and text-guided image generation.
+    Hands-on session on textual inversion.'
+prerequisites:
+- id: p1
+  text: 'Computer vision and image processing: image formation, image digitization, camera modelling and
+    calibration, basic image manipulation and processing, local image features.'
+- id: p2
+  text: 'PyTorch: a good intro is available at https://pytorch.org/tutorials/beginner/basics/intro.html'
+- id: p3
+  text: 'Machine learning: supervised versus unsupervised learning, classification versus regression,
+    underfitting and overfitting, regularization; data split in training, validation and test sets; hyper-parameters
+    and cross-validation.'
+- id: p4
+  text: If you attended Computer Vision and Image Processing, you already fulfill these prerequisites.
+- id: p5
+  text: If you didn't, you can find on Virtuale slides and lab sessions.
+bibliography: |-
+  The main reference material will be the slides and notes provided on Virtuale by the instructor. A set of pointers to scientific papers and technical reports for each topic will also be provided during lectures.
+
+  Several freely-available on-line resources can be useful to complement the material provided by the instructor on Virtuale.
+
+  - https://udlbook.github.io/udlbook/ Simon J.D. Prince, "Understanding Deep Learning", MIT Press, 2023.
+  - http://d2l.ai/ (http://d2l.ai/)- Aston Zhang and Zachary C. Lipton and Mu Li and Alexander J. Smola "Dive into Deep Learning", 2020
+  - http://www.deeplearningbook.org/ - Ian Goodfellow and Yoshua Bengio and Aaron Courville, "Deep Learning", 2016.
+  - https://github.com/fastai/fastbook - Jeremy Howard and Sylvain Gugger, "Deep Learning for Coders with fastai and PyTorch", 2020
+  - https://pytorch.org/assets/deep-learning/Deep-Learning-with-PyTorch.pdf - Eli Stevens, Luca Antiga, and Thomas Viehmann, "Deep learning with PyTorch", July 2020.
+removed:
+- text: If you attended Computer Vision and Image Processing (either thought by Prof. Lisanti and me or
+    by Prof. Di Stefano), you already fulfill these prerequisites. If you didn't, you can find on Virtuale
+    slides and lab sessions.
+  reason: instructor

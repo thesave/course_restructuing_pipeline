@@ -1,0 +1,135 @@
+format: evidence/1
+course: '11929'
+title: Algorithms and Data Structures
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 12
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-06-04'
+  - from: '2026-02-16'
+    to: '2026-05-27'
+  teaching_ids:
+  - '536877'
+  - '536880'
+  teachers:
+  - name: Bacchiani, Lorenzo
+    affiliation: disi
+    role:
+    - research fellow
+  - name: Maniezzo, Vittorio
+    affiliation: disi
+    role:
+    - full professor
+  - name: Margara, Luciano
+    affiliation: disi
+    role:
+    - full professor
+  - name: Marzolla, Moreno
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Melis, Andrea
+    affiliation: disi
+    role:
+    - tenure-track researcher
+  - name: Semprini, Gloria
+    affiliation: disi
+    role:
+    - teaching tutor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '536877'
+    - '536880'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student
+  items:
+  - id: o1.1
+    text: knows the basic algorithms and data structures;
+  - id: o1.2
+    text: knows how to compute computational costs;
+  - id: o1.3
+    text: Knows the classes P and NP; he can dvise fficient algorithms for solving simple computational
+      problems; he can estimate the order of magnitude of the cost of a given algorithm; he can analyze
+      the complexity of a problem; he knows techniques for analyze the correctness and the efficiency
+      of an algorithm; he is able to write and to present a project for solving a computational problem.
+- id: o2
+  text: Upon completion of the course, the student knows
+  items:
+  - id: o2.1
+    text: algorithms for solving basic computational problems on elementary data structures;
+  - id: o2.2
+    text: basic techniques for calculating the computational cost of algorithms;
+  - id: o2.3
+    text: the P, NP, and NP-hard computational complexity classes.
+- id: o3
+  text: In particular, the student is able to
+  items:
+  - id: o3.1
+    text: design efficient algorithms for solving simple computational problems;
+  - id: o3.2
+    text: estimate in order of magnitude the computational cost of algorithms;
+  - id: o3.3
+    text: analyze the computational complexity of basic computational problems;
+  - id: o3.4
+    text: assess the efficiency and correctness of an algorithm;
+  - id: o3.5
+    text: design and develop a solution for basic computational problems.
+contents:
+- id: c1
+  text: 'basic notion of discrete mathematics for analyzing order of magnitude - Sorting - Median and
+    selection - Elementary data structures: stacks, queues, graphs - Search algorithms on graphs - basic
+    algorithms on graphs - Classes P and NP - NP hard Problems'
+prerequisites: []
+bibliography: '- T. Cormen, C. Leiserson, R. Rivest. Introduction to algorithms. MIT Press.'
+removed: []

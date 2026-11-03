@@ -1,0 +1,75 @@
+format: evidence/1
+course: B5026
+title: Introduction to Computability and Complexity
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-06-04'
+  teaching_ids:
+  - '530708'
+  teachers:
+  - name: Cerda, Remy Liam
+    affiliation: disi
+    role:
+    - research scholarship holder
+  - name: Dal Lago, Ugo
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '6700'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '9063'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '530708'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student has an understanding of the theoretical foundations of linguistic
+    and algorithmic techniques used in the context of AI.
+contents:
+- id: c1
+  text: 'The course gives first of all some rudiments of computability and complexity theory: Turing machines,
+    undecidability, polynomial time computability, and NP-completeness.'
+- id: c2
+  text: 'Towards the end of the course, we give a bird''s eye view on computational learning theory: PAC
+    Learning, learning via uniform convergence, the VC-Dimension.'
+prerequisites: []
+bibliography: |-
+  [1] Sanjeev Arora and Boaz Barak, Computational Complexity: A Modern Approach. Cambridge University Press, 2009.
+
+  [2] Michael Kearns, Umesh. Vazirani. An Introduction to Computational Learning Theory. MIT Press, 1994.
+
+  [3] Shai Shalev-Shwartz and Shai Ben-David. Understanding Machine Learning: From Theory to Algorithms. Cambridge University Press, 2014.
+removed: []

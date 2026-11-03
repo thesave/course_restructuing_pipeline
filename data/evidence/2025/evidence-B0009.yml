@@ -1,0 +1,131 @@
+format: evidence/1
+course: B0009
+title: Advanced Software Modelling and Design
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-06-05'
+  teaching_ids:
+  - '483706'
+  teachers:
+  - name: Aguzzi, Gianluca
+    affiliation: disi
+    role:
+    - adjunct professor
+  - name: Viroli, Mirko
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '483706'
+  laboratory:
+    value: true
+    evidence:
+    - The course is developed by means of a set of lectures and activities in lab.
+    - Laboratory activities concern activities devoted to practice with models, techniques, technologies
+      and tools discussed in the theory.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The goal of this course is to enhance the abilities of prospective software architects to construct
+    models of software systems in a variety of contexts (including cyber-physical systems and the IoT),
+    and turn them into concrete designs of reliable and effective systems and applications.
+- id: o2
+  text: The student will learn to
+  items:
+  - id: o2.1
+    text: model and design computational systems featuring non-determinism, stochasticity, large-scaleness,
+      and intelligence;
+  - id: o2.2
+    text: adopt advanced programming language constructs, techniques and design patterns to address complex
+      software system development;
+  - id: o2.3
+    text: rigorously address system requirements adopting techniques of software testing, simulation and
+      verification.
+contents:
+- id: c1
+  text: 'The content of the course is organised around a selected set of topics that concern sound modelling
+    and design (and implementation thereof) of modern, complex software systems that include:'
+- id: c2
+  text: large-scale distributed systems
+- id: c3
+  text: software systems featuring complex domains
+- id: c4
+  text: software systems with intelligent components
+- id: c5
+  text: simulation of distributed cyber-physical systems
+- id: c6
+  text: Such topics are covered by the following didactic modules
+  items:
+  - id: c6.1
+    text: 'high-level patterns of system programming in Java and Scala: component programming, monads,
+      effects'
+  - id: c6.2
+    text: 'full test-driven system development: testing coverage, TDD, Acceptance TDD and Behavioural-Driven
+      Development, property-based testing'
+  - id: c6.3
+    text: 'systematic validation: model-checking (MC), probabilistic MC, approximate MC, simulation'
+  - id: c6.4
+    text: 'large-scale system modelling: Petri-nets, non-determinism, networks of devices, chemical-oriented
+      models'
+  - id: c6.5
+    text: 'probability and adaptiveness: discrete-time markov chains (DTMC), continuous-time markov-chains
+      (CTMC)'
+  - id: c6.6
+    text: 'self-organisation and macro-programming: patterns and aggregate computing'
+  - id: c6.7
+    text: 'decision processes and learning: markov decision processes, reinforcement learning (RL), deep
+      RL, multiagent RL'
+  - id: c6.8
+    text: 'program synthesis with AI: LLMs, role in testing, role in program completion'
+prerequisites: []
+bibliography: '- Selected set of scientific papers'
+removed: []

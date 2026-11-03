@@ -1,0 +1,118 @@
+format: evidence/1
+course: '79194'
+title: Databases
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-15'
+    to: '2025-10-23'
+  teaching_ids:
+  - '454733'
+  - '466967'
+  teachers:
+  - name: Somenzi, Damiano Marino
+    affiliation: stat
+    role:
+    - adjunct professor
+  programmes:
+  - code: '6661'
+    name: Statistical Sciences
+    department: stat
+    campus: Bologna
+    cycle: first
+    languages:
+    - english
+    - italian
+  - code: '6810'
+    name: Statistical Sciences
+    department: stat
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '8873'
+    name: Statistical Sciences
+    department: stat
+    campus: Bologna
+    cycle: first
+    languages:
+    - english
+    - italian
+  - code: '9222'
+    name: Statistical Sciences
+    department: stat
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The student learns the fundamental principles of the relational data model and of the relational
+    database management systems.
+- id: o2
+  text: In particular, the student will be able to understand the structure of a relational database,
+    the integrity constraints on data and the SQL query language.
+contents:
+- id: c1
+  text: 'Understand data: elementary, complex and on the Web'
+- id: c2
+  text: Data modelling
+- id: c3
+  text: Main concepts to describe and arrange data
+  items:
+  - id: c3.1
+    text: Conceptual model (Entity - Relationship diagram)
+  - id: c3.2
+    text: Logical model (relations schema)
+- id: c4
+  text: Models for non relational databases (noSQL)
+- id: c5
+  text: Database management
+  items:
+  - id: c5.1
+    text: Database management systems
+- id: c6
+  text: 'The language to query data bases: SQL'
+  items:
+  - id: c6.1
+    text: Data definition and manipulation
+  - id: c6.2
+    text: Query databases
+- id: c7
+  text: Languages for non relational databases
+- id: c8
+  text: Data analysis
+  items:
+  - id: c8.1
+    text: Extract data, information
+  - id: c8.2
+    text: Create data views
+- id: c9
+  text: Practice sessions with R of Statistical Analysis on data from Databases and from the Web
+prerequisites: []
+bibliography: |-
+  Lectures will be mainly based on the book of Jeff Ullman and Jennifer Widom: "A First Course in Database Systems" and documentation available on the Web.
+
+  Further readings, examples and exercises will be made available weekly on “Virtual Learning Environment”.
+removed: []

@@ -1,0 +1,158 @@
+format: evidence/1
+course: '39176'
+title: Basic and Laboratory Informatics
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 3
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-10-28'
+    to: '2026-01-13'
+  - from: '2025-10-28'
+    to: '2026-01-12'
+  teaching_ids:
+  - '359962'
+  - '544376'
+  teachers:
+  - name: Russo, Stefano
+    affiliation: dimec
+    role:
+    - adjunct professor
+  programmes:
+  - code: '6064'
+    name: Midwifery
+    department: dimec
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8482'
+    name: Neurophysiopathology techniques
+    department: dibinem
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8484'
+    name: Biomedical Laboratory techniques
+    department: dimec
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - In view of the type of activity and teaching methods adopted, the attendance of this training activity
+      requires the prior participation of all students in modules 1 and 2 of workplace safety training,
+      [https://elearning-sicurezza.unibo.it/] in e-learning mode
+  equivalent_courses: []
+  same_syllabus_as:
+  - 82202-A
+outcomes:
+- id: o1
+  text: At the end of the course, the student possesses the knowledge to understand the fundamental structure
+    of the Internet as a packet-switched network and the main services offered by the World Wide Web such
+    as e-mail, instant messaging, remote connections, the evolution of social network services or Web2,
+    the processes of searching for information on the Web.
+- id: o2
+  text: The student also has basic knowledge of the use of spreadsheets (operations, functions, graphs),
+    and database management (construction of tables, relations, masks, and queries).
+contents:
+- id: c1
+  text: How to import research data from a worksheet in MS-PowerPoint and create slides
+- id: c2
+  text: MODULE 2 - for CdL in Biomedical Laboratory Techniques
+  heading: true
+  items:
+  - id: c2.1
+    text: How to organise and manage archives with databases (12 hours)
+  - id: c2.2
+    text: Archives and databases
+  - id: c2.3
+    text: Architecture of a database
+  - id: c2.4
+    text: Relational model
+  - id: c2.5
+    text: Designing a database
+  - id: c2.6
+    text: Creating a database with MS-Access
+- id: c3
+  text: MODULE 2 - for CdL in Neurophysiopathology Techniques (12 hours)
+  heading: true
+  items:
+  - id: c3.1
+    text: From the acquisition of the EEG signal (bioelectric) to its conversion into digital (numerical)
+  - id: c3.2
+    text: Signal processing through digital techniques
+  - id: c3.3
+    text: Visualisation and storage of the EEG signal
+  - id: c3.4
+    text: 'Computer system and services to support a Neurophysiology Information System: functional requirements'
+  - id: c3.5
+    text: Privacy management and information security
+  - id: c3.6
+    text: Workstation and network security
+  - id: c3.7
+    text: Translated with www.DeepL.com/Translator (free version)MODULE 1 - Common to CdL Biomedical Laboratory
+      Techniques, CdL in Obstetrics and CdL Neurophysiopathology Techniques
+  - id: c3.8
+    text: A) Fundamentals of computer science (4 hours)
+  - id: c3.9
+    text: The computer, the algorithm, software
+  - id: c3.10
+    text: Computer networks and the Internet
+  - id: c3.11
+    text: Evolution of the Web
+  - id: c3.12
+    text: Blogs, communities and social networking
+  - id: c3.13
+    text: B) Introduction to health informatics (4 hours)
+  - id: c3.14
+    text: Main areas of information technology in health activities
+  - id: c3.15
+    text: Dematerialisation of documents in the clinical-health field Life cycle of the IT document
+  - id: c3.16
+    text: Digital archives and preservation of medical documents in public health companies (document
+      types, preservation times)
+  - id: c3.17
+    text: Protection and processing of health-related data
+  - id: c3.18
+    text: C) How to organise, process and analyse biometric and clinical data with spreadsheets (10 hrs)
+  - id: c3.19
+    text: Organising, summarising, processing, analysing and representing data with MS-Excel
+  - id: c3.20
+    text: Importing/Exporting data Exporting data to the R platform for statistical analysis (formats)
+      Creating, storing and sharing spreadsheets with Google Drive and Microsoft OneDrive
+  - id: c3.21
+    text: D) How to search and select information on the Net (4 hrs.)
+  - id: c3.22
+    text: Searching the Net for information
+  - id: c3.23
+    text: Using search engines and advanced search
+  - id: c3.24
+    text: Online public access catalogues (OPAC)
+  - id: c3.25
+    text: Databases (generalist and specialised)
+  - id: c3.26
+    text: E) How to present and communicate data processed with Excel to a board (2 hours)
+prerequisites: []
+bibliography: |-
+  -Curtin - Foley - Sen - Morin, edizione italiana a cura di A. Marengo Alessandro Pagano, Informatica di base. Con aggiornamento online. Con e-book, 6 edizione, McGraw-Hill Education, Milano, 2016.
+
+  -Materiali didattici e esercizi disponibili sulla piattaforma di e-learning.
+removed: []

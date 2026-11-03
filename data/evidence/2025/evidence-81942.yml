@@ -1,0 +1,111 @@
+format: evidence/1
+course: '81942'
+title: Scalable and Cloud Programming
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-24'
+    to: '2025-12-17'
+  teaching_ids:
+  - '479058'
+  teachers:
+  - name: Pizzo, Nicolò
+    affiliation: disi
+    role:
+    - phd student
+  - name: Zavattaro, Gianluigi
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '479058'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the students will know
+  items:
+  - id: o1.1
+    text: the main problems concerning the realization of highly parallel and distributed programs
+  - id: o1.2
+    text: a programming style, based on functional and object-oriented programming, useful to develop
+      scalable applications, namely applications that can be easily deployed over different computing
+      architectures, with different amounts of computing resources. In particular, the students will be
+      able to
+  - id: o1.3
+    text: develop an application by using the programming language Scala and the platform Spark and deploy
+      it on cloud computing systems like those provided by Amazon Web Services (AWS) and Google Cloud
+      Platform (GCP).
+contents:
+- id: c1
+  text: Analisys of the problems concerning the realization of highly concurrent and distributed applications.
+- id: c2
+  text: Scalable approaches to the parallelization and distribution of both data and processes, like the
+    MapReduce programming model.
+- id: c3
+  text: Functional approach to the realization of scalable systems through languages and frameworks like
+    Scala and Spark.
+- id: c4
+  text: Cloud platforms for the execution of scalable applications like Amazon Web Services (AWS) and
+    Google Cloud Platform (GCP).
+prerequisites: []
+bibliography: |-
+  Programming in Scala (3rd edition)
+  Martin Odersky, Lex Spoon, Bill Venners
+  Artima
+
+  Learning Concurrent Programming in Scala (2nd edition)
+  Aleksandar Prokopec
+  Packt Publishing
+
+  Learning Spark: Lightning-Fast Big Data Analysis
+  Holden Karau, Andy Konwinski, Patrick Wendell, Matei Zaharia
+  O’Reilly
+removed: []

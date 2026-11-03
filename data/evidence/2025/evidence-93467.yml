@@ -1,0 +1,126 @@
+format: evidence/1
+course: '93467'
+title: Cryptography
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-22'
+    to: '2025-12-15'
+  teaching_ids:
+  - '479060'
+  teachers:
+  - name: Dal Lago, Ugo
+    affiliation: disi
+    role:
+    - full professor
+  - name: Davoli, Davide
+    affiliation: disi
+    role:
+    - teaching tutor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6700'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '9063'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '479060'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student knows the basics of modern cryptography and some techniques
+    for the analysis of security protocols.
+- id: o2
+  text: He or she can verify the absence of security bugs on simple protocols
+contents:
+- id: c1
+  text: This course deals with some fundamental notions on modern cryptography and some techniques for
+    the formal verification of cryptographic protocols.
+- id: c2
+  text: In addition to many new concepts, we discuss some cryptographic techniques already seen in previous
+    courses, studying the most interesting properties .
+- id: c3
+  text: 'The main emphasis of this course is on the theoretical aspects of cryptography: it attempts to
+    give a clear and accurate account on security, in order to give students the tools to assess (and
+    not just to use) cryptographic techniques .'
+- id: c4
+  text: In other words, we focus a lot on the "why" maybe putting the "how" behind the scenes.
+- id: c5
+  text: 'More specifically, we seek to answer questions such as the following: when a cryptographic technique
+    can be consider safe?'
+- id: c6
+  text: Is it possible to formally prove that a cryptographic technique is secure ?
+- id: c7
+  text: Is it possible to analyze the security of a cryptographic protocol in an automatic or semi-automatic
+    way?
+- id: c8
+  text: Topics covered include perfect security, pseudorandomness, public and private key ciphers, and
+    the symbolic model.
+prerequisites: []
+bibliography: |-
+  [1] J. Katz and Y. Lindell. Introduction to Modern Cryptography. Chapman & Hall, 2007.
+  [2] O. Goldreich. Foundations of Cryptography I: Basic Tools. Cambridge University Press, 2001.
+  [3] O. Goldreich. Foundations of Cryptography II: Basic Applications. Cambridge University Press, 2004.
+  [4] D. R. Stinson. Cryptography: theory and practice. Chapman & Hall, Third Edition, 2006.
+  [5] J. A. Buchmann. Introduction to Cryptography. Springer, Second Edition, 2004.
+  [6] M. Abadi. Security Protocols: Principles and Calculi. Foundations of Security Analysis and Design IV, FOSAD 2006/2007 Tutorial Lectures, Springer-Verlag (2007), 1-23.
+  [7] M. Abadi and P. Rogaway. Reconciling Two Views of Cryptography. Journal of Cryptology 15(2), 103-127 (2002).
+  [8] B. Blanchet. An Efficient Cryptographic Protocol Verifier Based on Prolog Rules. 14th IEEE Computer Security Foundations Workshop (CSFW-14), pages 82-96, Cape Breton, Nova Scotia, Canada, June 2001. IEEE Computer Society.
+  [9] B. Blanchet. ProVerif. Automatic Cryptographic Protocol Verifier. User Manual.
+removed: []

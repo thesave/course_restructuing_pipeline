@@ -1,0 +1,120 @@
+format: evidence/1
+course: '14015'
+title: Cryptography
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-05-14'
+  teaching_ids:
+  - '447103'
+  teachers:
+  - name: Margara, Luciano
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '447103'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student
+  items:
+  - id: o1.1
+    text: will be familiar with the mathematical foundations of modern cryptography
+  - id: o1.2
+    text: knows the basic public and secret keys cryptographic algorithms;
+  - id: o1.3
+    text: knows the basic cryptographic protocols;
+  - id: o1.4
+    text: is able to understand how modern cryptographic techniques work
+    items:
+    - id: o1.4.1
+      text: is able to understand the fundamental security issues arising in a computer system
+  - id: o1.5
+    text: knows the basic results of information theory and data compression
+  - id: o1.6
+    text: is able to understand the connection between information theory and cryptography
+contents:
+- id: c1
+  text: Introduction and historical background
+- id: c2
+  text: Secret key cryptography
+- id: c3
+  text: Public key cryptography
+- id: c4
+  text: Confidentiality
+- id: c5
+  text: Authentication
+- id: c6
+  text: Integrity
+- id: c7
+  text: Digital signature
+- id: c8
+  text: SSL
+- id: c9
+  text: PGP
+- id: c10
+  text: Digital Certificates
+- id: c11
+  text: Distributed trust mechanisms
+- id: c12
+  text: Post-quantum cryptography
+prerequisites: []
+bibliography: |-
+  Handbook of Applied Cryptography, by A. Menezes, P. van Oorschot, and S. Vanstone, CRC Press, 1996
+
+  Computer Security: Principles and Practice (4th Edition), Stallings and Brown, Pearson, 2018.
+
+  Computer Security: Art and Science (2nd Edition), Matt Bishop, Addison-Wesley, 2018.
+removed: []

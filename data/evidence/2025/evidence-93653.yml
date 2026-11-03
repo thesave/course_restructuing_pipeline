@@ -1,0 +1,119 @@
+format: evidence/1
+course: '93653'
+title: Iot And Big Data For Smart Agricultural Systems
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 5
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-18'
+    to: '2026-05-20'
+  teaching_ids:
+  - '516294'
+  teachers:
+  - name: Di Modica, Giuseppe
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5705'
+    name: Precise and Sustainable Agriculture
+    department: distal
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '6786'
+    name: Precise and Sustainable Agriculture
+    department: distal
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: true
+    disi_teaching_ids:
+    - '516294'
+  laboratory:
+    value: true
+    evidence:
+    - Some classes are hands-on on specific topics in the lab to go into the practical knowledge.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: 'At the end of the course, the student possesses knowledge on: the basics for ICT, big data and
+    IoT; the introduction to IoT, application scenarios, enabling definitions and technologies, cloud
+    and fog computing; the main components of IoT solutions, big data and references to Artificial Intelligence;
+    IoT and big data services from the product to the service, and application cases in smart agriculture.'
+- id: o2
+  text: 'The Graduate possesses the skills to: analyze and organize small big data and IoT projects for
+    smart agriculture solutions.'
+contents:
+- id: c1
+  text: Computer basics
+- id: c2
+  text: Introduction to Computer Science.
+- id: c3
+  text: Computer architecture.
+- id: c4
+  text: Digital representation of information.
+- id: c5
+  text: Internet of Things (IoT)
+- id: c6
+  text: Recall from Sensors operating principle.
+- id: c7
+  text: Smart Sensors.
+- id: c8
+  text: Data transfer technologies employed in open-field agriculture.
+- id: c9
+  text: 'Infrastructures for data elaboration: Cloud Computing.'
+- id: c10
+  text: 'Examples of IoT applications in agriculture: monitoring soil properties, weather condition, crops.'
+- id: c11
+  text: Big Data and Artificial Intelligence
+- id: c12
+  text: Definition of Big Data.
+- id: c13
+  text: Parallel computing.
+- id: c14
+  text: Artificial Intelligence (AI) and Machine Learning.
+- id: c15
+  text: Touch on AI and Big Data tools.
+- id: c16
+  text: Examples of Big Data/AI applications in agriculture.
+- id: c17
+  text: Tools for data analysis, elaboration and visualizations
+- id: c18
+  text: Data analytics and visualization. Hands-on laboratory
+  items:
+  - id: c18.1
+    text: Field work*
+- id: c19
+  text: 'Design and implementation of two IoT practical applications in a sample plot of land: Arboriculture
+    and Extensive Culture.'
+- id: c20
+  text: Seminar*
+- id: c21
+  text: Delivered by a supplier of IoT services for agriculture.
+- id: c22
+  text: Held in collaboration with the course Crop Sensing, Data Harvesting and Robot Technologies for
+    Precision Agriculture
+prerequisites: []
+bibliography: |-
+  The course material is composed of:
+
+  - Lecture notes of the teacher
+  - Scientific papers recommended by the teacher to deepen relevant aspects
+removed: []

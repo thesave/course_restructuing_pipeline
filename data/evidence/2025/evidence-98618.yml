@@ -1,0 +1,134 @@
+format: evidence/1
+course: '98618'
+title: '"Document Digitization Techniques "'
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - Blended Learning
+  campi:
+  - Ravenna
+  schedules:
+  - from: '2026-02-05'
+    to: '2026-03-13'
+  teaching_ids:
+  - '531641'
+  teachers:
+  - name: Groppo, Emilia Adele
+    affiliation: dbc
+    role:
+    - adjunct professor
+  programmes:
+  - code: '6740'
+    name: Library and Archive Science
+    department: dbc
+    campus: Ravenna
+    cycle: second
+    languages:
+    - italian
+  - code: '9077'
+    name: Library and Archive Science
+    department: dbc
+    campus: Ravenna
+    cycle: second
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The course aims to train students in the critical use of information technologies and tools for
+    the digital acquisition, processing and restoration of textual documents on various media.
+- id: o2
+  text: At the end of the course, students are acquainted with effective principles and methodologies
+    for the acquisition and digital representation of images, and are able to prepare digitisation, restitution
+    and enhancement activities for textual documents
+contents:
+- id: c1
+  text: Topics covered
+  items:
+  - id: c1.1
+    text: 'Digital Scenarios for Cultural Heritage: Issues and Problems'
+  - id: c1.2
+    text: Scenes, analogue images and digital images
+  - id: c1.3
+    text: Scanning processes and acquisition devices (flatbed and planetary scanners, digital cameras,
+      digital backs)
+  - id: c1.4
+    text: Optical and interpolated resolution
+  - id: c1.5
+    text: Calibrating a scanner
+  - id: c1.6
+    text: Digitising a printed and handwritten text
+  - id: c1.7
+    text: Methodologies for verifying the quality of a digital image (histograms, distributions and information
+      content)
+  - id: c1.8
+    text: Visualisation on any medium
+  - id: c1.9
+    text: Storage of digital images
+  - id: c1.10
+    text: Formats
+  - id: c1.11
+    text: Notes on the function of technical metadata
+  - id: c1.12
+    text: Use of nomenclature in logical structure
+  - id: c1.13
+    text: Dimensioning a digital collection (general considerations on the uncertainty of determining
+      the exact storage space of a digital collection)
+  - id: c1.14
+    text: Critical analysis of the guidelines published by PND https://docs.italia.it/italia/icdp/
+  - id: c1.15
+    text: Critical analysis of technical specifications for digitization tenders
+- id: c2
+  text: Course objectives
+  items:
+  - id: c2.1
+    text: 'Knowledge / skill: to be in possession of the necessary knowledge of the problems related to
+      document digitisation techniques, digital image production and their relationship with traditional
+      iconography; to be able to distinguish and use the main treatments of visual data with numerical
+      calculation tools; to know the typical aspects of the conservation and valorisation of great iconographic
+      heritages, highlighting the criticalities of long-term conservation and possible solutions'
+  - id: c2.2
+    text: 'Know-how: to be able to use computer technologies and tools for the acquisition and processing
+      of digital images of textual documents and for their overall digital reconstruction; to deal with
+      the various phases of a digitisation and enhancement project of documentary resources; to be able
+      to draw up technical specifications for a digitisation project.'
+  - id: c2.3
+    text: 'Autonomy of assessment: to be able to check a Data Management Plan; to be able to adopt the
+      technological tools for checking the quality of the digital images produced following the directives
+      expressed by the new PND ''guidelines for the digitisation of cultural heritage''.'
+  - id: c2.4
+    text: 'Communication skills: to be able to illustrate with logical and terminological rigour issues,
+      including technical issues related to document digitisation techniques.'
+  - id: c2.5
+    text: 'Learning skills: to be able to independently explore in depth the issues inherent to the discipline'
+prerequisites: []
+bibliography: |-
+  For all ( attendees and non-attendees):
+
+  Nicola Barbuti, La digitalizzazione dei beni documentali. Metodi, tecniche, buone prassi , Editrice Bibliografica , 2022
+
+  C. Jacob*,* Dimensionamento e politiche di gestione di una biblioteca digitale**,** in E-Lis 2007 http://eprints.rclis.org/10717/
+
+  A. Salarelli, International Image Interoperability Framework (IIIF): a panoramic view in JLIS Vol. 8, No. 1 (2017) https://air.unipr.it/bitstream/11381/2825535/1/12090-22175-3-PB.pdf
+
+  E. Groppo, C. Cortese et all*,* International Image Interoperability Framework (IIIF) per la gestione, la fruizione e lo studio delle immagini digitali in Bibelot V. 23 N. 2 (2017) https://riviste.aib.it/index.php/bibelot/article/view/11677
+
+  ** Non-attenders will add the reading of the volume
+  C.Jacob Immagini per la biblioteca digitale 2006, dispensa deposito SIAE n. 9801090 https://liveunibo-my.sharepoint.com/:b:/g/personal/emiliaadele_groppo_unibo_it/EZk3iuWDR1BHpwKUO9E4KLABQrQzZKf1bQYxTdFTu7Va3g
+removed: []

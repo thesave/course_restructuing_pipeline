@@ -1,0 +1,112 @@
+format: evidence/1
+course: '28021'
+title: Software Engineering T
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 9
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-06-05'
+  teaching_ids:
+  - '434708'
+  teachers:
+  - name: Patella, Marco
+    affiliation: disi
+    role:
+    - full professor
+  - name: Quarta, Angelo
+    affiliation: disi
+    role:
+    - research fellow
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '434708'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Knowledge of models and tools for the analysis, design, development, and testing of software systems.
+- id: o2
+  text: Ability to design, develop, and test software systems.
+contents:
+- id: c1
+  text: Introduction to software engineering; software product.
+- id: c2
+  text: 'Process of software development: feasibility study, analysis and specification of requirements,
+    design, implementation and testing of modules, integration and system testing, operation and maintenance,
+    software quality factors, evolutionary models.'
+- id: c3
+  text: 'Object-oriented analysis and design: modeling languages, UML.'
+- id: c4
+  text: 'Requirement analysis: gathering and validation, domain analysis, requirement analysis, use cases
+    and scenarios'
+- id: c5
+  text: 'Problem analysis: static and dynamic model, definition of the logical architecture of the problem.'
+- id: c6
+  text: 'Design: designing the system architecture.'
+- id: c7
+  text: 'Principles of design: rigidity, fragility, and immobility of software.'
+- id: c8
+  text: Design patterns.
+- id: c9
+  text: 'Introduction to the .NET framework and the C # language.'
+- id: c10
+  text: Version control systems.
+prerequisites: []
+bibliography: |-
+  The following texts are recommended for further information on the course contents:
+
+  - C. Larman, Applicare UML e i pattern: Analisi e progettazione orientata agli oggetti, Pearson
+  - E. Gamma, R. Helm, R. Johnson, J. Vlissides, Design Patterns – Elements of Reusable Object-Oriented Software, Addison Wesley
+  - M. Fowler, UML Distilled, Addison Wesley
+  - S. Bennett, J. Skelton, K. Lunn, Introduzione a UML, McGraw-Hill
+  - W. Zuser, S. Biffl, T. Grechenig, M. Köhle, Ingegneria del software con UML e UnifiedProcess, McGraw-Hill
+  - J. Arlow, I. Neustadt, UML e UnifiedProcess – Analisi e progettazione object-oriented, McGraw-Hill, 2003
+  - I. Sommerville, Ingegneria del software, Pearson
+  - R. S. Pressman, Principi di Ingegneria del Software, McGraw-Hill
+removed: []

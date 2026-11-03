@@ -1,0 +1,92 @@
+format: evidence/1
+course: '95632'
+title: Laboratory on Digital Transformation Technologies
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 3
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-23'
+    to: '2026-04-15'
+  teaching_ids:
+  - '466770'
+  teachers:
+  - name: Golfarelli, Matteo
+    affiliation: disi
+    role:
+    - full professor
+  - name: Pia, Andrea
+    affiliation: disi
+    role:
+    - adjunct professor
+  programmes:
+  - code: '5815'
+    name: Digital Transformation Management
+    department: disi
+    campus: Cesena, Forlì
+    cycle: second
+    languages:
+    - english
+  - code: '6823'
+    name: Digital Transformation Management
+    department: disi
+    campus: Cesena, Forlì
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '466770'
+  laboratory:
+    value: true
+    evidence:
+    - A selected number of companies will present their relevant business challenges and groups of students
+      will work on potential (digital) solutions and will submit them to the companies above.The lab journey
+      includes workshops, intermediate check points, presentations and discussions.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student
+  items:
+  - id: o1.1
+    text: has practical experience in dealing with real management problems and solutions of digital innovation
+      challenges
+  - id: o1.2
+    text: has practical experience of teamwork in the context of digital innovation projects
+  - id: o1.3
+    text: acquires skills in dealing with problems and training to identify the solution
+contents:
+- id: c1
+  text: 'Business Idea, Business Case, Business Plan, Technologies, Architectures and Procedures: overview'
+- id: c2
+  text: The process of (digital) business design
+- id: c3
+  text: Definition and comprehension of the business challenge
+- id: c4
+  text: Analysis and diagnosis of the company technologies
+- id: c5
+  text: Business ideas generation based on state of the art technologies
+- id: c6
+  text: 'Verification of the feasibility: risk assesment'
+- id: c7
+  text: Business idea and technology deployment
+- id: c8
+  text: Presentation, discussion and Follow up
+- id: c9
+  text: 'Digital transformation: business plan, action plan, KPI and soft skills'
+prerequisites: []
+bibliography: Slides, articles (TBA)
+removed: []

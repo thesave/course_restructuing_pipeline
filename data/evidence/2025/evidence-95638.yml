@@ -1,0 +1,133 @@
+format: evidence/1
+course: '95638'
+title: Operational Analytics
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-18'
+    to: '2026-05-27'
+  teaching_ids:
+  - '526550'
+  teachers:
+  - name: Maniezzo, Vittorio
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '5815'
+    name: Digital Transformation Management
+    department: disi
+    campus: Cesena, Forlì
+    cycle: second
+    languages:
+    - english
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '6823'
+    name: Digital Transformation Management
+    department: disi
+    campus: Cesena, Forlì
+    cycle: second
+    languages:
+    - english
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '526550'
+  laboratory:
+    value: true
+    evidence:
+    - I will teach in the lab as much as I will be allowed to, in order to ensure hands-on experience
+      of the proposed methods.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Operational analytics, a specific type of business analytics, is focused on the analysis of business
+    processes to the end of creating competitive advantage by means of operational data analysis and of
+    the application of analytical algorithms.
+- id: o2
+  text: The course concentrates on the algorithmic side, specifically presenting predictive analytical
+    techniques, forecasting future data on the basis of available time series, and prescriptive analytical
+    techniques, defining optimized usage of available resources.
+- id: o3
+  text: Real world cases will be studied and used as testbed for self-developed systems.
+contents:
+- id: c1
+  text: The course is part of a data science curriculum and provides some tools for predicting short/medium-term
+    management data (predictive analytics) and optimizing scarce resource allocation processes based on
+    predicted data (prescriptive analytics).
+- id: c2
+  text: Elements of predictive analytics and heuristic optimization will be presented and integrated.
+- id: c3
+  text: For the predictive part, the course proposes methodologies and techniques for analyzing, modeling
+    and predicting univariate time series, with hints of multivariate ones.
+- id: c4
+  text: It will be shown, compatibly with the available time, that forecast data can be elements of mathematical
+    models of management processes in which to optimize the allocation of scarce resources.
+- id: c5
+  text: The proposed tools are meant to be used in real business application cases, actual case studies
+    will be shown compatibly with time, and/or demanded to final projects.
+- id: c6
+  text: The scientific content of the course relates to the knowledge needed to develop an operational
+    analysis module on data obtained from a business information system.
+- id: c7
+  text: Specifically, the following will be presented
+- id: c8
+  text: brief summary of stochastic models, random variables. probability distributions
+- id: c9
+  text: 'predictive models: statistical (ARMA, ARIMA, SARIMA), neural (MLP, LSTM, perhaps SVR if time
+    permits) and machine learning/decision tree models (ensemble, random forest, boosting)'
+- id: c10
+  text: performance indicators, descriptive statistics, statistical significance tests.
+- id: c11
+  text: introductory integer programming models
+- id: c12
+  text: hints to meta/math-heuristic solving techniques The technological contents will be functional
+    to the practical implementation of the mentioned module, which will be done standalone in python,
+    although other environments and architectures are acceptable. A full solution will be set up in the
+    classroom and completed independently by each student, and may constitute the project for the exam.
+prerequisites: []
+bibliography: Lecture slides.
+removed: []

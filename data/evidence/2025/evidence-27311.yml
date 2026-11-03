@@ -1,0 +1,94 @@
+format: evidence/1
+course: '27311'
+title: Humanistic IT
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-11-10'
+    to: '2025-12-18'
+  teaching_ids:
+  - '392953'
+  teachers:
+  - name: Tomasi, Francesca
+    affiliation: ficlit
+    role:
+    - full professor
+  programmes:
+  - code: '6601'
+    name: Humanities
+    department: ficlit
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8850'
+    name: Humanities
+    department: ficlit
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - laboratory.
+    - The practical activity of the laboratory should equip students with the skills
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student understands the concept of information and knows the methods
+    of digital representation and the systems of automatic data processing in the field of humanities;
+    he/she possesses theoretical knowledge, methodological skills and techniques to represent and process
+    humanistic data.
+contents:
+- id: c1
+  text: The course will guide the students in learning the principles at the basis of digital objects
+    production in the humanistic domain, expecially in a Web-oriented dimension.
+- id: c2
+  text: In particular the students will acquire skills related to the complex process of conception, design
+    and implementation of digital resources, choosing the most appropriate tools and languages, respect
+    to the ideal model to achieve.
+- id: c3
+  text: 'In particular the topics of the course will be:'
+- id: c4
+  text: Project management plan (brief, benchmark, project document, production, development, testing,
+    promotion);
+- id: c5
+  text: Production principles. Character encoding and format, writing, usability of content, the architecture
+    of the page, text and multimedia;
+- id: c6
+  text: Markup Languages. XHTML, XML, HTML5, CSS;
+- id: c7
+  text: Interface design. Produce a mockup Filters, facets, positioning, responsive layout;
+- id: c8
+  text: 'Dissemination. Frameworks for Web distribution (examples: Boilerplate and Bootstrap);'
+- id: c9
+  text: Enrichment. Some tools for developpers.
+prerequisites: []
+bibliography: |-
+  The reference manual is: F. Tomasi, Metodologie informatiche e
+  discipline umanistiche, Carocci, Roma 2008, capp. 1, 2, 3, 4 e 5. The reading of the book is suggested BEFORE the starting of the classes.
+
+  Other materials
+  will be made available on Virtuale. Students are also asked to search Web resources that will be discussed during the
+  lessons.
+
+  Students are also required to read chapters 1 and 6 of the book: Francesca Tomasi, Organizzare la conoscenza: Digital Humanities e Web semantico. Un percorso tra archivi, biblioteche e musei, Milano, Editrice Bibliografica, 2022.
+removed: []

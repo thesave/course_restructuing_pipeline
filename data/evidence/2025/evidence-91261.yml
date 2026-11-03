@@ -1,0 +1,117 @@
+format: evidence/1
+course: '91261'
+title: Artificial Intelligence in Industry
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-16'
+    to: '2025-12-18'
+  teaching_ids:
+  - '446609'
+  teachers:
+  - name: Lombardi, Michele
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Luise, Alberto
+    affiliation: disi
+    role:
+    - phd student
+  programmes:
+  - code: '6700'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '9063'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '446609'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student has a deep knowledge of industrial applications that benefit
+    from the use of machine learning, optimization and simulation.
+- id: o2
+  text: The student has a domain-specific knowledge of practical use cases discussed in collaboration
+    with industrial experts in a variety of domains such as manufacturing, automotive and multi-media.
+contents:
+- id: c1
+  text: The course is primarily delivered as a series of simplified industrial use cases.
+- id: c2
+  text: The goal is provide examples of challenges that typically arise when solving industrial use cases,
+    and to develop critical thinking and problem solving skils.
+- id: c3
+  text: Use cases may cover topics such as
+  items:
+  - id: c3.1
+    text: Anomaly detection
+  - id: c3.2
+    text: Remaining Useful Life (RUL) estimation
+  - id: c3.3
+    text: RUL based maintenance policies
+  - id: c3.4
+    text: Resource management planning
+  - id: c3.5
+    text: Recommendation systems with fairness constraints
+  - id: c3.6
+    text: Power network management problems
+  - id: c3.7
+    text: Epidemic control
+  - id: c3.8
+    text: Production planning
+- id: c4
+  text: The course will emphasize the ability to view problems in their entirety and adapt to their peculiarities.
+- id: c5
+  text: This will frequently require to combine heterogeneous solution techniques, using integration schemes
+    both simple and advanced.
+- id: c6
+  text: The employed method will include
+  items:
+  - id: c6.1
+    text: Mathematical modeling of industrial problems
+  - id: c6.2
+    text: Predictive and diagnostic models for time series
+  - id: c6.3
+    text: Combinatorial Optimization
+  - id: c6.4
+    text: Integration methods for Probabilistic Models and Machine Learning
+  - id: c6.5
+    text: Integration methods for constraints and Machine Learning
+  - id: c6.6
+    text: Integration methods for combinatorial optimization and Machine Learning
+- id: c7
+  text: The course will include seminars on real-world use cases, from industry experts.
+- id: c8
+  text: The course contents may (and typically will) be subject to changes, so as to adapt to some degree
+    to the interests and characteristics of the attending students.
+prerequisites: []
+bibliography: The main teaching material will consists of mostly of interactive notebooks developed using
+  the Jupyter system, which will contain pointers to relevant references.
+removed: []

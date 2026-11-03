@@ -1,0 +1,82 @@
+format: evidence/1
+course: '73149'
+title: Logic for Informatics
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-04-13'
+    to: '2026-05-21'
+  teaching_ids:
+  - '423011'
+  teachers:
+  - name: Garagnani, Massimiliano
+    affiliation: filo
+    role:
+    - associate professor
+  programmes:
+  - code: '6665'
+    name: Philosophy
+    department: filo
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '9216'
+    name: Philosophy
+    department: filo
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - The course will be delivered as theory lectures (2 hours each) complemented by weekly laboratory
+      exercises, aimed at putting into practice and consolidating the concepts learned in class.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The student will know propositional calculus and first order logic.
+- id: o2
+  text: He will be able to write and understand logical propositions and to verify them.
+contents:
+- id: c1
+  text: The first part of the course will cover concepts and formalisms of propositional calculus, syllogistic
+    logic, and predicate/first-order logic.
+- id: c2
+  text: Based on these notions, the second part will briefly introduce the fundamental concepts of information,
+    entropy, and computability (Turing machines), and knowledge representation techniques in the context
+    of automated reasoning.
+- id: c3
+  text: In the third and final part, modal/epistemic logic and action logic will be covered, leading up
+    to the fundamental constructs of imperative programming.
+- id: c4
+  text: During the lab sessions, specific computational platforms will be used to learn, test, and apply
+    the theoretical concepts covered in class.
+prerequisites: []
+bibliography: |-
+  The following textbook can be used as a general reference for the course:
+
+  - Joan van Benthem et al. (2016) "Logic in Action" (New edition)
+
+  available HERE (https://virtuale.unibo.it/mod/resource/view.php?id=2313926) (in particular, Chapters 2-6).
+
+  Additional educational materials (including slides and exercises) will be made available on the "Virtuale" web-pages of the course.
+removed: []

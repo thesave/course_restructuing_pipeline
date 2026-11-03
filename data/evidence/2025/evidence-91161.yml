@@ -1,0 +1,127 @@
+format: evidence/1
+course: '91161'
+title: Networks, Security And Data Bases
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-03-05'
+    to: '2026-05-28'
+  teaching_ids:
+  - '445693'
+  teachers:
+  - name: Felli, Paolo
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Sirbu, Alina
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '6619'
+    name: Genomics
+    department: fabit
+    campus: Bologna
+    cycle: first
+    languages:
+    - english
+  - code: '9211'
+    name: Genomics
+    department: fabit
+    campus: Bologna
+    cycle: first
+    languages:
+    - english
+  service:
+    value: true
+    disi_teaching_ids:
+    - '445693'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The course aims to provide the student with some additional knowledge in computer science beyond
+    the one from basic courses.
+- id: o2
+  text: This is meant to allow students to gain greater awareness of the potential of modern computing
+    and communication systems.
+- id: o3
+  text: In particular, some concepts pertaining to operating systems, computer networks, computer security,
+    and databases will be provided.
+contents:
+- id: c1
+  text: The course consists of two learning modules and provides an introduction to some main fields of
+    computer science.
+- id: c2
+  text: The first module deals with the study of relational databases, database query languages, database
+    management systems and database design.
+- id: c3
+  text: The second module introduces the fundamental concepts of computer networks and computer security.
+- id: c4
+  text: At the end of the course students will be able to discuss theoretical issues and solve some practical
+    problems by using concepts and tools from each of the aforementioned fields.
+- id: c5
+  text: MODULE 1
+  heading: true
+  items:
+  - id: c5.1
+    text: Databases
+    items:
+    - id: c5.1.1
+      text: Boolean Algebra
+    - id: c5.1.2
+      text: Relational model and Relational Algebra
+    - id: c5.1.3
+      text: Relational DBMS and the SQL language
+    - id: c5.1.4
+      text: Database design and the ER language
+- id: c6
+  text: MODULE 2
+  heading: true
+  items:
+  - id: c6.1
+    text: Computer networks
+    items:
+    - id: c6.1.1
+      text: Structure and components of the internet
+    - id: c6.1.2
+      text: Protocol stack
+    - id: c6.1.3
+      text: Examples of network and web applications
+    - id: c6.1.4
+      text: Exercises in Python
+  - id: c6.2
+    text: Cryptography
+    items:
+    - id: c6.2.1
+      text: Basics of modular arithmetics
+    - id: c6.2.2
+      text: Overview on cryptography (one-way functions, public/private keys cryptosystems)
+    - id: c6.2.3
+      text: Examples of public key cryptosystems (RSA, DHKE)
+    - id: c6.2.4
+      text: Exercises in Python
+prerequisites: []
+bibliography: |-
+  Slides of the lectures will be provided. For further reading we suggest the following textbooks:
+
+  - Database System Concepts (4th edition). Silberschatz, Korth, Sudarshan. McGraw Hill, 2002.
+  - Understanding Cryptography. Paar, C. and Pelzl, J. Springer-Verlag, Berlin-Heidelberg, 2010.
+  - Computer networking: a top-down approach. F Kurose, J., Ross, K, 2021. 8th edition, Pearson Education.
+removed: []

@@ -1,0 +1,218 @@
+format: evidence/1
+course: '28024'
+title: Computer Networks T
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 9
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-15'
+    to: '2025-12-19'
+  teaching_ids:
+  - '545733'
+  - '545734'
+  teachers:
+  - name: Bujari, Armir
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Corradi, Antonio
+    affiliation: unibo
+    role:
+    - former professor
+  - name: Martuscelli, Giuseppe
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Montebugnoli, Sofia
+    affiliation: disi
+    role:
+    - phd student
+  - name: Sabbioni, Andrea
+    affiliation: disi
+    role:
+    - rtda
+  - name: Tazzioli, Davide
+    affiliation: disi
+    role:
+    - phd student
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '545733'
+    - '545734'
+  laboratory:
+    value: true
+    evidence:
+    - The course is organized on class lectures and on laboratory sessions.
+    - These two activities are strictly intertwined so that the lab hours are devoted to the explained
+      topics presented in class at the same time.
+    - Lab proposals are presented in class and students are requested to solve them in groups so to practice
+      their capacities in coordination and work teams, as a way of verifying design skills and enhancing
+      their capacities, in the direction of the final test.
+    - The lab sessions, highly recommended, tend to put together exactly the same environments of the
+      final test (part in C and part in Java ).
+    - Any student is responsible of her/his environment and of its correctness and usability during lab
+      and exam tests.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: 'This course faces most issues related with network and distributed systems, by examining most
+    common solution methods in a typical industrial setting: the goal is to acquire a knowledge of the
+    solution policies of typical problems, and good exposure to tools and widespread strategies.'
+- id: o2
+  text: The knowledge objective is to understand which are the typical programming environments on which
+    to develop some basic solutions with a system programming mindset that keep into account the implicit
+    usage of system resources.
+- id: o3
+  text: The main ability is to keep into account the usage of resources and that awareness in all systems
+    layers so to propose solutions to small distributed problems that are acceptable, readable, with a
+    good user interface, and correct.
+- id: o4
+  text: Students must be capable of defining a complete working solution with some time limitation with
+    the most common tools.
+contents:
+- id: c1
+  text: The course is organized around the Client /Server model and how to design small applications.
+- id: c2
+  text: Generalities and Basics Understanding
+- id: c3
+  text: Some basic perspectives and general definitions
+- id: c4
+  text: Decentralized and heterogeneous distributed systems
+- id: c5
+  text: Assessment of standards and their meaning
+- id: c6
+  text: Some basic models are presented
+  items:
+  - id: c6.1
+    text: client/server interaction
+  - id: c6.2
+    text: shared memory and message exchange
+  - id: c6.3
+    text: connection models, interaction models, etc.
+  - id: c6.4
+    text: System programming
+  - id: c6.5
+    text: The design mindset keeps into account resorce usage at any system level so to produce in a very
+      ordered way readable, with a good user interface, correct code and protocols that answer specified
+      requirements.
+  - id: c6.6
+    text: Students have to follow labs to improve their knowledge habits and complete their knowledge
+      in system programming.
+  - id: c6.7
+    text: Standard environments
+- id: c7
+  text: ISO OSI layered organization
+  items:
+  - id: c7.1
+    text: network and transport layer
+  - id: c7.2
+    text: 'application layers: session, presentation, & application'
+- id: c8
+  text: Presentation of some standard applications.
+- id: c9
+  text: TCP/IP protocols
+- id: c10
+  text: 'Suite TCP/IP protocols are assumed as known: only some connections with the main socket tools.'
+- id: c11
+  text: Common applications
+  items:
+  - id: c11.1
+    text: 'synchronous services: remote virtual terminal, file transfer,'
+  - id: c11.2
+    text: 'asynchronous services: mail, news, etc.'
+- id: c12
+  text: Some widely spread tools for Unix.
+- id: c13
+  text: Some reference tools
+- id: c14
+  text: At the communication level, we work on sockets as a standard tool, independent from the programming
+    environment; at the application level, we present and work on application Client/server tools.
+- id: c15
+  text: Socket and related API for C (UNIX) and Java
+- id: c16
+  text: Case studies for interactions client/server in Unix systems with TCP/IP protocols.
+- id: c17
+  text: The client/server application tools are
+  items:
+  - id: c17.1
+    text: Remote Procedure Call RPC of SUN
+  - id: c17.2
+    text: RMI, remote operations in Java
+  - id: c17.3
+    text: Distributed Operating Systems and tools
+- id: c18
+  text: Distributed Operating Systems
+- id: c19
+  text: Resource naming
+- id: c20
+  text: Process granularity and their interaction
+- id: c21
+  text: Resource management
+- id: c22
+  text: File system
+- id: c23
+  text: DNS and advanced name systems
+prerequisites:
+- id: p1
+  text: Students must have a good starting knowledge of the basics of operating systems and related tools,
+    both for Windows and UNIX technologies*.* UNIX is the chosen environment.In other words, we assume
+    that students have a good knowledge derived from a first course on Operating Systems, apart from design
+    and programming capacities in C and Java.
+bibliography: |-
+  G. Coulouris, J. Dollimore, T. Kindberg: 'Distributed Systems: concepts and Design', quinta edizione, Addison-Wesley, 2012.
+
+  M.L. Liu: 'Distributed Computing', Addison-Wesley, 2003.
+
+  J.F. Kurose, K.W. Ross: 'Internet e Reti', McGraw-Hill, 2001 (translated in 2001 from 'Computer Networking: a Top-Down Approach Featuring the Internet', 2001).
+
+  A.S. Tanenbaum, M. V.Steen: "Distributed Systems: Principles and Paradigms", Prentice-Hall, second edition 2007, and first 2002.
+
+  B. Forouzan, F. Mosharraf: “Computer Networks, a top down approach”, McGraw-Hill, 2012.
+
+  A.S. Tanenbaum: 'Computer Networks', Prentice-Hall, 1988 (translated in 'Reti di Calcolatori', Jackson).
+
+  D. Reilly, M. Reilly: 'Java Network Programming and Distributed Computing', Addison-Wesley, 2002.
+removed: []

@@ -1,0 +1,206 @@
+format: evidence/1
+course: '76011'
+title: Multimedia Technologies in Archaelogy
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Ravenna
+  schedules:
+  - from: '2025-11-12'
+    to: '2025-12-17'
+  teaching_ids:
+  - '423478'
+  teachers:
+  - name: Campedelli, Alessandro
+    affiliation: dbc
+    role:
+    - adjunct professor
+  programmes:
+  - code: 0962
+    name: History
+    department: disci
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6664'
+    name: History
+    department: disci
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6703'
+    name: History, preservation and enhancement of artistic and archaeological heritage and landscape
+    department: dbc
+    campus: Ravenna
+    cycle: second
+    languages:
+    - italian
+  - code: '9218'
+    name: History, preservation and enhancement of artistic and archaeological heritage and landscape
+    department: dbc
+    campus: Ravenna
+    cycle: second
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - Lectures will follow a hands-on, workshop-based approach designed to encourage active student participation
+      and open dialogue.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The training objective of the course is the knowledge of information technologies applied to archaeological
+    research in the various application areas that characterize the complex process process that brings
+    the information connected with the archaeological data from the techniques of prospecting, excavation,
+    cataloging, restoration and relative museumization.
+- id: o2
+  text: The extensive use of digital information representation technologies in the different passages
+    means that computer science applied to archeology today constitutes a systemic process of networking
+    integration of numerous multimedia representation technologies based on object - oriented multiplatform
+    - web languages based, mostly organized in centralized structures (servers) and in the form of metadata
+    (XML, JavaScript, KML etc.).
+- id: o3
+  text: 'At the end of the course the student:'
+- id: o4
+  text: is able to manage this complex process and technological process - is in possession of the theoretical
+    and practical bases of the digital representation of archaeological data in various formats, - is
+    in possession of the theoretical and practical bases relating to the techniques and the protocols
+    of transformation, representation, transmission and communication of archaeological data - is in possession
+    of the knowledge, the correct strategies and the practical skills that allow him to participate consciously
+    in the project and in the realization of a server-web information system for archiving and multimedia
+    representation of the archaeological data.
+contents:
+- id: c1
+  text: T
+- id: c2
+  text: The course is structured in three parts, aiming to provide students with a comprehensive understanding
+    of how multimedia technologies are applied in archaeological research and heritage enhancement.
+- id: c3
+  text: Part I – Introduction and Context
+  heading: true
+  items:
+  - id: c3.1
+    text: The course begins with an overview and critical reflection on the role and development of multimedia
+      technologies in the field of Cultural Heritage, with a specific focus on archaeology.
+  - id: c3.2
+    text: A logical-operational framework will be introduced, outlining the key phases required to survey,
+      document, analyze, and virtually reconstruct an archaeological context.
+- id: c4
+  text: Part II – Documentation and Survey Techniques
+  heading: true
+  items:
+  - id: c4.1
+    text: The second part is dedicated to the modern documentation methods used in archaeological surveying,
+      focusing on instruments and techniques such as total stations, laser scanners, GNSS receivers, and
+      digital photogrammetry.
+  - id: c4.2
+    text: The main challenges involved in documenting archaeological sites—particularly in relation to
+      site extent and preservation conditions—will be examined.
+  - id: c4.3
+    text: The course will then introduce workflows for processing 3D models derived from point clouds,
+      acquired through both laser scanning and image-based photogrammetry.
+- id: c5
+  text: Part III – Virtual Reconstruction and 3D Computer Graphics
+  heading: true
+  items:
+  - id: c5.1
+    text: In the final part of the course, selected case studies will be used to explore the application
+      of 3D computer graphics in archaeological research.
+  - id: c5.2
+    text: These technologies have, in recent years, significantly transformed how we engage with and interpret
+      the past.
+  - id: c5.3
+    text: Virtual reconstructions, when conducted with scientific rigor, cannot be based on imaginative
+      assumptions.
+  - id: c5.4
+    text: The course will therefore focus on the step-by-step methodology required to produce reliable
+      reconstructions.
+  - id: c5.5
+    text: This includes collecting and analyzing information about the object or context, generating graphic
+      representations (e.g., 2D vector drawings), developing a 3D reconstructed model, and planning the
+      most effective way to present the final product to the public.
+  - id: c5.6
+    text: Within this workflow, digital surveying plays a crucial role as the foundation for ensuring
+      the accuracy and reliability of all subsequent reconstruction processes.
+prerequisites: []
+bibliography: |-
+  PROGRAM FOR ATTENDING STUDENTS
+
+  Students attending the course will be required to study, in addition to lecture notes, the following mandatory texts:
+
+  - E. Giorgi (on f.), In depth without digging. Non-invasive investigation methodologies and diagnostics for archeology (Groma 2/2009), Bologna 2009
+
+  exclusively the parties:
+
+  1. Topography for archeology
+
+  - 3.1. Introduction to relief for archeology
+  - 3.2. Topographic survey for archeology
+  - 3.3. Photogrammetry for archeology
+  - 3.8. Aerial photography for archeology
+
+  1. Topography for archeology. Cards
+
+  - 4.1. Reference systems
+  - 4.2. Coordinate systems
+  - 4.6. Optical Level
+  - 4.7. Total station
+  - 4.8. GNSS (global navigation Satellite System)
+  - 4.10. Terrestrial laser scanner
+  - G. Verdiani, Reverse design. Methods and experiences of digital 3D reconstruction for the built heritage. (DIDAPRESS, Florence, Italy), Florence 2017
+
+  exclusively the parties:
+
+  - Introduction
+  - Reverse-design: concept
+  - 3D digital reconstruction for architecture and 'reverse-design'
+  - Handout (10 pages) on topics related to Computer Graphics 3D techniques and software.
+
+  Given the particular setting of the course, all students are invited to attend the lessons.
+
+  PROGRAM FOR NON ATTENDING STUDENTS
+
+  Students who will not attend classes are required to study the following mandatory texts:
+
+  1. E. Giorgi (a c.), In depth without digging. Non-invasive investigation methodologies and diagnostics for archeology (GROMA 2/2009), Bologna 2009
+
+  - full text
+
+  1. G. Verdiani, Reverse design. Methods and experiences of digital 3D reconstruction for the built heritage (DIDAPRESS, Florence, Italy), Florence 2017
+
+  exclusively the parties:
+
+  - Introduction
+  - Reverse design: concept
+  - 3D digital reconstruction for architecture and 'reverse-design'
+
+  1. Handout (10 pages) on topics related to Computer Graphics 3D techniques and software.
+
+  Students who are affected by learning disability (DSA) and in need of special strategies to compensate it, are kindly requested to contact the Teacher, in order to be referred to the colleagues in charge and get proper advice and instructions.
+
+  PREPARATORY BIBLIOGRAPHY FOR THE COURSE
+
+  M. Hostettler, C. Drummer, J. Reich, The 3 Dimensions of Digitalised Archaeology: State-of-the-Art, Data Management and Current Challenges in Archaeological 3D-Documentation**. Springer, 2024.**
+
+  F. Gabellone, Principi e metodi dell’archeologia ricostruttiva. Dall’approccio filologico alla ricostruzione tipologica**, in «Archeologia e Calcolatori», vol. 32, 2021, pp. 213–232.**
+
+  M. Bianchini, Manuale di rilievo e di documentazione digitale in archeologia**, prefazione di Fulvio Cairoli Giuliani, Roma, Aracne, 1ª ed., 2008.**
+removed: []

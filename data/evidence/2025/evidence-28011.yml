@@ -1,0 +1,88 @@
+format: evidence/1
+course: '28011'
+title: Logic Design T
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-18'
+    to: '2025-12-19'
+  teaching_ids:
+  - '530778'
+  teachers:
+  - name: Acquaviva, Andrea
+    affiliation: dei
+    role:
+    - full professor
+  programmes:
+  - code: '6672'
+    name: Electronics and Telecommunications Engineering
+    department: dei
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '9065'
+    name: Electronics and Telecommunications Engineering
+    department: dei
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Upon completion of the course, students will understand the principles and reference models of
+    digital systems and be able to apply methods for the analysis, synthesis, and composition of combinatorial
+    and sequential networks.
+contents:
+- id: c1
+  text: The course teaches the fundamentals of digital circuits and systems, from networks to more complex
+    systems such as processors and memories.
+- id: c2
+  text: Programmable logic and the related design flow using the Verilog language will also be introduced.
+- id: c3
+  text: Course Outline
+  items:
+  - id: c3.1
+    text: Introduction to Digital Circuits and Systems
+  - id: c3.2
+    text: Boolean Functions and Boolean Algebra, Binary Coding
+  - id: c3.3
+    text: Binary Representation of Information
+  - id: c3.4
+    text: Logic Networks, Switching Algebra, Logic Families
+  - id: c3.5
+    text: Combinational Components and Circuits (Encoders and Decoders, Multiplexers, etc.)
+  - id: c3.6
+    text: Sequential Components and Circuits (Flip-Flops, Shift Registers, Latches, Finite-State Machines,
+      Asynchronous Networks)
+  - id: c3.7
+    text: Programmable Logic
+  - id: c3.8
+    text: 'Processors, Memories, and I/O Interfaces: Basic Elements'
+prerequisites: []
+bibliography: |-
+  Roberto Laschi, Logic Networks, Progetto Leonardo, Bologna
+  R. Laschi, M. Prandini, Logic Networks, Esculapio
+  Peter J. Ashenden, Digital Design: An Embedded Systems Approach Using Verilog, Morgan Kaufmann
+removed: []

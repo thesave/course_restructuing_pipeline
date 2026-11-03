@@ -1,0 +1,377 @@
+format: evidence/1
+course: '81917'
+title: Interaction Multimedia Services
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 5
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-18'
+    to: '2026-06-03'
+  teaching_ids:
+  - '535349'
+  teachers:
+  - name: Carnevali, Massimo
+    affiliation: da
+    role:
+    - adjunct professor
+  - name: Protti, Federica
+    affiliation: da
+    role:
+    - adjunct professor
+  programmes:
+  - code: '6685'
+    name: Advanced Design
+    department: da
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9256'
+    name: Advanced Design
+    department: da
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - Didactic labs and development of small projects with a technology hands-on approach.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The module aims to provide a common background on the requirements of the new participatory services,
+    starting from an analysis of the main features of enabling technologies.
+- id: o2
+  text: It intends to experiment in a new and creative way enabling technologies and services through
+    an open and living lab approach, encouraging participation and increasing the design capacity and
+    working with new technologies.
+- id: o3
+  text: Students acquire skills on the topics of
+- id: o4
+  text: 'architecture of Web systems: servant customer models, execution models, protocols and Web environments,
+    Web technologies, execution of components for fixed and mobile systems;'
+- id: o5
+  text: design of components for the supplying of services in fixed and mobile heterogeneous environments;
+- id: o6
+  text: usage patterns of services and technological support, integration of services in ecosystems oriented
+    to the end user.
+contents:
+- id: c1
+  text: Module 1
+  heading: true
+  items:
+  - id: c1.1
+    text: A - Computer Science Fundamentals
+    items:
+    - id: c1.1.1
+      text: An introduction to computer science
+    - id: c1.1.2
+      text: Virtualization and cloud computing
+    - id: c1.1.3
+      text: Algorithms and programming languages
+    - id: c1.1.4
+      text: intellectual property
+    - id: c1.1.5
+      text: Privacy law
+  - id: c1.2
+    text: B - Web & more
+    items:
+    - id: c1.2.1
+      text: Web basics
+    - id: c1.2.2
+      text: HTML programming
+    - id: c1.2.3
+      text: Artificial Intelligence and Machine Learning
+  - id: c1.3
+    text: C - Javascript Programming
+    items:
+    - id: c1.3.1
+      text: Variables
+    - id: c1.3.2
+      text: Instruction set
+    - id: c1.3.3
+      text: Functions
+    - id: c1.3.4
+      text: Event Driven
+  - id: c1.4
+    text: D -Cyber security
+    items:
+    - id: c1.4.1
+      text: Introduction
+    - id: c1.4.2
+      text: Who is the enemy?
+    - id: c1.4.3
+      text: Social engineering
+    - id: c1.4.4
+      text: Password management
+    - id: c1.4.5
+      text: Data backup
+    - id: c1.4.6
+      text: Application security (web and mobile)
+    - id: c1.4.7
+      text: Privacy and online rights
+  - id: c1.5
+    text: Theoretical lessons will be completed by a strong lab part with numerous exercises and examples
+      of hands-on programming in order to provide students with the ability to design and analyze simple
+      algorithms, web sites and mobile apps.
+- id: c2
+  text: Module 2
+  heading: true
+  items:
+  - id: c2.1
+    text: 'Module Title: Design Process and User Research Methodologies'
+  - id: c2.2
+    text: 'Duration: 5 lessons (2 sessions per lesson, 3 hours each)'
+  - id: c2.3
+    text: 'Module Objective: Design a service concept based on user-centered research methodologies and
+      design processes, culminating in strategic and operational deliverables useful for prototype development.'
+  - id: c2.4
+    text: 'Lesson 1: Introduction to User-Centered Design and Design Thinking Workshop'
+  - id: c2.5
+    text: Objectives
+    items:
+    - id: c2.5.1
+      text: Understand key design methodologies and their role in the product development process.
+    - id: c2.5.2
+      text: Apply the complete Design Thinking process in a practical workshop.
+- id: c3
+  text: PART ONE
+  heading: true
+  items:
+  - id: c3.1
+    text: Introduction to User-Centered Design (UCD).
+  - id: c3.2
+    text: From HCI (Human-Computer Interaction) to UX (User Experience).
+  - id: c3.3
+    text: Overview of design frameworks (e.g., Double Diamond).
+  - id: c3.4
+    text: User Research methods.
+- id: c4
+  text: PART TWO
+  heading: true
+  items:
+  - id: c4.1
+    text: 'Full Design Thinking workshop: Empathize, Define, Ideate, Prototype, Test.'
+  - id: c4.2
+    text: 'Deliverable: None.'
+  - id: c4.3
+    text: 'Activities: Participation in the Design Thinking workshop.'
+  - id: c4.4
+    text: 'Lesson 2: Problem Exploration and Current Context Creation'
+  - id: c4.5
+    text: Objectives
+    items:
+    - id: c4.5.1
+      text: Apply the Double Diamond framework to identify key problems and formulate a Design Challenge.
+    - id: c4.5.2
+      text: Create deliverables representing the current context and problem.
+- id: c5
+  text: PART ONE
+  heading: true
+  items:
+  - id: c5.1
+    text: Introduction to the first diamond of the Double Diamond (Discover and Define).
+  - id: c5.2
+    text: Qualitative research techniques
+  - id: c5.3
+    text: Semi-structured interviews.
+  - id: c5.4
+    text: Contextual Inquiry.
+  - id: c5.5
+    text: User Observation.
+  - id: c5.6
+    text: Creation of a User Research Plan.
+- id: c6
+  text: PART TWO
+  heading: true
+  items:
+  - id: c6.1
+    text: Synthesis of collected information
+  - id: c6.2
+    text: Proto Personas / Personas.
+  - id: c6.3
+    text: Experience Map (representation of the current context).
+  - id: c6.4
+    text: Deliverables
+    items:
+    - id: c6.4.1
+      text: Proto Personas / Personas.
+    - id: c6.4.2
+      text: Experience Map.
+  - id: c6.5
+    text: Activities
+    items:
+    - id: c6.5.1
+      text: Conducting field research activities.
+    - id: c6.5.2
+      text: Collaborative creation of Personas and Experience Maps.
+  - id: c6.6
+    text: 'Lesson 3: Synthesizing Results and Concept Ideation'
+  - id: c6.7
+    text: Objectives
+    items:
+    - id: c6.7.1
+      text: Analyze and synthesize research findings.
+    - id: c6.7.2
+      text: Define key insights and transform them into design opportunities.
+- id: c7
+  text: PART ONE
+  heading: true
+  items:
+  - id: c7.1
+    text: Research findings synthesis (Empathy Mapping, POV, HMW).
+  - id: c7.2
+    text: Problem definition techniques
+  - id: c7.3
+    text: Why-How Laddering.
+- id: c8
+  text: PART TWO
+  heading: true
+  items:
+  - id: c8.1
+    text: Creative ideation methods
+  - id: c8.2
+    text: Guided brainstorming.
+  - id: c8.3
+    text: SCAMPER.
+  - id: c8.4
+    text: Introduction to Concept Design (linking insights to project ideas).
+  - id: c8.5
+    text: Deliverables
+    items:
+    - id: c8.5.1
+      text: Defined Design Challenge.
+    - id: c8.5.2
+      text: Preliminary Concept Idea.
+  - id: c8.6
+    text: Activities
+    items:
+    - id: c8.6.1
+      text: Collaborative activities to generate design ideas.
+  - id: c8.7
+    text: 'Lesson 4: Service Visualization and Modeling (Second Diamond)'
+  - id: c8.8
+    text: Objectives
+    items:
+    - id: c8.8.1
+      text: Apply visualization tools to design the service.
+    - id: c8.8.2
+      text: Use the second diamond of the Double Diamond (Develop and Deliver).
+- id: c9
+  text: PART ONE
+  heading: true
+  items:
+  - id: c9.1
+    text: Creation of visual deliverables
+  - id: c9.2
+    text: User Journey Map (contextualized with Personas and Experience Maps).
+  - id: c9.3
+    text: Ecosystem Map.
+  - id: c9.4
+    text: Introduction to the Service Blueprint (structure and usage).
+- id: c10
+  text: PART TWO
+  heading: true
+  items:
+  - id: c10.1
+    text: Preparation of prototype specifications.
+  - id: c10.2
+    text: Deliverables
+    items:
+    - id: c10.2.1
+      text: User Journey Map.
+    - id: c10.2.2
+      text: Ecosystem Map.
+    - id: c10.2.3
+      text: Service Blueprint.
+  - id: c10.3
+    text: Activities
+    items:
+    - id: c10.3.1
+      text: Collaborative creation of maps and the blueprint.
+  - id: c10.4
+    text: 'Lesson 5: Concept Testing and Iteration'
+  - id: c10.5
+    text: Objectives
+    items:
+    - id: c10.5.1
+      text: Introduce quantitative research methodologies.
+    - id: c10.5.2
+      text: Design a usability test to gather feedback on the service concept.
+- id: c11
+  text: PART ONE
+  heading: true
+  items:
+  - id: c11.1
+    text: Quantitative research methodologies
+  - id: c11.2
+    text: Survey design.
+  - id: c11.3
+    text: Statistical data analysis.
+  - id: c11.4
+    text: 'Usability Testing: principles and frameworks.'
+- id: c12
+  text: PART TWO
+  heading: true
+  items:
+  - id: c12.1
+    text: 'Workshop: Designing and conducting a usability test on the concept.'
+  - id: c12.2
+    text: Iterating the concept based on test results.
+  - id: c12.3
+    text: 'Deliverable: Improved concept based on test findings.'
+  - id: c12.4
+    text: 'Activities: Conduct usability tests and refine the concept.'
+  - id: c12.5
+    text: Final Module Output
+    items:
+    - id: c12.5.1
+      text: Service Design Concept
+    - id: c12.5.2
+      text: Proto Personas / Personas.
+    - id: c12.5.3
+      text: Empathy Map.
+    - id: c12.5.4
+      text: Experience Map.
+    - id: c12.5.5
+      text: User Journey Map.
+    - id: c12.5.6
+      text: Ecosystem Map.
+    - id: c12.5.7
+      text: Service Blueprint.
+    - id: c12.5.8
+      text: Usability test report
+prerequisites: []
+bibliography: |-
+  Module 1
+
+  Theory
+
+  - Course slides in electronic format.
+
+  Lab
+
+  - W3schools: https://www.w3schools.com/
+
+  Module 2
+
+  UX Methods: A Quick Guide to User Experience Research Methods
+  James Pannafino & Patrick McNeil, 2017.
+removed: []

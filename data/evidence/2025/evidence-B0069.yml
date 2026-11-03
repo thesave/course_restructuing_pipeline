@@ -1,0 +1,92 @@
+format: evidence/1
+course: B0069
+title: Artificial Intelligence for Digital Innovation
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-17'
+    to: '2025-11-27'
+  teaching_ids:
+  - '483944'
+  teachers:
+  - name: Amadini, Roberto
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5889'
+    name: Digital Innovation Policies and Governance
+    department: sps
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6777'
+    name: Digital Innovation Policies and Governance
+    department: sps
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '483944'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The course covers the fundamentals of Artificial Intelligence, including symbolic and sub-symbolic
+    aspects, main machine learning techniques, and ethical, economic, and social implications.
+- id: o2
+  text: Students will gain practical problem-solving skills using specialized software tools and understand
+    various machine learning models and training mechanisms.
+contents:
+- id: c1
+  text: The course is divided into two parts.
+- id: c2
+  text: 'The first part primarily focuses on "symbolic" artificial intelligence and covers the following
+    topics at a high level:'
+- id: c3
+  text: Introduction to Artificial Intelligence
+- id: c4
+  text: Intelligent Agents
+- id: c5
+  text: Search Problems and Constraint Satisfaction
+- id: c6
+  text: Knowledge Representation and Automated Reasoning
+- id: c7
+  text: The second part mainly deals with machine learning and "sub-symbolic" artificial intelligence.
+- id: c8
+  text: 'The topics covered include:'
+- id: c9
+  text: Supervised Machine Learning
+- id: c10
+  text: Deep Learning
+- id: c11
+  text: Unsupervised Learning, Generative AI, and Reinforcement Learning
+- id: c12
+  text: Natural Language Processing and Language Models
+- id: c13
+  text: Ethics and Safety in Artificial Intelligence
+prerequisites: []
+bibliography: |-
+  - Russell, Stuart J. Artificial intelligence a modern approach. Pearson Education, Inc., 2021.
+  - Wallace, Mark. Building decision support systems: using MiniZinc. Cham: Springer, 2020
+removed: []

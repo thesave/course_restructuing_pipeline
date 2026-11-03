@@ -1,0 +1,137 @@
+format: evidence/1
+course: B8019
+title: PROGRAMMING THE INTERNET OF THINGS M
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-05-26'
+  teaching_ids:
+  - '541868'
+  teachers:
+  - name: Helal, Abdelsalam Ali
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '541868'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of this course unit, the student will acquire a deep knowledge on the fundamental concepts
+    as well as the most relevant emerging technologies about Internet of Things
+- id: o2
+  text: (IoT) architectures, IoT platforms, IoT interaction protocols, and IoT programming/application
+    models.
+- id: o3
+  text: In addition, the student will be able to apply IoT models, architectures, and techniques in typical
+    practical situations.
+- id: o4
+  text: More precisely, the student will know how to decouple the process of smart space construction
+    and IoT deployment from smart space programmability and application development.
+- id: o5
+  text: In addition to the fundamentals, the student will acquire valuable hands-on exper applications
+    that utilize sensors, actuators, complex devices, microservices, and humans in the loop, as well as
+    a deep theoretical and application-oriented understanding of the IoT technology.
+contents:
+- id: c1
+  text: This course focuses on the software perspective and the architectural and programmability aspects
+    of the Internet of Things.
+- id: c2
+  text: The course will not emphasize detailed IoT hardware or wireless communication technologies.
+- id: c3
+  text: It compliments other offered IoT courses by focusing on IoT programming and application development.
+- id: c4
+  text: The course lectures will span the following five topics
+  items:
+  - id: c4.1
+    text: Introduction to Smart Spaces (6 hours)
+  - id: c4.2
+    text: 'Historical Perspective: from the Jetsons to the Internet of Things.'
+  - id: c4.3
+    text: Constraints, Requirements and Smart Space Challenges.
+  - id: c4.4
+    text: IoT Things (12 hours)
+  - id: c4.5
+    text: Understanding the differences between Things, Internet of Things, and IoT applications.
+  - id: c4.6
+    text: Sensors, Actuators, and Complex Devices.
+  - id: c4.7
+    text: 'Identification (ID) Things: RFID, QR Codes, Beacons.'
+  - id: c4.8
+    text: 'IoT Platforms: Raspberry Pi, Arduino, Mbed OS.'
+  - id: c4.9
+    text: An Example of Smart Space (8 hours)
+  - id: c4.10
+    text: 'The Gator Tech Smart House: a real-world deployment of a smart space as an assistive environment
+      for graceful aging.'
+  - id: c4.11
+    text: IoT Architecture (20 hours)
+  - id: c4.12
+    text: Service-Oriented Device Architecture (SODA).
+  - id: c4.13
+    text: The Atlas SODA Architecture and Middleware (Atlas 1.0)
+  - id: c4.14
+    text: The Atlas IoT Thing Architecture (Atlas 2.0)
+  - id: c4.15
+    text: IoT Programming and Application Models (18 hours)
+  - id: c4.16
+    text: SODA Application Model
+  - id: c4.17
+    text: Safety Concerns and Mechanisms in SODA
+  - id: c4.18
+    text: The Atlas Device Description Language (IoT-DDL)
+  - id: c4.19
+    text: 'IoTranx: IoT Transactional Model.'
+prerequisites: []
+bibliography: In addition to class notes and slides, the instructor will provide a number of research
+  papers and GitHub code, tools, and manuals.
+removed: []

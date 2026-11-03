@@ -1,0 +1,130 @@
+format: evidence/1
+course: '28012'
+title: Electronic Calculators T
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-06-03'
+  teaching_ids:
+  - '445978'
+  teachers:
+  - name: Di Stefano, Luigi
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '6671'
+    name: Automation Engineering
+    department: dei
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6672'
+    name: Electronics and Telecommunications Engineering
+    department: dei
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6711'
+    name: Automation Engineering
+    department: dei
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '8891'
+    name: Automation Engineering
+    department: dei
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '9065'
+    name: Electronics and Telecommunications Engineering
+    department: dei
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '9217'
+    name: Automation Engineering
+    department: dei
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '445978'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Knowledge of the basic elements of computer architectures.
+- id: o2
+  text: These include the CPU as well as the memory and I/O subsystems.
+- id: o3
+  text: The student will acquire the ability to analyse and design very simple microprocessor-based sytems.
+contents:
+- id: c1
+  text: Introduction - Von Neumann's model. PC and Bus Cycles. Hardware Architecture. Performance. History
+    of Computers.
+- id: c2
+  text: 'Instruction Set Architecture - General features concerning ISAs: instruction encoding, addressing
+    modes, instruction classes, procedure calls. Taxonomy of ISAs. codifica delle istruzioni, modalità
+    di indirizzamento, classi di istruzioni, gestione delle procedure. Register-Register (RISC) e Memory–Register
+    (CISC) architectures. .'
+  language: it
+- id: c3
+  text: Complements of Logic Design - ALU. 3-state drivers and distributed multiplexing. Register File.
+    Driver, Tranceiver, Latch, Edge Triggered Register.
+- id: c4
+  text: ISA DLX – Execution environment. Instruction Set. Stack implementation to handle calls. Code examples.
+    Instruction formats.
+- id: c5
+  text: Internal structure of a sequential CPU - Datapath and Controller. DLX Datapath. State machine
+    of a DLX controller. Handling interrupts. Number of clocks to execute instructions.
+- id: c6
+  text: Internal structure of a pipelined CPU – General pipeline principles and performance metrics. A
+    DLX pipelined Datapath. Dependencies and Hazards. Stalls and Forwarding. Control Hazards. Brach Prediction.
+- id: c7
+  text: 'IA (Intel Architecture) - Execution environment. Segmentation: logical vs. physical addresses.
+    Instruction Set. Code examples and comparison to DLX code.'
+- id: c8
+  text: Interfacing memory parts to the system bus – ROM and RAM chips. Mapping memory chips into the
+    address space and address decoding in case of a 8-bit data bus. Extension to a multi-byte data bus
+    (16 bit,32 bit,....). Memory access time and number of required wait state. Design of READY circuitry.
+- id: c9
+  text: Handling I/O ports – Basic I/O. General model for an I/O port. Accessing internal registers within
+    I/O ports. Interfacing I/O ports to the system bus in case of both 8-bit and multi-byte data buses.
+    Handling I/O by polling and by interrupt. Code examples.
+- id: c10
+  text: The interrupt system - Interrupt classes (HW interrupts, SW interrupts and exceptions). Handling
+    HW interrupts by a PIC (Programmable Interrupt Controller). Vectored Interrupts.
+prerequisites: []
+bibliography: |-
+  Suggested Readings:
+
+  1. Hennessy, Patterson: "Computer architecture: a quantitative approach" - Morgan Kaufmann pub. Inc., second edition
+  2. Giacomo Bucci: “Architetture dei calcolatori elettronici” McGraw-Hill.
+removed: []

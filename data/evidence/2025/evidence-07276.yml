@@ -1,0 +1,82 @@
+format: evidence/1
+course: '07276'
+title: Computer Science
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 3
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-10-16'
+    to: '2025-11-10'
+  teaching_ids:
+  - '359934'
+  teachers:
+  - name: Gesuato, Alessandro
+    affiliation: dimec
+    role:
+    - adjunct professor
+  programmes:
+  - code: '8481'
+    name: Dental Hygiene
+    department: dibinem
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student possesses general knowledge of IT, such as that relating
+    to the components of processing systems, networks and basic software.
+- id: o2
+  text: Knows and applies concepts relating to the hardware and software of a computer system, in particular
+    for the classification and use of simple application programs.
+- id: o3
+  text: He is able to evaluate the efficiency of a processing system, especially in relation to his actual
+    needs, both study and professional.
+- id: o4
+  text: He knows how to develop a basic IT approach for the solution of simple problems, which contribute
+    to his academic and professional preparation.
+- id: o5
+  text: He has the ability to consult search engines to collect information, useful for carrying out his
+    activities, both study and work.
+contents:
+- id: c1
+  text: 'The building blocks of the computer: hardware and software.'
+- id: c2
+  text: 'The operating system: structure and main functions.'
+- id: c3
+  text: 'The file system: basic operations.'
+- id: c4
+  text: Computer networks.
+- id: c5
+  text: Internet and the WWW.
+- id: c6
+  text: Email, certified email and digital signature.
+- id: c7
+  text: 'IT security: viruses, phishing, etc.'
+- id: c8
+  text: 'Individual productivity software: word processor (Word and Google Docs), presentations (Power
+    Point and Google Presentations).'
+prerequisites: []
+bibliography: Teacher's notes and any recent text relating to the certification of IT skills (ECDL, EIPASS
+  7 user modules, etc.)
+removed: []

@@ -1,0 +1,135 @@
+format: evidence/1
+course: '84530'
+title: Database and Big Data Technologies M
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-18'
+    to: '2026-06-03'
+  teaching_ids:
+  - '517617'
+  teachers:
+  - name: Ciaccia, Paolo
+    affiliation: disi
+    role:
+    - full professor
+  - name: Patella, Marco
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '517617'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Knowledge of building principles of DataBase Management Systems.
+- id: o2
+  text: Ability to design physical databases.
+- id: o3
+  text: Technologies for the management of big data.
+contents:
+- id: c1
+  text: This is usually obtainable by passing the exam of "Information Systems T" of the Computer Engineering
+    bachelor degree.
+- id: c2
+  text: Architecture of a DBMS Main modules and their roles.
+- id: c3
+  text: 'The physical Data BaseMemory management: devices, pages and files. Representing attributes and
+    tuples. Reading and writing disk pages: the buffer manager. File types. Cost evaluation of some basic
+    file operations.'
+- id: c4
+  text: 'Mono-dimensional indices Index types. Tree indices: B-tree and B+-tree. Hash indices: static
+    hash, dynamic hash (linear hashing, extendible hashing).'
+- id: c5
+  text: Multidimensional (spatial) data and indices Spatial queries. Point indices (k-D and k-D-B-tree),
+    indices for spatial objects (R-tree), GiST.
+- id: c6
+  text: 'Implementing relational operations Logical and physical operators: sort (external Z-way sort-merge),
+    selection (sequential scann, single index, multiple indices), projection (sort-based, hash-based,
+    index-based), join (nested loops, block nested loops, merge scan, hash join), set operators (union
+    and difference), aggregation operators.'
+- id: c7
+  text: 'Query processing Steps of the evaluation process. Semantic checks and catalogs. Rewriting SQL
+    queries. Statistical profiles: average values and histograms. Estimating costs and result size. Access
+    plans: evaluation using materialization and pipeline. The optimization process: enumerating access
+    plans and domination rules. Determining the optimal access plan using dynamic programming.'
+- id: c8
+  text: 'Transaction management Concurrency control: problems, lock and Strict 2PL protocol. Fault tolerance:
+    log file, WAL protocol, buffer and commit management, checkpoint and DB dump.'
+- id: c9
+  text: Physical design of DataBases Query workload, index selection. Performance tuning (indices, schema
+    and queries).
+- id: c10
+  text: 'Ranking of results Motivations and limits of existing solutions for Top-k queries. SQL extensions
+    for ranking results. Mono- e multi-dimensional Top-k queries: attributes space, attributes weighing,
+    distance functions, limits of B+-tree query processing. R-tree-based algorithms: k nearest neighbor
+    and distance browsing. Top-k join queries: sorted and random access, scoring functions, relationships
+    with distance functions. B0, FA, TA, CA, and NRA algorithms.'
+- id: c11
+  text: Skyline queries Concept of domination, relationship with scoring functions, index-based algorithms
+    (BBS) and non-index algorithms (NL, BNL, SFS, SaLSa).
+- id: c12
+  text: Big Data & NoSQL DBMS Hadoop and MapReduce. Non-relational data models. The CAP theorem.
+prerequisites:
+- id: p1
+  text: A prior knowledge and understanding of models and tools for organizing, managing and designing
+    relational databases is required to attend with profit this course.
+bibliography: |-
+  The following texts are recommended for further information on the course contents:
+
+  - P. Ciaccia, D. Maio: Lezioni di Basi di Dati, Esculapio
+  - A. Albano: Costruire Sistemi per Basi di Dati, Addison-Wesley
+  - R. Ramakrishnan, J. Gehrke: Database Management Systems,
+    McGraw-Hill
+  - P. Lewis, A. Bernstein, M. Kifer: Databases and Transaction
+    Processing, Addison-Wesley
+  - D.E. Shasha, P. Bonnet: Database Tuning, Morgan Kaufmann
+removed: []

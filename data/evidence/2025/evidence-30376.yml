@@ -1,0 +1,133 @@
+format: evidence/1
+course: '30376'
+title: Business Intelligence
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-17'
+    to: '2025-11-26'
+  teaching_ids:
+  - '412632'
+  teachers:
+  - name: Gallinucci, Enrico
+    affiliation: disi
+    role:
+    - tenure-track researcher
+  - name: Rizzi, Stefano
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '412632'
+  laboratory:
+    value: true
+    evidence:
+    - Practice in the laboratory on widespread data warehousing tools
+    - As concerns the teaching methods of this course unit, all students must attend Module 1, 2 on Health
+      and Safety (https://www.unibo.it/en/services-and-opportunities/health-and-assistance/health-and-safety/online-course-on-health-and-safety-in-study-and-internship-areas)
+      online
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: After the course, the student is skilled in business intelligence architectures and functionalities.
+- id: o2
+  text: In particular, the student is capable of designing and administrating enterprise data warehouses.
+contents:
+- id: c1
+  text: Business intelligence
+  items:
+  - id: c1.1
+    text: the role of BI in the corporate information system;
+  - id: c1.2
+    text: the BI pyramid.
+- id: c2
+  text: Data Warehousing
+  items:
+  - id: c2.1
+    text: architectures;
+  - id: c2.2
+    text: 'techniques for data analysis: reporting and OLAP;'
+  - id: c2.3
+    text: lifecycle
+    items:
+    - id: c2.3.1
+      text: data source analysis;
+    - id: c2.3.2
+      text: requirement analysis;
+    - id: c2.3.3
+      text: conceptual design;
+    - id: c2.3.4
+      text: workload and data volume;
+    - id: c2.3.5
+      text: logical design;
+    - id: c2.3.6
+      text: design of ETL procedures;
+    - id: c2.3.7
+      text: physical design.
+prerequisites:
+- id: p1
+  text: A prior knowledge and understanding of database systems, relational model, and SQL language is
+    required to attend with profit this course.
+- id: p2
+  text: These notions are normally achieved by giving an exam of Databases or Information Systems.
+- id: p3
+  text: 'Fluent spoken and written Italian is a necessary pre-requisite: all lectures and tutorials, and
+    all study material will be in Italian.'
+bibliography: |-
+  - Slides.
+  - M. Golfarelli, Stefano Rizzi. Data Warehouse: teoria e pratica della progettazione. McGraw-Hill, Second Edition, 2006.
+    Recommended readings:
+  - M. Berry, G. Linoff. Data mining techniques for marketing, sales, and customer support. John Wiley & Sons, 1997.
+  - B. Devlin. Data warehouse: from architecture to implementation. Addison-Wesley Longman, 1997.
+  - W.H. Inmon. Building the data warehouse. John Wiley & Sons, 1996.
+  - M. Jarke, M. Lenzerini, Y. Vassiliou, P. Vassiliadis. Fundamentals of data warehouse. Springer, 2000.
+  - R. Kimball, L. Reeves, M. Ross, W. Thornthwaite. The data warehouse lifecycle toolkit. John Wiley & Sons, 1998.
+  - I. Witten, E. Frank. Data mining. Morgan Kaufmann Publishers, 2000.
+removed: []

@@ -1,0 +1,116 @@
+format: evidence/1
+course: '41169'
+title: Theoretical Computer Science
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-05-22'
+  teaching_ids:
+  - '455107'
+  teachers:
+  - name: Malizia, Enrico
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8010'
+    name: Mathematics
+    department: mat
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '455107'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The student will learn the main notions and results of Computability and Complexity Theory.
+- id: o2
+  text: At the end of course the student will be aware of the theoretical and practical limits of computation,
+    and will be able to use and apply methodologies and techniques typical of formal methods to the study
+    and solution of a wide range of algorithmic problems.
+contents:
+- id: c1
+  text: Problems and algorithms
+- id: c2
+  text: Computability vs Complexity
+- id: c3
+  text: Turing machines
+- id: c4
+  text: Recursive and recursively enumerable problems
+- id: c5
+  text: Complexity classes
+- id: c6
+  text: The classes P and NP
+- id: c7
+  text: NP-complete problems, and the P vs. NP question
+- id: c8
+  text: A quick look at space complexity classes
+- id: c9
+  text: A quick look at oracle classes, class hierarchies, and functional classes
+prerequisites:
+- id: p1
+  text: Students are assumed to have a solid background in algorithmic reasoning, to have acquired the
+    notion of subroutine call, and to be somewhat familiar with basic data structures such as lists, trees,
+    and graphs.
+- id: p2
+  text: Previous knowledge of the notion of finite state automaton is helpful but not necessary.
+bibliography: |-
+  Textbook:
+
+  - Hopcroft, Motwani, Ullman. Introduction to Automata Theory, Languages, and Computation. 3rd ed. Pearson Education, 2013
+
+  Additional readings:
+
+  - Sipser. Introduction to the Theory of Computation. 3rd ed. Cengage Learning, 2012
+  - Arora, Barak. Computational Complexity: A Modern Approach. Cambridge University Press, 2009
+removed: []

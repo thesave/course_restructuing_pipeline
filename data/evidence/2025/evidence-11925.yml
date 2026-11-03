@@ -1,0 +1,106 @@
+format: evidence/1
+course: '11925'
+title: Computer Architecture
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-22'
+    to: '2025-12-09'
+  teaching_ids:
+  - '524306'
+  teachers:
+  - name: Felli, Paolo
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Lanese, Ivan
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Romanella, Daniele
+    affiliation: disi
+    role:
+    - teaching tutor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '524306'
+  laboratory:
+    value: true
+    evidence:
+    - Frontal lessons and laboratory activity based on the nand2tetris project (https://www.nand2tetris.org/).
+    - The laboratory part will be done by students using their own computers.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student knows the basic architecture of a computer, combinatorial
+    and sequential networks, and the correspondence between assembly and high-level languages.
+- id: o2
+  text: The student is able to design simple combinational and sequential circuits and write assembly
+    code.
+contents:
+- id: c1
+  text: Organisation of computer systems.
+- id: c2
+  text: Binary representation of information.
+- id: c3
+  text: Boolean algebra, Logic Gates, Combinational circuits, Sequential circuits.
+- id: c4
+  text: Memory, CPU and Bus.
+- id: c5
+  text: The ISA level and assembly programming.
+- id: c6
+  text: Hints on operating systems.
+- id: c7
+  text: Mapping from high-level programming languages to lower architectural levels.
+prerequisites: []
+bibliography: |-
+  No specific book is required. Updated teaching material is available through the Virtuale website.
+
+  For further information we suggest: Andrew S. Tanenbaum - Todd Austin. Structured Computer Organization 6th edition. Pearson. 2013.
+
+  The book is also recommended for students who are not attending the lessons.
+removed: []

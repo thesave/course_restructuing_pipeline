@@ -1,0 +1,160 @@
+format: evidence/1
+course: 09730-A
+title: Principles of Informatics
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Forli
+  schedules:
+  - from: '2026-02-25'
+    to: '2026-06-04'
+  teaching_ids:
+  - '514508'
+  - '534687'
+  teachers:
+  - name: Cantelli, Martina
+    affiliation: din
+    role:
+    - teaching tutor
+  - name: Ravaioli, Mirko
+    affiliation: din
+    role:
+    - adjunct professor
+  programmes:
+  - code: 0927
+    name: Mechanical Engineering
+    department: din
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: 0949
+    name: Mechanical Engineering
+    department: din
+    campus: Forlì
+    cycle: first
+    languages:
+    - italian
+  - code: '5723'
+    name: Aerospace Engineering
+    department: din
+    campus: Forlì
+    cycle: second
+    languages:
+    - english
+  - code: '5724'
+    name: Mechanical Engineering
+    department: din
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6676'
+    name: Aerospace Engineering
+    department: din
+    campus: Forlì
+    cycle: first
+    languages:
+    - italian
+  - code: '6677'
+    name: Mechanical Engineering
+    department: din
+    campus: Forlì
+    cycle: first
+    languages:
+    - italian
+  - code: '6680'
+    name: Mechanical Engineering
+    department: din
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6704'
+    name: Aerospace Engineering
+    department: din
+    campus: Forlì
+    cycle: second
+    languages:
+    - english
+  - code: '6721'
+    name: Mechanical Engineering
+    department: din
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9234'
+    name: Aerospace Engineering
+    department: din
+    campus: Forlì
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student possesses the fundamental notions regarding digital machines
+    and the architecture of computers and their use in information processing.
+- id: o2
+  text: In addition, he possesses the knowledge useful for the design of algorithms and the tools necessary
+    for their implementation using a high-level language to solve simple engineering problems.
+contents:
+- id: c1
+  text: 'Basic computer architecture: Von Neuman architecture; structure of a CPU.'
+- id: c2
+  text: 'Information representation: representation of numerical information (two''s complement representation,
+    floating-point representation); representation of non-numerical information.'
+- id: c3
+  text: 'Boolean logic: Boolean algebra.'
+- id: c4
+  text: Boolean expressions and functions.
+- id: c5
+  text: Logic gates and circuit diagrams.
+- id: c6
+  text: 'Introduction to algorithms and data structures: definition of algorithm and examples; fundamental
+    data structures.'
+- id: c7
+  text: 'The MATLAB / Octave language: Fundamental constructs.'
+- id: c8
+  text: Data structures.
+- id: c9
+  text: Operations on vectors and matrices.
+- id: c10
+  text: Vector programming elements.
+- id: c11
+  text: Input and Output.
+- id: c12
+  text: Functions.
+- id: c13
+  text: Visibility of variables.
+- id: c14
+  text: Use of graphic functions.
+prerequisites: []
+bibliography: |-
+  J. Glenn Brookshear, Dennis Brylow “Informatica—una panoramica generale”, 12/ed., Pearson 2016
+
+  G. Michael Schneider, Judith L. Gersting "Informatica " Edizione italiana a cura di Antonio Gentile e Roberto Pirrone - Maggioli, 2013
+
+  Testo sulla programmazione in MATLAB:
+
+  S. Attaway. MATLAB - A Practical Introduction to Programming and Problem Solving. 5th Edition, Elsevier 2019
+removed: []

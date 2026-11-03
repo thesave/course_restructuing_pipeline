@@ -1,0 +1,202 @@
+format: evidence/1
+course: 91258-B
+title: Natural Language Processing
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-15'
+    to: '2025-10-22'
+  teaching_ids:
+  - '518542'
+  teachers:
+  - name: Tamburini, Fabio
+    affiliation: ficlit
+    role:
+    - full professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6824'
+    name: Semiotics
+    department: filo
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '9224'
+    name: Digital Humanities and Digital Knowledge
+    department: ficlit
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of this course, the student acquires foundational notions about Natural Language Processing
+    with particular attention at the statistical/algorithmic techniques.
+- id: o2
+  text: The methods and instruments from Natural Language Processing will be then applied at each level
+    of linguistic analysis.
+contents:
+- id: c1
+  text: 'Part I: Foundations'
+  items:
+  - id: c1.1
+    text: Introduction
+    items:
+    - id: c1.1.1
+      text: Natural Language Processing - Problems and perspectives
+    - id: c1.1.2
+      text: Introduction/Recall to/of probability calculus
+      items:
+      - id: c1.1.2.1
+        text: N-grams and Language Models
+    - id: c1.1.3
+      text: Deep Neural Networks
+    - id: c1.1.4
+      text: The evaluation of NLP applications
+  - id: c1.2
+    text: Corpora
+    items:
+    - id: c1.2.1
+      text: 'Corpora and their construction: representativeness'
+    - id: c1.2.2
+      text: Concordances, collocations and measures of words association
+    - id: c1.2.3
+      text: Methods for Text Retrieval
+- id: c2
+  text: 'Part II: Natural Language Processing'
+  items:
+  - id: c2.1
+    text: Computational Phonetics
+    items:
+    - id: c2.1.1
+      text: 'Speech samples: properties and acoustic measures'
+    - id: c2.1.2
+      text: Analysis in the frequency domain, Spectrograms
+    - id: c2.1.3
+      text: Applications in the acoustic phonetic field.
+    - id: c2.1.4
+      text: Speech recognition with Deep Neural Networks
+  - id: c2.2
+    text: Computational Morphology
+    items:
+    - id: c2.2.1
+      text: Morphological operations
+    - id: c2.2.2
+      text: Static lexica, Two-level morphology
+  - id: c2.3
+    text: Computational Syntax
+    items:
+    - id: c2.3.1
+      text: Part-of-speech tagging
+    - id: c2.3.2
+      text: Grammars for natural language
+    - id: c2.3.3
+      text: Natural language Parsing
+    - id: c2.3.4
+      text: 'Supplementary worksheet: formal grammars for NL'
+      items:
+      - id: c2.3.4.1
+        text: Formal languages and Natural languages. Natural language complexity
+      - id: c2.3.4.2
+        text: Phrase structure grammars, Dependency Grammars
+      - id: c2.3.4.3
+        text: Treebanks
+      - id: c2.3.4.4
+        text: Modern formalisms for parsing natural languages
+  - id: c2.4
+    text: Computational Semantics
+    items:
+    - id: c2.4.1
+      text: 'Lexical semantics: WordNet and FrameNet'
+    - id: c2.4.2
+      text: Word Sense Disambiguation
+    - id: c2.4.3
+      text: Word-Space models
+    - id: c2.4.4
+      text: Logical approaches to sentence semantics
+- id: c3
+  text: 'Part III: Applications and Case studies'
+  items:
+  - id: c3.1
+    text: Solving Downstream Tasks
+    items:
+    - id: c3.1.1
+      text: Document classification
+    - id: c3.1.2
+      text: Sentiment Analysis
+    - id: c3.1.3
+      text: Named Entity Recognition
+    - id: c3.1.4
+      text: Semantic Textual Similarity
+  - id: c3.2
+    text: Prompting Pre-Trained Language Models
+prerequisites: []
+bibliography: |-
+  Some chapters extracted from:
+
+  - Tamburini F. (2022). Neural Models for the Automatic Processing of Italian, Pàtron.
+  - D. Jurafsky and J.H. Martin (2008). Speech and Language Processing, Prentice Hall.
+  - A. Clark, C. Fox, S. Lappin (2010). The Handbook of Computational Linguistics and Natural Language Processing, Blackwell Handbooks in Linguistics.
+  - Mitkow R. (ed.) (2003). The Oxford Handbook of Computational Linguistics.
+  - Ritchie C. and Mellish C. (2000). Techniques in Natural Language Processing.
+
+  Slides, handouts and papers downloadable from the course web site.
+
+  The course contents for students not attending the lessons are the same. However, students not able to attend the lessons are strongly invited to contact the teacher to get some explanations and avoid any misunderstanding about the course contents and reading materials.
+removed:
+- text: Students with SLD or temporary or permanent disabilities.
+  reason: accessibility
+- text: It is suggested that they get in touch as soon as possible with the relevant University office
+    (https://site.unibo.it/studenti-con-disabilita-e-dsa/en) and with the lecturer in order to seek together
+    the most effective strategies for following the lessons and/or preparing for the examination.
+  reason: accessibility

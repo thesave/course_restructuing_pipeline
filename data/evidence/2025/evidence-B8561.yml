@@ -1,0 +1,136 @@
+format: evidence/1
+course: B8561
+title: ARCHITETTURE DEI CALCOLATORI M
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-15'
+    to: '2025-12-17'
+  teaching_ids:
+  - '543025'
+  teachers:
+  - name: Bartolini, Andrea
+    affiliation: dei
+    role:
+    - associate professor
+  - name: Manoni, Simone
+    affiliation: dei
+    role:
+    - research fellow
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6716'
+    name: Electronic Engineering
+    department: dei
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as:
+  - '69430'
+outcomes:
+- id: o1
+  text: Focus is on quantitative aspects of computer architecture.
+- id: o2
+  text: Expected outcome is understanding of
+  items:
+  - id: o2.1
+    text: instruction level parallelism and latency tolerance
+  - id: o2.2
+    text: memory hierarchy
+  - id: o2.3
+    text: Uniform Memory Access (UMA) architectures
+  - id: o2.4
+    text: protection and task management
+  - id: o2.5
+    text: architecture impact on power and performance at processor and system level Within the course
+      the student will practice abstraction as the most effective method to handle the complexity of modern
+      computer architectures. The final test verifies the ability to apply methods and concepts offered
+      by the course.
+contents:
+- id: c1
+  text: Processor Architecture
+  items:
+  - id: c1.1
+    text: Instruction set architecture for multitasking protected systems (Intel IA32 architecture)
+  - id: c1.2
+    text: Instruction level parallelism; dependencies; hazards; hazards avoidance
+  - id: c1.3
+    text: superscalar architectures; superpipelining and underpipelining; non blocking architectures;
+      out of order execution (Tomasulo approach); speculative execution;
+  - id: c1.4
+    text: Introduction to simultaneous multithreading, logical processors, multicore architectures and
+      virtualisation Memory Hierarchy
+  - id: c1.5
+    text: Goals, reference model and performance parameters
+  - id: c1.6
+    text: 'memory hierarchy in the Intel IA32 architecture: segmentation, virtual memory, main memory
+      and caches'
+  - id: c1.7
+    text: address mapping, write policies, replacement policies; implementation techniques and performance
+      analysis
+  - id: c1.8
+    text: the MESI protocol for memory coherence in shared memory multiprocessor architecture (UMA architectures)
+      System Architecture
+  - id: c1.9
+    text: Interleaved memory access in multibyte data bus systems
+  - id: c1.10
+    text: Uniform Memory Access (UMA) architectures, and introduction to NUMA multicore based architectures
+  - id: c1.11
+    text: Bus hierarchy and bus protocols
+  - id: c1.12
+    text: 'Multimaster systems with DMA based I/O: hardware/software power/performance perspective'
+prerequisites: []
+bibliography: |-
+  J. L. Hennessy, D. A. Patterson, Computer Architecture: a quantitative approach*, Sixth Edition*, Morgan Kaufmann (https://www.elsevier.com/books/computer-architecture/hennessy/978-0-12-811905-1)
+
+  David J. Greaves, Modern System-on-Chip Design on Arm, ARM Education Media (https://www.arm.com/resources/education/books/modern-soc)
+removed: []

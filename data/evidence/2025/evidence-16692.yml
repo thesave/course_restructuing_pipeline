@@ -1,0 +1,86 @@
+format: evidence/1
+course: '16692'
+title: Laboratory of Informatics
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 3
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-04-27'
+    to: '2026-06-03'
+  teaching_ids:
+  - '518110'
+  teachers:
+  - name: Bevilacqua, Alessandro
+    affiliation: disi
+    role:
+    - researcher
+  - name: Marasca, Gabriele
+    affiliation: dei
+    role:
+    - phd student
+  programmes:
+  - code: '5834'
+    name: Electronics Engineering
+    department: dei
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6670'
+    name: Electronics Engineering
+    department: dei
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '518110'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: 'Upon completion of the course, the student will have a working knowledge of algorithms and advanced
+    computer programming (in particular: imperative and structured programming) in the C programming language.'
+- id: o2
+  text: The student will be able to design, implement and structure iterative and recursive algorithms,
+    advanced data structures (lists) and manage standard I/O (files).
+contents:
+- id: c1
+  text: 'Introduction to advanced algorithms and data structures: recursive algorithms and complexity
+    analysis; advanced data structures (lists, trees).'
+- id: c2
+  text: 'The C programming language: advanced programming aspects: iteration and recursion; algorithms
+    on lists (insertion, deletion, search, sorting); I/O and data persistence on file.'
+- id: c3
+  text: Compiling and linking of modules from command line.
+prerequisites: []
+bibliography: |-
+  - Paul J. Deitel, Harvey M. Deitel, "Il linguaggio C: fondamenti e tecniche di programmazione", 8/ed, Pearson, ISBN 978-8891901651
+
+  Further materials will be provided by the professor.
+
+  For further topics on the theory and fundamentals of informatics:
+
+  - Brookshear, J. Glenn. Computer science: an overview. Boston: Addison-Wesley, 2012.
+
+  For further topics on the C programming language:
+
+  - Brian W. Kernighan and Dennis M. Ritchie, "The C Programming Language, Second Edition", Prentice Hall, Inc., 1988. ISBN 0-13-110362-8 (paperback), 0-13-110370-9 (hardback).
+removed: []

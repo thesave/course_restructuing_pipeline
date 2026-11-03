@@ -1,0 +1,120 @@
+format: evidence/1
+course: '96793'
+title: Information Systems and Database Management
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-09'
+    to: '2026-03-16'
+  teaching_ids:
+  - '529396'
+  teachers:
+  - name: Somenzi, Damiano Marino
+    affiliation: stat
+    role:
+    - adjunct professor
+  programmes:
+  - code: '6811'
+    name: Statistics, Economics and Business
+    department: stat
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8876'
+    name: Statistics, Economics and Business
+    department: stat
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Aim of the course is to understand the concepts and learn the techniques to access data stored
+    in database systems for analytical purposes.
+- id: o2
+  text: In particular, the student will understand the main concepts of relational and noSQL database
+    systems and will learn how to effectively extract data from those systems in order to prepare them
+    for subsequent application of statistical and machine learning techniques.
+- id: o3
+  text: The course will deal with both the query languages of databases and the interfaces with programmatic
+    languages, such as R or Python.
+- id: o4
+  text: At the end of the course the student is able
+  items:
+  - id: o4.1
+    text: to understand the structure of a given database, either relational or noSql;
+  - id: o4.2
+    text: to access the data stored in a Database Management System either with the specific standard
+      languages or with programmatic interfaces.
+contents:
+- id: c1
+  text: 'Understand data: elementary, complex and on the Web'
+- id: c2
+  text: Data modelling
+- id: c3
+  text: Main concepts to describe and arrange data
+- id: c4
+  text: Relational database
+  items:
+  - id: c4.1
+    text: Conceptual model (Entity-Relationship diagram)
+  - id: c4.2
+    text: Logical model (relations schema)
+- id: c5
+  text: noSQL database
+  items:
+  - id: c5.1
+    text: document-based model
+  - id: c5.2
+    text: graph-based model
+- id: c6
+  text: Database management
+  items:
+  - id: c6.1
+    text: Database management systems
+- id: c7
+  text: The language to query databases
+  items:
+  - id: c7.1
+    text: Query relational databases (SQL)
+  - id: c7.2
+    text: Query noSQL databases
+- id: c8
+  text: Data analysis
+  items:
+  - id: c8.1
+    text: Extract data, information
+  - id: c8.2
+    text: Create data views
+- id: c9
+  text: Practice sessions with Python of Statistical Analysis on data from Databases and from the Web
+prerequisites: []
+bibliography: |-
+  Lectures will be based for relational databases on the book of Jeff Ullman and Jennifer Widom: "A First Course in Database Systems", for noSQL databases on Web documentation.
+
+  Further readings, examples and exercises will be made available weekly on “Virtual Learning Environment”.
+removed: []

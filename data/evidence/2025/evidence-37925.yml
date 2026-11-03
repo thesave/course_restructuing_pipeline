@@ -1,0 +1,96 @@
+format: evidence/1
+course: '37925'
+title: Virtual System Design
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-25'
+    to: '2025-12-19'
+  teaching_ids:
+  - '354042'
+  teachers:
+  - name: Davoli, Renzo
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Lacamera, Daniele
+    affiliation: disi
+    role:
+    - teaching tutor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '354042'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The objective of the course is to teach the structure and implementation of virtual systems like
+    virtual machines and view based operating systems, virtual networks, virtual file systems.
+- id: o2
+  text: This course is mainly based on laboratory projects.
+contents:
+- id: c1
+  text: 'Virtuality: introduction'
+- id: c2
+  text: Virtual Networks
+- id: c3
+  text: Virtual Machines
+- id: c4
+  text: Virtual Devices
+- id: c5
+  text: Virtual File Systems
+- id: c6
+  text: Virtual Networking stacks. Internet of Threads (IoTh)
+- id: c7
+  text: 'User level Operating systems: VUOS.'
+- id: c8
+  text: VUOS modules
+prerequisites: []
+bibliography: Papers and documents will be provided during the course in electronic format
+removed: []

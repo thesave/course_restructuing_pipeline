@@ -1,0 +1,93 @@
+format: evidence/1
+course: '96725'
+title: IT and Game Localization
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 5
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Forli
+  schedules:
+  - from: '2026-02-23'
+    to: '2026-05-05'
+  teaching_ids:
+  - '485396'
+  - '485397'
+  teachers:
+  - name: La Orden Tovar, Carlos
+    affiliation: dit
+    role:
+    - adjunct professor
+  - name: Locatelli, Marco
+    affiliation: dit
+    role:
+    - adjunct professor
+  programmes:
+  - code: '6826'
+    name: Specialized Translation
+    department: dit
+    campus: Forlì
+    cycle: second
+    languages:
+    - english
+  - code: '9174'
+    name: Specialized Translation
+    department: dit
+    campus: Forlì
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - The course will also feature hands-on exercises, where students will be required to translate texts
+      from real-world projects in order to acquire a skill set that will prove extremely useful when entering
+      the language service market.
+    - With regards to the teaching methodology applied to this course, all students must attend online
+      Modules 1 and 2 on Health and Safety (https://www.unibo.it/en/services-and-opportunities/health-and-assistance/health-and-safety/online-course-on-health-and-safety-in-study-and-internship-areas)**.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The student has an in-depth knowledge of the strategies, techniques, methods and professional
+    tools used for the localization of videogames, IT products and web contents; s/he is able to apply
+    them in the adaptation of complex digital applications, which include different genres and text types,
+    between English and Italian, in compliance with media accessibility requirements; s/he knows and is
+    able to apply the fundamental techniques for information mining, editing and revision of texts, including
+    an adequate assessment of the linguistic quality of the localized videogame, IT product or web content
+    as a whole.
+contents:
+- id: c1
+  text: The Software Localization module introduces the concept of localization in software, explaining
+    its distinctive features and potential pitfalls in relation to other forms of translation, in the
+    context of modern technological translation practice.
+- id: c2
+  text: Subsequently, a diversified set of contents that require translation within software applications
+    (dialogues, interfaces, tutorials, etc.) will be presented, providing specific guidance on how these
+    must be approached.
+- id: c3
+  text: To this end, issues such as variable/placeholder handling, size/visual restrictions, bug identification
+    and prevention, as well as other conventions specific to software localization (which are often absent
+    in other types of translatable material) will be reviewed.
+prerequisites: []
+bibliography: |-
+  - Bernal-Merino, M. A. (2017). Translation and Localisation in Video Games: Making Entertainment Software Global. Routledge.
+  - Esselink B. (2000). A Practical Guide to Localization. John Benjamins Publishing Co. ISBN 9027219567
+  - O'Hagan, M. & Mangiron, C. (2013*). Game Localization: Translating for the Global Digital Entertainment Industry.* John Benjamins Pub Co.
+  - Sánchez Muñoz, P. (2017). Localización de videojuegos. Editorial Síntesis.
+  - AA. VV. GNU Gettext Tools (https://www.gnu.org/software/gettext/manual/gettext.pdf), version 0.22 (2023). Native Language Support Library and Tools Edition.
+  - AA. VV., Microsoft Italian Style Guide (https://learn.microsoft.com/en-us/globalization/reference/microsoft-style-guides), Redmond, Microsoft Corporation, April 2023.
+  - AA.VV. Android localization guide (https://developer.android.com/guide/topics/resources/localization)https://developer.android.com/guide/topics/resources/localization (https://developer.android.com/guide/topics/resources/localization)(2023)
+removed: []

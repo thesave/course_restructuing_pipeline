@@ -1,0 +1,114 @@
+format: evidence/1
+course: B0070
+title: METODOLOGIE E TECNICHE DI SIMULAZIONE
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-25'
+    to: '2026-05-06'
+  teaching_ids:
+  - '483945'
+  teachers:
+  - name: Presutti, Valentina
+    affiliation: lilec
+    role:
+    - associate professor
+  programmes:
+  - code: '5889'
+    name: Digital Innovation Policies and Governance
+    department: sps
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6777'
+    name: Digital Innovation Policies and Governance
+    department: sps
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - Lectures, lab exercises, homework assignments, and self-assessment quizzes.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Students are familiar with semantic web and LLM technologies.
+- id: o2
+  text: They know the core differences between knowledge-based and machine learning-based Artificial Intelligence
+    methods.
+- id: o3
+  text: They know the basic principles and theories behind this technologies and are able to design, build
+    and query ontologies and knowledge graphs.
+- id: o4
+  text: They are familiar with the main prompting techniques and are able to use them in combination with
+    knowledge graphs.
+contents:
+- id: c1
+  text: This course aims to provide students with in-depth knowledge of knowledge graphs and the methods
+    and tools used to query them.
+- id: c2
+  text: It will cover both the theoretical foundations of ontology-based knowledge graph modeling and
+    the practical use of software tools for their exploration and querying.
+- id: c3
+  text: In addition, the course will explore the characteristics of Large Language Models (LLMs) and the
+    main prompting techniques.
+- id: c4
+  text: The topics covered in the course are summarized as follows
+  items:
+  - id: c4.1
+    text: The Semantic Web and the basics of ontology and knowledge graph design
+  - id: c4.2
+    text: Overview of Artificial Intelligence (applications and methods)
+  - id: c4.3
+    text: Prompting techniques
+- id: c5
+  text: The following tools will be used
+  items:
+  - id: c5.1
+    text: SPARQL query engine
+  - id: c5.2
+    text: Graffoo; OWL diagram notation
+  - id: c5.3
+    text: GitHub
+  - id: c5.4
+    text: 'LLMs: GPT, Llama, Mistral, Mixtral, Gemini'
+prerequisites: []
+bibliography: |-
+  Notes, slides, and exercises will be made available at: https://virtuale.unibo.it/
+
+  Topics not covered in the lecture notes can be studied using the following texts, articles, and online resources:
+
+  - W3Schools HTML tutorial – https://www.w3schools.com/html/default.asp
+  - W3Schools CSS tutorial – https://www.w3schools.com/css/default.asp
+  - Johan van Benthem, Hans van Ditmarsch, Jan van Eijck, Jan Jaspars: Logic in Action (2006), available online: http://www.logicinaction.org/
+  - Dean Allemang and James Hendler. Semantic Web for the Working Ontologist: Effective Modeling in RDFS and OWL. Morgan Kaufmann, 2008.
+  - Pascal Hitzler, Aldo Gangemi, Krzysztof Janowicz, Adila Krisnadhi, Valentina Presutti: Ontology Engineering with Ontology Design Patterns – Foundations and Applications. Studies on the Semantic Web 25, IOS Press, 2016. ISBN 978-1-61499-675-0
+  - https://w3id.org/arco/
+  - https://protegewiki.stanford.edu/wiki/Ontology101
+  - http://owl.cs.manchester.ac.uk/publications/talks-and-tutorials/protg-owl-tutorial/
+  - https://www.w3.org/TR/rdf-sparql-query/
+  - https://essepuntato.it/graffoo/
+  - https://projects.dharc.unibo.it/melody
+  - http://wit.istc.cnr.it/stlab-tools/fred/
+  - https://github.com/
+removed: []

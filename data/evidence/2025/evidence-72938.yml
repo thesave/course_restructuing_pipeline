@@ -1,0 +1,130 @@
+format: evidence/1
+course: '72938'
+title: Foundations Of Artificial Intelligence T
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-18'
+    to: '2026-05-26'
+  teaching_ids:
+  - '517542'
+  teachers:
+  - name: Chesani, Federico
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Leone, Davide
+    affiliation: dei
+    role:
+    - phd student
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '517542'
+  laboratory:
+    value: true
+    evidence:
+    - interleaved by some practical activities in the laboratories of the
+    - Autonomous lab activities are welcome and promoted by suggesting
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Introduction to main principles and methods in Artificial
+- id: o2
+  text: Intelligence.
+- id: o3
+  text: Artificial Intelligence based methodologies and techniques for solving problems with particular
+    emphasis on knowledge-based systems and computational logic techniques.
+- id: o4
+  text: Desing and implementation of some practical systems based on procedural and declarative programming
+    languages.
+contents:
+- id: c1
+  text: The course introduces the student to the principles and methods used to solve Artificial Intelligence
+    methods, with a particular attention to knowledge-based systems and computational logic approaches.
+- id: c2
+  text: In particular, the Prolog programming language is introduced as a tool for implementing Artificial
+    Intelligence systems.
+- id: c3
+  text: Moreover, seminars on specific Artificial Intelligence topics are planned.
+- id: c4
+  text: This course is preparatory for the course of Intelligent Systems.
+- id: c5
+  text: 'Introduction to Artificial Intelligence: brief history of AI, main application fields, introduction
+    to knowledge-based systems and architectural organization.'
+- id: c6
+  text: 'Problem solving in AI: representation through the notion of state, forward e backward reasoning,
+    solving as a search and search strategies (informed and non). Games, constraint satisfaction problems,
+    and planning problems.'
+- id: c7
+  text: 'Knowledge Representation: First Order Predicate Logic, Production Rules Systems, Knowledge-based
+    systems, Some hints about formal ontologies.'
+- id: c8
+  text: 'Languages for Artficial Intelligence. Prolog: from logic to logic programming, Prolog programs
+    as solvers, desing and development of simple Prolog programs, few notes about meta-predicates and
+    meta-interpreters.'
+prerequisites:
+- id: p1
+  text: 'Prerequisites: attending the course requires a medium knowledge of a high level programming language,
+    in order to successfully understand case studies and applications presented during the lessons. Regarding
+    the course contents, no prerequisites are required: the student will be gradually introduced to the
+    fundamental notions of the Artificial Intelligence, and no assumption about previous knowledge is
+    made.'
+bibliography: |-
+  A comprehensive list of textbooks to consult is available on the Web site, and
+  it is reported also in the course slides. When available, the
+  english versions of these textbooks are recommended:
+
+  About Artificial Intelligence:
+
+  - S. J. Russel, P. Norvig: "Artificail Intelligence: A modern
+    approach", Prentice Hall, Last or previous editions.
+
+  About Prolog:
+
+  - L. Console, E. Lamma, P. Mello, M. Milano: "Programmazione
+    Logica e Prolog", Seconda Edizione UTET, 1997.
+removed: []

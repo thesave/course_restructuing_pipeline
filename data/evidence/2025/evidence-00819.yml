@@ -1,0 +1,148 @@
+format: evidence/1
+course: 00819
+title: Programming
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 12
+  - 9
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-22'
+    to: '2025-12-11'
+  - from: '2025-09-15'
+    to: '2025-12-02'
+  teaching_ids:
+  - '523706'
+  - '524297'
+  teachers:
+  - name: Amadini, Roberto
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Capone, Orazio Andrea
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Di Iorio, Angelo
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Gazza, Simone
+    affiliation: disi
+    role:
+    - phd student
+  - name: Laneve, Cosimo
+    affiliation: disi
+    role:
+    - full professor
+  - name: Romanella, Daniele
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Sirbu, Alina
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6060'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6641'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8014'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '523706'
+    - '524297'
+  laboratory:
+    value: true
+    evidence:
+    - Lectures and lab sessions.
+    - Most of the lab work will be conducted in the classroom using students’ personal laptops or tablets.
+    - At least once during the course, a session will take place in the university’s teaching laboratories,
+      where the written exam is held.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end course, the student knows programming principles, tools and techniques.
+- id: o2
+  text: He/she is able to program in a specific programming language.
+- id: o3
+  text: At the end of the course, the student will know the basic principles and techniques of programming,
+    and will be able to create programs in a specific programming language.
+contents:
+- id: c1
+  text: Introduction to Programming with C++.
+- id: c2
+  text: 'Imperative programming in C++: algorithms and programs, data types, assignment, input / output,
+    conditional, iteration, functions, recursion and recursive functions, vectors, records, memory allocation,
+    dynamic data structures (lists, queues, trees)'
+- id: c3
+  text: 'Object-oriented programming in C++: classes, methods, overloading, inheritance.'
+- id: c4
+  text: Use of a development environment.
+prerequisites: []
+bibliography: |-
+  Our reference will be 1, which is in English. 2 is a reference for an Italian book.
+
+  1. Savitch - Mock:
+  2. "Problem Solving with C++", Pearson (una qualunque edizione)
+  3. Deitel - Deitel : "C++. Fondamenti di programmazione", Apogeo.
+  4. Material available on the e-learning website (slides of lectures, exercises done during the lectures).
+removed: []

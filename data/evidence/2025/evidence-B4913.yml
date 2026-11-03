@@ -1,0 +1,121 @@
+format: evidence/1
+course: B4913
+title: ALGORITMI E STRUTTURE DATI
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 9
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-15'
+    to: '2025-11-28'
+  teaching_ids:
+  - '501520'
+  teachers:
+  - name: Dinelli, Michele
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Elias, Jocelyne
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Grotto, Giovanni
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Ianaro, Martina
+    affiliation: disi
+    role:
+    - phd student
+  - name: Rossi, Davide
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '6060'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6641'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8014'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '501520'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Students will learn basic concepts about the fundamental algorithms (divide and conquer, dynamic
+    programming, greedy method, backtracking, local search) to solve well knwon computational problems,
+    and the basic data structures and abstract data types (lists, queues, trees, graphs, etc.), as well
+    as techniques (asymptotic notation, recurrences) for evaluation of computational complexity of algorithms
+    (and computation complexity classes P, NP, NP-hard) and space complexity of algorithms execution (memory
+    space).
+- id: o2
+  text: The course will offer the illustration of trade-offs and sinergies between algorithms and data
+    structures, and a training on methodologies to realize the design of efficient algorithms and correspondingly
+    appropriate data structures to solve both generalized and specific instances of computational problems,
+    under pre-defined assumptions and requirements
+contents:
+- id: c1
+  text: Basic data structures (List, Queue, Stack, Trees...)
+- id: c2
+  text: Computational Complexity
+- id: c3
+  text: Searching and Sorting Algorithms
+- id: c4
+  text: Sets, Dictionaries, Trees, Binary search, RB trees
+- id: c5
+  text: Heaps, Hash tables, Priority queues, Union-Find data structures
+- id: c6
+  text: 'Algorithmic techniques: divide et impera, greedy algorithms, dynamic programming,'
+- id: c7
+  text: 'Graphs and graph algorithms: depth-first visit and breadth-first visit,'
+- id: c8
+  text: Elementary graph algorithms, Minimum Spanning Tree, shortest paths algorithms
+- id: c9
+  text: Introduction to NP-completeness theory
+prerequisites: []
+bibliography: |-
+  Official text:
+
+  Alan A. Bertossi, A. Montresor, Algoritmi e Strutture di Dati [https://www.cittastudi.it/catalogo/scienze/algoritmi-e-strutture-di-dati-1802], CittàStudi 2014, ISBN: 9788825173956
+
+  Recommended readings:
+
+  Camil Demetrescu, Irene Finocchi, Giuseppe F. Italiano, Algoritmi e strutture dati 2/ed, McGraw-Hill, 2008, ISBN: 978 88 386 64687
+
+  Camil Demetrescu, Umberto Ferraro Petrillo, Irene Finocchi, Giuseppe F. Italiano, Progetto di Algoritmi e Strutture Dati in Java, McGraw-Hill, 2007, ISBN: 9788838663741
+
+  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein, Introduzione agli algoritmi e strutture dati 2/ed, McGraw-Hill, 2005, ISBN: 9788838662515
+removed: []

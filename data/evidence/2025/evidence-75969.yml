@@ -1,0 +1,190 @@
+format: evidence/1
+course: '75969'
+title: Basic Informatics
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-11-14'
+    to: '2025-12-19'
+  - from: '2025-11-10'
+    to: '2025-12-18'
+  teaching_ids:
+  - '458983'
+  - '536056'
+  - '536057'
+  teachers:
+  - name: Bocchi, Maria Francesca
+    affiliation: ficlit
+    role:
+    - phd student
+  - name: Bruno, Enrica
+    affiliation: ficlit
+    role:
+    - phd student
+  - name: Heibi, Ivan
+    affiliation: ficlit
+    role:
+    - rtda
+  - name: Peroni, Silvio
+    affiliation: ficlit
+    role:
+    - associate professor
+  programmes:
+  - code: '6601'
+    name: Humanities
+    department: ficlit
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8850'
+    name: Humanities
+    department: ficlit
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of this course, the student will have a basic knowledge of computer science, having
+    learned the working principles of software systems, and understanding the technical lexicon of the
+    discipline.
+- id: o2
+  text: The student will also grasp the fundamental concepts about design and implementation of multimedia
+    systems, especially in World Wide Web environment.
+contents:
+- id: c1
+  text: The course is organised in 15 lectures, including theoretical and laboratory sessions.
+- id: c2
+  text: For each theoretical lecture, it is provided an historical context and some of the most relevant
+    people, according to the topic of the lecture, are introduced.
+- id: c3
+  text: 'The topics of these lectures are:'
+- id: c4
+  text: Computer science technologies in the Humanities
+- id: c5
+  text: Digital projects on Humanities studies
+- id: c6
+  text: Markup and digital editions
+- id: c7
+  text: Data collections
+- id: c8
+  text: 'Computer, computational thinking and data structures [historic people: Charles Babbage]'
+- id: c9
+  text: What is a computer?
+- id: c10
+  text: Computational thinking
+- id: c11
+  text: Data structures
+- id: c12
+  text: 'Algorithms and computability [historic people: Ada Lovelace and Alan Turing]'
+- id: c13
+  text: Uses of the Analytical Machine
+- id: c14
+  text: What is an algorithm
+- id: c15
+  text: Flowcharts
+- id: c16
+  text: Our first algorithm
+- id: c17
+  text: Are there limits to computation?
+- id: c18
+  text: 'Programming languages [historic people: Noam Chomsky and Grace Hopper]'
+- id: c19
+  text: What is a language?
+- id: c20
+  text: Programming languages
+- id: c21
+  text: Visual languages
+- id: c22
+  text: 'What it happens when we click on a link: the World Wide Web [historic poeple: Vannevar Bush,
+    Ted Nelson, Douglas Engelbart, and Tim Berners-Lee]'
+- id: c23
+  text: Introduction
+- id: c24
+  text: The birth of the hypertexts
+- id: c25
+  text: The creation of the World Wide Web
+- id: c26
+  text: Uniform Resource Locator (URL)
+- id: c27
+  text: 'The browsers: what they are and why they are useful'
+- id: c28
+  text: 'What it happens when we click on a link: communication protocols [historic people: Tim Berners-Lee]'
+- id: c29
+  text: What is a communication protocol?
+- id: c30
+  text: How the Hypertext Transfer Protocol (HTTP) works
+- id: c31
+  text: What is a web server?
+- id: c32
+  text: 'What it happens when we click on a link: the Internet [historic people: Joseph Carl Robnett Licklider]'
+- id: c33
+  text: The birth of the Internet
+- id: c34
+  text: Communication packets
+- id: c35
+  text: What is the Internet Protocol (IP)?
+- id: c36
+  text: Domain Name Server (DNS) and the router
+- id: c37
+  text: 'What it happens when we click on a link: Transferring information over the Internet [historic
+    people: Claude Shannon, Vinton Cerf, and Robert Kahn]'
+- id: c38
+  text: 'Byte and bit: unit of information'
+- id: c39
+  text: What is the Transmission Control Protocol (TCP)?
+- id: c40
+  text: Other protocols used on the Internet
+- id: c41
+  text: Full scenario describing a request of a webpage
+- id: c42
+  text: 'What it happens when we click on a link: The webpages'
+- id: c43
+  text: Markup languages
+- id: c44
+  text: 'Hypertext Markup Language (HTML): a brief narration'
+- id: c45
+  text: Main HTML elements
+- id: c46
+  text: 'Separation between markup and presentation: the CSS'
+- id: c47
+  text: The tutorials, instead, will address specific aspect related to research in the humanities mediated
+    by the use of digital and computational technologies.
+prerequisites: []
+bibliography: The lecture material, including the lecture notes written by the professor and the related
+  slides, will be made available on the platform Virtuale (https://virtuale.unibo.it/) before the beginning
+  of the course. All the material provided will be in Italian. Studying the material is sufficient for
+  passing the exam with the maximum score, independently for having attended or not attended the lectures.
+  In addition, all the links related to the course material will be made available in the GitHub repository
+  (https://github.com/basic-inf/2025-2026/) of the course.
+removed:
+- text: The dates and times of all the lectures and the tutorials are available in the section "Calendario"
+    of the GitHub repository of the course (https://github.com/basic-inf/2025-2026/#calendario).
+  reason: schedule
+- text: Students with specific learning disorders (SLD) or temporary/permanent disabilities should contact
+    the appropriate University office (https://site.unibo.it/studenti-con-disabilita-e-dsa/en) immediately
+    and agree with the teacher the most effective strategies for attending the lectures and preparing
+    for the exam.
+  reason: accessibility

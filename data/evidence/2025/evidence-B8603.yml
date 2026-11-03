@@ -1,0 +1,86 @@
+format: evidence/1
+course: B8603
+title: Machine Translation and Artificial Intelligence for Language Services
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 5
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Forli
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-04-30'
+  teaching_ids:
+  - '543092'
+  teachers:
+  - name: Astolfi, Luca
+    affiliation: dit
+    role:
+    - adjunct professor
+  programmes:
+  - code: '6826'
+    name: Specialized Translation
+    department: dit
+    campus: Forlì
+    cycle: second
+    languages:
+    - english
+  - code: '9174'
+    name: Specialized Translation
+    department: dit
+    campus: Forlì
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The student knows the history, theoretical principles, and latest developments of machine translation
+    (MT) and artificial intelligence (AI) applied to language and translation services; they understand
+    the principles of pre- and post-editing, as well as prompt design and engineering, and can apply them
+    maintaining adequate ethical standards; they can plan, execute, and evaluate complex projects involving
+    other professionals and a range of AI-based language and translation tools; they are able to acquire
+    further knowledge independently in both MT and AI technologies and apply it to optimize and innovate
+    language industry processes.
+contents:
+- id: c1
+  text: In this course, the student will learn
+  items:
+  - id: c1.1
+    text: the main phases of the history and evolution of machine translation
+  - id: c1.2
+    text: the intuition behind the main principles underlying MT
+  - id: c1.3
+    text: how to apply and interpret the most important evaluation metrics for machine-produced translations
+  - id: c1.4
+    text: how to set up and maintain a MT model, including gathering and cleaning training data
+  - id: c1.5
+    text: to use specialised MT software and utilities
+  - id: c1.6
+    text: to think about MT systems critically and leverage their knowledge to boost productivity
+prerequisites: []
+bibliography: |-
+  Philipp Koehn (2020), "Neural Machine Translation", Cambridge University Press
+
+  Thierry Poibeau (2017), "Machine Translation", MIT Press
+
+  Joss Moorkens, S. Castilho, F. Gaspari, S. Doherty (2018), "Translation Quality Assessment: From Principles to Practice", Springer
+
+  Kyunghyun C., van Merrienboer B., Bahdanau D., Bengio Y. (2016) "On the Properties of Neural Machine Translation: Encoder-Decoder Approaches" arXiv.org > cs > arXiv:1409.1259
+removed: []

@@ -1,0 +1,84 @@
+format: evidence/1
+course: '17634'
+title: Computer Vision
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-19'
+    to: '2026-05-15'
+  teaching_ids:
+  - '421624'
+  teachers:
+  - name: Cappelli, Raffaele
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '421624'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student knows the main application areas of computer vision and
+    the basic algorithms for image analysis and object recognition.
+contents:
+- id: c1
+  text: Basic image processing tools (color models, convolution, digital topology and mathematical morphology
+- id: c2
+  text: Techniques for object detection and segmentation from images
+- id: c3
+  text: Video object detection and tracking
+- id: c4
+  text: Object recognition from images and videos
+prerequisites: []
+bibliography: 'Richard Szeliski, Computer Vision: Algorithms and Applications, 2nd ed., 2022'
+removed: []

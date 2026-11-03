@@ -1,0 +1,132 @@
+format: evidence/1
+course: B5474
+title: ARCHITETTURE SOFTWARE A MICROSERVIZI
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-23'
+    to: '2025-12-10'
+  teaching_ids:
+  - '518556'
+  teachers:
+  - name: Lanese, Ivan
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Rossi, Davide
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '518556'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, students know the main aspects of the analysis, design and implementation
+    of service-based software architectures, with both a microservices approach and enterprise SOA; they
+    also know how to model and support the execution of business processes, appropriately integrating
+    the services that compose them.
+- id: o2
+  text: They can design and implement such complex architectures, also supporting their execution within
+    virtualized infrastructures, through the application of practices, patterns and appropriate technological
+    solutions.
+contents:
+- id: c1
+  text: Service-oriented architectures (SOAs) are used to build large software systems that operate across
+    multiple organizations (as is the case in the enterprise environment) but also as a basic structure
+    to build flexible and extremely scalable applications (as in the case of microservices).
+- id: c2
+  text: Designing this class of systems and reasoning about their properties requires the use of appropriate
+    abstractions and modeling techniques.
+- id: c3
+  text: In this course we will see how service and process abstractions can interoperate to describe complex
+    distributed systems and we will see modeling techniques based on these abstractions that help design
+    them.
+- id: c4
+  text: We will learn how to model processes (using BPMN), services (using UML) and how to model the interaction
+    between processes and services and between different services through choreographies.
+- id: c5
+  text: We will see how to exploit these techniques to design applications adhering to the service-oriented
+    architectural style both across-enterprises and through microservices (also by adopting specific patterns).
+- id: c6
+  text: We will also see in practice the protocols and the technologies that can be used for their implementation;
+    in particular for the technologies to support web services we will see SOAP / WSDL and the RESTful
+    style; for microservices we will see the use of containers (eg Docker), microservice orchestrators
+    (eg Kubernetes), service meshes (eg Linkerd) and serialization technologies (eg Protobuf).
+- id: c7
+  text: As far as microservices are concerned, we will try in particular to understand the strengths and
+    weaknesses of this class of applications and we will understand how to build systems that are both
+    scalable and reliable.
+- id: c8
+  text: To facilitate the prompt realization of examples of some of the technologies related to web services
+    as they are introduced, we will use the Jolie language which allows rapid prototyping of SOA solutions.
+- id: c9
+  text: Below is a list of the main topics of the course
+  items:
+  - id: c9.1
+    text: Enterprise software systems, architecture and modeling
+  - id: c9.2
+    text: Business Process Management e BPMN
+  - id: c9.3
+    text: SOA/Coreografie
+  - id: c9.4
+    text: Web services (SOAP/WSLD/RESTful/gRPC)
+  - id: c9.5
+    text: Microservices properties, design, patterns and implementation
+  - id: c9.6
+    text: 'Virtualized infrastructures supporting SOAs: containers (Docker), distributed containers (Kubernetes)'
+  - id: c9.7
+    text: Jolie
+prerequisites: []
+bibliography: |-
+  - Michael Papazoglou, "Web Services and SOA: Principles and Technology", 2nd ed. 2013, ISBN 9780273732167
+  - Mathias Weske, “Business Process Management: Concepts, Languages, Architectures”, 3rd ed. 2019, ISBN 9783662594315
+removed: []

@@ -1,0 +1,194 @@
+format: evidence/1
+course: '28020'
+title: Operating Systems T
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 9
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-06-03'
+  teaching_ids:
+  - '447114'
+  - '447115'
+  teachers:
+  - name: Bertozzi, Pietro
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Ciampolini, Anna
+    affiliation: disi
+    role:
+    - full professor
+  - name: Doti, Gabriele
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Loreti, Daniela
+    affiliation: disi
+    role:
+    - rtda
+  - name: Zanni, Alessandro
+    affiliation: disi
+    role:
+    - teaching tutor
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6672'
+    name: Electronics and Telecommunications Engineering
+    department: dei
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9065'
+    name: Electronics and Telecommunications Engineering
+    department: dei
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '447114'
+    - '447115'
+  laboratory:
+    value: true
+    evidence:
+    - Practical issues will be deepened via individual concurrent programming practice in laboratory (taught
+      in module 2).
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Knowledge of the principles of modern operating systems.
+- id: o2
+  text: System programming and concurrent programming capabilities.
+contents:
+- id: c1
+  text: 'Process management in UNIX / Linux: states, representation, management (scheduling), operations
+    and commands related to processes'
+- id: c2
+  text: CPU scheduling
+  items:
+  - id: c2.1
+    text: 'General concepts: queues, preemption, dispatcher'
+  - id: c2.2
+    text: Scheduling criteria
+  - id: c2.3
+    text: 'Scheduling algorithms: FCFS, SJF, with priority, round-robin, with multiple queues.'
+  - id: c2.4
+    text: Scheduling in UNIX, Linux and WinXP
+- id: c3
+  text: Process interaction through shared memory
+  items:
+  - id: c3.1
+    text: critical section and mutual exclusion
+  - id: c3.2
+    text: semaphores
+  - id: c3.3
+    text: 'hardware tools for synchronization: test-and-set'
+- id: c4
+  text: Interaction between processes by message passing
+  items:
+  - id: c4.1
+    text: direct / indirect, symmetrical / asymmetrical communication, buffering
+  - id: c4.2
+    text: 'interaction between Unix processes: pipe and fifo, synchronization through signals'
+- id: c5
+  text: File System Management
+  items:
+  - id: c5.1
+    text: file system and its implementation
+  - id: c5.2
+    text: 'the UNIX file system: logical and physical organization, commands and system calls for managing
+      and accessing files / directories'
+- id: c6
+  text: Memory Management
+  items:
+  - id: c6.1
+    text: address spaces and binding
+  - id: c6.2
+    text: 'contiguous memory allocation: single partition and multiple partitions; fragmentation;'
+  - id: c6.3
+    text: 'non-contiguous allocation: pagination, segmentation virtual'
+  - id: c6.4
+    text: memory memory management in UNIX / Linux
+- id: c7
+  text: Shell programming
+  items:
+  - id: c7.1
+    text: Introduction to the Linux bash
+  - id: c7.2
+    text: shell filter commands
+  - id: c7.3
+    text: Piping and redirection
+  - id: c7.4
+    text: Metacharacters expansion
+  - id: c7.5
+    text: Control structures
+  - id: c7.6
+    text: shell command files
+- id: c8
+  text: Concurrent programming
+  items:
+  - id: c8.1
+    text: The problem of mutual exclusion and its solutions.
+  - id: c8.2
+    text: 'synchronization tools in the shared memory model: the semaphore'
+  - id: c8.3
+    text: 'constructs for synchronization: the monitor'
+  - id: c8.4
+    text: synchronization between java threads
+- id: c9
+  text: I / O management
+  items:
+  - id: c9.1
+    text: I / O subsystem architecture
+  - id: c9.2
+    text: device driver
+  - id: c9.3
+    text: 'Management of devices: program control, interruption-based and DMA.'
+prerequisites: []
+bibliography: 'P. Ancilotti, M. Boari, A. Ciampolini, G. Lipari: Sistemi Operativi, seconda edizione,
+  McGraw-Hill, 2008.'
+removed: []

@@ -1,0 +1,99 @@
+format: evidence/1
+course: '41588'
+title: INTRODUZIONE ALL'ANALISI DEI DATI
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-25'
+    to: '2026-01-16'
+  teaching_ids:
+  - '493356'
+  teachers:
+  - name: Sirbu, Alina
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5982'
+    name: Biological Sciences
+    department: bigea
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6605'
+    name: Biological Sciences
+    department: bigea
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '493356'
+  laboratory:
+    value: true
+    evidence:
+    - Frontal lectures in class, Python exercises in computer lab.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: 'At the end of the course, the student: (i) know the basics of Python programming language;'
+- id: o2
+  text: (ii) is aware of different types of data-analytics (diagnostic, predictive, prescription, etc)
+    and of the main enabling techniques;
+- id: o3
+  text: (iii) is able to design and data-pipeline process, from the data acquisition until the data analysis
+    and valorization;
+- id: o4
+  text: (iv) knows the main applications of data analytics, with a special emphasis on biology.
+contents:
+- id: c1
+  text: 'The course is made of two parts: a first part concentrating on Python programming, and a second
+    part consisting of data analysis in Python.'
+- id: c2
+  text: Python programming
+  items:
+  - id: c2.1
+    text: Introduction to programming, algorithms, data structures.
+  - id: c2.2
+    text: 'The Python language: data types, control flow, data structures, functions, libraries.'
+- id: c3
+  text: Data analysis in Python
+  items:
+  - id: c3.1
+    text: Types of Biological data and suitable data structures.
+  - id: c3.2
+    text: Descriptive analytics for various data types using libraries.
+  - id: c3.3
+    text: Predictive analysis using regression and/or classification models.
+  - id: c3.4
+    text: Statistical tests and model analysis to identify important variables.
+  - id: c3.5
+    text: 'Python libraries: numpy, scipy, matplotlib, pandas, scikitlearn'
+prerequisites: []
+bibliography: |-
+  The slides and solutions to exercises will be made available through the virtual platform.
+
+  It is recommended that you complete the exam for the class Fondamenti di Matematica, Probabilità e Statistica (https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2023/490895) before taking this class.
+
+  For further reading:
+
+  - Starting out with Python, T. Gaddis, any edition.
+  - Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, Wes McKinney, any edition.
+removed: []

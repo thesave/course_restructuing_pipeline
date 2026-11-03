@@ -1,0 +1,154 @@
+format: evidence/1
+course: '96994'
+title: Smart Vehicular-Systems
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-05-27'
+  teaching_ids:
+  - '470998'
+  teachers:
+  - name: Girau, Roberto
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '470998'
+  laboratory:
+    value: true
+    evidence:
+    - Laboratory Sessions with the CARLA Simulator (Practice)
+    - The practical component consists of hands-on laboratory sessions based on the CARLA autonomous driving
+      simulator.
+  equivalent_courses: []
+  same_syllabus_as:
+  - '90074'
+outcomes:
+- id: o1
+  text: Students taking this class
+  items:
+  - id: o1.1
+    text: Will An extended knowledge of challenges and opportunites in the area of vehicular communications
+      including V2V and V2I. The class material will include real world examples and deployments. - Will
+      understand impact of mobility and propagation on Vehicular Systems performances - Will learn vehicular
+      application scenarios and their evolution - Will learn how design and model for connected/autonomous
+      vehicular systems.
+contents:
+- id: c1
+  text: Autonomy, mobility, and artificial intelligence are among the technological innovations that will
+    most deeply shape society in the coming years.
+- id: c2
+  text: This course provides a comprehensive survey of connected, mobile, and autonomous vehicular systems,
+    with the goal of understanding their fundamental building blocks and principles of operation.
+- id: c3
+  text: Students will explore a wide range of scenarios—from Advanced Driver Assistance Systems (ADAS)
+    to fully autonomous driving—showing how current technology is still in an early stage and how no universal
+    solution exists.
+- id: c4
+  text: Topics will cover sensing, perception, decision-making, networking, system design, and Digital
+    Twin–based approaches for modeling and simulation.
+- id: c5
+  text: Course Objectives
+  heading: true
+  items:
+  - id: c5.1
+    text: The course aims to provide students with a deep foundation for understanding how autonomous
+      and connected vehicular systems are designed, deployed, and validated today—and how they are likely
+      to evolve in the near future.
+  - id: c5.2
+    text: Laboratory sessions based on the CARLA simulator will allow hands-on experience with perception,
+      planning, control, and Digital Twin methodologies.
+  - id: c5.3
+    text: A successful student will be able to
+    items:
+    - id: c5.3.1
+      text: Understand the challenges and opportunities arising from autonomous vehicles, intelligent
+        mobility, and mobile robotics.
+    - id: c5.3.2
+      text: Gain in-depth knowledge of advanced networking and distributed systems concepts applied to
+        connected vehicles, including architectures beyond traditional Internet models.
+    - id: c5.3.3
+      text: Analyze the requirements of an autonomous system and select appropriate sensing, perception,
+        communication, and computation architectures.
+    - id: c5.3.4
+      text: Acquire hands-on familiarity with simulation tools (e.g., CARLA) and experimental platforms
+        for autonomous and connected systems.
+prerequisites:
+- id: p1
+  text: Students are expected to have
+  items:
+  - id: p1.1
+    text: A solid understanding of algorithms and basic AI concepts.
+  - id: p1.2
+    text: Good programming skills and familiarity with Linux environments and real-time or embedded systems.
+  - id: p1.3
+    text: Preferably, experience with AI frameworks and models (e.g., YOLO, TensorRT).
+  - id: p1.4
+    text: Knowledge of ROS, CUDA/Jetson programming, and introductory control theory is a plus, though
+      not mandatory.
+bibliography: |-
+  The primary material for this course will be provided directly by the instructor and will consist of research papers, technical reports, and selected excerpts from classic and modern references in autonomous driving, mobile systems, vehicular networking, and AI for mobility.
+
+  Students will also be required to complete online tutorials and technical documentation for specific tools and frameworks used in the laboratory activities (e.g., CARLA, ROS2, AI toolkits, sensor processing libraries).
+
+  Recommended Reading List
+
+  Although not mandatory, the following books provide useful background and complementary perspectives:
+
+  - Joseph O’Rourke, Computational Geometry, Cambridge University Press.
+    A classic text for understanding geometric algorithms involved in navigation, mapping, and spatial reasoning.
+  - Kevin M. Lynch & Frank C. Park, Modern Robotics: Mechanics, Planning, and Control, Cambridge University Press.
+    A foundational reference for kinematics, motion planning, and control in autonomous systems.
+  - Andreas Lindholm, Niklas Wahlström, Fredrik Lindsten,
+    Machine Learning: A First Course for Engineers and Scientists, Cambridge University Press.
+    A practical introduction to machine learning methods relevant to perception, prediction, and decision-making.
+  - Sean Meyn, Control Systems and Reinforcement Learning, Cambridge University Press.
+    A modern and rigorous bridge between classical control theory and reinforcement learning for autonomous behavior.
+removed: []

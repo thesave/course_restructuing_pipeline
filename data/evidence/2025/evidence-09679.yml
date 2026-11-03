@@ -1,0 +1,126 @@
+format: evidence/1
+course: 09679
+title: Data Base Sistems
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-18'
+    to: '2025-12-19'
+  teaching_ids:
+  - '526477'
+  teachers:
+  - name: Golfarelli, Matteo
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '526477'
+  laboratory:
+    value: true
+    evidence:
+    - Exercises and laboratory activities
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The student
+  items:
+  - id: o1.1
+    text: has a in depth knowledge about managing, organizing and planning an Information System. these
+      organizational and managerial competences are complemental to the technical ones in the database
+      area;
+  - id: o1.2
+    text: knows the techniques for analyze and classify software modules in the information system contex;
+  - id: o1.3
+    text: carries out feasibility studies and Business Process Reengineering project;
+  - id: o1.4
+    text: carries out database integration and master data projects;
+  - id: o1.5
+    text: acquires practical skills on the previous topics through interactive business cases and seminars.
+contents:
+- id: c1
+  text: Introduction to Information Systems
+- id: c2
+  text: IS classification
+- id: c3
+  text: Il portafoglio applicativo aziendale
+- id: c4
+  text: CIM systems
+- id: c5
+  text: ERP systems
+- id: c6
+  text: CRM systems
+- id: c7
+  text: Methods for IS design
+- id: c8
+  text: Resources and processes
+- id: c9
+  text: IS planning
+- id: c10
+  text: Business Process Reengineering
+- id: c11
+  text: Feasibility study
+- id: c12
+  text: Risk analysis
+- id: c13
+  text: cost-Benefit Analysis
+- id: c14
+  text: Architectural analysis of IS
+- id: c15
+  text: Scope statement
+- id: c16
+  text: ICT project management
+- id: c17
+  text: Database integration and Master Data Management
+prerequisites: []
+bibliography: |-
+  - Bracchi, Francalanci e Motta. Sistemi Informativi d'impresa [http://www.ateneonline.it/bracchi/]. McGrawHill, 2010.
+  - Bracchi, Francalanci e Motta. Sistemi Informativi e Aziende in rete [http://www.catalogo.mcgraw-hill.it/catLibro.asp?item_id=682]. McGrawHill, 2001.
+  - Ceri, Fraternali, Bongio, Brambilla, Comai, Matera. [http://www.webml.org/webml/page2.do?ctx1=IT] McGrawHill, 2003.
+removed: []

@@ -1,0 +1,128 @@
+format: evidence/1
+course: 93470-A
+title: Cybersecurity
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-23'
+    to: '2025-12-17'
+  teaching_ids:
+  - '477343'
+  - '479056'
+  teachers:
+  - name: Colajanni, Michele
+    affiliation: disi
+    role:
+    - full professor
+  - name: Marasco, Isabella
+    affiliation: disi
+    role:
+    - phd student
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6700'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '9063'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '477343'
+    - '479056'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: 'The student will learn: historical perspective and motivations for cyber-security, principles
+    of data security, principles of software security, component and connection security, network security.'
+contents:
+- id: c1
+  text: Cyber scenario
+- id: c2
+  text: 'Cybersecurity goals: security and availability of information and services'
+- id: c3
+  text: Defensive and Offensive security
+- id: c4
+  text: 'Analysis of cyber threats: actors and motivations'
+- id: c5
+  text: (Too many) vulnerability human and technological issues
+- id: c6
+  text: A top-down approach to cybersecurity
+- id: c7
+  text: Cyber risk management
+- id: c8
+  text: Qualitative and quantitative evaluation
+- id: c9
+  text: Strategies, policies and technologies
+- id: c10
+  text: Assessment and validation
+- id: c11
+  text: Cyber threat intelligence
+- id: c12
+  text: 'Modern approaches: Machine Learning for cybersecurity, Zero Trust, Deception'
+- id: c13
+  text: Competences and jobs related to cybersecurity
+prerequisites: []
+bibliography: Slides, teacher's notes, book chapters, scientific articles and online resources indicated
+  on the course website (virtuale.unibo.it).
+removed: []

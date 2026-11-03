@@ -1,0 +1,105 @@
+format: evidence/1
+course: '66870'
+title: Concurrent Models and Systems
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-05-21'
+  teaching_ids:
+  - '518515'
+  teachers:
+  - name: Gorrieri, Roberto
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '518515'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The course is about formal methods for the modelling, analysis and verification of distributed
+    systems, by using Petri nets and other concurrency models.
+- id: o2
+  text: At the end of the course, the student is able to build models of concurrent and distributed systems,
+    to analyze such models and to verify their properties.
+contents:
+- id: c1
+  text: Introduction to concurrency and to the problem of the correctness of reactive systems design.
+- id: c2
+  text: Petri nets and labeled transition systems
+- id: c3
+  text: Linear nets. Language equivalence, trace equivalence, isomorphism equivalence. Bisimulation. Modal
+    logic BML. Process algebra Lin. Representability theorem. Congruence and algebraic properties of bisimulation.
+    Sound and complete axiomatization.
+- id: c4
+  text: Forking nets. Team bisimulation. Modal logic TML. Process algebra Fork. Representability theorem.
+    Congruence and algebraic properties of team bisimuation. Sound and complete axiomatization.
+- id: c5
+  text: Petri nets. Place bisimulation. Structure-preserving bisimulation. Modal logics MKL and LKL. Process
+    algebra Pet. Representability theorem. Congruence and algebraic properties. Axiomatization.
+- id: c6
+  text: 'Other equivalences for Petri nets: sequential, concurrent, causal.'
+- id: c7
+  text: 'Bisimulation on linear nets with silent transitions: weak and branching bisimulation.'
+- id: c8
+  text: 'The language CCS: syntax and SOS semantics. Turing completeness of finitary CCS; undecidability
+    of behavioral equivalences of finitary CCS.'
+- id: c9
+  text: 'Distributed computability: Last man standing problem.'
+prerequisites: []
+bibliography: |-
+  R. Gorrieri. Syntax and Semantics of Petri Nets, Cambridge Tracts in TheoreticalComputer Science 63, CUP, 2025.
+
+  R. Gorrieri, C. Versari. Introduction to Concurrency Theory: Transition Systems and CCS, EATCS texts in theoretical computer science, Springer, 2015.
+
+  R. Gorrieri. Process Algebras for Petri Nets: The Alphabetization of Distributed Systems, EATCS monographs in theoretical computer science, Springer, 2017
+removed: []

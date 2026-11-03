@@ -1,0 +1,181 @@
+format: evidence/1
+course: '90749'
+title: Computing Education
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-05-20'
+  teaching_ids:
+  - '518540'
+  teachers:
+  - name: Davoli, Renzo
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Lodi, Michael
+    affiliation: disi
+    role:
+    - adjunct professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '518540'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The course aims to provide theoretical knowledge, techniques and tools helpful in teaching computer
+    science.
+- id: o2
+  text: At the end of the course, the student is familiar with the main pedagogical and didactical approaches
+    for teaching computer science at different school levels.
+- id: o3
+  text: Students can organise and teach computer science courses, compare and choose different methodologies
+    to generate teaching materials, and evaluate learning.
+contents:
+- id: c1
+  text: The objectives of this course include
+  items:
+  - id: c1.1
+    text: knowledge of some historical, epistemological, and ethical aspects of Computer Science as a
+      scientific discipline and of the reasons behind the need for its teaching;
+  - id: c1.2
+    text: understanding of pedagogical aspects and learning theories in the context of Computer Science
+      education;
+  - id: c1.3
+    text: knowledge of multiple teaching approaches specific to the subject;
+  - id: c1.4
+    text: knowledge of the main cognitive difficulties that learning Computer Science poses (with particular
+      reference to programming), and what possible strategies can be adopted to overcome them;
+  - id: c1.5
+    text: knowledge of specific software tools and physical computing devices to support the teaching
+      of Computer Science;
+  - id: c1.6
+    text: ability to formulate and manage study paths consistent with national guidelines and curricula
+      relating to Computer Science in schools of all levels.
+- id: c2
+  text: Module 1 Topics
+  heading: true
+  items:
+  - id: c2.1
+    text: Scientific view of Computer Science
+  - id: c2.2
+    text: 'Teaching of technological aspects: computer architecture, operating systems, networks'
+  - id: c2.3
+    text: Methodologies for Teaching Computer Science
+    items:
+    - id: c2.3.1
+      text: dramatization
+    - id: c2.3.2
+      text: making/tinkering with physical computing tools
+  - id: c2.4
+    text: 'Software Licenses (Free Software vs. Proprietary Software): Implications for Education'
+- id: c3
+  text: Module 2 Topics
+  heading: true
+  items:
+  - id: c3.1
+    text: Big Ideas of CS Education
+  - id: c3.2
+    text: Learning paradigms and theories, with particular reference to constructivism and constructionism
+      applied to computer science teaching
+  - id: c3.3
+    text: Top-down and bottom-up approaches in teaching computer science
+  - id: c3.4
+    text: “Coding”, Computational Thinking, and Computer Science
+  - id: c3.5
+    text: Teaching Programming, Algorithms, and Data Structures
+    items:
+    - id: c3.5.1
+      text: Educational implications of choosing programming languages
+    - id: c3.5.2
+      text: Difficulties and misconceptions in learning programming
+  - id: c3.6
+    text: Methodologies for Teaching Computer Science
+    items:
+    - id: c3.6.1
+      text: unplugged
+    - id: c3.6.2
+      text: program comprehension exercises
+    - id: c3.6.3
+      text: debugging of others' code
+    - id: c3.6.4
+      text: displaying the machine status while running a program
+  - id: c3.7
+    text: Evaluation/assessment methodologies for programming
+  - id: c3.8
+    text: Computer science in international and Italian school curricula and textbooks
+prerequisites: []
+bibliography: |-
+  There is no need to purchase any textbook.
+
+  Articles and documents to be studied will be provided during the course in electronic form on the course wiki (https://csed-unibo.github.io/#!index.md ) and on Virtuale.
+
+  Material of reference
+
+  M. Lodi (2020). Introducing Computational Thinking in K-12 Education: Historical, Epistemological, Pedagogical, Cognitive, and Affective Aspects [http://amsdottorato.unibo.it/9188/1/Tesi_Dottorato_Lodi.pdf] . Doctoral thesis. Selected chapters will be assigned for study.
+
+  Free materials
+
+  The magazine Hello World [https://www.raspberrypi.org/hello-world] from the Raspberry Pi Foundation offers very interesting content (both theoretical and practical). Note in particular the two "Special editions" ("Big books") at the bottom of the page, which can be considered simple textbooks for this course.
+
+  Many other materials are available on the page References [https://csed-unibo.github.io/#!pages/riferimenti.md]
+
+  Texts for further study
+
+  S. Grover. Computer Science in K-12: An A-To-Z Handbook on Teaching Programming. Edfinity, 2020. Simple but complete (the economical black and white version is recommended)
+
+  S. Sentance, E. Barendsen, N.R. Howard, C. Schulte. Computer Science Education: Perspectives on Teaching and Learning in School. Bloomsbury Academic. 2023 (2nd ed.). Additional resources available for free download [https://www.bloomsburyonlineresources.com/computer-science-education-2] Simple, more theoretical
+
+  O. Hazzan, T. Lapidot, N. Ragonis. Guide to teaching computer science: An activity-based approach. Third Edition. Springer, 2020. Freely downloadable from the UniBO network [https://link.springer.com/book/10.1007/978-3-030-39360-1] . More theoretical
+
+  S. Fincher, A. Robins. The Cambridge Handbook of Computing Education Research (Cambridge Handbooks in Psychology). Cambridge: Cambridge University Press, 2019.
+
+  Freely downloadable from the UniBO network [https://doi.org/10.1017/9781108654555] . To approach research in computer science education. Very comprehensive.
+removed: []

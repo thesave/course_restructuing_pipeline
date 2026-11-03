@@ -1,0 +1,77 @@
+format: evidence/1
+course: '93333'
+title: Programming Lab
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 3
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-09'
+    to: '2026-03-11'
+  teaching_ids:
+  - '455038'
+  teachers:
+  - name: Zuppiroli, Sara
+    affiliation: dse
+    role:
+    - adjunct professor
+  programmes:
+  - code: '6644'
+    name: Economics, Markets and Institutions
+    department: dse
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8038'
+    name: Economics, Markets and Institutions
+    department: dse
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - Practical exercises carried out either with their own laptops or using the laboratory PCs.
+    - As concerns the teaching methods of this course unit, all students must attendModules 1 and 2 on
+      Health and Safety online (https://www.unibo.it/en/services-and-opportunities/health-and-assistance/health-and-safety/online-course-on-health-and-safety-in-study-and-internship-areas)
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student has a basic knowledge of the programming language.
+- id: o2
+  text: Can use the acquired knowledge to autonomously implement algorithms and data structures for solving
+    problems.
+contents:
+- id: c1
+  text: Computational thinking.
+- id: c2
+  text: 'Programming in Python: names and their visibility, functions, editable and non-editable objects,
+    basic types (numbers, strings, lists, dictionaries).'
+- id: c3
+  text: Branching and iteration instructions.
+- id: c4
+  text: Sorting algorithms.
+prerequisites: []
+bibliography: |-
+  Allen B. Downey
+  Think Python 2e.
+  O'Reilly Media, 2012. ISBN 978-1449330729.
+  On-line manuscript: seegreenteapress.com/wp/think-python-2e (http://seegreenteapress.com/wp/think-python-2e)
+removed: []

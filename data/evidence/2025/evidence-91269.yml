@@ -1,0 +1,177 @@
+format: evidence/1
+course: '91269'
+title: Multimedia Data Management
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-18'
+    to: '2026-06-04'
+  teaching_ids:
+  - '518543'
+  teachers:
+  - name: Bartolini, Ilaria
+    affiliation: disi
+    role:
+    - full professor
+  - name: Ghasempouri, Seyedali
+    affiliation: disi
+    role:
+    - phd student
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '9063'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '518543'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as:
+  - '78096'
+outcomes:
+- id: o1
+  text: The course aims to provide the knowledge and skills necessary for the effective and efficient
+    management of multimedia (MM) data, with particular attention to the problems of MM data representation,
+    MM data retrieval models, and interaction paradigms between the user and the MM system (both for purposes
+    of data presentation and exploration).
+- id: o2
+  text: We first consider architectures of traditional ("standalone") MM systems; then, we concentrate
+    on more complex MM services, by primarily focusing on search engines, social networks and recommendation
+    systems.
+contents:
+- id: c1
+  text: The course intends to provide students with methodology, modeling, design, and implementation
+    skills/expertise related to the development of smart "MM data-intensive" applications and services
+    like the the ones included in commercial solutions like Google search engine, YouTube, Facebook, Instagram,
+    Flickr, and Twitter, just to named a few, but especially possible smarter extensions.
+- id: c2
+  text: Basics on Multimedia Data Management
+- id: c3
+  text: Multimedia data and content representations
+  items:
+  - id: c3.1
+    text: MM data and applications
+  - id: c3.2
+    text: MM data coding
+  - id: c3.3
+    text: MM data content representation
+- id: c4
+  text: How to find MM data of interest
+  items:
+  - id: c4.1
+    text: Description models for complex MM objects
+  - id: c4.2
+    text: Similarity measures for MM data content
+  - id: c4.3
+    text: MM Data Base Management Systems
+- id: c5
+  text: Efficient algorithms for MM data retrieval
+  items:
+  - id: c5.1
+    text: MM query formulation paradigms
+  - id: c5.2
+    text: Sequential retrieval of MM data
+  - id: c5.3
+    text: Index-based retrieval of MM data
+- id: c6
+  text: Automatic techniques for MM data semantic annotations
+- id: c7
+  text: Browsing MM data collections
+- id: c8
+  text: MM data presentation
+  items:
+  - id: c8.1
+    text: User interfaces
+  - id: c8.2
+    text: Visualization paradigms
+  - id: c8.3
+    text: Dimensionality reduction techniques
+- id: c9
+  text: Result accuracy, use cases and real applications
+  items:
+  - id: c9.1
+    text: Quality of the results and relevance feedback techniques
+  - id: c9.2
+    text: Use cases and demos of some applications
+- id: c10
+  text: Multimedia Data on the Web
+  items:
+  - id: c10.1
+    text: Web search engines
+  - id: c10.2
+    text: 'Graph-based data: semantic Web and social networks'
+  - id: c10.3
+    text: Web recommender systems
+- id: c11
+  text: N.B.
+- id: c12
+  text: For students of the second cycle degree programmes (LM) in Artificial intelligence and Computer
+    Science, the "Efficient algorithms for MM data retrieval" part of the program (that counts the 2 extra
+    CFU with respect to the 8 CFU of the master course in Computer Engineering) is not required for the
+    final exam.
+- id: c13
+  text: Students can decide to take the final exam in English or Italian.
+prerequisites:
+- id: p1
+  text: 'Constraints on previous knowledge: nothing.'
+- id: p2
+  text: The course has no specific prerequisites in terms of master's degree skills; it only requires
+    a bachelor's degree in "computer science" area (i.e., computer engineering, computer science, etc.).
+bibliography: Education material provided by the teachers (copies of the slides used in the classroom,
+  scientific literature, bibliography, and useful links).
+removed: []

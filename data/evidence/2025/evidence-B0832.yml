@@ -1,0 +1,157 @@
+format: evidence/1
+course: B0832
+title: Administration of Systems T
+sources:
+  outcomes: it
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-05-28'
+  teaching_ids:
+  - '487361'
+  teachers:
+  - name: Chirichella, Davide
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Iacobelli, Antonio
+    affiliation: disi
+    role:
+    - phd student
+  - name: Prandini, Marco
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '487361'
+  laboratory:
+    value: true
+    evidence:
+    - The course yields 6 CFU/ECTS corresponding to 60 hours of lectures and guided lab activities, with
+      a prevalence of the latter.
+    - During lab sessions, the command line tools in the GNU/Linux environment, useful to deal with the
+      subjects treated in the lectures, are introduced.
+    - Attendance is strongly recommended, especially to lab sessions.
+    - Guided lab activities are the best way to understand the real level of difficulty of different exercises.
+    - 'Please note that according to the ECTS definition, each credit represents 25 hours of student effort:
+      students are expected to contribute 90 hours of individual study and autonomous lab activity to
+      the improvement of their skills.'
+    - To this end, extensions to the guided lab activities are regularly suggested.
+  equivalent_courses:
+  - '88324'
+  - '28072'
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Conoscenza delle caratteristiche dei sistemi di elaborazione richieste per l'implementazione di
+    servizi Internet.
+- id: o2
+  text: Capacità di utilizzare strumenti a riga di comando per la configurazione e il monitoraggio di
+    sistemi server, sia in ambito locale che distribuito, e di realizzare programmi che li sfruttino per
+    l'automatizzazione di compiti complessi.
+- id: o3
+  text: Capacità di diagnosticare e risolvere anomalie nel funzionamento dei sistemi.
+contents:
+- id: c1
+  text: The goal of this course is to present the main subjects related to system administration, and
+    to provide some fundamental skills needed to configure and monitor GNU/Linux systems in particular.
+- id: c2
+  text: The program is composed of five main areas
+  items:
+  - id: c2.1
+    text: 'Local administration: hardware set-up, user account management, authorization mechanisms on
+      the Unix filesystem, command line tools to configure processes and to monitor resource usage, standard
+      daemons used for the automation of the administration tasks (e.g. scheduled execution, logging,
+      ...);'
+  - id: c2.2
+    text: 'Network management: interface and routing configuration, connection monitoring tools;'
+  - id: c2.3
+    text: 'Centralized monitoring: a short introduction to the platforms used in large and/or heterogeneous
+      installations, the SNMP protocol;'
+  - id: c2.4
+    text: 'Centralized configuration: overview of practical usage of protocols used for automatic network
+      configuration (RARP, BOOTP, DHCP,DNS), centralized authentication by means of LDAP; - High availability
+      distributed systems: basic concepts about availability'
+  - id: c2.5
+    text: 'Configuration as Code: automated creation and configuration of virtual systems by means of
+      tools such as, for example, OpenTofu, Vagrant, and Ansible'
+- id: c3
+  text: 'Bash shell programming is introduced and discussed in some depth during the whole course: it
+    is the foundation for practical activities regarding the theoretical subjects.'
+prerequisites:
+- id: p1
+  text: 'Entry requirements: IN ORDER TO EFFECTIVELY FOLLOW THE COURSE, A GOOD GRASP OF COMPUTER NETWORKS
+    AND OPERATING SYSTEMS IS ESSENTIAL.'
+bibliography: |-
+  On-line manuals on the lab workstations and virtual machines.
+
+  Handouts by the teacher, available on Virtuale (https://virtuale.unibo.it/). On the same website, all lab activities are documented and homework is assigned; old exams are available; for some, solutions are provided.
+
+  [ITALIAN] guidebooks published for free by Truelite: https://labs.truelite.it/projects/truedoc/wiki (cloning the git repo as specified on the wiki page). Countless resources in English, just search the web.
+
+  The closest match to the course's contents:
+
+  "Unix and Linux System Administration Handbook - 5th edition" di Evi Nemeth, Garth Snyder, Trent R. Hein, Ben Whaley, Dan Mackin; ed. Addison Wesley Professional (2017) - ISBN-13: 978-0134277554
+
+  For anyone wishing to acquire some knowledge about Microsoft Windows:
+
+  "Mastering Windows Server 2019 - Second Edition" di Jordan Krause
+
+  - Packt Publishing (2019)
+removed:
+- text: IMPORTANT FORMAL NOTE
+  reason: formal note
+- text: THE COURSES
+  reason: formal note
+- text: 88324 - System Administration T (PART OF 88326 System Administration and Security T I.C.)
+  reason: formal note
+- text: B0832 - AMMINISTRAZIONE DI SISTEMI T
+  reason: formal note
+- text: 28072 - Laboratory of System Administration T
+  reason: formal note
+- text: ARE THE SAME COURSE, SHOWN WITH DIFFERENT CODES FOR FORMAL REASONS; THEY CANNOT BE CHOSEN TOGETHER,
+    EVEN IF THE STUDY PLANS COMPILATION SYSTEM ALLOWS IT
+  reason: formal note

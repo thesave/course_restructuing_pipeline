@@ -1,0 +1,132 @@
+format: evidence/1
+course: '70226'
+title: Network Programming
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-19'
+    to: '2026-06-05'
+  teaching_ids:
+  - '412080'
+  teachers:
+  - name: Callegati, Franco
+    affiliation: disi
+    role:
+    - full professor
+  - name: Piroddi, Andrea
+    affiliation: disi
+    role:
+    - adjunct professor
+  programmes:
+  - code: '6669'
+    name: Biomedical Engineering
+    department: dei
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '6705'
+    name: Biomedical Engineering
+    department: dei
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '9082'
+    name: Biomedical Engineering
+    department: dei
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '9266'
+    name: Biomedical Engineering
+    department: dei
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '412080'
+  laboratory:
+    value: true
+    evidence:
+    - Laboratory experiences for Module 2 (16 hours)
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student should be able to understand the more common technologies
+    used to design network applications and the most common application and transport protocols.
+contents:
+- id: c1
+  text: The course will present the basic principles of design and implementation of network applications.
+- id: c2
+  text: The theoretical concepts presented will be applied in laboratory projects aimed at understanding
+    the implementation of network application in today Internet.
+- id: c3
+  text: 'Internet and computer networks: Internet, protocols, client-server architecture, protocol layers
+    and service models.'
+- id: c4
+  text: Channel reliability. Error correction versus error detection. The most common error detection
+    codes. ARQ protocols.
+- id: c5
+  text: 'Protocol analysis: sniffing, collection of traffic traces, analysis and debug, use of the Wireshark
+    protocol analyzer.'
+- id: c6
+  text: 'Application layer: architectures, application level protocols (Web and HTTP, FTP, SMTP, POP3,
+    IMAP, DNS), P2P architectures (BitTorrent), socket programming.'
+- id: c7
+  text: 'Transport layer: services, multiplexing and demultiplexing, connectionless service, UDP protocol,
+    reliable data transfer, connection-oriented communication, TCP protocol, congestion control.'
+- id: c8
+  text: 'Basics of cybersecurity: authentication, authorization, digital signatures and certificates.'
+prerequisites: []
+bibliography: James Kurose, Keith W. Ross. Computer Networking [Global Edition] Pearson; 8th edition (June
+  10, 2021), ISBN 1292405465.
+removed: []

@@ -1,0 +1,142 @@
+format: evidence/1
+course: B8563
+title: SISTEMI DI ELABORAZIONE ACCELERATA M
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-17'
+    to: '2025-12-19'
+  teaching_ids:
+  - '543027'
+  teachers:
+  - name: Mattoccia, Stefano
+    affiliation: disi
+    role:
+    - full professor
+  - name: Tosi, Fabio
+    affiliation: disi
+    role:
+    - rtda
+  programmes:
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6668'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6719'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '9254'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '543027'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student acquires advanced skills in the field of accelerated computing
+    and modern systems for high-performance computing (HPC).
+- id: o2
+  text: In particular, he/she develops an in-depth knowledge of the available acceleration technologies,
+    from SIMD extensions to modern GPU architectures and emerging frameworks for heterogeneous computing,
+    developing the ability to optimize computational problems through the appropriate choice of algorithmic
+    patterns, numerical formats and computation decomposition strategies.
+- id: o3
+  text: The student masters the programming tools for acceleration on CPUs and through CUDA for GPUs,
+    acquiring an advanced understanding of execution models and optimization techniques specific to each
+    platform.
+- id: o4
+  text: These skills allow to develop computationally efficient solutions in cutting-edge fields such
+    as artificial intelligence, big data processing and high-performance scientific computing.
+contents:
+- id: c1
+  text: Architectures and programming models for high-performance computing with a focus on computer vision
+    and artifical intelligence.
+- id: c2
+  text: '1: Introduction to high-performance computing'
+  items:
+  - id: c2.1
+    text: Parallel computing principles
+  - id: c2.2
+    text: 'Architectures for high-performance computing: CPU multi-core, GPU, sistemi embedded'
+- id: c3
+  text: '2: SIMD and Multi-threading (Module 1)'
+  items:
+  - id: c3.1
+    text: Introduction to SIMD
+  - id: c3.2
+    text: Multi-threading principles
+- id: c4
+  text: '3: GPU and CUDA C Programming (Module 2)'
+  items:
+  - id: c4.1
+    text: CUDA Programming Model
+  - id: c4.2
+    text: GPU Architectures and CUDA Execution Model
+  - id: c4.3
+    text: GPU Memory Hierarchy and Organization
+  - id: c4.4
+    text: 'CUDA Ecosystem: Libraries and Applications'
+- id: c5
+  text: '4: Dealing with real numbers: encoding and computations (Module 1)'
+- id: c6
+  text: Floating point
+- id: c7
+  text: Fixed point
+- id: c8
+  text: '5: Emerging technologies (Module 1)'
+  items:
+  - id: c8.1
+    text: FPGA (Field Programmable Gate Array)
+prerequisites: []
+bibliography: |-
+  Slides and source code availablein Virtuale.
+
+  For further details:
+
+  Cheng, J., Grossman, M., McKercher, T. (2014). Professional CUDA C Programming. Wrox Pr Inc. (1st edition)
+
+  Kirk, D. B., Hwu, W. W. (2013). Programming Massively Parallel Processors. Morgan Kaufmann (3rd edition)
+
+  Timothy G. Mattson, Yun (Helen) He, Alice E. Koniges, The OpenMP Common Core: Making OpenMP Simple Again, MIT Press, 2019
+
+  Jean-Michel Muller , Nicolas Brunie , Florent de Dinechin , Claude-Pierre Jeannerod , Mioara Joldes , Vincent Lefèvre , Guillaume Melquiond , Nathalie Revol , Serge Torre, Handbook of Floating-Point Arithmetic, Springer Birkhäuser 2018
+
+  Jean-Michel Muller, Elementary Functions: Algorithms and Implementation, Springer Birkhäuser 2016
+removed: []

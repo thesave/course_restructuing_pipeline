@@ -1,0 +1,101 @@
+format: evidence/1
+course: '28796'
+title: Elements of Databases
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-25'
+    to: '2025-12-19'
+  teaching_ids:
+  - '518550'
+  teachers:
+  - name: Branchetti, Simone
+    affiliation: disi
+    role:
+    - phd student
+  - name: Montesi, Danilo
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '518550'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student
+  items:
+  - id: o1.1
+    text: knows the semi structured and unstructured data models in relationship with the central constructors
+      of SQL/XML and XQuery;
+  - id: o1.2
+    text: knows the basic techniques of information retrieval and text analysis;
+  - id: o1.3
+    text: is capable of designing and developing a datawarehouse;
+  - id: o1.4
+    text: is capable of conducting a project using the basic data mining techniques
+contents:
+- id: c1
+  text: Structured, unstructured and semi structured data models.
+- id: c2
+  text: The limits of SQL
+- id: c3
+  text: An introduction to SQL/XML and XQuery
+- id: c4
+  text: The information retrieval models (boolean and vectors space) and web information retrieval (PageRank)
+- id: c5
+  text: The datawarehousing (OLAP) and data mining (Machine Learning)
+prerequisites: []
+bibliography: |-
+  - A. Moller et al - Introduzione a XML - Addison Wesley, 2007 ISBN: 9788871923734
+  - R. Baeza-Yates et al – Introduction to Information Retrieval - Cambridge University Press, 2008 ISBN: 0521865719
+  - P.N. Tan et al - Introduction to Data Mining - Financial Times Prentice Hall, 2019 ISBN: 9780273769224
+  - M. Golfarelli et al - Datawarehouse - Teoria e pratica della progettazione - McGrawHill, 2006 ISBN: 9788838662911
+removed: []

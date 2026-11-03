@@ -1,0 +1,155 @@
+format: evidence/1
+course: 10906-A
+title: Databases
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 12
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-05-20'
+  teaching_ids:
+  - '378217'
+  teachers:
+  - name: Di Domenico, Nicolò
+    affiliation: disi
+    role:
+    - phd student
+  - name: Franco, Annalisa
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Notaro, Fabio
+    affiliation: disi
+    role:
+    - phd student
+  programmes:
+  - code: '6669'
+    name: Biomedical Engineering
+    department: dei
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '6705'
+    name: Biomedical Engineering
+    department: dei
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '9082'
+    name: Biomedical Engineering
+    department: dei
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '9266'
+    name: Biomedical Engineering
+    department: dei
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '378217'
+  laboratory:
+    value: true
+    evidence:
+    - The course is integrated with guided class and laboratory exercises, where the theoretical aspects
+      are put into practice.
+    - As concerns the teaching methods of this course unit, all students must attend Module 1, 2 on Health
+      and Safety (https://elearning-sicurezza.unibo.it/) online
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Fundamentals of the relational database systems technology; methodologies and tools for database
+    design and implementation.
+contents:
+- id: c1
+  text: 'Main components of a RDBMS: Query Optimizer, Transaction Manager, Scheduler, Recovery Manager,
+    Cache Manager, Storage Manager, Access Methods.'
+- id: c2
+  text: 'Data Models: conceptual vs. logical models. The relational model.'
+- id: c3
+  text: 'Conceptual database design: the Entity-Relationship model, introduction to requirement analysis
+    and to conceptual database design.'
+- id: c4
+  text: 'Logical database design: workload estimation, schema restructuration, entity and associations
+    translation.'
+- id: c5
+  text: 'Normal forms: functional dependencies, 1NF, 2NF, 3NF, BCNF.'
+- id: c6
+  text: 'Relational algebra: basic and derived operators.'
+- id: c7
+  text: 'The SQL language : DDL, DML and DCL statements.'
+- id: c8
+  text: 'Transactions: ACID properties, concurrency management, protocols.'
+- id: c9
+  text: Data Structures in secondary memory and related management algorithms (sequential and direct access
+    organizations, primary and secondary indeces, B-tree, B*-tree and B+tree).
+- id: c10
+  text: 'Database applications: overview of data access modalities (examples in Java and .NET C#).'
+- id: c11
+  text: Description of the main client-server RDBMS architectures, hints on DDBMS and cloud databases.
+- id: c12
+  text: Brief introduction to NoSQL Systems.
+prerequisites: []
+bibliography: |-
+  Lecture slides are available at Unibo e-learning platform.
+
+  D. Maio, S. Rizzi, A. Franco. Esercizi di Progettazione di Basi di Dati. Esculapio, 2005.
+
+  Further readings
+
+  R. Elmasri, S. Navathe. Sistemi di basi di dati – Fondamenti e complementi (settima edizione). Pearson, 2018.
+
+  P. Atzeni, S. Ceri, P. Fraternali, S. Paraboschi, R. Torlone. Basi di Dati, McGraw-Hill Italia, 2018.
+
+  P. Ciaccia, D. Maio. Lezioni di Basi di Dati. Esculapio, 2002.
+removed: []

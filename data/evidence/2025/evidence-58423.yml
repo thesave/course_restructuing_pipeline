@@ -1,0 +1,94 @@
+format: evidence/1
+course: '58423'
+title: Internet Architecture
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 9
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-04-29'
+  teaching_ids:
+  - '523718'
+  teachers:
+  - name: Armandi, Vincenzo
+    affiliation: dar
+    role:
+    - phd student
+  - name: Roccetti, Marco
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '6060'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6641'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8014'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '523718'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Learning the Internet architecture, its organizazion, its communication protocols and prominent
+    applications (i.e., web)
+contents:
+- id: c1
+  text: 'Internetworking: fundamentals'
+- id: c2
+  text: Communication protocols for LAN, WAN, MAN
+- id: c3
+  text: MAC, Transport, and Application Layers
+- id: c4
+  text: Internet structure
+- id: c5
+  text: Routing in Internet
+- id: c6
+  text: Internet applications
+- id: c7
+  text: Ethernet, IEEE 802.11, HDLC, PPP, ARP, RARP, IP, TCP, UDP, HTTP, SMTP, POP, IMAP, ICMP, TELNET,
+    FTP
+- id: c8
+  text: World Wide Web, Email, news, Chat, Client/Server, P2P file-sharing
+- id: c9
+  text: Security and Privacy (brief notes)
+- id: c10
+  text: Wireless Networking and Internet (brief notes)
+- id: c11
+  text: Focus on HTTP, TCP and IP
+prerequisites: []
+bibliography: F. Kurose, K. W. Ross, Internet e Reti di Calcolatori, 3a Ed. or later ones, Pearson Ed.
+removed: []

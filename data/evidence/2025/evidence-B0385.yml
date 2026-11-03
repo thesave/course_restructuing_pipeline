@@ -1,0 +1,100 @@
+format: evidence/1
+course: B0385
+title: Natural Language Processing
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Forli
+  schedules:
+  - from: '2025-09-29'
+    to: '2025-12-17'
+  teaching_ids:
+  - '532362'
+  teachers:
+  - name: Barron Cedeno, Luis Alberto
+    affiliation: dit
+    role:
+    - associate professor
+  programmes:
+  - code: '6826'
+    name: Specialized Translation
+    department: dit
+    campus: Forlì
+    cycle: second
+    languages:
+    - english
+  - code: '9174'
+    name: Specialized Translation
+    department: dit
+    campus: Forlì
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as:
+  - '91258'
+outcomes:
+- id: o1
+  text: The student knows the basic theoretical aspects of Natural Language Processing (NLP); s/he is
+    able to perform core NLP tasks, such as tokenisation, vectorisation and similarity computations; s/he
+    is able to build and analyse corpora for the construction of prediction models; s/he is able to apply
+    supervised models for typical NLP problems such as topic identification or sentiment analysis.
+contents:
+- id: c1
+  text: Whereas the contents could be (slightly) adapted according to the students skills and interests,
+    the general structure of the course will be as follows.
+- id: c2
+  text: Introduction to natural language processing
+- id: c3
+  text: Words and vector space model
+- id: c4
+  text: Naive Bayes
+- id: c5
+  text: Word vectors
+- id: c6
+  text: From counts to meaning
+- id: c7
+  text: Training and evaluation in machine learning
+- id: c8
+  text: Introduction to LSA
+- id: c9
+  text: Introduction to neural networks
+- id: c10
+  text: Word embeddings
+- id: c11
+  text: From document representations towards sequences
+- id: c12
+  text: Convolutional NNs for text
+- id: c13
+  text: Recurrent NNs for text
+- id: c14
+  text: Beyond
+prerequisites: []
+bibliography: |-
+  1. Hobson Lane, Cole Howard, Hannes Hapke (2019). Natural Language Processing in Action Understanding, analyzing, and generating text with Python (https://www.manning.com/books/natural-language-processing-in-action). Manning Publications.
+
+  Optional
+  2. Dirk Hovy (2020). Text analysis in Python for social scientists (https://www.cambridge.org/core/elements/abs/text-analysis-in-python-for-social-scientists/BFAB0A3604C7E29F6198EA2F7941DFF3). Cambridge University Press.
+  3. Kenneth Ward Church. Unix for poets. (https://www.cs.upc.edu/~padro/Unixforpoets.pdf)
+  4. Dan Jurafsky and James H. Martin. Speech and Language Processing (http://web.stanford.edu/~jurafsky/slp3/)(3rd ed. draft) Draft chapters in progress, October 16, 2019
+  5. Steven Bird, Ewan Klein, and Edward Loper. Natural Language Processing with Python (http://www.nltk.org/book/).
+  6. Yoav Goldberg. (2017). Neural Network Methods for Natural Language Processing (G. Hirst, ed.). Morgan & Claypool Publishers.
+  7. Emily M. Bender (2013). Linguistic Fundamentals for Natural Language Processing: 100 Essentials from Morphology and Syntax Synthesis Lectures on Human Language Technologies. Morgan & Claypool Publishers.
+removed: []

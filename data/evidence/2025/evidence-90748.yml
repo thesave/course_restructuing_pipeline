@@ -1,0 +1,123 @@
+format: evidence/1
+course: '90748'
+title: Blockchain and Cryptocurrencies
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-22'
+    to: '2025-12-05'
+  teaching_ids:
+  - '518539'
+  teachers:
+  - name: Ferretti, Stefano
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6700'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '9063'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '518539'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student knows the relevant themes related to blockchain technologies,
+    cryptocurrencies, smart contracts and novel applications that can be built over the blockchain.
+- id: o2
+  text: The student is able to develop simple smart contracts that can be deployed on a blockchain.
+contents:
+- id: c1
+  text: Bitcoin and novel cryptocurrencies gathered momentum in the last months.
+- id: c2
+  text: More and more investors look with interest at these technologies, while others label them as a
+    dangerous speculative bubble.
+- id: c3
+  text: The truth is that the blockchain, and the alternative implementations of a distributed ledger,
+    represent very interesting technologies, that can be exploited to build novel distributed applications.
+- id: c4
+  text: The underlying building blocks are related to many concepts and research areas of computer science
+    in general.
+- id: c5
+  text: This course will illustrate the main principles and conceptual foundations of the blockchain and
+    the Bitcoin network.
+- id: c6
+  text: Introduction to peer-to-peer sysystems
+- id: c7
+  text: Overlay topologies and decentralization
+- id: c8
+  text: Introduction to Crypto and Cryptocurrencies
+- id: c9
+  text: 'The blockchain: how to achieve decentralization'
+- id: c10
+  text: Transactions and transaction scripting languages
+- id: c11
+  text: Mining
+- id: c12
+  text: Attacks to the blockchain
+- id: c13
+  text: Anonymity
+- id: c14
+  text: Smart contracts
+prerequisites: []
+bibliography: Lecture notes and slides will be provided by the instructor, along with papers and a list
+  of bibliographical references and additional material. All the course material is in English.
+removed: []

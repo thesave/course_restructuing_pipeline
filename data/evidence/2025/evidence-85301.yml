@@ -1,0 +1,82 @@
+format: evidence/1
+course: '85301'
+title: Algorithms and Data Structures in Biology
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-03-03'
+    to: '2026-05-19'
+  teaching_ids:
+  - '424201'
+  teachers:
+  - name: Cormio, Anna
+    affiliation: fabit
+    role:
+    - teaching tutor
+  - name: Malizia, Enrico
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '6619'
+    name: Genomics
+    department: fabit
+    campus: Bologna
+    cycle: first
+    languages:
+    - english
+  - code: '9211'
+    name: Genomics
+    department: fabit
+    campus: Bologna
+    cycle: first
+    languages:
+    - english
+  service:
+    value: true
+    disi_teaching_ids:
+    - '424201'
+  laboratory:
+    value: true
+    evidence:
+    - Class lectures; Practical exercises in the lab.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: By the end of the course, the student his familiar with the design and analysis of correct and
+    efficient algorithms and data structures.
+- id: o2
+  text: In particular, the student has basic knowledge of algorithms and data structures.
+- id: o3
+  text: The student is able to design correct and efficient algorithms for common computational tasks
+    in biology and to analyse existing algorithms and data structures.
+contents:
+- id: c1
+  text: 'Concepts of algorithm and computational complexity: definition of algorithm, recursive algorithms
+    and iterative algorithms, asymptotic notation.'
+- id: c2
+  text: 'Exhaustive Search: restriction mapping, motif finding.'
+- id: c3
+  text: 'Greedy algorithms: sorting by reversals, approximate algorithms.'
+- id: c4
+  text: 'Dynamic programming: edit distance, Manhattan distance.'
+- id: c5
+  text: Divide and Conquer.
+prerequisites: []
+bibliography: Neil C. Jones and Pavel A. Pevzner. An Introduction to Bioinformatics Algorithms. MIT Press,
+  2004.
+removed: []

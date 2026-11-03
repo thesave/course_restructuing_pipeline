@@ -1,0 +1,116 @@
+format: evidence/1
+course: '88566'
+title: Web Technology
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 9
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-24'
+    to: '2025-12-19'
+  teaching_ids:
+  - '436428'
+  teachers:
+  - name: Grillo, Remo
+    affiliation: ficlit
+    role:
+    - phd student
+  - name: Schimmenti, Andrea
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Spinaci, Gianmarco
+    affiliation: ficlit
+    role:
+    - phd student
+  - name: Vitali, Fabio
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '436428'
+  laboratory:
+    value: true
+    evidence:
+    - The course includes a fundamentals section in the classroom, lab exercises, and a project carried
+      out in groups of 2–3 people aimed at developing a web application using the latest development technologies.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student knows the most important technologies used in the World
+    Wide Web context.
+- id: o2
+  text: The student is able to create web documents and simple distributed web applications, determine
+    their visual aspects, verify their correctness and universality, and design and verify their usability
+    and user experience.
+contents:
+- id: c1
+  text: The course covers the following topics
+  items:
+  - id: c1.1
+    text: 'Fundamentals: Layer 7 protocols, character encodings, standardization bodies'
+  - id: c1.2
+    text: 'Core web technologies: HTTP, URI, HTML, CSS, XML'
+  - id: c1.3
+    text: 'Server-side technologies for web applications: PHP, Python, NodeJs'
+  - id: c1.4
+    text: 'Client-side technologies for web applications: JavaScript, Ajax, JSON, JavaScript frameworks'
+  - id: c1.5
+    text: 'Component-based web programming: Angular, React, Vue'
+  - id: c1.6
+    text: 'Introduction to some Semantic Web technologies: RDF, OWL, SPARQL, ontologies'
+  - id: c1.7
+    text: 'User Experience Design for websites: the Garrett model'
+prerequisites: []
+bibliography: Due to the rapid evolution of the field, there is no textbook that covers the entire subject.
+  Students are provided with slides shown during lectures and are guided from time to time to typically
+  free and online resources for completing the course and exploring topics in greater depth.
+removed:
+- text: 'Important: Students with specific learning disorders (SLD) or temporary/permanent disabilities
+    are invited to promptly contact the appropriate University office (https://site.unibo.it/studenti-con-disabilita-e-dsa/en
+    ) and agree with the teacher on the most effective strategies for attending the lectures and preparing
+    for the exam.'
+  reason: accessibility

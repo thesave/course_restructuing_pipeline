@@ -1,0 +1,118 @@
+format: evidence/1
+course: '87469'
+title: Decision Making with Constraint Programming
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-23'
+    to: '2025-12-10'
+  teaching_ids:
+  - '518531'
+  teachers:
+  - name: Kiziltan, Zeynep
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '518531'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: This course covers the fundamental methods in artificial intelligence to model and solve combinatorial
+    problems requiring to take (optimal) decisions in the presence of many complex constraints.
+- id: o2
+  text: Such problems appear often in diverse domains of science, business and industry.
+- id: o3
+  text: The inherent difficulty in solving such practically crucial problems has lead to the development
+    of Constraint Programming (CP), an intelligent decision-support technology.
+- id: o4
+  text: A growing number of companies and research institutions worldwide successfully apply CP technology
+    and contribute to its advancement.
+- id: o5
+  text: Skills in this area are therefore in high demand in the job market.
+- id: o6
+  text: The course combines theoretical foundations with practical modelling and solving of realistic
+    problems.
+- id: o7
+  text: At the end of the course, the student has an understanding of the advanced modelling techniques
+    and efficient solution methods, and possesses the necessary skills for modelling in a CP language
+    and solving with a CP solver.
+contents:
+- id: c1
+  text: Overview and successful applications of Constraint Programming (CP)
+- id: c2
+  text: Modeling techniques
+- id: c3
+  text: Local consistency notions and constraint propagation
+- id: c4
+  text: Global constraints
+- id: c5
+  text: Constructive tree search algorithms, search and propagation, branching heuristics, randomization
+    and search restarts
+- id: c6
+  text: Optimization problems
+- id: c7
+  text: Constraint-based scheduling
+- id: c8
+  text: Heuristic search methods
+- id: c9
+  text: Hybrid CP and heuristic search methods
+- id: c10
+  text: Advanced topics and hot research topics in CP
+prerequisites:
+- id: p1
+  text: 'Prerequisites: Basic computer science courses such as discrete mathematics, logic, algorithms
+    and data structures, programming. Prior knowledge on artificial intelligence is not necessary.'
+bibliography: |-
+  - Lecture slides and bibliography of scientific articles provided by the teaching staff.
+  - Handbook of Constraint Programming. F. Rossi, P. van Beek, T. Walsh (eds), Elsevier Science, 2006.
+  - Hybrid Optimization. M. Milano and P. van Hentenryck (eds), Springer, 2011.
+removed: []

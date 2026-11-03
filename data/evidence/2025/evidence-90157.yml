@@ -1,0 +1,128 @@
+format: evidence/1
+course: '90157'
+title: Open Science
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-04-09'
+    to: '2026-05-21'
+  teaching_ids:
+  - '443753'
+  teachers:
+  - name: Peroni, Silvio
+    affiliation: ficlit
+    role:
+    - associate professor
+  programmes:
+  - code: '6736'
+    name: Digital Humanities and Digital Knowledge
+    department: ficlit
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '9224'
+    name: Digital Humanities and Digital Knowledge
+    department: ficlit
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the students knows the theoretical and social principles characterizing
+    the Open Science movement, as well as the most common practices to set up and develop Open Science
+    projects.
+- id: o2
+  text: The student is able to understand and use the main tools and techniques for gathering, analyzing,
+    modifying, investigating open data of different domains, and to communicate the results of research
+    works and experiments by means of typical and effective Open Science channels, such as the Web and
+    Semantic Publishing technologies
+contents:
+- id: c1
+  text: The course is organised in nine lectures and a final wrap-up session, and requires an active and
+    intensive participation of the students for its entire duration.
+- id: c2
+  text: Each lecture is organised in three parts.
+- id: c3
+  text: In the first part (45 minutes), a theoretical and historical introduction about the specific topic
+    of the lecture is provided.
+- id: c4
+  text: In the second part (45 minutes), a structured discussion on a scientific article provided by the
+    professor in the previous lecture is organised.
+- id: c5
+  text: In the third part (one hour an half), all students and professor participate in an hands-on session
+    based on existing tools that enable the experimentation and/or implementation of the project.
+- id: c6
+  text: Topics of the lectures
+  items:
+  - id: c6.1
+    text: Introduction to Open Science
+  - id: c6.2
+    text: Reproducibility
+  - id: c6.3
+    text: FAIR and Open Data
+  - id: c6.4
+    text: Open Methodology
+  - id: c6.5
+    text: Open Peer Review
+  - id: c6.6
+    text: Open Source Software
+  - id: c6.7
+    text: Open Access
+  - id: c6.8
+    text: Open Metrics
+  - id: c6.9
+    text: Open Infrastructures
+  - id: c6.10
+    text: Wrap-up session
+prerequisites: []
+bibliography: |-
+  Open access articles and papers will be made freely available to students in the GitHub repository of the course (https://github.com/open-sci/2025-2026) during the course. Slides and any additional material
+  will be made also available in the same
+  repository.
+
+  The GitHub repository of the Open Science course held in the previous year (https://github.com/open-sci/2024-2025) and the following open access book could be helpful to students as
+  background material, in order to practice basic terminologies of the
+  course:
+
+  Bartling, S., Friesike, S. (2014). Opening Science. Cham, Switzerland: Springer. ISBN: 978-3-319-00026-8. DOI: https://doi.org/10.1007/978-3-319-00026-8
+
+  Due to the practical focus of the course, preliminary knowledge and practice on computational thinking (e.g. algorithms, data structures, and algorithmic techniques) and programming topics (e.g. Python and basics of Javascript libraries for web and data development) is highly recommended.
+
+  A minimal bibliography on the two topics mentioned above is:
+
+  - Peroni, S. (2020). Computational Thinking and Programming book. https://comp-think.github.io
+  - Tagliaferri, L. (2018). How To Code in Python. ISBN: 978-0999773017. Full text available online (https://www.digitalocean.com/community/books/digitalocean-ebook-how-to-code-in-python).
+  - Gans, M., Hodges, T., Wilson, G. (2020). JavaScript for Data Science. ISBN: 978-0367422486. Full text available online (https://js4ds.org/).
+  - Majorek, J. (2020). 19 Popular JavaScript Libraries for Data Visualization in 2021. https://www.monterail.com/blog/javascript-libraries-data-visualization
+removed:
+- text: The dates and times of all the lectures above are available in the section "Schedule" of the GitHub
+    repository of the course (https://github.com/open-sci/2025-2026#schedule).
+  reason: schedule
+- text: Students with specific learning disorders (SLD) or temporary/permanent disabilities should contact
+    the appropriate University office (https://site.unibo.it/studenti-con-disabilita-e-dsa/en) immediately
+    and agree with the teacher the most effective strategies for attending the lectures and preparing
+    for the exam.
+  reason: accessibility

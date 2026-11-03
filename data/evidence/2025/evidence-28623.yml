@@ -1,0 +1,123 @@
+format: evidence/1
+course: '28623'
+title: Foundations of Informatics and Laboratory
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 12
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-16'
+    to: '2026-06-05'
+  teaching_ids:
+  - '530782'
+  teachers:
+  - name: Calvio, Alessandro
+    affiliation: ciri-ict
+    role:
+    - research scholarship holder
+  - name: Foschini, Luca
+    affiliation: disi
+    role:
+    - full professor
+  - name: Scotece, Domenico
+    affiliation: disi
+    role:
+    - rtda
+  programmes:
+  - code: '6672'
+    name: Electronics and Telecommunications Engineering
+    department: dei
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '9065'
+    name: Electronics and Telecommunications Engineering
+    department: dei
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '530782'
+  laboratory:
+    value: true
+    evidence:
+    - The course includes 60 hours of lectures and 60 hours of lab.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student is introduced to the use of a high-level programming language
+    and associated development environments.
+- id: o2
+  text: The student will develop analysis, specification, and design of algorithms capacities.
+contents:
+- id: c1
+  text: Introduction to computer science
+- id: c2
+  text: Introduction to computers
+- id: c3
+  text: Introduction to networking
+- id: c4
+  text: Introduction to Operating Systems
+- id: c5
+  text: Algorithms and programming languages
+- id: c6
+  text: Construction of software components
+- id: c7
+  text: Methodologies for the design of problem solving on a small scale
+- id: c8
+  text: Data Types
+- id: c9
+  text: Input / Output
+- id: c10
+  text: Expressions and control statements
+- id: c11
+  text: Functions and Procedures
+- id: c12
+  text: Recursive function invocation (introductory references)
+- id: c13
+  text: Activation record model and run-time
+- id: c14
+  text: Arrays and strings
+- id: c15
+  text: Matrices
+- id: c16
+  text: Text files and binary files
+- id: c17
+  text: Dynamic memory allocation
+- id: c18
+  text: Unix commands and console (introductory references)
+- id: c19
+  text: C-language theoretical lessons will be completed by a strong lab part with numerous exercises
+    and examples of hands-on programming in order to provide students with the ability to design and analyze
+    simple algorithms (e.g., studying sorting algorithms and well-known numerical computation algorithms)
+    giving at the same time intuitive notions about computational complexity.
+prerequisites: []
+bibliography: |-
+  - Class slides available in material in electronic format (https://virtuale.unibo.it/course/view.php?id=60680) .
+  - D. Mandrioli, S. Ceri, L. Sbattella, P. Cremonesi, G. Cugola: "Informatica: Arte e mestiere", Terza Edizione, McGraw-Hill, Giugno 2008.
+
+  C language:
+
+  - Kernighan, Ritchie: "The C Programming Language".
+  - H. M. Deitel, J. Deitel, "C How to Program", Seventh Edition, Pearson-Prentice Hall, 2013.
+
+  C exercises:
+
+  - A. Ciampolini, E. Lamma: "Esercizi di Programmazione in Linguaggio C", Progetto Leonardo, Esculapio, Bologna, 1999.
+removed: []

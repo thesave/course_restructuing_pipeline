@@ -1,0 +1,145 @@
+format: evidence/1
+course: 07276-A
+title: Computer Science
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 8
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-24'
+    to: '2026-05-28'
+  teaching_ids:
+  - '523751'
+  teachers:
+  - name: Corona, Gaia
+    affiliation: fabit
+    role:
+    - phd student
+  - name: Del Duchetto, Federica
+    affiliation: mat
+    role:
+    - teaching tutor
+  - name: Martini, Simone
+    affiliation: disi
+    role:
+    - full professor
+  - name: Sbaraglia, Marco
+    affiliation: mat
+    role:
+    - teaching tutor
+  programmes:
+  - code: '5827'
+    name: Mathematics
+    department: mat
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '6061'
+    name: Mathematics
+    department: mat
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6649'
+    name: Mathematics
+    department: mat
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6730'
+    name: Mathematics
+    department: mat
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8010'
+    name: Mathematics
+    department: mat
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8773'
+    name: Philosophical Sciences
+    department: filo
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '523751'
+  laboratory:
+    value: true
+    evidence:
+    - During the lab hours the instructor is joined by several teaching assistants.
+    - As concerns the teaching methods of this course unit, all students must attend Modules 1 and 2 on
+      Health and Safety online (https://www.unibo.it/en/services-and-opportunities/health-and-assistance/health-and-safety/online-course-on-health-and-safety-in-study-and-internship-areas)
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Upon completion of the course, the student knows a high-level programming language and some fundamental
+    concepts of computer science, such as algorithm, computational complexity, abstract machine, data
+    type, and some notable algorithms.
+- id: o2
+  text: The student is able to analyze and design algorithms, which he/she can implement in the programming
+    language studied.
+contents:
+- id: c1
+  text: Computer science and problem solving.
+- id: c2
+  text: Abstract machines.
+- id: c3
+  text: Python machine.
+- id: c4
+  text: 'Programming in Python: names and visibility, functions, immutable and mutable objects, basic
+    data types and their use in the solution of problems.'
+- id: c5
+  text: Classes and objects.
+- id: c6
+  text: Abstract data types as classes.
+- id: c7
+  text: Sorting algorithms.
+- id: c8
+  text: Introduction to computational complexity.
+- id: c9
+  text: 'Limitations of effective procedures: non decidable problems.'
+- id: c10
+  text: The course involves an important lab activity, where the instructors is joined by teaching assistants.
+prerequisites: []
+bibliography: |-
+  John V. Guttag
+  Introduction to Computation and Programming Using Python
+  Third Edition: With Application to Computational Modeling and Understanding Data
+  MIT Press, 2021
+
+  Other textbooks:
+
+  Allen B. Downey
+  Think Python 2e.
+  O'Reilly Media, 2012. ISBN 978-1449330729.
+  On-line manuscript: see greenteapress.com/wp/think-python-2e/
+
+  Jessen Havill
+  Discovering Computer Science: Interdisciplinary Problems, Principles, and Python Programming
+  Chapman and Hall/CRC. ISBN 9781482254143
+removed: []

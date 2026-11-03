@@ -1,0 +1,201 @@
+format: evidence/1
+course: '81683'
+title: Internet of Things
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-18'
+    to: '2026-05-14'
+  teaching_ids:
+  - '446612'
+  - '479055'
+  teachers:
+  - name: Bononi, Luciano
+    affiliation: disi
+    role:
+    - full professor
+  - name: Di Felice, Marco
+    affiliation: disi
+    role:
+    - full professor
+  - name: Ribeiro Zyrianoff, Ivan Dimitry
+    affiliation: dicam
+    role:
+    - adjunct professor
+  programmes:
+  - code: 0934
+    name: Electronic Engineering
+    department: dei
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '5898'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6640'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6698'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6700'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '6716'
+    name: Electronic Engineering
+    department: dei
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8009'
+    name: Computer Science
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '9063'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '446612'
+    - '479055'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, students will learn the architectures and methodologies at the basis
+    of the Internet of Things (IoT), and will develop advanced competences about the wireless technologies,
+    the network protocols, the integration of mobile and pervasive end-devices in a Machine-to-Machine
+    (M2M) paradigm, and the techniques and tools for sensor data management and analytics.
+- id: o2
+  text: They will be able to design and implement complex and heterogeneous IoT systems composed of networked
+    edge sensing devices, fog/cloud platforms for scalable data management and advanced software for sensor
+    data analytics via machine-learning and statistical techniques.
+- id: o3
+  text: Middleware platforms for M2M-based IoT systems will be illustrated as well as edge/distributed/cloud
+    computing principles.
+- id: o4
+  text: New services, service platforms and application scenarios will be illustrated, designed and experimented,
+    with high emphasis on advanced and visionary services.
+contents:
+- id: c1
+  text: The course introduces the enabling technologies, protocols, software architectures, and applications
+    related to the emerging paradigm of the Internet of Things (IoT).
+- id: c2
+  text: After a brief introduction to the topics of pervasive computing and its emerging application areas
+    (Industry 4.0, smart home automation, intelligent transportation systems, wearable devices, etc.),
+    the course provides a comprehensive overview of the enabling elements of an IoT system from the perspective
+    of wireless communication technologies between devices, data processing techniques, and programming
+    languages for application development and prototyping (Arduino, STM32 Nucleo, etc.).
+- id: c3
+  text: 'In particular, the components of a typical IoT system are illustrated following a data-oriented
+    path: from data generation by sensors, to wireless transmission within a WSAN/WLAN/WPAN network, to
+    cloud streaming and storage, up to processing using AI techniques and integration within a software
+    system.'
+- id: c4
+  text: Summary of course contents
+  items:
+  - id: c4.1
+    text: 'Introduction to IoT systems: definitions, applications, enabling technologies'
+- id: c5
+  text: 'IoT Components: Communication and Networking'
+  items:
+  - id: c5.1
+    text: Sensors and actuators, basics of electronic circuit design (overview), sensing and data acquisition
+      policies
+  - id: c5.2
+    text: Wireless communication technologies and encoding for IoT
+  - id: c5.3
+    text: 'Machine-to-machine (M2M) communication between devices: enabling wireless technologies for
+      WPAN networks (BLE, IEEE 802.15.4, Z-Wave, etc.), WLAN and LP-WAN (LoRA, LoRaWAN)'
+  - id: c5.4
+    text: Network architectures and routing (6LoWPAN, RPL)
+- id: c6
+  text: 'IoT Components: Embedded Systems'
+  items:
+  - id: c6.1
+    text: 'Embedded systems: architectures and programming languages (C++ and MicroPython)'
+  - id: c6.2
+    text: Interfacing with sensors/actuators and serial protocols
+  - id: c6.3
+    text: Examples with Arduino and ESP-IDF frameworks
+- id: c7
+  text: 'IoT Components: Data Acquisition'
+  items:
+  - id: c7.1
+    text: 'Data acquisition protocols: COAP, MQTT, HTTP'
+  - id: c7.2
+    text: KAFKA framework
+  - id: c7.3
+    text: Web of Things and Semantic Web 3.0 standards for M2M and IoT
+- id: c8
+  text: 'IoT Components: Data Management and Processing/Analysis'
+  items:
+  - id: c8.1
+    text: 'Storage and processing of sensor data, time-series and time-series databases: INFLUX-DB'
+  - id: c8.2
+    text: 'Time-series visualization: examples with GRAFANA tool'
+  - id: c8.3
+    text: Time-series forecasting with statistical methods
+  - id: c8.4
+    text: Time-series forecasting with AI/ML techniques
+  - id: c8.5
+    text: Edge AI and TinyML
+- id: c9
+  text: 'IoT Components: Edge/Cloud Architectures'
+  items:
+  - id: c9.1
+    text: 'Data storage/processing architectures: cloud/fog/edge computing approaches'
+  - id: c9.2
+    text: 'IoT platforms: AWS IoT, Watson IoT, ThingSpeak, etc.'
+prerequisites: []
+bibliography: |-
+  Instructor’s slides, links to book chapters, scientific articles, and online resources are provided on the course website.
+
+  Recommended textbook: Riccardo Melen, Vittorio Trecordi, IoT Networking, Pearson, ISBN 8891931934, ISBN13 978-8891931931, 336 pages (cover price 34 EUR).
+
+  Additional textbooks may be recommended during the course depending on the topics covered.
+removed: []

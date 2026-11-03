@@ -1,0 +1,83 @@
+format: evidence/1
+course: B8836
+title: Universal Semantics
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-04-13'
+    to: '2026-05-20'
+  teaching_ids:
+  - '543460'
+  teachers:
+  - name: Gangemi, Aldo
+    affiliation: filo
+    role:
+    - full professor
+  programmes:
+  - code: '6824'
+    name: Semiotics
+    department: filo
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8886'
+    name: Semiotics
+    department: filo
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - The course will be given in 2-hours slots, with mixed lectures and hands-on sessions.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student knows and can apply abstraction methods to interpret any
+    kind of signal from a physical, social or cognitive environment, either inductively (pattern discovery)
+    or deductively (pattern finding).
+- id: o2
+  text: The methods will leverage theoretical or experimental findings from philosophy, cognitive science,
+    semiotics, and computer science.
+contents:
+- id: c1
+  text: The course integrates computational and empirical approaches to investigate semantic universals
+    across languages, modalities, cultures, practices, and neurocognitive systems.
+- id: c2
+  text: Students will engage in data-driven methods to analyze multimodal meaning-making processes.
+- id: c3
+  text: The curriculum balances theoretical frameworks with hands-on computational analysis, examining
+    real-world phenomena like perspectivization, theory of mind, and conceptual blending through diverse
+    methodological lenses.
+- id: c4
+  text: Assessment centers on a dedicated project integrating theoretical design with investigation techniques.
+prerequisites: []
+bibliography: |-
+  De Giorgis, S., Gangemi, A., Russo, A. Neurosymbolic graph enrichment for Grounded World Models. Information Processing & Management, 62, 4, 2025, https://www.sciencedirect.com/science/article/pii/S030645732500069X
+
+  Gangemi, A. and Nuzzolese, A.G. Logic-Augmented Generation. Journal of Web Semantics, 2025, https://www.sciencedirect.com/science/article/pii/S1570826824000453
+
+  Lakoff, George, and Srini Narayanan. The Neural Mind: How Brains Think. University of Chicago Press, 2025
+
+  <Gangemi, A., Presutti, V., 2022. Formal Representation and Extraction of Perspectives. Vossen, P. et al. (eds.): Creating a More Transparent Internet: The Perspective Web, 2022, https://www.dropbox.com/scl/fi/qmaoifmxwqfklvixs629n/WebOfPerspectives-GangemiPresutti.pdf?rlkey=e82o49dz4crwgf84yue0eiupv&dl=0>
+removed: []

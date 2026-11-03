@@ -1,0 +1,139 @@
+format: evidence/1
+course: '87898'
+title: Methods and Technologies for Interpreting
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 5
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Forli
+  schedules:
+  - from: '2026-02-19'
+    to: '2026-05-14'
+  teaching_ids:
+  - '523514'
+  teachers:
+  - name: Carioli, Gabriele
+    affiliation: dit
+    role:
+    - teaching tutor
+  - name: Lecci, Claudia
+    affiliation: dit
+    role:
+    - adjunct professor
+  programmes:
+  - code: '6057'
+    name: Intepreting
+    department: dit
+    campus: Forlì
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '6825'
+    name: Intepreting
+    department: dit
+    campus: Forlì
+    cycle: second
+    languages:
+    - english
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - The applied part consists of hands-on practice in the laboratory and homework exercises.
+    - As concerns the teaching methods of this course unit, all students must attend Module 1, 2 on Health
+      and Safety (https://www.unibo.it/en/services-and-opportunities/health-and-assistance/health-and-safety/online-course-on-health-and-safety-in-study-and-internship-areas)
+      online.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The student – knows and is able to use the ICT resources, both traditional and electronic, required
+    for the interpretation of oral speeches.
+- id: o2
+  text: S/he knows and is able to use the terminography tools necessary for the interpretation of oral
+    speeches.
+- id: o3
+  text: S/he has the basic terminology skills required for the interpretation.
+- id: o4
+  text: S/he is able to autonomously build terminology databases necessary for the interpretation of oral
+    speeches.
+contents:
+- id: c1
+  text: The module is delivered in the second semester and is one of the two modules that make up the
+    METODI, TECNOLOGIE E LINGUISTICA PER L'INTERPRETAZIONE course.
+- id: c2
+  text: The course focuses on various aspects of documentation and terminology research, which are closely
+    linked to each other.
+- id: c3
+  text: The first part of the course focuses on the various documentation strategies, traditional on the
+    one hand and supported by Artificial Intelligence (AI) on the other, useful for the preparation of
+    conference interpreters.
+- id: c4
+  text: Following an overview of advanced techniques for web searching using search engines, special emphasis
+    will be placed on the construction and use of electronic specialised corpora aimed at terminology
+    extraction (with the help of BootCaT and also with the support of AI).
+- id: c5
+  text: Then the theoretical basis of terminology are presented together with the basic tools for the
+    detection of terminology, namely AntConC.
+- id: c6
+  text: Also at this stage of the workflow, traditional extraction methods will be compared with AI-supported
+    methods.
+- id: c7
+  text: Finally, some of the main terminographic tools for creating and managing glossaries and terminology
+    databases will be presented (MultiTerm), with particular reference to software that also allows glossaries
+    to be consulted in the interpretation booth during the conference (Interplex, InterpretBank).
+prerequisites: []
+bibliography: |-
+  During lessons based on theoretical aspects, the teacher will be using the following bibliographical references:
+
+  Biber, D., Conrad, S., & Reppen, R. (1998). Corpus Linguistics: Investigating language Structure and Use. Cambridge: Cambridge University Press
+
+  Cabré M.T. (1993). “La terminología. Teoría, metodología, aplicaciones”, Editorial Empúries
+
+  Berber-Irabian (2010). “New Technologies and Electronic Tools in Conference Interpreting” Doctoral dissertation ISG Tarragona
+
+  Fantinuoli C. (2018) "The use of comparable corpora in interpreting practice and teaching". The Interpreters' Newsletter 23, 133-149
+
+  Fantinuoli C. (2019) "The technological turn in interpreting: the challenges that lie ahead". Proceedings of the conference Übersetzen und Dolmetschen 4.0. - Neue Wege im digitalen Zeitalter, 334-354
+
+  Fantinuoli C., Pisani E. (2021) "Measuring the impact of automatic speech recognition on interpreter’s performances in simultaneous interpreting", In: Empirical studies of translation and interpreting: the post-structuralist apporach, Edited by Caiwen Wang and Binghan Zheng. Routledge
+
+  Felber H. (1984). “Terminology Manual”, Infoterm-UNESCO
+
+  Gnoli C. (2004). “Classificazione a faccette”, AIB
+
+  Gouadec D. (1990). “Terminologie: constitution des données”, Association Française de Normalisation
+
+  Kalina, S. (2010). “New Technologies in Conference Interpreting” in Lee-Jahnke & Prunc (eds.), Am Schnittpunkt von Philologie und Translationswissenschaft. Festschrift zu Ehren von Martin Forstner. Bern: Peter Lang, 79-96
+
+  Kockaert, H. J. and Steurs, F. (eds.) (2015) Handbook of Terminology. Amsterdam and Philadelphia: John Benjamins.
+
+  Lecci C. (2021): “Interpretazione e nuove tecnologie”. Russo, Mariachiara (a cura di) “Interpretare da e verso l’italiano: didattica e innovazione per la formazione dell’interprete”. Bologna: BUP. Disponibile online: https://buponline.com/az13zg/uploads/woocommerce_uploads/interpretare-da-e-verso-italiano.pdf
+
+  Manning, C. and Schütze, H. (1999).Foundations of Statistical Natural Language Processing. MIT Press. Cambridge, MA
+
+  Magris M., Musacchio M. T., Rega L., Scarpa F. (2002). “Manuale di terminologia, Aspetti teorici, metodologici e applicativi”, Hoepli
+
+  Rey A. (1992). “La terminologie noms et notions”, Presses Universitaires de France,
+  Rondeau G., 1997. “Introduction à la terminologie”, Gaëtan Morin
+
+  Sager J. C. (1990). “A Practical Course in Terminology Processing”, John Benjamins Publishing Company
+
+  Sinclair, J. (1991). Corpus, Concordance, Collocation. Oxford: Oxford University Press
+
+  Wright, S. E. & Budin, G. (2001). “Handbook of terminology management”, John Benjamins Publishing Co.
+removed: []

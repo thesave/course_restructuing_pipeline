@@ -1,0 +1,153 @@
+format: evidence/1
+course: 00819-B
+title: Programming
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 12
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-22'
+    to: '2025-12-10'
+  - from: '2025-09-17'
+    to: '2025-12-17'
+  teaching_ids:
+  - '536894'
+  - '536897'
+  teachers:
+  - name: Bedei, Andrea
+    affiliation: disi
+    role:
+    - phd student
+  - name: Carbonaro, Antonella
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Girau, Roberto
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Negri, Andrea
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Ravaioli, Mirko
+    affiliation: din
+    role:
+    - adjunct professor
+  - name: Salomoni, Paola
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '536894'
+    - '536897'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student will have a basic understanding of programming in the C
+    language, as well as the ability to analyze some fundamental problems and their corresponding solution
+    algorithms.
+- id: o2
+  text: After completing the course, the student has a strong knowledge of programming using C language
+    and the analysis of some fundamental problems and related algorithms solvers.
+contents:
+- id: c1
+  text: The Programming course aims to provide basic competence in computer programming.
+- id: c2
+  text: Initially, a basic description of the algorithmic approach to problem-solving using computers
+    is provided.
+- id: c3
+  text: Subsequently, using the C language, which is described in detail regardless of any prior knowledge
+    the students may have, some fundamental problems and some of the main and most interesting solving
+    algorithms are analyzed.
+- id: c4
+  text: The C Language
+  items:
+  - id: c4.1
+    text: 'Organization of computer memory: addresses, words, pointers.'
+  - id: c4.2
+    text: 'Data types: integers, floats, double, char, string. Data structures: arrays, matrices, lists.'
+  - id: c4.3
+    text: 'The C language: purposes and main characteristics.'
+  - id: c4.4
+    text: 'Structure of a C program: including headers, variable declarations, libraries.'
+  - id: c4.5
+    text: 'Elementary data types in C: integers, floating point, double, small int, long, char.'
+  - id: c4.6
+    text: Pointers and pointer arithmetic.
+  - id: c4.7
+    text: Arrays and matrices and their memory representation.
+  - id: c4.8
+    text: 'Complex data structures: lists, trees.'
+  - id: c4.9
+    text: Library functions and user-defined functions.
+  - id: c4.10
+    text: Parameter passing by value and by address to functions.
+  - id: c4.11
+    text: Recursive functions.
+  - id: c4.12
+    text: Input/output functions, file functions, functions for direct memory management, string functions.
+- id: c5
+  text: Algorithm Design and Analysis
+  items:
+  - id: c5.1
+    text: 'Data types; algebraic specification and implementation: vectors, lists, stacks, queues.'
+  - id: c5.2
+    text: 'Algorithms with data structures: construction, search, and sorting in linear lists; management
+      of queues and stacks.'
+prerequisites:
+- id: p1
+  text: No prior knowledge of computer science is required.
+bibliography: |-
+  Brian W. Kernighan, Dennis M. Ritchie. Linguaggio C. Jackson libri.
+
+  Copies of the presentations used in class and notes provided by the lecturerers.
+removed: []

@@ -1,0 +1,95 @@
+format: evidence/1
+course: '16870'
+title: Programming Laboratory
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-02-17'
+    to: '2026-05-05'
+  teaching_ids:
+  - '523711'
+  teachers:
+  - name: Grotto, Giovanni
+    affiliation: disi
+    role:
+    - teaching tutor
+  - name: Padovani, Luca
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '6060'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6641'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8014'
+    name: Information Science for Management
+    department: disi
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '523711'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student knows the principles and fundamental techniques underpinning
+    the object-oriented programming paradigm as well as some basic notions of programming with scripting
+    languages.
+- id: o2
+  text: The student is capable of implementing object-oriented programs, writing scripts and using some
+    collaborative tools for software development.
+contents:
+- id: c1
+  text: Introduction to object-oriented programming in Java
+- id: c2
+  text: Encapsulation
+- id: c3
+  text: Inheritance
+- id: c4
+  text: Polymorphism and subtyping relation
+- id: c5
+  text: Implementation and use of data structures in Java
+- id: c6
+  text: Introduction to programming in Python
+- id: c7
+  text: Use of data structures in Python (sequences, lists, dictionaries)
+prerequisites:
+- id: p1
+  text: 'Note: students are expected to be familiar with the notion of partial order relation and with
+    the principles of procedural/imperative programming in Java.'
+bibliography: |-
+  - Walter Savitch, Programmazione di base e avanzata con Java, Pearson Italia, 2018.
+  - Al Sweigart, Automate the boring stuff with Python (https://automatetheboringstuff.com), William Pollock, 2020 (available online)
+  - Italian version of the previous text(first edition only): Automatizzare le cose noiose con Python, Edizioni Lswr, 2017.
+removed: []

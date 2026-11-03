@@ -1,0 +1,198 @@
+format: evidence/1
+course: '69661'
+title: Image Processing And Computer Vision M
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-18'
+    to: '2025-12-19'
+  teaching_ids:
+  - '458219'
+  teachers:
+  - name: Costanzino, Alex
+    affiliation: disi
+    role:
+    - research scholarship holder
+  - name: Curti, Iacopo
+    affiliation: disi
+    role:
+    - phd student
+  - name: Di Stefano, Luigi
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: 0927
+    name: Mechanical Engineering
+    department: din
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: 0934
+    name: Electronic Engineering
+    department: dei
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: 0949
+    name: Mechanical Engineering
+    department: din
+    campus: Forlì
+    cycle: first
+    languages:
+    - italian
+  - code: '5724'
+    name: Mechanical Engineering
+    department: din
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '5826'
+    name: Computer Engineering
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '5917'
+    name: Electronic Engineering for Intelligent Vehicles
+    department: dei
+    campus: Parma, Bologna, Modena
+    cycle: second
+    languages:
+    - english
+  - code: '6671'
+    name: Automation Engineering
+    department: dei
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6677'
+    name: Mechanical Engineering
+    department: din
+    campus: Forlì
+    cycle: first
+    languages:
+    - italian
+  - code: '6680'
+    name: Mechanical Engineering
+    department: din
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6711'
+    name: Automation Engineering
+    department: dei
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '6716'
+    name: Electronic Engineering
+    department: dei
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '6721'
+    name: Mechanical Engineering
+    department: din
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '8891'
+    name: Automation Engineering
+    department: dei
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '9217'
+    name: Automation Engineering
+    department: dei
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '458219'
+  laboratory:
+    value: true
+    evidence:
+    - Theory taught in lectures is complemented by assisted hands-on lab sessions covering selected topics.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The course aims to introduce basic knowledge about algorithms, tools and systems for the management,
+    processing and analysis of digital images.
+- id: o2
+  text: The main topics of the course are filtering aspects of digital images, algorithms for image processing,
+    algorithms for segmentation and classification of objects in digital images.
+- id: o3
+  text: Theoretical aspects that are introduced in the course are then applied to the design and manufacturing
+    capabilities of simple systems oriented to real world applications.
+- id: o4
+  text: At the end of the course students are able to master basic digital image processing techniques
+    and know potentials of this technology in applicative research and industrial contexts.
+contents:
+- id: c1
+  text: Introduction – Basic definitions related to image processing and computer vision. An overview
+    across major application domains.
+- id: c2
+  text: 'Image Formation and Acquisition – Geometry of image formation. Pinhole camera and perspective
+    projection. Geometry of stereopsis. Using lenses. Field of view and depth of field. Projective coordinates
+    and perspective projection matrix. Camera calibration: intrinsic and extrinsic parameters, lens distortion.
+    Camera calibration based on planar targets and homography estimation (Zhang''s algorithm). Image rectification
+    and stereo calibration. Basic notions on image sensing, sampling and quantization.'
+- id: c3
+  text: Image Filtering –Convolution and correlation. Mean and Gaussian filtering. Median Filtering. Bilateral
+    filtering. Non-local means.
+- id: c4
+  text: Image Segmentation and Blob Analysis – Gray-level Histogram. Binarization by global thresholding.
+    Automatic threshold estimation. Spatially adaptive binarization. Colour-based segmentation. Binary
+    Morphology Operators. Connected components labeling and blob analysis.
+- id: c5
+  text: Local Features – Edge features and image gradient, Smooth derivatives (Sobel), Canny edge detector.
+    Keypoint detectors and descriptors. Harris Corners. Scale invariant features. SIFT features. Efficient
+    feature matching by kd-trees.
+- id: c6
+  text: 'Instance Detection – Pattern matching by SSD, SAD, NCC and ZNCC. Shape-based mathing. Hough Transform
+    for analystic shapes, Generalized Hough Transform. Object detection by local invariant features: Hough-based
+    voting, least-squares similarity estimation.'
+- id: c7
+  text: 'Deep Learning for Computer Vision – Review of machine learning basics. Image Classification.
+    Linear Classifiers and Fully Connected Neural Networks. Convolutional Neural Networks (CNN). Successful
+    CNN architectures for image classification: AlexNet, VGG, Inception, ResNet. Transfer Learning. CNN
+    for Object Detection: R-CNN, Feature Pyramid Network (FPN), Faster R-CNN, YOLO.'
+prerequisites: []
+bibliography: |-
+  - Gonzales R., Woods R. : “Digital Image Processing”, Third Edition, Pearson Prentice-Hall, 2002.
+  - Richard Hartley, Andrew Zisserman. “Multiple View Geometry in Computer Vision”, 2nd edition, Cambridge University Press, 2011.
+  - Carsten Steger, Markus Ulrich, Christian Wiedemann “ Machine Vision Algorithms and Applications“ 2nd Edition, Wiley, 2018.
+  - Richard Szeliski “Computer Vision: Algorithms and Applications”, 2nd Edition, Springer, 2021.
+  - Ian Goodfellow, Yoshua Bengio, Aaron Courville "Deep Learning", MIT Press, 2016
+removed: []

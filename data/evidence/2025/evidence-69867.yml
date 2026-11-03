@@ -1,0 +1,98 @@
+format: evidence/1
+course: '69867'
+title: Web Services and Applications
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-17'
+    to: '2025-12-12'
+  teaching_ids:
+  - '412604'
+  teachers:
+  - name: Andruccioli, Manuel
+    affiliation: disi
+    role:
+    - phd student
+  - name: Mirri, Silvia
+    affiliation: disi
+    role:
+    - full professor
+  programmes:
+  - code: '6673'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  - code: '6699'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8614'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '8615'
+    name: Computer Science and Engineering
+    department: disi
+    campus: Cesena
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids:
+    - '412604'
+  laboratory:
+    value: true
+    evidence:
+    - Exercises in lab.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: 'At the end of the course, the student is able to develop, by using advanced programming techniques:
+    web sites based on client side and server side web technologies, front-ends based on apps and rich
+    internet applications and back-ends based on web services, asynchronous notifications and workflows.'
+contents:
+- id: c1
+  text: Comparisons among different Web architectures and different solution stacks.
+- id: c2
+  text: 'Web Browser and Web Server: how they work and the supported technologies.'
+- id: c3
+  text: MVC and MVVM patterns applied to the Web context.
+- id: c4
+  text: JavaScript and the "JavaScript everywhere" paradigm
+- id: c5
+  text: MEVN solution stack and related ones (MEAN and MERN), illustrating MongoDB, ExpressJS, NodeJS.
+- id: c6
+  text: 'Javascript frameworks: VueJS, Angular, React.'
+- id: c7
+  text: 'Superset languages in the Web: TypeScript, SASS and SCSS.'
+prerequisites: []
+bibliography: Due to the rapid evolution of the topics of the course, there is no textbook available to
+  cover the whole discipline. Students therefore access the slides of the course and are directed to online
+  resources for the necessities of the course and the deepening of the topics discussed.
+removed: []

@@ -1,0 +1,90 @@
+format: evidence/1
+course: '95611'
+title: Database Systems
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Cesena
+  schedules:
+  - from: '2025-09-17'
+    to: '2025-12-03'
+  teaching_ids:
+  - '517117'
+  teachers:
+  - name: Lumini, Alessandra
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '5815'
+    name: Digital Transformation Management
+    department: disi
+    campus: Cesena, Forlì
+    cycle: second
+    languages:
+    - english
+  - code: '6823'
+    name: Digital Transformation Management
+    department: disi
+    campus: Cesena, Forlì
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '517117'
+  laboratory:
+    value: true
+    evidence:
+    - The course is provided by means of slides displayed during lecture hours and it is integrated with
+      guided class and laboratory exercises, where the theoretical aspects are put into practice.
+    - As concerns the teaching methods of this course unit, all students must attend Module 1, 2 (https://www.unibo.it/en/services-and-opportunities/health-and-assistance/health-and-safety/online-course-on-health-and-safety-in-study-and-internship-areas)
+      on Health and Safety online
+  equivalent_courses: []
+  same_syllabus_as:
+  - '10906'
+outcomes:
+- id: o1
+  text: The student learns the fundamental principles of the relational data model and of the relational
+    database management systems.
+- id: o2
+  text: In particular, the student will be able to understand the structure of a relational database,
+    the integrity constraints on data and the SQL query language.
+- id: o3
+  text: Moreover, the student gains an introductory background in NoSQL architectures and non-relational
+    data models.
+contents:
+- id: c1
+  text: The relational model; the structure of the relational model, integrity constrints, Normal forms.
+- id: c2
+  text: 'The SQL language : Data definition and manipulation, Query databases'
+- id: c3
+  text: 'Main components of a RDBMS: Query Optimizer, Transaction Manager, Scheduler, Recovery Manager,
+    Cache Manager, Storage Manager, Access Methods.'
+- id: c4
+  text: 'Relational database design: the Entity-Relationship model, introduction to requirement analysis
+    and to conceptual database design. Logical database design. Normalization techniques.'
+- id: c5
+  text: Brief introduction to NoSQL Systems
+prerequisites: []
+bibliography: |-
+  Lecture slides are available at Unibo e-learning platform.
+
+  Further reading:
+
+  P. Atzeni, S. Ceri, P. Fraternali, S. Paraboschi, R. Torlone. Database Systems: Concepts, Languages and Architectures, McGraw-Hill.
+
+  R. Elmasri , S. B. Navathe. Fundamentals of Database Systems. Pearson.
+removed: []

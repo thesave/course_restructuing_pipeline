@@ -1,0 +1,146 @@
+format: evidence/1
+course: '85189'
+title: Systems and Algorithms for Data Science
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 10
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-15'
+    to: '2025-12-17'
+  teaching_ids:
+  - '423571'
+  teachers:
+  - name: Lodi, Stefano
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Ronchieri, Elisabetta
+    affiliation: stat
+    role:
+    - adjunct professor
+  programmes:
+  - code: '6661'
+    name: Statistical Sciences
+    department: stat
+    campus: Bologna
+    cycle: first
+    languages:
+    - english
+    - italian
+  - code: '6810'
+    name: Statistical Sciences
+    department: stat
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '8873'
+    name: Statistical Sciences
+    department: stat
+    campus: Bologna
+    cycle: first
+    languages:
+    - english
+    - italian
+  - code: '9222'
+    name: Statistical Sciences
+    department: stat
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: true
+    disi_teaching_ids:
+    - '423571'
+  laboratory:
+    value: true
+    evidence:
+    - 'NOTE: As concerns the teaching methods of this course unit, all students must attend Module 1,
+      2 on Health and Safety online [https://www.unibo.it/en/services-and-opportunities/health-and-assistance/health-and-safety/online-course-on-health-and-safety-in-study-and-internship-areas]
+      .'
+    - lessons in a laboratory, each comprising both frontal expositions and exercises on the techniques
+      for the solution of data analysis problems.
+    - In laboratory lessons, students implement scripts for machine learning using the Python programming
+      language.
+    - Tutorials in lab
+  equivalent_courses: []
+  same_syllabus_as:
+  - '90477'
+outcomes:
+- id: o1
+  text: By the end of the course, the should - understand the fundamentals of supervised and unsupervised
+    machine learning algorithms, focusing on deep learning algorithms - understand the fundamental programming
+    principles of the Python language and be able to apply them primarily to data management and analysis,
+    under the umbrella of data science - understand the role, purpose and features of Python libraries
+    for numerical computation, data representation, and machine learning, and their interconnectivity
+    with frameworks, such as Jupyter Notebook - be able to apply data science practices and methods to
+    construct models and solve problems for various data-science applications.
+contents:
+- id: c1
+  text: Module 1
+  heading: true
+  items:
+  - id: c1.1
+    text: 'The Python language: Expressions, tuples, lists, comprehensions, sets, dictionaries.'
+  - id: c1.2
+    text: Repetitive and branching instructions.
+  - id: c1.3
+    text: The NumPy and Panda packages.
+  - id: c1.4
+    text: 'Supervised Machine Learning: Deep Neural Networks, convolutional and recurrent networks, LSTM,
+      generative models (GAN, Autoencoder, Transformer).'
+  - id: c1.5
+    text: 'Laboratory classes: Integrated development environments for Python'
+- id: c2
+  text: Module 2
+  heading: true
+  items:
+  - id: c2.1
+    text: The course focuses on the paradigm and core features of Python, as well as environments suited
+      for data manipulation in the context of data science, such as PyTorch and TensorFlow.
+  - id: c2.2
+    text: Emphasis is placed on exploring its libraries, which support the use and definition of machine
+      learning models in various domains, including text analysis, time series, and image analysis.
+  - id: c2.3
+    text: The practical part of the course involves the use of development tools and platforms such as
+      Jupyter Notebook, Google Colab, Hugging Face, and GitLab, enabling data analysis sharing and support.
+  - id: c2.4
+    text: The course also includes access to various datasets to illustrate the applicability of the material
+      through real-world examples.
+prerequisites: []
+bibliography: |-
+  Module 1
+
+  Course slides and exercises are available on Virtuale [http://virtuale.unibo.it/] .
+
+  By subject:
+
+  Python
+
+  Recommended reading (on-line):
+
+  Parker, J. R. (2016). Python: An Introduction to Programming. Mercury Learning & Information. Free to download (using student institutional credentials) E-book, searchable at http://sba.unibo.it [http://sba.unibo.it/] | Online resources | E-books | Ricerca un e-book nel Catalogo A-LinkMachine learning and neural networks
+
+  Machine Learning
+
+  Recommended reading (on-line):
+
+  Zhang, A., Lipton, Z. C., Li, M., & Smola, A. J. (2023). Dive into Deep Learning (No. arXiv:2106.11342). arXiv. http://arxiv.org/abs/2106.11342
+
+  Module 2
+
+  Online materials and other suggested readings will be indicated during the course.
+removed: []

@@ -1,0 +1,114 @@
+format: evidence/1
+course: '90147'
+title: Artificial intelligence
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-15'
+    to: '2025-10-24'
+  teaching_ids:
+  - '443742'
+  teachers:
+  - name: Bianchini, Francesco
+    affiliation: filo
+    role:
+    - associate professor
+  programmes:
+  - code: '6601'
+    name: Humanities
+    department: ficlit
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '8850'
+    name: Humanities
+    department: ficlit
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '9216'
+    name: Philosophy
+    department: filo
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course students gain a basic knowledge of the history, techniques and methods
+    of Artificial Intelligence; they are able to design solutions for simple use cases (typically in the
+    area of the humanities) by defining conceptual models and/or reusing existing data and software components.
+contents:
+- id: c1
+  text: The course deals with the main topics of artificial intelligence, starting from a historical and
+    theoretical point of view up to present-day applied and technical issues of the discipline.
+- id: c2
+  text: Issues concerning the epistemology of artificial intelligence and cognitive science are topics
+    of the course as well.
+- id: c3
+  text: The course will address issues related to problem solving, knowledge representation and concepts,
+    machine learning, planning, natural language processing, neural networks, human-computer interaction,
+    and their implications for the latest robotics.
+- id: c4
+  text: For introductory purposes, the emergence and development of artificial intelligence, classical
+    and new cognitive science, and robotics will be explored.
+- id: c5
+  text: Philosophical, epistemological, and ethical issues related to different approaches to artificial
+    intelligence and cognitive science will also be addressed.
+- id: c6
+  text: The course is temporally divided into four parts
+  items:
+  - id: c6.1
+    text: The birth and the developments of artificial intelligence.
+  - id: c6.2
+    text: Problem solving and automated planning.
+  - id: c6.3
+    text: Knowledge representation, neural networks, and recent trends of artificial intelligence.
+  - id: c6.4
+    text: Epistemological and ethical issues of artificial intelligence, cognitive science and robotics.
+prerequisites:
+- id: p1
+  text: This is a basic course and does not require previous knowledge of the fields related to its main
+    topics.
+bibliography: |-
+  Mandatory textbooks
+
+  - M. Giunti , S. Pinna, F. G. Garavaglia, Menti e macchine. Teorie filosofiche e scientifiche, Le Monnier Università, Milano, 2022.
+  - S. Russell, P. Norvig, Artificial Intelligence: A modern Approach, Pearson, 4th edition, 2020 (chapters 1, 2, 3, 4, 7, 8, 9, 10, 11, 26, 27, 28).
+
+  Suggested readings:
+
+  - D. Andler, Intellugence artificielle, intelligence humaine: la double énigme, Gallimard, Paris, 2023.
+  - N. Bostrom, Superintelligenza. Tendenze, pericoli, strategie, Bollati Boringhieri, 2018. [The English version is also available.]
+  - M. Marraffa, Percezione, pensiero, coscienza. Passato e futuro delle scienze della mente, Rosenberg & Sellier, Torino, 2019.
+  - M. Mitchell, Artificial Intelligence, Macmillan, New York, 2019.
+  - G. Primiero, On the Foundations of Computing, Oxford University Press, Oxford, 2020.
+  - G. Tamburrini, Etica delle macchine. Dilemmi morali per robotica e intelligenza artificiale, Carocci, Roma, 2020.
+
+  Further readings will be mentioned during the course.
+
+  One more book among suggested readings is mandatory for not attending students.
+removed: []

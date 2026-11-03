@@ -1,0 +1,97 @@
+format: evidence/1
+course: '73273'
+title: Informatic Tecnologies for Fashion
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - INF/01
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Rimini
+  schedules:
+  - from: '2025-11-03'
+    to: '2025-12-15'
+  teaching_ids:
+  - '445009'
+  teachers:
+  - name: Cascarano, Pasquale
+    affiliation: dar
+    role:
+    - rtda
+  programmes:
+  - code: '6636'
+    name: Fashion Cultures and Practices
+    department: dar
+    campus: Rimini
+    cycle: first
+    languages:
+    - italian
+  - code: '9064'
+    name: Fashion Cultures and Practices
+    department: dar
+    campus: Rimini
+    cycle: first
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - Lectures and laboratory exercises focused on the implementation of a website (using WIX/WEEBLY platforms)
+      and the creation of a virtual environment (using the A-Frame library).
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course the student has the necessary knowledge to apply computer technologies
+    to the context of fashion.
+- id: o2
+  text: The student acquires the skills required to use state of the art platforms aimed at developing
+    office and communication activities.
+- id: o3
+  text: The student learns to interact with IT specialists in order to translate ideas into concrete software
+    implementations.
+contents:
+- id: c1
+  text: Define Information Technology (Chapter 1)
+- id: c2
+  text: How Networks Work (Chapter 2)
+- id: c3
+  text: HTML (Chapter 3)
+- id: c4
+  text: Finding Information on the Web (Chapter 4)
+- id: c5
+  text: The Representation of Information (Chapter 5)
+- id: c6
+  text: Representing Multimedia Information (Chapter 6)
+- id: c7
+  text: Thinking Algorithmically (Chapter 8)
+- id: c8
+  text: Social Implications of Information Technology (Chapter 9)
+- id: c9
+  text: Digital Privacy and Security (Chapter 10)
+- id: c10
+  text: Laboratory sessions will focus on technologies and platforms such as HTML, A-Frame, Glitch, WIX/WEEBLY,
+    Excel, and SEO, with applications in the fashion sector.
+- id: c11
+  text: Brief overview of 3D modeling software (Clo3D and Style3D).
+- id: c12
+  text: Brief overview of Artificial Intelligence, Virtual Reality, and Augmented Reality.
+prerequisites: []
+bibliography: |-
+  Recommended textbook:
+
+  "Fluency - Conoscere e usare l'informatica", Lawrence Snyder e Alessandro Amoroso, Pearson. (The chapters indicated refer to the seventh edition of the textbook).
+
+  The course slides and all materials related to the laboratory activities are made available on the Virtuale platform.
+removed: []

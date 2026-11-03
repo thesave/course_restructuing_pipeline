@@ -1,0 +1,156 @@
+format: evidence/1
+course: B8536
+title: 'Computer-Aided Human Translation: CAT, MT and AI'
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 5
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Forli
+  schedules:
+  - from: '2026-02-19'
+    to: '2026-05-14'
+  teaching_ids:
+  - '549092'
+  - '549093'
+  - '553146'
+  teachers:
+  - name: Lecci, Claudia
+    affiliation: dit
+    role:
+    - adjunct professor
+  programmes:
+  - code: '6057'
+    name: Intepreting
+    department: dit
+    campus: Forlì
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '6825'
+    name: Intepreting
+    department: dit
+    campus: Forlì
+    cycle: second
+    languages:
+    - english
+    - italian
+  - code: '6826'
+    name: Specialized Translation
+    department: dit
+    campus: Forlì
+    cycle: second
+    languages:
+    - english
+  - code: '9174'
+    name: Specialized Translation
+    department: dit
+    campus: Forlì
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - The applied part consists of hands-on practice in the lab and homework exercises.
+    - As concerns the teaching methods of this course unit, all students must attend Module 1, 2 on Health
+      and Safety (https://www.unibo.it/en/services-and-opportunities/health-and-assistance/health-and-safety/online-course-on-health-and-safety-in-study-and-internship-areas)
+      online.
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: The student is familiar with key digital tools for file management, computer-assisted translation
+    (CAT) and AI-enhanced translation, including Machine Translation (MT); they can use CAT tools effectively,
+    apply basic prompting techniques for AI-driven translation tools, and work with MT engines; they can
+    vouchsafe translation quality and post-edit texts efficiently and accurately across various text types
+    and domains, adapting them to different audiences, as needed; they can set up, manage, and evaluate
+    projects involving other professionals that combine CAT, MT, post-editing, and AI tools; they can
+    expand and refine their knowledge of CAT, AI and post-editing autonomously, applying it to new AI-driven
+    practices, in line with professional ethics and industry standards.
+contents:
+- id: c1
+  text: 'The "Computer-aided human translation: CAT, MT and AI " (CatMAI) module is delivered in the second
+    semester and is one of the two modules that make up the "Technologies for Translation" course, together
+    with "Information Mining and Terminology", which is delivered in the first semester and which is held
+    by Prof. Adriano Ferraresi (https://www.unibo.it/sitoweb/adriano.ferraresi/didattica/2025).'
+- id: c2
+  text: The first part offers a theoretical introduction to the notion of computer-assisted translation.
+- id: c3
+  text: Subsequently some of the most common CAT tools are presented (Trados Studio, MemoQ, MateCat),
+    proprietary and free.
+- id: c4
+  text: In particular, the module focuses on the translation of the main file formats, the creation and
+    managing of translation memories and the quality assurance of target texts (QA check).
+- id: c5
+  text: The basis for managing complex translation projects involving different professionals (Project
+    Management) through CAT are also provided.
+- id: c6
+  text: Finally, the latest CAT tool functionalities that integrate generative artificial intelligence
+    (AI) to optimise workflows in both translation and revision will be presented.
+- id: c7
+  text: The second part, which is linked to the first one, starts with a presentation of the obvious advantages
+    of using AI-enhanced translation, including machine translation (MT) accompanied by post-editing.
+- id: c8
+  text: It will also focus on the possibilities of integration between CAT and MT systems and AI-based
+    generative translation functionalities included in CAT software.
+- id: c9
+  text: With regard to PE, different ways of intervention (light, full, etc.) are discussed in relation
+    to variables such as the specific conditions of the revision task, the post-editor profile (bilingual,
+    monolingual of the target language, expert in the field, etc.), the type of translation, the publication
+    venue and the circulation methods planned for the revised target text, its potential readers and users,
+    etc. Various PE strategies allowing for the improvement of the raw output provided by MT and generative
+    AI systems are also presented.
+- id: c10
+  text: The aim of these strategies is to obtain a target text which meets the specific requirements of
+    the translation context.
+- id: c11
+  text: Basic prompting techniques that can be used within AI-based translation tools, both to optimise
+    the raw output of a machine-translated text and to post-edit it, will also be introduced.
+prerequisites: []
+bibliography: |-
+  During lessons based on theoretical aspects, the teacher will be using the following bibliographical references:
+
+  Bersani Berselli, G. (a cura di) (2011) "Usare la Traduzione Automatica". Bologna: CLUEB.
+
+  Bowker, L., (2002). “Computer-Aided Translation Technology. A Practical Introduction”. University of Ottawa Press.
+
+  Bowker, Lynne, (2005). “Productivity vs. Quality? A pilot study on the impact of translation memory systems”. Localisation Focus 4:1. 13-20.
+
+  Cevoli, M. & S. Alasia, (2012). “Guida completa a OmegaT”. Badalona: Qabiria.
+
+  Declercq, C. (2023). Editing in translation technology. In Routledge encyclopedia of translation technology (pp. 551-564). Routledge.
+
+  Fagbohun, O., Harrison, R. M., & Dereventsov, A. (2024). An empirical categorization of prompting techniques for large language models: A practitioner's guide. arXiv preprint arXiv:2402.14837.
+
+  He, S. (2024). Prompting ChatGPT for translation: A comparative analysis of translation brief and persona prompts. arXiv preprint arXiv:2403.00127.
+
+  Koponen, M. (2016) "Is machine translation post-editing worth the effort? A survey of research into post-editing and effort". The Journal of Specialised Translation. Disponibile online: https://www.jostrans.org/issue25/art_koponen.pdf
+
+  Lecci, C. & E. Di Bello, (2012). “Usare la traduzione assistita”. Bologna: CLUEB.
+
+  Poulis, Alexandros and David Kolovratnik (2012) "To Post-edit or not to Post-edit? Estimating the Benefits of MT Post-editing for a European Organization". Proceedings of the AMTA 2012 Workshop on Post-editing Technology and Practice (WPTP 2012). The Tenth Biennial Conference of the Association for Machine Translation in the Americas, October 28-November 1 2012, San Diego, CA, USA. Disponibile online: http://amta2012.amtaweb.org/AMTA2012Files/html/9/9_paper.pdf
+
+  Qian, M., & Kong, C. (2024, May). Enabling Human-Centered Machine Translation Using Concept-Based Large Language Model Prompting and Translation Memory. In International Conference on Human-Computer Interaction (pp. 118-134). Cham: Springer Nature Switzerland.
+
+  Toto P. (2021). “Flipped classrooms and translation technology teaching: a case study”. In Wang C., Zheng B., Empirical studies of translation and interpreting. London: Routledge.
+
+  Vela M., Pal S., Zampieri M., Kumar Naskar S. (2019). “Improving CAT Tools in the Translation Workflow: New Approaches and Evaluation”. Saarland University, Germany, University of Wolverhampton, UK, Jadavpur University, India. Online: https://arxiv.org/pdf/1908.06140.pdf
+
+  Vieira, L. N. (2019). Post-editing of machine translation. "The Routledge handbook of translation and technology". 319-336. London: Routledge.
+
+  Zhang, B., Haddow, B., & Birch, A. (2023). Prompting large language model for machine translation: A case study. In International Conference on Machine Learning (pp. 41092-41110). PMLR.
+removed: []

@@ -1,0 +1,142 @@
+format: evidence/1
+course: 29227-A
+title: Foundations of Informatics T
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-15'
+    to: '2025-12-16'
+  teaching_ids:
+  - '333852'
+  - '333853'
+  teachers:
+  - name: Barbieri, Marco
+    affiliation: din
+    role:
+    - phd student
+  - name: Bornia, Giorgio
+    affiliation: din
+    role:
+    - associate professor
+  - name: Giangolini, Federico
+    affiliation: din
+    role:
+    - phd student
+  - name: Scardovelli, Ruben
+    affiliation: din
+    role:
+    - associate professor
+  programmes:
+  - code: 0927
+    name: Mechanical Engineering
+    department: din
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: 0949
+    name: Mechanical Engineering
+    department: din
+    campus: Forlì
+    cycle: first
+    languages:
+    - italian
+  - code: '5724'
+    name: Mechanical Engineering
+    department: din
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6677'
+    name: Mechanical Engineering
+    department: din
+    campus: Forlì
+    cycle: first
+    languages:
+    - italian
+  - code: '6680'
+    name: Mechanical Engineering
+    department: din
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6721'
+    name: Mechanical Engineering
+    department: din
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  service:
+    value: false
+    disi_teaching_ids: []
+  laboratory:
+    value: true
+    evidence:
+    - Lab sessions assisted by the professor and tutors
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Students learn basic notions about the architecture of a computing system.
+- id: o2
+  text: Students gain expertise about techniques and methods for the solution of various classes of problems
+    using a specific programming language.
+- id: o3
+  text: The aim of the course is to give the student a general overview about computers and scientific
+    computing.
+- id: o4
+  text: After this introductory part, the course is focused on the C language and on numerical methods
+    both at an elementary level.
+contents:
+- id: c1
+  text: GNU/Linux operating systems
+- id: c2
+  text: The C++ programming language
+- id: c3
+  text: Alphabet, lexicon, syntax, semantics.
+- id: c4
+  text: Variables, operators.
+- id: c5
+  text: Flow control constructs.
+- id: c6
+  text: Functions, arrays.
+- id: c7
+  text: Classes.
+- id: c8
+  text: 'Polymorphism: function overloading, inheritance, templating.'
+- id: c9
+  text: Elements of Numerical Analysis
+- id: c10
+  text: Approximation of functions
+- id: c11
+  text: Approximation of derivatives
+- id: c12
+  text: Approximation of zeros
+- id: c13
+  text: Approximation of integrals
+prerequisites: []
+bibliography: |-
+  Lecture notes
+
+  Textbooks for additional consultation:
+
+  Overland, B. (2001). C++ in plain English.
+
+  Quarteroni, Sacco, Saleri, Numerical Mathematics
+removed: []

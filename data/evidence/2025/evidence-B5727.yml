@@ -1,0 +1,144 @@
+format: evidence/1
+course: B5727
+title: Introduction to Languages for Artificial Intelligence
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-15'
+    to: '2025-12-18'
+  teaching_ids:
+  - '530707'
+  teachers:
+  - name: Gabbrielli, Maurizio
+    affiliation: disi
+    role:
+    - full professor
+  - name: Lodi, Michael
+    affiliation: disi
+    role:
+    - adjunct professor
+  - name: Pappacoda, Gianmarco
+    affiliation: disi
+    role:
+    - phd student
+  - name: Pennino, Federico
+    affiliation: disi
+    role:
+    - research scholarship holder
+  - name: Ruggeri, Federico
+    affiliation: disi
+    role:
+    - research fellow
+  programmes:
+  - code: '6700'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  - code: '9063'
+    name: Artificial Intelligence
+    department: disi
+    campus: Bologna
+    cycle: second
+    languages:
+    - english
+  service:
+    value: false
+    disi_teaching_ids:
+    - '530707'
+  laboratory:
+    value: true
+    evidence:
+    - Regarding the teaching methods of this course unit, all students are required to attend Modules
+      1 and 2 on Health and Safety online. [https://elearning-sicurezza.unibo.it/]
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: At the end of the course, the student has an understanding of the main linguistic techniques used
+    in the context of AI, including the main aspects related to functional, logic and constraint programming.
+contents:
+- id: c1
+  text: Module 1
+  heading: true
+  items:
+  - id: c1.1
+    text: Abstract machines.
+  - id: c1.2
+    text: Python machine.
+  - id: c1.3
+    text: 'Programming in Python: names and visibility, functions, immutable and mutable objects, basic
+      data types (numbers, strings, tuples, lists, dictionaries), and their use in the solution of problems.'
+  - id: c1.4
+    text: Classes and objects.
+  - id: c1.5
+    text: Methods and inheritance.
+  - id: c1.6
+    text: Exceptions.
+  - id: c1.7
+    text: Introduction to the library NumPy and its N-dimensional array objects.
+- id: c2
+  text: Module 2
+  heading: true
+  items:
+  - id: c2.1
+    text: Introduction to mathematical logic.
+  - id: c2.2
+    text: Unification.
+  - id: c2.3
+    text: Resolution.
+  - id: c2.4
+    text: Introduction to logic programming.
+  - id: c2.5
+    text: Prolog languages.
+  - id: c2.6
+    text: Constraint logic programming and concurrent constraint programming.
+  - id: c2.7
+    text: Constraint programming.
+  - id: c2.8
+    text: The language MiniZinc.
+prerequisites: []
+bibliography: |-
+  Module 1
+
+  No textbook is mandatory: all the material (slides, source code, exercises, past exam examples) will be made available after each lecture on Virtuale.
+
+  Suggested introductory level textbook:
+
+  John V. Guttag. Introduction to Computation and Programming Using Python. Third Edition: With Application to Computational Modeling and Understanding Data. MIT Press, 2021. https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-third-edition
+
+  Other, very elementary-level, textbooks
+
+  Allen B. Downey. Think Python 2e. O'Reilly Media, 2012. ISBN 978-1449330729. Online manuscript: https://greenteapress.com/wp/think-python-2e/
+
+  Jessen Havill. Discovering Computer Science: Interdisciplinary Problems, Principles, and Python Programming. Chapman and Hall/CRC. ISBN 9781482254143
+
+  Reference books
+
+  Mark Lutz. Learning Python 5e. O'Reilly Media, 2013 [For Python, not for learning programming from scratch]
+
+  M. Gabbrielli, S. Martini. Programming Languages: Principles and Paradigms (2nd ed). Springer, 2023. [To learn how programming languages work.]
+
+  Module 2
+
+  Dirk van Dalen. Logic and structure. 4th edition, Springer.
+
+  K. Doets. From Logic to Logic Programming. The Mit Press.
+
+  Russell, Norvig. Artificial Intelligence: A Modern Approach (any edition). Pearson.
+removed: []

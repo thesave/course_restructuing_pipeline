@@ -1,0 +1,162 @@
+format: evidence/1
+course: '96143'
+title: Methods and Models for Data Analytics M
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 6
+  ssds:
+  - ING-INF/05
+  languages:
+  - Italian
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2025-09-15'
+    to: '2025-12-16'
+  teaching_ids:
+  - '467879'
+  - '514487'
+  teachers:
+  - name: Borghesi, Andrea
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Grandi, Fabio
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: 0925
+    name: Engineering Management
+    department: din
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: 0936
+    name: Engineering Management
+    department: din
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  - code: '6679'
+    name: Engineering Management
+    department: din
+    campus: Bologna
+    cycle: first
+    languages:
+    - italian
+  - code: '6718'
+    name: Engineering Management
+    department: din
+    campus: Bologna
+    cycle: second
+    languages:
+    - italian
+  service:
+    value: true
+    disi_teaching_ids:
+    - '467879'
+    - '514487'
+  laboratory:
+    value: false
+    evidence: []
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: Knowledge of the main concepts, techiques and tools for the design and implementation of "data
+    analytics" and "data valorization" processes.
+- id: o2
+  text: All the phases of the data management and analysis process will be described, from initial data
+    acquisition and pre-processing, to generation of new kowledge through statistic and Machine Learning
+    techniques, up to visualization and performance evaluation.
+- id: o3
+  text: The main enterprise applications of data analytics and the main technological scenarios in this
+    context will be presented.
+contents:
+- id: c1
+  text: The course is composed of two modules
+  items:
+  - id: c1.1
+    text: Data Mining (Fabio Grandi (https://www.unibo.it/sitoweb/fabio.grandi/en))
+  - id: c1.2
+    text: Artificial Intelligence Methods (Andrea Borghesi (https://www.unibo.it/sitoweb/andrea.borghesi3/en))
+- id: c2
+  text: introduction to data mining
+- id: c3
+  text: associative rules
+- id: c4
+  text: clustering algorithms
+- id: c5
+  text: typologies of data
+- id: c6
+  text: decision trees
+- id: c7
+  text: statistical methods
+- id: c8
+  text: neural networks
+- id: c9
+  text: evaluation of the results
+- id: c10
+  text: analysis of time series
+- id: c11
+  text: outlier detection
+- id: c12
+  text: constraint programming
+- id: c13
+  text: deep learning
+- id: c14
+  text: automatic selection and configuration of algorithms
+- id: c15
+  text: predictive maintenance
+- id: c16
+  text: time series
+- id: c17
+  text: prescriptive maintenance
+- id: c18
+  text: use cases
+- id: c19
+  text: In the context of the UN’s Sustainable Development Goals, the study of sustainable information
+    technologies will be addressed for the innovation and the establishment of infrastructures for the
+    exploitation of data-driven knowledge, aimed at the achievement of social, economic and political
+    goals.
+prerequisites:
+- id: p1
+  text: A prior knowledge and understanding of database systems and relational model is required to attend
+    with profit this course.
+- id: p2
+  text: These notions are normally achieved by giving an exam of Databases or Information Systems.
+- id: p3
+  text: 'Fluent spoken and written Italian is a necessary pre-requisite: all lectures and tutorials, and
+    all study material will be in Italian.'
+- id: p4
+  text: A base knowledge of optimization and linear and integer programming is required to attend with
+    profit this course.
+- id: p5
+  text: These notions are normally achieved by giving an exam of Operations Research or Algorithms for
+    Decision and Resource Management Support.
+bibliography: |-
+  DATA MINING
+
+  - Course slides.
+  - I.H. Witten, E.Frank, M.A. Hall, C.J. Pall, J.R. Foulds. Data Mining: Practical Machine Learning Tools and Techniques (fifth edition), Morgan Kaufmann, 2025.
+
+  Recommended readings:
+
+  - M. Berry, G. Linoff. Data mining techniques for marketing, sales, and customer support. John Wiley & Sons, 1997.
+  - R. Roiger, M. Geatz, Data Mining: A Tutorial-Based Primer, McGraw-Hill, 2003.
+
+  ARTIFICIAL INTELLIGENCE METHODS
+
+  - Course slides.
+  - I. Goodfellow, Y. Bengio, A. Courville, Deep Learning book, MIT Press, 2016. https://www.deeplearningbook.org/
+  - T. Rossi, P. van Beek, T. Walsh, Handbook of Constraint Programming, Elsevier, 2006.
+removed: []

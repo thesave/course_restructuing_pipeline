@@ -1,0 +1,116 @@
+format: evidence/1
+course: '85285'
+title: Programming
+sources:
+  outcomes: en
+  contents: en
+  bibliography: en
+facts:
+  credits:
+  - 12
+  ssds:
+  - INF/01
+  languages:
+  - English
+  teaching_modes:
+  - In-person learning (entirely or partially)
+  campi:
+  - Bologna
+  schedules:
+  - from: '2026-03-02'
+    to: '2026-06-04'
+  teaching_ids:
+  - '533250'
+  teachers:
+  - name: Amoroso, Alessandro
+    affiliation: disi
+    role:
+    - associate professor
+  - name: Donati, Nicolò
+    affiliation: disi
+    role:
+    - phd student
+  - name: Kiziltan, Zeynep
+    affiliation: disi
+    role:
+    - associate professor
+  programmes:
+  - code: '6619'
+    name: Genomics
+    department: fabit
+    campus: Bologna
+    cycle: first
+    languages:
+    - english
+  - code: '9211'
+    name: Genomics
+    department: fabit
+    campus: Bologna
+    cycle: first
+    languages:
+    - english
+  service:
+    value: true
+    disi_teaching_ids:
+    - '533250'
+  laboratory:
+    value: true
+    evidence:
+    - Considering the type of the activities and the teaching methodology, to participate to this course
+      it is required to partecipate at the e-learning modules Modules 1 and 2 of Health and Safety Training
+      Courses (https://elearning-sicurezza.unibo.it/course/index.php?categoryid=41).
+  equivalent_courses: []
+  same_syllabus_as: []
+outcomes:
+- id: o1
+  text: By the end of the course, the student knows the principles, the tools and the methodologies pertaining
+    to computer programming.
+- id: o2
+  text: The successful student can find solutions to basic programming problems and to choose the best
+    informatics tools to solve specific programming challenges.
+- id: o3
+  text: At the end of the hands-on lab, the student can program in at least one of the main languages
+    used in bioinformatics.
+contents:
+- id: c1
+  text: Introduction to Python.
+- id: c2
+  text: Simple numerical programs.
+- id: c3
+  text: Functions scoping and abstractions.
+- id: c4
+  text: Structured types, mutabilty and higher-order functions.
+- id: c5
+  text: Testing and debugging.
+- id: c6
+  text: Exceptions and assertions.
+- id: c7
+  text: Classes and object-oriented programming.
+- id: c8
+  text: A simplistic introduction to algorithmic complexity.
+- id: c9
+  text: Some simple algorithms and data structures.
+- id: c10
+  text: Dynamic programming.
+- id: c11
+  text: Stochastic programs, probability and distributions.
+- id: c12
+  text: Monte Carlo simulations.
+- id: c13
+  text: Sampling and confidence intervals.
+- id: c14
+  text: Understanding experimental data.
+- id: c15
+  text: Lies, damned lies, and statistics.
+- id: c16
+  text: Quick look at machine learning.
+prerequisites: []
+bibliography: |-
+  John V. Guttag; Introduction to Computation and Programming Using Python (2 ed.); The MIT Press. (https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition)
+
+  Daniel Zingaro; Learn to code By solving problems - a Python programming primer; No Starch Press (https://nostarch.com/learn-code-solving-problems).
+
+  http://www.python.org
+
+  Zed A. Shaw; Learn Python 3 the Hard Way: A Very Simple Introduction to the Terrifyingly Beautiful World of Computers and Code; Pearson Addison-Wesley (https://www.informit.com/store/learn-python-3-the-hard-way-a-very-simple-introduction-9780134692883)
+removed: []
