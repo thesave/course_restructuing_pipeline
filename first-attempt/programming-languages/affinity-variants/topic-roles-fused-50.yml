@@ -1,0 +1,408 @@
+description: 'participation: share of co-teaching links outside the topic''s consensus community (1 -
+  sum of squared shares per community); within_degree_z: links inside it, as a z-score'
+topics:
+  oo_classes_objects:
+    community: 28
+    participation: 0.842
+    within_degree_z: 1.648
+    strength: 291.0
+  javascript_language:
+    community: 15
+    participation: 0.838
+    within_degree_z: -0.704
+    strength: 76.0
+  exceptions:
+    community: 28
+    participation: 0.834
+    within_degree_z: 1.375
+    strength: 203.0
+  language_evolution:
+    community: 15
+    participation: 0.828
+    within_degree_z: 0.236
+    strength: 171.0
+  concurrent_programming:
+    community: 16
+    participation: 0.828
+    within_degree_z: 2.032
+    strength: 228.0
+  recursion:
+    community: 22
+    participation: 0.826
+    within_degree_z: 2.03
+    strength: 400.0
+  inheritance:
+    community: 28
+    participation: 0.821
+    within_degree_z: 1.784
+    strength: 262.0
+  compilers:
+    community: 15
+    participation: 0.813
+    within_degree_z: 1.803
+    strength: 210.0
+  environment_scoping:
+    community: 15
+    participation: 0.811
+    within_degree_z: 0.079
+    strength: 107.0
+  regular_expressions:
+    community: 15
+    participation: 0.804
+    within_degree_z: 0.341
+    strength: 116.0
+  activation_records:
+    community: 15
+    participation: 0.801
+    within_degree_z: 1.177
+    strength: 205.0
+  language_syntax:
+    community: 15
+    participation: 0.799
+    within_degree_z: 1.386
+    strength: 155.0
+  language_semantics:
+    community: 15
+    participation: 0.799
+    within_degree_z: 1.386
+    strength: 155.0
+  model_driven_development:
+    community: 6
+    participation: 0.785
+    within_degree_z: -0.537
+    strength: 86.0
+  virtual_machines:
+    community: 2
+    participation: 0.784
+    within_degree_z: -0.842
+    strength: 67.0
+  functional_programming:
+    community: 28
+    participation: 0.781
+    within_degree_z: -0.197
+    strength: 105.0
+  interpreters:
+    community: 15
+    participation: 0.777
+    within_degree_z: 1.751
+    strength: 187.0
+  turing_machines:
+    community: 9
+    participation: 0.774
+    within_degree_z: -0.466
+    strength: 142.0
+  petri_nets:
+    community: 11
+    participation: 0.773
+    within_degree_z: 0.24
+    strength: 72.0
+  logical_programming:
+    community: 10
+    participation: 0.764
+    within_degree_z: 0.689
+    strength: 160.0
+  labeled_transition_systems:
+    community: 20
+    participation: 0.757
+    within_degree_z: -0.875
+    strength: 26.0
+  procedures:
+    community: 15
+    participation: 0.752
+    within_degree_z: 0.027
+    strength: 105.0
+  abstract_machines:
+    community: 15
+    participation: 0.74
+    within_degree_z: 1.072
+    strength: 127.0
+  service_oriented_computing:
+    community: 6
+    participation: 0.731
+    within_degree_z: 0.68
+    strength: 157.0
+  kotlin_programming:
+    community: 6
+    participation: 0.729
+    within_degree_z: -0.629
+    strength: 69.0
+  recursive_problems:
+    community: 9
+    participation: 0.723
+    within_degree_z: -0.734
+    strength: 66.0
+  functional_programming_scala:
+    community: 15
+    participation: 0.71
+    within_degree_z: 1.072
+    strength: 117.0
+  propositional_logic:
+    community: 10
+    participation: 0.699
+    within_degree_z: -0.787
+    strength: 31.0
+  static_analysis:
+    community: 6
+    participation: 0.689
+    within_degree_z: -0.202
+    strength: 83.0
+  temporal_logics:
+    community: 15
+    participation: 0.688
+    within_degree_z: -1.383
+    strength: 16.0
+  compiler_code_generation:
+    community: 15
+    participation: 0.688
+    within_degree_z: -1.383
+    strength: 16.0
+  concurrent_finite_state_processes:
+    community: 15
+    participation: 0.688
+    within_degree_z: -1.383
+    strength: 16.0
+  functional_parameters:
+    community: 15
+    participation: 0.682
+    within_degree_z: -0.077
+    strength: 62.0
+  sequence_control:
+    community: 15
+    participation: 0.681
+    within_degree_z: -0.13
+    strength: 60.0
+  types_and_type_checking:
+    community: 15
+    participation: 0.672
+    within_degree_z: 0.393
+    strength: 82.0
+  oo_initialization:
+    community: 28
+    participation: 0.628
+    within_degree_z: 0.077
+    strength: 83.0
+  parameter_passing_modes:
+    community: 15
+    participation: 0.621
+    within_degree_z: -0.077
+    strength: 61.0
+  lambda_calculus:
+    community: 15
+    participation: 0.62
+    within_degree_z: -0.6
+    strength: 45.0
+  first_order_logic:
+    community: 10
+    participation: 0.597
+    within_degree_z: -0.41
+    strength: 43.0
+  syntax_analysis:
+    community: 15
+    participation: 0.592
+    within_degree_z: -0.965
+    strength: 26.0
+  iterative_recursive_models:
+    community: 15
+    participation: 0.58
+    within_degree_z: -0.704
+    strength: 40.0
+  recursively_enumerable_problems:
+    community: 9
+    participation: 0.568
+    within_degree_z: -0.867
+    strength: 35.0
+  subtyping:
+    community: 15
+    participation: 0.545
+    within_degree_z: -0.13
+    strength: 49.0
+  bnf:
+    community: 15
+    participation: 0.484
+    within_degree_z: -0.13
+    strength: 46.0
+  pushdown_automata:
+    community: 15
+    participation: 0.476
+    within_degree_z: 0.288
+    strength: 56.0
+  finite_automata:
+    community: 15
+    participation: 0.436
+    within_degree_z: 1.386
+    strength: 82.0
+  context_free_grammars:
+    community: 15
+    participation: 0.436
+    within_degree_z: 1.386
+    strength: 82.0
+  lexical_analysis:
+    community: 15
+    participation: 0.428
+    within_degree_z: 1.803
+    strength: 92.0
+  yacc:
+    community: 15
+    participation: 0.347
+    within_degree_z: -0.13
+    strength: 40.0
+  lex:
+    community: 15
+    participation: 0.347
+    within_degree_z: -0.13
+    strength: 40.0
+  late_binding:
+    community: 15
+    participation: 0.347
+    within_degree_z: -0.13
+    strength: 40.0
+  garbage_collection:
+    community: 15
+    participation: 0.347
+    within_degree_z: -0.13
+    strength: 40.0
+  structured_operational_semantics:
+    community: 15
+    participation: 0.347
+    within_degree_z: -0.13
+    strength: 40.0
+  heap_memory:
+    community: 15
+    participation: 0.347
+    within_degree_z: -0.13
+    strength: 40.0
+  language_pragmatics_implementation:
+    community: 15
+    participation: 0.347
+    within_degree_z: -0.13
+    strength: 40.0
+  lr_parsing:
+    community: 15
+    participation: 0.346
+    within_degree_z: 0.968
+    strength: 66.0
+  regular_grammars:
+    community: 15
+    participation: 0.346
+    within_degree_z: 0.968
+    strength: 66.0
+  closures:
+    community: 15
+    participation: 0.346
+    within_degree_z: 0.968
+    strength: 66.0
+  grammar_parsing:
+    community: 15
+    participation: 0.346
+    within_degree_z: 0.968
+    strength: 66.0
+  ll1_parsing:
+    community: 15
+    participation: 0.346
+    within_degree_z: 0.968
+    strength: 66.0
+  code_transformation:
+    community: 15
+    participation: 0.34
+    within_degree_z: -1.383
+    strength: 10.0
+  intermediate_code_generation:
+    community: 15
+    participation: 0.34
+    within_degree_z: -1.383
+    strength: 10.0
+  antlr_framework:
+    community: 15
+    participation: 0.34
+    within_degree_z: -1.383
+    strength: 10.0
+  symbol_tables:
+    community: 15
+    participation: 0.34
+    within_degree_z: -1.383
+    strength: 10.0
+  function_evaluation_models:
+    community: 15
+    participation: 0.337
+    within_degree_z: -0.704
+    strength: 26.0
+  parser_generators:
+    community: 15
+    participation: 0.337
+    within_degree_z: -0.704
+    strength: 26.0
+  chomsky_hierarchy:
+    community: 15
+    participation: 0.337
+    within_degree_z: -0.704
+    strength: 26.0
+  prototype_object_model:
+    community: 15
+    participation: 0.337
+    within_degree_z: -0.704
+    strength: 26.0
+  property_based_testing:
+    community: 11
+    participation: 0.313
+    within_degree_z: 1.563
+    strength: 39.0
+  effect_composition:
+    community: 11
+    participation: 0.313
+    within_degree_z: 1.563
+    strength: 39.0
+  monads:
+    community: 11
+    participation: 0.313
+    within_degree_z: 1.563
+    strength: 39.0
+  monad_transformers:
+    community: 11
+    participation: 0.142
+    within_degree_z: -0.841
+    strength: 13.0
+  dependent_types:
+    community: 11
+    participation: 0.142
+    within_degree_z: -0.841
+    strength: 13.0
+  type_classes:
+    community: 11
+    participation: 0.142
+    within_degree_z: -0.841
+    strength: 13.0
+  nondeterministic_parsing:
+    community: 11
+    participation: 0.142
+    within_degree_z: -0.841
+    strength: 13.0
+  certified_programming:
+    community: 11
+    participation: 0.142
+    within_degree_z: -0.841
+    strength: 13.0
+  object_oriented_limits:
+    community: 11
+    participation: 0.142
+    within_degree_z: -0.841
+    strength: 13.0
+  parametric_types:
+    community: 11
+    participation: 0.142
+    within_degree_z: -0.841
+    strength: 13.0
+  software_transactional_memory:
+    community: 11
+    participation: 0.142
+    within_degree_z: -0.841
+    strength: 13.0
+  traits:
+    community: 11
+    participation: 0.142
+    within_degree_z: -0.841
+    strength: 13.0
+  classless_object_oriented:
+    community: 11
+    participation: 0.142
+    within_degree_z: -0.841
+    strength: 13.0

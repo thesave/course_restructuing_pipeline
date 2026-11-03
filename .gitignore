@@ -1,0 +1,16 @@
+# Environments and tooling
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.vscode/
+
+# Generated module review pages (Mermaid is inlined, ~6 MB each)
+**/review.html
+
+# draw.io backups
+*.bkp
+.$*

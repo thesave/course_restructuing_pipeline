@@ -1,0 +1,9 @@
+# Environment for network_analysis/topic_embeddings.py only. On machines where current
+# PyTorch installs, `pip install numpy pyyaml sentence-transformers` is enough. On Intel
+# Macs, current transformers needs PyTorch >= 2.6 (no wheels there) and PyTorch 2.2.2
+# needs numpy < 2, which OR-Tools rejects; so use a separate environment pinned as below.
+torch==2.2.2
+numpy<2
+transformers==4.41.2
+sentence-transformers==3.0.1
+PyYAML

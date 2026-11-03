@@ -1,0 +1,26 @@
+# Constraints on how topics are grouped into modules. Each constraint is hard
+# (must hold) or soft (may be violated at weight x amount of violation).
+constraints:
+- id: size
+  module_ects: {min: 3, max: 6}
+  hard: {min: false, max: true}
+  weight: 1
+  rationale: Modules of 3-6 ECTS; smaller modules are allowed but penalised per missing ECTS.
+- id: regular-languages
+  together: [finite_automata, regular_expressions, regular_grammars]
+  rationale: The equivalence of regular-language formalisms is taught as one block.
+- id: compiler-pipeline
+  together: [lexical_analysis, syntax_analysis, symbol_tables, intermediate_code_generation, compiler_code_generation]
+  hard: false
+  weight: 2
+  rationale: The compiler pipeline is preferably taught in one module (per extra module).
+- id: one-language-per-module
+  apart: [functional_programming_scala, javascript_language, kotlin_programming]
+  hard: false
+  weight: 1
+  rationale: Language-specific material in separate modules, so a course can adopt one language only.
+- id: related-only
+  related_only: true
+  hard: false
+  weight: 0.5
+  rationale: Topics without an affinity pair (never taught together) preferably do not share a module (per pair).

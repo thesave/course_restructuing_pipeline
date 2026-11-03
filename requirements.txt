@@ -1,0 +1,8 @@
+# Core environment (.venv). OR-Tools has no wheels for Python 3.15 yet: use Python 3.12.
+pydantic==2.13.*
+PyYAML==6.0.*
+ortools==9.15.*
+networkx
+numpy
+scipy
+matplotlib

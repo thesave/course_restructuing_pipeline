@@ -1,0 +1,309 @@
+<mxfile host="Electron">
+  <diagram name="analysis-pipeline" id="analysis-pipeline">
+    <mxGraphModel dx="1473" dy="834" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="upstream" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=1;collapsible=0;verticalAlign=top;fontStyle=1;fillColor=#fdf4ff;strokeColor=#e879f9;mermaidType=subgraph;" value="From courses to topics" vertex="1">
+          <mxGeometry height="952.2" width="544.6" x="981.7" y="146.6" as="geometry" />
+        </mxCell>
+        <mxCell id="evidence" parent="upstream" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28253d;dashed=1;dashPattern=6 3;fontColor=#28253d;mermaidType=stadium;mermaidClass=proposed;" value="1 · Evidence preparation&lt;br&gt;(no LLM)" vertex="1">
+          <mxGeometry height="46.4" width="179.8" x="243" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="extraction" parent="upstream" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28253d;dashed=1;dashPattern=6 3;fontColor=#28253d;mermaidType=stadium;mermaidClass=proposed;" value="2 · Per-course topic extraction&lt;br&gt;(LLM, each course on its own)" vertex="1">
+          <mxGeometry height="46.4" width="214.8" x="196.2" y="149.4" as="geometry" />
+        </mxCell>
+        <mxCell id="raw" parent="upstream" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28253d;dashed=1;dashPattern=6 3;fontColor=#28253d;mermaidType=cylinder;mermaidClass=proposed;" value="Raw topics&lt;br&gt;with evidence and attributes" vertex="1">
+          <mxGeometry height="91.5" width="188.6" x="209.4" y="219.8" as="geometry" />
+        </mxCell>
+        <mxCell id="canonicalisation" parent="upstream" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28253d;dashed=1;dashPattern=6 3;fontColor=#28253d;mermaidType=stadium;mermaidClass=proposed;" value="3 · Canonicalisation&lt;br&gt;(embeddings + LLM)" vertex="1">
+          <mxGeometry height="46.4" width="156.1" x="225.6" y="335.3" as="geometry" />
+        </mxCell>
+        <mxCell id="mapping" parent="upstream" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28253d;dashed=1;dashPattern=6 3;fontColor=#28253d;mermaidType=cylinder;mermaidClass=proposed;" value="Canonical topics and&lt;br&gt;raw-to-canonical mapping" vertex="1">
+          <mxGeometry height="90.3" width="176.1" x="95.2" y="441.7" as="geometry" />
+        </mxCell>
+        <mxCell id="topic_review" parent="upstream" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28253d;dashed=1;dashPattern=6 3;fontColor=#28253d;mermaidType=stadium;mermaidClass=proposed;" value="4 · Topic review&lt;br&gt;(human)" vertex="1">
+          <mxGeometry height="46.4" width="147.2" x="24" y="335.3" as="geometry" />
+        </mxCell>
+        <mxCell id="annotation" parent="upstream" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28253d;dashed=1;dashPattern=6 3;fontColor=#28253d;mermaidType=stadium;mermaidClass=proposed;" value="5 · Re-annotation against&lt;br&gt;canonical topics (LLM)" vertex="1">
+          <mxGeometry height="46.4" width="184.5" x="121" y="592" as="geometry" />
+        </mxCell>
+        <mxCell id="coverage" parent="upstream" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28253d;dashed=1;dashPattern=6 3;fontColor=#28253d;mermaidType=cylinder;mermaidClass=proposed;align=center;" value="&lt;span style=&quot;&quot;&gt;Course × topic matrix with weights&lt;/span&gt;" vertex="1">
+          <mxGeometry height="89" width="164.4" x="131" y="662.4" as="geometry" />
+        </mxCell>
+        <mxCell id="derivation" parent="upstream" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28253d;dashed=1;dashPattern=6 3;fontColor=#28253d;mermaidType=stadium;mermaidClass=proposed;" value="6 · Derived inputs&lt;br&gt;(no LLM)" vertex="1">
+          <mxGeometry height="46.4" width="147.2" x="139.6" y="811.4" as="geometry" />
+        </mxCell>
+        <mxCell id="dependency_proposal" parent="upstream" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28253d;dashed=1;dashPattern=6 3;fontColor=#28253d;mermaidType=stadium;mermaidClass=proposed;" value="7 · Dependency proposal&lt;br&gt;(LLM on plausible pairs)" vertex="1">
+          <mxGeometry height="46.4" width="183.7" x="336.9" y="811.4" as="geometry" />
+        </mxCell>
+        <mxCell id="dependency_review" parent="upstream" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28253d;dashed=1;dashPattern=6 3;fontColor=#28253d;mermaidType=stadium;mermaidClass=proposed;" value="Dependency review&lt;br&gt;(human)" vertex="1">
+          <mxGeometry height="46.4" width="150.2" x="353.6" y="881.8" as="geometry" />
+        </mxCell>
+        <mxCell id="inputs" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=1;collapsible=0;verticalAlign=top;fontStyle=1;fillColor=#f0fdfa;strokeColor=#2dd4bf;mermaidType=subgraph;" value="Solver inputs" vertex="1">
+          <mxGeometry height="136.9" width="800" x="475.9" y="1300.1" as="geometry" />
+        </mxCell>
+        <mxCell id="topics" parent="inputs" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28253d;fontColor=#28253d;mermaidType=cylinder;" value="Topics" vertex="1">
+          <mxGeometry height="69.9" width="135" x="641" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="affinity" parent="inputs" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28253d;fontColor=#28253d;mermaidType=cylinder;" value="Topic-topic affinity" vertex="1">
+          <mxGeometry height="69.9" width="135" x="456.1" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="constraints" parent="inputs" style="shape=document;boundedLbl=1;size=0.2;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28253d;fontColor=#28253d;mermaidType=odd;" value="General module-generation&lt;br&gt;constraints" vertex="1">
+          <mxGeometry height="46.4" width="197.1" x="209" y="66.5" as="geometry" />
+        </mxCell>
+        <mxCell id="prefixed" parent="inputs" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28253d;fontColor=#28253d;mermaidType=cylinder;" value="Prefixed modules" vertex="1">
+          <mxGeometry height="69.9" width="135" x="24" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="outputs" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=1;collapsible=0;verticalAlign=top;fontStyle=1;fillColor=#fff7ed;strokeColor=#fb923c;mermaidType=subgraph;" value="Solver outputs" vertex="1">
+          <mxGeometry height="136.9" width="368" x="8" y="1568.1" as="geometry" />
+        </mxCell>
+        <mxCell id="proposal" parent="outputs" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28253d;fontColor=#28253d;mermaidType=cylinder;" value="Modules proposal" vertex="1">
+          <mxGeometry height="69.9" width="135" x="24" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="outliers" parent="outputs" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28253d;fontColor=#28253d;mermaidType=cylinder;" value="Outliers" vertex="1">
+          <mxGeometry height="69.9" width="135" x="209" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="courses" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28253d;fontColor=#28253d;mermaidType=cylinder;" value="Course corpus&lt;br&gt;syllabi and course facts" vertex="1">
+          <mxGeometry height="88.6" width="160.5" x="1234.4" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="quality_note" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;dashed=1;dashPattern=4 3;fontColor=#28253d;mermaidType=square;mermaidClass=note;" value="Quality gates before the solver: remaining duplicates,&lt;br&gt;topic size, coverage of the syllabi, stability" vertex="1">
+          <mxGeometry height="61.4" width="156.1" x="768" y="596" as="geometry" />
+        </mxCell>
+        <mxCell id="affinity_analysis" parent="1" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28253d;fontColor=#28253d;mermaidType=stadium;" value="Topic affinity analysis" vertex="1">
+          <mxGeometry height="31" width="154" x="807.3" y="1178.9" as="geometry" />
+        </mxCell>
+        <mxCell id="affinity_analysis_note" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;dashed=1;dashPattern=4 3;fontColor=#28253d;mermaidType=square;mermaidClass=note;" value="Consensus communities over co-teaching&lt;br&gt;and description embeddings" vertex="1">
+          <mxGeometry height="61.4" width="319.9" x="621.8" y="1037.3" as="geometry" />
+        </mxCell>
+        <mxCell id="topics_note" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;dashed=1;dashPattern=4 3;fontColor=#28253d;mermaidType=square;mermaidClass=note;" value="Each topic: key, description, ECTS, level, kind,&lt;br&gt;technology, and the topics it depends on" vertex="1">
+          <mxGeometry height="61.4" width="348.5" x="1196.9" y="1168.7" as="geometry" />
+        </mxCell>
+        <mxCell id="affinity_note" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;dashed=1;dashPattern=4 3;fontColor=#28253d;mermaidType=square;mermaidClass=note;" value="Missing topic affinity means anti-affinity;&lt;br&gt;could be mandatory or weighted" vertex="1">
+          <mxGeometry height="61.4" width="306.2" x="461.1" y="1168.7" as="geometry" />
+        </mxCell>
+        <mxCell id="solver" parent="1" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28253d;fontColor=#28253d;mermaidType=stadium;" value="Solver" vertex="1">
+          <mxGeometry height="31" width="142.7" x="28.1" y="1487.1" as="geometry" />
+        </mxCell>
+        <mxCell id="outlier_detection" parent="1" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28253d;dashed=1;dashPattern=6 3;fontColor=#28253d;mermaidType=stadium;mermaidClass=proposed;" value="Outliers detection" vertex="1">
+          <mxGeometry height="31" width="142.7" x="111.4" y="1795" as="geometry" />
+        </mxCell>
+        <mxCell id="review" parent="1" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28253d;fontColor=#28253d;mermaidType=stadium;" value="Human review" vertex="1">
+          <mxGeometry height="31" width="142.7" x="569.4" y="1795" as="geometry" />
+        </mxCell>
+        <mxCell id="L_courses_evidence_0" edge="1" parent="1" source="courses" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="evidence" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_evidence_extraction_0" edge="1" parent="1" source="evidence" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.353;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="extraction" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_extraction_raw_0" edge="1" parent="1" source="extraction" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="raw" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_raw_canonicalisation_0" edge="1" parent="1" source="raw" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="canonicalisation" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_canonicalisation_mapping_0" edge="1" parent="1" source="canonicalisation" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.7190000000000001;entryY=0;entryDx=0;entryDy=0;" target="mapping" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1285.3" y="558.2" />
+              <mxPoint x="1203.8" y="558.2" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_topic_review_mapping_0" edge="1" parent="1" source="topic_review" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;mermaidType=double_arrow_point;exitX=0.642;exitY=1;exitDx=0;exitDy=0;entryX=0.281;entryY=0;entryDx=0;entryDy=0;" target="mapping" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100.4" y="558.2" />
+              <mxPoint x="1126.2" y="558.2" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_mapping_annotation_0" edge="1" parent="1" source="mapping" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.353;entryY=0;entryDx=0;entryDy=0;" target="annotation" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_evidence_annotation_0" edge="1" parent="1" source="evidence" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.647;exitY=1;exitDx=0;exitDy=0;entryX=0.647;entryY=0;entryDx=0;entryDy=0;" target="annotation" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1341.1" y="265.9" />
+              <mxPoint x="1404.8" y="265.9" />
+              <mxPoint x="1404.8" y="708.5" />
+              <mxPoint x="1222.3" y="708.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_annotation_coverage_0" edge="1" parent="1" source="annotation" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="coverage" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_coverage_derivation_0" edge="1" parent="1" source="coverage" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="derivation" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_derivation_topics_0" edge="1" parent="1" source="derivation" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.29;entryY=0;entryDx=0;entryDy=0;" target="topics" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1194.9" y="1128.8" />
+              <mxPoint x="1155.5" y="1128.8" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_coverage_dependency_proposal_0" edge="1" parent="1" source="coverage" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.7170000000000001;exitY=0.99;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dependency_proposal" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1230.9" y="927.9" />
+              <mxPoint x="1410.2" y="927.9" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_dependency_proposal_dependency_review_0" edge="1" parent="1" source="dependency_proposal" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dependency_review" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_dependency_review_topics_0" edge="1" parent="1" source="dependency_review" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.35700000000000004;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="topics" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1389" y="1148.7" />
+              <mxPoint x="1176" y="1148.7" />
+              <mxPoint x="1176" y="1250.2" />
+              <mxPoint x="1184.5" y="1250.2" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_coverage_affinity_analysis_0" edge="1" parent="1" source="coverage" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.28300000000000003;exitY=0.99;exitDx=0;exitDy=0;entryX=0.645;entryY=0;entryDx=0;entryDy=0;" target="affinity_analysis" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1159.1" y="928" />
+              <mxPoint x="1108.4" y="928" />
+              <mxPoint x="1108.4" y="1148.7" />
+              <mxPoint x="906.9" y="1148.7" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_affinity_analysis_affinity_0" edge="1" parent="1" source="affinity_analysis" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;mermaidType=double_arrow_point;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.64;entryY=0;entryDx=0;entryDy=0;" target="affinity" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="884.4" y="1250.1" />
+              <mxPoint x="1018.3" y="1250.1" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_quality_note_mapping_0" edge="1" parent="1" source="quality_note" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;dashed=1;dashPattern=2 3;mermaidType=arrow_open;entryX=-0.009;entryY=0.433;entryDx=0;entryDy=0;entryPerimeter=0;" target="mapping" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_affinity_analysis_note_affinity_analysis_0" edge="1" parent="1" source="affinity_analysis_note" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;dashed=1;dashPattern=2 3;mermaidType=arrow_open;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.355;entryY=0;entryDx=0;entryDy=0;" target="affinity_analysis" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="781.9" y="1148.7" />
+              <mxPoint x="861.8" y="1148.7" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_topics_note_topics_0" edge="1" parent="1" source="topics_note" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;dashed=1;dashPattern=2 3;mermaidType=arrow_open;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.71;entryY=0;entryDx=0;entryDy=0;" target="topics" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1371" y="1250.1" />
+              <mxPoint x="1212.9" y="1250.1" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_affinity_note_affinity_0" edge="1" parent="1" source="affinity_note" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;dashed=1;dashPattern=2 3;mermaidType=arrow_open;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.36;entryY=0;entryDx=0;entryDy=0;" target="affinity" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="614.3" y="1270.1" />
+              <mxPoint x="980.5" y="1270.1" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_inputs_solver_0" edge="1" parent="1" source="inputs" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.099;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="solver" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="555.3" y="1466.9" />
+              <mxPoint x="99.9" y="1466.9" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_solver_proposal_0" edge="1" parent="1" source="solver" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="proposal" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_proposal_outlier_detection_0" edge="1" parent="1" source="proposal" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.35700000000000004;entryY=0;entryDx=0;entryDy=0;" target="outlier_detection" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="99.6" y="1735" />
+              <mxPoint x="162.2" y="1735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_outlier_detection_outliers_0" edge="1" parent="1" source="outlier_detection" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.643;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="outliers" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="203.3" y="1735" />
+              <mxPoint x="284.4" y="1735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_outputs_review_0" edge="1" parent="1" source="outputs" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.784;exitY=1;exitDx=0;exitDy=0;entryX=0.193;entryY=0;entryDx=0;entryDy=0;" target="review" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="296.5" y="1775" />
+              <mxPoint x="596.6" y="1775" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_review_topic_review_0" edge="1" parent="1" source="review" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.316;exitY=0;exitDx=0;exitDy=0;entryX=0.358;entryY=1;entryDx=0;entryDy=0;" target="topic_review" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="614.4" y="1755" />
+              <mxPoint x="408.3" y="1755" />
+              <mxPoint x="408.3" y="1128.6" />
+              <mxPoint x="1058.4" y="1128.6" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_review_dependency_review_0" edge="1" parent="1" source="review" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.807;exitY=0;exitDx=0;exitDy=0;entryX=0.643;entryY=1;entryDx=0;entryDy=0;" target="dependency_review" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="684.8" y="1775" />
+              <mxPoint x="1565.4" y="1775" />
+              <mxPoint x="1565.4" y="1128.7" />
+              <mxPoint x="1432" y="1128.7" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_review_prefixed_0" edge="1" parent="1" source="review" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.439;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="prefixed" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="632" y="1735.1" />
+              <mxPoint x="567.5" y="1735.1" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_review_affinity_0" edge="1" parent="1" source="review" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;dashPattern=2 3;mermaidType=arrow_point;exitX=0.684;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="affinity" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="667.2" y="1755" />
+              <mxPoint x="964.9" y="1755" />
+              <mxPoint x="964.9" y="1466.9" />
+              <mxPoint x="999.4" y="1466.9" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_review_constraints_0" edge="1" parent="1" source="review" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;mermaidType=arrow_point;exitX=0.561;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="constraints" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="649.6" y="1735" />
+              <mxPoint x="748.8" y="1735" />
+              <mxPoint x="748.8" y="1467.1" />
+              <mxPoint x="783.3" y="1467.1" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="urAsDj7sLXEe1HqOUnFi-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;dashed=1;dashPattern=4 3;fontColor=#28253d;mermaidType=square;mermaidClass=note;" value="&lt;span style=&quot;text-align: start;&quot;&gt;Per course: learning outcomes, content, credits, scientific sector, teaching language, campus, degree programmes, and laboratory (yes/no).&lt;/span&gt;" vertex="1">
+          <mxGeometry height="79.9" width="278.25" x="681" y="172.85" as="geometry" />
+        </mxCell>
+        <mxCell id="urAsDj7sLXEe1HqOUnFi-2" edge="1" parent="1" source="urAsDj7sLXEe1HqOUnFi-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;dashed=1;dashPattern=2 3;mermaidType=arrow_open;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="evidence" value="">
+          <mxGeometry relative="1" x="-0.0738" as="geometry">
+            <mxPoint x="1207.3" y="213.10000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

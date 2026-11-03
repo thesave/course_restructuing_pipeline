@@ -1,0 +1,9 @@
+# Lexicographic: optimise each term in order, never worsening earlier ones.
+mode: lexicographic
+terms:
+- term: soft_constraint_penalty
+# Pairs sharing a module count their affinity minus the baseline (the median
+# listed score), so weakly related or unrelated topics cost something together.
+- term: cohesion
+  baseline: {quantile: 0.5}
+- term: module_count

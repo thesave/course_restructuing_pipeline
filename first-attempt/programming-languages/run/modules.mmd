@@ -1,0 +1,15 @@
+%% Module proposal
+flowchart TB
+  m01["m01 · 5.94 ECTS<br/>abstract_machines<br/>bnf<br/>concurrent_programming<br/>context_free_grammars<br/>environment_scoping<br/>finite_automata<br/>garbage_collection<br/>grammar_parsing<br/>heap_memory<br/>inheritance<br/>language_syntax<br/>oo_classes_objects<br/>procedures<br/>pushdown_automata<br/>regular_expressions<br/>regular_grammars"]:::module
+  m02["m02 · 5.18 ECTS<br/>antlr_framework<br/>code_transformation<br/>compilers<br/>intermediate_code_generation<br/>interpreters<br/>lexical_analysis<br/>static_analysis<br/>symbol_tables<br/>syntax_analysis<br/>types_and_type_checking<br/>virtual_machines"]:::flagged
+  m03["m03 · 4.84 ECTS<br/>chomsky_hierarchy<br/>function_evaluation_models<br/>functional_programming<br/>iterative_recursive_models<br/>javascript_language<br/>kotlin_programming<br/>lambda_calculus<br/>language_semantics<br/>lr_parsing<br/>model_driven_development<br/>parser_generators<br/>prototype_object_model<br/>recursion<br/>turing_machines"]:::flagged
+  m04["m04 · 5.71 ECTS<br/>compiler_code_generation<br/>concurrent_finite_state_processes<br/>first_order_logic<br/>labeled_transition_systems<br/>petri_nets<br/>propositional_logic<br/>recursive_problems<br/>recursively_enumerable_problems<br/>temporal_logics"]:::flagged
+  m05["m05 · 5.29 ECTS<br/>certified_programming<br/>classless_object_oriented<br/>dependent_types<br/>effect_composition<br/>monad_transformers<br/>monads<br/>nondeterministic_parsing<br/>object_oriented_limits<br/>parametric_types<br/>property_based_testing<br/>software_transactional_memory<br/>traits<br/>type_classes"]:::module
+  m06["m06 · 5.85 ECTS<br/>activation_records<br/>closures<br/>exceptions<br/>functional_parameters<br/>functional_programming_scala<br/>language_evolution<br/>language_pragmatics_implementation<br/>late_binding<br/>lex<br/>ll1_parsing<br/>logical_programming<br/>oo_initialization<br/>parameter_passing_modes<br/>sequence_control<br/>service_oriented_computing<br/>structured_operational_semantics<br/>subtyping<br/>yacc"]:::module
+  m01 --> m02
+  m02 --> m03
+  m03 --> m04
+  m03 --> m05
+  m04 --> m06
+  classDef module fill:#e8f1fb,stroke:#24527a
+  classDef flagged fill:#fdf0e6,stroke:#b35c00

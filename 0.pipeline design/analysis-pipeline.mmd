@@ -1,0 +1,70 @@
+%% Overall analysis pipeline: from current courses to reviewed module proposals.
+%% Cylinders are data, rounded boxes are processing steps, the flag is the constraints
+%% document, dashed boxes are notes. Labels are quoted and only Mermaid 10 syntax is used,
+%% so that editors bundling older Mermaid versions (e.g. VS Code's Mermaid Editor) can parse it.
+%% Steps with a dashed border are proposed (see upstream-proposal.md); solid ones exist.
+flowchart TB
+  courses[("Course corpus<br/>syllabi and course facts")]
+
+  subgraph upstream ["From courses to topics"]
+    evidence(["1 · Evidence preparation<br/>(no LLM)"]):::proposed
+    extraction(["2 · Per-course topic extraction<br/>(LLM, each course on its own)"]):::proposed
+    raw[("Raw topics<br/>with evidence and attributes")]:::proposed
+    canonicalisation(["3 · Canonicalisation<br/>(embeddings + LLM)"]):::proposed
+    mapping[("Canonical topics and<br/>raw → canonical mapping")]:::proposed
+    topic_review(["4 · Topic review<br/>(human)"]):::proposed
+    annotation(["5 · Re-annotation against<br/>canonical topics (LLM)"]):::proposed
+    coverage[("Course * topic coverage<br/>with weights")]:::proposed
+    derivation(["6 · Derived inputs<br/>(no LLM)"]):::proposed
+    dependency_proposal(["7 · Dependency proposal<br/>(LLM on plausible pairs)"]):::proposed
+    dependency_review(["Dependency review<br/>(human)"]):::proposed
+  end
+  quality_note["Quality gates before the solver: remaining duplicates,<br/>topic size, coverage of the syllabi, stability"]:::note
+
+  affinity_analysis(["Topic affinity analysis"])
+  affinity_analysis_note["Consensus communities over co-teaching<br/>and description embeddings"]:::note
+
+  subgraph inputs ["Solver inputs"]
+    topics[("Topics")]
+    affinity[("Topic-topic affinity")]
+    constraints>"General module-generation<br/>constraints"]
+    prefixed[("Prefixed modules")]
+  end
+  topics_note["Each topic: key, description, ECTS, level, kind,<br/>technology, and the topics it depends on"]:::note
+  affinity_note["Missing topic affinity means anti-affinity;<br/>could be mandatory or weighted"]:::note
+
+  solver([Solver])
+
+  subgraph outputs ["Solver outputs"]
+    proposal[("Modules proposal")]
+    outliers[("Outliers")]
+  end
+  outlier_detection(["Outliers detection"]):::proposed
+
+  review([Human review])
+  legend["Solid border: exists (prototype or in use)<br/>Dashed border: proposed"]:::note
+
+  courses --> evidence --> extraction --> raw --> canonicalisation --> mapping
+  topic_review <--> mapping
+  mapping --> annotation
+  evidence --> annotation
+  annotation --> coverage --> derivation --> topics
+  coverage --> dependency_proposal --> dependency_review --> topics
+  coverage --> affinity_analysis <--> affinity
+  quality_note -.- mapping
+  affinity_analysis_note -.- affinity_analysis
+  topics_note -.- topics
+  affinity_note -.- affinity
+
+  inputs --> solver --> proposal
+  proposal --> outlier_detection --> outliers
+  outputs --> review
+
+  review --> topic_review
+  review --> dependency_review
+  review --> prefixed
+  review -.-> affinity
+  review --> constraints
+
+  classDef note fill:none,stroke:#999,stroke-dasharray:4 3,color:#555
+  classDef proposed stroke-dasharray:6 3

@@ -1,0 +1,800 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Module review</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --panel: #ffffff; --ink: #1d2330; --muted: #5d6677; --line: #d9dee6;
+    --accent: #24527a; --accent-soft: #e8f1fb; --locked: #2d7a3e; --locked-soft: #e9f6ec;
+    --warn: #b35c00; --warn-soft: #fdf0e6; --bad: #b3261e; --bad-soft: #fbe9e7;
+    --chip: #f1f3f6; --drop: #fff7d6; --in: #2f6fb3; --out: #c2410c;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14171c; --panel: #1c2027; --ink: #e6e9ee; --muted: #9aa3b2; --line: #313844;
+      --accent: #7fb2e5; --accent-soft: #1f2d3d; --locked: #6cc785; --locked-soft: #1d3324;
+      --warn: #f0a050; --warn-soft: #3a2a18; --bad: #f2867c; --bad-soft: #3d1f1c;
+      --chip: #262b34; --drop: #3a3418; --in: #7fb2e5; --out: #f0a050;
+      color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 14px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header { position: sticky; top: 0; z-index: 5; background: var(--panel); border-bottom: 1px solid var(--line); padding: 10px 16px; display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
+  header h1 { font-size: 16px; margin: 0; }
+  header .run { color: var(--muted); font-size: 12px; }
+  .metrics { display: flex; flex-wrap: wrap; gap: 6px; }
+  .metric { background: var(--chip); border-radius: 6px; padding: 3px 8px; font-size: 12px; font-variant-numeric: tabular-nums; }
+  .metric b { font-weight: 600; }
+  .metric.bad { background: var(--bad-soft); color: var(--bad); }
+  .metric.warn { background: var(--warn-soft); color: var(--warn); }
+  .actions { display: flex; flex-wrap: wrap; gap: 6px; margin-left: auto; }
+  button { font: inherit; font-size: 13px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); border-radius: 6px; padding: 4px 10px; cursor: pointer; }
+  button:hover:not(:disabled) { border-color: var(--accent); }
+  button:disabled { opacity: .45; cursor: default; }
+  button.primary { background: var(--accent); border-color: var(--accent); color: var(--panel); }
+  input[type=search] { font: inherit; font-size: 13px; padding: 4px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); color: var(--ink); min-width: 12rem; }
+  .banner { margin: 10px 16px 0; padding: 8px 12px; border-radius: 6px; background: var(--warn-soft); color: var(--warn); display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  .banner.bad { background: var(--bad-soft); color: var(--bad); }
+  main { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 0.8fr); gap: 16px; padding: 12px 16px 24px; }
+  main.no-preview { grid-template-columns: minmax(0, 1fr); }
+  main.no-preview #preview-pane { display: none; }
+  @media (max-width: 900px) { main { grid-template-columns: minmax(0, 1fr); } }
+  .board { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; align-content: start; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-top: 4px solid var(--accent); border-radius: 8px; display: flex; flex-direction: column; min-height: 120px; }
+  .card.locked { border-top-color: var(--locked); background: linear-gradient(var(--locked-soft), var(--panel) 48px); }
+  .card.flagged { box-shadow: inset 0 0 0 1px var(--warn); }
+  .card.cycle { box-shadow: inset 0 0 0 2px var(--bad); }
+  .card.target { outline: 2px dashed var(--accent); outline-offset: 2px; background: var(--drop); }
+  .card.focus { outline: 3px solid var(--accent); outline-offset: 2px; }
+  .card-head { display: flex; gap: 6px; align-items: center; padding: 8px 8px 4px; }
+  .card-head input { flex: 1; min-width: 0; font: inherit; font-weight: 600; border: 1px solid transparent; background: transparent; color: var(--ink); border-radius: 4px; padding: 2px 4px; }
+  .card-head input:hover, .card-head input:focus { border-color: var(--line); }
+  .card-head input.invalid { border-color: var(--bad); color: var(--bad); }
+  .card-head button { padding: 2px 7px; font-size: 12px; }
+  .lock.on { background: var(--locked); border-color: var(--locked); color: var(--panel); }
+  .card-meta { padding: 0 10px; font-size: 12px; color: var(--muted); display: grid; gap: 3px; }
+  .ects { display: flex; align-items: center; gap: 8px; font-variant-numeric: tabular-nums; }
+  .bar { position: relative; flex: 1; height: 6px; background: var(--chip); border-radius: 3px; overflow: hidden; }
+  .bar span { position: absolute; inset: 0 auto 0 0; background: var(--accent); }
+  .bar.low span { background: var(--warn); }
+  .bar.high span { background: var(--bad); }
+  .bar i { position: absolute; top: -2px; bottom: -2px; width: 1px; background: var(--muted); }
+  .deps a { color: var(--accent); cursor: pointer; text-decoration: underline dotted; margin-right: 4px; }
+  .issues { display: flex; flex-wrap: wrap; gap: 4px; }
+  .issue { font-size: 11px; border-radius: 4px; padding: 1px 6px; background: var(--warn-soft); color: var(--warn); }
+  .issue.hard { background: var(--bad-soft); color: var(--bad); }
+  .chips { display: flex; flex-wrap: wrap; gap: 5px; padding: 8px 10px 10px; flex: 1; align-content: flex-start; }
+  .chip { background: var(--chip); border-left: 4px solid var(--muted); border-radius: 4px; padding: 2px 7px; font-size: 12px; cursor: grab; user-select: none; }
+  .chip.shared { border-left-style: double; }
+  .chip.selected { outline: 2px solid var(--accent); }
+  .chip.involved { box-shadow: inset 0 0 0 1px var(--warn); }
+  .chip.dep-in { outline: 2px solid var(--in); }
+  .chip.dep-out { outline: 2px solid var(--out); }
+  .chip.dim { opacity: .3; }
+  .chip.match { outline: 2px solid var(--ink); }
+  .new-card { border: 2px dashed var(--line); border-radius: 8px; min-height: 120px; display: grid; place-items: center; color: var(--muted); text-align: center; padding: 12px; cursor: pointer; }
+  .new-card.target { border-color: var(--accent); background: var(--drop); color: var(--ink); }
+  #preview-pane { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 8px; position: sticky; top: 64px; max-height: calc(100vh - 80px); overflow: auto; align-self: start; }
+  #preview-pane h2, aside h2 { font-size: 13px; margin: 2px 4px 8px; color: var(--muted); font-weight: 600; }
+  #preview svg { max-width: 100%; height: auto; }
+  #preview g.node { cursor: pointer; }
+  aside { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+  aside section { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; }
+  .legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12px; }
+  .legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; background: var(--c); vertical-align: -1px; }
+  .violations { font-size: 12px; margin: 0; padding-left: 18px; }
+  .violations li { margin-bottom: 3px; }
+  .help { font-size: 12px; color: var(--muted); margin: 0; padding-left: 18px; }
+  dialog { border: 1px solid var(--line); border-radius: 10px; background: var(--panel); color: var(--ink); width: min(760px, 92vw); padding: 16px; }
+  dialog::backdrop { background: rgb(0 0 0 / .35); }
+  dialog textarea { width: 100%; height: 300px; font: 12px/1.4 ui-monospace, Menlo, monospace; background: var(--chip); color: var(--ink); border: 1px solid var(--line); border-radius: 6px; padding: 8px; }
+  dialog code { font-size: 12px; background: var(--chip); padding: 1px 4px; border-radius: 4px; word-break: break-all; }
+  .dialog-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 10px; flex-wrap: wrap; }
+  #tooltip { position: fixed; z-index: 20; max-width: 340px; background: var(--ink); color: var(--panel); font-size: 12px; padding: 6px 8px; border-radius: 6px; pointer-events: none; display: none; }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Module review</h1>
+    <div class="run" id="run"></div>
+  </div>
+  <div class="metrics" id="metrics"></div>
+  <div class="actions">
+    <input type="search" id="search" placeholder="Find topic…" aria-label="Find topic">
+    <button id="undo" title="Undo (Ctrl+Z)">Undo</button>
+    <button id="redo" title="Redo (Ctrl+Shift+Z)">Redo</button>
+    <button id="sort" title="Order the cards by module dependencies">Sort by dependencies</button>
+    <button id="toggle-preview">Hide diagram</button>
+    <button id="reset" title="Back to the solver's proposal">Reset</button>
+    <button id="open" title="Open a review file">Open…</button>
+    <button id="save" class="primary" title="Save the review (Ctrl+S)">Save</button>
+    <button id="save-as" title="Save the review as a new file">Save as…</button>
+    <button id="resolve" title="Command that keeps the locked modules and re-solves the rest">Re-solve…</button>
+    <input type="file" id="open-file" accept=".yml,.yaml" hidden>
+  </div>
+</header>
+<div id="banners"></div>
+<main id="main">
+  <div class="board" id="board"></div>
+  <div id="preview-pane"><h2>Diagram (updates after each change; click a module to find its card)</h2><div id="preview"></div></div>
+  <aside>
+    <section><h2>Violations</h2><ul class="violations" id="violations"></ul></section>
+    <section><h2>Current courses (topic colour)</h2><div class="legend" id="legend"></div></section>
+    <section>
+      <h2>How to review</h2>
+      <ul class="help">
+        <li>Drag a topic onto another module, or click a topic and then click a module.</li>
+        <li>Drop a topic on the dashed card to start a new module.</li>
+        <li>Modules you change are locked automatically; lock or unlock any module with its button.</li>
+        <li>Hover a topic to see what it requires (blue) and what requires it (orange).</li>
+        <li>“Save” writes the review (module names, locks and topics) to a YAML file and “Open” loads one; keep it as <code>review.yml</code> in the run folder so that <code>review-modules.sh</code> reopens it.</li>
+        <li>“Re-solve” shows the command that keeps the locked modules and re-solves the rest.</li>
+      </ul>
+    </section>
+  </aside>
+</main>
+<dialog id="resolve-dialog">
+  <h2 style="margin-top:0;font-size:16px">Re-solve with this review</h2>
+  <p id="resolve-summary" style="margin-top:0"></p>
+  <p style="font-size:13px">Save the review, then run:<br><code id="resolve-command"></code></p>
+  <p id="resolve-note" style="font-size:12px;color:var(--muted)"></p>
+  <details>
+    <summary style="font-size:13px;cursor:pointer">Locked modules only, as a pre-fixed modules file for <code>solve --prefixed</code></summary>
+    <textarea id="yaml" readonly></textarea>
+    <div class="dialog-actions">
+      <button id="copy">Copy YAML</button>
+      <button id="download">Download prefixed-modules.yml</button>
+    </div>
+  </details>
+  <div class="dialog-actions"><button id="close-dialog" class="primary">Close</button></div>
+</dialog>
+<div id="tooltip"></div>
+<script>/*@MERMAID@*/</script>
+<script>/*@YAML@*/</script>
+<script>/*@DATA@*/</script>
+<script>
+"use strict";
+const KEY_PATTERN = /^[a-z][a-z0-9]*(?:[_-][a-z0-9]+)*$/;
+const RESERVED = /^m[0-9]+$/;
+const PALETTE = ["#4e79a7", "#f28e2b", "#59a14f", "#e15759", "#b07aa1", "#76b7b2", "#edc948", "#9c755f", "#ff9da7", "#bab0ac"];
+const SESSION_FORMAT = "modules-review/1";
+const $ = (id) => document.getElementById(id);
+
+// ---- session ------------------------------------------------------------
+// The review under edit: the run's data plus the arrangement of modules.
+// Opening a review file replaces it.
+let DATA, topicInfo, courseIds, courseColour, scores, requires, requiredBy, sizeConstraint, STORAGE_KEY;
+function useSession(session) {
+  DATA = session;
+  topicInfo = DATA.topics;
+  courseIds = Object.keys(DATA.courses || {}).length ? Object.keys(DATA.courses)
+    : [...new Set(Object.values(topicInfo).flatMap((t) => t.courses))].sort();
+  courseColour = Object.fromEntries(courseIds.map((c, i) => [c, PALETTE[i % PALETTE.length]]));
+  scores = new Map();
+  for (const [a, b, s] of DATA.affinity || []) scores.set(pairKey(a, b), s);
+  requires = {}; requiredBy = {};
+  for (const [r, f] of DATA.dependencies) {
+    (requires[f] ||= []).push(r);
+    (requiredBy[r] ||= []).push(f);
+  }
+  sizeConstraint = DATA.constraints.find((c) => c.kind === "module_ects");
+  STORAGE_KEY = `modules-review:${DATA.run}:${DATA.fingerprint}`;
+}
+function pairKey(a, b) { return a < b ? `${a}|${b}` : `${b}|${a}`; }
+function scaled(topic) { return Math.max(1, Math.round(topicInfo[topic].ects * 100)); }
+
+// ---- state ------------------------------------------------------------
+let nextId = 1;
+const toState = (list, lockField) => list.map((m) => ({ id: nextId++, key: m.key, topics: [...m.topics], locked: !!m[lockField], empty: false }));
+const freshModules = () => toState(DATA.proposal, "prefixed");
+useSession(INITIAL_SESSION);
+let modules = toState(DATA.modules, "locked");
+let undoStack = [], redoStack = [], selected = null, focusId = null, searchText = "";
+// The review file being edited (a handle where the browser allows writing back).
+let fileHandle = null, fileName = null, dirty = false, notice = null;
+const snapshot = () => JSON.stringify({ modules, nextId });
+function restore(text) { const s = JSON.parse(text); modules = s.modules; nextId = s.nextId; }
+function commit(change) {
+  undoStack.push(snapshot()); redoStack = [];
+  change();
+  dirty = true;
+  persist(); render();
+}
+function persist() { try { localStorage.setItem(STORAGE_KEY, snapshot()); } catch (e) { /* storage unavailable */ } }
+
+// ---- edits ------------------------------------------------------------
+function moduleOfTopic(topic) { return modules.find((m) => m.topics.includes(topic)); }
+function newKey() {
+  let n = 1;
+  while (modules.some((m) => m.key === `new-${n}`)) n++;
+  return `new-${n}`;
+}
+function lockKey(module) { if (RESERVED.test(module.key)) module.key = `fixed-${module.key}`; }
+function moveTopic(topic, targetId) {
+  const source = moduleOfTopic(topic);
+  if (source && source.id === targetId) return;
+  commit(() => {
+    let target = modules.find((m) => m.id === targetId);
+    if (!target) {
+      target = { id: nextId++, key: newKey(), topics: [], locked: true, empty: false };
+      modules.push(target);
+    }
+    source.topics = source.topics.filter((t) => t !== topic);
+    target.topics.push(topic);
+    target.topics.sort();
+    target.locked = true; target.empty = false;
+    lockKey(target);
+    // A module emptied by a move disappears; one created empty stays until deleted.
+    modules = modules.filter((m) => m.topics.length || m.empty);
+  });
+}
+window.review = {
+  moveTopic, modules: () => modules, evaluate: () => evaluate(), yaml: () => prefixedYaml(),
+  sessionYaml: () => sessionYaml(), loadText: (text, name) => loadSession(text, null, name), save: (asNew) => saveFile(asNew),
+};
+
+// ---- evaluation (mirrors modules_engine/report.py) ---------------------
+function evaluate() {
+  const moduleOf = {};
+  for (const m of modules) for (const t of m.topics) moduleOf[t] = m.id;
+  const byId = Object.fromEntries(modules.map((m) => [m.id, m]));
+  const ects = {};
+  for (const m of modules) ects[m.id] = m.topics.reduce((sum, t) => sum + scaled(t), 0) / 100;
+
+  // Module dependencies.
+  const via = new Map(), succ = {};
+  for (const m of modules) succ[m.id] = new Set();
+  for (const [r, f] of DATA.dependencies) {
+    const a = moduleOf[r], b = moduleOf[f];
+    if (a === b) continue;
+    const key = `${a}>${b}`;
+    if (!via.has(key)) via.set(key, []);
+    via.get(key).push([r, f]);
+    succ[a].add(b);
+  }
+  const cycle = stronglyConnected(modules.map((m) => m.id), succ);
+  const edges = [...via.keys()].map((k) => k.split(">").map(Number));
+  const reduced = cycle.size ? edges : edges.filter(([a, b]) => !reachable(a, b, succ, [a, b]));
+  let depth = null;
+  if (!cycle.size) {
+    const order = topological(modules.map((m) => m.id), succ);
+    const chain = Object.fromEntries(order.map((id) => [id, 1]));
+    for (const id of order) for (const next of succ[id]) chain[next] = Math.max(chain[next], chain[id] + 1);
+    depth = Math.max(1, ...Object.values(chain));
+  }
+
+  // Violations, as in report.violations.
+  const found = [];
+  const record = (c, amount, hard, moduleIds, topics, text) => found.push({
+    id: c.id, kind: c.kind, hard, amount: +amount.toFixed(3), penalty: hard ? 0 : c.weight * amount, modules: moduleIds, topics, text,
+  });
+  for (const c of DATA.constraints) {
+    if (c.kind === "module_ects") {
+      for (const m of modules) {
+        if (!m.topics.length) continue;
+        if (c.min != null && ects[m.id] < c.min) record(c, c.min - ects[m.id], c.hard.min, [m.id], [], `below ${c.min} ECTS`);
+        if (c.max != null && ects[m.id] > c.max) record(c, ects[m.id] - c.max, c.hard.max, [m.id], [], `above ${c.max} ECTS`);
+      }
+    } else if (c.kind === "related_only") {
+      let count = 0; const ids = new Set(), topics = new Set();
+      for (const m of modules) for (let i = 0; i < m.topics.length; i++) for (let j = i + 1; j < m.topics.length; j++) {
+        const s = scores.get(pairKey(m.topics[i], m.topics[j]));
+        if (s === undefined || s <= 0 || s < c.min_score) { count++; ids.add(m.id); topics.add(m.topics[i]); topics.add(m.topics[j]); }
+      }
+      if (count) record(c, count, c.hard, [...ids], [...topics], `${count} unrelated pair(s)`);
+    } else {
+      const groups = {};
+      for (const t of c.topics) (groups[moduleOf[t]] ||= []).push(t);
+      const ids = Object.keys(groups).map(Number);
+      if (c.kind === "together" && ids.length > 1) record(c, ids.length - 1, c.hard, ids, c.topics, `split over ${ids.length} modules`);
+      if (c.kind === "apart") {
+        const crowded = ids.filter((id) => groups[id].length > 1);
+        const extra = crowded.reduce((sum, id) => sum + groups[id].length - 1, 0);
+        if (extra) record(c, extra, c.hard, crowded, crowded.flatMap((id) => groups[id]), `${extra} topic(s) sharing a module`);
+      }
+    }
+  }
+
+  // Cohesion: affinity minus baseline over pairs sharing a module.
+  const cohesion = {};
+  if (DATA.affinity) for (const m of modules) {
+    let total = 0;
+    for (let i = 0; i < m.topics.length; i++) for (let j = i + 1; j < m.topics.length; j++)
+      total += (scores.get(pairKey(m.topics[i], m.topics[j])) || 0) - DATA.baseline;
+    cohesion[m.id] = total;
+  }
+  const spread = {};
+  for (const c of courseIds) spread[c] = new Set();
+  for (const [t, info] of Object.entries(topicInfo)) for (const c of info.courses) if (spread[c]) spread[c].add(moduleOf[t]);
+
+  const keys = modules.map((m) => m.key);
+  const badKeys = new Set(modules.filter((m) => !KEY_PATTERN.test(m.key) || keys.indexOf(m.key) !== keys.lastIndexOf(m.key)
+    || (m.locked && RESERVED.test(m.key))).map((m) => m.id));
+  return { moduleOf, byId, ects, via, succ, reduced, cycle, depth, found, cohesion, spread, badKeys, lockedCycle: lockedCycle() };
+}
+
+function lockedCycle() {
+  // Locked modules the engine cannot keep: each locked (exclusive) module is
+  // one node, other topics stay single nodes; any cycle through a locked node
+  // would force distinct modules into one, or an outside topic into an
+  // exclusive module. Cycles among unlocked modules are fixed by re-solving.
+  const node = Object.fromEntries(Object.keys(topicInfo).map((t) => [t, t]));
+  for (const m of modules) if (m.locked) for (const t of m.topics) node[t] = `#${m.id}`;
+  const succ = {};
+  for (const n of Object.values(node)) succ[n] = new Set();
+  for (const [r, f] of DATA.dependencies) if (node[r] !== node[f]) succ[node[r]].add(node[f]);
+  const onCycle = stronglyConnected(Object.keys(succ), succ);
+  return new Set([...onCycle].filter((n) => n.startsWith("#")).map((n) => Number(n.slice(1))));
+}
+
+function stronglyConnected(ids, succ) {
+  // Tarjan; returns the modules lying on a cycle.
+  let index = 0; const stack = [], on = new Set(), idx = {}, low = {}, inCycle = new Set();
+  const visit = (v) => {
+    idx[v] = low[v] = index++; stack.push(v); on.add(v);
+    for (const w of succ[v]) {
+      if (idx[w] === undefined) { visit(w); low[v] = Math.min(low[v], low[w]); }
+      else if (on.has(w)) low[v] = Math.min(low[v], idx[w]);
+    }
+    if (low[v] === idx[v]) {
+      const component = [];
+      let w; do { w = stack.pop(); on.delete(w); component.push(w); } while (w !== v);
+      if (component.length > 1) component.forEach((c) => inCycle.add(c));
+    }
+  };
+  ids.forEach((v) => { if (idx[v] === undefined) visit(v); });
+  return inCycle;
+}
+function reachable(from, to, succ, skip) {
+  const seen = new Set(), stack = [from];
+  while (stack.length) {
+    const v = stack.pop();
+    for (const w of succ[v]) {
+      if (v === skip[0] && w === skip[1]) continue;
+      if (w === to) return true;
+      if (!seen.has(w)) { seen.add(w); stack.push(w); }
+    }
+  }
+  return false;
+}
+function topological(ids, succ) {
+  // Kahn's algorithm, keeping the current card order among ready modules.
+  const indegree = Object.fromEntries(ids.map((id) => [id, 0]));
+  ids.forEach((id) => succ[id].forEach((w) => indegree[w]++));
+  const ready = ids.filter((id) => !indegree[id]), order = [];
+  while (ready.length) {
+    ready.sort((a, b) => ids.indexOf(a) - ids.indexOf(b));
+    const v = ready.shift(); order.push(v);
+    succ[v].forEach((w) => { if (!--indegree[w]) ready.push(w); });
+  }
+  return order;
+}
+
+// ---- rendering --------------------------------------------------------
+const fmt = (x, d = 2) => (Math.round(x * 10 ** d) / 10 ** d).toString();
+const escapeHtml = (text) => String(text).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+function render() {
+  const ev = evaluate();
+  renderTitle(); renderMetrics(ev); renderBanners(ev); renderBoard(ev); renderViolations(ev); schedulePreview(ev);
+  $("undo").disabled = !undoStack.length; $("redo").disabled = !redoStack.length;
+}
+
+function renderTitle() {
+  const file = fileName || (DATA.resumed_from ? `resumed from ${DATA.resumed_from}` : "not saved yet");
+  $("run").textContent = `${file}${dirty ? " · unsaved changes" : ""} · run ${DATA.run} · solver status ${DATA.status}`;
+  document.title = `${dirty ? "• " : ""}Module review${fileName ? ` · ${fileName}` : ""}`;
+}
+
+function renderMetrics(ev) {
+  const used = modules.filter((m) => m.topics.length);
+  const penalty = ev.found.reduce((s, v) => s + v.penalty, 0);
+  const hard = ev.found.filter((v) => v.hard).length;
+  const cohesion = Object.values(ev.cohesion).reduce((s, x) => s + x, 0);
+  const spreads = Object.values(ev.spread).map((s) => s.size).filter((n) => n).sort((a, b) => a - b);
+  const median = spreads.length ? spreads[Math.floor((spreads.length - 1) / 2)] : 0;
+  const items = [
+    [`<b>${used.length}</b> modules`, ""],
+    [`<b>${modules.filter((m) => m.locked).length}</b> locked`, ""],
+    [`penalty <b>${fmt(penalty)}</b>`, penalty ? "warn" : ""],
+    [`hard violations <b>${hard}</b>`, hard ? "bad" : ""],
+    ...(DATA.affinity ? [[`cohesion <b>${fmt(cohesion, 1)}</b>`, ""]] : []),
+    [ev.cycle.size ? `<b>dependency cycle</b>` : `longest chain <b>${ev.depth}</b>`, ev.cycle.size ? "bad" : ""],
+    [`modules per course <b>${median}</b> (median)`, ""],
+  ];
+  $("metrics").innerHTML = items.map(([html, cls]) => `<span class="metric ${cls}">${html}</span>`).join("");
+}
+
+function renderBanners(ev) {
+  const parts = [];
+  if (notice) parts.push(`<div class="banner ${notice.kind}">${escapeHtml(notice.text)} <button id="dismiss">Dismiss</button></div>`);
+  if (ev.lockedCycle.size) parts.push(`<div class="banner bad">Locked modules ${[...ev.lockedCycle].map((id) => ev.byId[id].key).join(", ")} depend on each other (directly or through other topics), so the engine cannot keep them as they are. Move topics or unlock one of them to save.</div>`);
+  else if (ev.cycle.size) parts.push(`<div class="banner">The modules outlined in red depend on each other in a cycle. Saving is still possible: re-solving rearranges the unlocked modules involved.</div>`);
+  if (ev.badKeys.size) parts.push(`<div class="banner bad">Some module names are invalid or repeated (lowercase words joined by - or _; locked modules cannot be named like m01).</div>`);
+  if (pendingRestore) parts.push(`<div class="banner">Unsaved edits from a previous session were found. <button id="restore">Restore them</button><button id="discard">Discard</button></div>`);
+  $("banners").innerHTML = parts.join("");
+  if (notice) $("dismiss").onclick = () => { notice = null; render(); };
+  if (pendingRestore) {
+    $("restore").onclick = () => { restore(pendingRestore); pendingRestore = null; dirty = true; render(); };
+    $("discard").onclick = () => { pendingRestore = null; persist(); render(); };
+  }
+  // Saving a work in progress is always possible; re-solving is not when the
+  // engine could not keep the locked modules.
+  $("resolve").disabled = !!(ev.lockedCycle.size || modules.some((m) => m.locked && ev.badKeys.has(m.id)));
+}
+
+function renderBoard(ev) {
+  const board = $("board");
+  board.replaceChildren();
+  const involved = new Set(ev.found.flatMap((v) => v.topics));
+  const issuesOf = {};
+  for (const v of ev.found) for (const id of v.modules) (issuesOf[id] ||= []).push(v);
+  const preds = {}, succs = {};
+  for (const [a, b] of ev.reduced) { (preds[b] ||= []).push(a); (succs[a] ||= []).push(b); }
+
+  for (const m of modules) {
+    const card = document.createElement("div");
+    card.className = "card" + (m.locked ? " locked" : "") + (issuesOf[m.id] ? " flagged" : "") + (ev.cycle.has(m.id) ? " cycle" : "") + (focusId === m.id ? " focus" : "");
+    card.dataset.id = m.id;
+
+    const head = document.createElement("div"); head.className = "card-head";
+    const name = document.createElement("input");
+    name.value = m.key; name.setAttribute("aria-label", "Module name");
+    if (ev.badKeys.has(m.id)) name.classList.add("invalid");
+    name.onchange = () => { const value = name.value.trim(); if (value !== m.key) commit(() => { m.key = value; }); };
+    const lock = document.createElement("button");
+    lock.className = "lock" + (m.locked ? " on" : "");
+    lock.textContent = m.locked ? "Locked" : "Lock";
+    lock.title = m.locked ? "Kept as it is when re-solving; click to free it" : "Keep this module as it is when re-solving";
+    lock.onclick = () => commit(() => { m.locked = !m.locked; if (m.locked) lockKey(m); });
+    head.append(name, lock);
+    if (!m.topics.length) {
+      const remove = document.createElement("button"); remove.textContent = "Delete"; remove.title = "Delete this empty module";
+      remove.onclick = () => commit(() => { modules = modules.filter((x) => x.id !== m.id); });
+      head.append(remove);
+    }
+
+    const meta = document.createElement("div"); meta.className = "card-meta";
+    const e = ev.ects[m.id];
+    const top = Math.max(e, sizeConstraint?.max || 6) * 1.1;
+    const barClass = sizeConstraint?.min != null && e < sizeConstraint.min ? "low" : sizeConstraint?.max != null && e > sizeConstraint.max ? "high" : "";
+    const marks = [sizeConstraint?.min, sizeConstraint?.max].filter((x) => x != null).map((x) => `<i style="left:${(x / top) * 100}%"></i>`).join("");
+    meta.innerHTML = `<div class="ects"><span>${fmt(e)} ECTS · ${m.topics.length} topics${DATA.affinity && m.topics.length > 1 ? ` · cohesion ${fmt(ev.cohesion[m.id], 1)}` : ""}</span><span class="bar ${barClass}"><span style="width:${(e / top) * 100}%"></span>${marks}</span></div>`;
+    const deps = document.createElement("div"); deps.className = "deps";
+    const link = (id) => { const a = document.createElement("a"); a.textContent = ev.byId[id].key; a.onclick = () => focusCard(id); return a; };
+    if (preds[m.id]) { deps.append("requires "); preds[m.id].forEach((id) => deps.append(link(id))); }
+    if (succs[m.id]) { deps.append(preds[m.id] ? " · needed by " : "needed by "); succs[m.id].forEach((id) => deps.append(link(id))); }
+    if (deps.childNodes.length) meta.append(deps);
+    if (issuesOf[m.id]) {
+      const issues = document.createElement("div"); issues.className = "issues";
+      for (const v of issuesOf[m.id]) {
+        const tag = document.createElement("span"); tag.className = "issue" + (v.hard ? " hard" : "");
+        tag.textContent = `${v.id}: ${v.text}`; issues.append(tag);
+      }
+      meta.append(issues);
+    }
+
+    const chips = document.createElement("div"); chips.className = "chips";
+    for (const t of m.topics) chips.append(chip(t, involved));
+    card.append(head, meta, chips);
+    dropTarget(card, m.id);
+    card.addEventListener("click", (event) => {
+      if (selected && !event.target.closest(".chip, button, input, a")) { const t = selected; selected = null; moveTopic(t, m.id); }
+    });
+    board.append(card);
+  }
+
+  const fresh = document.createElement("div"); fresh.className = "new-card";
+  fresh.innerHTML = "<div><b>New module</b><br>Drop a topic here (or select a topic and click)<br>to start a new locked module.<br>Click with nothing selected to add an empty one.</div>";
+  dropTarget(fresh, null);
+  fresh.onclick = () => {
+    if (selected) { const t = selected; selected = null; moveTopic(t, null); }
+    else commit(() => { modules.push({ id: nextId++, key: newKey(), topics: [], locked: true, empty: true }); });
+  };
+  board.append(fresh);
+  applySearch();
+}
+
+function chip(topic, involved) {
+  const el = document.createElement("span");
+  const info = topicInfo[topic];
+  const own = info.courses.filter((c) => courseColour[c]);
+  el.className = "chip" + (own.length > 1 ? " shared" : "") + (involved.has(topic) ? " involved" : "") + (selected === topic ? " selected" : "");
+  el.style.borderLeftColor = own.length === 1 ? courseColour[own[0]] : "";
+  el.textContent = topic; el.draggable = true; el.dataset.topic = topic;
+  el.addEventListener("dragstart", (event) => { event.dataTransfer.setData("text/plain", topic); event.dataTransfer.effectAllowed = "move"; hideTooltip(); });
+  el.addEventListener("click", (event) => { event.stopPropagation(); selected = selected === topic ? null : topic; render(); });
+  el.addEventListener("mouseenter", (event) => { highlightDeps(topic, true); showTooltip(event, topic); });
+  el.addEventListener("mousemove", moveTooltip);
+  el.addEventListener("mouseleave", () => { highlightDeps(topic, false); hideTooltip(); });
+  return el;
+}
+
+function dropTarget(el, id) {
+  el.addEventListener("dragover", (event) => { event.preventDefault(); el.classList.add("target"); });
+  el.addEventListener("dragleave", (event) => { if (!el.contains(event.relatedTarget)) el.classList.remove("target"); });
+  el.addEventListener("drop", (event) => {
+    event.preventDefault(); el.classList.remove("target");
+    const topic = event.dataTransfer.getData("text/plain");
+    if (topicInfo[topic]) moveTopic(topic, id);
+  });
+}
+
+function highlightDeps(topic, on) {
+  for (const t of requires[topic] || []) document.querySelector(`.chip[data-topic="${t}"]`)?.classList.toggle("dep-in", on);
+  for (const t of requiredBy[topic] || []) document.querySelector(`.chip[data-topic="${t}"]`)?.classList.toggle("dep-out", on);
+}
+
+function showTooltip(event, topic) {
+  const info = topicInfo[topic], tip = $("tooltip");
+  const courses = info.courses.map((c) => `${c}${DATA.courses[c] ? " " + DATA.courses[c] : ""}`).join("; ");
+  tip.replaceChildren();
+  const lines = [
+    [topic, "b"], [info.description, ""], [`${fmt(info.ects)} ECTS · ${courses || "no current course"}`, ""],
+    ...(requires[topic] ? [[`requires: ${requires[topic].join(", ")}`, ""]] : []),
+    ...(requiredBy[topic] ? [[`needed by: ${requiredBy[topic].join(", ")}`, ""]] : []),
+  ];
+  for (const [text, tag] of lines) { const line = document.createElement(tag || "div"); line.textContent = text; tip.append(line); if (tag) tip.append(document.createElement("br")); }
+  tip.style.display = "block"; moveTooltip(event);
+}
+function moveTooltip(event) { const tip = $("tooltip"); tip.style.left = Math.min(event.clientX + 14, innerWidth - 350) + "px"; tip.style.top = (event.clientY + 14) + "px"; }
+function hideTooltip() { $("tooltip").style.display = "none"; }
+
+function applySearch() {
+  const q = searchText.trim().toLowerCase();
+  document.querySelectorAll(".chip").forEach((el) => {
+    const hit = q && (el.dataset.topic.includes(q) || topicInfo[el.dataset.topic].description.toLowerCase().includes(q));
+    el.classList.toggle("match", !!hit); el.classList.toggle("dim", !!q && !hit);
+  });
+}
+
+function renderViolations(ev) {
+  const list = $("violations");
+  list.replaceChildren();
+  if (!ev.found.length) { const li = document.createElement("li"); li.textContent = "None."; list.append(li); }
+  for (const v of ev.found) {
+    const li = document.createElement("li");
+    li.textContent = `${v.hard ? "HARD " : ""}${v.id}: ${v.text} in ${v.modules.map((id) => ev.byId[id].key).join(", ")}${v.hard ? "" : ` (penalty ${fmt(v.penalty)})`}`;
+    list.append(li);
+  }
+  const legend = $("legend");
+  legend.replaceChildren();
+  for (const c of courseIds) {
+    const span = document.createElement("span"); span.style.setProperty("--c", courseColour[c]);
+    span.textContent = `${c} ${DATA.courses[c] || ""} (${ev.spread[c]?.size || 0} modules)`; legend.append(span);
+  }
+  const shared = document.createElement("span"); shared.style.setProperty("--c", "transparent");
+  shared.textContent = "double border: taught by several of these courses"; legend.append(shared);
+}
+
+function focusCard(id) {
+  focusId = id; render();
+  document.querySelector(`.card[data-id="${id}"]`)?.scrollIntoView({ behavior: "smooth", block: "center" });
+  setTimeout(() => { if (focusId === id) { focusId = null; document.querySelector(`.card[data-id="${id}"]`)?.classList.remove("focus"); } }, 1600);
+}
+
+// ---- Mermaid preview ----------------------------------------------------
+let previewTimer = null, previewCount = 0;
+mermaid.initialize({ startOnLoad: false, securityLevel: "strict", maxTextSize: 1000000, maxEdges: 5000,
+  theme: matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "default", flowchart: { useMaxWidth: true } });
+function schedulePreview(ev) {
+  if ($("main").classList.contains("no-preview")) return;
+  clearTimeout(previewTimer);
+  previewTimer = setTimeout(() => drawPreview(ev), 250);
+}
+function mermaidLabel(text) { return text.replace(/["<>&]/g, (c) => ({ '"': "#quot;", "<": "#lt;", ">": "#gt;", "&": "#amp;" }[c])); }
+function mermaidDefinition(ev) {
+  const used = modules.filter((m) => m.topics.length);
+  const alias = Object.fromEntries(used.map((m, i) => [m.id, `M${i}`]));
+  const flagged = new Set(ev.found.flatMap((v) => v.modules));
+  const lines = ["flowchart TB"];
+  for (const m of used) {
+    const style = ev.cycle.has(m.id) ? "cycle" : flagged.has(m.id) ? "flagged" : m.locked ? "locked" : "module";
+    const label = [`<b>${mermaidLabel(m.key)}</b> · ${fmt(ev.ects[m.id])} ECTS${m.locked ? " · locked" : ""}`, ...m.topics.map(mermaidLabel)].join("<br/>");
+    lines.push(`  ${alias[m.id]}["${label}"]:::${style}`);
+  }
+  for (const [a, b] of ev.reduced) if (alias[a] && alias[b]) lines.push(`  ${alias[a]} --> ${alias[b]}`);
+  lines.push("  classDef module fill:#e8f1fb,stroke:#24527a,color:#1d2330", "  classDef locked fill:#e9f6ec,stroke:#2d7a3e,stroke-width:2px,color:#1d2330",
+    "  classDef flagged fill:#fdf0e6,stroke:#b35c00,color:#1d2330", "  classDef cycle fill:#fbe9e7,stroke:#b3261e,stroke-width:2px,color:#1d2330");
+  return { text: lines.join("\n"), alias };
+}
+async function drawPreview(ev) {
+  const { text, alias } = mermaidDefinition(ev);
+  try {
+    const { svg } = await mermaid.render(`preview-svg-${previewCount++}`, text);
+    $("preview").innerHTML = svg;
+    const byAlias = Object.fromEntries(Object.entries(alias).map(([id, a]) => [a, Number(id)]));
+    $("preview").querySelectorAll("g.node").forEach((node) => {
+      const match = /flowchart-(M\d+)-/.exec(node.id);
+      if (match && byAlias[match[1]] !== undefined) node.addEventListener("click", () => focusCard(byAlias[match[1]]));
+    });
+  } catch (error) {
+    $("preview").textContent = `Diagram could not be drawn: ${error.message || error}`;
+  }
+}
+
+// ---- export -------------------------------------------------------------
+function prefixedYaml() {
+  const locked = modules.filter((m) => m.locked && m.topics.length);
+  const lines = [
+    `# Pre-fixed modules from the review of ${DATA.run} (${new Date().toISOString().slice(0, 10)}).`,
+    "# The engine keeps each module exactly (exclusive: no other topic may join) and re-solves the rest.",
+    `source: review of ${DATA.run}`,
+    locked.length ? "modules:" : "modules: []",
+  ];
+  for (const m of locked) {
+    lines.push(`- key: ${m.key}`, "  exclusive: true", "  topics:");
+    m.topics.forEach((t) => lines.push(`  - ${t}`));
+  }
+  return lines.join("\n") + "\n";
+}
+function openResolve() {
+  const locked = modules.filter((m) => m.locked && m.topics.length);
+  const topics = locked.reduce((s, m) => s + m.topics.length, 0);
+  $("resolve-summary").textContent = `${locked.length} locked module(s) with ${topics} of ${Object.keys(topicInfo).length} topics are kept; the engine places the other topics, starting from this arrangement.`;
+  $("resolve-command").textContent = DATA.solve_command;
+  const expected = DATA.review_path.split("/").pop();
+  $("resolve-note").textContent = dirty || !fileName ? "The review has unsaved changes: save it first."
+    : fileName !== expected ? `The command expects ${DATA.review_path}; adjust --review if you saved ${fileName} elsewhere.` : "";
+  $("yaml").value = prefixedYaml();
+  $("resolve-dialog").showModal();
+}
+function download(text, name) {
+  const url = URL.createObjectURL(new Blob([text], { type: "text/yaml" }));
+  const a = document.createElement("a"); a.href = url; a.download = name;
+  document.body.append(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+// ---- review files -----------------------------------------------------------
+const FILE_TYPES = [{ description: "Module review", accept: { "text/yaml": [".yml", ".yaml"] } }];
+// Fields of the page's starting state that do not belong in a saved file.
+const TRANSIENT = new Set(["format", "modules", "resumed_from"]);
+
+function sessionYaml() {
+  // The arrangement first, in block style (one topic per line, for readable
+  // diffs), then the run's data on one line per item.
+  const plain = (text) => (KEY_PATTERN.test(text) ? text : JSON.stringify(text));
+  const lines = [
+    `# Module review of ${DATA.run}, saved ${new Date().toISOString().slice(0, 16).replace("T", " ")} UTC.`,
+    "# The modules list is the reviewed arrangement and can also be edited by hand;",
+    "# the sections after it come from the run. Re-solve with: modules_engine solve ... --review FILE",
+    `format: ${SESSION_FORMAT}`,
+    "modules:",
+  ];
+  for (const m of modules.filter((x) => x.topics.length)) {
+    lines.push(`- key: ${plain(m.key)}`, `  locked: ${m.locked}`, "  topics:");
+    m.topics.forEach((t) => lines.push(`  - ${plain(t)}`));
+  }
+  const data = Object.fromEntries(Object.entries(DATA).filter(([key]) => !TRANSIENT.has(key)));
+  return lines.join("\n") + "\n" + jsyaml.dump(data, { flowLevel: 2, lineWidth: -1, noRefs: true });
+}
+
+function parseSession(text) {
+  const session = jsyaml.load(text);
+  if (!session || session.format !== SESSION_FORMAT) throw new Error(`not a module review file (format ${session?.format ?? "missing"})`);
+  for (const key of ["topics", "dependencies", "constraints", "proposal", "modules", "run"])
+    if (!(key in session)) throw new Error(`missing section ${key}`);
+  const seen = new Set();
+  for (const m of session.modules) {
+    if (!m || typeof m.key !== "string") throw new Error("each module needs a key");
+    for (const t of m.topics || []) {
+      if (!session.topics[t]) throw new Error(`unknown topic ${t}`);
+      if (seen.has(t)) throw new Error(`topic ${t} is in several modules`);
+      seen.add(t);
+    }
+  }
+  const missing = Object.keys(session.topics).filter((t) => !seen.has(t));
+  session.modules = session.modules.filter((m) => (m.topics || []).length).map((m) => ({ key: m.key, topics: m.topics, locked: !!m.locked }));
+  if (missing.length) session.modules.push({ key: "unassigned", topics: missing, locked: false });
+  return { session, missing };
+}
+
+function loadSession(text, handle, name) {
+  try {
+    const { session, missing } = parseSession(text);
+    useSession(session);
+    modules = toState(DATA.modules, "locked");
+    undoStack = []; redoStack = []; selected = null; pendingRestore = null;
+    fileHandle = handle; fileName = name; dirty = false;
+    notice = missing.length ? { kind: "", text: `${name} does not place ${missing.length} topic(s); they are in module "unassigned".` } : null;
+  } catch (error) {
+    notice = { kind: "bad", text: `Could not open ${name}: ${error.message}` };
+  }
+  render();
+}
+
+async function openFile() {
+  if (dirty && !confirm("Discard the unsaved changes and open another review?")) return;
+  if (!window.showOpenFilePicker) { $("open-file").click(); return; }
+  try {
+    const [handle] = await showOpenFilePicker({ types: FILE_TYPES });
+    loadSession(await (await handle.getFile()).text(), handle, handle.name);
+  } catch (error) {
+    if (error.name !== "AbortError") { notice = { kind: "bad", text: `Could not open the file: ${error.message}` }; render(); }
+  }
+}
+
+async function writeTo(handle, text) {
+  const writable = await handle.createWritable();
+  await writable.write(text);
+  await writable.close();
+}
+
+async function saveFile(asNew) {
+  const text = sessionYaml();
+  try {
+    if (!asNew && fileHandle) {
+      await writeTo(fileHandle, text);
+    } else if (window.showSaveFilePicker) {
+      const handle = await showSaveFilePicker({ suggestedName: fileName || "review.yml", types: FILE_TYPES });
+      await writeTo(handle, text);
+      fileHandle = handle; fileName = handle.name;
+    } else {
+      // Without the File System Access API (Safari, Firefox) saving is a download.
+      download(text, fileName || "review.yml");
+      fileName = fileName || "review.yml";
+    }
+    dirty = false; notice = null;
+  } catch (error) {
+    if (error.name === "AbortError") return;
+    notice = { kind: "bad", text: `Could not save: ${error.message}` };
+  }
+  render();
+}
+async function copyYaml() {
+  try { await navigator.clipboard.writeText($("yaml").value); }
+  catch (e) { $("yaml").select(); document.execCommand("copy"); }
+  $("copy").textContent = "Copied"; setTimeout(() => { $("copy").textContent = "Copy YAML"; }, 1200);
+}
+
+// ---- wiring -------------------------------------------------------------
+$("undo").onclick = () => { if (undoStack.length) { redoStack.push(snapshot()); restore(undoStack.pop()); dirty = true; persist(); render(); } };
+$("redo").onclick = () => { if (redoStack.length) { undoStack.push(snapshot()); restore(redoStack.pop()); dirty = true; persist(); render(); } };
+$("reset").onclick = () => commit(() => { modules = freshModules(); });
+$("sort").onclick = () => {
+  const ev = evaluate();
+  if (ev.cycle.size) return;
+  const order = topological(modules.map((m) => m.id), ev.succ);
+  commit(() => { modules = order.map((id) => ev.byId[id]).concat(modules.filter((m) => !order.includes(m.id))); });
+};
+$("toggle-preview").onclick = () => {
+  const hidden = $("main").classList.toggle("no-preview");
+  $("toggle-preview").textContent = hidden ? "Show diagram" : "Hide diagram";
+  if (!hidden) render();
+};
+$("open").onclick = openFile;
+$("open-file").onchange = async (event) => {
+  const file = event.target.files[0];
+  if (file) loadSession(await file.text(), null, file.name);
+  event.target.value = "";
+};
+$("save").onclick = () => saveFile(false);
+$("save-as").onclick = () => saveFile(true);
+$("resolve").onclick = openResolve;
+$("download").onclick = () => download($("yaml").value, "prefixed-modules.yml");
+$("copy").onclick = copyYaml;
+$("close-dialog").onclick = () => $("resolve-dialog").close();
+window.addEventListener("beforeunload", (event) => { if (dirty) event.preventDefault(); });
+$("search").addEventListener("input", (event) => { searchText = event.target.value; applySearch(); });
+document.addEventListener("keydown", (event) => {
+  if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "s") { event.preventDefault(); saveFile(event.shiftKey); return; }
+  if (event.target.matches("input, textarea")) return;
+  if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "z") { event.preventDefault(); (event.shiftKey ? $("redo") : $("undo")).click(); }
+  if (event.key === "Escape" && selected) { selected = null; render(); }
+});
+
+let pendingRestore = null;
+try {
+  const saved = localStorage.getItem(STORAGE_KEY);
+  if (saved && saved !== snapshot()) pendingRestore = saved;
+} catch (e) { /* storage unavailable */ }
+render();
+</script>
+</body>
+</html>

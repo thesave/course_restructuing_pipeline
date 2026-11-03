@@ -1,0 +1,463 @@
+source: data/restructuring/attempt-2026-10-06-18-00
+courses:
+  04138:
+    title: Programming Languages
+    credits: 12.0
+  '72671':
+    title: Complements of Programming Languages
+    credits: 6.0
+  '72940':
+    title: Computational Models And Languages M
+    credits: 8.0
+  '81609':
+    title: Languages, Compilers and Computational Models
+    credits: 12.0
+  '81672':
+    title: Emerging Programming Paradigms
+    credits: 6.0
+topics:
+  abstract_machines:
+    description: Abstract machines used to explain programming-language execution and implementation.
+    ects: 0.336
+    courses:
+    - 04138
+    - '72940'
+  activation_records:
+    description: Stacks of activation records used to implement procedure calls and execution environments.
+    ects: 0.257
+    courses:
+    - 04138
+    - '72940'
+  antlr_framework:
+    description: Using the ANTLR framework to build language tools, including lexical and syntactical
+      analysis components.
+    ects: 0.545
+    courses:
+    - '72671'
+  bnf:
+    description: Backus-Naur Form for specifying programming-language syntax.
+    ects: 0.575
+    courses:
+    - 04138
+  certified_programming:
+    description: Certified programming techniques and case studies involving numbers, lists, and sized
+      vectors.
+    ects: 0.429
+    courses:
+    - '81672'
+  chomsky_hierarchy:
+    description: Chomsky classification of formal grammars and the corresponding language classes.
+    ects: 0.296
+    courses:
+    - '72940'
+  classless_object_oriented:
+    description: Classless object-oriented programming and its underlying object-model principles.
+    ects: 0.429
+    courses:
+    - '81672'
+  closures:
+    description: Closures and their role in programming-language implementation.
+    ects: 0.294
+    courses:
+    - 04138
+    - '72940'
+  code_transformation:
+    description: Transformation of source code as a programming-language implementation technique.
+    ects: 0.545
+    courses:
+    - '72671'
+  compiler_code_generation:
+    description: Code-generation techniques used in compiler construction.
+    ects: 0.706
+    courses:
+    - '81609'
+  compilers:
+    description: Compilers as implementation mechanisms for programming languages.
+    ects: 0.294
+    courses:
+    - 04138
+    - '72671'
+    - '72940'
+  concurrent_finite_state_processes:
+    description: Finite-state processes that model concurrent behavior through synchronization and interleaving.
+    ects: 0.706
+    courses:
+    - '81609'
+  concurrent_programming:
+    description: The concurrent programming paradigm.
+    ects: 0.545
+    courses:
+    - 04138
+  context_free_grammars:
+    description: Context-free grammars, including their equivalences and principal theorems such as the
+      pumping theorem.
+    ects: 0.296
+    courses:
+    - 04138
+    - '72940'
+    - '81609'
+  dependent_types:
+    description: Dependent types and their use in programming with stronger correctness guarantees.
+    ects: 0.429
+    courses:
+    - '81672'
+  effect_composition:
+    description: Compositional approaches to programming with side effects.
+    ects: 0.326
+    courses:
+    - '81672'
+  environment_scoping:
+    description: Programming-language environments, scoping rules, and their implementation.
+    ects: 0.462
+    courses:
+    - 04138
+  exceptions:
+    description: Exception mechanisms in programming languages.
+    ects: 0.342
+    courses:
+    - 04138
+  finite_automata:
+    description: Finite automata, their equivalence with regular-language formalisms, and results such
+      as the pumping lemma.
+    ects: 0.296
+    courses:
+    - 04138
+    - '72940'
+    - '81609'
+  first_order_logic:
+    description: Syntax and semantics of first-order logic, including predicates, terms, quantifiers,
+      free and bound variables, alpha-conversion, substitution, and natural deduction.
+    ects: 0.66
+    courses:
+    - '81609'
+  function_evaluation_models:
+    description: Computational models for evaluating functions in programming languages.
+    ects: 0.296
+    courses:
+    - '72940'
+  functional_parameters:
+    description: Functional parameters in programming languages.
+    ects: 0.407
+    courses:
+    - 04138
+  functional_programming:
+    description: Basic concepts and practical use of the functional programming paradigm.
+    ects: 0.391
+    courses:
+    - '72940'
+  functional_programming_scala:
+    description: The functional programming paradigm as illustrated through Scala.
+    ects: 0.296
+    courses:
+    - 04138
+    - '72940'
+  garbage_collection:
+    description: Garbage collection as a programming-language memory-management technique.
+    ects: 0.293
+    courses:
+    - 04138
+  grammar_parsing:
+    description: Algorithms for parsing deterministic context-free grammars.
+    ects: 0.294
+    courses:
+    - 04138
+    - '72940'
+  heap_memory:
+    description: Heap memory as part of programming-language runtime implementation.
+    ects: 0.293
+    courses:
+    - 04138
+  inheritance:
+    description: Inheritance in object-oriented programming.
+    ects: 0.391
+    courses:
+    - 04138
+  intermediate_code_generation:
+    description: Generation of intermediate code for standard and advanced programming-language features.
+    ects: 0.545
+    courses:
+    - '72671'
+  interpreters:
+    description: Interpreters as implementation mechanisms for programming languages.
+    ects: 0.296
+    courses:
+    - 04138
+    - '72671'
+    - '72940'
+  iterative_recursive_models:
+    description: Iterative and recursive computational models, including tail-recursion optimization.
+    ects: 0.348
+    courses:
+    - '72940'
+  javascript_language:
+    description: JavaScript as a dynamic functional programming language.
+    ects: 0.448
+    courses:
+    - '72940'
+  kotlin_programming:
+    description: Kotlin programming as a software-development language.
+    ects: 0.296
+    courses:
+    - '72940'
+  labeled_transition_systems:
+    description: Labeled transition systems for modelling the behavior of concurrent and distributed systems.
+    ects: 0.625
+    courses:
+    - '81609'
+  lambda_calculus:
+    description: Introductory concepts of the lambda calculus as a model for computation and function
+      evaluation.
+    ects: 0.298
+    courses:
+    - '72940'
+  language_evolution:
+    description: The evolution of programming languages from assembly languages to higher-level languages.
+    ects: 0.334
+    courses:
+    - 04138
+  language_pragmatics_implementation:
+    description: Pragmatics and implementation considerations in the description of programming languages.
+    ects: 0.293
+    courses:
+    - 04138
+  language_semantics:
+    description: The semantics of programming languages as part of their formal description.
+    ects: 0.294
+    courses:
+    - 04138
+    - '72940'
+  language_syntax:
+    description: The syntax of programming languages as part of their formal description.
+    ects: 0.294
+    courses:
+    - 04138
+    - '72940'
+  late_binding:
+    description: Late binding in the object-oriented programming paradigm.
+    ects: 0.293
+    courses:
+    - 04138
+  lex:
+    description: The Lex tool for generating lexical analysers.
+    ects: 0.293
+    courses:
+    - 04138
+  lexical_analysis:
+    description: Design of lexical analysers for programming languages.
+    ects: 0.42
+    courses:
+    - 04138
+    - '72671'
+    - '72940'
+    - '81609'
+  ll1_parsing:
+    description: LL(1) grammars and parsing.
+    ects: 0.294
+    courses:
+    - 04138
+    - '72940'
+  logical_programming:
+    description: The logical programming paradigm.
+    ects: 0.3
+    courses:
+    - 04138
+  lr_parsing:
+    description: LR(0), SLR, LR(1), and LALR(1) grammars and parsing methods.
+    ects: 0.294
+    courses:
+    - 04138
+    - '72940'
+  model_driven_development:
+    description: Model Driven Software Development using executable requirements and problem models, custom
+      metamodels, and model-based development processes.
+    ects: 0.315
+    courses:
+    - '72940'
+  monad_transformers:
+    description: Monad transformations for composing monadic computational effects.
+    ects: 0.429
+    courses:
+    - '81672'
+  monads:
+    description: The origin and classical uses of monads for partial computations, state, and input/output.
+    ects: 0.326
+    courses:
+    - '81672'
+  nondeterministic_parsing:
+    description: Nondeterministic parsing as a case study in compositional programming.
+    ects: 0.429
+    courses:
+    - '81672'
+  object_oriented_limits:
+    description: Limits and weaknesses of the object-oriented programming paradigm.
+    ects: 0.429
+    courses:
+    - '81672'
+  oo_classes_objects:
+    description: Classes and objects in the object-oriented programming paradigm.
+    ects: 0.462
+    courses:
+    - 04138
+  oo_initialization:
+    description: Initialization of objects in the object-oriented programming paradigm.
+    ects: 0.48
+    courses:
+    - 04138
+  parameter_passing_modes:
+    description: Parameter-passing mechanisms including by value, by reference, by result, and by name.
+    ects: 0.283
+    courses:
+    - 04138
+  parametric_types:
+    description: Parametric types and their role in generic, type-safe programming.
+    ects: 0.429
+    courses:
+    - '81672'
+  parser_generators:
+    description: Parser-generator tools used to implement syntactic analysis for programming languages.
+    ects: 0.296
+    courses:
+    - '72940'
+  petri_nets:
+    description: Petri Nets as a visual formalism for modelling concurrent systems.
+    ects: 0.415
+    courses:
+    - '81609'
+  procedures:
+    description: Procedures and their implementation in programming languages.
+    ects: 0.293
+    courses:
+    - 04138
+  property_based_testing:
+    description: Property-based code testing using QuickCheck.
+    ects: 0.326
+    courses:
+    - '81672'
+  propositional_logic:
+    description: Syntax, classical and intuitionistic semantics, and natural deduction for propositional
+      logic, including soundness, compactness, and completeness theorems.
+    ects: 0.706
+    courses:
+    - '81609'
+  prototype_object_model:
+    description: Prototype-based object models in JavaScript.
+    ects: 0.296
+    courses:
+    - '72940'
+  pushdown_automata:
+    description: Push-down automata and their equivalence with context-free grammars.
+    ects: 0.499
+    courses:
+    - 04138
+    - '81609'
+  recursion:
+    description: Recursion and recursive procedures in programming languages.
+    ects: 0.375
+    courses:
+    - 04138
+    - '72940'
+  recursive_problems:
+    description: Recursive or decidable languages and problems, including their relationship to computable
+      decision procedures and Turing machines.
+    ects: 0.573
+    courses:
+    - '81609'
+  recursively_enumerable_problems:
+    description: Recursively enumerable languages and problems, including their relationship to Turing
+      machines and computation.
+    ects: 0.6
+    courses:
+    - '81609'
+  regular_expressions:
+    description: Regular expressions and their relationship to regular-language formalisms.
+    ects: 0.334
+    courses:
+    - 04138
+    - '81609'
+  regular_grammars:
+    description: Regular grammars, including their equivalences and principal theorems.
+    ects: 0.294
+    courses:
+    - 04138
+    - '72940'
+  sequence_control:
+    description: Sequence control constructs in programming languages.
+    ects: 0.384
+    courses:
+    - 04138
+  service_oriented_computing:
+    description: Service-oriented computing as illustrated through Jolie.
+    ects: 0.286
+    courses:
+    - 04138
+  software_transactional_memory:
+    description: Concurrent programming using software transactional memory.
+    ects: 0.429
+    courses:
+    - '81672'
+  static_analysis:
+    description: Static analysis of program correctness properties and resource or asset consumption without
+      executing the program.
+    ects: 0.545
+    courses:
+    - '72671'
+    - '81609'
+  structured_operational_semantics:
+    description: Structured Operational Semantics for formally specifying programming-language behavior.
+    ects: 0.293
+    courses:
+    - 04138
+  subtyping:
+    description: Subtyping and its distinction from inheritance.
+    ects: 0.447
+    courses:
+    - 04138
+  symbol_tables:
+    description: Symbol tables used during semantic analysis of programs.
+    ects: 0.545
+    courses:
+    - '72671'
+  syntax_analysis:
+    description: Syntactic analysis of programs, including parsing techniques used in compiler construction.
+    ects: 0.625
+    courses:
+    - '72671'
+    - '81609'
+  temporal_logics:
+    description: Temporal logics for specifying and verifying properties of system behavior.
+    ects: 0.706
+    courses:
+    - '81609'
+  traits:
+    description: Traits in Go and Rust as constructs for composing reusable behavior.
+    ects: 0.429
+    courses:
+    - '81672'
+  turing_machines:
+    description: Turing machines as formal models for computation.
+    ects: 0.573
+    courses:
+    - '72940'
+    - '81609'
+  type_classes:
+    description: Type classes in Haskell as a mechanism for expressing shared operations across types.
+    ects: 0.429
+    courses:
+    - '81672'
+  types_and_type_checking:
+    description: Types and type-checking mechanisms in programming languages.
+    ects: 0.364
+    courses:
+    - 04138
+    - '72671'
+    - '81672'
+  virtual_machines:
+    description: Structure and implementation of virtual machines.
+    ects: 0.439
+    courses:
+    - '72671'
+  yacc:
+    description: The YACC parser-generation tool.
+    ects: 0.293
+    courses:
+    - 04138

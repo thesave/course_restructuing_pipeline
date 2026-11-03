@@ -1,0 +1,17 @@
+{
+  "name": "course-restructuring-pipeline",
+  "private": true,
+  "description": "Node tooling for Mermaid diagrams: rendering, the module review page and draw.io export",
+  "scripts": {
+    "mmd": "sh -c 'for f; do mmdc -c mermaid-config.json -i \"$f\" -o \"${f%.mmd}.svg\" || exit 1; done' --"
+  },
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^12.0.0",
+    "js-yaml": "^4.1.0",
+    "mermaid": "^12.1.0",
+    "puppeteer": "^25.12.0"
+  },
+  "allowScripts": {
+    "puppeteer@25.16.0": true
+  }
+}

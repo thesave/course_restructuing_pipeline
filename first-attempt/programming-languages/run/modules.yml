@@ -1,0 +1,267 @@
+status: FEASIBLE
+inputs:
+  topics: first-attempt/programming-languages/topics.yml
+  dependencies: first-attempt/programming-languages/dependencies.yml
+  constraints: first-attempt/programming-languages/constraints.yml
+  objective: first-attempt/programming-languages/objective.yml
+  affinity: first-attempt/programming-languages/affinity.yml
+solver:
+  time_limit_per_stage: 60.0
+  workers: 8
+  seed: 0
+  max_modules: null
+  wall_time: 161.2
+objective:
+  mode: lexicographic
+  stages:
+  - term: soft_constraint_penalty
+    value_at_stage: 10.52
+    optimal: false
+    final: 3.0
+  - term: cohesion
+    value_at_stage: 65.723
+    optimal: false
+    final: 91.019
+  - term: module_count
+    value_at_stage: 6.0
+    optimal: true
+    final: 6
+metrics:
+  modules: 6
+  total_ects: 32.81
+  module_ects:
+    min: 4.84
+    median: 5.5
+    max: 5.94
+  cohesion: 91.019
+  cohesion_baseline: 0.2
+  soft_constraint_penalty: 3.0
+  module_dependencies: 5
+  longest_chain: 5
+  modules_per_source_course:
+    median: 4
+    max: 4
+violations:
+- constraint: compiler-pipeline
+  kind: together
+  hard: false
+  amount: 1
+  penalty: 2.0
+  detail:
+    m02:
+    - lexical_analysis
+    - syntax_analysis
+    - symbol_tables
+    - intermediate_code_generation
+    m04:
+    - compiler_code_generation
+- constraint: one-language-per-module
+  kind: apart
+  hard: false
+  amount: 1
+  penalty: 1.0
+  detail:
+    m03:
+    - javascript_language
+    - kotlin_programming
+modules:
+- key: m01
+  ects: 5.94
+  cohesion: 5.598
+  topics:
+  - abstract_machines
+  - bnf
+  - concurrent_programming
+  - context_free_grammars
+  - environment_scoping
+  - finite_automata
+  - garbage_collection
+  - grammar_parsing
+  - heap_memory
+  - inheritance
+  - language_syntax
+  - oo_classes_objects
+  - procedures
+  - pushdown_automata
+  - regular_expressions
+  - regular_grammars
+  source_courses:
+  - 04138
+  - '72940'
+  - '81609'
+- key: m02
+  ects: 5.18
+  cohesion: 8.228
+  topics:
+  - antlr_framework
+  - code_transformation
+  - compilers
+  - intermediate_code_generation
+  - interpreters
+  - lexical_analysis
+  - static_analysis
+  - symbol_tables
+  - syntax_analysis
+  - types_and_type_checking
+  - virtual_machines
+  source_courses:
+  - 04138
+  - '72671'
+  - '72940'
+  - '81609'
+  - '81672'
+- key: m03
+  ects: 4.84
+  cohesion: 7.03
+  topics:
+  - chomsky_hierarchy
+  - function_evaluation_models
+  - functional_programming
+  - iterative_recursive_models
+  - javascript_language
+  - kotlin_programming
+  - lambda_calculus
+  - language_semantics
+  - lr_parsing
+  - model_driven_development
+  - parser_generators
+  - prototype_object_model
+  - recursion
+  - turing_machines
+  source_courses:
+  - 04138
+  - '72940'
+  - '81609'
+- key: m04
+  ects: 5.71
+  cohesion: 5.745
+  topics:
+  - compiler_code_generation
+  - concurrent_finite_state_processes
+  - first_order_logic
+  - labeled_transition_systems
+  - petri_nets
+  - propositional_logic
+  - recursive_problems
+  - recursively_enumerable_problems
+  - temporal_logics
+  source_courses:
+  - '81609'
+- key: m05
+  ects: 5.29
+  cohesion: 47.4
+  topics:
+  - certified_programming
+  - classless_object_oriented
+  - dependent_types
+  - effect_composition
+  - monad_transformers
+  - monads
+  - nondeterministic_parsing
+  - object_oriented_limits
+  - parametric_types
+  - property_based_testing
+  - software_transactional_memory
+  - traits
+  - type_classes
+  source_courses:
+  - '81672'
+- key: m06
+  ects: 5.85
+  cohesion: 17.018
+  topics:
+  - activation_records
+  - closures
+  - exceptions
+  - functional_parameters
+  - functional_programming_scala
+  - language_evolution
+  - language_pragmatics_implementation
+  - late_binding
+  - lex
+  - ll1_parsing
+  - logical_programming
+  - oo_initialization
+  - parameter_passing_modes
+  - sequence_control
+  - service_oriented_computing
+  - structured_operational_semantics
+  - subtyping
+  - yacc
+  source_courses:
+  - 04138
+  - '72940'
+module_dependencies:
+- requires: m01
+  for: m02
+  via:
+  - - abstract_machines
+    - compilers
+  - - abstract_machines
+    - interpreters
+  - - environment_scoping
+    - symbol_tables
+  - - finite_automata
+    - lexical_analysis
+  - - grammar_parsing
+    - syntax_analysis
+  - - regular_expressions
+    - lexical_analysis
+- requires: m02
+  for: m03
+  via:
+  - - syntax_analysis
+    - parser_generators
+- requires: m03
+  for: m04
+  via:
+  - - turing_machines
+    - recursive_problems
+- requires: m03
+  for: m05
+  via:
+  - - functional_programming
+    - monads
+  - - functional_programming
+    - property_based_testing
+- requires: m04
+  for: m06
+  via:
+  - - first_order_logic
+    - logical_programming
+source_courses:
+  04138:
+    title: Programming Languages
+    modules: 4
+    topics_per_module:
+      m01: 16
+      m02: 4
+      m03: 3
+      m06: 18
+  '72671':
+    title: Complements of Programming Languages
+    modules: 1
+    topics_per_module:
+      m02: 11
+  '72940':
+    title: Computational Models And Languages M
+    modules: 4
+    topics_per_module:
+      m01: 6
+      m02: 3
+      m03: 14
+      m06: 4
+  '81609':
+    title: Languages, Compilers and Computational Models
+    modules: 4
+    topics_per_module:
+      m01: 4
+      m02: 3
+      m03: 1
+      m04: 9
+  '81672':
+    title: Emerging Programming Paradigms
+    modules: 2
+    topics_per_module:
+      m02: 1
+      m05: 13
