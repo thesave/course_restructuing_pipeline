@@ -1,0 +1,164 @@
+format: extraction/1
+course: 00819-A
+title: Programming
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 29.4
+  usage:
+    prompt_tokens: 7952
+    completion_tokens: 6449
+    cache_read_tokens: 3708
+    thinking_tokens: 3386
+  created: '2026-11-04T18:08:20+00:00'
+topics:
+- key: algorithmic_problem_solving
+  name: Algorithmic approach to problem solving
+  description: Introduces how problems are decomposed and expressed as algorithms to be executed by a
+    computer, as the starting point of the course.
+  evidence:
+  - c2
+  - o3
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: computer_memory_model
+  name: Computer memory organization
+  description: Explains how memory is organised in a computer in terms of addresses, words and pointers,
+    as the basis for understanding variables and data representation.
+  evidence:
+  - c4
+  - o1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: program_structure_and_types
+  name: Program structure, data types and headers
+  description: Covers the structure of a C program from scratch, including basic data types and the inclusion
+    of headers and libraries.
+  evidence:
+  - c3
+  - c4
+  - o1
+  share: 0.1
+  level: introductory
+  kind: language
+  technology: C
+- key: console_input_output
+  name: Console input and output
+  description: Covers the standard input/output functions used to read data from and write data to the
+    console in C programs.
+  evidence:
+  - c4
+  share: 0.06
+  level: introductory
+  kind: language
+  technology: C
+- key: file_handling
+  name: File handling
+  description: Covers the library functions for opening, reading, writing and closing files in C programs.
+  evidence:
+  - c4
+  share: 0.06
+  level: intermediate
+  kind: language
+  technology: C
+- key: functions_parameter_passing
+  name: Functions and parameter passing
+  description: Covers library and user-defined functions in C, including how arguments are passed to and
+    returned from functions.
+  evidence:
+  - c4
+  - o4
+  share: 0.1
+  level: introductory
+  kind: language
+  technology: C
+- key: recursion
+  name: Recursive functions and recursive algorithms
+  description: Teaches how to design and analyse recursive functions and apply recursion to solve medium-complexity
+    problems.
+  evidence:
+  - c4
+  - o4
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: pointers_and_arithmetic
+  name: Pointers and pointer arithmetic
+  description: Covers declaring and using pointers in C, pointer arithmetic and the relation between pointers
+    and memory addresses.
+  evidence:
+  - c4
+  - o1
+  - o3
+  share: 0.12
+  level: intermediate
+  kind: language
+  technology: C
+- key: arrays_and_matrices
+  name: Arrays and matrices
+  description: Covers one- and multi-dimensional arrays in C and their memory representation, including
+    their use in algorithms.
+  evidence:
+  - c4
+  - o5
+  share: 0.1
+  level: introductory
+  kind: language
+  technology: C
+- key: string_handling
+  name: Strings and string functions
+  description: Covers character strings as arrays of characters in C and the standard library functions
+    for manipulating them.
+  evidence:
+  - c4
+  share: 0.07
+  level: introductory
+  kind: language
+  technology: C
+- key: dynamic_memory_management
+  name: Direct memory management
+  description: Covers allocating, resizing and releasing memory explicitly at run time with the C memory
+    management functions.
+  evidence:
+  - c4
+  share: 0.06
+  level: intermediate
+  kind: language
+  technology: C
+- key: complex_data_structures
+  name: Complex data structures
+  description: Covers user-defined composite types such as structures and the implementation of fundamental
+    data structures and their related algorithms in C.
+  evidence:
+  - c4
+  - o5
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: C
+- key: algorithm_design_analysis
+  name: Algorithm design and analysis
+  description: Covers how to design algorithms for fundamental problems and how to analyse their correctness
+    and complexity.
+  evidence:
+  - c3
+  - c5
+  - o4
+  - o5
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: General statement of the course aim (strong competence in programming); it names no teachable
+    content.

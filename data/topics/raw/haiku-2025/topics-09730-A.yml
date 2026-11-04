@@ -1,0 +1,137 @@
+format: extraction/1
+course: 09730-A
+title: Principles of Informatics
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 14.0
+  usage:
+    prompt_tokens: 3200
+    completion_tokens: 3153
+    cache_read_tokens: 1854
+    thinking_tokens: 1912
+  created: '2026-11-04T18:09:17+00:00'
+topics:
+- key: computer_architecture
+  name: Computer architecture
+  description: The Von Neumann model of a digital computer and the internal structure of the CPU.
+  evidence:
+  - c1
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: information_representation
+  name: Information representation in computers
+  description: How numbers are encoded in binary (two's complement and floating-point) and how non-numerical
+    information is represented.
+  evidence:
+  - c2
+  - o1
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: boolean_algebra
+  name: Boolean algebra and functions
+  description: Boolean algebra laws, Boolean expressions and the Boolean functions they define.
+  evidence:
+  - c3
+  - c4
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: logic_circuits
+  name: Logic gates and circuit diagrams
+  description: Logic gates as implementations of Boolean operations and their composition into circuit
+    diagrams.
+  evidence:
+  - c5
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: algorithm_introduction
+  name: Introduction to algorithms and data structures
+  description: The definition of an algorithm with worked examples, and the fundamental data structures
+    used to organise data in algorithms.
+  evidence:
+  - c6
+  - o2
+  share: 0.08
+  level: introductory
+  kind: technique
+  technology: null
+- key: language_fundamentals
+  name: Fundamental constructs of the language
+  description: Basic syntax and constructs of MATLAB/Octave for writing simple programs (variables, operators,
+    control flow).
+  evidence:
+  - c7
+  - o2
+  share: 0.1
+  level: introductory
+  kind: language
+  technology: MATLAB/Octave
+- key: array_data_structures
+  name: Data structures in MATLAB
+  description: The data structures provided by MATLAB/Octave for storing and organising data in programs.
+  evidence:
+  - c8
+  - o2
+  share: 0.07
+  level: introductory
+  kind: language
+  technology: MATLAB/Octave
+- key: matrix_operations
+  name: Vector and matrix operations
+  description: Arithmetic and indexing operations on vectors and matrices, and vector-oriented (vectorised)
+    programming in MATLAB/Octave.
+  evidence:
+  - c9
+  - c10
+  - o2
+  share: 0.12
+  level: introductory
+  kind: language
+  technology: MATLAB/Octave
+- key: input_output
+  name: Input and output
+  description: Reading user input and displaying or writing program results in MATLAB/Octave.
+  evidence:
+  - c11
+  - o2
+  share: 0.06
+  level: introductory
+  kind: language
+  technology: MATLAB/Octave
+- key: functions_and_scope
+  name: Functions and variable visibility
+  description: Defining and calling user functions and the rules governing visibility and scope of variables
+    between functions and workspaces.
+  evidence:
+  - c12
+  - c13
+  - o2
+  share: 0.08
+  level: introductory
+  kind: language
+  technology: MATLAB/Octave
+- key: graphics_plotting
+  name: Graphic functions
+  description: Using MATLAB/Octave built-in functions to produce and customise 2D graphics for engineering
+    data.
+  evidence:
+  - c14
+  - o2
+  share: 0.07
+  level: introductory
+  kind: tool
+  technology: MATLAB/Octave
+not_topics: []

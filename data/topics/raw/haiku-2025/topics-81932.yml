@@ -1,0 +1,159 @@
+format: extraction/1
+course: '81932'
+title: Big Data
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 27.6
+  usage:
+    prompt_tokens: 8907
+    completion_tokens: 6559
+    cache_read_tokens: 3708
+    thinking_tokens: 3392
+  created: '2026-11-04T18:19:12+00:00'
+topics:
+- key: big_data_fundamentals
+  name: Big Data fundamentals and applications
+  description: What Big Data is, its applications, the challenges it poses, and how it is used in practice.
+  evidence:
+  - c2
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: cluster_architectures
+  name: Cluster computing and architectures
+  description: Cluster computing as a way to handle Big Data, and the hardware and software architectures
+    behind it.
+  evidence:
+  - c3
+  - c4
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: distributed_storage_resource_management
+  name: Distributed storage and resource management in Hadoop
+  description: The HDFS distributed file system and YARN resource management in Hadoop, together with
+    the Parquet columnar data format.
+  evidence:
+  - c5
+  - c6
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: tool
+  technology: Hadoop
+- key: mapreduce_paradigm
+  name: MapReduce paradigm and algorithm design
+  description: The MapReduce programming model, its principles and limitations, and the design of non-trivial
+    algorithms under it.
+  evidence:
+  - c7
+  - c21
+  - o1
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: distributed_dataset_architecture
+  name: Apache Spark architecture and data structures
+  description: The architecture, data structures and basic principles of the Apache Spark system.
+  evidence:
+  - c8
+  - c9
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: tool
+  technology: Apache Spark
+- key: data_partitioning_shuffling_optimization
+  name: Data partitioning, shuffling and optimization in Spark
+  description: How Spark partitions and shuffles data across a cluster and how to optimize the computation.
+  evidence:
+  - c10
+  - c11
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: Apache Spark
+- key: sql_on_big_data
+  name: SQL on Big Data with Spark SQL
+  description: Querying large datasets with SQL through the Spark SQL module.
+  evidence:
+  - c12
+  - o2
+  share: 0.06
+  level: intermediate
+  kind: language
+  technology: Spark SQL
+- key: data_streaming_architecture
+  name: Data streaming and streaming architectures
+  description: The principles of processing continuous data streams and the architecture needed to handle
+    them.
+  evidence:
+  - c13
+  - c14
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: approximate_streaming_algorithms
+  name: Approximate algorithms for data streams
+  description: Approximate algorithms that trade exactness for bounded memory and speed when processing
+    streams.
+  evidence:
+  - c15
+  share: 0.05
+  level: advanced
+  kind: technique
+  technology: null
+- key: nosql_databases
+  name: NoSQL databases
+  description: The categories of NoSQL databases, their data models, and their use for storing Big Data.
+  evidence:
+  - c16
+  - o1
+  - o2
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: cloud_big_data_concepts
+  name: 'Big Data in the cloud: on-premises vs cloud'
+  description: How Big Data is handled in the cloud and how on-premises clusters compare with cloud-based
+    ones.
+  evidence:
+  - c17
+  - c18
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: cloud_stack_deployment
+  name: Cloud technology stack and case-study deployment
+  description: The technology stack used for Big Data in the cloud and the deployment of a real case study
+    on a cloud provider.
+  evidence:
+  - c19
+  - c20
+  share: 0.1
+  level: intermediate
+  kind: tool
+  technology: null
+not_topics:
+- id: c1
+  reason: Course structure heading that only introduces the two modules.
+- id: c1.1
+  reason: Organisational remark on how the course is split into modules.
+- id: c1.2
+  reason: Organisational remark on the shared theoretical module and its timing.
+- id: c1.3
+  reason: Organisational remark on the practical module and its timing.

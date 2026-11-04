@@ -1,0 +1,156 @@
+format: extraction/1
+course: '96007'
+title: Foundations of Computer Architecture and Operating Systems
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 17.8
+  usage:
+    prompt_tokens: 3235
+    completion_tokens: 3692
+    cache_read_tokens: 1854
+    thinking_tokens: 2192
+  created: '2026-11-04T18:27:08+00:00'
+topics:
+- key: binary_representation
+  name: Binary representation of information
+  description: Positional numbering systems (binary, octal, hexadecimal), conversions between bases, and
+    how text, numbers and other information are encoded as bit strings.
+  evidence:
+  - c2.2
+  - c2.3
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: computer_arithmetic
+  name: Computer arithmetic
+  description: How integers and fixed-point or floating-point numbers are represented and operated on
+    by a machine, including signed representations, overflow and the limits of finite precision.
+  evidence:
+  - c2.4
+  - o1
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: boolean_algebra_logic_design
+  name: Boolean algebra and logic design
+  description: Boolean algebra, logic gates and the design of combinational circuits that receive, process
+    and generate binary signals.
+  evidence:
+  - c2.5
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: computer_architecture_layers
+  name: Computer architecture and layered structure
+  description: The history of computers and the behavioural versus structural description of a machine,
+    including how computers are organised into layers.
+  evidence:
+  - c2.1
+  - c2.6
+  - o2
+  - o3
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: cpu_and_machine_language
+  name: CPU organisation and machine language
+  description: The motherboard, the structure and operation of the CPU, and the machine-level instructions
+    and low-level languages used to program it.
+  evidence:
+  - c2.7
+  - o3
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: memory_and_io_peripherals
+  name: Memory, interfaces and peripherals
+  description: Memory hardware organisation, the interfaces that connect the processor to memory and peripherals,
+    and the characteristics of input/output peripherals.
+  evidence:
+  - c2.8
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: operating_system_functionality
+  name: Operating system functionality
+  description: The role and main services of an operating system, including multi-user operation and the
+    character-based user interface.
+  evidence:
+  - c3.1
+  - o4
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: cpu_scheduling
+  name: CPU scheduling
+  description: Algorithms and criteria that the operating system uses to allocate the processor among
+    competing processes.
+  evidence:
+  - c3.2
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: concurrency_and_parallelism
+  name: Concurrency and parallelism
+  description: The concepts of concurrent and parallel execution of processes and the issues they raise
+    in multi-user and multiprocessing systems.
+  evidence:
+  - c3.3
+  - o4
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: memory_management
+  name: Operating system memory management
+  description: Techniques the operating system uses to allocate and protect main memory among processes,
+    such as address binding, paging and segmentation.
+  evidence:
+  - c3.4
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: file_system_structure
+  name: File system management
+  description: The structure of the file system, how files and directories are organised, stored and accessed,
+    and how the operating system manages them.
+  evidence:
+  - c3.5
+  - o4
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: io_device_management
+  name: I/O device management
+  description: How the operating system controls input/output devices through drivers, buffering and device
+    access mechanisms.
+  evidence:
+  - c3.6
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Organisational remark on how the course is divided into two parts; no teachable content.
+- id: c2
+  reason: Section heading for the computer architecture part; its sub-items are covered by topics.
+- id: c3
+  reason: Section heading for the operating system part; its sub-items are covered by topics.

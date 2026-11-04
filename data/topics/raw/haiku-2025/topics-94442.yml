@@ -1,0 +1,162 @@
+format: extraction/1
+course: '94442'
+title: Design of Web Applications T
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 34.8
+  usage:
+    prompt_tokens: 8884
+    completion_tokens: 8279
+    cache_read_tokens: 3708
+    thinking_tokens: 5023
+  created: '2026-11-04T18:25:41+00:00'
+topics:
+- key: design_process_requirements
+  name: Web application design process and requirements
+  description: The stages of developing a data-intensive web application, from requirements specification
+    to data design, as framed in this course.
+  evidence:
+  - c2
+  - c2.1
+  - c2.2
+  - o1
+  share: 0.05
+  level: introductory
+  kind: technique
+  technology: null
+- key: data_modelling_er_uml
+  name: Data modelling with E/R and UML
+  description: Conceptual data modelling of web application data with Entity-Relationship and UML class
+    diagrams, and derivation of the implementation data schema from them.
+  evidence:
+  - c1
+  - c1.1
+  - c3.2
+  share: 0.08
+  level: introductory
+  kind: technique
+  technology: null
+- key: hypertext_modelling
+  name: Hypertext and content modelling with WebML
+  description: Specifying the hypertext structure, pages, units and navigation of a web application, and
+    the content management model, using the WebML notation.
+  evidence:
+  - c1
+  - c1.2
+  - c1.3
+  - c2.3
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: WebML
+- key: model_based_development_tools
+  name: Model-based web development with WebRatio and IFML
+  description: Implementing hypertext models in code and using the WebRatio tool and the IFML language
+    for model-driven development of web applications.
+  evidence:
+  - c3
+  - c3.3
+  - c3.4
+  share: 0.08
+  level: intermediate
+  kind: tool
+  technology: WebRatio
+- key: multilayer_architecture_services
+  name: Multilayer architecture and services
+  description: Organising a web application into service, business logic and application layers, and the
+    role of services in the architecture.
+  evidence:
+  - c3
+  - c3.1
+  - c4
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: impedance_mismatch
+  name: Object-relational impedance mismatch
+  description: The conflict between object-based application models and relational databases and its consequences
+    for persistence design.
+  evidence:
+  - c6
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: direct_database_access_dao
+  name: Direct database access and the DAO pattern
+  description: Accessing relational databases directly through low-level JDBC interfaces and structuring
+    that access with the Data Access Object pattern.
+  evidence:
+  - c5
+  - c7
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: JDBC
+- key: object_relational_mapping
+  name: Object-relational mapping with Hibernate
+  description: Mapping persistent objects to relational tables with ORM, entity beans and the Hibernate
+    library.
+  evidence:
+  - c7
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: Hibernate
+- key: transactional_models
+  name: Transactions and isolation levels
+  description: Transaction models and isolation levels for web services, and how transactions are managed
+    with JDBC, JTA and Hibernate.
+  evidence:
+  - c8
+  - c8.1
+  - c8.2
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: Java
+- key: data_description
+  name: Data description with XML and XHTML
+  description: Describing information with XML documents and XHTML markup, including well-formedness and
+    element structure.
+  evidence:
+  - c9
+  - c9.1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: XML
+- key: schema_typing
+  name: XML typing with DTD and XML Schema
+  description: Constraining XML documents with DTDs and XML Schema and comparing the two typing mechanisms.
+  evidence:
+  - c9
+  - c9.2
+  share: 0.07
+  level: introductory
+  kind: technique
+  technology: XML
+- key: document_parsing_and_transformation
+  name: XML parsing with DOM and SAX, and XSLT
+  description: Processing XML from Java with DOM and SAX parsers and a brief introduction to transforming
+    XML with XSL and XSLT.
+  evidence:
+  - c9
+  - c9.3
+  - c9.4
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: Java
+not_topics:
+- id: c10
+  reason: '''N.B.'' is a note with no teachable content.'
+- id: c11
+  reason: Organisational remark on the format (guided laboratory exercises); the practice time is distributed
+    across the topics above rather than forming a topic of its own.

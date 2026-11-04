@@ -1,0 +1,167 @@
+format: extraction/1
+course: '73302'
+title: Computer Vision And Image Processing M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 18.2
+  usage:
+    prompt_tokens: 3786
+    completion_tokens: 4250
+    cache_read_tokens: 1854
+    thinking_tokens: 2562
+  created: '2026-11-04T18:16:43+00:00'
+topics:
+- key: digital_image_fundamentals
+  name: Digital image fundamentals
+  description: Basic definitions of image processing and computer vision, plus image sensing, sampling
+    and quantization as the basis of digital images.
+  evidence:
+  - c1
+  - c2
+  share: 0.04
+  level: introductory
+  kind: concept
+  technology: null
+- key: camera_geometry_calibration
+  name: Camera geometry and calibration
+  description: Pinhole camera model, perspective projection in projective coordinates, lens effects (field
+    of view, depth of field, distortion), and intrinsic/extrinsic calibration with Zhang's planar-target
+    method based on homography estimation.
+  evidence:
+  - c2
+  share: 0.11
+  level: intermediate
+  kind: concept
+  technology: null
+- key: stereo_vision_rectification
+  name: Stereo vision and rectification
+  description: Geometry of stereopsis, stereo calibration and image rectification for estimating correspondences
+    between two views.
+  evidence:
+  - c2
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: image_filtering
+  name: Image filtering
+  description: 'Convolution and correlation, and linear and nonlinear smoothing filters: mean, Gaussian,
+    median, bilateral and non-local means.'
+  evidence:
+  - c3
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: image_binarization_segmentation
+  name: Image binarization and segmentation
+  description: Gray-level histograms, global and automatic thresholding, spatially adaptive binarization
+    and colour-based segmentation.
+  evidence:
+  - c4
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: binary_morphology_blob_analysis
+  name: Binary morphology and blob analysis
+  description: Binary morphology operators, connected components labeling and blob feature analysis on
+    segmented images.
+  evidence:
+  - c4
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: edge_detection
+  name: Edge detection
+  description: Image gradient, smooth derivative filters such as Sobel, and the Canny edge detector.
+  evidence:
+  - c5
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: local_keypoint_features
+  name: Local keypoint features and matching
+  description: Keypoint detectors and descriptors including Harris corners and scale-invariant SIFT features,
+    with efficient descriptor matching using kd-trees.
+  evidence:
+  - c5
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: template_matching
+  name: Template matching
+  description: Pattern matching by SSD, SAD, NCC and ZNCC, and shape-based matching.
+  evidence:
+  - c6
+  share: 0.05
+  level: introductory
+  kind: technique
+  technology: null
+- key: hough_transform
+  name: Hough transform
+  description: Hough transform for analytic shapes and the Generalized Hough Transform for arbitrary shapes
+    via voting in parameter space.
+  evidence:
+  - c6
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: feature_based_object_detection
+  name: Feature-based object detection
+  description: Object detection from local invariant features through Hough-based voting and least-squares
+    similarity transform estimation.
+  evidence:
+  - c6
+  share: 0.04
+  level: intermediate
+  kind: technique
+  technology: null
+- key: machine_learning_neural_networks
+  name: Machine learning and neural networks basics
+  description: Core machine learning concepts for image classification, linear classifiers and fully connected
+    neural networks.
+  evidence:
+  - c7
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: convolutional_neural_networks
+  name: Convolutional neural networks
+  description: Structure and training of convolutional neural networks for image classification.
+  evidence:
+  - c7
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: cnn_architectures_transfer_learning
+  name: CNN architectures and transfer learning
+  description: Successful image classification architectures (AlexNet, VGG, Inception, ResNet) and reuse
+    of pretrained networks through transfer learning.
+  evidence:
+  - c7
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: cnn_object_detection
+  name: CNN object detection
+  description: 'Deep learning object detectors: R-CNN, Faster R-CNN, Feature Pyramid Networks and YOLO.'
+  evidence:
+  - c7
+  share: 0.09
+  level: advanced
+  kind: technique
+  technology: null
+not_topics: []

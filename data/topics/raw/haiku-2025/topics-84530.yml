@@ -1,0 +1,172 @@
+format: extraction/1
+course: '84530'
+title: Database and Big Data Technologies M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 14.1
+  usage:
+    prompt_tokens: 3766
+    completion_tokens: 3296
+    cache_read_tokens: 1854
+    thinking_tokens: 1587
+  created: '2026-11-04T18:19:33+00:00'
+topics:
+- key: dbms_architecture
+  name: DBMS architecture
+  description: Main modules of a database management system and the role each plays in query and data
+    handling.
+  evidence:
+  - c2
+  - o1
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: physical_storage_and_buffering
+  name: Physical storage and buffer management
+  description: Storage devices, pages and files, record and attribute representation, the buffer manager
+    for disk page I/O, file types, and cost of basic file operations.
+  evidence:
+  - c3
+  - o1
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: b_tree_indices
+  name: B-tree and B+-tree indices
+  description: Tree-based mono-dimensional indices, their index types, and their structure and operations
+    as B-trees and B+-trees.
+  evidence:
+  - c4
+  - o2
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: hash_indices
+  name: Hash indices
+  description: Static hashing and dynamic hashing schemes, namely linear hashing and extendible hashing,
+    for mono-dimensional access.
+  evidence:
+  - c4
+  - o2
+  share: 0.04
+  level: intermediate
+  kind: technique
+  technology: null
+- key: spatial_indices
+  name: Spatial data indices
+  description: Spatial queries and multidimensional indices for point and spatial-object data, including
+    k-D, k-D-B-tree, R-tree and the GiST framework.
+  evidence:
+  - c5
+  share: 0.06
+  level: advanced
+  kind: technique
+  technology: null
+- key: relational_operator_algorithms
+  name: Implementation of relational operators
+  description: Logical and physical algorithms for sort, selection, projection, join, set operators and
+    aggregation, including external merge sort and the nested-loop, merge and hash joins.
+  evidence:
+  - c6
+  - o1
+  share: 0.13
+  level: advanced
+  kind: technique
+  technology: null
+- key: query_processing_optimization
+  name: Query processing and optimization
+  description: Evaluation steps, semantic checks and catalogs, SQL query rewriting, statistics and cost/result-size
+    estimation, access plan evaluation, and dynamic-programming plan enumeration.
+  evidence:
+  - c7
+  - o1
+  share: 0.13
+  level: advanced
+  kind: technique
+  technology: null
+- key: concurrency_control
+  name: Concurrency control
+  description: Concurrency problems in transactions and the lock-based Strict 2PL protocol that guarantees
+    their correct execution.
+  evidence:
+  - c8
+  - o1
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: crash_recovery
+  name: Fault tolerance and crash recovery
+  description: Log files, the WAL protocol, buffer and commit management, checkpoints and database dumps
+    for recovering from failures.
+  evidence:
+  - c8
+  - o1
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: physical_database_design
+  name: Physical database design and tuning
+  description: Query workload analysis, index selection, and performance tuning of indices, schema and
+    queries.
+  evidence:
+  - c9
+  - o2
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: top_k_queries
+  name: Top-k ranking queries
+  description: Motivations and limits of existing approaches, SQL extensions, mono- and multi-dimensional
+    top-k with R-tree algorithms, top-k joins with sorted and random access, and the B0, FA, TA, CA and
+    NRA algorithms.
+  evidence:
+  - c10
+  share: 0.11
+  level: advanced
+  kind: technique
+  technology: null
+- key: skyline_queries
+  name: Skyline queries
+  description: Concept of domination and its relation to scoring functions, with index-based (BBS) and
+    non-index (NL, BNL, SFS, SaLSa) skyline algorithms.
+  evidence:
+  - c11
+  share: 0.05
+  level: advanced
+  kind: technique
+  technology: null
+- key: mapreduce_big_data
+  name: Big data processing with MapReduce
+  description: Big data management with Hadoop and the MapReduce programming model.
+  evidence:
+  - c12
+  - o3
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: Hadoop
+- key: nosql_data_models
+  name: NoSQL data models and CAP theorem
+  description: Non-relational data models used by NoSQL DBMSs and the trade-offs expressed by the CAP
+    theorem.
+  evidence:
+  - c12
+  - o3
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics:
+- id: c1
+  reason: Prerequisite requirement (passing the Information Systems T exam), not teachable course content.

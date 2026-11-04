@@ -1,0 +1,178 @@
+format: extraction/1
+course: 91258-B
+title: Natural Language Processing
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 28.2
+  usage:
+    prompt_tokens: 3886
+    completion_tokens: 6927
+    cache_read_tokens: 1854
+    thinking_tokens: 4983
+  created: '2026-11-04T18:22:57+00:00'
+topics:
+- key: nlp_foundations_and_evaluation
+  name: NLP problems and evaluation
+  description: Overview of the main problems and perspectives of natural language processing and of how
+    NLP applications are evaluated.
+  evidence:
+  - c1.1.1
+  - c1.1.4
+  - o1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: ngram_language_models
+  name: Probability and n-gram language models
+  description: Recall of probability calculus and its use in n-gram models that estimate the probability
+    of word sequences.
+  evidence:
+  - c1.1.2
+  - c1.1.2.1
+  share: 0.08
+  level: introductory
+  kind: technique
+  technology: null
+- key: deep_neural_networks
+  name: Deep neural networks
+  description: Basic architecture and training of deep neural networks as used for language processing.
+  evidence:
+  - c1.1.3
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: corpus_and_text_retrieval
+  name: Corpora, collocations and text retrieval
+  description: Construction and representativeness of corpora, concordances and collocation association
+    measures, and methods for retrieving text from collections.
+  evidence:
+  - c1.2.1
+  - c1.2.2
+  - c1.2.3
+  share: 0.11
+  level: introductory
+  kind: technique
+  technology: null
+- key: computational_phonetics
+  name: Computational phonetics and speech recognition
+  description: Acoustic properties and measures of speech, frequency-domain analysis with spectrograms,
+    acoustic-phonetic applications, and speech recognition with deep neural networks.
+  evidence:
+  - c2.1.1
+  - c2.1.2
+  - c2.1.3
+  - c2.1.4
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: morphology_and_pos_tagging
+  name: Computational morphology and part-of-speech tagging
+  description: Morphological operations, static lexica and two-level morphology, together with part-of-speech
+    tagging of words.
+  evidence:
+  - c2.2.1
+  - c2.2.2
+  - c2.3.1
+  share: 0.09
+  level: introductory
+  kind: technique
+  technology: null
+- key: grammars_and_parsing
+  name: Grammars and natural language parsing
+  description: Formal language complexity, phrase structure and dependency grammars, treebanks, modern
+    parsing formalisms, and algorithms for natural language parsing.
+  evidence:
+  - c2.3.2
+  - c2.3.3
+  - c2.3.4
+  - c2.3.4.1
+  - c2.3.4.2
+  - c2.3.4.3
+  - c2.3.4.4
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: lexical_semantics_and_wsd
+  name: Lexical semantics and word sense disambiguation
+  description: Lexical resources such as WordNet and FrameNet and methods for disambiguating word senses
+    in context.
+  evidence:
+  - c2.4.1
+  - c2.4.2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: distributional_and_logical_semantics
+  name: Distributional and logical sentence semantics
+  description: Word-space (distributional) models of word meaning and logical approaches to representing
+    sentence meaning.
+  evidence:
+  - c2.4.3
+  - c2.4.4
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: text_classification_and_sentiment
+  name: Document classification and sentiment analysis
+  description: Automatic classification of documents and detection of sentiment in text as downstream
+    NLP tasks.
+  evidence:
+  - c3.1.1
+  - c3.1.2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: named_entity_recognition_and_similarity
+  name: Named entity recognition and semantic textual similarity
+  description: Identifying named entities in text and measuring semantic similarity between sentences
+    as downstream NLP tasks.
+  evidence:
+  - c3.1.3
+  - c3.1.4
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: prompting_pretrained_models
+  name: Prompting pre-trained language models
+  description: Using prompts to elicit task behaviour from pre-trained language models without task-specific
+    training.
+  evidence:
+  - c3.2
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: 'Part heading (''Part I: Foundations''); its sub-items are covered by topics.'
+- id: c1.1
+  reason: Structural section heading; its sub-items are covered by topics.
+- id: c1.2
+  reason: Structural section heading; its sub-items are covered by topics.
+- id: c2
+  reason: 'Part heading (''Part II: Natural Language Processing''); its sub-items are covered by topics.'
+- id: c2.1
+  reason: Structural section heading; its sub-items are covered by topics.
+- id: c2.2
+  reason: Structural section heading; its sub-items are covered by topics.
+- id: c2.3
+  reason: Structural section heading; its sub-items are covered by topics.
+- id: c2.4
+  reason: Structural section heading; its sub-items are covered by topics.
+- id: c3
+  reason: 'Part heading (''Part III: Applications and Case studies''); its sub-items are covered by topics.'
+- id: c3.1
+  reason: Structural section heading; its sub-items are covered by topics.

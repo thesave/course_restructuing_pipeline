@@ -1,0 +1,172 @@
+format: extraction/1
+course: '11929'
+title: Algorithms and Data Structures
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 22.6
+  usage:
+    prompt_tokens: 3172
+    completion_tokens: 5311
+    cache_read_tokens: 1854
+    thinking_tokens: 3770
+  created: '2026-11-04T18:09:52+00:00'
+topics:
+- key: discrete_math_basics
+  name: Discrete mathematics basics
+  description: Sets, functions, logarithms, summations and induction as the mathematical tools needed
+    to reason about the order of magnitude of algorithm costs.
+  evidence:
+  - c1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: asymptotic_notation
+  name: Asymptotic notation
+  description: Big-O, Omega and Theta notation for expressing the growth rate of functions and comparing
+    the order of magnitude of algorithm costs.
+  evidence:
+  - c1
+  - o2.2
+  - o3.2
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: algorithm_cost_analysis
+  name: Algorithm cost analysis
+  description: Techniques for computing the running time of algorithms, including worst-case and average-case
+    analysis, loop counting and recurrences, and assessing correctness and efficiency.
+  evidence:
+  - c1
+  - o1.2
+  - o2.2
+  - o3.2
+  - o3.4
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: elementary_sorting
+  name: Elementary sorting algorithms
+  description: Simple quadratic comparison-based sorting algorithms such as insertion, selection and bubble
+    sort, with their correctness and cost.
+  evidence:
+  - c1
+  - o2.1
+  - o3.1
+  share: 0.06
+  level: introductory
+  kind: technique
+  technology: null
+- key: efficient_sorting
+  name: Efficient sorting algorithms
+  description: Divide-and-conquer and heap-based sorting algorithms such as merge sort, heapsort and quicksort,
+    and their O(n log n) cost.
+  evidence:
+  - c1
+  - o2.1
+  - o3.1
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: median_and_selection
+  name: Median and selection
+  description: Algorithms for finding the k-th smallest element and the median of a set, including linear-time
+    selection.
+  evidence:
+  - c1
+  - o2.1
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: stacks_and_queues
+  name: Stacks and queues
+  description: The stack and queue abstract data types, their operations and their implementations and
+    typical uses.
+  evidence:
+  - c1
+  - o1.1
+  - o2.1
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: graph_representation
+  name: Graph representation
+  description: Representing graphs with adjacency lists and adjacency matrices and comparing their space
+    and time trade-offs.
+  evidence:
+  - c1
+  - o2.1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: graph_search
+  name: Graph search
+  description: Breadth-first and depth-first search on graphs, their applications and their computational
+    cost.
+  evidence:
+  - c1
+  - o2.1
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: graph_algorithms
+  name: Basic graph algorithms
+  description: Fundamental graph algorithms such as connected components, topological sorting and shortest
+    paths, with their correctness and cost.
+  evidence:
+  - c1
+  - o2.1
+  - o3.1
+  - o3.5
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: null
+- key: p_and_np_classes
+  name: Classes P and NP
+  description: Decision problems, polynomial-time solvability, and the complexity classes P and NP.
+  evidence:
+  - c1
+  - o1.3
+  - o2.3
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: polynomial_reductions
+  name: Polynomial-time reductions
+  description: Reducing one problem to another in polynomial time to transfer algorithmic hardness and
+    prove complexity results.
+  evidence:
+  - c1
+  - o1.3
+  - o3.3
+  share: 0.07
+  level: advanced
+  kind: technique
+  technology: null
+- key: np_hard_problems
+  name: NP-hard problems
+  description: The notion of NP-hardness and NP-completeness and classic examples of NP-hard computational
+    problems.
+  evidence:
+  - c1
+  - o2.3
+  - o3.3
+  share: 0.08
+  level: advanced
+  kind: concept
+  technology: null
+not_topics: []

@@ -1,0 +1,131 @@
+format: extraction/1
+course: '66857'
+title: Logic for Computer Science
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 14.8
+  usage:
+    prompt_tokens: 3170
+    completion_tokens: 3318
+    cache_read_tokens: 1854
+    thinking_tokens: 2040
+  created: '2026-11-04T18:14:21+00:00'
+topics:
+- key: paradoxes_formal_logic
+  name: Paradoxes and the justification of formal logic
+  description: Why formal logic is needed, how logical and set-theoretic paradoxes motivate it, and how
+    paradoxes are used to show negative results in computer science.
+  evidence:
+  - c1.1
+  - c1.2
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: zf_set_theory
+  name: Axiomatic set theory (ZF), relations and functions
+  description: The ZF axiomatic framework for sets, together with relations, functions and quotient sets
+    built on it.
+  evidence:
+  - c2.1
+  - o1
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: cardinality_cantor_theorem
+  name: Cardinality and Cantor's theorem
+  description: Comparing the sizes of sets via cardinality, including the proof and consequences of Cantor's
+    theorem on uncountability.
+  evidence:
+  - c2.1
+  - c2.2
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: propositional_syntax_semantics
+  name: Propositional logic syntax and semantics
+  description: The syntax of propositional formulas and their classical and intuitionistic semantics,
+    presented as an overview.
+  evidence:
+  - c3.1
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: natural_deduction_propositional
+  name: Natural deduction for propositional logic
+  description: Classical and intuitionistic natural deduction rules for propositional logic, used to write
+    and verify logical proofs.
+  evidence:
+  - c3.2
+  - o1
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: propositional_metatheory
+  name: Soundness, completeness and compactness
+  description: 'The main metatheoretical results for propositional logic: soundness, completeness and
+    compactness, stated without proofs.'
+  evidence:
+  - c3.3
+  share: 0.07
+  level: advanced
+  kind: concept
+  technology: null
+- key: first_order_syntax
+  name: First-order logic syntax
+  description: The syntax of first-order logic, covering predicates, terms, quantifiers, free and bound
+    variables, alpha-conversion and substitution.
+  evidence:
+  - c4.1
+  - o1
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: first_order_semantics_deduction
+  name: First-order logic semantics and natural deduction
+  description: The semantics of first-order logic over structures and natural deduction rules for quantifiers,
+    used to write and verify first-order proofs.
+  evidence:
+  - c4.2
+  - o1
+  - o2
+  share: 0.14
+  level: intermediate
+  kind: concept
+  technology: null
+- key: bnf_grammars
+  name: BNF grammar definitions
+  description: Using Backus-Naur Form to define the syntax of languages through production rules.
+  evidence:
+  - c6
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: recursion_structural_induction
+  name: Recursion and structural induction
+  description: Defining functions by structural recursion and proving properties by structural induction
+    over recursively defined data such as grammars and formulas.
+  evidence:
+  - c5
+  - c6
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c7
+  reason: Organisational remark about practical lab sessions scheduled for topics 2–5; it contains no
+    teachable concept of its own.

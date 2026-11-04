@@ -1,0 +1,97 @@
+format: extraction/1
+course: '16870'
+title: Programming Laboratory
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 12.3
+  usage:
+    prompt_tokens: 2946
+    completion_tokens: 2234
+    cache_read_tokens: 1854
+    thinking_tokens: 1347
+  created: '2026-11-04T18:10:05+00:00'
+topics:
+- key: classes_and_objects
+  name: Classes and objects in Java
+  description: Defining classes, creating objects, fields, constructors and methods as the basic building
+    blocks of object-oriented programs in Java.
+  evidence:
+  - c1
+  - o1
+  share: 0.1458
+  level: introductory
+  kind: concept
+  technology: Java
+- key: encapsulation
+  name: Encapsulation
+  description: Hiding object state behind access modifiers, getters and setters, and controlling how an
+    object's data is accessed and modified in Java.
+  evidence:
+  - c2
+  - o1
+  share: 0.125
+  level: introductory
+  kind: concept
+  technology: Java
+- key: inheritance
+  name: Inheritance
+  description: Deriving subclasses from superclasses in Java, reusing and extending behaviour, overriding
+    methods and using constructors across the class hierarchy.
+  evidence:
+  - c3
+  - o1
+  share: 0.1458
+  level: intermediate
+  kind: concept
+  technology: Java
+- key: polymorphism_and_subtyping
+  name: Polymorphism and subtyping
+  description: Using the subtype relation to treat objects of different classes uniformly, with dynamic
+    method dispatch and polymorphic references in Java.
+  evidence:
+  - c4
+  - o1
+  share: 0.125
+  level: intermediate
+  kind: concept
+  technology: Java
+- key: implementing_data_structures
+  name: Implementing and using data structures
+  description: Implementing common data structures such as lists, stacks, queues or trees as Java classes
+    and using them in object-oriented programs.
+  evidence:
+  - c5
+  - o2
+  share: 0.1458
+  level: intermediate
+  kind: technique
+  technology: Java
+- key: scripting_fundamentals
+  name: Introduction to scripting with Python
+  description: Basic Python syntax, variables, control flow, functions and writing simple scripts as an
+    introduction to scripting languages.
+  evidence:
+  - c6
+  - o1
+  - o2
+  share: 0.1667
+  level: introductory
+  kind: language
+  technology: Python
+- key: using_built_in_collections
+  name: Sequences, lists and dictionaries in Python
+  description: Using Python's built-in sequences, lists and dictionaries to store, access, iterate and
+    transform collections of data in scripts.
+  evidence:
+  - c7
+  - o2
+  share: 0.1458
+  level: introductory
+  kind: language
+  technology: Python
+not_topics: []

@@ -1,0 +1,135 @@
+format: extraction/1
+course: '96793'
+title: Information Systems and Database Management
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 20.3
+  usage:
+    prompt_tokens: 7619
+    completion_tokens: 4371
+    cache_read_tokens: 3708
+    thinking_tokens: 2071
+  created: '2026-11-04T18:27:51+00:00'
+topics:
+- key: data_types_and_web_data
+  name: Data types and web data
+  description: Classifying elementary, complex and web-based data as the starting point for database work.
+  evidence:
+  - c1
+  - o1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_modelling_concepts
+  name: Data modelling concepts
+  description: Core principles of data modelling and the basic notions used to describe and organise data.
+  evidence:
+  - c2
+  - c3
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: entity_relationship_model
+  name: Entity-Relationship model
+  description: Conceptual modelling of data with entities, relationships and attributes in Entity-Relationship
+    diagrams.
+  evidence:
+  - c4
+  - c4.1
+  - o4.1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: relational_model_and_schemas
+  name: Relational model and schemas
+  description: The relational data model and the logical design of relation schemas derived from a conceptual
+    model.
+  evidence:
+  - c4
+  - c4.2
+  - o4.1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: relational_querying
+  name: Relational querying
+  description: Writing SQL queries to extract and combine data from relational databases.
+  evidence:
+  - c7
+  - c7.1
+  - o2
+  - o4.2
+  share: 0.2
+  level: intermediate
+  kind: language
+  technology: SQL
+- key: nosql_data_models
+  name: NoSQL data models
+  description: Document-based and graph-based NoSQL data models, their structure and when they are used.
+  evidence:
+  - c5
+  - c5.1
+  - c5.2
+  - o2
+  - o4.1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: nosql_querying
+  name: Querying NoSQL databases
+  description: Techniques for extracting data from document and graph NoSQL databases using their query
+    interfaces.
+  evidence:
+  - c7
+  - c7.2
+  - o2
+  - o4.2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: database_management_systems
+  name: Database management systems
+  description: The role and functions of database management systems in storing and managing data.
+  evidence:
+  - c6
+  - c6.1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_extraction_and_views
+  name: Data extraction and views
+  description: Extracting relevant data and information from databases and creating data views for analysis.
+  evidence:
+  - c8
+  - c8.1
+  - c8.2
+  - o1
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: programmatic_database_access
+  name: Programmatic database access with Python
+  description: Accessing relational and NoSQL databases from Python and running statistical analyses on
+    database and web data.
+  evidence:
+  - c9
+  - o3
+  - o4.2
+  share: 0.17
+  level: intermediate
+  kind: technique
+  technology: Python
+not_topics: []

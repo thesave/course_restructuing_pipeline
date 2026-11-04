@@ -1,0 +1,78 @@
+format: extraction/1
+course: B5292
+title: Knowledge Engeneering for the Humanities
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 20.5
+  usage:
+    prompt_tokens: 7648
+    completion_tokens: 3994
+    cache_read_tokens: 3708
+    thinking_tokens: 2579
+  created: '2026-11-04T18:31:09+00:00'
+topics:
+- key: ontology_kg_modeling
+  name: Ontology-based knowledge graph modeling
+  description: Modeling knowledge graphs on web and semantic web foundations (RDF, OWL ontologies), including
+    ontology diagramming with the Graffoo/OWL diagram notation.
+  evidence:
+  - c1
+  - c2
+  - c4.2
+  - o1
+  - o2
+  share: 0.3
+  level: intermediate
+  kind: concept
+  technology: null
+- key: knowledge_graph_querying
+  name: Querying knowledge graphs
+  description: Querying RDF knowledge graphs with a SPARQL query engine and using software tools to explore
+    and query them in practice.
+  evidence:
+  - c1
+  - c2
+  - c4.1
+  - o2
+  share: 0.25
+  level: intermediate
+  kind: language
+  technology: SPARQL
+- key: llm_fundamentals
+  name: Large Language Models
+  description: Characteristics of large language models such as GPT, Llama, Mistral, Mixtral and Gemini,
+    and the state of the art of AI technologies they represent.
+  evidence:
+  - c3
+  - c4.4
+  - o3
+  share: 0.2
+  level: intermediate
+  kind: concept
+  technology: null
+- key: prompting_techniques
+  name: Prompting techniques for LLMs
+  description: Main methods for prompting large language models to obtain reliable outputs, practised
+    on the course LLMs.
+  evidence:
+  - c3
+  - c4.4
+  share: 0.17
+  level: intermediate
+  kind: technique
+  technology: null
+- key: collaborative_version_control
+  name: Collaborative version control
+  description: Using a hosted Git platform to store, version and share the course project and code artefacts.
+  evidence:
+  - c4.3
+  share: 0.08
+  level: introductory
+  kind: tool
+  technology: GitHub
+not_topics: []

@@ -1,0 +1,139 @@
+format: extraction/1
+course: '91161'
+title: Networks, Security And Data Bases
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 26.2
+  usage:
+    prompt_tokens: 3339
+    completion_tokens: 6121
+    cache_read_tokens: 1854
+    thinking_tokens: 4651
+  created: '2026-11-04T18:22:27+00:00'
+topics:
+- key: boolean_algebra
+  name: Boolean algebra
+  description: Boolean values, logical operators, truth tables and Boolean algebra laws as the logical
+    foundation for querying and digital systems.
+  evidence:
+  - c5.1.1
+  share: 0.0625
+  level: introductory
+  kind: concept
+  technology: null
+- key: relational_algebra
+  name: Relational model and relational algebra
+  description: Relations, keys and integrity constraints of the relational model, and the operators of
+    relational algebra (selection, projection, join, set operations) used to express queries.
+  evidence:
+  - c5.1.2
+  share: 0.125
+  level: intermediate
+  kind: concept
+  technology: null
+- key: relational_query_language
+  name: Relational DBMS and SQL queries
+  description: Using a relational database management system and writing SQL statements to define tables
+    and query, join and modify data.
+  evidence:
+  - c5.1.3
+  share: 0.1667
+  level: intermediate
+  kind: language
+  technology: SQL
+- key: database_design_er
+  name: Database design with the ER model
+  description: Conceptual database design with entity-relationship diagrams and their translation into
+    relational schemas.
+  evidence:
+  - c5.1.4
+  share: 0.1042
+  level: intermediate
+  kind: technique
+  technology: null
+- key: internet_structure
+  name: Structure of the internet
+  description: The main components of the internet, such as hosts, routers, access and backbone networks,
+    and how they are interconnected.
+  evidence:
+  - c6.1.1
+  share: 0.0833
+  level: introductory
+  kind: concept
+  technology: null
+- key: protocol_stack
+  name: Network protocol stack
+  description: The layered organisation of network protocols (application, transport, network, link and
+    physical layers) and the role of each layer in communication.
+  evidence:
+  - c6.1.2
+  share: 0.125
+  level: intermediate
+  kind: concept
+  technology: null
+- key: network_web_applications
+  name: Network and web applications
+  description: Client-server examples of network and web applications and how they use the protocol stack,
+    with hands-on Python exercises.
+  evidence:
+  - c6.1.3
+  - c6.1.4
+  share: 0.0833
+  level: introductory
+  kind: concept
+  technology: null
+- key: modular_arithmetic
+  name: Modular arithmetic
+  description: Integers modulo n, congruences, modular operations and inverses needed for cryptographic
+    computations.
+  evidence:
+  - c6.2.1
+  share: 0.0625
+  level: introductory
+  kind: concept
+  technology: null
+- key: public_key_cryptography_overview
+  name: Cryptography overview
+  description: Basic goals of cryptography, one-way functions, and symmetric versus public/private key
+    cryptosystems.
+  evidence:
+  - c6.2.2
+  share: 0.0833
+  level: intermediate
+  kind: concept
+  technology: null
+- key: public_key_algorithms
+  name: RSA and Diffie-Hellman key exchange
+  description: The RSA public key cryptosystem and the Diffie-Hellman key exchange protocol, including
+    their computation and implementation exercises in Python.
+  evidence:
+  - c6.2.3
+  - c6.2.4
+  share: 0.1042
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Course-level overview of the two modules, not teachable content by itself.
+- id: c2
+  reason: Description of module 1; its content is covered by the database topics.
+- id: c3
+  reason: Description of module 2; its content is covered by the networking and cryptography topics.
+- id: c4
+  reason: Statement of expected student competences, not a teachable topic.
+- id: c5
+  reason: Heading for Module 1; covered by the database topics below.
+- id: c5.1
+  reason: Heading for the databases section; covered by its child items.
+- id: c6
+  reason: Heading for Module 2; covered by the networking and cryptography topics below.
+- id: c6.1
+  reason: Heading for the computer networks section; covered by its child items.
+- id: c6.2
+  reason: Heading for the cryptography section; covered by its child items.

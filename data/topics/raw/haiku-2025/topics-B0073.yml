@@ -1,0 +1,104 @@
+format: extraction/1
+course: B0073
+title: ELABORAZIONE DI TESTI E GESTIONE DOCUMENTALE
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 22.5
+  usage:
+    prompt_tokens: 7029
+    completion_tokens: 4673
+    cache_read_tokens: 3708
+    thinking_tokens: 2887
+  created: '2026-11-04T18:29:26+00:00'
+topics:
+- key: document_markup_structure
+  name: Document markup and structural components
+  description: Principles of marking up digital text documents and identifying their structural components
+    so they can be represented and linked.
+  evidence:
+  - c1
+  - o1
+  - o3
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: markup_languages_syntax
+  name: Markup languages and XML syntax
+  description: Syntax of XML documents, including well-formedness, elements, attributes and namespaces,
+    and their use for representing structured documents.
+  evidence:
+  - c1
+  - o3
+  share: 0.14
+  level: introductory
+  kind: language
+  technology: XML
+- key: schema_validation
+  name: Schema validation languages
+  description: Validation of XML documents against schemas using validation languages such as DTD, XML
+    Schema and related schema languages.
+  evidence:
+  - c1
+  share: 0.12
+  level: intermediate
+  kind: language
+  technology: XML
+- key: digital_document_formats
+  name: Digital document formats
+  description: Main digital document formats, their characteristics, fields of application, and limitations.
+  evidence:
+  - c2
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: stylesheet_transformation
+  name: Stylesheet-based document transformation
+  description: Writing XSLT stylesheets to transform XML documents into other XML, HTML or text formats.
+  evidence:
+  - c3
+  share: 0.12
+  level: intermediate
+  kind: language
+  technology: XSLT
+- key: document_format_conversion
+  name: Document format conversion tools
+  description: Languages and tools for converting documents between different formats and building transformation
+    pipelines.
+  evidence:
+  - c3
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: nlp_techniques
+  name: Natural language processing techniques
+  description: Main NLP techniques for processing text, such as tokenization, part-of-speech tagging,
+    syntactic analysis and linguistic annotation.
+  evidence:
+  - c4
+  - o2
+  share: 0.16
+  level: intermediate
+  kind: technique
+  technology: null
+- key: text_information_extraction
+  name: Automatic information extraction from text
+  description: Models and tools for automatically extracting meaningful information such as entities and
+    relations from text documents.
+  evidence:
+  - c4
+  - o2
+  - o3
+  share: 0.18
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

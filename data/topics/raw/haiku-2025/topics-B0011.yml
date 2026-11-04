@@ -1,0 +1,158 @@
+format: extraction/1
+course: B0011
+title: Software Process Engineering
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 32.0
+  usage:
+    prompt_tokens: 8964
+    completion_tokens: 7441
+    cache_read_tokens: 3708
+    thinking_tokens: 4270
+  created: '2026-11-04T18:29:03+00:00'
+topics:
+- key: language_fundamentals
+  name: Kotlin language fundamentals
+  description: Core Kotlin syntax, types, functions and classes as the programming language used throughout
+    the course.
+  evidence:
+  - c1.1
+  - o1
+  share: 0.08
+  level: introductory
+  kind: language
+  technology: Kotlin
+- key: internal_dsls
+  name: Internal domain-specific languages
+  description: Designing embedded DSLs in Kotlin using features such as lambdas with receivers, extension
+    functions and infix calls.
+  evidence:
+  - c1.2
+  - c2.3
+  - o6
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: Kotlin
+- key: external_dsls_code_generation
+  name: External DSLs and code generation
+  description: Defining standalone domain-specific languages with their grammars and writing code generators
+    that produce software from their models.
+  evidence:
+  - c2.3
+  - o6
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: build_automation
+  name: Build automation
+  description: Automating builds, dependency management and task configuration with the Gradle build tool.
+  evidence:
+  - c1.3
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: tool
+  technology: Gradle
+- key: quality_assurance_performance
+  name: Quality assurance, multi-target testing and performance
+  description: Automated testing across platforms and targets, bug hunting and performance engineering
+    to keep software quality under control.
+  evidence:
+  - c1.4
+  - c2.7
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: software_licensing_versioning
+  name: Software licensing and versioning models
+  description: Open-source and other software licences, their implications, and the existing schemes for
+    versioning software releases.
+  evidence:
+  - c1.5
+  - c1.6
+  - o4
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: version_control_workflows
+  name: Version control and teamwork workflows
+  description: Collaborative workflows with version control, including branching for teamwork and advanced
+    history editing with submodules, rebasing, cherry-picking, squashing and stashing.
+  evidence:
+  - c1.7
+  - c1.8
+  - o3
+  share: 0.1
+  level: intermediate
+  kind: tool
+  technology: Git
+- key: continuous_integration_delivery
+  name: Continuous integration and delivery
+  description: Setting up automated pipelines that integrate, test, deliver and deploy software continuously,
+    using GitHub Actions.
+  evidence:
+  - c1.9
+  - c1.10
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: GitHub Actions
+- key: domain_driven_design
+  name: Domain-driven design
+  description: Modelling software around the business domain with concepts such as ubiquitous language,
+    bounded contexts and aggregates, performing technology-independent domain-first analysis.
+  evidence:
+  - c2.1
+  - o5
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: model_driven_design
+  name: Model-driven design
+  description: Using models as primary development artefacts and deriving implementations from them through
+    model-driven development techniques.
+  evidence:
+  - c2.2
+  - o5
+  share: 0.08
+  level: advanced
+  kind: concept
+  technology: null
+- key: containerization_orchestration
+  name: Containerization and orchestration
+  description: Packaging applications into containers and managing their deployment, scaling and coordination
+    across clusters.
+  evidence:
+  - c2.4
+  - c2.5
+  share: 0.08
+  level: intermediate
+  kind: tool
+  technology: null
+- key: multiplatform_programming
+  name: Multi-platform programming
+  description: Sharing Kotlin code across multiple platform targets while keeping platform-specific implementations
+    separate.
+  evidence:
+  - c2.6
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: Kotlin
+not_topics:
+- id: c1
+  reason: Module 1 heading only; its teachable content is covered by the topics citing c1.1 to c1.10.
+- id: c2
+  reason: Module 2 heading only; its teachable content is covered by the topics citing c2.1 to c2.7.

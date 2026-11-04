@@ -1,0 +1,146 @@
+format: extraction/1
+course: 96346-A
+title: Informatics
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 26.8
+  usage:
+    prompt_tokens: 7962
+    completion_tokens: 6106
+    cache_read_tokens: 3708
+    thinking_tokens: 3053
+  created: '2026-11-04T18:27:35+00:00'
+topics:
+- key: eu_digital_legislation
+  name: EU legislation on digital transformation
+  description: The European Union rules that drive the digitalisation of public administration and the
+    relationship between citizens, businesses and the state.
+  evidence:
+  - c1.2
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: electronic_identification
+  name: Electronic identification and e-government authentication
+  description: The main e-government authentication systems (such as SPID and the electronic identity
+    card) and the eIDAS framework for electronic identification across the EU.
+  evidence:
+  - c1.3
+  - o1
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: electronic_trust_services
+  name: Electronic trust services
+  description: The EU trust services that give legal validity to digital transactions, such as electronic
+    signatures, seals, timestamps and certified electronic mail.
+  evidence:
+  - c1.4
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: electronic_document_management
+  name: Electronic documents and document management
+  description: How documents are created, stored, signed and managed in digital form to replace paper-based
+    transactions.
+  evidence:
+  - c1.1
+  - c1.5
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: companies_house_registry
+  name: Italian Companies House online services
+  description: Using the Italian business register online to consult company data and file company documents.
+  evidence:
+  - c2.1
+  - o2
+  share: 0.09
+  level: introductory
+  kind: tool
+  technology: Italian Companies House (Registro Imprese) online services
+- key: suap_business_portal
+  name: Single desk for productive activities (SUAP)
+  description: Using the municipal one-stop shops for productive activities to submit and track business
+    procedures online.
+  evidence:
+  - c2.2
+  share: 0.09
+  level: introductory
+  kind: tool
+  technology: SUAP online portals
+- key: labour_mandatory_communications
+  name: Mandatory labour communications
+  description: Filing mandatory employment communications (such as hirings and terminations) through the
+    regional information services.
+  evidence:
+  - c2.3
+  share: 0.08
+  level: introductory
+  kind: tool
+  technology: Regional mandatory communications services
+- key: revenue_agency_services
+  name: Italian Revenue Agency online services
+  description: Using the online services of the Italian Revenue Agency for tax-related procedures and
+    communications.
+  evidence:
+  - c2.4
+  - o2
+  share: 0.08
+  level: introductory
+  kind: tool
+  technology: Italian Revenue Agency online services
+- key: social_security_contributions_services
+  name: Social security contributions and benefits online services
+  description: Using the online services of the Italian National Social Security Institute for contributions,
+    benefits and employer obligations.
+  evidence:
+  - c2.5
+  - o2
+  share: 0.08
+  level: introductory
+  kind: tool
+  technology: INPS online services
+- key: occupational_accident_insurance_services
+  name: Occupational accident insurance online services
+  description: Using the online services of the Italian National Institute for Insurance against Occupational
+    Accidents and Diseases for insurance and accident-related procedures.
+  evidence:
+  - c2.6
+  - o2
+  share: 0.07
+  level: introductory
+  kind: tool
+  technology: INAIL online services
+- key: justice_and_identity_services
+  name: Justice and identity document online services
+  description: Telematic services for the Justice of the Peace, the online biometric passport service
+    and the electronic identity card service of the Italian Interior Department.
+  evidence:
+  - c2.7
+  share: 0.06
+  level: introductory
+  kind: tool
+  technology: Justice of the Peace telematic services; Italian passport and identity card online services
+- key: documentary_databanks
+  name: Consulting documentary databanks
+  description: Searching and consulting official documentary databases to retrieve legal and administrative
+    documents.
+  evidence:
+  - o3
+  share: 0.07
+  level: introductory
+  kind: tool
+  technology: null
+not_topics:
+- id: c2.8
+  reason: Organisational remark about the university didactic innovation project; no teachable content.

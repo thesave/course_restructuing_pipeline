@@ -1,0 +1,145 @@
+format: extraction/1
+course: '95631'
+title: Machine Learning and Data Mining
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 25.1
+  usage:
+    prompt_tokens: 3489
+    completion_tokens: 6059
+    cache_read_tokens: 1854
+    thinking_tokens: 4662
+  created: '2026-11-04T18:26:09+00:00'
+topics:
+- key: data_mining_process
+  name: Data mining process and CRISP-DM
+  description: Motivation and components of the data mining process, and the CRISP-DM methodology for
+    organising a data mining project.
+  evidence:
+  - c1.1
+  - c2.12
+  - o1.1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_warehouse_and_data_lake
+  name: Data warehouse, OLAP and data lake architectures
+  description: Architectures of systems with data mining components, enterprise data warehouses with OLAP,
+    and data lakes as enabling infrastructure for data mining.
+  evidence:
+  - c1.2
+  - c1.3
+  - c1.4
+  - o1.2
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: machine_learning_foundations
+  name: Machine learning foundations and learning theory
+  description: History and motivation of machine learning, the theory of learning, and the distinction
+    between supervised and unsupervised learning and between classification and regression tasks.
+  evidence:
+  - c2.1
+  - c2.2
+  - c2.3
+  - c2.4
+  - o1.3
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: model_evaluation
+  name: Model selection, validation and presentation of results
+  description: Model selection and validation procedures for judging the quality of learned models and
+    presenting the results to support decisions.
+  evidence:
+  - c2.5
+  - o1.4
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: regression
+  name: Regression
+  description: Regression methods for predicting continuous target values from data.
+  evidence:
+  - c2.6
+  share: 0.07
+  level: introductory
+  kind: technique
+  technology: null
+- key: linear_classifiers
+  name: Linear classifiers, logistic regression and SVM
+  description: Classification with linear discrimination, logistic regression and Support Vector Machines.
+  evidence:
+  - c2.7
+  - o1.3
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+- key: bayesian_and_nearest_neighbor_classifiers
+  name: Bayesian inference and k-nearest neighbors
+  description: Classification with Bayesian inference and with the k-nearest neighbors method.
+  evidence:
+  - c2.7
+  - o1.3
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: decision_trees
+  name: Decision trees
+  description: Learning and using decision tree classifiers.
+  evidence:
+  - c2.7
+  - o1.3
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ensemble_learning
+  name: 'Ensemble learning: bagging, boosting and random forests'
+  description: Combining multiple models through bagging, boosting, AdaBoost and random forests.
+  evidence:
+  - c2.7
+  - c2.8
+  - o1.3
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: association_rules
+  name: Association rules and the Apriori algorithm
+  description: Mining association rules from transactional data with the Apriori algorithm.
+  evidence:
+  - c2.9
+  - o1.3
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: clustering_methods
+  name: Clustering and segmentation methods
+  description: Unsupervised clustering with k-means, DBSCAN, Expectation Maximization, hierarchical methods
+    and kernel methods.
+  evidence:
+  - c2.10
+  - o1.3
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1.5
+  reason: Case studies are applied examples illustrating topics rather than a separate teachable topic.
+- id: c2.11
+  reason: Analysis of case studies is an applied exercise activity that draws on the topics above rather
+    than introducing new content.

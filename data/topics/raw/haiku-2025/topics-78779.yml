@@ -1,0 +1,218 @@
+format: extraction/1
+course: '78779'
+title: Mobile Systems M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 47.2
+  usage:
+    prompt_tokens: 13290
+    completion_tokens: 11954
+    cache_read_tokens: 3708
+    thinking_tokens: 6693
+  created: '2026-11-04T18:18:24+00:00'
+topics:
+- key: wireless_fundamentals_and_standards
+  name: Wireless fundamentals and short-range standards
+  description: Radio propagation and fading models, followed by an overview of wireless technologies including
+    IEEE 802.16, IEEE 802.20, Wi-Fi Direct and ZigBee topologies.
+  evidence:
+  - c2
+  - c4
+  - c5
+  - c7
+  - c10
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: wlan_ieee_802_11
+  name: IEEE 802.11 WLAN and municipal meshes
+  description: The IEEE 802.11 medium access design, from CSMA/CD to CSMA/CA, hidden and exposed terminals,
+    MACA, infrastructure and ad-hoc configurations, and 802.11 for municipal mesh networks.
+  evidence:
+  - c3
+  - c6
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: bluetooth
+  name: Bluetooth networking and programming
+  description: The Bluetooth protocol stack, piconet topologies, the discovery service, scatternets and
+    multi-hop communication, and the Java Bluetooth software stack.
+  evidence:
+  - c9
+  share: 0.04
+  level: intermediate
+  kind: concept
+  technology: null
+- key: mobility_and_handoff_management
+  name: Mobility, handoff and location management
+  description: Cellular GSM architecture and handoff classification with common or differentiated MSCs,
+    mobility management concepts, location update and search, and Mobile IP with HMIPv6 and split-connection
+    TCP.
+  evidence:
+  - c8
+  - c12
+  - c13
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: manet_routing
+  name: MANET routing and clustering
+  description: Mobile ad hoc networks and their reactive, proactive, geographic and hybrid routing protocols
+    (DSR, AODV, GPSR), plus clustering solutions such as LEACH, HEED and REDMAN.
+  evidence:
+  - c11
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: positioning_systems
+  name: Positioning systems
+  description: Taxonomy and base techniques of positioning (lateration, TDOA, angulation, scene analysis,
+    proximity), positioning for ad hoc networks, GPS with differential correction, and hardware-based
+    and infrastructure-free localization systems such as Active Badge, AHLoS, RADAR and JSR-179.
+  evidence:
+  - c14
+  - c15
+  - c16
+  - c17
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: smartphone_platforms_overview
+  name: Smartphone development platforms overview
+  description: General concepts of smartphone development platforms and a concise comparison of J2ME,
+    .NET Compact Framework, FlashLite, Android and iOS, including iOS architecture, multitasking, native
+    and web apps, and unlocking/jailbreaking.
+  evidence:
+  - c18
+  - c20
+  share: 0.04
+  level: introductory
+  kind: concept
+  technology: null
+- key: smartphone_app_development
+  name: Android architecture and app development
+  description: The Android architecture from kernel to application framework, power management and wakelocks,
+    Dalvik VM, the activity lifecycle, intents and filters, the threading model, and hands-on Android
+    exercises.
+  evidence:
+  - c19
+  share: 0.13
+  level: intermediate
+  kind: tool
+  technology: Android
+- key: mobile_middleware_principles
+  name: Mobile middleware principles and patterns
+  description: Definition and motivation of mobile middleware, Internet, Web, SOA and mobile computing
+    principles including end-to-end and cross-layering, and general and mobile-specific architectural
+    patterns.
+  evidence:
+  - c21
+  share: 0.05
+  level: advanced
+  kind: concept
+  technology: null
+- key: iot_platforms
+  name: Internet of Things platforms
+  description: IoT definitions and reference architectures, state-of-the-art commercial platforms, mobile
+    and industrial IoT, research directions and industrial use cases.
+  evidence:
+  - c22
+  share: 0.04
+  level: advanced
+  kind: concept
+  technology: null
+- key: service_discovery
+  name: Service discovery protocols
+  description: Discovery service taxonomy, auto-configuration, service and resource access, and the Jini,
+    Service Location Protocol and UPnP discovery architectures with their exercises.
+  evidence:
+  - c23
+  - c24
+  - c25
+  - c26
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: sip_ims_session_management
+  name: SIP and IMS session management
+  description: Session management in converged 4G networks with the Session Initiation Protocol and the
+    IP Multimedia Subsystem, including functional entities, protocol examples and scalability, monitoring
+    and load-balancing limitations.
+  evidence:
+  - c27
+  share: 0.04
+  level: advanced
+  kind: concept
+  technology: null
+- key: mobile_messaging_middleware
+  name: Mobile messaging middleware
+  description: Messaging support in mobile systems and locators, message-oriented middleware with JMS
+    and CORBA Messaging (AMI and TII), and a rapid overview of XMPP, Web Services and RESTful services.
+  evidence:
+  - c28
+  - c29
+  - c30
+  - c31
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: publish_subscribe_event_systems
+  name: Publish/subscribe and distributed events
+  description: Event router topologies, propagation of interests and subscriptions, routing decisions,
+    and examples of distributed event systems such as OMG DDS, Java distributed events, GENA, RSS/Atom,
+    SIP Event Framework and WS-Eventing.
+  evidence:
+  - c32
+  - c33
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: mobile_data_synchronization
+  name: Mobile data synchronization
+  description: Pessimistic and optimistic synchronization, versioning, conflict detection and reconciliation,
+    and the SyncML representation and synchronization protocols.
+  evidence:
+  - c34
+  - c35
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: edge_fog_and_mobile_edge_computing
+  name: Edge, fog and mobile edge computing
+  description: Sensor-edge-cloud integration, distributed control, computation offloading and mobility
+    prediction, plus ETSI MEC, O-RAN and MANO orchestration for 5G deployments.
+  evidence:
+  - c36
+  - c37
+  share: 0.05
+  level: advanced
+  kind: concept
+  technology: null
+not_topics:
+- id: c1
+  reason: Statement of the course aims and general skills, not teachable content.
+- id: c38
+  reason: Selection of application domains and suggestions for project activities; organisational.
+- id: c39
+  reason: Case studies and company seminars; delivery format rather than a topic.
+- id: c40
+  reason: Description of the practical lab set-up; organisational.
+- id: c41
+  reason: Note that lab activities are required and that solutions are on the course website; organisational.
+- id: c42
+  reason: Pointer to the Teaching Methods section; organisational.

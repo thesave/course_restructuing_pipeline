@@ -1,0 +1,269 @@
+format: extraction/1
+course: '93315'
+title: Computer Networks
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 45.4
+  usage:
+    prompt_tokens: 3926
+    completion_tokens: 11332
+    cache_read_tokens: 1854
+    thinking_tokens: 8693
+  created: '2026-11-04T18:24:42+00:00'
+topics:
+- key: network_fundamentals
+  name: Network fundamentals and topologies
+  description: Definitions, history and development of computer networks, together with network topologies,
+    network resources and logical channels.
+  evidence:
+  - c1
+  - c2
+  share: 0.0417
+  level: introductory
+  kind: concept
+  technology: null
+- key: network_performance_metrics
+  name: Network performance metrics
+  description: Performance indexes such as delay, throughput and loss, and how their meaning changes across
+    application contexts.
+  evidence:
+  - c3
+  share: 0.0313
+  level: introductory
+  kind: concept
+  technology: null
+- key: circuit_and_packet_switching
+  name: Circuit and packet switching
+  description: Comparison of circuit-switched and packet-switched networks and their respective trade-offs.
+  evidence:
+  - c4
+  share: 0.0313
+  level: introductory
+  kind: concept
+  technology: null
+- key: network_architectures_and_service_models
+  name: Network architectures and service models
+  description: Hardware and software architectures of networks, and client/server, peer-to-peer and hybrid
+    service architectures.
+  evidence:
+  - c6
+  - c7
+  share: 0.0313
+  level: introductory
+  kind: concept
+  technology: null
+- key: layered_protocols_osi_model
+  name: Layered protocols and the OSI model
+  description: Network communication protocols and the ISO OSI reference model, including the session
+    and presentation layers.
+  evidence:
+  - c5
+  - c8
+  - c38
+  share: 0.0417
+  level: introductory
+  kind: concept
+  technology: null
+- key: physical_layer_signals
+  name: Physical layer and signal encoding
+  description: Transmission media, signals and encoding/decoding at the physical layer, with a focus on
+    radio communications.
+  evidence:
+  - c9
+  share: 0.0417
+  level: intermediate
+  kind: concept
+  technology: null
+- key: data_link_layer
+  name: Data link layer
+  description: Communication channels, medium access control techniques, MAC addressing, reliable communication,
+    and error detection and correction at the data link layer.
+  evidence:
+  - c10
+  share: 0.0521
+  level: intermediate
+  kind: technique
+  technology: null
+- key: lan_devices_topologies_vlan
+  name: LAN devices, topologies and virtual LANs
+  description: LAN technologies and devices (hub, repeater, bridge, switch), LAN connectivity and topologies
+    and links, and virtual channels (MPLS) and virtual networks (VLAN).
+  evidence:
+  - c11
+  - c12
+  - c13
+  - c17
+  share: 0.0521
+  level: intermediate
+  kind: technique
+  technology: null
+- key: wireless_communication_systems
+  name: Wireless communication systems
+  description: Design of radio communication systems, antennas, wireless propagation, link budget, decibels,
+    encoding, error control and the MAC and standards of IEEE 802.11 and Bluetooth.
+  evidence:
+  - c14
+  - c15
+  share: 0.0729
+  level: intermediate
+  kind: concept
+  technology: null
+- key: mobile_systems
+  name: Mobile systems and mobility
+  description: Mobile IP and TCP variants adapted to mobile and wireless environments.
+  evidence:
+  - c16
+  share: 0.03125
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ipv4_addressing
+  name: IPv4 and hierarchical addressing
+  description: The IPv4 protocol, domains and hierarchical addressing, subnetting and supernetting, classful
+    networks, CIDR and IP configuration.
+  evidence:
+  - c18
+  - c20
+  - c21
+  share: 0.0521
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ipv6_and_nat
+  name: IPv6 and network address translation
+  description: The IPv6 protocol and address translation with NAT.
+  evidence:
+  - c19
+  - c22
+  share: 0.03125
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ip_support_protocols
+  name: ICMP, ARP, RARP and DHCP
+  description: 'Support protocols of the IP layer: ICMP error and control messages, address resolution
+    with ARP and RARP, and host configuration with DHCP.'
+  evidence:
+  - c24
+  - c25
+  - c26
+  share: 0.0417
+  level: intermediate
+  kind: technique
+  technology: null
+- key: internetworking_and_network_design
+  name: Internetworking and network design
+  description: Networks of networks and inter-networking, and the design of networks and subnetworks in
+    IP domains.
+  evidence:
+  - c27
+  - c30
+  share: 0.03125
+  level: intermediate
+  kind: technique
+  technology: null
+- key: network_management_troubleshooting
+  name: Network management and troubleshooting
+  description: Management and configuration of LANs with SNMP, and troubleshooting and analysis of network
+    performance and issues.
+  evidence:
+  - c28
+  - c29
+  share: 0.0417
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ip_routing_multicast_sdn
+  name: IP forwarding, routing, multicast and SDN
+  description: Forwarding and routing IP locally and interdomain, router architecture, multicasting, and
+    software-defined networking with OpenFlow.
+  evidence:
+  - c23
+  - c31
+  - c32
+  - c33
+  share: 0.0833
+  level: advanced
+  kind: technique
+  technology: null
+- key: tcp_transport_and_congestion
+  name: TCP transport, flow and congestion control
+  description: The Transmission Control Protocol, end-to-end performance, flow control and congestion
+    control at the transport layer.
+  evidence:
+  - c34
+  - c35
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: null
+- key: socket_programming
+  name: Sockets and inter-process communication
+  description: Inter-process communication over the Internet and socket programming examples with UDP
+    and TCP.
+  evidence:
+  - c36
+  - c37
+  share: 0.0417
+  level: intermediate
+  kind: technique
+  technology: null
+- key: application_layer_protocols
+  name: Application layer protocols and services
+  description: Application-layer protocols and services such as SMTP, HTTP, DNS, P2P, streaming video,
+    gaming and VoIP.
+  evidence:
+  - c39
+  - c40
+  share: 0.0521
+  level: intermediate
+  kind: concept
+  technology: null
+- key: quality_of_service_real_time
+  name: Quality of service and real-time communication
+  description: Quality-of-service mechanisms and the requirements of real-time communication over networks.
+  evidence:
+  - c41
+  - c42
+  share: 0.03125
+  level: advanced
+  kind: concept
+  technology: null
+- key: cryptography_and_integrity
+  name: Cryptography, privacy and digital signatures
+  description: Network security principles including privacy, cryptography, integrity and digital signatures.
+  evidence:
+  - c43
+  - c44
+  share: 0.03125
+  level: intermediate
+  kind: concept
+  technology: null
+- key: secure_protocols_ipsec_vpn
+  name: Secure transport, network layer and VPN
+  description: Secure transport with SSL over TCP, secure network-layer protocols, IPsec and virtual private
+    networks.
+  evidence:
+  - c45
+  - c46
+  - c47
+  - c48
+  share: 0.0417
+  level: advanced
+  kind: technique
+  technology: null
+- key: firewalls_intrusion_detection
+  name: Firewalls and intrusion detection
+  description: Firewall architectures and intrusion detection for protecting communication networks.
+  evidence:
+  - c49
+  share: 0.03125
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

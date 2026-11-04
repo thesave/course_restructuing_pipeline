@@ -1,0 +1,138 @@
+format: extraction/1
+course: 07276-A
+title: Computer Science
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 24.4
+  usage:
+    prompt_tokens: 7609
+    completion_tokens: 5695
+    cache_read_tokens: 3708
+    thinking_tokens: 3189
+  created: '2026-11-04T18:08:38+00:00'
+topics:
+- key: computer_science_problem_solving
+  name: Computer science and problem solving
+  description: Introduces computer science as the discipline of solving problems with algorithms, including
+    the notion of an algorithm as an effective procedure.
+  evidence:
+  - c1
+  - o1
+  - o2
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: abstract_machines
+  name: Abstract machines
+  description: Presents abstract machines as formal models of computation that execute programs, and how
+    they relate to real computers and programming languages.
+  evidence:
+  - c2
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: program_execution_model
+  name: The Python abstract machine
+  description: 'Describes the Python machine as an abstract machine: how Python programs are stored, evaluated
+    and executed, including the runtime model of names and objects.'
+  evidence:
+  - c3
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: Python
+- key: names_visibility_functions
+  name: Names, visibility and functions in Python
+  description: Covers variable names and their visibility (scope) in Python, and the definition and use
+    of functions to structure solutions.
+  evidence:
+  - c4
+  - o1
+  - o2
+  share: 0.09
+  level: introductory
+  kind: language
+  technology: Python
+- key: data_types_mutability
+  name: Basic data types and mutability in Python
+  description: Covers Python's basic data types and the distinction between immutable and mutable objects,
+    and their use in solving problems.
+  evidence:
+  - c4
+  - o1
+  - o2
+  share: 0.09
+  level: introductory
+  kind: language
+  technology: Python
+- key: classes_and_objects
+  name: Classes and objects
+  description: Introduces object-oriented programming in Python with classes, instances, attributes and
+    methods.
+  evidence:
+  - c5
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: language
+  technology: Python
+- key: abstract_data_types
+  name: Abstract data types as classes
+  description: Shows how abstract data types are specified and implemented in Python as classes, hiding
+    representation behind an interface.
+  evidence:
+  - c6
+  - o1
+  - o2
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: sorting_algorithms
+  name: Sorting algorithms
+  description: Studies classical sorting algorithms, how they work, how to design and implement them,
+    and how they compare.
+  evidence:
+  - c7
+  - o1
+  - o2
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: computational_complexity
+  name: Computational complexity
+  description: Introduces how the resources needed by an algorithm grow with input size and how to estimate
+    and compare algorithm complexity.
+  evidence:
+  - c8
+  - o1
+  - o2
+  share: 0.11
+  level: intermediate
+  kind: concept
+  technology: null
+- key: decidability_limits
+  name: Limits of effective procedures
+  description: Explains that some problems are non-decidable, so no effective procedure can solve them
+    for all inputs.
+  evidence:
+  - c9
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics:
+- id: c10
+  reason: Organisational remark about the lab format (instructors joined by teaching assistants); it describes
+    how teaching is delivered, not a topic.

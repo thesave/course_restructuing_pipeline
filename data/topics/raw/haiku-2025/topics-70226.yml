@@ -1,0 +1,129 @@
+format: extraction/1
+course: '70226'
+title: Network Programming
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 21.2
+  usage:
+    prompt_tokens: 7537
+    completion_tokens: 4985
+    cache_read_tokens: 3708
+    thinking_tokens: 2472
+  created: '2026-11-04T18:15:39+00:00'
+topics:
+- key: internet_architecture
+  name: Internet architecture and protocol layers
+  description: Basic structure of the Internet and computer networks, including protocols, client-server
+    architecture, layered design and service models.
+  evidence:
+  - c3
+  - o1
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: application_architectures_p2p
+  name: Application architectures and peer-to-peer
+  description: Principles of designing network applications, comparing client-server and peer-to-peer
+    architectures, with BitTorrent as the P2P case study.
+  evidence:
+  - c1
+  - c6
+  - o1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: application_layer_protocols
+  name: Application layer protocols
+  description: 'Operation and message formats of the common application protocols: Web/HTTP, FTP, SMTP,
+    POP3, IMAP and DNS.'
+  evidence:
+  - c6
+  - o1
+  share: 0.16
+  level: intermediate
+  kind: concept
+  technology: null
+- key: socket_programming
+  name: Socket programming for network applications
+  description: Implementing client and server network applications with sockets in laboratory projects
+    that apply the course's theoretical concepts to today's Internet.
+  evidence:
+  - c1
+  - c2
+  - c6
+  share: 0.16
+  level: intermediate
+  kind: technique
+  technology: null
+- key: transport_multiplexing_udp
+  name: Transport services, multiplexing and UDP
+  description: Transport layer services, multiplexing and demultiplexing, and the connectionless UDP protocol.
+  evidence:
+  - c7
+  - o1
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: error_detection_and_arq
+  name: Channel reliability, error detection and ARQ
+  description: Error detection versus error correction, the most common error detection codes, and automatic
+    repeat request (ARQ) protocols for reliable transfer over unreliable channels.
+  evidence:
+  - c4
+  - o1
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: tcp_connection_oriented_transport
+  name: Connection-oriented transport and TCP
+  description: Reliable data transfer and connection-oriented communication in the TCP protocol.
+  evidence:
+  - c7
+  - o1
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: tcp_congestion_control
+  name: TCP congestion control
+  description: Mechanisms by which TCP detects and reacts to network congestion to regulate its sending
+    rate.
+  evidence:
+  - c7
+  - o1
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: protocol_analysis
+  name: Protocol analysis and traffic sniffing
+  description: Sniffing, collecting traffic traces, and analysing and debugging network protocols with
+    a protocol analyzer.
+  evidence:
+  - c5
+  - o1
+  share: 0.09
+  level: introductory
+  kind: tool
+  technology: Wireshark
+- key: network_cybersecurity_basics
+  name: Basics of network cybersecurity
+  description: Authentication, authorization, digital signatures and certificates as basic security mechanisms
+    for network applications.
+  evidence:
+  - c8
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

@@ -1,0 +1,72 @@
+format: extraction/1
+course: B8929
+title: Computer Studies and Human Sciences
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 0
+  seconds: 0.0
+  usage: {}
+  created: '2026-11-04T18:31:06+00:00'
+copied_from: B5293
+topics:
+- key: informatics_foundations
+  name: Informatics foundations and history
+  description: Core ideas of informatics (information, computation, data representation and hardware-software
+    basics) and the historical development of the field, as introduced at the start of the course.
+  evidence:
+  - c1
+  - c2.1
+  share: 0.15
+  level: introductory
+  kind: concept
+  technology: null
+- key: internet_and_web
+  name: Internet and the Web
+  description: Conceptual basics of how the Internet and the World Wide Web work, including clients, servers,
+    addresses and the structure of web pages.
+  evidence:
+  - c2.2
+  share: 0.15
+  level: introductory
+  kind: concept
+  technology: null
+- key: html_css_page_design
+  name: Web page design with HTML and CSS
+  description: Building and styling web pages in practice, using HTML elements for structure and CSS rules
+    for presentation, applied to language and communication contexts.
+  evidence:
+  - c2.2
+  - o1
+  share: 0.25
+  level: introductory
+  kind: language
+  technology: HTML and CSS
+- key: semantic_web_ontologies
+  name: Semantic Web, ontologies and knowledge graphs
+  description: The Semantic Web vision and the design of ontologies and knowledge graphs for representing
+    machine-readable meaning of data on the Web.
+  evidence:
+  - c2.3
+  share: 0.2
+  level: intermediate
+  kind: concept
+  technology: null
+- key: ai_applications_methods
+  name: 'Artificial intelligence: applications and methods'
+  description: Overview of the main artificial intelligence methods and of their current real-world applications,
+    with a focus on their use in language and communication.
+  evidence:
+  - c2.4
+  - c1
+  share: 0.25
+  level: introductory
+  kind: concept
+  technology: null
+not_topics:
+- id: c2
+  reason: Summary heading introducing the list of topics; its sub-items c2.1 to c2.4 are covered by the
+    topics above.

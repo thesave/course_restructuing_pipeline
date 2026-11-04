@@ -1,0 +1,226 @@
+format: extraction/1
+course: '73025'
+title: Distributed Systems M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 53.8
+  usage:
+    prompt_tokens: 12312
+    completion_tokens: 12960
+    cache_read_tokens: 3708
+    thinking_tokens: 8065
+  created: '2026-11-04T18:17:03+00:00'
+topics:
+- key: enterprise_architecture_methodologies
+  name: Enterprise architecture methodologies
+  description: Requirements analysis, design principles and architectural models for designing, implementing
+    and deploying enterprise-level distributed applications.
+  evidence:
+  - c2
+  - o2.1
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: component_model_evolution
+  name: Component model evolution
+  description: The evolution of the Enterprise JavaBeans model from EJB 1.0 to EJB 3.0, its motivations
+    and guidelines, including the shift to metadata annotations.
+  evidence:
+  - c3
+  - c6
+  - c16.1
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: Enterprise JavaBeans
+- key: application_servers_middleware
+  name: Application servers and middleware
+  description: Component integration in 3-tier and web-integrated architectures and the runtime support
+    provided by application servers such as JBoss/WildFly and their middleware frameworks.
+  evidence:
+  - c3
+  - c4
+  - o2.2
+  share: 0.06
+  level: intermediate
+  kind: tool
+  technology: JBoss
+- key: directory_naming_services
+  name: Naming and directory services
+  description: Differentiated naming services and their integration in enterprise deployment environments,
+    using the Java Naming and Directory Interface.
+  evidence:
+  - c5
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: JNDI
+- key: session_message_components
+  name: Session and message-driven EJB components
+  description: Session-oriented and message-oriented enterprise components, and their development and
+    deployment as EJBs in the application server.
+  evidence:
+  - c9
+  - c20.1
+  - o2.2
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: Enterprise JavaBeans
+- key: messaging_enterprise_integration
+  name: Messaging and enterprise integration
+  description: Asynchronous messaging with the Java Messaging System, with an overview of Enterprise Service
+    Bus and Java Business Integration for enterprise application integration.
+  evidence:
+  - c13.1
+  - c20.2
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: JMS
+- key: inversion_of_control_containers
+  name: Inversion of control and lightweight containers
+  description: Lightweight enterprise models built on inversion of control and dependency injection in
+    the Spring framework as an alternative to heavyweight EJB containers.
+  evidence:
+  - c13
+  - c13.2
+  - c13.3
+  - c20.3
+  - o2.3
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: Spring
+- key: aspect_oriented_programming
+  name: Aspect-oriented programming and interceptors
+  description: Cross-cutting concerns addressed through interceptors and aspect-oriented programming,
+    including their use in Spring to separate technical concerns from business logic.
+  evidence:
+  - c10
+  - c13.4
+  - c14
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: distributed_transactions
+  name: Transaction management
+  description: Transaction concepts and their management in enterprise applications, including declarative
+    transaction handling in the container.
+  evidence:
+  - c11
+  - c14.1
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: transparent_persistency
+  name: Transparent persistency and object-relational mapping
+  description: Evolution of persistency support models in enterprise applications and transparent persistency
+    with JPA and Hibernate, including the mapping and query of persistent entities.
+  evidence:
+  - c7
+  - c14.2
+  - c14.3
+  - c15
+  - c15.1
+  - o2.3
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: JPA
+- key: data_interaction_queries
+  name: Data interaction and object-relational mapping
+  description: Interacting with data sources from enterprise components, covering object-relational mapping
+    and the querying of mapped data.
+  evidence:
+  - c8
+  - c15.1
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: runtime_monitoring_management
+  name: Runtime monitoring and management
+  description: Monitoring, control and runtime management of application servers and distributed support
+    frameworks, using the Java Management Extensions.
+  evidence:
+  - c16.3
+  - c20.4
+  - o2.4
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: JMX
+- key: scalability_fault_tolerance_reliability
+  name: Scalability, fault tolerance and reliability
+  description: Design and evaluation of performance, scalability, fault-tolerance and reliability properties
+    of distributed enterprise systems at runtime.
+  evidence:
+  - c16.2
+  - c16.4
+  - c17
+  - c17.1
+  - c17.2
+  - c17.3
+  - o2.4
+  share: 0.07
+  level: advanced
+  kind: concept
+  technology: null
+- key: application_server_clustering
+  name: Application server clustering
+  description: Highly scalable distributed applications on clusters using the proprietary clustering support
+    of JBoss/WildFly, in a full configuration.
+  evidence:
+  - c17.4
+  - c20.5
+  - o2.5
+  share: 0.07
+  level: advanced
+  kind: technique
+  technology: JBoss
+- key: asynchronous_and_serverless_models
+  name: Asynchronous and serverless models
+  description: Asynchronous, event-driven models for high scalability of enterprise servers, with Node.js
+    and Function as a Service frameworks.
+  evidence:
+  - c17.5
+  - c17.6
+  - c17.7
+  share: 0.06
+  level: advanced
+  kind: concept
+  technology: null
+- key: stream_processing_big_data
+  name: Online stream processing of big data
+  description: Introductory notions of high-performance online stream processing of big data over clustered
+    distributed systems.
+  evidence:
+  - c17.8
+  - o2.5
+  share: 0.04
+  level: advanced
+  kind: concept
+  technology: null
+not_topics:
+- id: c1
+  reason: Introductory statement of the course aims, not teachable content.
+- id: c12
+  reason: Generic label for examples and exercises; the lab exercises are covered under their topics.
+- id: c17.9
+  reason: Case studies, including external seminars; they illustrate the topics rather than teach a separate
+    subject.
+- id: c18
+  reason: Organisational remark on the practical lab exercises done autonomously.
+- id: c19
+  reason: Organisational remark on the necessity of lab activities and the availability of solutions.
+- id: c20
+  reason: Heading for the list of lab exercises; each exercise (c20.1 to c20.5) is cited under its topic.

@@ -1,0 +1,116 @@
+format: extraction/1
+course: 09730
+title: Principles of Informatics
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 14.8
+  usage:
+    prompt_tokens: 3215
+    completion_tokens: 3122
+    cache_read_tokens: 1854
+    thinking_tokens: 2127
+  created: '2026-11-04T18:09:24+00:00'
+topics:
+- key: computer_architecture
+  name: Computer architecture
+  description: Von Neumann architecture, the main hardware components of modern computers, and the software
+    levels that sit on top of them.
+  evidence:
+  - c2
+  - o1
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: information_representation
+  name: Information representation
+  description: Binary coding of data, two's complement and floating-point representation of numbers, and
+    encoding of non-numeric information.
+  evidence:
+  - c3
+  - o1
+  share: 0.15
+  level: introductory
+  kind: concept
+  technology: null
+- key: algorithms_and_notations
+  name: Algorithms, data structures and notations
+  description: The definition of an algorithm with worked examples, fundamental data structures, pseudo-code
+    and flow diagrams as notations, and an overview of programming languages.
+  evidence:
+  - c4
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: basic_constructs
+  name: Basic C constructs
+  description: 'The fundamental C language elements: data types, values, operators and expressions.'
+  evidence:
+  - c5
+  - o2
+  share: 0.12
+  level: introductory
+  kind: language
+  technology: C
+- key: control_flow
+  name: Control flow and structured programming
+  description: Conditional and loop control structures in C and the principles of structured programming
+    used to write them.
+  evidence:
+  - c5
+  - o2
+  share: 0.12
+  level: introductory
+  kind: language
+  technology: C
+- key: functions_recursion
+  name: Functions and recursion
+  description: Defining and calling C functions, and implementing repetition through recursion as an alternative
+    to iteration.
+  evidence:
+  - c5
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: C
+- key: arrays_pointers
+  name: Arrays and pointers
+  description: Declaring and using C arrays, and pointers to variables, arrays and functions-related memory
+    access.
+  evidence:
+  - c5
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: language
+  technology: C
+- key: array_algorithms
+  name: Algorithms on arrays
+  description: Implementing array algorithms in C for reversing, sorting and searching elements.
+  evidence:
+  - c5
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: C
+- key: character_strings
+  name: Character strings
+  description: Representing and manipulating text as character arrays in C.
+  evidence:
+  - c5
+  share: 0.09
+  level: intermediate
+  kind: language
+  technology: C
+not_topics:
+- id: c1
+  reason: Introductory overview of the field with no specific teachable content beyond the course orientation.

@@ -1,0 +1,152 @@
+format: extraction/1
+course: '72939'
+title: Software Systems Engineering M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 23.6
+  usage:
+    prompt_tokens: 3551
+    completion_tokens: 5155
+    cache_read_tokens: 1854
+    thinking_tokens: 3578
+  created: '2026-11-04T18:16:08+00:00'
+topics:
+- key: agile_scrum_process
+  name: Agile SCRUM process
+  description: Setting up cooperative agile production processes with SCRUM roles, events and artefacts
+    for team-based software development.
+  evidence:
+  - c1.1
+  - c1.3
+  share: 0.1
+  level: introductory
+  kind: technique
+  technology: null
+- key: executable_requirements_models
+  name: Executable requirement and problem models
+  description: Using executable models with custom meta-models to capture requirements and analyse the
+    problem domain before choosing an implementation technology.
+  evidence:
+  - c1.1
+  - c1.2
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: incremental_design_and_testing
+  name: Incremental domain-driven design and testing
+  description: Designing and developing software incrementally and evolutively starting from the application
+    domain, with related testing plans.
+  evidence:
+  - c1.2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: model_driven_development_dsl
+  name: Model-driven development and domain-specific languages
+  description: Building software factories with automatic code generation based on MDSD and DSLs, and
+    considering AI-generated code technologies.
+  evidence:
+  - c1.7
+  share: 0.09
+  level: advanced
+  kind: technique
+  technology: null
+- key: jvm_language_fundamentals
+  name: Kotlin language fundamentals
+  description: Learning the constructs and idioms of the Kotlin language as used for developing the course
+    applications.
+  evidence:
+  - c1.3
+  share: 0.07
+  level: introductory
+  kind: language
+  technology: Kotlin
+- key: devops_build_and_deployment
+  name: DevOps build and deployment
+  description: Automating builds with Gradle and deployment with Docker containers within DevOps practices
+    and critically evaluating their evolution.
+  evidence:
+  - c1.3
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: web_service_framework
+  name: Spring Boot service development
+  description: Developing server-side services with the Spring Boot framework.
+  evidence:
+  - c1.3
+  share: 0.07
+  level: intermediate
+  kind: tool
+  technology: Spring Boot
+- key: software_architecture_styles
+  name: Software architecture styles
+  description: Understanding layers, client-server, pipeline, microkernel, service-based, event-driven,
+    space-based and microservice architectures and selecting the right style for each sub-system.
+  evidence:
+  - c1.4
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: message_passing_event_driven
+  name: Message-passing and event-driven applications
+  description: Designing distributed, heterogeneous proactive-reactive applications based on message-passing
+    and event-driven computational models and their run-time supports.
+  evidence:
+  - c1.5
+  share: 0.07
+  level: advanced
+  kind: concept
+  technology: null
+- key: messaging_protocols
+  name: Message-based interaction protocols
+  description: Implementing message-based interactions among distributed components with high-level logical
+    models over TCP, UDP, HTTP, CoAP and MQTT.
+  evidence:
+  - c1.6
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: iot_low_cost_devices
+  name: IoT development on low-cost boards
+  description: Developing low-level software for IoT devices on low-cost computers such as Raspberry Pi
+    and Arduino, in virtual and real environments.
+  evidence:
+  - c1.8
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ai_iot_integration
+  name: Combining AI with IoT applications
+  description: Combining high-level AI aspects with low-level IoT device control in a single application.
+  evidence:
+  - c1.8
+  share: 0.05
+  level: advanced
+  kind: technique
+  technology: null
+- key: autonomous_robot_applications
+  name: Autonomous robot applications
+  description: Designing a final application that drives differential drive robots with sensors to operate
+    autonomously in virtual or real environments without changing the business-logic software.
+  evidence:
+  - c1.9
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Enclosing heading ('At the end of the course, the student') with no teachable content of its
+    own; its content is carried by c1.1–c1.9.

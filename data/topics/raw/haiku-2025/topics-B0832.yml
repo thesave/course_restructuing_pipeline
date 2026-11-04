@@ -1,0 +1,134 @@
+format: extraction/1
+course: B0832
+title: Administration of Systems T
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 28.1
+  usage:
+    prompt_tokens: 8616
+    completion_tokens: 6154
+    cache_read_tokens: 3708
+    thinking_tokens: 3372
+  created: '2026-11-04T18:29:39+00:00'
+topics:
+- key: shell_scripting
+  name: Shell scripting
+  description: Writing and running Bash scripts, including variables, control flow, pipelines and text
+    processing, used as the practical foundation for all other course topics.
+  evidence:
+  - c3
+  - o2
+  share: 0.16
+  level: introductory
+  kind: language
+  technology: Bash
+- key: local_hardware_setup
+  name: Local hardware setup
+  description: Configuring the hardware of a GNU/Linux machine locally, such as devices and their initialisation.
+  evidence:
+  - c2.1
+  share: 0.06
+  level: introductory
+  kind: technique
+  technology: GNU/Linux
+- key: unix_users_and_permissions
+  name: Unix user accounts and file permissions
+  description: Managing user and group accounts and controlling access through authorization mechanisms
+    on the Unix filesystem.
+  evidence:
+  - c2.1
+  share: 0.12
+  level: introductory
+  kind: technique
+  technology: GNU/Linux
+- key: process_and_resource_monitoring
+  name: Process management and resource monitoring
+  description: Using command line tools to inspect and configure running processes and to monitor CPU,
+    memory and other resource usage.
+  evidence:
+  - c2.1
+  - o2
+  - o3
+  share: 0.1
+  level: introductory
+  kind: tool
+  technology: GNU/Linux
+- key: daemons_scheduling_logging
+  name: System daemons, scheduling and logging
+  description: Using standard daemons to automate administration tasks, namely scheduled execution of
+    jobs and system logging.
+  evidence:
+  - c2.1
+  share: 0.08
+  level: introductory
+  kind: tool
+  technology: GNU/Linux
+- key: network_configuration_monitoring
+  name: Network configuration and connection monitoring
+  description: Configuring network interfaces and routing, and monitoring network connections with command
+    line tools.
+  evidence:
+  - c2.2
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: tool
+  technology: GNU/Linux
+- key: centralized_monitoring
+  name: Centralized monitoring and SNMP
+  description: Overview of platforms for monitoring large or heterogeneous installations and of the SNMP
+    protocol used to collect their data.
+  evidence:
+  - c2.3
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: automatic_network_configuration
+  name: Automatic network configuration protocols
+  description: Practical use of RARP, BOOTP, DHCP and DNS to configure network hosts automatically and
+    resolve names.
+  evidence:
+  - c2.4
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: centralized_authentication
+  name: Centralized authentication with LDAP
+  description: Using LDAP to provide authentication and directory services centrally across many systems.
+  evidence:
+  - c2.4
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: LDAP
+- key: high_availability_systems
+  name: High availability distributed systems
+  description: Basic concepts of availability and of distributed systems designed to keep services running
+    despite failures.
+  evidence:
+  - c2.4
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: configuration_as_code
+  name: Configuration as Code
+  description: Automated creation and configuration of virtual systems with infrastructure and provisioning
+    tools such as OpenTofu, Vagrant and Ansible.
+  evidence:
+  - c2.5
+  - o2
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Statement of the course goal and overview; it describes the course rather than teachable content.

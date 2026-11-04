@@ -1,0 +1,76 @@
+format: extraction/1
+course: '95632'
+title: Laboratory on Digital Transformation Technologies
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 11.0
+  usage:
+    prompt_tokens: 2912
+    completion_tokens: 2101
+    cache_read_tokens: 1854
+    thinking_tokens: 1436
+  created: '2026-11-04T18:26:03+00:00'
+topics:
+- key: digital_business_design
+  name: Digital business design process
+  description: Covers the stages of designing a digital business, from framing the company's business
+    challenge to understanding it in depth before any solution is proposed.
+  evidence:
+  - c2
+  - c3
+  - o1.3
+  share: 0.2
+  level: introductory
+  kind: technique
+  technology: null
+- key: technology_diagnosis_and_ideation
+  name: Technology diagnosis and business idea generation
+  description: Covers analysing a company's existing technologies and using state-of-the-art digital technologies
+    to generate business ideas that address the identified challenge.
+  evidence:
+  - c4
+  - c5
+  - o1.1
+  share: 0.2
+  level: intermediate
+  kind: technique
+  technology: null
+- key: feasibility_risk_assessment
+  name: Feasibility and risk assessment
+  description: Covers verifying whether a digital business idea is feasible by identifying, evaluating
+    and managing its risks.
+  evidence:
+  - c6
+  share: 0.15
+  level: intermediate
+  kind: technique
+  technology: null
+- key: business_idea_deployment
+  name: Business idea deployment and presentation
+  description: Covers deploying the selected business idea and technology in a team project, then presenting,
+    discussing and following up on the results.
+  evidence:
+  - c7
+  - c8
+  - o1.2
+  share: 0.25
+  level: intermediate
+  kind: technique
+  technology: null
+- key: business_plan_and_kpis
+  name: Business plan, action plan and KPIs
+  description: Covers the business case and business plan, the action plan for digital transformation,
+    the KPIs used to monitor it, and the soft skills needed to lead it.
+  evidence:
+  - c1
+  - c9
+  share: 0.2
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

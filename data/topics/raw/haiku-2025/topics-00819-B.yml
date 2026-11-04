@@ -1,0 +1,178 @@
+format: extraction/1
+course: 00819-B
+title: Programming
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 31.9
+  usage:
+    prompt_tokens: 8401
+    completion_tokens: 7394
+    cache_read_tokens: 3708
+    thinking_tokens: 4012
+  created: '2026-11-04T18:08:23+00:00'
+topics:
+- key: algorithmic_problem_solving
+  name: Algorithmic approach to problem solving
+  description: Introduces how problems are broken down and expressed as algorithms that a computer can
+    execute.
+  evidence:
+  - c2
+  - o1
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: language_overview_and_structure
+  name: C language purpose and program structure
+  description: Covers the purposes and main characteristics of C and the structure of a C program, including
+    headers, variable declarations and libraries.
+  evidence:
+  - c3
+  - c4.3
+  - c4.4
+  - o1
+  share: 0.06
+  level: introductory
+  kind: language
+  technology: C
+- key: elementary_data_types
+  name: Elementary data types
+  description: Covers the basic C types (integers, small and long integers, floating point, double, char)
+    and their use.
+  evidence:
+  - c4.2
+  - c4.5
+  share: 0.05
+  level: introductory
+  kind: language
+  technology: C
+- key: memory_organization
+  name: Computer memory organization
+  description: Explains how memory is organised into addresses and words and how values are stored and
+    accessed.
+  evidence:
+  - c4.1
+  share: 0.04
+  level: introductory
+  kind: concept
+  technology: null
+- key: pointers
+  name: Pointers and pointer arithmetic
+  description: Covers declaring and using pointers to memory addresses and performing pointer arithmetic
+    in C.
+  evidence:
+  - c4.1
+  - c4.6
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: C
+- key: arrays_and_matrices
+  name: Arrays and matrices
+  description: Covers one- and multi-dimensional arrays in C and their memory representation.
+  evidence:
+  - c4.2
+  - c4.7
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: C
+- key: functions_and_parameter_passing
+  name: Functions and parameter passing
+  description: Covers library and user-defined functions in C and the difference between passing parameters
+    by value and by address.
+  evidence:
+  - c4.9
+  - c4.10
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: C
+- key: recursion
+  name: Recursive functions
+  description: Covers designing and analysing recursive functions in C, including base cases and recursive
+    calls.
+  evidence:
+  - c4.11
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: C
+- key: input_output_and_files
+  name: Input/output and file functions
+  description: Covers the C standard functions for console input/output and reading and writing files.
+  evidence:
+  - c4.12
+  share: 0.07
+  level: intermediate
+  kind: language
+  technology: C
+- key: string_handling
+  name: String handling
+  description: Covers representing strings as character arrays and the standard C string functions.
+  evidence:
+  - c4.2
+  - c4.12
+  share: 0.04
+  level: intermediate
+  kind: language
+  technology: C
+- key: dynamic_memory_management
+  name: Direct memory management
+  description: Covers allocating, using and releasing memory directly at run time through C memory management
+    functions.
+  evidence:
+  - c4.1
+  - c4.12
+  share: 0.04
+  level: intermediate
+  kind: technique
+  technology: C
+- key: linked_lists_and_trees
+  name: Linked lists and trees
+  description: Covers complex data structures such as lists and trees built with pointers and their implementation
+    in C.
+  evidence:
+  - c4.8
+  - c5.1
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: C
+- key: abstract_data_types
+  name: Abstract data types and algebraic specification
+  description: Covers the algebraic specification and implementation of abstract data types such as vectors,
+    lists, stacks and queues.
+  evidence:
+  - c5.1
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: stacks_and_queues
+  name: Stacks and queues
+  description: Covers the construction and management of stacks and queues as algorithms over data structures.
+  evidence:
+  - c5.1
+  - c5.2
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: searching_and_sorting_lists
+  name: Searching and sorting linear lists
+  description: Covers the construction, search and sorting algorithms applied to linear lists.
+  evidence:
+  - c5.2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Statement of the course aim, not a teachable content item.

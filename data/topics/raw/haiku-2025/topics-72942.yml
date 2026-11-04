@@ -1,0 +1,167 @@
+format: extraction/1
+course: '72942'
+title: Information Security M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 22.0
+  usage:
+    prompt_tokens: 3696
+    completion_tokens: 5126
+    cache_read_tokens: 1854
+    thinking_tokens: 3542
+  created: '2026-11-04T18:16:25+00:00'
+topics:
+- key: pseudorandom_generators
+  name: Pseudorandom generators and stream ciphers
+  description: Construction and pitfalls of pseudorandom number generators and stream ciphers, including
+    the risks of insecure randomness in security mechanisms.
+  evidence:
+  - c3
+  - c3.1
+  - c3.2
+  - o2
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: block_ciphers
+  name: Block ciphers and modes of operation
+  description: Symmetric block ciphers and their modes of operation, with the insights and pitfalls in
+    their use for confidentiality and integrity.
+  evidence:
+  - c3.2
+  - o2
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: cryptographic_hash_functions
+  name: Cryptographically secure hash functions
+  description: Security properties of cryptographic hash functions and their correct use in integrity
+    and authentication mechanisms.
+  evidence:
+  - c3.2
+  - o2
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: asymmetric_cryptography
+  name: Asymmetric cryptography
+  description: Public-key encryption and signature schemes, their underlying theoretical assumptions and
+    their secure use in practice.
+  evidence:
+  - c3.2
+  - o2
+  - o4
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: cipher_misuse_attacks
+  name: Attacks on incorrect use of ciphers
+  description: Real examples of attacks caused by incorrect use of cryptographic primitives and the correct
+    methods of using them.
+  evidence:
+  - c3.3
+  - o3
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: cryptographic_applications_scenarios
+  name: Cryptography in wireless, cloud and IoT
+  description: Application of cryptographic mechanisms in wireless networks, cloud systems and IoT scenarios,
+    adapted to their specific constraints.
+  evidence:
+  - c3.4
+  - o3
+  - o4
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: key_management_pki
+  name: Key management and PKI
+  description: Symmetric and asymmetric key management models, including key distribution centers, public
+    key infrastructures and PGP.
+  evidence:
+  - c3.5
+  - o1
+  - o3
+  share: 0.11
+  level: intermediate
+  kind: concept
+  technology: null
+- key: authentication_models_protocols
+  name: Authentication models and protocol design
+  description: Authentication models and systems, and the principles for designing secure authentication
+    protocols.
+  evidence:
+  - c3.6
+  - c3.7
+  - o1
+  - o4
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: single_sign_on
+  name: Single sign-on
+  description: Single sign-on authentication models and their protocols and systems, such as Kerberos.
+  evidence:
+  - c3.8
+  - o1
+  - o3
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: federated_authentication
+  name: Federated authentication
+  description: Federated authentication models and their protocols and systems, such as OAuth, OpenID
+    Connect and SAML.
+  evidence:
+  - c3.9
+  - o1
+  - o3
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: blockchain_principles
+  name: Blockchain principles of operation
+  description: Core principles of blockchain technologies, including distributed ledgers, consensus and
+    the cryptographic structures they rely on.
+  evidence:
+  - c3.10
+  - c3.11
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: public_blockchain_platforms
+  name: Bitcoin and Ethereum platforms
+  description: Operating principles of the Bitcoin and Ethereum platforms and how they apply blockchain
+    concepts.
+  evidence:
+  - c3.12
+  - o1
+  share: 0.06
+  level: advanced
+  kind: concept
+  technology: null
+not_topics:
+- id: c1
+  reason: Statement of the course aim, not a teachable content unit.
+- id: c2
+  reason: Suggested prerequisite background from other courses, not taught content.
+- id: c4
+  reason: Organisational description of practical lab exercises, not a topic.
+- id: c5
+  reason: Organisational remark about where exercise texts and solutions are published.

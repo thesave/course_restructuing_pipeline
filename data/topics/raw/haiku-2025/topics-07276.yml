@@ -1,0 +1,88 @@
+format: extraction/1
+course: '07276'
+title: Computer Science
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 10.0
+  usage:
+    prompt_tokens: 3003
+    completion_tokens: 1945
+    cache_read_tokens: 1854
+    thinking_tokens: 1149
+  created: '2026-11-04T18:08:40+00:00'
+topics:
+- key: computer_hardware_and_software
+  name: Computer hardware and software
+  description: The main components of a computer system (processor, memory, storage, peripherals) and
+    the distinction between hardware and software, including how to evaluate a system's efficiency against
+    personal study and work needs.
+  evidence:
+  - c1
+  - o1
+  - o2
+  - o3
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: operating_system_and_files
+  name: Operating system and file system
+  description: The structure and main functions of an operating system, and the basic operations for creating,
+    organising, copying and deleting files and folders in a file system.
+  evidence:
+  - c2
+  - c3
+  share: 0.15
+  level: introductory
+  kind: concept
+  technology: null
+- key: computer_networks_and_internet
+  name: Computer networks, Internet and the WWW
+  description: The basic principles of computer networks and the Internet, how the World Wide Web works,
+    and how to use search engines to collect information for study and work.
+  evidence:
+  - c4
+  - c5
+  - o5
+  share: 0.2
+  level: introductory
+  kind: concept
+  technology: null
+- key: email_and_digital_signature
+  name: Email, certified email and digital signature
+  description: How electronic mail works, what certified email guarantees, and how digital signatures
+    are used to authenticate and protect electronic documents.
+  evidence:
+  - c6
+  share: 0.13
+  level: introductory
+  kind: concept
+  technology: null
+- key: it_security_threats
+  name: 'IT security: viruses and phishing'
+  description: Common IT security threats such as viruses, malware and phishing, and the basic practices
+    for protecting a computer and personal data against them.
+  evidence:
+  - c7
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: office_productivity_software
+  name: Word processors and presentation software
+  description: Practical use of individual productivity applications for writing documents and building
+    presentations, covering Word and Google Docs as well as PowerPoint and Google Slides, and applying
+    them to simple academic and professional tasks.
+  evidence:
+  - c8
+  - o4
+  share: 0.3
+  level: introductory
+  kind: tool
+  technology: null
+not_topics: []

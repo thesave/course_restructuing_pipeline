@@ -1,0 +1,132 @@
+format: extraction/1
+course: '66870'
+title: Concurrent Models and Systems
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 23.9
+  usage:
+    prompt_tokens: 8148
+    completion_tokens: 5796
+    cache_read_tokens: 3708
+    thinking_tokens: 2976
+  created: '2026-11-04T18:14:46+00:00'
+topics:
+- key: concurrency_correctness
+  name: Concurrency and reactive system correctness
+  description: Introduces concurrent and reactive systems and the problem of ensuring their correct design,
+    which motivates the formal methods of the course.
+  evidence:
+  - c1
+  - o1
+  - o2
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: petri_nets_and_lts
+  name: Petri nets and labeled transition systems
+  description: Defines Petri nets and labeled transition systems as the basic models of concurrent behaviour
+    and their semantics.
+  evidence:
+  - c2
+  share: 0.11
+  level: introductory
+  kind: concept
+  technology: null
+- key: linear_net_equivalences
+  name: Equivalences on linear nets
+  description: Studies language, trace and isomorphism equivalences over linear nets and how they compare
+    behaviourally.
+  evidence:
+  - c3
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: bisimulation_linear_nets
+  name: Bisimulation on linear nets with modal logic and process algebra Lin
+  description: Covers bisimulation for linear nets together with the modal logic BML, the process algebra
+    Lin, representability, congruence and sound and complete axiomatization.
+  evidence:
+  - c3
+  - o1
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: forking_nets_team_bisimulation
+  name: Forking nets and team bisimulation
+  description: Presents forking nets, team bisimulation, the modal logic TML and the process algebra Fork,
+    including representability, congruence and axiomatization.
+  evidence:
+  - c4
+  share: 0.12
+  level: advanced
+  kind: technique
+  technology: null
+- key: place_bisimulation_petri_nets
+  name: Place bisimulation for Petri nets
+  description: Covers place and structure-preserving bisimulation for Petri nets, the modal logics MKL
+    and LKL, the process algebra Pet, and its representability, congruence and axiomatization.
+  evidence:
+  - c5
+  share: 0.12
+  level: advanced
+  kind: technique
+  technology: null
+- key: petri_net_behavioural_equivalences
+  name: Sequential, concurrent and causal equivalences for Petri nets
+  description: Compares Petri net behaviours through sequential, concurrent and causal equivalences that
+    capture different aspects of concurrency.
+  evidence:
+  - c6
+  share: 0.08
+  level: advanced
+  kind: concept
+  technology: null
+- key: weak_branching_bisimulation
+  name: Weak and branching bisimulation
+  description: Defines weak and branching bisimulation on linear nets with silent transitions and studies
+    their properties.
+  evidence:
+  - c7
+  share: 0.08
+  level: advanced
+  kind: technique
+  technology: null
+- key: process_calculus_syntax_semantics
+  name: Process calculus syntax and SOS semantics
+  description: Introduces the syntax of the process calculus CCS and its structural operational semantics,
+    and the Turing completeness of finitary CCS.
+  evidence:
+  - c8
+  share: 0.1
+  level: intermediate
+  kind: language
+  technology: CCS
+- key: behavioural_equivalence_undecidability
+  name: Undecidability of behavioural equivalences
+  description: Shows that behavioural equivalences of finitary CCS are undecidable, which limits what
+    can be verified automatically.
+  evidence:
+  - c8
+  share: 0.08
+  level: advanced
+  kind: concept
+  technology: CCS
+- key: last_man_standing
+  name: Distributed computability and the last man standing problem
+  description: Studies distributed computability through the last man standing problem.
+  evidence:
+  - c9
+  share: 0.06
+  level: advanced
+  kind: concept
+  technology: null
+not_topics: []

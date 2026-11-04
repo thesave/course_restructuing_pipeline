@@ -1,0 +1,138 @@
+format: extraction/1
+course: 29227-B
+title: Foundations of Informatics T
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 22.1
+  usage:
+    prompt_tokens: 8698
+    completion_tokens: 4994
+    cache_read_tokens: 3708
+    thinking_tokens: 2270
+  created: '2026-11-04T18:12:27+00:00'
+topics:
+- key: shell_and_filesystem
+  name: Shell and filesystem
+  description: Using the Linux shell with basic commands, navigating the filesystem and partitions, and
+    installing the operating system.
+  evidence:
+  - c1
+  - c1.1
+  - o1
+  share: 0.0833
+  level: introductory
+  kind: tool
+  technology: Linux
+- key: programming_fundamentals
+  name: Programming fundamentals
+  description: Variables, arithmetic expressions, if and for statements, constants, console input and
+    output, arrays, functions with arguments passed by reference, and external variables with scope.
+  evidence:
+  - c2
+  - c2.1
+  - o2
+  share: 0.1667
+  level: introductory
+  kind: language
+  technology: C++
+- key: pointers_and_arrays
+  name: Pointers and arrays
+  description: Pointers and addresses, pointer arithmetic, dynamic memory allocation, pointer arrays,
+    pointers to pointers, multidimensional arrays, command line arguments, function pointers and void
+    pointers.
+  evidence:
+  - c2
+  - c2.2
+  - o2
+  share: 0.1875
+  level: intermediate
+  kind: language
+  technology: C++
+- key: classes_and_operator_overloading
+  name: Classes and operator overloading
+  description: Defining classes, overloading operators and writing self-referential classes.
+  evidence:
+  - c2
+  - c2.3
+  - o2
+  share: 0.1042
+  level: intermediate
+  kind: language
+  technology: C++
+- key: separate_compilation_and_makefiles
+  name: Separate compilation and Makefiles
+  description: Splitting programs into header files, conditional inclusion, compiling multiple source
+    files and automating builds with a Makefile.
+  evidence:
+  - c2
+  - c2.4
+  - o2
+  share: 0.0625
+  level: intermediate
+  kind: tool
+  technology: C++
+- key: numerical_errors_and_precision
+  name: Numerical errors and floating-point precision
+  description: Absolute, relative and percentage errors, numerical cancellation, error propagation, machine
+    precision and significant digits in numerical computing.
+  evidence:
+  - c2
+  - c2.5
+  - o2
+  share: 0.0625
+  level: introductory
+  kind: concept
+  technology: null
+- key: function_approximation
+  name: Function approximation
+  description: Approximating functions by Lagrange interpolation and by Taylor polynomials and series.
+  evidence:
+  - c3
+  - c3.1
+  - o2
+  share: 0.0625
+  level: introductory
+  kind: technique
+  technology: null
+- key: finite_difference_methods
+  name: Finite difference methods
+  description: Approximating first, second and n-th derivatives with forward, backward and centered finite
+    differences, their truncation errors, and solving second-order ODEs with them.
+  evidence:
+  - c3
+  - c3.2
+  - o2
+  share: 0.0833
+  level: intermediate
+  kind: technique
+  technology: null
+- key: root_finding_and_linear_systems
+  name: Root finding and linear systems
+  description: Solving linear systems with Gauss elimination and nonlinear equations with bisection, Newton-Raphson,
+    secant and Regula Falsi methods.
+  evidence:
+  - c3
+  - c3.3
+  - o2
+  share: 0.1042
+  level: intermediate
+  kind: technique
+  technology: null
+- key: numerical_integration
+  name: Numerical integration
+  description: Approximating integrals with the rectangle, trapezoidal and Simpson rules and Gauss quadrature,
+    analysing local and global truncation error and order of convergence.
+  evidence:
+  - c3
+  - c3.4
+  - o2
+  share: 0.0833
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

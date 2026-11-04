@@ -1,0 +1,62 @@
+format: extraction/1
+course: B8396
+title: Basic IT Skills
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 13.4
+  usage:
+    prompt_tokens: 3129
+    completion_tokens: 2723
+    cache_read_tokens: 1854
+    thinking_tokens: 2099
+  created: '2026-11-04T18:32:40+00:00'
+topics:
+- key: document_and_presentation_formatting
+  name: Document and presentation formatting
+  description: Creating text documents and slide presentations with professional formatting (styles, layout,
+    structure), using Microsoft Word, PowerPoint and LaTeX.
+  evidence:
+  - c4.1
+  - c4.2
+  - o1
+  share: 0.375
+  level: introductory
+  kind: technique
+  technology: null
+- key: spreadsheet_basics
+  name: Spreadsheet basics
+  description: Using the basic functions of a spreadsheet in Microsoft Excel, such as entering data, formulas
+    and common built-in functions.
+  evidence:
+  - c4.3
+  - c4.4
+  - o1
+  share: 0.375
+  level: introductory
+  kind: tool
+  technology: Microsoft Excel
+- key: generative_ai_prompting
+  name: Generative AI and prompt engineering
+  description: Basic principles of generative artificial intelligence and how to write effective prompts
+    for tools such as ChatGPT and Gemini.
+  evidence:
+  - c4.5
+  - c4.6
+  share: 0.25
+  level: introductory
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Organisational note that the course belongs to the Integrated Course 'Transversal Skills'.
+- id: c2
+  reason: Statement of the aims of the integrated course; general objectives, not teachable content.
+- id: c3
+  reason: Mapping to ESEVT Day One Competences; administrative curriculum alignment, not teachable content.
+- id: c4
+  reason: Section heading for the specific course contents; its sub-items are covered by the topics above.

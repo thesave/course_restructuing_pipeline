@@ -1,0 +1,133 @@
+format: extraction/1
+course: B0064
+title: Introduction to Data Science and Computational Thinking
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 17.6
+  usage:
+    prompt_tokens: 3209
+    completion_tokens: 3905
+    cache_read_tokens: 1854
+    thinking_tokens: 2643
+  created: '2026-11-04T18:29:05+00:00'
+topics:
+- key: computational_process_structure
+  name: Structure of the computational process
+  description: Defines the basic structure of a computational process, including inputs, states, operations
+    and outputs, as the common foundation for the rest of the course.
+  evidence:
+  - c1
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: algorithmic_techniques
+  name: Algorithmic techniques for data
+  description: Covers the fundamental principles of algorithmics and typical algorithmic techniques for
+    processing data structures, and how to compare the pros and cons of alternative solutions.
+  evidence:
+  - o1
+  - o4
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: programming_languages_concepts
+  name: Concepts of programming and programming languages
+  description: Introduces what programming is and the general concepts shared by programming languages,
+    such as syntax, semantics, and paradigms.
+  evidence:
+  - c2
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: language_basics
+  name: Python language basics
+  description: 'Teaches the core Python constructs needed to read and write programs: variables, expressions,
+    control flow, functions and modules.'
+  evidence:
+  - o1
+  - o2
+  share: 0.11
+  level: introductory
+  kind: language
+  technology: Python
+- key: data_structures
+  name: Python data structures
+  description: Covers Python's built-in collections (lists, tuples, sets, dictionaries) and their use
+    to organise and manipulate larger amounts of data.
+  evidence:
+  - o1
+  - o4
+  share: 0.09
+  level: intermediate
+  kind: language
+  technology: Python
+- key: program_testing_and_code_reading
+  name: Testing programs and reading others' code
+  description: Explains how to test Python programs and how to understand and assess prototypes and programs
+    written by other people.
+  evidence:
+  - o2
+  - o3
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: digital_transformation
+  name: Digital transformation
+  description: Elaborates the concept of digital transformation and its organisational and societal implications.
+  evidence:
+  - c3
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: software_production
+  name: Software production
+  description: Examines the production of software from both an organisational and a cognitive viewpoint,
+    including how people design and build programs.
+  evidence:
+  - c4
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: computational_thinking
+  name: Computational thinking for problem solving
+  description: Shows how computational thinking and informatics tools help organise systems, understand
+    complex structures and forecast possible events.
+  evidence:
+  - c5
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: text_processing
+  name: Text processing and understanding
+  description: Uses text processing and text understanding as a paradigm for studying digital transformation,
+    covering how text data is cleaned, tokenised and analysed in Python.
+  evidence:
+  - c6
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: web_open_data_acquisition
+  name: Acquiring web and open data
+  description: Covers how to obtain and parse data structures coming from the web or open repositories,
+    such as files, APIs and web pages, and load them into Python programs.
+  evidence:
+  - o4
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: Python
+not_topics: []

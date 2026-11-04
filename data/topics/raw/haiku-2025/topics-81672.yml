@@ -1,0 +1,121 @@
+format: extraction/1
+course: '81672'
+title: Emerging Programming Paradigms
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 16.7
+  usage:
+    prompt_tokens: 3175
+    completion_tokens: 3570
+    cache_read_tokens: 1854
+    thinking_tokens: 2432
+  created: '2026-11-04T18:18:20+00:00'
+topics:
+- key: classless_object_oriented
+  name: Classless object-oriented programming
+  description: Prototype-based, classless object models as an alternative to class-based OOP, together
+    with the expressive limits of the object-oriented paradigm that motivate other approaches.
+  evidence:
+  - c4
+  - c5
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: traits_and_type_classes
+  name: Traits and type classes
+  description: Ad-hoc polymorphism and code reuse through traits in Go and Rust and type classes in Haskell,
+    viewed through the role of types in modular composition.
+  evidence:
+  - c6
+  - c2
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: property_based_testing
+  name: Property-based testing with QuickCheck
+  description: Specifying program properties and generating random test cases with QuickCheck as a case
+    study in testing code against strong correctness guarantees.
+  evidence:
+  - c7
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: QuickCheck
+- key: effects_and_monads
+  name: Side effects and classical monads
+  description: Compositional handling of side effects through the origin of monads and the classical monads
+    for partial computations, state and I/O.
+  evidence:
+  - c8
+  - c9
+  share: 0.16
+  level: intermediate
+  kind: concept
+  technology: null
+- key: monad_transformers
+  name: Monad transformers
+  description: Combining several monadic effects into one computation by composing monad transformers.
+  evidence:
+  - c10
+  share: 0.08
+  level: advanced
+  kind: technique
+  technology: null
+- key: nondeterministic_parsing
+  name: Non-deterministic parsing
+  description: Building parsers that explore multiple alternatives non-deterministically using monadic
+    combinators, presented as a case study.
+  evidence:
+  - c11
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: software_transactional_memory
+  name: Software transactional memory
+  description: Concurrent programming with software transactional memory as a composable alternative to
+    locks, presented as a case study.
+  evidence:
+  - c11
+  - o1
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: parametric_and_dependent_types
+  name: Parametric and dependent types
+  description: The progression from parametric polymorphism to dependent types, where types can depend
+    on values and so express stronger correctness properties.
+  evidence:
+  - c13
+  - c2
+  share: 0.15
+  level: advanced
+  kind: concept
+  technology: null
+- key: certified_programming
+  name: Certified programming
+  description: Writing programs together with machine-checked proofs of their correctness, illustrated
+    on numbers, lists and sized vectors.
+  evidence:
+  - c12
+  - c14
+  share: 0.15
+  level: advanced
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: General course overview describing the scope of the course; no teachable content beyond the
+    topics listed.
+- id: c3
+  reason: Heading introducing the list of arguments; the arguments themselves are covered by items c4
+    to c14.

@@ -1,0 +1,120 @@
+format: extraction/1
+course: '91259'
+title: Architecture and Platforms for Artificial Intelligence
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 25.3
+  usage:
+    prompt_tokens: 8739
+    completion_tokens: 5921
+    cache_read_tokens: 3708
+    thinking_tokens: 3340
+  created: '2026-11-04T18:23:06+00:00'
+topics:
+- key: parallel_programming_patterns
+  name: Parallel programming patterns
+  description: Foundations of parallel programming and the core patterns (embarrassingly parallel, decomposition,
+    master/worker, scan, reduce) used to structure parallel algorithms.
+  evidence:
+  - c1.1
+  - c1.2
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: shared_memory_parallelism
+  name: Shared-memory parallelism
+  description: The shared-memory parallel programming model as taught in this course, covering the omp
+    parallel construct, data scoping clauses and work-sharing constructs.
+  evidence:
+  - c1.3
+  share: 0.12
+  level: intermediate
+  kind: tool
+  technology: OpenMP
+- key: gpu_programming_model
+  name: GPU programming model
+  description: CUDA GPU architecture and memory hierarchy, the thread/group/grid programming model, and
+    synchronization primitives with shared memory.
+  evidence:
+  - c1.4
+  share: 0.14
+  level: intermediate
+  kind: tool
+  technology: CUDA
+- key: ml_computational_workloads
+  name: Computational workloads of neural networks
+  description: 'The computational view of machine learning: key kernels such as dot product and matrix
+    multiply, inference versus training workload characteristics, and the computational profile of DNNs,
+    CNNs, RNNs, attention-based and state-based networks.'
+  evidence:
+  - c2.1
+  - c2.1.1
+  - c2.1.2
+  - c2.1.3
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: processor_isa_for_ml
+  name: Processor instruction sets for ML
+  description: Recap of processor instruction set architecture with a focus on data processing, and how
+    ISAs such as RISC-V and ARM are extended to better support machine learning workloads.
+  evidence:
+  - c2.2.1
+  - c2.2.2
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: parallel_processor_architecture
+  name: Parallel processor architecture for ML
+  description: Fundamentals of parallel processor architecture and how machine learning workloads are
+    parallelized across such processors.
+  evidence:
+  - c2.2.3
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: algorithmic_optimizations_ml
+  name: Algorithmic optimizations for ML
+  description: A taxonomy of key ML computational bottlenecks and the algorithmic techniques, such as
+    Strassen, Winograd and FFT, that reduce the cost of core operations.
+  evidence:
+  - c2.3.1
+  - c2.3.2
+  share: 0.12
+  level: advanced
+  kind: technique
+  technology: null
+- key: model_distillation
+  name: Efficient neural network models
+  description: Model distillation and efficient architecture design, including depthwise convolutions,
+    inverse bottlenecks, optimized attention and an introduction to neural architecture search.
+  evidence:
+  - c2.3.3
+  share: 0.12
+  level: advanced
+  kind: technique
+  technology: null
+- key: quantization_sparsity
+  name: Quantization and sparsity
+  description: Reducing the cost of neural networks through scalar, block and vector quantization and
+    through exploiting sparsity.
+  evidence:
+  - c2.3.4
+  share: 0.1
+  level: advanced
+  kind: technique
+  technology: null
+not_topics: []

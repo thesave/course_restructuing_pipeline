@@ -1,0 +1,123 @@
+format: extraction/1
+course: '79194'
+title: Databases
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 17.8
+  usage:
+    prompt_tokens: 7187
+    completion_tokens: 3695
+    cache_read_tokens: 3708
+    thinking_tokens: 1617
+  created: '2026-11-04T18:18:01+00:00'
+topics:
+- key: data_types_on_the_web
+  name: Data types and web data
+  description: Distinguishing elementary, complex and web-based data as the starting point for designing
+    databases.
+  evidence:
+  - c1
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_modelling_er
+  name: Conceptual data modelling with ER diagrams
+  description: Building conceptual models of a data domain with entities, relationships, attributes and
+    cardinality using Entity-Relationship diagrams.
+  evidence:
+  - c2
+  - c3
+  - c3.1
+  share: 0.15
+  level: introductory
+  kind: technique
+  technology: null
+- key: relational_model_schema
+  name: Relational model and relation schemas
+  description: Translating conceptual models into the logical relational model, defining relation schemas
+    and the integrity constraints that govern the data.
+  evidence:
+  - c3
+  - c3.2
+  - o1
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: data_definition_manipulation
+  name: SQL data definition and manipulation
+  description: Creating, altering and dropping tables and constraints, and inserting, updating and deleting
+    data with SQL statements.
+  evidence:
+  - c6
+  - c6.1
+  - o2
+  share: 0.13
+  level: introductory
+  kind: language
+  technology: SQL
+- key: relational_queries
+  name: SQL query language
+  description: Writing SELECT queries in SQL, including filtering, joins, grouping and nested queries
+    over relational databases.
+  evidence:
+  - c6
+  - c6.2
+  - o2
+  share: 0.15
+  level: intermediate
+  kind: language
+  technology: SQL
+- key: non_relational_databases
+  name: Non-relational (NoSQL) databases
+  description: Data models and query languages of non-relational databases, and how they differ from the
+    relational model.
+  evidence:
+  - c4
+  - c7
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: dbms_management
+  name: Database management systems
+  description: Role and internal organisation of database management systems and the management of databases
+    they provide.
+  evidence:
+  - c5
+  - c5.1
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_extraction_views
+  name: Data extraction and views for analysis
+  description: Extracting data and information from databases and creating data views to prepare data
+    for statistical analysis.
+  evidence:
+  - c8
+  - c8.1
+  - c8.2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: statistical_analysis_practice
+  name: Statistical analysis of database data
+  description: Practical sessions running statistical analyses in R on data retrieved from databases and
+    from the Web.
+  evidence:
+  - c9
+  share: 0.12
+  level: intermediate
+  kind: tool
+  technology: R
+not_topics: []

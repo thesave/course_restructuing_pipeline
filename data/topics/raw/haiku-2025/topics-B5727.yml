@@ -1,0 +1,146 @@
+format: extraction/1
+course: B5727
+title: Introduction to Languages for Artificial Intelligence
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 27.4
+  usage:
+    prompt_tokens: 8583
+    completion_tokens: 6124
+    cache_read_tokens: 3708
+    thinking_tokens: 3186
+  created: '2026-11-04T18:31:45+00:00'
+topics:
+- key: abstract_machines
+  name: Abstract machines
+  description: How programs are executed by abstract machines, and the execution model of the Python machine
+    used throughout the course.
+  evidence:
+  - c1.1
+  - c1.2
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_types_and_mutability
+  name: Python data types and mutability
+  description: Python's basic data types (numbers, strings, tuples, lists, dictionaries) and the distinction
+    between immutable and mutable objects, applied to solving problems.
+  evidence:
+  - c1.3
+  share: 0.12
+  level: introductory
+  kind: language
+  technology: Python
+- key: names_scope_and_functions
+  name: Names, visibility and functions
+  description: Binding of names, variable visibility and scope, and the definition and use of functions
+    in Python.
+  evidence:
+  - c1.3
+  share: 0.1
+  level: introductory
+  kind: language
+  technology: Python
+- key: classes_and_inheritance
+  name: Classes, methods and inheritance
+  description: Defining classes and objects, instance methods, and inheritance in Python.
+  evidence:
+  - c1.4
+  - c1.5
+  share: 0.12
+  level: intermediate
+  kind: language
+  technology: Python
+- key: exception_handling
+  name: Exceptions
+  description: Raising and handling exceptions as a mechanism for error management in Python programs.
+  evidence:
+  - c1.6
+  share: 0.05
+  level: intermediate
+  kind: language
+  technology: Python
+- key: n_dimensional_arrays
+  name: N-dimensional arrays
+  description: Creating and manipulating N-dimensional array objects for numerical computation with the
+    NumPy library.
+  evidence:
+  - c1.7
+  share: 0.06
+  level: introductory
+  kind: tool
+  technology: NumPy
+- key: mathematical_logic
+  name: Introduction to mathematical logic
+  description: Basic notions of mathematical logic (syntax, semantics and deduction) as the foundation
+    of logic-based AI techniques.
+  evidence:
+  - c2.1
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: unification
+  name: Unification
+  description: The unification algorithm for making first-order terms syntactically equal through substitution.
+  evidence:
+  - c2.2
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: resolution
+  name: Resolution
+  description: The resolution inference rule and its use for automated refutation-based proofs in first-order
+    logic.
+  evidence:
+  - c2.3
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: logic_programming
+  name: Logic programming with Prolog
+  description: The logic programming paradigm, where programs are sets of logical clauses executed by
+    resolution, and its realisation in the Prolog language.
+  evidence:
+  - c2.4
+  - c2.5
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: Prolog
+- key: constraint_programming
+  name: Constraint and concurrent constraint programming
+  description: Modelling and solving problems through constraints, including constraint logic programming
+    and concurrent constraint programming.
+  evidence:
+  - c2.6
+  - c2.7
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: declarative_constraint_modelling
+  name: Declarative constraint modelling
+  description: Writing constraint models with variables, domains and constraints, and solving them, in
+    the MiniZinc modelling language.
+  evidence:
+  - c2.8
+  share: 0.08
+  level: intermediate
+  kind: language
+  technology: MiniZinc
+not_topics:
+- id: c1
+  reason: Module 1 heading; it names the module and has no teachable content of its own, its items are
+    covered by the topics above.
+- id: c2
+  reason: Module 2 heading; it names the module and has no teachable content of its own, its items are
+    covered by the topics above.

@@ -1,0 +1,86 @@
+format: extraction/1
+course: '82202'
+title: Informatic
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 12.9
+  usage:
+    prompt_tokens: 3228
+    completion_tokens: 2490
+    cache_read_tokens: 1854
+    thinking_tokens: 1830
+  created: '2026-11-04T18:19:17+00:00'
+topics:
+- key: computer_and_internet_basics
+  name: Computer and internet basics
+  description: Core concepts of how computers work (algorithms, software, hardware), how computer networks
+    and the Internet operate, and how to search bibliographic databases for research.
+  evidence:
+  - c1.1
+  - c1.2
+  - c7
+  - o1
+  share: 0.2
+  level: introductory
+  kind: concept
+  technology: null
+- key: health_informatics
+  name: Health informatics
+  description: Overview of informatics applied to healthcare, including electronic document dematerialization,
+    validation and transmission tools, digital archiving of medical records, health data protection, and
+    the future role of big data and telemedicine.
+  evidence:
+  - c2
+  - c2.1
+  - c2.2
+  - c2.3
+  - c2.4
+  - c2.5
+  - c8
+  - o1
+  share: 0.25
+  level: introductory
+  kind: concept
+  technology: null
+- key: office_productivity_software
+  name: Office productivity software
+  description: Creating and editing word-processed documents, organizing, analyzing and visualizing clinical
+    data in spreadsheets (including import, export and cloud sharing), and building presentations with
+    Microsoft Office and Google tools.
+  evidence:
+  - c3
+  - c3.1
+  - c3.2
+  - c3.3
+  - c4
+  - c4.1
+  - c4.2
+  - c4.3
+  - c6
+  - c6.1
+  - o1
+  share: 0.4
+  level: introductory
+  kind: tool
+  technology: Microsoft Office
+- key: relational_database_design
+  name: Relational database design
+  description: Structure and architecture of databases, the relational model, and the principles of designing
+    a relational database.
+  evidence:
+  - c5
+  - c5.1
+  - c5.2
+  - c5.3
+  - c5.4
+  - o1
+  share: 0.15
+  level: introductory
+  kind: concept
+  technology: null
+not_topics: []

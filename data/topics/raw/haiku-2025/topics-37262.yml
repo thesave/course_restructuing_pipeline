@@ -1,0 +1,132 @@
+format: extraction/1
+course: '37262'
+title: Computer Programming
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 22.9
+  usage:
+    prompt_tokens: 7616
+    completion_tokens: 5065
+    cache_read_tokens: 3708
+    thinking_tokens: 2543
+  created: '2026-11-04T18:12:45+00:00'
+topics:
+- key: computer_fundamentals
+  name: Computer fundamentals and terminology
+  description: Basic informatics concepts and vocabulary, including operating systems, networks, information
+    systems, and the roles of interpreters and compilers.
+  evidence:
+  - c3
+  - o1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: core_syntax_and_statements
+  name: 'Core syntax: variables, expressions and statements'
+  description: Core syntax and built-in data types, taught step by step through variables, expressions,
+    statements and interactive experimentation.
+  evidence:
+  - c4
+  - c5
+  - o3
+  share: 0.12
+  level: introductory
+  kind: language
+  technology: Python
+- key: conditionals_and_iteration
+  name: Conditionals and iteration
+  description: Branching with conditional statements and repeating operations with loops in Python.
+  evidence:
+  - c5
+  - o3
+  share: 0.1
+  level: introductory
+  kind: language
+  technology: Python
+- key: functions_and_recursion
+  name: Functions and recursion
+  description: Defining and calling functions with parameters and return values, and writing recursive
+    functions in Python.
+  evidence:
+  - c5
+  - o3
+  - o4
+  share: 0.12
+  level: intermediate
+  kind: language
+  technology: Python
+- key: tabular_data_and_csv
+  name: Tabular data and CSV files
+  description: Representing tables in Python and reading and writing tabular data stored in CSV files.
+  evidence:
+  - c5
+  - o3
+  share: 0.1
+  level: introductory
+  kind: technique
+  technology: Python
+- key: spreadsheet_creation
+  name: Spreadsheet creation
+  description: Generating spreadsheet files from Python programs so that computed results can be used
+    in spreadsheet tools.
+  evidence:
+  - c5
+  share: 0.08
+  level: intermediate
+  kind: tool
+  technology: Python
+- key: web_scraping
+  name: Web scraping
+  description: Extracting data from web pages programmatically by retrieving and parsing HTML content.
+  evidence:
+  - c5
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: object_oriented_programming
+  name: Object-oriented programming
+  description: Classes, objects, attributes, methods and the object-oriented style of organising programs
+    in Python.
+  evidence:
+  - c6
+  - o1
+  share: 0.14
+  level: intermediate
+  kind: concept
+  technology: Python
+- key: financial_data_access
+  name: Accessing financial data
+  description: Methods for retrieving financial market data into Python programs for analysis.
+  evidence:
+  - c6
+  - o4
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: financial_problem_modelling
+  name: Mapping financial problems to computation
+  description: Case studies translating financial problems such as pricing systems and risk measurement
+    models into computational solutions.
+  evidence:
+  - c6
+  - o5
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: Python
+not_topics:
+- id: c1
+  reason: Motivational remark that programming is learned through practice; it describes how the course
+    works, not a teachable topic.
+- id: c2
+  reason: General framing of programming as problem solving with languages; it is the course's overall
+    aim rather than a separate topic, and is covered by the topics above.

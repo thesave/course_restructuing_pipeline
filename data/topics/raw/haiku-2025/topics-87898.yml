@@ -1,0 +1,105 @@
+format: extraction/1
+course: '87898'
+title: Methods and Technologies for Interpreting
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 11.4
+  usage:
+    prompt_tokens: 4271
+    completion_tokens: 2433
+    cache_read_tokens: 1854
+    thinking_tokens: 1462
+  created: '2026-11-04T18:20:29+00:00'
+topics:
+- key: documentation_strategies
+  name: Documentation strategies for interpreters
+  description: Traditional and AI-supported strategies for finding and collecting documentation to prepare
+    for conference interpreting assignments.
+  evidence:
+  - c3
+  - o1
+  share: 0.15
+  level: introductory
+  kind: technique
+  technology: null
+- key: advanced_web_search
+  name: Advanced web searching
+  description: Advanced query techniques with search engines for locating specialised documentation and
+    terminology sources on the web.
+  evidence:
+  - c4
+  - o1
+  share: 0.1
+  level: introductory
+  kind: technique
+  technology: null
+- key: specialised_corpora_construction
+  name: Building specialised corpora
+  description: Constructing electronic specialised corpora from web material with BootCaT, including AI-supported
+    support, as a basis for terminology extraction.
+  evidence:
+  - c4
+  - o1
+  - o4
+  share: 0.2
+  level: intermediate
+  kind: technique
+  technology: BootCaT
+- key: terminology_theory
+  name: Theoretical basis of terminology
+  description: Core theoretical concepts of terminology science, such as terms, concepts and specialised
+    language, that underpin terminology work for interpreters.
+  evidence:
+  - c5
+  - o3
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: terminology_extraction
+  name: Terminology extraction with corpus tools
+  description: Detecting candidate terms in specialised corpora with AntConC and comparing traditional
+    extraction methods with AI-supported ones.
+  evidence:
+  - c5
+  - c6
+  - o2
+  - o3
+  share: 0.2
+  level: intermediate
+  kind: technique
+  technology: AntConC
+- key: termbase_management
+  name: Glossary and termbase management
+  description: Creating, structuring and managing glossaries and terminology databases with the MultiTerm
+    terminographic tool.
+  evidence:
+  - c7
+  - o2
+  - o4
+  share: 0.15
+  level: intermediate
+  kind: tool
+  technology: MultiTerm
+- key: booth_glossary_tools
+  name: In-booth glossary consultation tools
+  description: Using interpreter software such as InterpretBank and Interplex to consult glossaries and
+    terminology during conference interpreting in the booth.
+  evidence:
+  - c7
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: tool
+  technology: InterpretBank
+not_topics:
+- id: c1
+  reason: Organisational remark about the module's delivery period and its place in the wider course.
+- id: c2
+  reason: General framing of the course's focus; the linked themes are covered by the topics extracted
+    from c3 to c7.

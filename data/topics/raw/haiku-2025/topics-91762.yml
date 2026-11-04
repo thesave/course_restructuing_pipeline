@@ -1,0 +1,153 @@
+format: extraction/1
+course: '91762'
+title: Combinatorial Decision Making and Optimization
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 16.8
+  usage:
+    prompt_tokens: 3438
+    completion_tokens: 3837
+    cache_read_tokens: 1854
+    thinking_tokens: 2328
+  created: '2026-11-04T18:23:57+00:00'
+topics:
+- key: combinatorial_decision_optimization
+  name: Combinatorial decision and optimization
+  description: Introduces combinatorial decision and optimization problems and the general-purpose AI
+    and operations research approaches used to tackle them.
+  evidence:
+  - c1
+  - c3
+  - o1
+  share: 0.03
+  level: introductory
+  kind: concept
+  technology: null
+- key: cp_modelling
+  name: Constraint programming modelling
+  description: Teaches how to formulate combinatorial problems as constraint satisfaction and optimization
+    models using variables, domains and constraints.
+  evidence:
+  - c4
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: constraint_propagation_global_constraints
+  name: Constraint propagation and global constraints
+  description: Covers how constraint propagation prunes variable domains and how global constraints are
+    defined and propagated efficiently.
+  evidence:
+  - c5
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: null
+- key: constructive_tree_search
+  name: Constructive tree search for CP
+  description: Covers constructive tree search with propagation, branching heuristics, randomization and
+    restarts, and Large Neighbourhood Search.
+  evidence:
+  - c6
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: null
+- key: sat_dpll_basics
+  name: SAT problem and basic solving
+  description: Introduces the Boolean satisfiability problem and the basic solving techniques of resolution,
+    unit propagation and the DPLL algorithm.
+  evidence:
+  - c7
+  - c8
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: conflict_driven_clause_learning
+  name: Conflict-driven clause learning
+  description: Explains conflict-driven clause learning (CDCL) algorithms as an extension of DPLL for
+    efficient SAT solving.
+  evidence:
+  - c9
+  share: 0.08
+  level: advanced
+  kind: technique
+  technology: null
+- key: sat_encodings
+  name: SAT encodings
+  description: Teaches how to encode combinatorial and constraint problems into propositional CNF formulas
+    suitable for SAT solvers.
+  evidence:
+  - c7
+  - c10
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: smt_dpll_t
+  name: SMT and the DPLL(T) algorithm
+  description: Introduces Satisfiability Modulo Theories as a generalization of SAT and covers eager versus
+    lazy encodings and the DPLL(T) algorithm.
+  evidence:
+  - c11
+  - c13
+  - c14
+  share: 0.1
+  level: advanced
+  kind: technique
+  technology: null
+- key: smt_theory_solvers
+  name: SMT theory solvers and combinations
+  description: Covers the theory solvers used inside SMT and the methods for combining multiple theories.
+  evidence:
+  - c15
+  share: 0.07
+  level: advanced
+  kind: concept
+  technology: null
+- key: linear_programming_simplex
+  name: Linear programming and simplex duality
+  description: Covers linear programming models, the simplex algorithm and LP duality, with a focus on
+    breadth over depth.
+  evidence:
+  - c12
+  - c16
+  - c17
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: integer_linear_programming
+  name: Integer linear programming
+  description: Introduces integer linear programming models and solving methods as an operations research
+    approach to combinatorial optimization.
+  evidence:
+  - c12
+  - c18
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: hybrid_cp_sat_ilp_methods
+  name: Extensions and hybrid methods
+  description: Covers extensions of the core methods and hybrid approaches that combine constraint programming,
+    SAT, SMT and integer programming.
+  evidence:
+  - c19
+  share: 0.06
+  level: advanced
+  kind: technique
+  technology: null
+not_topics:
+- id: c2
+  reason: List header introducing the topics; the listed items carry the content.
+- id: c20
+  reason: Invited lectures by external researchers; organisational remark, not a teachable topic of the
+    course.

@@ -1,0 +1,117 @@
+format: extraction/1
+course: '95645'
+title: Foundations of Web Systems
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 17.5
+  usage:
+    prompt_tokens: 2979
+    completion_tokens: 3727
+    cache_read_tokens: 1854
+    thinking_tokens: 2605
+  created: '2026-11-04T18:26:43+00:00'
+topics:
+- key: http_and_uri
+  name: HTTP and URIs
+  description: The HTTP request-response protocol and the structure and role of Uniform Resource Identifiers
+    in the Web.
+  evidence:
+  - c2.1
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: hypertext_markup_encoding
+  name: Hypertext, markup and character encoding
+  description: The hypertext model, the principles of markup languages, and charsets and character encoding
+    such as Unicode and UTF-8 on the Web.
+  evidence:
+  - c2.1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: markup_structure
+  name: HTML5 markup
+  description: Writing structured web documents with the HTML5 elements, attributes and document model.
+  evidence:
+  - c2.2
+  - o2
+  share: 0.14
+  level: introductory
+  kind: language
+  technology: HTML5
+- key: stylesheets
+  name: CSS3 stylesheets
+  description: Styling web documents with CSS3 selectors, the box model, layout and cascade.
+  evidence:
+  - c2.2
+  - o2
+  share: 0.12
+  level: introductory
+  kind: language
+  technology: CSS3
+- key: data_interchange_formats
+  name: JSON data interchange
+  description: Representing and exchanging structured data on the Web with the JSON format.
+  evidence:
+  - c2.2
+  share: 0.05
+  level: introductory
+  kind: language
+  technology: JSON
+- key: client_side_scripting
+  name: JavaScript client-side scripting
+  description: The JavaScript language and its use in browsers to add client-side behaviour to Web applications,
+    including manipulating documents and handling events.
+  evidence:
+  - c2.3
+  - o1
+  - o2
+  share: 0.2
+  level: intermediate
+  kind: language
+  technology: JavaScript
+- key: frontend_frameworks
+  name: Client-side frameworks with VueJS
+  description: Introduction to JavaScript client-side frameworks and the building of reactive Web user
+    interfaces with VueJS.
+  evidence:
+  - c2.4
+  - o2
+  share: 0.14
+  level: intermediate
+  kind: tool
+  technology: Vue.js
+- key: human_computer_interaction
+  name: HCI and user experience methodologies
+  description: Human-Computer Interaction methodologies and User eXperience design principles applied
+    to Web applications.
+  evidence:
+  - c2.5
+  - o2
+  share: 0.09
+  level: introductory
+  kind: technique
+  technology: null
+- key: web_accessibility_usability
+  name: Web accessibility and usability
+  description: Principles and guidelines for making Web applications accessible to all users and usable
+    in practice.
+  evidence:
+  - c2.5
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+not_topics:
+- id: c1
+  reason: General course overview; its content is covered by the topics derived from c2.1 to c2.5.
+- id: c2
+  reason: Heading that introduces the list of subtopics c2.1 to c2.5, which are cited directly.

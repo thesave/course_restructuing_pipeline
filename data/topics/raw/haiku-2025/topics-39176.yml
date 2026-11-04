@@ -1,0 +1,113 @@
+format: extraction/1
+course: '39176'
+title: Basic and Laboratory Informatics
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 34.7
+  usage:
+    prompt_tokens: 3860
+    completion_tokens: 7582
+    cache_read_tokens: 1854
+    thinking_tokens: 6555
+  created: '2026-11-04T18:13:18+00:00'
+topics:
+- key: computing_internet_web
+  name: Computing, Internet and the Web
+  description: Basic computer concepts (computer, algorithm, software), packet-switched computer networks
+    and the Internet, the evolution of the Web to Web 2.0, and blogs, online communities and social networking.
+  evidence:
+  - c3.8
+  - c3.9
+  - c3.10
+  - c3.11
+  - c3.12
+  - o1
+  share: 0.087
+  level: introductory
+  kind: concept
+  technology: null
+- key: web_information_search
+  name: Searching for Information on the Web
+  description: Strategies for searching and selecting information online, including search engines and
+    advanced search, online public access catalogues (OPAC), and generalist and specialised databases.
+  evidence:
+  - c3.21
+  - c3.22
+  - c3.23
+  - c3.24
+  - c3.25
+  - o1
+  share: 0.087
+  level: introductory
+  kind: technique
+  technology: null
+- key: health_informatics_and_security
+  name: Health Informatics, Digital Records and Data Security
+  description: Information technology in health care, requirements for a neurophysiology information system,
+    dematerialisation and digital archiving of clinical documents, protection of health data, privacy,
+    and workstation and network security.
+  evidence:
+  - c3.4
+  - c3.5
+  - c3.6
+  - c3.13
+  - c3.14
+  - c3.15
+  - c3.16
+  - c3.17
+  share: 0.13
+  level: introductory
+  kind: concept
+  technology: null
+- key: spreadsheet_data_analysis
+  name: Spreadsheet Data Analysis and Presentation
+  description: Organising, processing, analysing and charting biometric and clinical data in MS-Excel,
+    importing and exporting data to R and cloud spreadsheet services, and presenting the results and research
+    data in slides.
+  evidence:
+  - c1
+  - c3.18
+  - c3.19
+  - c3.20
+  - c3.26
+  - o2
+  share: 0.261
+  level: introductory
+  kind: tool
+  technology: MS Excel
+- key: relational_databases
+  name: Relational Databases
+  description: Database architecture, the relational model, archive management with databases, and the
+    design of relational tables, relations, queries and forms, practised by creating a database in MS-Access.
+  evidence:
+  - c2.1
+  - c2.2
+  - c2.3
+  - c2.4
+  - c2.5
+  - c2.6
+  - o2
+  share: 0.261
+  level: introductory
+  kind: concept
+  technology: null
+- key: eeg_signal_processing
+  name: EEG Signal Acquisition and Digital Processing
+  description: Conversion of the bioelectric EEG signal into digital form, digital signal processing techniques,
+    and visualisation and storage of the EEG signal.
+  evidence:
+  - c3.1
+  - c3.2
+  - c3.3
+  share: 0.174
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c3.7
+  reason: Credit line for a translation tool, not teaching content.

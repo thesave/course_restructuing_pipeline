@@ -1,0 +1,103 @@
+format: extraction/1
+course: '72671'
+title: Complements of Programming Languages
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 16.0
+  usage:
+    prompt_tokens: 3247
+    completion_tokens: 3303
+    cache_read_tokens: 1854
+    thinking_tokens: 2382
+  created: '2026-11-04T18:15:38+00:00'
+topics:
+- key: code_transformation_motivation
+  name: Code transformation and analysis overview
+  description: Motivation for modern code transformation and analysis, with examples such as JVM bytecode
+    verification, static bug finding before release, and compilers for performance-critical systems.
+  evidence:
+  - c1
+  - o1
+  - o2
+  - o3
+  - o4
+  - o5
+  - o8
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: lexical_syntactic_analysis
+  name: Lexical and syntactic analysis
+  description: Turning source text into tokens and then into parse trees or abstract syntax using grammars,
+    covering lexer and parser design and the corresponding formal concepts.
+  evidence:
+  - c2
+  share: 0.2
+  level: introductory
+  kind: technique
+  technology: ANTLR
+- key: parser_generator_framework
+  name: ANTLR parser generator framework
+  description: Using the ANTLR framework to write grammars, generate lexers and parsers, and build language
+    tools such as query parsers, including extending a small language with it.
+  evidence:
+  - c2
+  - o6
+  - o7
+  - o9
+  share: 0.12
+  level: introductory
+  kind: tool
+  technology: ANTLR
+- key: symbol_tables_type_checking
+  name: Symbol tables and type checking
+  description: Semantic analysis through symbol tables for name resolution and type checking rules that
+    validate programs before execution.
+  evidence:
+  - c3
+  share: 0.14
+  level: intermediate
+  kind: concept
+  technology: null
+- key: resource_consumption_analysis
+  name: Static analysis of resource and asset consumption
+  description: Static analysis techniques that estimate or check the consumption of resources and assets,
+    such as memory and locks, without running the program.
+  evidence:
+  - c3
+  - o2
+  - o3
+  - o8
+  share: 0.12
+  level: advanced
+  kind: technique
+  technology: null
+- key: intermediate_code_generation
+  name: Intermediate code generation
+  description: Generating intermediate code for standard and advanced programming language features from
+    annotated syntax trees.
+  evidence:
+  - c4
+  - o4
+  share: 0.2
+  level: intermediate
+  kind: technique
+  technology: null
+- key: virtual_machines_interpreters
+  name: Virtual machines and interpreters
+  description: Designing and implementing interpreters and virtual machines that execute intermediate
+    code, including the runtime checks they perform before execution.
+  evidence:
+  - c5
+  - o2
+  share: 0.14
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

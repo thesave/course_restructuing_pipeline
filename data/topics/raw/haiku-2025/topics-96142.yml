@@ -1,0 +1,162 @@
+format: extraction/1
+course: '96142'
+title: Business Intelligence and Big Data M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 26.3
+  usage:
+    prompt_tokens: 8827
+    completion_tokens: 6092
+    cache_read_tokens: 3708
+    thinking_tokens: 2721
+  created: '2026-11-04T18:27:30+00:00'
+topics:
+- key: bi_role_and_pyramid
+  name: Role of BI and the BI pyramid
+  description: How business intelligence supports data-driven decisions within the corporate information
+    system, organised as the BI pyramid of data, information, knowledge and decisions.
+  evidence:
+  - c1.1
+  - c1.2
+  - o1
+  share: 0.0625
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_warehouse_architectures
+  name: Data warehousing and BI architectures
+  description: Introduction to data warehousing and the classical architectures of BI systems, including
+    the layers that move data from sources to analysis tools.
+  evidence:
+  - c1.3
+  - c1.4
+  - o1
+  share: 0.0833
+  level: introductory
+  kind: concept
+  technology: null
+- key: reporting_and_olap
+  name: Reporting and OLAP analysis
+  description: Analysis techniques for BI, contrasting static reporting with OLAP multidimensional analysis
+    over facts and dimensions.
+  evidence:
+  - c1.5
+  share: 0.0833
+  level: introductory
+  kind: technique
+  technology: null
+- key: dw_design_lifecycle
+  name: Data warehouse design lifecycle and requirements
+  description: The methodology for designing a data warehouse, covering data source analysis and requirement
+    analysis as its first phases.
+  evidence:
+  - c1.6
+  - c1.7
+  - c1.8
+  - o1
+  share: 0.1042
+  level: intermediate
+  kind: technique
+  technology: null
+- key: dimensional_conceptual_logical_design
+  name: Conceptual and logical data warehouse design
+  description: Conceptual modelling of facts and dimensions and their translation into logical schemas,
+    guided by workload and data volume estimates.
+  evidence:
+  - c1.9
+  - c1.10
+  - c1.11
+  - o1
+  share: 0.1459
+  level: intermediate
+  kind: technique
+  technology: null
+- key: etl_design
+  name: ETL design
+  description: Design of the extraction, transformation and loading processes that populate the data warehouse
+    from its sources.
+  evidence:
+  - c1.12
+  - o1
+  share: 0.0833
+  level: intermediate
+  kind: technique
+  technology: null
+- key: big_data_and_data_strategy
+  name: Big data revolution and data strategy
+  description: The big data phenomenon and how enterprises define data strategy and data governance to
+    manage data as a corporate asset.
+  evidence:
+  - c2.1
+  - c2.2
+  - o2
+  share: 0.0833
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_platforms_and_lakehouse
+  name: Data platforms, data lakes and lakehouses
+  description: Architectures of enterprise data platforms, including cloud data platforms, data lakes
+    and the data lakehouse model.
+  evidence:
+  - c2.3
+  - c2.4
+  - o2
+  share: 0.0833
+  level: intermediate
+  kind: concept
+  technology: null
+- key: nosql_databases
+  name: NoSQL databases
+  description: Non-relational database models and the polyglot persistence approach for big data storage.
+  evidence:
+  - c2.5
+  - o2
+  share: 0.0833
+  level: intermediate
+  kind: concept
+  technology: null
+- key: distributed_big_data_processing
+  name: Distributed big data processing with Hadoop and Spark
+  description: Distributed storage and processing with the Hadoop ecosystem and the Spark engine for large-scale
+    data analysis.
+  evidence:
+  - c2.6
+  - o2
+  share: 0.1042
+  level: advanced
+  kind: technique
+  technology: Hadoop
+- key: data_visualization_fundamentals
+  name: Data visualization fundamentals
+  description: Principles of effective data visualization, including choosing chart types and designing
+    clear visual messages.
+  evidence:
+  - c2.7
+  - c2.7.1
+  share: 0.0417
+  level: introductory
+  kind: concept
+  technology: null
+- key: interactive_dashboards
+  name: Interactive dashboards with Tableau
+  description: Practical building of interactive visualisations and dashboards with the Tableau tool.
+  evidence:
+  - c2.7
+  - c2.7.2
+  share: 0.0417
+  level: introductory
+  kind: tool
+  technology: Tableau
+not_topics:
+- id: c1
+  reason: Module heading for the BI module; its content is covered by the sub-items c1.1 to c1.12.
+- id: c2
+  reason: Module heading for the BD module; its content is covered by the sub-items c2.1 to c2.7.2.
+- id: c2.8
+  reason: Case study, an application exercise with no separate teachable content; it is not a topic.

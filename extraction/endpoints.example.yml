@@ -1,0 +1,29 @@
+# Copy this file (e.g. to endpoints.yml) and adapt it. Every endpoint must
+# serve the same model file with the same settings, otherwise a course's
+# topics depend on which machine handled it.
+
+# Logical model name: recorded in every output and part of the cache key.
+model: qwen3-30b-a3b-instruct-2507-q4_k_m
+
+endpoints:
+  # llama.cpp: llama-server -m MODEL.gguf --host 0.0.0.0 --port 8080 -c 16384 --parallel 1
+  - url: http://localhost:8080
+    workers: 1
+  # The second machine; with --parallel N on its server, use workers: N.
+  # Each parallel slot gets context / N tokens, and a request needs about 6000.
+  - url: http://macbook.local:8080
+    workers: 2
+    # model: qwen3:30b   # the name the server expects, if it checks it (Ollama does)
+  # Headless Claude Code instead of a server (see endpoints-haiku.yml): set
+  # model to a Claude model id, use `provider: claude-cli` with no url, and
+  # only `effort` among the request fields. Do not mix it with servers.
+
+# Fields added to every request body; changing them invalidates the cache.
+request:
+  temperature: 0
+  seed: 0
+  max_tokens: 6000
+  # Hybrid Qwen3 models: turn thinking off (instruct-2507 models do not think).
+  # chat_template_kwargs: {enable_thinking: false}
+
+timeout: 900

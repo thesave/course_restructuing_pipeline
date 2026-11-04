@@ -1,0 +1,160 @@
+format: extraction/1
+course: '28659'
+title: Web Technologies T
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 32.1
+  usage:
+    prompt_tokens: 9408
+    completion_tokens: 7605
+    cache_read_tokens: 3708
+    thinking_tokens: 4206
+  created: '2026-11-04T18:12:07+00:00'
+topics:
+- key: www_static_model
+  name: Origins of the Web and the static model
+  description: Short history of the Web and the original World Wide Web model in which servers return
+    static documents to clients.
+  evidence:
+  - c1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: http_and_uris
+  name: HTTP protocol and URIs
+  description: The request-response structure of HTTP and the role of URIs as the naming mechanism for
+    Web resources.
+  evidence:
+  - c1
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: page_content_description
+  name: HTML and CSS page description
+  description: Describing page content with HTML markup and presentation with CSS styling.
+  evidence:
+  - c1
+  share: 0.07
+  level: introductory
+  kind: language
+  technology: HTML
+- key: state_management
+  name: State management, sessions and conversations
+  description: Why HTTP is stateless and how personalization, sessions and conversational state are maintained
+    across requests.
+  evidence:
+  - c2
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: server_side_dynamic_pages
+  name: Server-side dynamic pages with Servlet and JSP
+  description: Generating dynamic Web content on the server with Java Servlets and JavaServer Pages.
+  evidence:
+  - c2
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: Java
+- key: client_side_scripting_ajax
+  name: Client-side scripting and Ajax
+  description: Programming the browser with JavaScript and asynchronously updating page content via Ajax.
+  evidence:
+  - c2
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: JavaScript
+- key: multilayer_web_architecture
+  name: Multi-layer architectures and MVC
+  description: Distribution of Web applications across layers, separation of business logic, component-container
+    models, and the Model View Controller pattern including Java Model 2.
+  evidence:
+  - c3
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: heavyweight_container_model
+  name: Enterprise JavaBeans
+  description: Enterprise JavaBeans as an example of a heavyweight container model for server-side business
+    components.
+  evidence:
+  - c3
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: Enterprise JavaBeans
+- key: lightweight_container_frameworks
+  name: Lightweight containers with Spring
+  description: The Spring framework as an example of a lightweight container model for enterprise server-side
+    components.
+  evidence:
+  - c3
+  share: 0.07
+  level: intermediate
+  kind: tool
+  technology: Spring
+- key: single_page_applications
+  name: Single page applications and React
+  description: Architecture of single page applications and their implementation with React.js, plus the
+    evolving direction of front-end technologies.
+  evidence:
+  - c4
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: React
+- key: event_driven_stateless_servers
+  name: Event-driven and stateless server models
+  description: Event-oriented and stateless server-side programming models as an alternative to thread-per-request
+    designs.
+  evidence:
+  - c5
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: asynchronous_io_servers
+  name: Asynchronous I/O servers with Node.js
+  description: Building server-side applications with Node.js and managing asynchronous I/O operations.
+  evidence:
+  - c5
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: Node.js
+- key: websocket_full_duplex
+  name: WebSocket communication
+  description: Motivations and mechanisms of WebSocket for bidirectional client-server communication,
+    implemented in JavaScript on the client and Java on the server.
+  evidence:
+  - c6
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: JavaScript
+- key: quic_transport_protocol
+  name: QUIC and HTTP/3 basics
+  description: Motivations and primary characteristics of the QUIC transport protocol underlying HTTP/3.
+  evidence:
+  - c7
+  share: 0.04
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics:
+- id: c8
+  reason: Pointer to the course website on Virtuale, which holds the full contents; no teachable content
+    of its own.
+- id: c9
+  reason: Pointer to the previous academic year's contents for a preliminary idea; organisational remark,
+    not a topic.

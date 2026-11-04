@@ -1,0 +1,124 @@
+format: extraction/1
+course: '95638'
+title: Operational Analytics
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 24.4
+  usage:
+    prompt_tokens: 8020
+    completion_tokens: 5483
+    cache_read_tokens: 3708
+    thinking_tokens: 3072
+  created: '2026-11-04T18:26:28+00:00'
+topics:
+- key: random_variables_distributions
+  name: Random variables and probability distributions
+  description: Summary of stochastic models, random variables and common probability distributions as
+    the probabilistic basis for forecasting and optimization in this course.
+  evidence:
+  - c8
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: forecast_performance_significance
+  name: Performance indicators and significance testing
+  description: Descriptive statistics, forecast performance indicators and statistical significance tests
+    used to evaluate and compare predictive models.
+  evidence:
+  - c10
+  - o1
+  share: 0.08
+  level: introductory
+  kind: technique
+  technology: null
+- key: univariate_time_series_forecasting
+  name: Univariate time series forecasting
+  description: Analysis, modeling and short/medium-term prediction of univariate time series with statistical
+    ARMA, ARIMA and SARIMA models, with hints on multivariate series.
+  evidence:
+  - c3
+  - c9
+  - o2
+  share: 0.2
+  level: intermediate
+  kind: technique
+  technology: null
+- key: neural_forecasting_models
+  name: Neural network forecasting models
+  description: Neural predictive models for management data, namely multilayer perceptrons and LSTM networks,
+    with support vector regression if time permits.
+  evidence:
+  - c9
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ensemble_tree_models
+  name: Ensemble and decision tree models
+  description: Decision tree based machine learning predictors, including ensemble methods, random forests
+    and boosting, applied to forecasting business data.
+  evidence:
+  - c9
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: integer_programming
+  name: Introductory integer programming
+  description: Formulation of introductory integer programming models for allocating scarce resources
+    in management processes.
+  evidence:
+  - c11
+  - o2
+  share: 0.1
+  level: introductory
+  kind: technique
+  technology: null
+- key: heuristic_optimization
+  name: Metaheuristic and math-heuristic optimization
+  description: Heuristic and meta/math-heuristic techniques for solving resource allocation optimization
+    problems that are too large for exact methods.
+  evidence:
+  - c2
+  - c12
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: predictive_prescriptive_integration
+  name: Integrating forecasts into optimization models
+  description: Using predicted data as elements of mathematical optimization models of management processes
+    to drive prescriptive decisions on scarce resources.
+  evidence:
+  - c1
+  - c2
+  - c4
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: operational_analytics_module
+  name: Operational analytics module implementation
+  description: Building a standalone operational analytics module in Python on business information system
+    data and testing it on real business case studies and final projects.
+  evidence:
+  - c5
+  - c6
+  - c12
+  - o3
+  share: 0.1
+  level: intermediate
+  kind: tool
+  technology: Python
+not_topics:
+- id: c7
+  reason: Lead-in sentence introducing the list of topics in c8–c12; the content itself is covered by
+    the topics above.

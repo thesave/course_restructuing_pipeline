@@ -1,0 +1,142 @@
+format: extraction/1
+course: '72787'
+title: Mobile Application Programming
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 33.5
+  usage:
+    prompt_tokens: 7451
+    completion_tokens: 7576
+    cache_read_tokens: 3708
+    thinking_tokens: 4867
+  created: '2026-11-04T18:16:09+00:00'
+topics:
+- key: mobile_application_design
+  name: Mobile application design
+  description: Principles for designing mobile applications, covering user-centred design, constraints
+    of smartphones and the structure of mobile apps.
+  evidence:
+  - c1
+  share: 0.15
+  level: introductory
+  kind: concept
+  technology: null
+- key: app_components_and_intents
+  name: Android app components and intents
+  description: The building blocks of Android apps (activities, resources and their components) and how
+    activities communicate through explicit and implicit intents.
+  evidence:
+  - c2
+  - c3
+  - c4
+  share: 0.14
+  level: introductory
+  kind: concept
+  technology: Android
+- key: material_design_ui
+  name: Material design and UI menus
+  description: Building Android user interfaces following Material Design guidelines, including menus,
+    dialogs and toasts for user feedback.
+  evidence:
+  - c5
+  - c6
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: Android
+- key: data_storage_and_networking
+  name: Data storage and networking with Volley
+  description: Managing application data on Android through local storage and performing network requests
+    with the Volley library.
+  evidence:
+  - c7
+  - c8
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: Android
+- key: multithreading_and_services
+  name: Multithreading and services
+  description: Running background work on Android with threads and services without blocking the user
+    interface.
+  evidence:
+  - c9
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: Android
+- key: sensors_camera_and_maps
+  name: Sensors, camera and maps on Android
+  description: Accessing device sensors and the camera, and using maps with GPS location on Android.
+  evidence:
+  - c10
+  - c11
+  - c12
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: Android
+- key: language_constructs
+  name: Swift language
+  description: The syntax and core constructs of the Swift programming language used for iOS development.
+  evidence:
+  - c14
+  share: 0.07
+  level: introductory
+  kind: language
+  technology: Swift
+- key: mvvm_architecture
+  name: MVVM architecture with SwiftUI
+  description: Introduction to iOS app structure and the Model-View-ViewModel pattern, implemented with
+    SwiftUI interfaces.
+  evidence:
+  - c13
+  - c15
+  - o2
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: SwiftUI
+- key: object_persistence
+  name: Core Data persistence
+  description: Storing and querying persistent data in iOS apps with the Core Data framework.
+  evidence:
+  - c16
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: Core Data
+- key: touch_events_and_gestures
+  name: Touch events and gestures
+  description: Handling multi-touch input and gesture recognition in iOS applications.
+  evidence:
+  - c17
+  share: 0.04
+  level: intermediate
+  kind: technique
+  technology: iOS
+- key: map_and_gps_location
+  name: MapKit and GPS location
+  description: Displaying maps and using GPS location in iOS apps with the MapKit framework.
+  evidence:
+  - c18
+  share: 0.05
+  level: intermediate
+  kind: tool
+  technology: MapKit
+- key: hybrid_mobile_applications
+  name: Hybrid mobile applications
+  description: Overview of hybrid mobile application development and the main technologies involved.
+  evidence:
+  - c19
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+not_topics: []

@@ -1,0 +1,164 @@
+format: extraction/1
+course: '96143'
+title: Methods and Models for Data Analytics M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 22.6
+  usage:
+    prompt_tokens: 3496
+    completion_tokens: 5199
+    cache_read_tokens: 1854
+    thinking_tokens: 3637
+  created: '2026-11-04T18:27:26+00:00'
+topics:
+- key: data_mining_introduction
+  name: Introduction to data mining and data types
+  description: Covers the data mining process and goals, and the typologies of data (attribute types,
+    structured and unstructured sources) that analysis must handle.
+  evidence:
+  - c2
+  - c5
+  - o2
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: association_rules
+  name: Association rule mining
+  description: Covers frequent itemset discovery and association rule generation with support, confidence
+    and related interestingness measures.
+  evidence:
+  - c3
+  - o1
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: clustering_and_outlier_detection
+  name: Clustering and outlier detection
+  description: Covers partitioning and hierarchical clustering algorithms for grouping records by similarity,
+    and detecting anomalous records as outliers.
+  evidence:
+  - c4
+  - c11
+  - o1
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: null
+- key: decision_trees
+  name: Decision trees
+  description: Covers building classification and regression trees, splitting criteria, and pruning to
+    limit overfitting.
+  evidence:
+  - c6
+  - o1
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: statistical_methods
+  name: Statistical methods for analytics
+  description: Covers the statistical techniques used to generate knowledge from data, such as descriptive
+    statistics, hypothesis-based inference and regression models.
+  evidence:
+  - c7
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: neural_networks_deep_learning
+  name: Neural networks and deep learning
+  description: Covers feedforward neural network architectures, training by backpropagation and gradient
+    descent, and the deep learning models that extend them.
+  evidence:
+  - c8
+  - c13
+  - o1
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+- key: evaluation_of_results
+  name: Evaluation of analytics results
+  description: Covers performance metrics and validation procedures such as train/test splits and cross-validation
+    for assessing learned models.
+  evidence:
+  - c9
+  - o2
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: time_series_analysis
+  name: Time series analysis
+  description: Covers the analysis and modelling of temporally ordered data, including decomposition,
+    forecasting and temporal pattern detection.
+  evidence:
+  - c10
+  - c16
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: constraint_programming
+  name: Constraint programming
+  description: Covers modelling problems as constraint satisfaction and optimisation problems and solving
+    them with constraint propagation and search.
+  evidence:
+  - c12
+  - o1
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: algorithm_selection_configuration
+  name: Automatic algorithm selection and configuration
+  description: Covers methods that automatically choose among candidate algorithms for a given instance
+    and tune their parameters to improve performance.
+  evidence:
+  - c14
+  - o1
+  share: 0.05
+  level: advanced
+  kind: technique
+  technology: null
+- key: maintenance_analytics
+  name: Predictive and prescriptive maintenance
+  description: Covers using data-driven models to predict equipment failures and to prescribe maintenance
+    actions that optimise cost and reliability.
+  evidence:
+  - c15
+  - c17
+  - o3
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: analytics_applications_and_sustainability
+  name: Enterprise use cases and sustainable information technologies
+  description: Covers enterprise applications of data analytics through use cases, and sustainable IT
+    infrastructures for data-driven knowledge aligned with the UN Sustainable Development Goals.
+  evidence:
+  - c18
+  - c19
+  - o3
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+not_topics:
+- id: c1
+  reason: 'Course structure: states that the course has two modules; no teachable content.'
+- id: c1.1
+  reason: Module heading naming the Data Mining module and its instructor; organisational only.
+- id: c1.2
+  reason: Module heading naming the Artificial Intelligence Methods module and its instructor; organisational
+    only.

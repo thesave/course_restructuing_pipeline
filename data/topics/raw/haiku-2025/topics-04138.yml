@@ -1,0 +1,216 @@
+format: extraction/1
+course: 04138
+title: Programming Languages
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 23.7
+  usage:
+    prompt_tokens: 3480
+    completion_tokens: 5867
+    cache_read_tokens: 1854
+    thinking_tokens: 3711
+  created: '2026-11-04T18:08:30+00:00'
+topics:
+- key: language_description_and_implementation
+  name: Language description and implementation
+  description: How programming languages evolved from assembly to high-level languages, and how a language
+    is described through syntax, semantics, pragmatics and implementation using abstract machines, interpreters
+    and compilers.
+  evidence:
+  - c1.1
+  - c1.2
+  - c1.3
+  - c1.4
+  - o1
+  share: 0.0417
+  level: introductory
+  kind: concept
+  technology: null
+- key: context_free_grammars_and_pda
+  name: Context-free grammars and pushdown automata
+  description: Writing language syntax in BNF, and the context-free grammars and pushdown automata that
+    recognise them, including their equivalence and the pumping theorem.
+  evidence:
+  - c1.5
+  - c1.10
+  share: 0.0729
+  level: intermediate
+  kind: concept
+  technology: null
+- key: regular_languages_and_finite_automata
+  name: Regular languages and finite automata
+  description: Regular grammars, regular expressions and finite automata, their equivalences and principal
+    theorems such as the pumping lemma.
+  evidence:
+  - c1.7
+  share: 0.0625
+  level: intermediate
+  kind: concept
+  technology: null
+- key: lexical_analyzers
+  name: Lexical analyzers
+  description: Designing lexical analysers from regular specifications and building them with the Lex
+    tool.
+  evidence:
+  - c1.8
+  - c1.9
+  share: 0.0417
+  level: intermediate
+  kind: technique
+  technology: Lex
+- key: deterministic_parsing_algorithms
+  name: Deterministic parsing algorithms
+  description: Parsing algorithms for deterministic context-free grammars, namely LL(1), LR(0), SLR, LR(1)
+    and LALR(1).
+  evidence:
+  - c1.11
+  share: 0.0833
+  level: advanced
+  kind: technique
+  technology: null
+- key: parser_generators
+  name: Parser generators
+  description: Generating syntax analysers from grammar specifications with the YACC tool.
+  evidence:
+  - c1.12
+  share: 0.0417
+  level: intermediate
+  kind: tool
+  technology: YACC
+- key: operational_semantics_sos
+  name: Structural operational semantics
+  description: Defining the meaning of programming languages with Structured Operational Semantics (SOS)
+    rules.
+  evidence:
+  - c1.6
+  share: 0.0521
+  level: intermediate
+  kind: concept
+  technology: null
+- key: scoping_and_environments
+  name: Scoping and environments
+  description: Scoping rules, name environments and how they are implemented in a language runtime.
+  evidence:
+  - c2.1
+  share: 0.0417
+  level: introductory
+  kind: concept
+  technology: null
+- key: runtime_memory_management
+  name: Runtime memory management
+  description: Activation record stacks, the heap, and garbage collection as mechanisms for managing memory
+    at run time.
+  evidence:
+  - c2.2
+  - c2.3
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: null
+- key: sequence_control_and_recursion
+  name: Sequence control and recursion
+  description: Control of execution order, procedures and recursive calls.
+  evidence:
+  - c2.4
+  share: 0.0417
+  level: introductory
+  kind: concept
+  technology: null
+- key: types_and_type_checking
+  name: Types and type checking
+  description: Type systems, the notion of types, and static or dynamic type checking.
+  evidence:
+  - c2.5
+  share: 0.0521
+  level: intermediate
+  kind: concept
+  technology: null
+- key: parameter_passing
+  name: Parameter passing
+  description: Passing parameters by value, by reference, by result and by name, and their effects on
+    procedure calls.
+  evidence:
+  - c2.6
+  share: 0.0417
+  level: intermediate
+  kind: concept
+  technology: null
+- key: functional_parameters_and_closures
+  name: Functional parameters and closures
+  description: Procedures passed as parameters and the closures that capture their defining environment.
+  evidence:
+  - c2.7
+  share: 0.0417
+  level: intermediate
+  kind: concept
+  technology: null
+- key: exceptions
+  name: Exceptions
+  description: Exception raising, propagation and handling mechanisms in programming languages.
+  evidence:
+  - c2.8
+  share: 0.03125
+  level: intermediate
+  kind: concept
+  technology: null
+- key: object_oriented_paradigm
+  name: Object-oriented paradigm
+  description: Classes and objects, initialisation, inheritance and late binding as the principles of
+    object-oriented programming.
+  evidence:
+  - c2.9
+  share: 0.0625
+  level: intermediate
+  kind: concept
+  technology: null
+- key: subtyping_vs_inheritance
+  name: Subtyping versus inheritance
+  description: Why subtyping and inheritance are distinct notions and how they differ in typing and reuse.
+  evidence:
+  - c2.10
+  share: 0.03125
+  level: intermediate
+  kind: concept
+  technology: null
+- key: logic_paradigm
+  name: Logic programming paradigm
+  description: The logical programming paradigm, its declarative model of computation and its principles.
+  evidence:
+  - c2.11
+  share: 0.0521
+  level: intermediate
+  kind: concept
+  technology: null
+- key: functional_paradigm
+  name: Functional programming paradigm
+  description: The functional programming paradigm and its constructs, as taught through the Scala language.
+  evidence:
+  - c2.12
+  share: 0.0625
+  level: intermediate
+  kind: concept
+  technology: Scala
+- key: concurrent_paradigm
+  name: Concurrent programming paradigm
+  description: Principles of concurrent programming and the models used to structure concurrent computation.
+  evidence:
+  - c2.13
+  share: 0.0417
+  level: advanced
+  kind: concept
+  technology: null
+- key: service_oriented_computing
+  name: Service-oriented computing
+  description: Service-oriented computing principles and their realisation with the Jolie language.
+  evidence:
+  - c2.13
+  share: 0.0417
+  level: advanced
+  kind: language
+  technology: Jolie
+not_topics: []

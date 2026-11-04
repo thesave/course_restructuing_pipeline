@@ -1,0 +1,109 @@
+format: extraction/1
+course: '90864'
+title: Elements of Computer Technologies for Fashion E-Commerce
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 12.8
+  usage:
+    prompt_tokens: 2862
+    completion_tokens: 2534
+    cache_read_tokens: 1854
+    thinking_tokens: 1544
+  created: '2026-11-04T18:22:06+00:00'
+topics:
+- key: internet_and_www
+  name: Internet and World Wide Web infrastructure
+  description: How the Internet's network infrastructure and the Web's client-server protocols (addressing,
+    DNS, HTTP) support delivering e-commerce sites.
+  evidence:
+  - c1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: web_servers
+  name: Web servers
+  description: The role of web servers in hosting and serving dynamic and static content to browsers for
+    an online shop.
+  evidence:
+  - c2
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: ecommerce_platform_architectures
+  name: E-commerce platform architectures
+  description: The main architectural options for building an e-commerce platform, with their advantages
+    and disadvantages.
+  evidence:
+  - c3
+  - o3
+  share: 0.14
+  level: intermediate
+  kind: concept
+  technology: null
+- key: ecommerce_user_interface_design
+  name: E-commerce user interface design
+  description: Designing the user interface of an online fashion shop, including its adaptation to the
+    mobile context.
+  evidence:
+  - c3
+  - o2
+  share: 0.12
+  level: introductory
+  kind: technique
+  technology: null
+- key: social_media_systems
+  name: Social media systems
+  description: The structure and role of social media systems and their integration with e-commerce.
+  evidence:
+  - c4
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: web_security
+  name: Web security for e-commerce
+  description: Security threats and protective measures relevant to online shops and their users.
+  evidence:
+  - c5
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: fashion_ecommerce_platform_analysis
+  name: Analysis of fashion e-commerce platforms
+  description: Methods for analysing existing fashion e-commerce platforms and comparing their technical
+    and design choices.
+  evidence:
+  - c6
+  - o1
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: immersive_ecommerce_platforms
+  name: Immersive e-commerce platforms
+  description: Immersive technologies such as virtual and augmented reality applied to online fashion
+    shopping.
+  evidence:
+  - c7
+  share: 0.12
+  level: advanced
+  kind: concept
+  technology: null
+- key: ai_paradigms_in_ecommerce
+  name: AI paradigms in e-commerce
+  description: The AI paradigms applicable to e-commerce systems and their use in fashion online shopping.
+  evidence:
+  - c8
+  share: 0.12
+  level: advanced
+  kind: concept
+  technology: null
+not_topics: []

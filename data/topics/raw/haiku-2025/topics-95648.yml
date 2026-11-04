@@ -1,0 +1,178 @@
+format: extraction/1
+course: '95648'
+title: Software Design and Development
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 31.2
+  usage:
+    prompt_tokens: 8198
+    completion_tokens: 7288
+    cache_read_tokens: 3708
+    thinking_tokens: 3811
+  created: '2026-11-04T18:27:03+00:00'
+topics:
+- key: oo_analysis_and_design
+  name: Object-oriented analysis and design
+  description: Fundamentals of analysing a problem and designing software with object-oriented concepts
+    before any coding begins.
+  evidence:
+  - c1
+  share: 0.04
+  level: introductory
+  kind: concept
+  technology: null
+- key: development_environment_tools
+  name: Java overview and development environment
+  description: Overview of the Java platform and of the JDK and IntelliJ IDEA tools used to write, compile
+    and run Java programs.
+  evidence:
+  - c2
+  - c11
+  share: 0.04
+  level: introductory
+  kind: tool
+  technology: Java
+- key: classes_and_objects
+  name: Classes, objects, fields and methods
+  description: 'Core object-oriented constructs in Java: defining classes, fields and methods, and instantiating
+    objects.'
+  evidence:
+  - c3
+  share: 0.1
+  level: introductory
+  kind: language
+  technology: Java
+- key: polymorphism_and_inheritance
+  name: Polymorphism, inheritance, interfaces and abstract classes
+  description: Code reuse and polymorphism in Java through class inheritance, interfaces and abstract
+    classes.
+  evidence:
+  - c4
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: Java
+- key: generics_and_annotations
+  name: Generic programming and annotations
+  description: Writing type-parameterised classes and methods in Java with generics, and using annotations
+    to attach metadata to code.
+  evidence:
+  - c5
+  share: 0.07
+  level: intermediate
+  kind: language
+  technology: Java
+- key: exception_handling
+  name: Exception handling
+  description: Throwing, catching and propagating exceptions in Java to make programs robust to runtime
+    errors.
+  evidence:
+  - c5
+  share: 0.04
+  level: intermediate
+  kind: technique
+  technology: Java
+- key: lambda_functional_programming
+  name: Functional programming with lambda expressions
+  description: Elements of functional programming in Java, notably lambda expressions and their use with
+    functional interfaces.
+  evidence:
+  - c5
+  - o1
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: Java
+- key: core_libraries
+  name: Core Java libraries
+  description: Using the standard Java core libraries that support everyday program development.
+  evidence:
+  - c6
+  share: 0.08
+  level: introductory
+  kind: tool
+  technology: Java
+- key: input_output_management
+  name: Input/output management
+  description: Reading and writing data in Java programs through the standard input/output APIs.
+  evidence:
+  - c7
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: Java
+- key: gui_programming
+  name: Graphical user interface programming
+  description: Building graphical user interfaces in Java with components, layouts and event handling.
+  evidence:
+  - c8
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: Java
+- key: concurrent_programming_basics
+  name: Introductory concurrent programming
+  description: Basic concepts of concurrent programming in Java, such as threads and their coordination.
+  evidence:
+  - c9
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: Java
+- key: design_patterns
+  name: Design patterns
+  description: Introduction to the main object-oriented design patterns and when to apply them in application
+    design.
+  evidence:
+  - c10
+  - o1
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: effective_programming_techniques
+  name: Effective programming techniques
+  description: Practices for writing clear, maintainable and idiomatic Java code, following established
+    guidelines.
+  evidence:
+  - c10
+  - o1
+  share: 0.04
+  level: intermediate
+  kind: technique
+  technology: Java
+- key: version_control
+  name: Version control
+  description: Using Git to track, branch and merge source code changes in a software project.
+  evidence:
+  - c11
+  share: 0.04
+  level: introductory
+  kind: tool
+  technology: Git
+- key: build_automation
+  name: Build automation and dependency management
+  description: Using Gradle to configure, build and test Java projects and manage their dependencies.
+  evidence:
+  - c11
+  share: 0.04
+  level: introductory
+  kind: tool
+  technology: Gradle
+- key: devops_continuous_integration
+  name: DevOps basics and continuous integration
+  description: Basic DevOps practices for delivering software, including continuous integration of builds
+    and tests within agile project management.
+  evidence:
+  - c11
+  - o2
+  share: 0.04
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

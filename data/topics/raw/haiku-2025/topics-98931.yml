@@ -1,0 +1,140 @@
+format: extraction/1
+course: '98931'
+title: Fundamentals of Artificial Intelligence
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 26.6
+  usage:
+    prompt_tokens: 8553
+    completion_tokens: 6319
+    cache_read_tokens: 3708
+    thinking_tokens: 3412
+  created: '2026-11-04T18:23:14+00:00'
+topics:
+- key: ai_foundations_kbs
+  name: AI foundations and knowledge-based systems
+  description: History and application fields of AI, the architecture of knowledge-based systems, and
+    the basic role of knowledge representation and reasoning in problem solving.
+  evidence:
+  - c1
+  - c3.1
+  - c4.1
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: state_space_search
+  name: State-space search and game playing
+  description: Representing problems as states, forward and backward reasoning, uninformed and heuristic
+    search strategies, and adversarial search for games.
+  evidence:
+  - c3.2
+  - o1
+  share: 0.14
+  level: introductory
+  kind: technique
+  technology: null
+- key: constraint_satisfaction
+  name: Constraint satisfaction problems
+  description: Modelling problems as variables, domains and constraints, and solving them with constraint
+    propagation and backtracking search.
+  evidence:
+  - c3.2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: local_search_optimization
+  name: Local search and metaheuristics
+  description: Local search methods and metaheuristics, together with problem decomposition, constraint
+    relaxation and branch-and-bound for optimisation problems.
+  evidence:
+  - c3.3
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: planning_and_scheduling
+  name: Automated planning and scheduling
+  description: Linear and partial-order planning, graph-based planning with GraphPlan, and scheduling
+    as a planning-related problem.
+  evidence:
+  - c3.4
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: description_logics_ontologies
+  name: Terminological knowledge and description logics
+  description: Representing terminological knowledge with semantic networks and description logics, and
+    the foundations of ontologies.
+  evidence:
+  - c4.2
+  - o1
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: reasoning_about_actions_events
+  name: Representing actions, situations and events
+  description: Formal representation of actions, situations and events, including temporal reasoning with
+    the Event Calculus.
+  evidence:
+  - c4.3
+  - c4.4
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: rule_based_logic_programming
+  name: Rule-based logic programming
+  description: Prolog and its extensions, meta-interpreters, definite clause grammars (DCG), planning
+    in Prolog, and the LPAD probabilistic logic programming language, with hands-on implementation of
+    solvers.
+  evidence:
+  - c4.4
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: language
+  technology: Prolog
+- key: forward_chaining_rete
+  name: Forward chaining and the RETE algorithm
+  description: Forward-chaining production rule systems, the RETE pattern-matching algorithm, and their
+    practical use in the Drools rule engine.
+  evidence:
+  - c4.5
+  - o2
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: probabilistic_reasoning
+  name: Reasoning under uncertainty
+  description: Probability as a basis for uncertain knowledge, probability queries, and conditional independence.
+  evidence:
+  - c5.1
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: bayesian_networks
+  name: Bayesian networks and inference
+  description: Representing joint probability distributions with Bayesian networks and performing exact
+    and approximate probabilistic inference.
+  evidence:
+  - c5.2
+  - o1
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c2
+  reason: Organisational format (hands-on labs and seminars); it carries no separate content, and the
+    lab work applies the topics listed above.

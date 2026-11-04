@@ -1,0 +1,196 @@
+format: extraction/1
+course: '91269'
+title: Multimedia Data Management
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 0
+  seconds: 0.0
+  usage: {}
+  created: '2026-11-04T18:17:43+00:00'
+copied_from: '78096'
+topics:
+- key: mm_data_and_applications
+  name: Multimedia data and applications
+  description: Overview of multimedia data types and the commercial applications that manage them, including
+    demos and use cases of such systems.
+  evidence:
+  - c2
+  - c3
+  - c3.1
+  - c9.2
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: mm_data_coding
+  name: Multimedia data coding
+  description: Digital encoding and compression of image, audio and video data, and the trade-offs between
+    quality and storage.
+  evidence:
+  - c3
+  - c3.2
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: mm_content_representation
+  name: Multimedia content representation
+  description: Extraction of low-level content descriptors (e.g. colour, texture, shape, audio and motion
+    features) that represent the content of multimedia objects.
+  evidence:
+  - c3.3
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: mm_description_models
+  name: Description models for complex multimedia objects
+  description: Models for describing complex multimedia objects by combining their content features, metadata
+    and structure.
+  evidence:
+  - c4
+  - c4.1
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: similarity_measures
+  name: Similarity measures for multimedia content
+  description: Distance and similarity functions used to compare multimedia objects based on their content
+    descriptors.
+  evidence:
+  - c4.2
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: mm_database_systems
+  name: Multimedia database management systems
+  description: Architecture and functions of database management systems designed to store, index and
+    query multimedia data.
+  evidence:
+  - c4.3
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: mm_query_paradigms
+  name: Multimedia query formulation paradigms
+  description: Ways users formulate queries over multimedia data, such as query by example, sketch, keyword
+    and combined queries.
+  evidence:
+  - c5
+  - c5.1
+  share: 0.04
+  level: introductory
+  kind: concept
+  technology: null
+- key: sequential_mm_retrieval
+  name: Sequential retrieval of multimedia data
+  description: Retrieval of multimedia objects by scanning the collection and comparing each object with
+    the query, and its cost.
+  evidence:
+  - c5.2
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: index_based_mm_retrieval
+  name: Index-based retrieval of multimedia data
+  description: Multidimensional indexing structures and algorithms that speed up similarity search over
+    high-dimensional multimedia descriptors.
+  evidence:
+  - c5.3
+  share: 0.07
+  level: advanced
+  kind: technique
+  technology: null
+- key: automatic_semantic_annotation
+  name: Automatic semantic annotation of multimedia
+  description: Automatic techniques that assign semantic labels and concepts to multimedia content to
+    bridge the gap between low-level features and meaning.
+  evidence:
+  - c6
+  share: 0.07
+  level: advanced
+  kind: technique
+  technology: null
+- key: mm_browsing_and_interfaces
+  name: Browsing and user interfaces for multimedia
+  description: Browsing strategies for multimedia collections and the design of user interfaces that let
+    people explore and present multimedia data.
+  evidence:
+  - c7
+  - c8.1
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: mm_visualization_and_dimensionality_reduction
+  name: Visualization and dimensionality reduction
+  description: Visualization paradigms for multimedia result sets and dimensionality reduction techniques
+    that project high-dimensional descriptors into displayable spaces.
+  evidence:
+  - c8
+  - c8.2
+  - c8.3
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: relevance_feedback
+  name: Result quality and relevance feedback
+  description: Evaluation of the quality and relevance of retrieval results and the use of user relevance
+    feedback to refine queries.
+  evidence:
+  - c9
+  - c9.1
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: web_search_engines
+  name: Web search engines for multimedia
+  description: Architecture and ranking principles of web search engines applied to multimedia data on
+    the Web.
+  evidence:
+  - c10
+  - c10.1
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: graph_data_and_social_networks
+  name: Graph data, semantic Web and social networks
+  description: Graph-based representation of multimedia data through the semantic Web and social networks,
+    and the analysis of their structure.
+  evidence:
+  - c10.2
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: web_recommender_systems
+  name: Web recommender systems
+  description: Recommendation techniques, such as collaborative and content-based filtering, applied to
+    multimedia items on the Web.
+  evidence:
+  - c10.3
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Statement of the course aims and motivation, not a teachable content unit.
+- id: c11
+  reason: Heading 'N.B.' with no teaching content of its own; its note is covered by c12.
+- id: c12
+  reason: Organisational remark about which course parts are required for the final exam for some degree
+    programmes.
+- id: c13
+  reason: Organisational remark about the language of the final exam.

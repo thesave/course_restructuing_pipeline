@@ -1,0 +1,107 @@
+format: extraction/1
+course: '47240'
+title: Web Systems Engineering
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 23.3
+  usage:
+    prompt_tokens: 6943
+    completion_tokens: 4797
+    cache_read_tokens: 3708
+    thinking_tokens: 2782
+  created: '2026-11-04T18:13:41+00:00'
+topics:
+- key: web_architectures_and_stacks
+  name: Web architectures and solution stacks
+  description: Comparison of web architectures and full solution stacks, including how client, server
+    and data layers are organised and chosen.
+  evidence:
+  - c1
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: mean_stack
+  name: MEAN stack and Node.js
+  description: Building web applications with the MEAN stack (MongoDB, Express, Angular, Node.js), with
+    an introduction to server-side JavaScript on Node.js.
+  evidence:
+  - c2
+  - o1
+  - o2
+  share: 0.2
+  level: intermediate
+  kind: technique
+  technology: Node.js
+- key: build_tools
+  name: Build tools
+  description: Introduction to build tools that automate compiling, bundling and preparing web project
+    assets.
+  evidence:
+  - c3
+  share: 0.08
+  level: introductory
+  kind: tool
+  technology: null
+- key: static_typing_superset
+  name: Static typing and superset language features
+  description: Static typing and the main language features of TypeScript as a superset of JavaScript
+    for web development.
+  evidence:
+  - c4
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: language
+  technology: TypeScript
+- key: css_preprocessing
+  name: Stylesheet preprocessing with SCSS syntax
+  description: Writing and compiling stylesheets with a CSS preprocessor, using the SCSS syntax and its
+    extensions to CSS.
+  evidence:
+  - c4
+  - o2
+  share: 0.07
+  level: introductory
+  kind: language
+  technology: Sass
+- key: server_side_scripting
+  name: Server-side scripting in the LAMP stack
+  description: Server-side web development with PHP within the LAMP stack (Linux, Apache, MySQL, PHP),
+    covering the language and its use for building web applications.
+  evidence:
+  - c5
+  - o1
+  - o2
+  share: 0.25
+  level: intermediate
+  kind: language
+  technology: PHP
+- key: mobile_app_types
+  name: Web, hybrid and native mobile apps
+  description: Key differences between web apps, hybrid apps and native mobile apps in terms of technology,
+    distribution and device access.
+  evidence:
+  - c6
+  - o4
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: web_frameworks_and_cms
+  name: Web frameworks and content management systems
+  description: Using the main frameworks and content management systems for web development and choosing
+    among them appropriately.
+  evidence:
+  - o3
+  share: 0.1
+  level: intermediate
+  kind: tool
+  technology: null
+not_topics: []

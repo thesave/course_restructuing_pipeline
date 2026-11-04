@@ -1,0 +1,105 @@
+format: extraction/1
+course: '37925'
+title: Virtual System Design
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 12.5
+  usage:
+    prompt_tokens: 2812
+    completion_tokens: 2540
+    cache_read_tokens: 1854
+    thinking_tokens: 1612
+  created: '2026-11-04T18:12:43+00:00'
+topics:
+- key: virtualization_concepts
+  name: Virtualization concepts
+  description: The general notion of virtuality and why systems are virtualized, introducing the layers
+    and abstractions that the rest of the course builds on.
+  evidence:
+  - c1
+  - o1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: virtual_machines
+  name: Virtual machines
+  description: The structure and implementation of virtual machines and their hypervisor-based execution
+    of guest systems.
+  evidence:
+  - c3
+  - o1
+  share: 0.18
+  level: intermediate
+  kind: concept
+  technology: null
+- key: virtual_devices
+  name: Virtual devices
+  description: How hardware devices are emulated or abstracted in software so that virtual machines and
+    systems can access them.
+  evidence:
+  - c4
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: virtual_networks
+  name: Virtual networks
+  description: The construction of virtual network topologies on top of physical infrastructure, covering
+    how virtual links, switches and addressing are created and managed.
+  evidence:
+  - c2
+  - o1
+  share: 0.14
+  level: intermediate
+  kind: concept
+  technology: null
+- key: virtual_networking_stacks
+  name: Virtual networking stacks and Internet of Threads
+  description: The implementation of networking stacks in virtual systems, including the Internet of Threads
+    (IoTh) approach for networking between threads.
+  evidence:
+  - c6
+  share: 0.12
+  level: advanced
+  kind: technique
+  technology: null
+- key: virtual_file_systems
+  name: Virtual file systems
+  description: The structure and implementation of virtual file systems that present a uniform file interface
+    over heterogeneous storage and backends.
+  evidence:
+  - c5
+  - o1
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: user_level_operating_systems
+  name: User-level operating systems
+  description: The design of view-based operating systems that run at user level, as realised in VUOS,
+    and how they provide virtual OS views to applications.
+  evidence:
+  - c7
+  - o1
+  share: 0.12
+  level: advanced
+  kind: concept
+  technology: VUOS
+- key: operating_system_modules
+  name: VUOS modules
+  description: The internal modules of VUOS and how they are implemented and composed to realise the user-level
+    operating system functions.
+  evidence:
+  - c8
+  - o1
+  share: 0.16
+  level: advanced
+  kind: technique
+  technology: VUOS
+not_topics: []

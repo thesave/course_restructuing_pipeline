@@ -1,0 +1,126 @@
+format: extraction/1
+course: B6082
+title: Technology-Assisted Interpreting I
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 19.9
+  usage:
+    prompt_tokens: 4387
+    completion_tokens: 4541
+    cache_read_tokens: 1854
+    thinking_tokens: 3156
+  created: '2026-11-04T18:32:16+00:00'
+topics:
+- key: speech_to_text_concepts
+  name: Speech-to-text interpreting concepts
+  description: Theoretical introduction to producing written text from public speeches in real time, including
+    the role and aims of speech-to-text interpreting (STTI) in the booth.
+  evidence:
+  - c4
+  - c6
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: speech_recognition_live_subtitling
+  name: Live intralingual subtitling with speech recognition
+  description: Use of speech recognition software to produce intralingual live subtitles from a speaker's
+    voice, introduced as the basis of the course's subtitling work.
+  evidence:
+  - c5
+  - c13
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: speaker_independent_speech_recognition
+  name: Speaker-independent speech recognition with DIT.tafono
+  description: Hands-on use of the free, speaker-independent DIT.tafono software to produce written text
+    from speech without individual voice training.
+  evidence:
+  - c7
+  share: 0.1
+  level: introductory
+  kind: tool
+  technology: DIT.tafono
+- key: speaker_dependent_speech_recognition
+  name: Speaker-dependent speech recognition with Dragon NaturallySpeaking
+  description: Hands-on use of the commercial, speaker-dependent Dragon Naturally Speaking software, including
+    the voice-profile requirements that differ from speaker-independent systems.
+  evidence:
+  - c7
+  share: 0.1
+  level: intermediate
+  kind: tool
+  technology: Dragon Naturally Speaking
+- key: voice_input_practice
+  name: Producing written text from voice input
+  description: Practical exercises in turning voice input into accurate written text, using both written
+    and audiovisual source material.
+  evidence:
+  - c8
+  - o1
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: realtime_subtitling_for_deaf
+  name: Real-time subtitling of audiovisual products for deaf viewers
+  description: Techniques for producing real-time subtitles for audiovisual products aimed at deaf and
+    hard-of-hearing audiences.
+  evidence:
+  - c9
+  - o1
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+- key: glossary_lookup_in_booth
+  name: Glossary lookup in the interpretation booth
+  description: Principles and methods for quickly consulting glossaries and terminological resources while
+    interpreting in the booth.
+  evidence:
+  - c4
+  - c10
+  share: 0.08
+  level: introductory
+  kind: technique
+  technology: null
+- key: computer_assisted_interpreting
+  name: Computer-assisted interpreting (CAI) tools
+  description: Overview of CAI tools that support interpreters with terminological resources and how they
+    fit into the interpreting workflow.
+  evidence:
+  - c10
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: terminology_search_tools
+  name: Terminology search with InterpretBank
+  description: Hands-on use of InterpretBank to build, manage and query terminological resources during
+    interpretation.
+  evidence:
+  - c10
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: tool
+  technology: InterpretBank
+not_topics:
+- id: c1
+  reason: Administrative remark that the course appears in two curricula under different names.
+- id: c2
+  reason: Course naming information for the two curricula, organisational only.
+- id: c3
+  reason: Heading for the InConf curriculum section; contains no teachable content itself.
+- id: c11
+  reason: Heading for the InTeCo curriculum section; contains no teachable content itself.
+- id: c12
+  reason: Organisational remark on the platform-based and face-to-face split and hour allocation, not
+    a teaching topic.

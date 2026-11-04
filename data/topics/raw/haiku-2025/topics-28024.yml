@@ -1,0 +1,195 @@
+format: extraction/1
+course: '28024'
+title: Computer Networks T
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 31.5
+  usage:
+    prompt_tokens: 9974
+    completion_tokens: 7456
+    cache_read_tokens: 3708
+    thinking_tokens: 3740
+  created: '2026-11-04T18:11:26+00:00'
+topics:
+- key: distributed_systems_concepts
+  name: Distributed systems concepts and standards
+  description: Basic perspectives and definitions of distributed systems, including decentralized and
+    heterogeneous architectures and the meaning of standards.
+  evidence:
+  - c2
+  - c3
+  - c4
+  - c5
+  - o1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: client_server_model
+  name: Client/server model and interaction models
+  description: The client/server organisation of applications, client/server interaction, shared memory
+    versus message exchange, and connection and interaction models.
+  evidence:
+  - c1
+  - c6
+  - c6.1
+  - c6.2
+  - c6.3
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: resource_aware_design
+  name: Resource-aware system design
+  description: Design practice that accounts for system resource usage at every layer to produce readable,
+    correct, well-structured code and protocols with a good user interface.
+  evidence:
+  - c6.5
+  - o2
+  - o3
+  - o4
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: system_tools_and_environments
+  name: System programming environments and Unix tools
+  description: Standard system programming environments and the widely used Unix command-line and reference
+    networking tools for inspecting and testing network behaviour.
+  evidence:
+  - c6.4
+  - c6.7
+  - c12
+  - c13
+  share: 0.06
+  level: introductory
+  kind: tool
+  technology: Unix
+- key: osi_layered_model
+  name: ISO OSI layered architecture
+  description: The ISO OSI reference model, covering the network and transport layers and the session,
+    presentation and application layers.
+  evidence:
+  - c7
+  - c7.1
+  - c7.2
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: tcp_ip_protocols
+  name: TCP/IP protocol suite
+  description: The TCP/IP protocols as the practical basis of the Internet, assumed known from prerequisites
+    and reviewed in relation to socket use.
+  evidence:
+  - c9
+  - c10
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: socket_programming
+  name: Socket programming with C and Java
+  description: Network communication through sockets as a programming-environment-independent tool, with
+    the socket API in C (UNIX) and Java and case studies of client/server interaction over TCP/IP in Unix.
+  evidence:
+  - c14
+  - c15
+  - c16
+  - o2
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: standard_internet_applications
+  name: Standard internet applications
+  description: 'Presentation of standard applications: synchronous services such as remote virtual terminal
+    and file transfer, and asynchronous services such as mail and news.'
+  evidence:
+  - c8
+  - c11
+  - c11.1
+  - c11.2
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: remote_procedure_call
+  name: Remote Procedure Call (Sun RPC)
+  description: The Remote Procedure Call model as a client/server application tool, studied through Sun's
+    RPC implementation.
+  evidence:
+  - c17
+  - c17.1
+  - o4
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: Sun RPC
+- key: remote_method_invocation
+  name: Java Remote Method Invocation
+  description: Remote operations between Java objects using RMI as a client/server application tool.
+  evidence:
+  - c17
+  - c17.2
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: Java
+- key: distributed_operating_systems
+  name: Distributed operating systems
+  description: Distributed operating systems and their tools, as the system-level context for distributed
+    resource sharing.
+  evidence:
+  - c17.3
+  - c18
+  share: 0.05
+  level: advanced
+  kind: concept
+  technology: null
+- key: naming_and_dns
+  name: Resource naming and DNS
+  description: Naming of resources in distributed systems and the DNS and advanced name systems.
+  evidence:
+  - c19
+  - c23
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: process_granularity
+  name: Process granularity and interaction
+  description: The granularity of processes in distributed systems and the ways in which processes interact.
+  evidence:
+  - c20
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: resource_management
+  name: Resource management in distributed systems
+  description: Management of shared resources across distributed systems, considered from the perspective
+    of resource usage.
+  evidence:
+  - c21
+  share: 0.05
+  level: advanced
+  kind: technique
+  technology: null
+- key: distributed_file_systems
+  name: Distributed file systems
+  description: File system organisation and access in distributed operating systems.
+  evidence:
+  - c22
+  share: 0.05
+  level: advanced
+  kind: concept
+  technology: null
+not_topics:
+- id: c6.6
+  reason: Organisational requirement to attend labs; it describes study habits rather than teachable content.

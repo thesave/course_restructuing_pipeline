@@ -1,0 +1,129 @@
+format: extraction/1
+course: '90730'
+title: Social Network Analysis
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 14.1
+  usage:
+    prompt_tokens: 3966
+    completion_tokens: 3179
+    cache_read_tokens: 1854
+    thinking_tokens: 1905
+  created: '2026-11-04T18:22:00+00:00'
+topics:
+- key: network_representation
+  name: Network representation and matrices
+  description: Representing networks as graphs and adjacency matrices, with the types of networks, paths,
+    components, ways and modes, and matrix operations.
+  evidence:
+  - c4
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: network_research_design
+  name: Network research design and paper reading
+  description: Introduction to network analysis and its uses across disciplines, plus research design,
+    the scientific publication process and how to critically read network analysis papers.
+  evidence:
+  - c2
+  - c3
+  - o1
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: network_data_collection
+  name: Network data collection and management
+  description: Formulating network questions, collecting reliable relational data, handling data formats
+    and transformations, and using algorithms and software for network analysis and visualisation.
+  evidence:
+  - c5
+  share: 0.09
+  level: introductory
+  kind: technique
+  technology: null
+- key: node_centrality_measures
+  name: Node centrality measures
+  description: Degree, hubs and authorities, PageRank, closeness and betweenness centrality as measures
+    of node importance, together with the kinds of measures and nominal, ordinal and scalar scales.
+  evidence:
+  - c6
+  - c7
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+- key: group_cohesion_and_clustering
+  name: Group cohesion and clustering
+  description: Cliques, cores, components and k-components, clustering and clustering coefficients, reciprocity,
+    transitivity, triad census, cohesion and core-periphery structure.
+  evidence:
+  - c6
+  - c7
+  - c9
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: node_similarity_and_homophily
+  name: Node similarity, equivalence and homophily
+  description: Structural and other types of equivalence, similarity between nodes, homophily and assortative
+    mixing by node attributes.
+  evidence:
+  - c6
+  - c7
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: hypothesis_testing_networks
+  name: Hypothesis testing in networks
+  description: The role of hypotheses in the scientific method and how to test network hypotheses, including
+    permutation tests and dyadic hypotheses.
+  evidence:
+  - c8
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: random_and_scale_free_networks
+  name: Random graphs, small-world and scale-free networks
+  description: Small-world effects, degree distributions, power laws and scale-free networks, random graphs,
+    giant and small components, and locally tree-like networks.
+  evidence:
+  - c9
+  share: 0.13
+  level: intermediate
+  kind: concept
+  technology: null
+- key: network_visualisation
+  name: Network visualisation
+  description: Graph-layout algorithms, embedding node and tie attributes, node filtering, visualising
+    ego networks and network change over time.
+  evidence:
+  - c10
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: handling_large_networks
+  name: Handling large networks
+  description: Reducing the size of network problems through edge elimination, node pruning, divide and
+    conquer, aggregation and sampling.
+  evidence:
+  - c11
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Organisational remark that the programme is the same for attending and non-attending students;
+    no teachable content.

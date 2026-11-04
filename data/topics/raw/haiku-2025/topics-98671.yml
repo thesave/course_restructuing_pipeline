@@ -1,0 +1,86 @@
+format: extraction/1
+course: '98671'
+title: Business Analytics
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 11.3
+  usage:
+    prompt_tokens: 2954
+    completion_tokens: 2260
+    cache_read_tokens: 1854
+    thinking_tokens: 1523
+  created: '2026-11-04T18:28:14+00:00'
+topics:
+- key: database_architecture
+  name: Database architecture and management
+  description: Architecture of databases and data warehouses that feed corporate BI and BA reports, and
+    how they are managed.
+  evidence:
+  - c1
+  - o2
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: etl_principles
+  name: Extract, transform and load
+  description: Principles and techniques for extracting data from heterogeneous sources, cleaning and
+    transforming it, and loading it into an analytical store.
+  evidence:
+  - c2
+  - o4
+  share: 0.18
+  level: intermediate
+  kind: technique
+  technology: null
+- key: dimensional_data_modeling
+  name: Dimensional data modeling
+  description: Data modeling techniques for analytical databases, such as fact and dimension tables and
+    star schemas, used to structure data for reporting.
+  evidence:
+  - c3
+  share: 0.18
+  level: intermediate
+  kind: technique
+  technology: null
+- key: data_visualization_design
+  name: Data visualization design
+  description: Choice and design of charts, tables and dashboard layouts that communicate business data
+    clearly in reports.
+  evidence:
+  - c4
+  - o1
+  share: 0.14
+  level: introductory
+  kind: technique
+  technology: null
+- key: bi_report_sharing
+  name: BI report sharing
+  description: Techniques for publishing, distributing and sharing BI reports across an organization,
+    and the design choices and technologies involved.
+  evidence:
+  - c5
+  - o1
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: descriptive_predictive_prescriptive_analytics
+  name: Descriptive, predictive and prescriptive analytics
+  description: Descriptive, predictive and prescriptive business analytics, and their calculations included
+    in BI reports using Power BI and R.
+  evidence:
+  - c6
+  - o1
+  - o3
+  share: 0.26
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

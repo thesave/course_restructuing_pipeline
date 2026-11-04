@@ -1,0 +1,148 @@
+format: extraction/1
+course: B0009
+title: Advanced Software Modelling and Design
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 18.0
+  usage:
+    prompt_tokens: 3294
+    completion_tokens: 3860
+    cache_read_tokens: 1854
+    thinking_tokens: 2571
+  created: '2026-11-04T18:28:33+00:00'
+topics:
+- key: system_programming_patterns
+  name: System programming patterns
+  description: Component programming, monads and effect handling for building complex domain logic in
+    Java and Scala.
+  evidence:
+  - c6.1
+  - c3
+  - o2.2
+  share: 0.1
+  level: advanced
+  kind: technique
+  technology: Java and Scala
+- key: test_driven_development
+  name: Test-driven development
+  description: Test-driven, acceptance test-driven and behaviour-driven development workflows, together
+    with testing coverage criteria.
+  evidence:
+  - c6.2
+  - o2.3
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: property_based_testing
+  name: Property-based testing
+  description: Specifying system properties and generating test inputs automatically to check them, as
+    an alternative to example-based tests.
+  evidence:
+  - c6.2
+  - o2.3
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: model_checking
+  name: Model checking
+  description: Systematic verification of system models through model checking, including its probabilistic
+    and approximate variants.
+  evidence:
+  - c6.3
+  - o2.3
+  share: 0.1
+  level: advanced
+  kind: technique
+  technology: null
+- key: system_simulation
+  name: Simulation of distributed cyber-physical systems
+  description: Simulating large distributed cyber-physical systems to validate their behaviour and requirements.
+  evidence:
+  - c5
+  - c6.3
+  - o2.3
+  share: 0.08
+  level: advanced
+  kind: technique
+  technology: null
+- key: large_scale_system_modelling
+  name: Large-scale system modelling
+  description: Modelling large-scale distributed systems with Petri nets, non-determinism, networks of
+    devices and chemical-oriented models.
+  evidence:
+  - c2
+  - c6.4
+  - o2.1
+  share: 0.12
+  level: advanced
+  kind: concept
+  technology: null
+- key: markov_chains
+  name: Markov chains
+  description: Discrete-time and continuous-time Markov chains as models of probabilistic and adaptive
+    system behaviour.
+  evidence:
+  - c6.5
+  - o2.1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: aggregate_computing
+  name: Aggregate computing
+  description: Self-organisation and macro-programming of large device collections through aggregate computing
+    patterns.
+  evidence:
+  - c2
+  - c6.6
+  - o2.2
+  share: 0.1
+  level: advanced
+  kind: technique
+  technology: null
+- key: markov_decision_processes
+  name: Markov decision processes
+  description: Modelling sequential decision making under uncertainty with Markov decision processes.
+  evidence:
+  - c4
+  - c6.7
+  - o2.1
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: reinforcement_learning
+  name: Reinforcement learning
+  description: Learning decision policies through reinforcement learning, including deep and multiagent
+    variants, for intelligent system components.
+  evidence:
+  - c4
+  - c6.7
+  - o2.1
+  share: 0.1
+  level: advanced
+  kind: technique
+  technology: null
+- key: llm_program_synthesis
+  name: LLM-based program synthesis
+  description: Using large language models for program completion and synthesis and assessing their role
+    in software testing.
+  evidence:
+  - c4
+  - c6.8
+  - o2.2
+  share: 0.1
+  level: advanced
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Framing sentence that organises the course around the listed topics and modules; it has no teachable
+    content of its own.

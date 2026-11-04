@@ -1,0 +1,146 @@
+format: extraction/1
+course: '95605'
+title: Web and Mobile Systems
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 22.6
+  usage:
+    prompt_tokens: 7542
+    completion_tokens: 5190
+    cache_read_tokens: 3708
+    thinking_tokens: 2360
+  created: '2026-11-04T18:25:44+00:00'
+topics:
+- key: web_and_mobile_evolution
+  name: Evolution of web and mobile technologies
+  description: How the Web and mobile technologies have developed over time, from early static pages and
+    feature phones to modern dynamic web and smartphone ecosystems.
+  evidence:
+  - c2.1
+  - o1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: mobile_operating_systems
+  name: Mobile operating systems
+  description: An introduction to the main mobile operating systems, their architecture, and the mobile
+    ecosystem they define for apps and developers.
+  evidence:
+  - c2.2
+  - c1
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: web_and_mobile_architectures
+  name: Web and mobile architectures
+  description: Client-server and distributed architectures of web and mobile applications, including the
+    roles of clients, servers, and back-end services.
+  evidence:
+  - c2.3
+  - o1
+  - o3
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: http_and_uri
+  name: HTTP and URI
+  description: The HTTP protocol (requests, responses, methods, status codes) and URI addressing as the
+    core web standards that connect clients and servers.
+  evidence:
+  - c2.4
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: web_document_markup
+  name: Web document markup with HTML5
+  description: Structuring web documents with HTML5 elements, attributes, and semantic markup, as used
+    in the web module of the course.
+  evidence:
+  - c2.4
+  - c1
+  - o3
+  share: 0.1
+  level: introductory
+  kind: language
+  technology: HTML5
+- key: web_document_styling
+  name: Web document styling and layout
+  description: Styling and layout of web documents with selectors, the box model, and presentation rules,
+    as taught in the CSS3 part of the web module.
+  evidence:
+  - c2.4
+  - c1
+  - o3
+  share: 0.08
+  level: introductory
+  kind: language
+  technology: CSS3
+- key: web_development_frameworks
+  name: Web development frameworks and tools
+  description: Platforms, frameworks, and tools used to design and develop websites and web applications.
+  evidence:
+  - c2.5
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: tool
+  technology: null
+- key: mobile_development_platforms
+  name: Mobile development frameworks and tools
+  description: Platforms, frameworks, and tools used to design and develop mobile applications across
+    the main mobile ecosystems.
+  evidence:
+  - c2.5
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: tool
+  technology: null
+- key: human_computer_interaction
+  name: Human-computer interaction principles
+  description: Human-computer interaction methodologies and principles that guide the design of usable
+    and friendly user interfaces.
+  evidence:
+  - c2.6
+  - o3
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: web_user_interface_design
+  name: Web user interface and interaction design
+  description: Designing interaction and user interfaces for websites and web applications following HCI
+    methodologies.
+  evidence:
+  - c2.6
+  - o3
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: mobile_user_interface_design
+  name: Mobile user interface and interaction design
+  description: Designing interaction and user interfaces for mobile apps, taking into account mobile constraints
+    and platform conventions.
+  evidence:
+  - c2.6
+  - o3
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c2
+  reason: Heading that only introduces the list of main contents; the teachable items are its sub-items
+    c2.1 to c2.6, which are covered by topics.

@@ -1,0 +1,133 @@
+format: extraction/1
+course: '88324'
+title: System Administration T
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 24.5
+  usage:
+    prompt_tokens: 8468
+    completion_tokens: 5552
+    cache_read_tokens: 3708
+    thinking_tokens: 2809
+  created: '2026-11-04T18:21:09+00:00'
+topics:
+- key: unix_users_and_permissions
+  name: Unix user accounts and file permissions
+  description: Creating and managing local user and group accounts and the authorization mechanisms (ownership,
+    permission bits, access control) on the Unix filesystem in GNU/Linux.
+  evidence:
+  - c2.1
+  - o3
+  share: 0.12
+  level: introductory
+  kind: technique
+  technology: Linux
+- key: process_resource_monitoring
+  name: Process control and resource monitoring
+  description: Command-line tools to inspect and configure processes and to monitor CPU, memory, disk
+    and other resource usage on a GNU/Linux system.
+  evidence:
+  - c2.1
+  - o3
+  share: 0.08
+  level: introductory
+  kind: tool
+  technology: Linux
+- key: system_daemons_and_automation
+  name: System daemons, scheduling and logging
+  description: Standard daemons that automate administration tasks, namely scheduled execution of jobs,
+    system logging, and related hardware set-up on GNU/Linux.
+  evidence:
+  - c2.1
+  - o1
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: Linux
+- key: network_interface_and_routing
+  name: Network interface, routing and connection monitoring
+  description: Configuring network interfaces and routing tables on GNU/Linux and using tools to monitor
+    network connections.
+  evidence:
+  - c2.2
+  - o3
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: Linux
+- key: snmp_centralized_monitoring
+  name: Centralized monitoring with SNMP
+  description: Overview of platforms used for monitoring large or heterogeneous installations and the
+    SNMP protocol for collecting device information.
+  evidence:
+  - c2.3
+  - o3
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: automatic_network_configuration
+  name: Automatic network configuration protocols
+  description: Practical use of RARP, BOOTP, DHCP and DNS to configure hosts and resolve names automatically
+    over the network.
+  evidence:
+  - c2.4
+  - o3
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: ldap_centralized_authentication
+  name: Centralized authentication with LDAP
+  description: Using LDAP as a directory service for centralized user authentication across networked
+    systems.
+  evidence:
+  - c2.4
+  - o3
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: high_availability_concepts
+  name: Availability in distributed systems
+  description: Basic concepts of availability and high availability in distributed systems.
+  evidence:
+  - c2.4
+  - o1
+  share: 0.04
+  level: introductory
+  kind: concept
+  technology: null
+- key: configuration_as_code
+  name: Configuration as code for virtual systems
+  description: Automated creation and configuration of virtual machines and infrastructure using OpenTofu,
+    Vagrant and Ansible, with the skills to automate administration at scale.
+  evidence:
+  - c2.5
+  - o1
+  - o4
+  share: 0.14
+  level: advanced
+  kind: technique
+  technology: null
+- key: shell_scripting
+  name: Shell scripting for administration
+  description: Writing Bash shell programs to automate the administration tasks practised throughout the
+    course.
+  evidence:
+  - c3
+  - o4
+  share: 0.2
+  level: introductory
+  kind: language
+  technology: Bash
+not_topics:
+- id: c1
+  reason: Statement of the course goal; no teachable content of its own.
+- id: c2
+  reason: Structural heading listing the five areas; each area is covered by its own item (c2.1–c2.5).

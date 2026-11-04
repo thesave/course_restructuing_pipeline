@@ -1,0 +1,117 @@
+format: extraction/1
+course: '90074'
+title: Smart Vehicular Systems
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 19.1
+  usage:
+    prompt_tokens: 3847
+    completion_tokens: 4320
+    cache_read_tokens: 1854
+    thinking_tokens: 3141
+  created: '2026-11-04T18:21:28+00:00'
+topics:
+- key: autonomy_levels_adas
+  name: Autonomy levels and ADAS scenarios
+  description: Covers the range of vehicle automation from Advanced Driver Assistance Systems to full
+    autonomous driving, the current early-stage state of the technology, and why no universal solution
+    exists.
+  evidence:
+  - c3
+  - c5.3.1
+  - o1.1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: vehicle_sensing
+  name: Vehicle sensing
+  description: Covers the sensors used by autonomous and connected vehicles and their selection according
+    to system requirements.
+  evidence:
+  - c4
+  - c5.3.3
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: perception_machine_learning
+  name: Perception with machine learning
+  description: Covers how vehicles interpret sensor data to detect and track objects and the scene, using
+    machine learning and sensor processing methods, practised in the laboratory.
+  evidence:
+  - c4
+  - c5.2
+  - c5.3.3
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: motion_planning_control
+  name: Decision-making, motion planning and control
+  description: Covers how an autonomous vehicle decides its behaviour and plans and executes trajectories
+    through planning and control algorithms, practised in the laboratory.
+  evidence:
+  - c4
+  - c5.2
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: v2x_communication
+  name: V2V and V2I communication
+  description: Covers vehicle-to-vehicle and vehicle-to-infrastructure communication and how mobility
+    and wireless propagation affect the performance of vehicular systems.
+  evidence:
+  - c4
+  - o1.1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: networked_vehicular_architectures
+  name: Networked vehicular architectures
+  description: Covers distributed systems and networking architectures for connected vehicles that go
+    beyond traditional Internet models.
+  evidence:
+  - c5.3.2
+  share: 0.08
+  level: advanced
+  kind: concept
+  technology: null
+- key: connected_system_design
+  name: Design of connected autonomous systems
+  description: Covers analysing the requirements of an autonomous system and selecting sensing, perception,
+    communication and computation architectures, along with how such systems are designed, deployed and
+    validated.
+  evidence:
+  - c5.1
+  - c5.3.3
+  share: 0.12
+  level: advanced
+  kind: technique
+  technology: null
+- key: digital_twin_simulation
+  name: Digital Twin simulation with CARLA
+  description: Covers Digital Twin methodologies for modelling and simulating vehicles and environments,
+    with hands-on experiments in the CARLA simulator and experimental platforms.
+  evidence:
+  - c4
+  - c5.2
+  - c5.3.4
+  share: 0.22
+  level: intermediate
+  kind: technique
+  technology: CARLA
+not_topics:
+- id: c1
+  reason: Motivational statement about the societal impact of autonomy, mobility and AI; contains no teachable
+    content.
+- id: c2
+  reason: General course overview describing the survey's goal; organisational framing rather than a teachable
+    topic.

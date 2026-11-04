@@ -1,0 +1,86 @@
+format: extraction/1
+course: '58348'
+title: Lab-based Course on Operating Systems
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 12.1
+  usage:
+    prompt_tokens: 2735
+    completion_tokens: 2302
+    cache_read_tokens: 1854
+    thinking_tokens: 1629
+  created: '2026-11-04T18:13:55+00:00'
+topics:
+- key: threads
+  name: Threads
+  description: Creating and running threads in Java, covering thread lifecycle and how threads share a
+    process's memory.
+  evidence:
+  - c1
+  - c2
+  share: 0.15
+  level: intermediate
+  kind: concept
+  technology: Java
+- key: process_synchronization
+  name: Process synchronization
+  description: Coordinating concurrent processes and threads through mutual exclusion and synchronization
+    primitives to avoid race conditions.
+  evidence:
+  - c1
+  - c3
+  - o1
+  share: 0.2
+  level: intermediate
+  kind: technique
+  technology: null
+- key: network_communication_primitives
+  name: Network communication primitives
+  description: Low-level primitives for exchanging data between processes over a network, such as sockets
+    and message passing.
+  evidence:
+  - c1
+  - c4
+  share: 0.15
+  level: intermediate
+  kind: technique
+  technology: null
+- key: client_server_programming
+  name: Client-server programming
+  description: Designing and implementing client and server programs that communicate over the network
+    using request-response interaction.
+  evidence:
+  - c1
+  - c6
+  share: 0.2
+  level: intermediate
+  kind: technique
+  technology: null
+- key: shell_usage
+  name: Shell usage
+  description: Using the Unix shell interactively to run commands, redirect input and output, and combine
+    programs with pipelines.
+  evidence:
+  - c1
+  - c5
+  share: 0.1
+  level: introductory
+  kind: tool
+  technology: Unix shell
+- key: shell_scripting
+  name: Shell scripting
+  description: Writing shell programs with variables, control structures and parameters to automate operating
+    system tasks.
+  evidence:
+  - c1
+  - c5
+  share: 0.2
+  level: introductory
+  kind: language
+  technology: Unix shell
+not_topics: []

@@ -1,0 +1,150 @@
+format: extraction/1
+course: '29227'
+title: Foundations of Informatics T
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 22.9
+  usage:
+    prompt_tokens: 3560
+    completion_tokens: 5192
+    cache_read_tokens: 1854
+    thinking_tokens: 3675
+  created: '2026-11-04T18:12:30+00:00'
+topics:
+- key: computer_systems_history
+  name: Computer systems and history
+  description: History of informatics, the von Neumann architecture, modern hardware devices and basic
+    operating system concepts.
+  evidence:
+  - c1.1
+  share: 0.056
+  level: introductory
+  kind: concept
+  technology: null
+- key: algorithms_and_computability
+  name: Algorithms, computability and formal grammars
+  description: The concept of algorithm, Turing's specific and universal machines, computable and non-computable
+    functions, high- and low-level languages, and syntax definition with EBNF grammars.
+  evidence:
+  - c1.2
+  share: 0.069
+  level: introductory
+  kind: concept
+  technology: null
+- key: basic_types_and_expressions
+  name: Basic types, variables and expressions in C
+  description: Values, data types, constants, variables, operators and expressions of the C language.
+  evidence:
+  - c1.3
+  share: 0.083
+  level: introductory
+  kind: language
+  technology: C
+- key: pointers
+  name: Pointers in C
+  description: Pointer declaration, address and dereference operators, and pointer use with variables,
+    arrays and functions in C.
+  evidence:
+  - c1.3
+  share: 0.069
+  level: intermediate
+  kind: language
+  technology: C
+- key: arrays_strings_structures
+  name: Arrays, strings and structures in C
+  description: Declaration and use of arrays and character strings, and definition of structured data
+    types with structures in C.
+  evidence:
+  - c1.3
+  share: 0.083
+  level: intermediate
+  kind: language
+  technology: C
+- key: control_structures_and_functions
+  name: Control structures and functions in C
+  description: Structured and procedural programming in C, covering control instructions, function and
+    procedure definition and calls.
+  evidence:
+  - c1.4
+  share: 0.083
+  level: introductory
+  kind: language
+  technology: C
+- key: input_output_streams
+  name: Input/output and file access in C
+  description: Standard I/O primitives, the stream abstraction and reading and writing of files in C.
+  evidence:
+  - c1.5
+  share: 0.069
+  level: introductory
+  kind: language
+  technology: C
+- key: algorithm_design_methodology
+  name: Algorithm design methodology
+  description: Principles for solving small-scale problems, designing iterative and recursive algorithms,
+    and structuring C programs into multiple modules.
+  evidence:
+  - c1.6
+  share: 0.111
+  level: intermediate
+  kind: technique
+  technology: null
+- key: runtime_program_structure
+  name: Runtime structure of C programs
+  description: Runtime representation of C programs, activation records and how function calls are executed.
+  evidence:
+  - c1.7
+  share: 0.056
+  level: intermediate
+  kind: concept
+  technology: C
+- key: dynamic_memory_allocation
+  name: Dynamic memory allocation
+  description: Dynamic allocation of memory for scalar types, structures and arrays, and the problems
+    of memory management and memory leaks in C.
+  evidence:
+  - c1.8
+  share: 0.069
+  level: intermediate
+  kind: technique
+  technology: C
+- key: sorting_algorithms
+  name: Sorting algorithms
+  description: Naive sort, bubble sort, insertion sort, merge sort and quick sort, with their design and
+    comparison.
+  evidence:
+  - c1.9
+  share: 0.097
+  level: intermediate
+  kind: technique
+  technology: null
+- key: abstract_data_types
+  name: 'Abstract data types: lists, queues and stacks'
+  description: Definition of abstract data types through constructors, selectors, predicates and transformers,
+    with lists, queues and stacks as fundamental examples.
+  evidence:
+  - c1.10
+  share: 0.097
+  level: intermediate
+  kind: concept
+  technology: null
+- key: object_oriented_basics
+  name: Basic object-oriented programming in C++
+  description: Basic concepts of object-oriented programming, including structuring a program with classes
+    and objects in C++.
+  evidence:
+  - o2
+  - o3
+  share: 0.056
+  level: intermediate
+  kind: concept
+  technology: C++
+not_topics:
+- id: c1
+  reason: Heading that only groups the list of topics; it has no teachable content of its own, and its
+    sub-items are covered by the topics above.

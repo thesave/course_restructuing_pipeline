@@ -1,0 +1,162 @@
+format: extraction/1
+course: '28027'
+title: Information Systems T
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 28.4
+  usage:
+    prompt_tokens: 8873
+    completion_tokens: 6714
+    cache_read_tokens: 3708
+    thinking_tokens: 3412
+  created: '2026-11-04T18:11:25+00:00'
+topics:
+- key: dbms_architecture
+  name: DBMS architecture and functionalities
+  description: Role of DBMSs within information systems, their three-tier architecture, languages, and
+    basic functions such as access control, concurrency control and fault tolerance.
+  evidence:
+  - c1
+  - o1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: relational_model
+  name: Relational data model
+  description: Domains, attributes, tuples and relations, 1NF, null values, and the data constraints on
+    domains, tuples, keys and referential integrity.
+  evidence:
+  - c2
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: relational_algebra
+  name: Relational algebra
+  description: Unary, binary and derived relational operators, algebra with null values under 3-valued
+    logic and outer joins, and basic equivalence rules for expressions.
+  evidence:
+  - c3
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: query_formulation
+  name: Querying relational data
+  description: Select-from-where blocks, result ordering, aggregate queries, nested queries and recursive
+    queries in SQL.
+  evidence:
+  - c4
+  share: 0.12
+  level: intermediate
+  kind: language
+  technology: SQL
+- key: schema_definition_and_updates
+  name: Schema definition and data modification
+  description: Creating schemas and constraints with SQL DDL, inserting, deleting and updating data, and
+    defining views.
+  evidence:
+  - c4
+  share: 0.08
+  level: intermediate
+  kind: language
+  technology: SQL
+- key: database_triggers
+  name: Database triggers
+  description: Definition and behaviour of triggers as event-condition-action rules in SQL.
+  evidence:
+  - c4
+  share: 0.03
+  level: intermediate
+  kind: language
+  technology: SQL
+- key: access_control_privileges
+  name: Access control privileges
+  description: Granting and revoking authorities and privileges on database objects in SQL.
+  evidence:
+  - c4
+  - c1
+  share: 0.03
+  level: intermediate
+  kind: language
+  technology: SQL
+- key: transactions_and_concurrency
+  name: Transactions and concurrency
+  description: The transaction concept, concurrency control among concurrent transactions, and fault tolerance
+    of database operations.
+  evidence:
+  - c4
+  - c1
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: database_design_methodology
+  name: Database design methodology
+  description: Data-oriented design steps, conceptual and logical data models, abstraction primitives,
+    requirements collection, design strategies and typical design patterns.
+  evidence:
+  - c5
+  - c7
+  share: 0.06
+  level: introductory
+  kind: technique
+  technology: null
+- key: entity_relationship_model
+  name: Entity-Relationship model
+  description: Entities, relationships and attributes in the E-R model, internal and external identifiers,
+    and hierarchies.
+  evidence:
+  - c6
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: er_to_relational_mapping
+  name: E-R to relational mapping
+  description: Mapping E-R entities and relationships onto relational tables, including restructuring
+    such as dropping hierarchies, handling multi-valued attributes and choosing principal identifiers.
+  evidence:
+  - c8
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: logical_schema_optimization
+  name: Logical schema optimization
+  description: Optimizing a logical schema using workload analysis, redundancy analysis, and partitioning
+    or merging of entities and relationships.
+  evidence:
+  - c8
+  share: 0.06
+  level: advanced
+  kind: technique
+  technology: null
+- key: functional_dependencies_normalization
+  name: Functional dependencies and normalization
+  description: Functional dependencies, data anomalies, and normalization to 3NF and BCNF, including how
+    dependencies arise from E-R schemas.
+  evidence:
+  - c9
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: lossless_decomposition
+  name: Lossless and dependency-preserving decomposition
+  description: Decomposing relational schemas while guaranteeing lossless joins and preservation of functional
+    dependencies.
+  evidence:
+  - c9
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

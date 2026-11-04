@@ -1,0 +1,190 @@
+format: extraction/1
+course: '93034'
+title: Foundations of Computer Science T
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 25.0
+  usage:
+    prompt_tokens: 8999
+    completion_tokens: 6345
+    cache_read_tokens: 3708
+    thinking_tokens: 2740
+  created: '2026-11-04T18:24:19+00:00'
+topics:
+- key: computing_systems_basics
+  name: Computing systems basics
+  description: History of informatics, the von Neumann architecture and modern hardware, information representation,
+    and basic operating system concepts.
+  evidence:
+  - c1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: algorithms_and_turing_machines
+  name: Algorithms and Turing machines
+  description: The concept of algorithm, Turing's specific and universal machines, computable versus non-computable
+    functions, and the limits of problem solving.
+  evidence:
+  - c2
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: ebnf_grammars
+  name: Syntax definition with EBNF
+  description: Defining the syntax of programming languages with EBNF grammars, and the distinction between
+    high-level and low-level programming languages.
+  evidence:
+  - c2
+  share: 0.03
+  level: introductory
+  kind: concept
+  technology: null
+- key: basic_types_and_expressions
+  name: C values, types, operators and expressions
+  description: Values, types, constants, variables, operators and expressions in the C language.
+  evidence:
+  - c3
+  share: 0.1
+  level: introductory
+  kind: language
+  technology: C
+- key: pointers
+  name: C pointers
+  description: Pointer declaration, address and dereference operators, and pointer arithmetic in C.
+  evidence:
+  - c3
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: language
+  technology: C
+- key: arrays_and_strings
+  name: C arrays and strings
+  description: Declaring and using arrays and character strings in C, including their relation to pointers.
+  evidence:
+  - c3
+  - o2
+  share: 0.08
+  level: introductory
+  kind: language
+  technology: C
+- key: structures
+  name: C structures
+  description: Defining, declaring and accessing structured data types with struct in C.
+  evidence:
+  - c3
+  share: 0.04
+  level: introductory
+  kind: language
+  technology: C
+- key: control_structures
+  name: C control structures
+  description: Conditional and iterative control instructions in C and structured programming with them.
+  evidence:
+  - c4
+  share: 0.06
+  level: introductory
+  kind: language
+  technology: C
+- key: functions
+  name: C functions and procedures
+  description: Defining and calling functions and procedures in C, with parameter passing and return values.
+  evidence:
+  - c4
+  - o2
+  share: 0.06
+  level: introductory
+  kind: language
+  technology: C
+- key: file_io
+  name: C input and output
+  description: C I/O primitives, stream-based input and output, and reading and writing files.
+  evidence:
+  - c5
+  share: 0.06
+  level: introductory
+  kind: language
+  technology: C
+- key: algorithm_design_methods
+  name: Algorithm design methods
+  description: Principles and methodologies for designing algorithms for small-scale problems, using iteration
+    and recursion.
+  evidence:
+  - c6
+  - o1
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: modular_programming
+  name: Modular C programs
+  description: Structuring a C program into multiple modules, with separate interfaces and implementation
+    files.
+  evidence:
+  - c6
+  - o2
+  share: 0.03
+  level: intermediate
+  kind: technique
+  technology: C
+- key: runtime_structure
+  name: C runtime structure
+  description: Runtime representation of C programs, activation records and how function calls are executed
+    on the stack.
+  evidence:
+  - c7
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: C
+- key: dynamic_memory
+  name: Dynamic memory in C
+  description: Dynamic allocation and release of memory for scalar types, structures and arrays, and the
+    problems of memory management and leaks.
+  evidence:
+  - c8
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: C
+- key: sorting_algorithms
+  name: Sorting algorithms
+  description: Naive sort, bubble sort, insertion sort, merge sort and quick sort, with their design and
+    comparison.
+  evidence:
+  - c9
+  - o1
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: adt_concept
+  name: Abstract data types
+  description: 'The concept of abstract data type, separating type definition from representation, and
+    its operations: constructors, selectors, predicates, functions and transformers.'
+  evidence:
+  - c10
+  - o1
+  share: 0.04
+  level: intermediate
+  kind: concept
+  technology: null
+- key: lists_queues_stacks
+  name: Lists, queues and stacks
+  description: The fundamental abstract data types list, queue and stack, with their operations and typical
+    uses.
+  evidence:
+  - c10
+  - o1
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

@@ -1,0 +1,92 @@
+format: extraction/1
+course: '88155'
+title: Industrial Informatics P
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 11.4
+  usage:
+    prompt_tokens: 3213
+    completion_tokens: 2402
+    cache_read_tokens: 1854
+    thinking_tokens: 1554
+  created: '2026-11-04T18:20:55+00:00'
+topics:
+- key: os_role_and_abstraction
+  name: Operating system role and abstraction
+  description: Role, structure and objectives of an operating system, and how it abstracts CPU, memory,
+    I/O devices and files to provide an execution environment for programs.
+  evidence:
+  - c2
+  - o1
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: processes_and_threads
+  name: Processes and threads
+  description: How programs are represented as processes and threads, how the OS manages their lifecycle
+    and resources, and how multiprogramming is supported.
+  evidence:
+  - c3
+  share: 0.18
+  level: intermediate
+  kind: concept
+  technology: null
+- key: concurrency_synchronization
+  name: Concurrency and synchronization
+  description: Race conditions, mutual exclusion and deadlocks among interacting processes, and the main
+    mechanisms used to coordinate them.
+  evidence:
+  - c4
+  share: 0.17
+  level: intermediate
+  kind: technique
+  technology: null
+- key: cpu_scheduling
+  name: CPU scheduling
+  description: Allocation of processor time by the OS and the evaluation of scheduling policies in terms
+    of performance, fairness and efficiency.
+  evidence:
+  - c5
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+- key: virtual_memory
+  name: Virtual memory, paging and segmentation
+  description: Organisation, allocation and protection of memory through virtual memory, paging and segmentation
+    to support efficient execution.
+  evidence:
+  - c6
+  share: 0.2
+  level: intermediate
+  kind: concept
+  technology: null
+- key: file_systems
+  name: File systems
+  description: Persistent data handled through file abstractions, file operations and the organisation
+    of file systems.
+  evidence:
+  - c7
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: io_management
+  name: I/O management and device access
+  description: How the OS handles hardware devices and their access mechanisms for input/output operations.
+  evidence:
+  - c7
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics:
+- id: c1
+  reason: Module-level overview with no teachable content of its own; the material it introduces is covered
+    by c2 to c7.

@@ -1,0 +1,128 @@
+format: extraction/1
+course: B8561
+title: ARCHITETTURE DEI CALCOLATORI M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 0
+  seconds: 0.0
+  usage: {}
+  created: '2026-11-04T18:14:52+00:00'
+copied_from: '69430'
+topics:
+- key: instruction_level_parallelism
+  name: Instruction-level parallelism and hazards
+  description: Data, control and structural dependencies that limit instruction-level parallelism, the
+    hazards they cause in pipelines, and techniques to avoid them.
+  evidence:
+  - c1.2
+  - o2.1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: dynamic_scheduling_and_speculation
+  name: Superscalar processors and dynamic scheduling
+  description: Superscalar, superpipelined and underpipelined designs, non-blocking architectures, Tomasulo's
+    out-of-order execution and speculative execution as ways to exploit and tolerate latency.
+  evidence:
+  - c1.3
+  - o2.1
+  share: 0.12
+  level: advanced
+  kind: technique
+  technology: null
+- key: ia32_protected_mode_isa
+  name: IA-32 instruction set for protected multitasking
+  description: The Intel IA-32 instruction set architecture features that support multitasking and protected
+    operation, including protection levels and task management.
+  evidence:
+  - c1.1
+  - o2.4
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: IA-32
+- key: multithreading_multicore_virtualisation
+  name: Multithreading, multicore and virtualisation
+  description: Simultaneous multithreading, logical processors, multicore architectures and the basics
+    of hardware-supported virtualisation.
+  evidence:
+  - c1.4
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: memory_hierarchy_performance
+  name: Memory hierarchy goals and performance parameters
+  description: Goals and reference model of the memory hierarchy and the parameters used to quantify its
+    performance.
+  evidence:
+  - c1.5
+  - o2.2
+  - o1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: ia32_memory_management
+  name: IA-32 segmentation, virtual memory and caches
+  description: How the IA-32 architecture organises the memory hierarchy through segmentation, virtual
+    memory, main memory and caches.
+  evidence:
+  - c1.6
+  - o2.2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: IA-32
+- key: cache_organization_policies
+  name: Cache address mapping and policies
+  description: Address mapping, write policies, replacement policies and implementation techniques for
+    caches, together with their performance analysis.
+  evidence:
+  - c1.7
+  - o2.2
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: mesi_cache_coherence
+  name: MESI cache coherence protocol
+  description: The MESI protocol that keeps caches coherent in shared-memory multiprocessors with UMA
+    organisation.
+  evidence:
+  - c1.8
+  - o2.3
+  share: 0.09
+  level: advanced
+  kind: technique
+  technology: null
+- key: uma_numa_memory_organization
+  name: Interleaved memory and UMA/NUMA architectures
+  description: Interleaved memory access over multibyte data buses, Uniform Memory Access organisations
+    and the introduction of NUMA multicore architectures.
+  evidence:
+  - c1.9
+  - c1.10
+  - o2.3
+  share: 0.12
+  level: advanced
+  kind: concept
+  technology: null
+- key: bus_hierarchy_and_dma_io
+  name: Bus hierarchy, protocols and DMA-based I/O
+  description: Bus hierarchy and bus protocols, and multimaster systems using DMA-based I/O with their
+    hardware/software power and performance trade-offs at system level.
+  evidence:
+  - c1.11
+  - c1.12
+  - o2.5
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

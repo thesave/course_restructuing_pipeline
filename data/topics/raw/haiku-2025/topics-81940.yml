@@ -1,0 +1,151 @@
+format: extraction/1
+course: '81940'
+title: Artificial Intelligence
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 14.8
+  usage:
+    prompt_tokens: 3032
+    completion_tokens: 3558
+    cache_read_tokens: 1854
+    thinking_tokens: 2237
+  created: '2026-11-04T18:19:03+00:00'
+topics:
+- key: introduction_to_ai
+  name: Introduction to artificial intelligence
+  description: Overview of the field's goals, history, principal technologies and applications, and the
+    scope of AI as covered in the course.
+  evidence:
+  - c1
+  - c2
+  - o1
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: intelligent_agents
+  name: Intelligent agents
+  description: 'The agent notion: perceiving environments, acting on them, and designing agents that behave
+    rationally.'
+  evidence:
+  - c3
+  - o2
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: uninformed_search
+  name: Uninformed search strategies
+  description: Blind state-space search methods such as breadth-first, depth-first and uniform-cost search,
+    with their properties.
+  evidence:
+  - c4
+  - o1
+  share: 0.1
+  level: introductory
+  kind: technique
+  technology: null
+- key: informed_search
+  name: Informed search strategies
+  description: Heuristic search methods such as best-first and A* search that use problem-specific estimates
+    to guide exploration.
+  evidence:
+  - c5
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: adversarial_search
+  name: Search with adversaries
+  description: Game-playing search with opposing players, including minimax and alpha-beta pruning.
+  evidence:
+  - c6
+  - o1
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: csp_modeling
+  name: Constraint satisfaction problem modeling
+  description: 'Basic notions of constraints and CSPs: variables, domains, constraints, and how to formulate
+    problems as CSPs and solve them.'
+  evidence:
+  - c7
+  - o3
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: constraint_programming
+  name: Constraint programming with MiniZinc
+  description: Modeling and solving simple constraint and optimization problems in the MiniZinc constraint
+    modeling language.
+  evidence:
+  - c9
+  - o3
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: MiniZinc
+- key: logic_programming
+  name: Logic programming
+  description: Declarative programming with logical rules and facts, and the inference mechanisms used
+    to answer queries.
+  evidence:
+  - c8
+  - o1
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: introduction_to_machine_learning
+  name: Introduction to machine learning
+  description: Basic concepts of learning from data, including the main learning paradigms and the learning
+    problem setup.
+  evidence:
+  - c10
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: neural_networks
+  name: Sub-symbolic computation and neural networks
+  description: Sub-symbolic computation with artificial neural networks, their architecture, training
+    and use for prediction.
+  evidence:
+  - c11
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: large_language_models
+  name: Large language models
+  description: Architecture, training and capabilities and limitations of large language models as a current
+    AI technology.
+  evidence:
+  - c12
+  - o1
+  share: 0.07
+  level: advanced
+  kind: concept
+  technology: null
+- key: philosophy_and_future_of_ai
+  name: Philosophical aspects and future challenges of AI
+  description: Philosophical questions about machine intelligence and the open challenges and societal
+    implications for the future of AI.
+  evidence:
+  - c13
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+not_topics: []

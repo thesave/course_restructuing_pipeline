@@ -1,0 +1,71 @@
+format: extraction/1
+course: '93333'
+title: Programming Lab
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 8.1
+  usage:
+    prompt_tokens: 2846
+    completion_tokens: 1503
+    cache_read_tokens: 1854
+    thinking_tokens: 902
+  created: '2026-11-04T18:24:09+00:00'
+topics:
+- key: computational_thinking
+  name: Computational thinking
+  description: Decomposing problems, abstraction and designing step-by-step solutions that a computer
+    can execute, independent of any programming language.
+  evidence:
+  - c1
+  share: 0.083
+  level: introductory
+  kind: concept
+  technology: null
+- key: names_and_scope
+  name: Functions and variable scope in Python
+  description: Defining and calling Python functions, with attention to how names are bound and where
+    they are visible (local versus global scope).
+  evidence:
+  - c2
+  share: 0.167
+  level: introductory
+  kind: concept
+  technology: Python
+- key: basic_data_types
+  name: Basic Python data types
+  description: Numbers, strings, lists and dictionaries in Python, with the distinction between editable
+    (mutable) and non-editable (immutable) objects.
+  evidence:
+  - c2
+  - o1
+  share: 0.292
+  level: introductory
+  kind: language
+  technology: Python
+- key: branching_and_iteration
+  name: Branching and iteration
+  description: Conditional instructions and loops (for and while) in Python used to control the flow of
+    execution of a program.
+  evidence:
+  - c3
+  share: 0.25
+  level: introductory
+  kind: language
+  technology: Python
+- key: sorting_algorithms
+  name: Sorting algorithms
+  description: Implementing and comparing classic algorithms that order a collection of elements, using
+    loops, conditionals and lists.
+  evidence:
+  - c4
+  - o2
+  share: 0.208
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

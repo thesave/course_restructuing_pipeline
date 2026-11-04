@@ -1,0 +1,109 @@
+format: extraction/1
+course: '85301'
+title: Algorithms and Data Structures in Biology
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 16.3
+  usage:
+    prompt_tokens: 2909
+    completion_tokens: 3703
+    cache_read_tokens: 1854
+    thinking_tokens: 2758
+  created: '2026-11-04T18:19:57+00:00'
+topics:
+- key: algorithm_complexity
+  name: Algorithm complexity and asymptotic notation
+  description: Defining algorithms and measuring their running time with asymptotic (Big-O style) notation
+    to analyse efficiency.
+  evidence:
+  - c1
+  - o1
+  - o3
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: recursive_and_iterative_algorithms
+  name: Recursive and iterative algorithms
+  description: Writing and comparing recursive and iterative formulations of algorithms and reasoning
+    about their correctness and cost.
+  evidence:
+  - c1
+  - o2
+  share: 0.1
+  level: introductory
+  kind: technique
+  technology: null
+- key: exhaustive_search
+  name: Exhaustive search for biological problems
+  description: Solving biological tasks such as restriction mapping and motif finding by systematically
+    enumerating all candidate solutions.
+  evidence:
+  - c2
+  - o3
+  share: 0.16
+  level: introductory
+  kind: technique
+  technology: null
+- key: greedy_algorithms
+  name: Greedy algorithms and approximation
+  description: Building solutions by locally optimal choices and analysing approximate greedy algorithms
+    and their quality guarantees.
+  evidence:
+  - c3
+  - o3
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: sorting_by_reversals
+  name: Sorting by reversals
+  description: Applying greedy reversal strategies to transform genome orderings with the minimum number
+    of reversals.
+  evidence:
+  - c3
+  - o3
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: dynamic_programming
+  name: Dynamic programming
+  description: Solving optimisation problems by decomposing them into overlapping subproblems, including
+    Manhattan-distance grid path problems.
+  evidence:
+  - c4
+  - o3
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: edit_distance
+  name: Edit distance
+  description: Computing the minimum number of edit operations between two biological sequences with dynamic
+    programming.
+  evidence:
+  - c4
+  - o3
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: divide_and_conquer
+  name: Divide and conquer
+  description: Designing algorithms that split a problem into independent subproblems, solve them recursively
+    and combine the results, and analysing their cost.
+  evidence:
+  - c5
+  - o1
+  - o3
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

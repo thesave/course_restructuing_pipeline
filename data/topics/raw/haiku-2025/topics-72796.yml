@@ -1,0 +1,91 @@
+format: extraction/1
+course: '72796'
+title: Data Intensive Applications
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 18.8
+  usage:
+    prompt_tokens: 7034
+    completion_tokens: 3815
+    cache_read_tokens: 3708
+    thinking_tokens: 2010
+  created: '2026-11-04T18:15:57+00:00'
+topics:
+- key: data_analysis_libraries
+  name: Data analysis libraries
+  description: Using Python's core data libraries to load, manipulate and summarise data as the working
+    environment for the course.
+  evidence:
+  - c1
+  - o1
+  share: 0.12
+  level: introductory
+  kind: tool
+  technology: Python
+- key: data_science_foundations
+  name: Data science foundations
+  description: The data science workflow together with the basic statistics, probability and linear algebra
+    needed to reason about data and models.
+  evidence:
+  - c1
+  share: 0.13
+  level: introductory
+  kind: concept
+  technology: null
+- key: structured_and_unstructured_data_processing
+  name: Structured and unstructured data processing
+  description: Methods to prepare, clean and transform both tabular (structured) data and text or other
+    unstructured data so that it can feed machine learning models.
+  evidence:
+  - c1
+  - o1
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+- key: basic_machine_learning_algorithms
+  name: Basic machine learning algorithms
+  description: Foundational supervised and unsupervised learning algorithms, such as regression, nearest
+    neighbours, decision trees and clustering, together with how their models are evaluated.
+  evidence:
+  - c1
+  share: 0.2
+  level: intermediate
+  kind: technique
+  technology: null
+- key: neural_networks
+  name: Neural networks
+  description: The architecture, training and use of feed-forward neural networks, building on the basic
+    learning algorithms and their optimisation.
+  evidence:
+  - c1
+  share: 0.2
+  level: intermediate
+  kind: concept
+  technology: null
+- key: ai_application_development
+  name: AI application development
+  description: Designing and building intelligent applications of corporate interest by combining data
+    processing and machine learning models implemented in Python.
+  evidence:
+  - c1
+  - o1
+  share: 0.22
+  level: intermediate
+  kind: technique
+  technology: Python
+not_topics:
+- id: c2
+  reason: Heading 'Course Content Details' only introduces the content list; it has no teachable content
+    of its own.
+- id: c3
+  reason: Organisational remark on the course format (lectures and laboratories), not a topic.
+- id: c4
+  reason: Course website link; administrative information, not teachable content.
+- id: c5
+  reason: Access instructions for course materials; administrative information, not teachable content.

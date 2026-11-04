@@ -1,0 +1,87 @@
+format: extraction/1
+course: '88145'
+title: Fundamentals of Computer Programming P1
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 25.0
+  usage:
+    prompt_tokens: 7273
+    completion_tokens: 5443
+    cache_read_tokens: 3708
+    thinking_tokens: 3735
+  created: '2026-11-04T18:21:06+00:00'
+topics:
+- key: computer_systems_and_toolchain
+  name: Computer systems and development toolchain
+  description: Introduction to computers, programming and algorithms, machine language and architecture,
+    cross-compilation and embedded programming, and operating system principles such as scheduling, time
+    sharing and file systems.
+  evidence:
+  - c1.1
+  - c1.2
+  - c1.12
+  - c1.13
+  share: 0.16
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_and_control_flow
+  name: C data types, representation and control flow
+  description: Numerical data, variables, constants and identifiers in C, the representation of numbers
+    and characters, and elementary instructions with flow control and basic input/output.
+  evidence:
+  - c1.3
+  - c1.4
+  - c1.5
+  share: 0.24
+  level: introductory
+  kind: language
+  technology: C
+- key: arrays_strings_and_aggregates
+  name: Arrays, strings, matrices and aggregate types in C
+  description: Vectors, character strings and matrices in C, together with aggregate types such as structures
+    and unions.
+  evidence:
+  - c1.6
+  - c1.8
+  share: 0.16
+  level: intermediate
+  kind: language
+  technology: C
+- key: functions_libraries_and_files
+  name: Functions, standard libraries and file management in C
+  description: Defining and calling functions, using the standard language libraries, and reading and
+    writing files and command line arguments in C programs.
+  evidence:
+  - c1.7
+  - c1.9
+  share: 0.16
+  level: intermediate
+  kind: language
+  technology: C
+- key: searching_and_sorting_algorithms
+  name: Searching and sorting algorithms on vectors
+  description: Main algorithms for searching and sorting arrays, their identification for classical problems
+    and their implementation in C.
+  evidence:
+  - c1.10
+  share: 0.18
+  level: intermediate
+  kind: technique
+  technology: C
+- key: dynamic_allocation_and_recursion
+  name: Dynamic allocation and recursion
+  description: An outline of dynamic memory allocation in C and of recursive functions as a problem-solving
+    technique.
+  evidence:
+  - c1.11
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: C
+not_topics: []

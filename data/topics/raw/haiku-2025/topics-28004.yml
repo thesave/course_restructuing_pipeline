@@ -1,0 +1,163 @@
+format: extraction/1
+course: '28004'
+title: Foundations of Informatics T-1
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 25.6
+  usage:
+    prompt_tokens: 7971
+    completion_tokens: 5874
+    cache_read_tokens: 3708
+    thinking_tokens: 3063
+  created: '2026-11-04T18:10:39+00:00'
+topics:
+- key: von_neumann_architecture
+  name: Von Neumann architecture
+  description: General architecture of a computer and the stored-program Von Neumann machine model.
+  evidence:
+  - c1
+  - c2
+  - c3
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: memory_devices
+  name: Memory devices
+  description: Types of computer memory devices and their role in the storage organisation of a computer.
+  evidence:
+  - c1
+  - c4
+  - o1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: operating_systems
+  name: Computer software and operating systems
+  description: Classification of computer software and the role of the operating system between hardware
+    and applications.
+  evidence:
+  - c5
+  - c6
+  - o1
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: program_development_tools
+  name: Program development tools and phases
+  description: Tools for writing and running programs (editors, debuggers, compilers, interpreters) and
+    the phases of developing a program.
+  evidence:
+  - c7
+  - c8
+  - o2
+  share: 0.06
+  level: introductory
+  kind: tool
+  technology: null
+- key: problem_solving_and_algorithms
+  name: Problem solving methods and algorithms
+  description: Methods for solving problems and the design of algorithms for low-complexity problems.
+  evidence:
+  - c9
+  - c10
+  - c11
+  - o2
+  share: 0.08
+  level: introductory
+  kind: technique
+  technology: null
+- key: structured_modular_programming
+  name: Structured and modular programming
+  description: Methodologies for structuring a program into modular units, such as functions and procedures.
+  evidence:
+  - c9
+  - c12
+  - o2
+  share: 0.08
+  level: introductory
+  kind: technique
+  technology: null
+- key: iteration_and_recursion
+  name: Iteration and recursion
+  description: Iterative and recursive control structures for repeating computations and their use in
+    solving problems.
+  evidence:
+  - c13
+  - o2
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: programming_language_concepts
+  name: Programming language concepts
+  description: History and main concepts of programming languages and the distinction between syntax and
+    semantics.
+  evidence:
+  - c14
+  - c15
+  - c16
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: object_oriented_paradigm
+  name: Object-oriented paradigm
+  description: Introduction to object-oriented programming and its principles as a way to structure small
+    programs.
+  evidence:
+  - c18
+  - c19
+  - o3
+  - o4
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: language_fundamentals
+  name: Java language fundamentals
+  description: Basic constructs of the Java language and writing and running simple Java programs.
+  evidence:
+  - c17
+  - c20
+  - o3
+  - o4
+  share: 0.13
+  level: introductory
+  kind: language
+  technology: Java
+- key: inheritance
+  name: Inheritance
+  description: Inheritance between classes in Java and the reuse of code across class hierarchies.
+  evidence:
+  - c17
+  - c22
+  - o3
+  - o4
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: Java
+- key: collections_and_data_structures
+  name: Algorithms and data structures implementation
+  description: Implementation of algorithms and basic and advanced data structures within object-oriented
+    Java programs.
+  evidence:
+  - c17
+  - c21
+  - c23
+  - o3
+  - o4
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: Java
+not_topics: []

@@ -1,0 +1,133 @@
+format: extraction/1
+course: '96859'
+title: Embedded Systems and Internet of Things
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 22.9
+  usage:
+    prompt_tokens: 3860
+    completion_tokens: 5531
+    cache_read_tokens: 1854
+    thinking_tokens: 4309
+  created: '2026-11-04T18:27:58+00:00'
+topics:
+- key: embedded_hardware_basics
+  name: Embedded hardware basics
+  description: Microcontrollers, SoCs, sensors, actuators and the electronics needed to connect them.
+  evidence:
+  - c1.1
+  - o4
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: event_driven_control_models
+  name: Super-loop, state machines and event-driven control
+  description: 'Programming models for embedded control: the super-loop, time-triggered and event-triggered
+    finite state machines, and event-driven architectures.'
+  evidence:
+  - c2.1
+  - c2.2
+  - c2.4
+  - o6
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+- key: tasks_and_rtos_scheduling
+  name: Tasks and real-time operating systems
+  description: Task-based embedded software design, real-time scheduling of tasks, and the architecture
+    of systems built on a real-time OS.
+  evidence:
+  - c2.3
+  - c2.5
+  - o5
+  - o6
+  share: 0.13
+  level: intermediate
+  kind: concept
+  technology: null
+- key: embedded_networks_protocols
+  name: Embedded networks and wireless protocols
+  description: Architectures, communication protocols and wireless technologies used to network embedded
+    systems.
+  evidence:
+  - c3.1
+  - o4
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: message_passing_models
+  name: Message passing models
+  description: Message-based communication between embedded nodes and tasks, and the models used to structure
+    it.
+  evidence:
+  - c3.2
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: iot_architectures_platforms
+  name: IoT architectures and platforms
+  description: Basic organisation of IoT systems, their architectures and the platforms that support them.
+  evidence:
+  - c3.4
+  - o8
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: mobile_device_integration
+  name: Integration with mobile devices and apps
+  description: Connecting embedded and IoT devices with mobile systems, including mobile app programming
+    on Android.
+  evidence:
+  - c3.3
+  - c5.3
+  - o7
+  - o9
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: Android
+- key: advanced_iot_themes
+  name: Advanced IoT themes
+  description: Introductory overview of the Web of Things, digital twins, and the bridge from IoT to augmented
+    and mixed reality.
+  evidence:
+  - c4.1
+  - c4.2
+  - c4.3
+  share: 0.07
+  level: advanced
+  kind: concept
+  technology: null
+- key: microcontroller_platform_programming
+  name: Arduino UNO programming with C++ and Wiring
+  description: Programming an Arduino UNO microcontroller in C++ using the Wiring framework.
+  evidence:
+  - c5.1
+  - c5.1.1
+  - o9
+  share: 0.15
+  level: introductory
+  kind: tool
+  technology: Arduino
+- key: soc_rtos_development
+  name: SoC development with FreeRTOS
+  description: Developing IoT applications on the ESP32 SoC using the FreeRTOS real-time operating system.
+  evidence:
+  - c5.2
+  - o5
+  - o9
+  share: 0.15
+  level: intermediate
+  kind: tool
+  technology: ESP32
+not_topics: []

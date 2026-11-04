@@ -1,0 +1,126 @@
+format: extraction/1
+course: '91265'
+title: Knowledge Engineering
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 15.2
+  usage:
+    prompt_tokens: 3230
+    completion_tokens: 3253
+    cache_read_tokens: 1854
+    thinking_tokens: 1999
+  created: '2026-11-04T18:23:22+00:00'
+topics:
+- key: knowledge_graphs_ontologies
+  name: Knowledge graphs and ontologies
+  description: Introduces knowledge graphs as data structures and ontologies as formal conceptual models,
+    and explains how they represent knowledge for machines.
+  evidence:
+  - c1
+  - o2
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: triple_based_data_model
+  name: RDF triple-based data model
+  description: Covers the RDF data model of subject-predicate-object triples, IRIs, literals, blank nodes,
+    and RDF graphs as the basis of Semantic Web data.
+  evidence:
+  - c2
+  - o2
+  share: 0.1
+  level: introductory
+  kind: language
+  technology: RDF
+- key: ontology_axiomatization
+  name: OWL ontology modelling
+  description: Teaches how to write ontologies in OWL 2 using classes, properties, and axioms, and how
+    their formal semantics support inference.
+  evidence:
+  - c2
+  - o1
+  share: 0.12
+  level: intermediate
+  kind: language
+  technology: OWL
+- key: graph_querying
+  name: SPARQL querying
+  description: Teaches the SPARQL query language for retrieving and transforming RDF data through graph
+    patterns, filters, and query forms.
+  evidence:
+  - c2
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: language
+  technology: SPARQL
+- key: ontology_engineering_methodologies
+  name: Ontology engineering methodologies
+  description: Presents methodological steps and processes for building, validating, and maintaining ontologies
+    from requirements to implementation.
+  evidence:
+  - c3
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ontology_design_patterns
+  name: Ontology design patterns
+  description: Covers reusable modelling solutions for recurring ontology problems and how to apply and
+    adapt them in ontology design.
+  evidence:
+  - c3
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: logical_reasoning_over_ontologies
+  name: Logical reasoning over ontologies
+  description: Explains automated reasoning methods that derive implicit knowledge from ontologies and
+    knowledge graphs, such as consistency checking and classification.
+  evidence:
+  - c4
+  - o2
+  share: 0.1
+  level: advanced
+  kind: technique
+  technology: null
+- key: neuro_symbolic_reasoning
+  name: Neuro-symbolic reasoning
+  description: Covers approaches that combine neural learning with symbolic knowledge and logical reasoning
+    to solve knowledge-intensive tasks.
+  evidence:
+  - c4
+  share: 0.08
+  level: advanced
+  kind: technique
+  technology: null
+- key: llms_knowledge_engineering
+  name: Large language models and knowledge engineering
+  description: Examines how large language models are applied to knowledge engineering tasks and the open
+    research challenges that result.
+  evidence:
+  - c5
+  share: 0.12
+  level: advanced
+  kind: concept
+  technology: null
+- key: knowledge_extraction_use_cases
+  name: Knowledge extraction from text and music
+  description: Presents (semi-)automated methods for extracting structured knowledge from textual and
+    musical content and linking it to knowledge graphs, through use cases in both domains.
+  evidence:
+  - c6
+  - o1
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

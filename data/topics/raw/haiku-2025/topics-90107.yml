@@ -1,0 +1,126 @@
+format: extraction/1
+course: '90107'
+title: BASI DI DATI
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 23.5
+  usage:
+    prompt_tokens: 6952
+    completion_tokens: 5079
+    cache_read_tokens: 3708
+    thinking_tokens: 2747
+  created: '2026-11-04T18:21:51+00:00'
+topics:
+- key: relational_data_model
+  name: Relational data model
+  description: The relational model's concepts of relations, attributes, keys and integrity constraints,
+    introduced together with the basic notion of a database.
+  evidence:
+  - c1
+  - c2
+  - o1.1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: relational_algebra_calculus
+  name: Relational algebra and calculus
+  description: The formal query languages of the relational model, namely relational algebra operators
+    and relational calculus, and their expressive power.
+  evidence:
+  - c3
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: declarative_query_writing
+  name: Declarative query writing
+  description: Writing SELECT queries with joins, grouping, subqueries and set operations to retrieve
+    data from relational databases.
+  evidence:
+  - c4
+  - o1.1
+  share: 0.15
+  level: intermediate
+  kind: language
+  technology: SQL
+- key: data_definition_and_updates
+  name: Data definition and updates
+  description: Creating relational schemas with table definitions and integrity constraints, and modifying
+    data with insert, update and delete statements.
+  evidence:
+  - c4
+  - o1.1
+  share: 0.08
+  level: intermediate
+  kind: language
+  technology: SQL
+- key: database_design_methodology
+  name: Database design methodology
+  description: The phases of database design (requirements analysis, conceptual, logical and physical
+    design) and how they are carried out in order.
+  evidence:
+  - c5
+  - o1.2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: er_data_model
+  name: Entity-relationship model and schema quality
+  description: Modelling data with entities, relationships, attributes and constraints in the ER model,
+    and verifying the quality of ER conceptual schemas.
+  evidence:
+  - c6
+  share: 0.15
+  level: intermediate
+  kind: concept
+  technology: null
+- key: dbms_architecture
+  name: DBMS architecture
+  description: The internal architecture of a database management system, covering its main components
+    and how they cooperate to serve queries.
+  evidence:
+  - c7
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: database_indexes
+  name: Database indexes
+  description: Index structures used by a DBMS to speed up data access, and their use in query processing
+    and physical design.
+  evidence:
+  - c7
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: transactions
+  name: Transactions
+  description: The transaction concept in a DBMS, its ACID properties, and the mechanisms that keep data
+    consistent under concurrent access and failures.
+  evidence:
+  - c7
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: database_design_project
+  name: Database design project and examples
+  description: Carrying out a complete design example, from requirements to a working database, as a project
+    implementing a small information system.
+  evidence:
+  - c7
+  - o1.2
+  - o1.3
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

@@ -1,0 +1,107 @@
+format: extraction/1
+course: 28012-A
+title: Electronic Calculators T
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 12.5
+  usage:
+    prompt_tokens: 2925
+    completion_tokens: 2712
+    cache_read_tokens: 1854
+    thinking_tokens: 1770
+  created: '2026-11-04T18:10:48+00:00'
+topics:
+- key: microprocessor_evolution
+  name: Microprocessor evolution
+  description: Historical development of microprocessors and the hierarchy of processor levels that organises
+    their architecture.
+  evidence:
+  - c1
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: processor_design_methodologies
+  name: Processor design methodologies
+  description: Top-down methods for designing systems built around modern microprocessors, from the processor
+    hierarchy down to memory and I/O interfacing.
+  evidence:
+  - c1
+  - o2
+  share: 0.07
+  level: introductory
+  kind: technique
+  technology: null
+- key: risc_vs_cisc_architectures
+  name: RISC and CISC architectures
+  description: Principles of Reduced Instruction Set Computer design, centred on the DLX CPU, compared
+    with Complex Instruction Set Computer design.
+  evidence:
+  - c1
+  - o1
+  share: 0.13
+  level: introductory
+  kind: concept
+  technology: null
+- key: sequential_control_units
+  name: Sequential control units
+  description: Design of hardwired sequential control units that generate the control signals of a processor
+    datapath, one step at a time.
+  evidence:
+  - c1
+  - o1
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: pipelined_control_units
+  name: Pipelined control units
+  description: Pipelined processor organisation of the DLX CPU and the control logic needed to issue instructions
+    through its pipeline stages.
+  evidence:
+  - c1
+  - o1
+  share: 0.16
+  level: intermediate
+  kind: technique
+  technology: null
+- key: memory_address_decoding
+  name: Memories and address decoding
+  description: Memory organisation and address decoding techniques used to connect memory devices to a
+    microprocessor bus.
+  evidence:
+  - c1
+  - o2
+  share: 0.16
+  level: intermediate
+  kind: technique
+  technology: null
+- key: io_handling
+  name: Input/output handling
+  description: Techniques for interfacing input/output devices with a microprocessor, including the data
+    transfer methods used to exchange information with peripherals.
+  evidence:
+  - c1
+  - o2
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+- key: interrupt_handling
+  name: Interrupt handling
+  description: Mechanisms by which a processor suspends normal execution to service interrupts raised
+    by I/O devices and resumes afterwards.
+  evidence:
+  - c1
+  - o2
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

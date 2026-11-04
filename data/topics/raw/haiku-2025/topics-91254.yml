@@ -1,0 +1,136 @@
+format: extraction/1
+course: '91254'
+title: Image Processing and Computer Vision
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 16.1
+  usage:
+    prompt_tokens: 3535
+    completion_tokens: 3591
+    cache_read_tokens: 1854
+    thinking_tokens: 2243
+  created: '2026-11-04T18:22:40+00:00'
+topics:
+- key: computer_vision_introduction
+  name: Computer vision introduction and applications
+  description: Basic definitions of computer vision and an overview of its major application domains.
+  evidence:
+  - c1
+  - c2
+  share: 0.04
+  level: introductory
+  kind: concept
+  technology: null
+- key: image_formation_sampling
+  name: Image formation and sampling
+  description: Geometry of image formation, lenses, field of view and depth of field, and image sampling
+    and quantization.
+  evidence:
+  - c3
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: spatial_filtering
+  name: Spatial filtering
+  description: Linear shift-invariant operators and mean, Gaussian, median and bilateral filtering of
+    images, with lab practice.
+  evidence:
+  - c4
+  - c14
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: edge_detection
+  name: Edge detection
+  description: Image gradients, non-maxima suppression, Laplacian of Gaussian and the Canny edge detector.
+  evidence:
+  - c5
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: local_invariant_features
+  name: Local invariant features
+  description: Interest point detectors and descriptors, including Harris corners, scale-invariant features
+    and SIFT, with lab practice.
+  evidence:
+  - c6
+  - c14
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: instance_detection
+  name: Instance detection
+  description: Locating known object instances in images through pattern matching, shape-based matching
+    and the Hough transform.
+  evidence:
+  - c7
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: camera_calibration
+  name: Camera calibration and homographies
+  description: Intrinsic and extrinsic camera parameters, projective coordinates, perspective projection,
+    Zhang's calibration algorithm and image warping with homographies, with lab practice.
+  evidence:
+  - c8
+  - c14
+  share: 0.1
+  level: advanced
+  kind: technique
+  technology: null
+- key: data_driven_classification
+  name: Data-driven image classification
+  description: Datasets and the data-driven approach to image classification using linear classifiers,
+    cross-entropy loss, and gradient descent with stochastic variants, with lab practice.
+  evidence:
+  - c9
+  - c14
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: image_representations
+  name: Image representations and CNN building blocks
+  description: Bag of Visual Words, representation learning for images, and the convolutional layers,
+    pooling and batch normalization used in convolutional networks.
+  evidence:
+  - c10
+  share: 0.08
+  level: advanced
+  kind: concept
+  technology: null
+- key: cnn_architectures
+  name: Successful CNN architectures
+  description: Historical convolutional network architectures LeNet-5, AlexNet, ZFNet, VGG, Inception
+    v1 and v3, and ResNet and their design ideas.
+  evidence:
+  - c11
+  share: 0.08
+  level: advanced
+  kind: concept
+  technology: null
+- key: regularization_training_recipes
+  name: Regularization and training recipes
+  description: Model capacity, learning rate schedulers, weight decay, label smoothing, dropout, data
+    augmentation, FixRes, cutout, mix-up and cut-mix, with a PyTorch case study and lab practice.
+  evidence:
+  - c12
+  - c14
+  share: 0.14
+  level: advanced
+  kind: technique
+  technology: null
+not_topics:
+- id: c13
+  reason: Organisational remark that lectures are complemented by labs; the lab content itself is captured
+    in c14 and the topics citing it.

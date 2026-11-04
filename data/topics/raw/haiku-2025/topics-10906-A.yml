@@ -1,0 +1,176 @@
+format: extraction/1
+course: 10906-A
+title: Databases
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 19.4
+  usage:
+    prompt_tokens: 3329
+    completion_tokens: 4474
+    cache_read_tokens: 1854
+    thinking_tokens: 2702
+  created: '2026-11-04T18:09:29+00:00'
+topics:
+- key: data_models_and_relational_model
+  name: Data models and the relational model
+  description: Distinguishes conceptual from logical data models and introduces the relational model as
+    the basis of the course.
+  evidence:
+  - c2
+  - o1
+  share: 0.04
+  level: introductory
+  kind: concept
+  technology: null
+- key: conceptual_design_er_model
+  name: Conceptual design with the Entity-Relationship model
+  description: Covers requirement analysis and building conceptual schemas with entities, relationships,
+    attributes and constraints in the Entity-Relationship model.
+  evidence:
+  - c3
+  - o1
+  share: 0.11
+  level: introductory
+  kind: technique
+  technology: null
+- key: logical_design_translation
+  name: Logical database design
+  description: Covers workload estimation, schema restructuring and the translation of entities and associations
+    from the conceptual schema into relational tables.
+  evidence:
+  - c4
+  - o1
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: null
+- key: normal_forms
+  name: Functional dependencies and normal forms
+  description: Explains functional dependencies and the normalization of relational schemas through 1NF,
+    2NF, 3NF and BCNF.
+  evidence:
+  - c5
+  - o1
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: relational_algebra
+  name: Relational algebra
+  description: Covers the basic and derived operators of relational algebra and their use to express queries
+    over relations.
+  evidence:
+  - c6
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: schema_definition_and_access_control
+  name: SQL schema definition and access control
+  description: Covers the SQL data definition (DDL) statements for creating and altering schemas and the
+    data control (DCL) statements for granting and revoking privileges.
+  evidence:
+  - c7
+  - o1
+  share: 0.05
+  level: introductory
+  kind: language
+  technology: SQL
+- key: data_manipulation_queries
+  name: SQL data manipulation and queries
+  description: Covers the SQL data manipulation (DML) statements for querying and updating data, including
+    joins, aggregation and nested queries.
+  evidence:
+  - c7
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: language
+  technology: SQL
+- key: rdbms_internal_components
+  name: Internal components of an RDBMS
+  description: Describes the main components of a relational DBMS, namely the query optimizer, transaction
+    manager, scheduler, recovery manager, cache manager, storage manager and access methods, and how they
+    cooperate.
+  evidence:
+  - c1
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: file_organizations_and_indexes
+  name: File organizations and indexes in secondary memory
+  description: Covers data structures in secondary memory, including sequential and direct access organizations
+    and primary and secondary indexes, with their management algorithms.
+  evidence:
+  - c9
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: b_tree_family_indexes
+  name: B-tree, B*-tree and B+-tree indexes
+  description: Covers the B-tree, B*-tree and B+-tree index structures, their insertion, deletion and
+    search algorithms, and their use for indexing data on disk.
+  evidence:
+  - c9
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: transactions_acid
+  name: Transactions and ACID properties
+  description: Introduces the transaction concept and the ACID properties (atomicity, consistency, isolation,
+    durability) that transactions must guarantee.
+  evidence:
+  - c8
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: concurrency_control
+  name: Concurrency control protocols
+  description: Covers concurrency management for transactions, including the interleaving of schedules,
+    serializability and locking-based and other concurrency control protocols.
+  evidence:
+  - c8
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: database_application_access
+  name: Database access from applications
+  description: Gives an overview of the modalities through which applications access a database, with
+    examples in Java and in .NET C#.
+  evidence:
+  - c10
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: client_server_and_distributed_databases
+  name: Client-server, distributed and cloud database architectures
+  description: Describes the main client-server architectures of RDBMSs and gives an overview of distributed
+    database systems (DDBMS) and cloud databases.
+  evidence:
+  - c11
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: nosql_systems
+  name: NoSQL systems
+  description: Gives a brief introduction to NoSQL database systems as an alternative to the relational
+    model.
+  evidence:
+  - c12
+  share: 0.03
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

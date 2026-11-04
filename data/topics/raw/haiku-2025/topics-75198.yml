@@ -1,0 +1,56 @@
+format: extraction/1
+course: '75198'
+title: Health Information Processing Systems
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 7.2
+  usage:
+    prompt_tokens: 2853
+    completion_tokens: 1234
+    cache_read_tokens: 1854
+    thinking_tokens: 768
+  created: '2026-11-04T18:16:51+00:00'
+topics:
+- key: case_mix_classification
+  name: Case mix classification and DRG
+  description: Covers case mix classification systems, the SDO hospital discharge record, and how DRG
+    groups are derived from it for hospital activity coding and reimbursement.
+  evidence:
+  - c1
+  - c2
+  - o1
+  share: 0.35
+  level: intermediate
+  kind: concept
+  technology: null
+- key: health_information_systems
+  name: Hospital and regional health information systems
+  description: Covers hospital information systems, corporate and regional health databases, and the SOLE
+    network with the electronic health record (fascicolo sanitario elettronico) as tools for collecting,
+    organizing and cataloguing health information.
+  evidence:
+  - c3
+  - c4
+  - c7
+  - o1
+  share: 0.35
+  level: intermediate
+  kind: concept
+  technology: null
+- key: healthcare_indicators_data_use
+  name: Healthcare indicators and use of health data
+  description: Covers the definition and use of healthcare indicators and how data and databases are exploited
+    in healthcare management and decision-making.
+  evidence:
+  - c5
+  - c6
+  share: 0.3
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

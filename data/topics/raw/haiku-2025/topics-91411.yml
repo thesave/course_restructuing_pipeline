@@ -1,0 +1,145 @@
+format: extraction/1
+course: '91411'
+title: Intelligent Robotic Systems
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 17.6
+  usage:
+    prompt_tokens: 3489
+    completion_tokens: 4246
+    cache_read_tokens: 1854
+    thinking_tokens: 2900
+  created: '2026-11-04T18:23:33+00:00'
+topics:
+- key: robotics_introduction
+  name: Introduction to robotics
+  description: History of robotics, the notion of a robot as a sensing and acting autonomous system in
+    a physical environment, and the main issues in designing intelligent robotic systems.
+  evidence:
+  - c1
+  - c1.1
+  - c1.2
+  - c1.3
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: behavior_coordination_architectures
+  name: Behavior coordination architectures
+  description: Paradigms for coordinating multiple behaviors in reactive robots, including the Subsumption
+    Architecture and motor schemas.
+  evidence:
+  - c2
+  - c2.1
+  - c2.2
+  - c2.3
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: null
+- key: fuzzy_logic_control
+  name: Fuzzy logic control
+  description: Fuzzy logic and fuzzy systems as a way to design robot control with imprecise rules and
+    inputs.
+  evidence:
+  - c2.4
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: behavior_trees
+  name: Behavior trees
+  description: Structure and execution of behavior trees for organising robot control into modular, reusable
+    task hierarchies.
+  evidence:
+  - c2.5
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: control_software_evaluation_tuning
+  name: Control software evaluation and tuning
+  description: Practical guidelines for experimentally evaluating robot control software and tuning its
+    parameters.
+  evidence:
+  - c2.6
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: swarm_robotics
+  name: Swarm robotics
+  description: Coordination of large groups of simple robots through local interactions to achieve collective
+    behavior.
+  evidence:
+  - c2.7
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: evolutionary_robotics
+  name: Evolutionary robotics
+  description: Artificial evolution of robot controllers and the automatic design of robot programs.
+  evidence:
+  - c3.1
+  - c3.2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: associative_learning
+  name: Associative learning
+  description: Learning associations between sensory stimuli and responses or outcomes in robots.
+  evidence:
+  - c3.3
+  share: 0.04
+  level: intermediate
+  kind: concept
+  technology: null
+- key: reinforcement_learning
+  name: Reinforcement learning
+  description: Reinforcement learning and value-based learning for robots, including intrinsic motivation
+    as a driver of learning.
+  evidence:
+  - c3.4
+  - c3.5
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: path_planning_and_navigation
+  name: Path planning and navigation
+  description: Informed search with A* and its variants for path planning, and the main approaches to
+    robot navigation problems.
+  evidence:
+  - c4.1
+  - c4.3
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: robot_planning
+  name: Robot planning
+  description: Definitions, principles and main approaches to planning for deliberative robot control.
+  evidence:
+  - c4.2
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: robot_lab_experiments
+  name: Robot lab experiments
+  description: Hands-on experiments in simulation and with Thymio physical robots to test and compare
+    the control approaches studied in the course.
+  evidence:
+  - c5
+  share: 0.15
+  level: introductory
+  kind: tool
+  technology: Thymio
+not_topics: []

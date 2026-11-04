@@ -1,0 +1,114 @@
+format: extraction/1
+course: B1874
+title: Project Management and Software Engineering for Cultural Heritage
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 16.9
+  usage:
+    prompt_tokens: 3323
+    completion_tokens: 3398
+    cache_read_tokens: 1854
+    thinking_tokens: 2334
+  created: '2026-11-04T18:29:56+00:00'
+topics:
+- key: project_management_practices
+  name: Project management practices in software development
+  description: Core project management processes and recognised practices for planning, organising and
+    controlling software development projects, including their application to DH projects.
+  evidence:
+  - c5.1
+  - o2
+  - o3
+  share: 0.13
+  level: introductory
+  kind: concept
+  technology: null
+- key: resource_cost_planning
+  name: Resource, time and cost planning
+  description: Identifying and allocating people and other resources, and estimating and scheduling time
+    and cost for a software project.
+  evidence:
+  - c5.2
+  - o7
+  share: 0.13
+  level: introductory
+  kind: technique
+  technology: null
+- key: project_risk_change_control
+  name: Project risk and change control
+  description: Identifying, assessing and mitigating project risks and managing changes to requirements
+    and plans in a controlled way.
+  evidence:
+  - o7
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: software_requirements_lifecycle
+  name: Software lifecycle from requirements to delivery
+  description: The stages of the software lifecycle, from eliciting and specifying requirements through
+    development to delivery and deployment.
+  evidence:
+  - c5.3
+  share: 0.13
+  level: introductory
+  kind: concept
+  technology: null
+- key: software_design_principles
+  name: Software design theory and patterns
+  description: Basic theory and practices of software design, including the application of design patterns
+    and best practices adapted to the DH domain.
+  evidence:
+  - c6.1
+  - o6
+  share: 0.14
+  level: intermediate
+  kind: concept
+  technology: null
+- key: dh_software_process_design
+  name: Designing and managing a DH software process
+  description: Applying the course methods step by step to real DH case studies, including those proposed
+    by students, to design and manage a typical DH software process and the construction of humanities
+    systems.
+  evidence:
+  - c3
+  - o4
+  - o5
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+- key: agile_structured_processes
+  name: Agile vs. structured development processes
+  description: Comparison of agile and structured (plan-driven) software development process models, their
+    principles and when each is appropriate.
+  evidence:
+  - c6.2
+  share: 0.13
+  level: introductory
+  kind: concept
+  technology: null
+- key: verification_validation
+  name: Software verification and validation
+  description: Methods for checking that software is built correctly and meets its intended requirements,
+    including testing and review activities.
+  evidence:
+  - c6.3
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Course-level framing statement restating the overall aim; its content is covered by the topics
+    below.
+- id: c2
+  reason: Overview of the two disciplines and the course's purpose; a framing statement rather than a
+    teachable subject, covered by the topics below.
+- id: c4
+  reason: Organisational remark that the course has two parts; no teachable content.

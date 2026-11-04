@@ -1,0 +1,104 @@
+format: extraction/1
+course: '93467'
+title: Cryptography
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 14.1
+  usage:
+    prompt_tokens: 3538
+    completion_tokens: 2802
+    cache_read_tokens: 1854
+    thinking_tokens: 1817
+  created: '2026-11-04T18:24:46+00:00'
+topics:
+- key: perfect_security
+  name: Perfect security
+  description: Shannon's notion of perfect secrecy, its characterisation, and the limits it imposes on
+    encryption, such as the one-time pad and key-length bounds.
+  evidence:
+  - c8
+  - c5
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: provable_security
+  name: Provable security and reductions
+  description: Formal security definitions for cryptographic schemes and the use of reduction proofs to
+    show that breaking a scheme would solve a hard problem, answering when a technique can be considered
+    safe.
+  evidence:
+  - c3
+  - c5
+  - c6
+  share: 0.14
+  level: advanced
+  kind: concept
+  technology: null
+- key: pseudorandomness
+  name: Pseudorandomness
+  description: Pseudorandom generators and functions, computational indistinguishability, and their role
+    as building blocks for secure cryptography.
+  evidence:
+  - c8
+  share: 0.14
+  level: advanced
+  kind: concept
+  technology: null
+- key: private_key_encryption
+  name: Private key encryption
+  description: Symmetric (private key) ciphers revisited with their security properties, including the
+    notions of security they satisfy under computational assumptions.
+  evidence:
+  - c8
+  - c2
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: public_key_encryption
+  name: Public key encryption
+  description: Public key ciphers revisited with their security properties and the computational assumptions
+    on which their security rests.
+  evidence:
+  - c8
+  - c2
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: symbolic_protocol_model
+  name: Symbolic model of security protocols
+  description: The Dolev-Yao symbolic model of cryptographic protocols, with abstract terms, attacker
+    capabilities, and the relation to the computational view of cryptography.
+  evidence:
+  - c8
+  - c7
+  - o1
+  share: 0.12
+  level: advanced
+  kind: concept
+  technology: null
+- key: automated_protocol_verification
+  name: Automated protocol verification with ProVerif
+  description: Using the ProVerif automatic verifier, based on Prolog-style Horn clauses, to model simple
+    security protocols and check secrecy and authentication properties.
+  evidence:
+  - c7
+  - o2
+  share: 0.2
+  level: advanced
+  kind: tool
+  technology: ProVerif
+not_topics:
+- id: c1
+  reason: General course description that restates the topics listed below; it has no teachable content
+    of its own.
+- id: c4
+  reason: Pedagogical remark on the course's focus on the 'why' over the 'how'; it describes the teaching
+    approach rather than a topic.

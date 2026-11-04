@@ -1,0 +1,322 @@
+format: extraction/1
+course: B8105
+title: Computational Management of Data
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 65.2
+  usage:
+    prompt_tokens: 13535
+    completion_tokens: 17029
+    cache_read_tokens: 3708
+    thinking_tokens: 10916
+  created: '2026-11-04T18:33:11+00:00'
+topics:
+- key: computational_thinking
+  name: Computational thinking
+  description: Core ideas of computational thinking, including what a computer is, how natural and programming
+    languages compare, and abstraction as the main tool for problem solving.
+  evidence:
+  - c9.1
+  - c9.2
+  - c9.3
+  - c9.4
+  - o1
+  share: 0.05882
+  level: introductory
+  kind: concept
+  technology: null
+- key: algorithms_foundations
+  name: Algorithms foundations
+  description: What an algorithm is, its historical origins with early machines and programmers, and the
+    first computing pioneers.
+  evidence:
+  - c9.5
+  - c9.6
+  - c9.7
+  share: 0.04412
+  level: introductory
+  kind: concept
+  technology: null
+- key: algorithm_flowcharts_and_testing
+  name: Algorithm design with flowcharts and testing
+  description: Designing algorithms with flowcharts using input, process, decision and output blocks,
+    and assessing outputs with test-driven development.
+  evidence:
+  - c9.8
+  - c9.9
+  - c9.13
+  share: 0.04412
+  level: introductory
+  kind: technique
+  technology: null
+- key: programming_languages_history
+  name: Programming languages and their history
+  description: The history and evolution of programming languages, including the contributions of early
+    language designers.
+  evidence:
+  - c9.14
+  - c9.15
+  share: 0.02941
+  level: introductory
+  kind: concept
+  technology: null
+- key: basic_programming_constructs
+  name: Basic programming constructs
+  description: Primary Python constructs for writing first algorithms, including variables, assignments
+    and conditional statements, practised in hands-on sessions.
+  evidence:
+  - c4
+  - c9.16
+  - c9.17
+  share: 0.04412
+  level: introductory
+  kind: language
+  technology: Python
+- key: computability_and_complexity
+  name: Computability and computational cost
+  description: Limits of computation including Turing's computability and the halting problem, and the
+    cost of algorithms in terms of computational resources.
+  evidence:
+  - c9.10
+  - c9.11
+  - c9.12
+  share: 0.04412
+  level: intermediate
+  kind: concept
+  technology: null
+- key: ordered_data_structures
+  name: Ordered data structures
+  description: Lists, stacks and queues as ordered structures for organising information, and their operations.
+  evidence:
+  - c9.18
+  - c9.19
+  - c9.20
+  - c9.21
+  - c9.22
+  share: 0.07352
+  level: introductory
+  kind: concept
+  technology: null
+- key: brute_force_searching_sorting
+  name: Brute-force search and insertion sort
+  description: Brute-force algorithms built with for and while iterations, illustrated by linear search
+    and insertion sort.
+  evidence:
+  - c9.23
+  - c9.24
+  - c9.25
+  - c9.26
+  share: 0.05882
+  level: introductory
+  kind: technique
+  technology: null
+- key: unordered_data_structures
+  name: Unordered data structures
+  description: Sets and dictionaries as unordered structures for organising information, including the
+    question of whether data structures can be infinite.
+  evidence:
+  - c9.27
+  - c9.28
+  - c9.29
+  - c9.30
+  share: 0.05882
+  level: introductory
+  kind: concept
+  technology: null
+- key: recursion
+  name: Recursion
+  description: The idea of recursion and recursive algorithms, with examples from linguistics, physics
+    and simple recursive designs.
+  evidence:
+  - c9.31
+  - c9.32
+  - c9.33
+  - c9.34
+  share: 0.05882
+  level: intermediate
+  kind: technique
+  technology: null
+- key: divide_and_conquer
+  name: Divide and conquer algorithms
+  description: Divide and conquer as an algorithmic strategy, illustrated by sorting very large collections
+    and merge sort.
+  evidence:
+  - c9.35
+  - c9.36
+  - c9.37
+  share: 0.04412
+  level: intermediate
+  kind: technique
+  technology: null
+- key: dynamic_programming
+  name: Dynamic programming
+  description: Dynamic programming by storing solutions to sub-problems, illustrated with the Fibonacci
+    sequence and its relation to the golden ratio.
+  evidence:
+  - c9.38
+  - c9.39
+  - c9.40
+  - c9.41
+  share: 0.05882
+  level: intermediate
+  kind: technique
+  technology: null
+- key: trees
+  name: Trees
+  description: Tree structures for organising hierarchical information, such as genealogy and document
+    markup.
+  evidence:
+  - c9.42
+  - c9.43
+  - c9.44
+  share: 0.04412
+  level: intermediate
+  kind: concept
+  technology: null
+- key: backtracking
+  name: Backtracking algorithms
+  description: Backtracking search over trees for playing board games and solving puzzles such as peg
+    solitaire.
+  evidence:
+  - c9.45
+  - c9.46
+  - c9.47
+  share: 0.04412
+  level: intermediate
+  kind: technique
+  technology: null
+- key: graphs
+  name: Graphs
+  description: Graphs as a structure for organising information and their basic concepts, introduced through
+    Euler's Königsberg problem.
+  evidence:
+  - c9.48
+  - c9.49
+  - c9.50
+  share: 0.04412
+  level: intermediate
+  kind: concept
+  technology: null
+- key: greedy_algorithms
+  name: Greedy algorithms
+  description: Greedy algorithms that make locally optimal choices, illustrated by word processors and
+    line wrapping.
+  evidence:
+  - c9.51
+  - c9.52
+  - c9.53
+  share: 0.04412
+  level: intermediate
+  kind: technique
+  technology: null
+- key: data_formats_and_storage
+  name: Data representation and storage formats
+  description: How data is represented computationally and stored in standard formats for spreadsheets
+    and the Web, with hands-on data storage in Python.
+  evidence:
+  - c10.2
+  - c10.3
+  - o2
+  share: 0.02941
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_modelling
+  name: Data modelling
+  description: Principles of data modelling and their implementation as Python classes.
+  evidence:
+  - c10.4
+  - c10.5
+  share: 0.02941
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: tabular_data_processing
+  name: Data processing and querying of tabular data
+  description: Processing and querying tabular data with Pandas, including interacting with databases
+    through Pandas.
+  evidence:
+  - c10.6
+  - c10.7
+  - c10.13
+  share: 0.04412
+  level: intermediate
+  kind: tool
+  technology: Pandas
+- key: relational_databases
+  name: Relational database management systems
+  description: Concepts of database management systems and the configuration and population of a relational
+    database.
+  evidence:
+  - c10.8
+  - c10.9
+  share: 0.02941
+  level: intermediate
+  kind: concept
+  technology: null
+- key: relational_query_language
+  name: Relational query language
+  description: The SQL query language for retrieving data from relational databases.
+  evidence:
+  - c10.10
+  share: 0.01471
+  level: intermediate
+  kind: language
+  technology: SQL
+- key: graph_databases
+  name: Graph databases
+  description: Configuring and populating a graph database as an alternative data model for storing connected
+    data.
+  evidence:
+  - c10.11
+  share: 0.01471
+  level: advanced
+  kind: concept
+  technology: null
+- key: rdf_query_language
+  name: RDF query language
+  description: The SPARQL query language for querying RDF databases.
+  evidence:
+  - c10.12
+  share: 0.01471
+  level: advanced
+  kind: language
+  technology: SPARQL
+- key: descriptive_statistics_visualisation
+  name: Describing and visualising data
+  description: Computing descriptive statistics from data and building graphs to describe and visualise
+    it, practised with Pandas.
+  evidence:
+  - c10.14
+  - c10.15
+  share: 0.02941
+  level: introductory
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Describes the organisation of the course into two blocks; no teachable content.
+- id: c2
+  reason: Describes the lecture format of the first block; no teachable content.
+- id: c3
+  reason: Describes the lecture format (historical mentions and people in brackets); no teachable content
+    of its own.
+- id: c5
+  reason: Describes the format of the second block; no teachable content.
+- id: c6
+  reason: Describes the format of theoretical introductions in lectures; no teachable content.
+- id: c7
+  reason: Describes the format of computer-based laboratory sessions; no teachable content.
+- id: c8
+  reason: Heading for the list of lectures.
+- id: c9
+  reason: Heading for the first block; its content is covered by the individual lecture items.
+- id: c10
+  reason: Heading for the second block; its content is covered by the individual lecture items.
+- id: c10.1
+  reason: 'Organisational item: course introduction and final project specifications.'

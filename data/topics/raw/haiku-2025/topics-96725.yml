@@ -1,0 +1,80 @@
+format: extraction/1
+course: '96725'
+title: IT and Game Localization
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 12.2
+  usage:
+    prompt_tokens: 3397
+    completion_tokens: 2332
+    cache_read_tokens: 1854
+    thinking_tokens: 1607
+  created: '2026-11-04T18:27:42+00:00'
+topics:
+- key: software_localization_concept
+  name: Software localization concept
+  description: Defines software localization and its distinctive features and pitfalls compared with other
+    forms of translation in modern technological translation practice.
+  evidence:
+  - c1
+  share: 0.13
+  level: introductory
+  kind: concept
+  technology: null
+- key: translatable_software_content_types
+  name: Translatable software content types
+  description: Surveys the kinds of text found in software applications, such as dialogues, interfaces
+    and tutorials, and how each must be approached in translation.
+  evidence:
+  - c2
+  share: 0.2
+  level: introductory
+  kind: concept
+  technology: null
+- key: placeholder_and_variable_handling
+  name: Placeholder and variable handling
+  description: Techniques for preserving variables and placeholders in translated software strings so
+    that the localized text works correctly at runtime.
+  evidence:
+  - c3
+  share: 0.17
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ui_size_and_visual_constraints
+  name: UI size and visual constraints
+  description: Adapting translations to size and visual restrictions of interface elements, such as text
+    length limits and layout space.
+  evidence:
+  - c3
+  share: 0.16
+  level: intermediate
+  kind: technique
+  technology: null
+- key: software_localization_conventions
+  name: Software localization conventions
+  description: Conventions specific to software localization that are often absent in other translatable
+    material, and how to apply them consistently.
+  evidence:
+  - c3
+  share: 0.14
+  level: intermediate
+  kind: concept
+  technology: null
+- key: localization_bug_prevention_and_quality
+  name: Localization bug identification and quality assessment
+  description: Identifying and preventing localization bugs and assessing the linguistic quality of a
+    localized software product as a whole, including revision of texts.
+  evidence:
+  - c3
+  - o1
+  share: 0.2
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

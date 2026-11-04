@@ -1,0 +1,132 @@
+format: extraction/1
+course: '91266'
+title: Machine Learning for Computer Vision
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 13.9
+  usage:
+    prompt_tokens: 3700
+    completion_tokens: 3305
+    cache_read_tokens: 1854
+    thinking_tokens: 2052
+  created: '2026-11-04T18:23:27+00:00'
+topics:
+- key: advanced_cnn_architectures
+  name: Advanced CNN architectures
+  description: Grouped convolutions and ResNeXt, efficient MobileNets, and the scaled EfficientNet and
+    RegNet designs for image classification.
+  evidence:
+  - c2
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: vision_transformers
+  name: Attention and vision transformers
+  description: Self-attention and transformer blocks, and how they are adapted to build image classification
+    architectures.
+  evidence:
+  - c3
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: object_detection
+  name: Object detection
+  description: Two-stage, one-stage and anchor-free detectors, feature pyramid networks, imbalanced learning
+    with focal loss, and DETR with Hungarian matching, including a hands-on session.
+  evidence:
+  - c4
+  - o1
+  - o2
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ensemble_learning
+  name: Ensemble learning
+  description: Boosting, bagging and random forests as ensemble methods, including the Viola-Jones face
+    detector and the random-forest body part segmentation used in Kinect.
+  evidence:
+  - c4
+  - c5
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: semantic_segmentation
+  name: Semantic segmentation
+  description: Pixel-wise classification with fully convolutional networks, transposed and dilated convolutions,
+    U-Net and DeepLab.
+  evidence:
+  - c5
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: instance_panoptic_segmentation
+  name: Instance and panoptic segmentation
+  description: Instance segmentation with Mask R-CNN and unified panoptic segmentation with MaskFormer.
+  evidence:
+  - c5
+  - o1
+  share: 0.1
+  level: advanced
+  kind: technique
+  technology: null
+- key: depth_estimation
+  name: Monocular depth estimation
+  description: Estimating depth from a single image using a photometric loss and the Monodepth approach.
+  evidence:
+  - c6
+  - o1
+  share: 0.06
+  level: advanced
+  kind: technique
+  technology: null
+- key: metric_learning
+  name: Metric and representation learning
+  description: Deep metric learning with contrastive, triplet, ArcFace and NT-Xent losses, applied to
+    face recognition and identification and to CLIP-style joint representations, with a hands-on session.
+  evidence:
+  - c7
+  - o1
+  - o2
+  share: 0.12
+  level: advanced
+  kind: technique
+  technology: null
+- key: generative_models
+  name: Generative adversarial and diffusion models
+  description: Generative Adversarial Networks and Denoising Diffusion Probabilistic Models for image
+    generation, together with metrics for evaluating generative models.
+  evidence:
+  - c8
+  - o1
+  share: 0.12
+  level: advanced
+  kind: concept
+  technology: null
+- key: text_guided_diffusion
+  name: Text-guided image generation
+  description: Stable Diffusion and text conditioning for image generation, with a hands-on session on
+    textual inversion.
+  evidence:
+  - c8
+  - o1
+  - o2
+  share: 0.08
+  level: advanced
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Scheduling information (semester and months), not teachable content.

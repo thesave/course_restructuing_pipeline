@@ -1,0 +1,134 @@
+format: extraction/1
+course: '95604'
+title: Operating Systems and Networks
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 13.0
+  usage:
+    prompt_tokens: 3067
+    completion_tokens: 2758
+    cache_read_tokens: 1854
+    thinking_tokens: 1595
+  created: '2026-11-04T18:25:32+00:00'
+topics:
+- key: signals_bandwidth_analog
+  name: Signals, bandwidth and analog communication
+  description: Characterising signals and their bandwidth, and how information is carried over analog
+    transmission channels.
+  evidence:
+  - c1.1
+  - c1.2
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: digital_communication
+  name: Digital communication
+  description: Encoding information as digital signals and the principles of transmitting digital data
+    over a channel.
+  evidence:
+  - c1.3
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: communication_services
+  name: Communication services and quality of service
+  description: The services offered by communication systems to applications and the quality-of-service
+    issues they raise, as required by the functional principles of network services.
+  evidence:
+  - c1.4
+  - o2
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: os_architecture_organization
+  name: Computer architecture and operating system organization
+  description: The hardware building blocks relevant to an operating system and the functions and internal
+    organisation of an OS.
+  evidence:
+  - c2.1
+  - c2.2
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: processes_and_threads
+  name: Processes and threads
+  description: Representation of processes and threads, their lifecycle, and how the OS schedules and
+    synchronises them.
+  evidence:
+  - c2.3
+  share: 0.13
+  level: introductory
+  kind: concept
+  technology: null
+- key: memory_management
+  name: Memory management
+  description: How the operating system allocates and protects main memory among processes, including
+    address translation and virtual memory.
+  evidence:
+  - c2.4
+  share: 0.1
+  level: introductory
+  kind: technique
+  technology: null
+- key: io_management
+  name: Input/output management
+  description: How the operating system manages device input and output, including device drivers, interrupts
+    and buffering.
+  evidence:
+  - c2.5
+  share: 0.06
+  level: introductory
+  kind: technique
+  technology: null
+- key: network_architecture_protocols
+  name: Network architectures and protocols
+  description: Layered network architectures and the role of network protocols in defining how communicating
+    entities interact.
+  evidence:
+  - c3.1
+  - c3.2
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: ip_and_routing
+  name: IP addressing and routing
+  description: How the Internet Protocol moves packets across the Internet and how routing determines
+    the paths they follow.
+  evidence:
+  - c3.3
+  - o2
+  share: 0.16
+  level: intermediate
+  kind: technique
+  technology: null
+- key: internet_organization
+  name: Organization of the Internet
+  description: The structure of the Internet as an interconnection of autonomous networks and the organisations
+    and providers that run it.
+  evidence:
+  - c3.4
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: network_security_basics
+  name: Basics of network security
+  description: Fundamental security problems in networks and the basic mechanisms used to address them.
+  evidence:
+  - c3.5
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

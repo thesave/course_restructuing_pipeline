@@ -1,0 +1,191 @@
+format: extraction/1
+course: '90106'
+title: Software Engineering
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 21.1
+  usage:
+    prompt_tokens: 3043
+    completion_tokens: 5011
+    cache_read_tokens: 1854
+    thinking_tokens: 3329
+  created: '2026-11-04T18:21:32+00:00'
+topics:
+- key: software_engineering_introduction
+  name: Introduction to software engineering
+  description: Foundational concepts of software engineering as a discipline, including what distinguishes
+    it from programming and why systematic development matters.
+  evidence:
+  - c1
+  share: 0.038
+  level: introductory
+  kind: concept
+  technology: null
+- key: software_process_models
+  name: Software process models
+  description: Plan-based and agile software development process models, their phases and how they structure
+    the development of a system.
+  evidence:
+  - c2
+  - o1
+  - o4
+  share: 0.064
+  level: introductory
+  kind: concept
+  technology: null
+- key: analysis_and_domain_models
+  name: Analysis model and domain model
+  description: Building the analysis model of a software system, including the identification of domain
+    concepts and their relationships as a domain model.
+  evidence:
+  - c3
+  - c7
+  - o1
+  - o2
+  share: 0.077
+  level: intermediate
+  kind: technique
+  technology: null
+- key: class_diagrams
+  name: UML fundamentals and class diagrams
+  description: Introduction to the UML notation and the use of class diagrams to model the static structure,
+    classes, attributes, operations and associations of a system.
+  evidence:
+  - c4
+  - c6
+  - o2
+  share: 0.104
+  level: introductory
+  kind: technique
+  technology: UML
+- key: use_case_modeling
+  name: Use case modeling
+  description: Capturing functional requirements of a system through UML use case diagrams and textual
+    use case descriptions.
+  evidence:
+  - c5
+  - o1
+  - o2
+  share: 0.077
+  level: introductory
+  kind: technique
+  technology: UML
+- key: activity_diagrams
+  name: Activity diagrams
+  description: Modeling workflows and the behaviour of processes or use cases with UML activity diagrams,
+    including control flows, decisions and concurrency.
+  evidence:
+  - c8
+  - o2
+  share: 0.051
+  level: intermediate
+  kind: technique
+  technology: UML
+- key: interaction_diagrams
+  name: Interaction diagrams
+  description: Modeling how objects collaborate to realise system behaviour through UML sequence and communication
+    interaction diagrams.
+  evidence:
+  - c9
+  - o2
+  share: 0.064
+  level: intermediate
+  kind: technique
+  technology: UML
+- key: oo_principles
+  name: Object-oriented design principles
+  description: Core object-oriented design principles and their use to produce software with good internal
+    quality, such as encapsulation, cohesion and coupling.
+  evidence:
+  - c10
+  - o2
+  - o3
+  share: 0.064
+  level: intermediate
+  kind: concept
+  technology: null
+- key: grasp_principles
+  name: GRASP responsibility assignment patterns
+  description: The GRASP set of general principles for assigning responsibilities to classes and objects
+    during object-oriented design.
+  evidence:
+  - c11
+  - o2
+  - o3
+  share: 0.077
+  level: intermediate
+  kind: concept
+  technology: null
+- key: design_patterns
+  name: Design patterns
+  description: Catalogue of reusable object-oriented design patterns, their intent, structure and application
+    to the design of software systems.
+  evidence:
+  - c11.1
+  - o2
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: agile_software_development
+  name: Agile software development
+  description: Agile methods and values, their practices and how development teams organise iterative
+    work, contrasted with plan-based approaches.
+  evidence:
+  - c11.2
+  - o4
+  share: 0.077
+  level: introductory
+  kind: technique
+  technology: null
+- key: modern_patterns_frameworks
+  name: Modern patterns and frameworks
+  description: Contemporary design patterns and software frameworks used to build modern software systems
+    and their architectural building blocks.
+  evidence:
+  - c11.3
+  - o2
+  share: 0.051
+  level: advanced
+  kind: technique
+  technology: null
+- key: testing_levels
+  name: Unit, integration and acceptance testing
+  description: Testing a software system at unit, integration and acceptance levels, including the design
+    of test cases for each level.
+  evidence:
+  - c11.4
+  - o3
+  share: 0.077
+  level: intermediate
+  kind: technique
+  technology: null
+- key: build_automation
+  name: Build automation tools
+  description: Automating the build of software systems, including compilation, dependency management
+    and packaging, with build automation tools.
+  evidence:
+  - c11.5
+  - o3
+  share: 0.038
+  level: introductory
+  kind: tool
+  technology: null
+- key: continuous_integration
+  name: Continuous integration practices and tools
+  description: Practices and tools for integrating code changes frequently and automatically, verifying
+    each integration through builds and tests.
+  evidence:
+  - c11.6
+  - o3
+  - o4
+  share: 0.051
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

@@ -1,0 +1,202 @@
+format: extraction/1
+course: '95602'
+title: Programming and Computer Architectures
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 27.9
+  usage:
+    prompt_tokens: 3392
+    completion_tokens: 6318
+    cache_read_tokens: 1854
+    thinking_tokens: 4444
+  created: '2026-11-04T18:25:34+00:00'
+topics:
+- key: variables_types_expressions
+  name: Variables, types and expressions
+  description: Creating variables and objects, the basic Python types, and evaluating expressions with
+    operators.
+  evidence:
+  - c2
+  share: 0.06
+  level: introductory
+  kind: language
+  technology: Python
+- key: control_flow
+  name: Control flow statements
+  description: Conditional statements and loops that control the order in which Python code executes.
+  evidence:
+  - c2
+  share: 0.06
+  level: introductory
+  kind: language
+  technology: Python
+- key: functions_scoping
+  name: Function definitions and scoping
+  description: Defining and calling functions, parameters and return values, and the rules for local,
+    global and nested variable scope.
+  evidence:
+  - c2
+  share: 0.07
+  level: introductory
+  kind: language
+  technology: Python
+- key: object_attributes_methods
+  name: Object attributes and methods
+  description: Accessing the attributes and methods of objects and how built-in types expose their behaviour
+    through them.
+  evidence:
+  - c2
+  share: 0.06
+  level: intermediate
+  kind: language
+  technology: Python
+- key: modules_packages
+  name: Modules, standard library and packages
+  description: Importing modules, using the standard library, and organising code into packages.
+  evidence:
+  - c2
+  share: 0.05
+  level: intermediate
+  kind: tool
+  technology: Python
+- key: data_analysis_libraries
+  name: Libraries for statistics, tables and graphs
+  description: Using libraries to work with statistical computations, tabular data, spreadsheets, graphs
+    and web pages.
+  evidence:
+  - c2
+  - o2
+  share: 0.04
+  level: intermediate
+  kind: tool
+  technology: Python
+- key: mutable_immutable_objects
+  name: Mutable and immutable objects
+  description: The difference between mutable and immutable objects, and the consequences for assignment,
+    aliasing and function arguments.
+  evidence:
+  - c2
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: Python
+- key: strings_tuples
+  name: Strings and tuples
+  description: Creating, indexing, slicing and processing strings and tuples, and using them to solve
+    simple problems.
+  evidence:
+  - c2
+  share: 0.05
+  level: introductory
+  kind: language
+  technology: Python
+- key: lists_dictionaries
+  name: Lists and dictionaries
+  description: Creating and manipulating lists and dictionaries and using them to represent and solve
+    problems.
+  evidence:
+  - c2
+  share: 0.07
+  level: intermediate
+  kind: language
+  technology: Python
+- key: basic_algorithms
+  name: Basic algorithm types
+  description: Basic classes of algorithms, such as searching and sorting, and their application to problems
+    on the course's data structures.
+  evidence:
+  - c2
+  - o1
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: computer_components
+  name: Computer components and key terms
+  description: The roles of the CPU, RAM, HDD/SSD storage and I/O devices, and the key terminology of
+    computer systems.
+  evidence:
+  - c3
+  - o3
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: computer_architecture_history
+  name: Milestones and trends in computer architecture
+  description: Historical milestones in computer architectures, current trends and applications, and the
+    main computer-related companies.
+  evidence:
+  - c3
+  share: 0.04
+  level: introductory
+  kind: concept
+  technology: null
+- key: digital_representation
+  name: Digital representation of information
+  description: How numbers, characters and other data are encoded as binary digits in a computer.
+  evidence:
+  - c3
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: logic_circuits_chips
+  name: Logic circuits and chip production
+  description: Boolean logic gates and combinational logic circuits, and how chips are fabricated from
+    them.
+  evidence:
+  - c3
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: computer_performance
+  name: Computer performance
+  description: Metrics and factors that determine computer performance and the role of hardware components
+    in it.
+  evidence:
+  - c3
+  - o3
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: parallelism
+  name: Parallelism in computing
+  description: Forms of parallel execution in modern processors and systems and their effect on performance.
+  evidence:
+  - c3
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: architecture_comparison
+  name: Comparison of computer architectures
+  description: Comparing modern computer architectures, their design trade-offs and the applications they
+    suit.
+  evidence:
+  - c3
+  share: 0.04
+  level: intermediate
+  kind: concept
+  technology: null
+- key: cloud_computing
+  name: Cloud computing paradigm
+  description: The cloud computing model, its service and deployment forms, and its implications for computing
+    architectures.
+  evidence:
+  - c3
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics:
+- id: c1
+  reason: Describes how the course is organised into three parallel modules and lab sessions; it is organisational,
+    not teachable content.

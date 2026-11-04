@@ -1,0 +1,1761 @@
+format: extraction-run/1
+model: claude-haiku-5-5
+prompt: 571f731f6572
+request:
+  effort: medium
+started: '2026-11-04T18:07:51+00:00'
+updated: '2026-11-04T18:33:41+00:00'
+summary:
+  ok: 278
+  copied: 15
+servers:
+  claude-cli:
+    workers: 4
+    courses: 278
+    seconds_in_requests: 6124.2
+    completion_tokens: 1392962
+    tokens_per_second: 227.5
+courses:
+  '03716':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 15.4
+    completion_tokens: 3119
+  00819:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 22.3
+    completion_tokens: 4862
+  00819-A:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 29.4
+    completion_tokens: 6449
+  00819-B:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 31.9
+    completion_tokens: 7394
+  04138:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 23.7
+    completion_tokens: 5867
+  07276-A:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 24.4
+    completion_tokens: 5695
+  07276-C:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 16.3
+    completion_tokens: 3297
+  07276-B:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 19.7
+    completion_tokens: 3845
+  '07276':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 10.0
+    completion_tokens: 1945
+  96346-B:
+    status: copied
+    endpoint: claude-cli
+    attempts: 0
+    seconds: 0.0
+  08574:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 17.5
+    completion_tokens: 3784
+  08574-B:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 24.1
+    completion_tokens: 5515
+  09032:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 29.1
+    completion_tokens: 6654
+  08574-A:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 31.9
+    completion_tokens: 7674
+  09679:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 15.3
+    completion_tokens: 2872
+  09730-A:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 14.0
+    completion_tokens: 3153
+  09730:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 14.8
+    completion_tokens: 3122
+  '15305':
+    status: copied
+    endpoint: claude-cli
+    attempts: 0
+    seconds: 0.0
+  10906-A:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 19.4
+    completion_tokens: 4474
+  '11925':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 11.7
+    completion_tokens: 2357
+  '10906':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 24.7
+    completion_tokens: 5770
+  '95611':
+    status: copied
+    endpoint: claude-cli
+    attempts: 0
+    seconds: 0.0
+  11929-B:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 13.9
+    completion_tokens: 2898
+  '11933':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 11.7
+    completion_tokens: 2290
+  '11929':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 22.6
+    completion_tokens: 5311
+  11929-A:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 28.4
+    completion_tokens: 7179
+  '37635':
+    status: copied
+    endpoint: claude-cli
+    attempts: 0
+    seconds: 0.0
+  '15920':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 8.5
+    completion_tokens: 1368
+  '14015':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 18.0
+    completion_tokens: 3973
+  '16692':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 12.7
+    completion_tokens: 2423
+  '16870':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 12.3
+    completion_tokens: 2234
+  '17634':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 9.5
+    completion_tokens: 1904
+  '20741':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 9.0
+    completion_tokens: 1538
+  27311-A:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 23.2
+    completion_tokens: 4963
+  '27311':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 24.0
+    completion_tokens: 5145
+  '17628':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 37.6
+    completion_tokens: 8619
+  '28004':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 25.6
+    completion_tokens: 5874
+  28012-A:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 12.5
+    completion_tokens: 2712
+  28011-A:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 22.0
+    completion_tokens: 4904
+  '28012':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 15.1
+    completion_tokens: 3278
+  '28011':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 21.7
+    completion_tokens: 4943
+  '28021':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 24.9
+    completion_tokens: 5541
+  '28020':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 32.6
+    completion_tokens: 8268
+  '28027':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 28.4
+    completion_tokens: 6714
+  '28024':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 31.5
+    completion_tokens: 7456
+  '28040':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 19.5
+    completion_tokens: 4138
+  '28106':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 30.2
+    completion_tokens: 6675
+  '28623':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 39.7
+    completion_tokens: 9513
+  '28652':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 39.1
+    completion_tokens: 9482
+  '28659':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 32.1
+    completion_tokens: 7605
+  '28796':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 16.8
+    completion_tokens: 3396
+  29227-A:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 15.7
+    completion_tokens: 3410
+  '30376':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 14.1
+    completion_tokens: 3193
+  29227-B:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 22.1
+    completion_tokens: 4994
+  '29227':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 22.9
+    completion_tokens: 5192
+  '37925':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 12.5
+    completion_tokens: 2540
+  '37085':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 24.0
+    completion_tokens: 5322
+  '37760':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 17.0
+    completion_tokens: 3761
+  '37262':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 22.9
+    completion_tokens: 5065
+  '41169':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 12.1
+    completion_tokens: 2404
+  41731-A:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 13.4
+    completion_tokens: 2899
+  '41588':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 26.9
+    completion_tokens: 6162
+  '39176':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 34.7
+    completion_tokens: 7582
+  82202-A:
+    status: copied
+    endpoint: claude-cli
+    attempts: 0
+    seconds: 0.0
+  '40720':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 46.5
+    completion_tokens: 10813
+  '41731':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 22.4
+    completion_tokens: 4635
+  '47240':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 23.3
+    completion_tokens: 4797
+  '48693':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 10.2
+    completion_tokens: 2216
+  48693-A:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 14.9
+    completion_tokens: 3009
+  '42500':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 36.1
+    completion_tokens: 8391
+  '58348':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 12.1
+    completion_tokens: 2302
+  '58437':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 11.2
+    completion_tokens: 2420
+  '58423':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 20.5
+    completion_tokens: 4599
+  '57828':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 35.7
+    completion_tokens: 7929
+  '66857':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 14.8
+    completion_tokens: 3318
+  '65094':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 22.6
+    completion_tokens: 4878
+  '60348':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 27.6
+    completion_tokens: 6277
+  '69259':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 14.0
+    completion_tokens: 2939
+  '66858':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 25.1
+    completion_tokens: 5665
+  '66870':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 23.9
+    completion_tokens: 5796
+  '69430':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 15.4
+    completion_tokens: 3514
+  B8561:
+    status: copied
+    endpoint: claude-cli
+    attempts: 0
+    seconds: 0.0
+  '69661':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 17.3
+    completion_tokens: 3939
+  '66860':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 44.1
+    completion_tokens: 10589
+  '69731':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 20.6
+    completion_tokens: 4582
+  '70210':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 12.4
+    completion_tokens: 2447
+  '69867':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 30.0
+    completion_tokens: 6940
+  '70219':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 24.2
+    completion_tokens: 5463
+  '70155':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 36.4
+    completion_tokens: 9266
+  '72671':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 16.0
+    completion_tokens: 3303
+  '70226':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 21.2
+    completion_tokens: 4985
+  '72778':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 13.1
+    completion_tokens: 2567
+  '72796':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 18.8
+    completion_tokens: 3815
+  '72938':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 23.7
+    completion_tokens: 5382
+  '72939':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 23.6
+    completion_tokens: 5155
+  '72787':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 33.5
+    completion_tokens: 7576
+  '72945':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 14.0
+    completion_tokens: 3199
+  '72942':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 22.0
+    completion_tokens: 5126
+  '72940':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 27.8
+    completion_tokens: 6466
+  '73149':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 13.5
+    completion_tokens: 2954
+  '73302':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 18.2
+    completion_tokens: 4250
+  '73435':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 14.1
+    completion_tokens: 3223
+  '75198':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 7.2
+    completion_tokens: 1234
+  '73273':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 27.2
+    completion_tokens: 6120
+  '73025':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 53.8
+    completion_tokens: 12960
+  '75835':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 20.0
+    completion_tokens: 4300
+  '76011':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 25.3
+    completion_tokens: 5993
+  '75969':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 30.6
+    completion_tokens: 7341
+  '78510':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 12.4
+    completion_tokens: 2404
+  '77780':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 33.1
+    completion_tokens: 7857
+  '77933':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 30.5
+    completion_tokens: 7595
+  '78096':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 24.7
+    completion_tokens: 5893
+  '91269':
+    status: copied
+    endpoint: claude-cli
+    attempts: 0
+    seconds: 0.0
+  '78778':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 16.1
+    completion_tokens: 3534
+  '79194':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 17.8
+    completion_tokens: 3695
+  '81609':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 11.4
+    completion_tokens: 2614
+  '78810':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 22.4
+    completion_tokens: 5300
+  '81610':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 18.5
+    completion_tokens: 4220
+  '88202':
+    status: copied
+    endpoint: claude-cli
+    attempts: 0
+    seconds: 0.0
+  '81612':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 18.0
+    completion_tokens: 3857
+  '81672':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 16.7
+    completion_tokens: 3570
+  '78779':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 47.2
+    completion_tokens: 11954
+  '81678':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 24.5
+    completion_tokens: 5693
+  '81683':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 24.9
+    completion_tokens: 5897
+  '81676':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 28.4
+    completion_tokens: 6846
+  '81940':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 14.8
+    completion_tokens: 3558
+  '81934':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 18.8
+    completion_tokens: 4368
+  '81932':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 27.6
+    completion_tokens: 6559
+  '82202':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 12.9
+    completion_tokens: 2490
+  '81917':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 54.8
+    completion_tokens: 13519
+  '81942':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 17.3
+    completion_tokens: 3491
+  '84339':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 15.0
+    completion_tokens: 3135
+  '84530':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 14.1
+    completion_tokens: 3296
+  '84401':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 23.3
+    completion_tokens: 5511
+  '84531':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 33.5
+    completion_tokens: 8260
+  '85301':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 16.3
+    completion_tokens: 3703
+  '85189':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 30.6
+    completion_tokens: 7173
+  '90477':
+    status: copied
+    endpoint: claude-cli
+    attempts: 0
+    seconds: 0.0
+  '85285':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 25.7
+    completion_tokens: 6193
+  '85573':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 13.5
+    completion_tokens: 3013
+  '85446':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 19.2
+    completion_tokens: 4276
+  '85445':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 23.2
+    completion_tokens: 5393
+  '87469':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 11.5
+    completion_tokens: 2310
+  '87898':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 11.4
+    completion_tokens: 2433
+  '85728':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 41.7
+    completion_tokens: 9869
+  '87474':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 26.3
+    completion_tokens: 6217
+  '87901':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 19.4
+    completion_tokens: 3985
+  '88016':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 15.4
+    completion_tokens: 2971
+  '88146':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 7.7
+    completion_tokens: 1411
+  '88155':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 11.4
+    completion_tokens: 2402
+  '88145':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 25.0
+    completion_tokens: 5443
+  '88324':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 24.5
+    completion_tokens: 5552
+  '88325':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 20.1
+    completion_tokens: 4600
+  '88566':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 32.3
+    completion_tokens: 7810
+  '90074':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 19.1
+    completion_tokens: 4320
+  '96994':
+    status: copied
+    endpoint: claude-cli
+    attempts: 0
+    seconds: 0.0
+  '90106':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 21.1
+    completion_tokens: 5011
+  '89988':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 28.4
+    completion_tokens: 6694
+  '90147':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 17.4
+    completion_tokens: 3749
+  '90107':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 23.5
+    completion_tokens: 5079
+  '90720':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 16.5
+    completion_tokens: 3644
+  '90157':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 20.2
+    completion_tokens: 4256
+  '90730':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 14.1
+    completion_tokens: 3179
+  '90864':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 12.8
+    completion_tokens: 2534
+  '90748':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 14.9
+    completion_tokens: 3141
+  '90749':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 18.3
+    completion_tokens: 4070
+  91250-A:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 11.1
+    completion_tokens: 2277
+  91250-B:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 14.3
+    completion_tokens: 3150
+  '91161':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 26.2
+    completion_tokens: 6121
+  '91250':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 11.6
+    completion_tokens: 2342
+  '91254':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 16.1
+    completion_tokens: 3591
+  91258-A:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 14.0
+    completion_tokens: 3352
+  '91248':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 41.8
+    completion_tokens: 11044
+  '91258':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 14.8
+    completion_tokens: 3219
+  B0385:
+    status: copied
+    endpoint: claude-cli
+    attempts: 0
+    seconds: 0.0
+  91258-B:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 28.2
+    completion_tokens: 6927
+  '91259':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 25.3
+    completion_tokens: 5921
+  '91264':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 14.9
+    completion_tokens: 3246
+  '98931':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 26.6
+    completion_tokens: 6319
+  '91261':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 19.5
+    completion_tokens: 4625
+  '91265':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 15.2
+    completion_tokens: 3253
+  '91266':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 13.9
+    completion_tokens: 3305
+  '91411':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 17.6
+    completion_tokens: 4246
+  '91267':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 25.3
+    completion_tokens: 5761
+  '91602':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 21.1
+    completion_tokens: 5099
+  '91685':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 19.5
+    completion_tokens: 4247
+  '91721':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 20.9
+    completion_tokens: 4629
+  '91762':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 16.8
+    completion_tokens: 3837
+  '92858':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 16.4
+    completion_tokens: 3878
+  93034-A:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 13.8
+    completion_tokens: 2926
+  '93333':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 8.1
+    completion_tokens: 1503
+  '93319':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 13.9
+    completion_tokens: 3189
+  '93034':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 25.0
+    completion_tokens: 6345
+  '93363':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 22.8
+    completion_tokens: 4835
+  '93379':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 18.0
+    completion_tokens: 4413
+  '93466':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 20.2
+    completion_tokens: 4558
+  '93315':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 45.4
+    completion_tokens: 11332
+  '93467':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 14.1
+    completion_tokens: 2802
+  '93469':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 14.5
+    completion_tokens: 3223
+  93470-A:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 16.1
+    completion_tokens: 3664
+  '93470':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 14.6
+    completion_tokens: 3377
+  '93468':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 33.3
+    completion_tokens: 8341
+  '93478':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 12.2
+    completion_tokens: 2893
+  '93653':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 20.1
+    completion_tokens: 4558
+  '93669':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 20.3
+    completion_tokens: 4832
+  '95604':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 13.0
+    completion_tokens: 2758
+  '95602':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 27.9
+    completion_tokens: 6318
+  '94442':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 34.8
+    completion_tokens: 8279
+  '95605':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 22.6
+    completion_tokens: 5190
+  '95630':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 17.9
+    completion_tokens: 4273
+  '95632':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 11.0
+    completion_tokens: 2101
+  '95631':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 25.1
+    completion_tokens: 6059
+  B2125:
+    status: copied
+    endpoint: claude-cli
+    attempts: 0
+    seconds: 0.0
+  '95627':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 46.4
+    completion_tokens: 10905
+  95631-A:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 44.3
+    completion_tokens: 10508
+  '95638':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 24.4
+    completion_tokens: 5483
+  '95644':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 13.1
+    completion_tokens: 3059
+  '95639':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 23.6
+    completion_tokens: 5470
+  '95645':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 17.5
+    completion_tokens: 3727
+  '95782':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 17.0
+    completion_tokens: 3825
+  '95646':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 34.9
+    completion_tokens: 8340
+  '95648':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 31.2
+    completion_tokens: 7288
+  '96007':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 17.8
+    completion_tokens: 3692
+  '95965':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 28.9
+    completion_tokens: 6457
+  '96143':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 22.6
+    completion_tokens: 5199
+  '96142':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 26.3
+    completion_tokens: 6092
+  '96346':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 17.3
+    completion_tokens: 3321
+  96346-A:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 26.8
+    completion_tokens: 6106
+  '96725':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 12.2
+    completion_tokens: 2332
+  '96642':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 20.4
+    completion_tokens: 4655
+  '96793':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 20.3
+    completion_tokens: 4371
+  '96859':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 22.9
+    completion_tokens: 5531
+  '96995':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 19.8
+    completion_tokens: 4217
+  '97431':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 19.8
+    completion_tokens: 4874
+  B5796:
+    status: copied
+    endpoint: claude-cli
+    attempts: 0
+    seconds: 0.0
+  '98671':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 11.3
+    completion_tokens: 2260
+  '98618':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 16.3
+    completion_tokens: 3475
+  '97466':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 38.9
+    completion_tokens: 9044
+  '99195':
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 16.8
+    completion_tokens: 3584
+  B0009:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 18.0
+    completion_tokens: 3860
+  '98735':
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 27.6
+    completion_tokens: 6562
+  B0010:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 17.7
+    completion_tokens: 4231
+  B0063:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 15.0
+    completion_tokens: 3159
+  B0061:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 22.9
+    completion_tokens: 4294
+  B0011:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 32.0
+    completion_tokens: 7441
+  B0064:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 17.6
+    completion_tokens: 3905
+  B0069:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 20.2
+    completion_tokens: 4626
+  B0070:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 19.7
+    completion_tokens: 4359
+  B0074:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 13.9
+    completion_tokens: 2945
+  B1459:
+    status: copied
+    endpoint: claude-cli
+    attempts: 0
+    seconds: 0.0
+  B0073:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 22.5
+    completion_tokens: 4673
+  B0832:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 28.1
+    completion_tokens: 6154
+  B0833:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 23.7
+    completion_tokens: 5585
+  B1873:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 27.2
+    completion_tokens: 5994
+  B1874:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 16.9
+    completion_tokens: 3398
+  B3567:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 17.1
+    completion_tokens: 3701
+  B1703:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 54.0
+    completion_tokens: 13773
+  B2696:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 28.3
+    completion_tokens: 6098
+  B4826:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 21.2
+    completion_tokens: 4515
+  B2133:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 57.6
+    completion_tokens: 13730
+  B4913:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 23.7
+    completion_tokens: 5981
+  B4925:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 19.8
+    completion_tokens: 4060
+  B4940:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 13.1
+    completion_tokens: 2609
+  B5026:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 10.1
+    completion_tokens: 1983
+  B4948:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 12.7
+    completion_tokens: 2601
+  B5079:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 12.9
+    completion_tokens: 2619
+  B5059:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 21.3
+    completion_tokens: 4829
+  B5293:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 15.0
+    completion_tokens: 3024
+  B8929:
+    status: copied
+    endpoint: claude-cli
+    attempts: 0
+    seconds: 0.0
+  B5292:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 20.5
+    completion_tokens: 3994
+  B5674:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 11.5
+    completion_tokens: 2226
+  B5665:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 22.7
+    completion_tokens: 5471
+  B5474:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 30.6
+    completion_tokens: 7092
+  B5727:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 27.4
+    completion_tokens: 6124
+  B5780:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 24.4
+    completion_tokens: 5742
+  B5782:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 23.8
+    completion_tokens: 5747
+  B5793:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 15.4
+    completion_tokens: 3543
+  B5722:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 53.0
+    completion_tokens: 12838
+  B5812:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 15.2
+    completion_tokens: 3324
+  B6082:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 19.9
+    completion_tokens: 4541
+  B8019:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 24.0
+    completion_tokens: 5624
+  B8018:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 38.8
+    completion_tokens: 9087
+  B8396:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 13.4
+    completion_tokens: 2723
+  B8159:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 31.2
+    completion_tokens: 7927
+  B8536:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 13.1
+    completion_tokens: 2777
+  B8105:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 65.2
+    completion_tokens: 17029
+  B8563:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 20.5
+    completion_tokens: 4626
+  B8554:
+    status: ok
+    endpoint: claude-cli
+    attempts: 2
+    seconds: 36.6
+    completion_tokens: 8750
+  B8603:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 13.7
+    completion_tokens: 2790
+  B8562:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 37.5
+    completion_tokens: 9431
+  B8836:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 12.6
+    completion_tokens: 2653
+  B8905:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 19.1
+    completion_tokens: 4126
+  B9254:
+    status: ok
+    endpoint: claude-cli
+    attempts: 1
+    seconds: 15.6
+    completion_tokens: 3159

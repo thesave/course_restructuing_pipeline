@@ -1,0 +1,164 @@
+format: extraction/1
+course: '96642'
+title: Virtualization and System Integration
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 20.4
+  usage:
+    prompt_tokens: 3725
+    completion_tokens: 4655
+    cache_read_tokens: 1854
+    thinking_tokens: 3041
+  created: '2026-11-04T18:27:47+00:00'
+topics:
+- key: network_security_protocols
+  name: Network security protocols
+  description: Secure remote access and transport protocols (SSH, TLS/SSL, DTLS) and the security utilities
+    that use them in servers, server farms and networks.
+  evidence:
+  - c4
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: firewall_nat_proxy
+  name: Firewalls, NAT and proxies
+  description: Protection of local networks and server farms through packet filtering with iptables/netfilter,
+    NAT, firewall traversal, and proxy/relay concepts including SOCKS.
+  evidence:
+  - c5
+  - c7
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: industrial_opc_plc
+  name: Industrial OPC communication with PLCs
+  description: Network protocols based on OPC for interacting with industrial control systems and programmable
+    logic controllers.
+  evidence:
+  - c6
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: distributed_storage
+  name: Distributed filesystems and block storage
+  description: Architectures and principles of distributed filesystems and block storage systems shared
+    across machines.
+  evidence:
+  - c8
+  - o3
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: virtualization_principles
+  name: Virtualization principles
+  description: Core principles of virtualization, virtualization platforms, containers as a form of virtualization,
+    and its application areas from server farms to smartphones.
+  evidence:
+  - c9
+  - o2
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: container_build_and_networking
+  name: Container images and networking
+  description: Using the Docker API and tooling to run containers, connect them through virtual networks,
+    build images automatically from Dockerfiles, and define multi-container applications with Docker Compose
+    and Swarm.
+  evidence:
+  - c11
+  - o3
+  - o4
+  share: 0.12
+  level: intermediate
+  kind: tool
+  technology: Docker
+- key: container_orchestration
+  name: Container orchestration
+  description: Orchestrating containers, services and virtual machines across clusters with Kubernetes
+    and on-premise single-node or cluster products such as minikube.
+  evidence:
+  - c11
+  - o3
+  - o4
+  share: 0.1
+  level: advanced
+  kind: tool
+  technology: Kubernetes
+- key: microservices_architectures
+  name: Microservices architectures
+  description: Language-independent, component-based software architectures built on message buses at
+    kernel, local and cloud scope, with prominent local and cloud examples.
+  evidence:
+  - c10
+  - o3
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: cloud_management_platforms
+  name: On-premise cloud management platforms
+  description: Management platforms for on-premise cloud systems and their role in configuring and operating
+    cloud resources.
+  evidence:
+  - c12
+  - o3
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: identity_management
+  name: Identity management systems
+  description: Identity management principles, platforms and protocols on Windows (Active Directory, LDAP)
+    and Linux (Kerberos, OpenLDAP).
+  evidence:
+  - c13
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: windows_linux_interoperability
+  name: Windows and Linux interoperability
+  description: Protocols and application areas that let Windows and Linux systems interact, with significant
+    integration examples.
+  evidence:
+  - c14
+  - o3
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: centralized_service_management
+  name: Centralized management of distributed services
+  description: Centralized monitoring (SNMP, Nagios), configuration, authentication and maintenance of
+    distributed systems, and development of applications for dynamic configuration and monitoring.
+  evidence:
+  - c15
+  - o4
+  share: 0.08
+  level: advanced
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Statement of course goals, not teachable content.
+- id: c2
+  reason: Introduction to the role and skills of the engineer; organisational context rather than a technical
+    topic.
+- id: c3
+  reason: Recall of local system management, presented as prior knowledge review with no new content to
+    teach.
+- id: c16
+  reason: Generic illustrative examples of systems integration; they are covered by the topics they illustrate.

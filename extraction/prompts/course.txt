@@ -1,0 +1,14 @@
+Course: {title}
+Credits: {credits} ECTS (about {hours} hours of lectures), so expect between {min_topics} and {max_topics} topics.
+Degree programmes: {programmes}
+
+Learning outcomes:
+{outcomes}
+
+Contents:
+{contents}
+
+Bibliography (context only):
+{bibliography}
+
+Reply with the topics of this course and the content items that yield no topic.

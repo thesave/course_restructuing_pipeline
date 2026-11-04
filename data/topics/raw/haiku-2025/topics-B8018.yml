@@ -1,0 +1,185 @@
+format: extraction/1
+course: B8018
+title: DIGITAL HEALTH M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 38.8
+  usage:
+    prompt_tokens: 13131
+    completion_tokens: 9087
+    cache_read_tokens: 3708
+    thinking_tokens: 4919
+  created: '2026-11-04T18:32:40+00:00'
+topics:
+- key: digital_health_foundations
+  name: Digital health foundations
+  description: Definitions of digital health from several perspectives, its contexts of use, and the broad
+    range of digital health technologies, with an overview of the course.
+  evidence:
+  - c5.1
+  - c2
+  - o2
+  share: 0.0625
+  level: introductory
+  kind: concept
+  technology: null
+- key: health_determinants_outcomes
+  name: Health determinants and outcome measurement
+  description: Key determinants of health and wellbeing, which of them digital health can most benefit,
+    and how health, wellbeing and health outcomes are measured to evaluate digital health interventions.
+  evidence:
+  - c5.2
+  - o1
+  share: 0.09375
+  level: introductory
+  kind: concept
+  technology: null
+- key: healthcare_delivery_payer_models
+  name: Healthcare delivery systems and payer models
+  description: National and private healthcare delivery systems across the world, their payer models,
+    unit and total costs, and their advantages and disadvantages as context for future digital health
+    roles.
+  evidence:
+  - c5.3
+  - o1
+  share: 0.09375
+  level: introductory
+  kind: concept
+  technology: null
+- key: future_of_health
+  name: The future of health
+  description: Visioning of future health systems, focus, cost, technology and services through science
+    fiction prototyping and research evidence from specialised industry reports, within the digital transformation
+    of care from reactive to preventive and proactive models.
+  evidence:
+  - c5.4
+  - c1
+  share: 0.09375
+  level: intermediate
+  kind: concept
+  technology: null
+- key: systematic_literature_review
+  name: Systematic literature review
+  description: Method and assignment for conducting a systematic literature review of a digital health
+    research, development or technology area, illustrated with a previous student example.
+  evidence:
+  - c5.5
+  - o6
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: null
+- key: digital_health_case_studies
+  name: 'Digital health case studies: COPD and atrial fibrillation'
+  description: Analysis of the current effects and influence of digital health through case studies on
+    chronic obstructive pulmonary disease and atrial fibrillation.
+  evidence:
+  - c5.6
+  - o5
+  share: 0.09375
+  level: intermediate
+  kind: concept
+  technology: null
+- key: clinical_efficiency_care_delivery
+  name: Clinical efficiency and care delivery improvement
+  description: How digital health improves care delivery processes such as consultations and hospital
+    procedures, reducing cost, time, errors and personal bias in medical practice.
+  evidence:
+  - c5.7
+  share: 0.0625
+  level: intermediate
+  kind: concept
+  technology: null
+- key: personal_health_systems
+  name: Personal health systems and mobile health
+  description: Personal health systems built from wearables, health IoT and sensors, mobile health apps
+    capturing behavioural and lifestyle markers, and larger health platforms such as smart homes and smart
+    hospitals, including the differences between devices, solutions and platforms.
+  evidence:
+  - c5.8
+  - o3
+  - o4
+  share: 0.09375
+  level: intermediate
+  kind: concept
+  technology: null
+- key: group_hands_on_projects
+  name: Group hands-on projects in health
+  description: Design and implementation of interdisciplinary group projects in mobile health, health
+    AI or health IoT, selected from instructor-defined or student-proposed projects.
+  evidence:
+  - c5.9
+  - o6
+  - o7
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: null
+- key: activity_recognition
+  name: Activity recognition for digital health
+  description: Informatics methods for collecting user and device data and recognising physical activity
+    in digital health systems.
+  evidence:
+  - c5.10
+  - o4
+  share: 0.046875
+  level: intermediate
+  kind: technique
+  technology: null
+- key: behavior_change_models
+  name: Behavioural change models and user engagement
+  description: 'Cybernetic direction of digital health systems: behavioural change models and their use
+    to deliver intervention, patient engagement and health maintenance.'
+  evidence:
+  - c5.10
+  - o4
+  share: 0.046875
+  level: intermediate
+  kind: concept
+  technology: null
+- key: health_machine_learning
+  name: Health data science and machine learning
+  description: Regression and statistical basics, unsupervised and supervised machine learning for health
+    data, and an overview of deep learning for medical imaging and reinforcement learning for digital
+    therapeutics.
+  evidence:
+  - c5.11
+  - o2
+  - o3
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: null
+- key: data_science_tooling
+  name: Data science tooling for health analytics
+  description: Practical use of the Python language basics, NumPy, pandas, seaborn, matplotlib, Jupyter
+    Notebook and Google Colab to analyse health datasets and train models.
+  evidence:
+  - c5.11
+  share: 0.03125
+  level: introductory
+  kind: tool
+  technology: Python
+- key: ethics_regulation_clinical_studies
+  name: Ethics and regulation of digital health clinical studies
+  description: Ethical issues in human-participant research and product development, regulatory pathways
+    for medical devices and software as a medical device, and the University of Bologna ethics committee
+    process including recruitment, consent, privacy and secure data management.
+  evidence:
+  - c5.12
+  share: 0.09375
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics:
+- id: c3
+  reason: Motivational statement about the need for a skilled workforce; no teachable content.
+- id: c4
+  reason: Statement of the course's aim and purpose; organisational framing without teachable content.
+- id: c5
+  reason: Section heading 'Course Lectures'; its content is covered by the sub-items c5.1 to c5.12.

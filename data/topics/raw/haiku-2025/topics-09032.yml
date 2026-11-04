@@ -1,0 +1,142 @@
+format: extraction/1
+course: 09032
+title: Software Engineering
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 29.1
+  usage:
+    prompt_tokens: 8848
+    completion_tokens: 6654
+    cache_read_tokens: 3708
+    thinking_tokens: 3999
+  created: '2026-11-04T18:09:09+00:00'
+topics:
+- key: software_lifecycle
+  name: Software lifecycle
+  description: Phases and activities of software development, including planning, requirements analysis
+    and design.
+  evidence:
+  - c1.1
+  - c1.2
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: object_oriented_paradigm
+  name: Object-oriented paradigm
+  description: Core object-oriented principles of abstraction, information hiding, inheritance, polymorphism
+    and delegation.
+  evidence:
+  - c2.1
+  - o2
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: object_oriented_design
+  name: Object-oriented design
+  description: Methods for designing object-oriented systems so that they correctly apply the object-oriented
+    principles.
+  evidence:
+  - c2.2
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: use_case_diagrams
+  name: Use case diagrams
+  description: Modelling system functionality and actors with use case diagrams during requirements analysis.
+  evidence:
+  - c3.1
+  share: 0.06
+  level: introductory
+  kind: technique
+  technology: UML
+- key: class_diagrams
+  name: Class and object diagrams
+  description: Modelling static structure with class and object diagrams, including attributes, operations
+    and associations.
+  evidence:
+  - c3.2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: UML
+- key: interaction_diagrams
+  name: Sequence and collaboration diagrams
+  description: Modelling message exchanges between objects with sequence and collaboration diagrams.
+  evidence:
+  - c3.3
+  - c3.4
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: UML
+- key: behavior_diagrams
+  name: State and activity diagrams
+  description: Modelling object life cycles and workflows with state and activity diagrams.
+  evidence:
+  - c3.5
+  - c3.6
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: UML
+- key: architecture_diagrams
+  name: Component and deployment diagrams
+  description: Modelling software architecture and physical deployment with component and deployment diagrams.
+  evidence:
+  - c3.7
+  - c3.8
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: UML
+- key: user_interface_design_prototyping
+  name: User interface design and prototyping
+  description: Basic principles of user interface design and building prototypes to validate it.
+  evidence:
+  - c4
+  - c5.3
+  share: 0.08
+  level: introductory
+  kind: technique
+  technology: null
+- key: software_quality_evaluation
+  name: Software quality and evaluation
+  description: Quality criteria for software systems and methods to evaluate them.
+  evidence:
+  - c5.1
+  - c5.2
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: software_production_testing
+  name: Software production and testing
+  description: Producing software from the design and testing it to verify correctness.
+  evidence:
+  - c5.4
+  - c5.5
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: certification_maintenance
+  name: Software certification and maintenance
+  description: Certifying software against standards and maintaining it over its operational life.
+  evidence:
+  - c5.6
+  - c5.7
+  share: 0.04
+  level: introductory
+  kind: concept
+  technology: null
+not_topics: []

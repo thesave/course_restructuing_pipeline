@@ -1,0 +1,143 @@
+format: extraction/1
+course: 91258-A
+title: Natural Language Processing
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 14.0
+  usage:
+    prompt_tokens: 2964
+    completion_tokens: 3352
+    cache_read_tokens: 1854
+    thinking_tokens: 1883
+  created: '2026-11-04T18:22:41+00:00'
+topics:
+- key: nlp_foundations_linguistics
+  name: NLP foundations and computational linguistics
+  description: Overview of the NLP field and its tasks, plus the core linguistic levels (morphology, syntax,
+    semantics, pragmatics) needed to model language computationally.
+  evidence:
+  - c1
+  - c2
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: basic_text_processing
+  name: Basic text processing
+  description: Fundamental preprocessing steps on raw text, such as tokenization, word and sentence segmentation,
+    normalization, stemming and lemmatization, and edit distance.
+  evidence:
+  - c3
+  share: 0.08
+  level: introductory
+  kind: technique
+  technology: null
+- key: ngram_language_models
+  name: Language modeling with n-grams
+  description: Statistical language models based on n-gram counts, including probability estimation, smoothing
+    of unseen events, and evaluation by perplexity.
+  evidence:
+  - c4
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: text_classification_linear_models
+  name: Text classification with linear models
+  description: Supervised text classification with linear models such as Naive Bayes and logistic regression,
+    covering feature representation, training, and evaluation.
+  evidence:
+  - c5
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: null
+- key: vector_semantics_embeddings
+  name: Vector semantics and word embeddings
+  description: Representing word meaning with vectors, from sparse co-occurrence models (tf-idf, PMI)
+    to dense static embeddings such as word2vec.
+  evidence:
+  - c6
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: neural_sequence_models
+  name: Neural language modeling and recurrent networks
+  description: Neural language models that learn word representations with feedforward networks, and recurrent
+    neural networks (RNNs and their gated variants) for processing and generating sequences.
+  evidence:
+  - c7
+  - c8
+  share: 0.15
+  level: intermediate
+  kind: technique
+  technology: null
+- key: contextual_embeddings_transformers
+  name: Contextual embeddings, attention and transformers
+  description: Context-dependent word representations, the attention mechanism, and the transformer architecture,
+    including pretrained encoders such as BERT.
+  evidence:
+  - c9
+  share: 0.12
+  level: advanced
+  kind: concept
+  technology: null
+- key: large_language_models
+  name: Large language models
+  description: Large pretrained decoder-based language models, their training objectives, scaling, and
+    adaptation through prompting, fine-tuning and alignment.
+  evidence:
+  - c10
+  share: 0.07
+  level: advanced
+  kind: concept
+  technology: null
+- key: information_retrieval_basics
+  name: Basics of information retrieval
+  description: Core information retrieval concepts such as inverted indexes, document ranking with term-weighting
+    models, and retrieval evaluation.
+  evidence:
+  - c11
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: speech_processing_elements
+  name: Elements of speech processing
+  description: Basic speech processing for NLP, covering speech signal representation, automatic speech
+    recognition and text-to-speech at an introductory level.
+  evidence:
+  - c12
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: nlp_libraries_tools
+  name: NLP libraries and tools
+  description: Practical use of existing NLP software libraries and toolkits to build and run text processing
+    pipelines.
+  evidence:
+  - c13
+  - o1
+  share: 0.05
+  level: intermediate
+  kind: tool
+  technology: null
+- key: nlp_applications_design
+  name: 'NLP applications: segmentation and classification systems'
+  description: Design and development of simple real-world NLP systems, such as those requiring segmentation
+    and classification of text elements like sequence labelling and named-entity recognition.
+  evidence:
+  - c14
+  - o2
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

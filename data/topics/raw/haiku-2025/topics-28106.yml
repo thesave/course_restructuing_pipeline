@@ -1,0 +1,132 @@
+format: extraction/1
+course: '28106'
+title: Computer Science for Environmental Sciences
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 30.2
+  usage:
+    prompt_tokens: 7842
+    completion_tokens: 6675
+    cache_read_tokens: 3708
+    thinking_tokens: 4239
+  created: '2026-11-04T18:11:51+00:00'
+topics:
+- key: spreadsheet_data_preparation
+  name: Spreadsheet data preparation
+  description: Organising, structuring and cleaning environmental datasets in Excel spreadsheets before
+    analysis.
+  evidence:
+  - c1.1
+  - c1.2
+  - c1.3
+  share: 0.12
+  level: introductory
+  kind: technique
+  technology: Excel
+- key: macro_automation
+  name: Macro automation for data processing
+  description: Writing, inserting, running and debugging VBA macros in Excel to automate cleaning and
+    processing of environmental datasets, together with general best practices.
+  evidence:
+  - c1.4
+  - c1.5
+  - c1.6
+  - c1.8
+  - c1.9
+  - c1.10
+  - o3
+  share: 0.16
+  level: intermediate
+  kind: technique
+  technology: VBA
+- key: ai_assisted_macro_generation
+  name: AI-assisted macro generation
+  description: Using an AI system to generate VBA macro code and checking its suitability before use in
+    Excel.
+  evidence:
+  - c1.7
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: office_productivity_tools
+  name: Office productivity tools
+  description: Using personal productivity applications, namely spreadsheets and slide presentations,
+    to process and present data.
+  evidence:
+  - c2.1
+  - c2.1.1
+  - c2.1.2
+  - o1
+  share: 0.07
+  level: introductory
+  kind: tool
+  technology: null
+- key: computer_networks_internet
+  name: Computer networks and the Internet
+  description: Basic principles of computer networks, how the Internet is organised and the communication
+    protocols that enable it.
+  evidence:
+  - c2.2
+  - c2.2.1
+  - c2.2.2
+  - c2.2.3
+  - o2
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: markup_languages_hypertext
+  name: Markup languages, hypertext and web styling
+  description: Hypertext and the classification of markup languages, with the structure and styling of
+    web pages in HTML and CSS.
+  evidence:
+  - c2.3
+  - c2.3.1
+  - c2.3.2
+  - c2.3.4
+  share: 0.12
+  level: introductory
+  kind: language
+  technology: HTML
+- key: web_evolution_social_collaboration
+  name: Web evolution, social and collaborative tools
+  description: The evolution from Web 1.0 to Web 2.0 and the use of social networks and online collaborative
+    tools.
+  evidence:
+  - c2.3.3
+  - c2.3.5
+  - c2.3.6
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: relational_database_concepts
+  name: Relational database concepts
+  description: The principles of relational databases, including tables and the role of primary and foreign
+    keys.
+  evidence:
+  - c2.4
+  - c2.4.1
+  - c2.4.2
+  - o2
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: querying_and_table_creation
+  name: Querying and table creation in SQL
+  description: Creating database tables and retrieving data with SQL query statements.
+  evidence:
+  - c2.4.3
+  - c2.4.4
+  share: 0.18
+  level: introductory
+  kind: language
+  technology: SQL
+not_topics: []

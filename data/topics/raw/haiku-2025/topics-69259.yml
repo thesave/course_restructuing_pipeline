@@ -1,0 +1,130 @@
+format: extraction/1
+course: '69259'
+title: Computer Science
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 14.0
+  usage:
+    prompt_tokens: 3122
+    completion_tokens: 2939
+    cache_read_tokens: 1854
+    thinking_tokens: 1835
+  created: '2026-11-04T18:14:37+00:00'
+topics:
+- key: information_coding
+  name: Information coding and digital representation
+  description: How information such as numbers, text and symbols is encoded, stored and processed as binary
+    data in digital systems.
+  evidence:
+  - c1
+  - o1
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: computer_organization
+  name: Computer organization
+  description: The main hardware components of a computer and how they cooperate to execute programs and
+    process data.
+  evidence:
+  - c1
+  - o1
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: computer_networks
+  name: Computer networks
+  description: The organization of networks that connect computers, including communication principles
+    and how data travels between machines.
+  evidence:
+  - c1
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: databases
+  name: Databases and geographic databases
+  description: The principles of organizing, storing and querying structured data, with attention to databases
+    that hold geographic information.
+  evidence:
+  - c1
+  - o1
+  share: 0.11
+  level: introductory
+  kind: concept
+  technology: null
+- key: digital_graphics
+  name: Digital graphics
+  description: The representation of images and graphical elements in digital form, including raster and
+    vector graphics.
+  evidence:
+  - c1
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: server_side_application
+  name: Data collection and server-side application development
+  description: Laboratory work on collecting and analysing data and on developing a server-side application
+    that processes and serves that data.
+  evidence:
+  - c1
+  - o1
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: null
+- key: map_projections_coordinates
+  name: Cartographic projections and coordinate systems
+  description: How the curved surface of the Earth is projected onto a plane and located with coordinate
+    reference systems, as applied in numerical cartography.
+  evidence:
+  - c2
+  - o3
+  share: 0.13
+  level: intermediate
+  kind: concept
+  technology: null
+- key: cartographic_representation
+  name: Principles of cartographic representation
+  description: The basic principles of traditional cartography, such as scale, symbolism and the representation
+    of geographical data on maps.
+  evidence:
+  - c2
+  - o3
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: gis_digital_cartography
+  name: Digital cartography and GIS tools
+  description: Digital cartography and geographic information systems, and the use of GIS software to
+    import, create, manage and analyse geographical data.
+  evidence:
+  - c2
+  - o3
+  - o4
+  share: 0.11
+  level: intermediate
+  kind: tool
+  technology: null
+- key: georeferencing_geodata
+  name: Georeferencing raster and vector data
+  description: Assigning real-world coordinates to raster and vector geographic elements so they can be
+    correctly positioned and combined in numerical cartography applications.
+  evidence:
+  - c2
+  - o4
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

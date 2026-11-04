@@ -1,0 +1,125 @@
+format: extraction/1
+course: '90748'
+title: Blockchain and Cryptocurrencies
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 14.9
+  usage:
+    prompt_tokens: 3105
+    completion_tokens: 3141
+    cache_read_tokens: 1854
+    thinking_tokens: 1866
+  created: '2026-11-04T18:22:06+00:00'
+topics:
+- key: peer_to_peer_overlays
+  name: Peer-to-peer systems and overlay topologies
+  description: Architecture of peer-to-peer systems and how overlay network topologies support decentralization.
+  evidence:
+  - c6
+  - c7
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: cryptographic_foundations
+  name: Cryptographic foundations for cryptocurrencies
+  description: Cryptographic primitives such as hash functions, public-key cryptography and digital signatures
+    as used in cryptocurrencies.
+  evidence:
+  - c8
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: blockchain_decentralization
+  name: Blockchain and achieving decentralization
+  description: How a blockchain data structure as a distributed ledger achieves decentralized agreement
+    among untrusted peers.
+  evidence:
+  - c9
+  share: 0.14
+  level: intermediate
+  kind: concept
+  technology: null
+- key: transactions_and_scripting
+  name: Bitcoin transactions and transaction scripting
+  description: Structure of Bitcoin transactions and the scripting language used to specify and verify
+    spending conditions.
+  evidence:
+  - c10
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: mining_and_consensus
+  name: Mining and proof-of-work consensus
+  description: Mining process in the Bitcoin network, including proof-of-work and how it secures block
+    creation and incentives.
+  evidence:
+  - c11
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: blockchain_attacks
+  name: Attacks on blockchains
+  description: Known attacks against blockchain systems, such as double spending and majority-power attacks,
+    and their countermeasures.
+  evidence:
+  - c12
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: cryptocurrency_anonymity
+  name: Anonymity in cryptocurrencies
+  description: Degrees of anonymity and pseudonymity in cryptocurrency transactions and techniques that
+    strengthen or weaken them.
+  evidence:
+  - c13
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: smart_contracts
+  name: Smart contracts concepts
+  description: Conceptual model of smart contracts as programs executed on a blockchain, their execution
+    semantics and their use cases.
+  evidence:
+  - c14
+  - o1
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: smart_contract_development
+  name: Developing and deploying simple smart contracts
+  description: Hands-on practice of writing simple smart contracts and deploying them on a blockchain
+    platform.
+  evidence:
+  - c14
+  - o2
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Motivational remark on recent market interest in Bitcoin and cryptocurrencies; no teachable
+    content.
+- id: c2
+  reason: Motivational remark on investor interest and speculative bubble debate; no teachable content.
+- id: c3
+  reason: Motivational statement about the potential of blockchain for distributed applications; no specific
+    teachable content.
+- id: c4
+  reason: General remark that blockchain building blocks relate to many computer science areas; no specific
+    teachable content.
+- id: c5
+  reason: Course overview statement describing the aim of the course; organisational rather than teachable
+    content.

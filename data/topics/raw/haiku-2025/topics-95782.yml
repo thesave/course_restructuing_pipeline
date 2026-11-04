@@ -1,0 +1,141 @@
+format: extraction/1
+course: '95782'
+title: Network Analysis
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 17.0
+  usage:
+    prompt_tokens: 3974
+    completion_tokens: 3825
+    cache_read_tokens: 1854
+    thinking_tokens: 2464
+  created: '2026-11-04T18:26:50+00:00'
+topics:
+- key: network_research_design
+  name: Network research design and papers
+  description: Foundations of network analysis as a research field, its applications in other disciplines,
+    and how to design a study and critically read network analysis papers.
+  evidence:
+  - c2
+  - c3
+  - o1
+  - o3
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: network_mathematics
+  name: Mathematics of networks
+  description: Representing networks as graphs and adjacency matrices, classifying network types, and
+    using paths, components, ways, modes and matrix operations.
+  evidence:
+  - c4
+  - o2
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: network_data_management
+  name: Network data collection and management
+  description: Formulating network questions, collecting and checking the reliability of network data,
+    converting data formats, and choosing algorithms and software for analysis.
+  evidence:
+  - c5
+  - o4
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: node_centrality_measures
+  name: Node centrality measures
+  description: Degree, eigenvector-based, PageRank, hub and authority, closeness and betweenness centrality,
+    and the scales on which node measures are defined.
+  evidence:
+  - c6
+  - c7
+  share: 0.14
+  level: intermediate
+  kind: concept
+  technology: null
+- key: node_cohesion_and_similarity
+  name: Node groups, clustering and similarity
+  description: Cliques, cores, components and k-components, clustering coefficients, reciprocity, structural
+    equivalence, homophily and assortative mixing among nodes.
+  evidence:
+  - c7
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: network_hypothesis_testing
+  name: Hypothesis testing in networks
+  description: The role of hypotheses in the scientific method and how to test node-level and dyadic hypotheses
+    on networks with permutation tests.
+  evidence:
+  - c8
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: network_level_indices
+  name: Network-level cohesion and centralisation
+  description: Whole-network measures such as cohesion, transitivity, triad census, centralisation and
+    core-periphery indices, and mean degree and edge measures.
+  evidence:
+  - c9
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: degree_distributions_power_laws
+  name: Degree distributions and power laws
+  description: Degree distributions of networks, power-law behaviour, visualising and characterising power-law
+    distributions, and scale-free networks.
+  evidence:
+  - c9
+  - c11
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: random_graphs_small_world
+  name: Random graphs and small-world networks
+  description: Random graph models, small-world effects, giant and small components, and locally tree-like
+    network structure.
+  evidence:
+  - c9
+  - c11
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: network_visualisation
+  name: Network visualisation
+  description: Why visualisation matters, graph-layout algorithms, encoding node and tie attributes, filtering
+    nodes, visualising ego networks and network change.
+  evidence:
+  - c10
+  - o4
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: null
+- key: handling_large_networks
+  name: Handling large networks
+  description: Strategies for reducing large network problems through edge elimination, node pruning,
+    divide and conquer, aggregation and sampling.
+  evidence:
+  - c11
+  share: 0.08
+  level: advanced
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: 'Organisational remark: the programme is the same for attending and non-attending students;
+    it has no teachable content.'

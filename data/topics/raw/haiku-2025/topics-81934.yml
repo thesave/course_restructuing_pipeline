@@ -1,0 +1,147 @@
+format: extraction/1
+course: '81934'
+title: HUMAN COMPUTER INTERACTION
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 18.8
+  usage:
+    prompt_tokens: 3244
+    completion_tokens: 4368
+    cache_read_tokens: 1854
+    thinking_tokens: 2960
+  created: '2026-11-04T18:19:04+00:00'
+topics:
+- key: interaction_models
+  name: Interaction models and HCI frameworks
+  description: Covers Norman's model of interaction and the Abowd and Beale framework, together with the
+    tools, techniques and environments used in HCI.
+  evidence:
+  - c1.1
+  - o1.1
+  share: 0.104
+  level: introductory
+  kind: concept
+  technology: null
+- key: user_centred_design_process
+  name: User-centred design process
+  description: Covers the stages of designing and developing interactive applications for a chosen domain,
+    applied through a group project carried out in lab sessions.
+  evidence:
+  - c1.2
+  - o1.1
+  - o1.3
+  share: 0.125
+  level: introductory
+  kind: technique
+  technology: null
+- key: needfinding
+  name: Needfinding and requirements gathering
+  description: Covers strategies for discovering users' needs and tasks before design begins.
+  evidence:
+  - c1.2
+  - o1.1
+  share: 0.083
+  level: introductory
+  kind: technique
+  technology: null
+- key: mental_models
+  name: Mental models
+  description: Covers users' mental models of systems and how designers use them to shape interfaces that
+    match user expectations.
+  evidence:
+  - c1.2
+  share: 0.063
+  level: introductory
+  kind: concept
+  technology: null
+- key: prototyping
+  name: Low- and high-fidelity prototyping
+  description: Covers building low-fidelity and high-fidelity prototypes of interactive applications to
+    explore and test design ideas.
+  evidence:
+  - c1.2
+  share: 0.104
+  level: introductory
+  kind: technique
+  technology: null
+- key: visual_design
+  name: Visual design for interfaces
+  description: Covers principles of visual design applied to user interfaces, such as layout and presentation
+    of information.
+  evidence:
+  - c1.2
+  share: 0.063
+  level: introductory
+  kind: concept
+  technology: null
+- key: heuristic_evaluation
+  name: Heuristic evaluation
+  description: Covers inspecting an interface against usability heuristics to identify problems without
+    end users, and the theories behind usability evaluation.
+  evidence:
+  - c1.2
+  - o1.2
+  share: 0.083
+  level: intermediate
+  kind: technique
+  technology: null
+- key: user_studies
+  name: Basics of user studies
+  description: Covers the basic methods for evaluating interfaces with users, such as planning and running
+    usability tests and interpreting their results.
+  evidence:
+  - c1.2
+  - o1.2
+  share: 0.104
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ai_driven_interaction
+  name: AI-driven interaction
+  description: Covers the rationale, vision, contemporary examples and development tools of interaction
+    systems driven by artificial intelligence.
+  evidence:
+  - c1.3
+  share: 0.083
+  level: intermediate
+  kind: concept
+  technology: null
+- key: tangible_interaction
+  name: Tangible interaction
+  description: Covers the rationale, vision, contemporary examples and development tools of interfaces
+    that couple digital information with physical objects.
+  evidence:
+  - c1.3
+  share: 0.063
+  level: intermediate
+  kind: concept
+  technology: null
+- key: voice_user_interfaces
+  name: Voice user interfaces
+  description: Covers the rationale, vision, contemporary examples and development tools of interfaces
+    based on spoken interaction.
+  evidence:
+  - c1.3
+  share: 0.063
+  level: intermediate
+  kind: concept
+  technology: null
+- key: gesture_based_interaction
+  name: Gesture-based interaction
+  description: Covers the rationale, vision, contemporary examples and development tools of interfaces
+    controlled by body or hand gestures.
+  evidence:
+  - c1.3
+  share: 0.062
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics:
+- id: c1
+  reason: Overview heading listing the three key areas; its sub-areas c1.1, c1.2 and c1.3 are covered
+    by the topics above.

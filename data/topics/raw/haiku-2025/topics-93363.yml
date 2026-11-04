@@ -1,0 +1,95 @@
+format: extraction/1
+course: '93363'
+title: Advanced Programming
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 22.8
+  usage:
+    prompt_tokens: 7004
+    completion_tokens: 4835
+    cache_read_tokens: 3708
+    thinking_tokens: 2951
+  created: '2026-11-04T18:24:32+00:00'
+topics:
+- key: classes_and_objects
+  name: Classes and objects in Python
+  description: Defining classes, instantiating objects, attributes, methods and encapsulation as used
+    in Python for structuring programs.
+  evidence:
+  - c2
+  - c3
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: inheritance_and_polymorphism
+  name: Inheritance and polymorphism
+  description: Class hierarchies, method overriding, subclassing and polymorphic behaviour of objects
+    in Python.
+  evidence:
+  - c2
+  - c3
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: array_oriented_computing
+  name: Array-oriented computing
+  description: The array-oriented programming paradigm for scientific computing, based on whole-array
+    operations, vectorisation and broadcasting instead of explicit loops.
+  evidence:
+  - c2
+  - c3
+  share: 0.13
+  level: intermediate
+  kind: concept
+  technology: Python
+- key: multidimensional_arrays
+  name: NumPy arrays
+  description: Creating and manipulating NumPy ndarrays, indexing, slicing and vectorised numerical operations
+    for scientific computing.
+  evidence:
+  - c4
+  share: 0.15
+  level: intermediate
+  kind: tool
+  technology: NumPy
+- key: tabular_data_analysis
+  name: Pandas data analysis
+  description: Working with Pandas Series and DataFrames to load, select, transform and summarise tabular
+    scientific data.
+  evidence:
+  - c4
+  share: 0.15
+  level: intermediate
+  kind: tool
+  technology: Pandas
+- key: scientific_numerical_routines
+  name: SciPy scientific routines
+  description: Using SciPy modules for scientific computing tasks such as numerical optimisation, integration,
+    statistics and signal processing.
+  evidence:
+  - c4
+  share: 0.12
+  level: intermediate
+  kind: tool
+  technology: SciPy
+- key: uml_software_design
+  name: UML for software design
+  description: Using the Unified Modelling Language as the standard notation to visualise and document
+    the design of software applications, such as class and sequence diagrams.
+  evidence:
+  - c5
+  share: 0.2
+  level: introductory
+  kind: concept
+  technology: null
+not_topics:
+- id: c1
+  reason: Course-level framing stating that advanced programming techniques will be covered; the concrete
+    content is covered by the specific topics above.

@@ -1,0 +1,123 @@
+format: extraction/1
+course: '30376'
+title: Business Intelligence
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 14.1
+  usage:
+    prompt_tokens: 3251
+    completion_tokens: 3193
+    cache_read_tokens: 1854
+    thinking_tokens: 2051
+  created: '2026-11-04T18:12:22+00:00'
+topics:
+- key: bi_role_and_pyramid
+  name: BI in the corporate information system
+  description: Role of business intelligence within the corporate information system and the BI pyramid
+    model of its layers.
+  evidence:
+  - c1
+  - c1.1
+  - c1.2
+  - o1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_warehouse_architectures
+  name: Data warehouse architectures
+  description: Architectural options for data warehousing systems and how their components are organised.
+  evidence:
+  - c2
+  - c2.1
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: reporting_and_olap
+  name: Reporting and OLAP analysis
+  description: Data analysis techniques for enterprise data, namely reporting and on-line analytical processing
+    (OLAP).
+  evidence:
+  - c2.2
+  - o1
+  share: 0.12
+  level: introductory
+  kind: technique
+  technology: null
+- key: dw_data_source_analysis
+  name: Data source analysis for data warehouses
+  description: Analysis of the operational data sources feeding a data warehouse within the design lifecycle.
+  evidence:
+  - c2.3
+  - c2.3.1
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: dw_requirement_analysis
+  name: Requirement analysis for data warehouses
+  description: Elicitation and analysis of business user requirements that drive data warehouse design.
+  evidence:
+  - c2.3.2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: conceptual_dw_design
+  name: Conceptual design of data warehouses
+  description: Conceptual modelling of facts, dimensions and measures for a data warehouse, independent
+    of implementation.
+  evidence:
+  - c2.3.3
+  - o2
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: workload_and_data_volume
+  name: Workload and data volume estimation
+  description: Estimating the query workload and data volumes of a data warehouse to guide its design.
+  evidence:
+  - c2.3.4
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: logical_dw_design
+  name: Logical design of data warehouses
+  description: Translation of the conceptual model into logical schemas such as star and snowflake schemas.
+  evidence:
+  - c2.3.5
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: etl_procedure_design
+  name: ETL procedure design
+  description: Design of extraction, transformation and loading procedures that populate the data warehouse
+    from its sources.
+  evidence:
+  - c2.3.6
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: physical_dw_design
+  name: Physical design of data warehouses
+  description: Physical implementation choices for a data warehouse, such as storage structures, indexes
+    and partitioning, to meet workload requirements.
+  evidence:
+  - c2.3.7
+  - o2
+  share: 0.18
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

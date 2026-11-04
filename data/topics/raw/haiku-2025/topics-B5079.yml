@@ -1,0 +1,105 @@
+format: extraction/1
+course: B5079
+title: Digital Humanities and Data Management for Cultural Heritage
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 12.9
+  usage:
+    prompt_tokens: 4091
+    completion_tokens: 2619
+    cache_read_tokens: 1854
+    thinking_tokens: 1652
+  created: '2026-11-04T18:31:01+00:00'
+topics:
+- key: digital_humanities_foundations
+  name: Digital Humanities foundations
+  description: Introduces the field of Digital Humanities and the principles of data management for humanities
+    research, including the course's scope and aims.
+  evidence:
+  - c1
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: humanities_data_life_cycle
+  name: Humanities data life cycle
+  description: Covers the stages of a DH project from planning and data creation to preservation and reuse,
+    and how digital methods are applied at each stage.
+  evidence:
+  - c2
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: digital_tools_for_humanities_data
+  name: Digital tools for humanities data
+  description: Surveys digital tools and methodologies used to manage bibliographic, archival, documentary
+    and artistic data in humanities projects.
+  evidence:
+  - c2
+  share: 0.1
+  level: introductory
+  kind: tool
+  technology: null
+- key: metadata_and_description
+  name: Metadata and description
+  description: Explains the role of metadata and descriptive models for bibliographic, archival, documentary
+    and artistic resources, and how they are used to represent humanities data.
+  evidence:
+  - c2
+  - c3
+  - o2
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: fair_data_management
+  name: FAIR data management
+  description: Explains the FAIR principles (Findable, Accessible, Interoperable, Reusable) and how to
+    apply them to the management of humanities research data.
+  evidence:
+  - c3
+  - o2
+  share: 0.14
+  level: intermediate
+  kind: concept
+  technology: null
+- key: linked_open_data
+  name: Linked Open Data
+  description: Covers the models, languages and principles of Linked Open Data and their use to connect
+    and publish cultural heritage data on the web.
+  evidence:
+  - c3
+  - o1
+  share: 0.16
+  level: intermediate
+  kind: concept
+  technology: null
+- key: cultural_heritage_resource_design
+  name: Cultural heritage digital resource design
+  description: Covers conceiving, designing and implementing a FAIR-based digital resource that enhances
+    cultural heritage, from requirements to implementation.
+  evidence:
+  - c3
+  - o2
+  share: 0.18
+  level: intermediate
+  kind: technique
+  technology: null
+- key: open_science_publication
+  name: Open science and digital publication
+  description: Covers producing, managing and publishing digital cultural heritage resources following
+    open science principles.
+  evidence:
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

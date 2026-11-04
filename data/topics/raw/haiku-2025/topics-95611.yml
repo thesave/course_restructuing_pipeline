@@ -1,0 +1,130 @@
+format: extraction/1
+course: '95611'
+title: Database Systems
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 0
+  seconds: 0.0
+  usage: {}
+  created: '2026-11-04T18:09:38+00:00'
+copied_from: '10906'
+topics:
+- key: relational_model
+  name: Relational model
+  description: The structure of relations, keys and integrity constraints (domain, entity, referential)
+    in the relational data model.
+  evidence:
+  - c1
+  - o1
+  - o2
+  share: 0.125
+  level: introductory
+  kind: concept
+  technology: null
+- key: normalization
+  name: Normal forms and normalization
+  description: Functional dependencies and the normalization techniques that decompose relations into
+    normal forms such as 3NF and BCNF.
+  evidence:
+  - c1
+  - c4
+  share: 0.0833333
+  level: intermediate
+  kind: technique
+  technology: null
+- key: data_definition_manipulation
+  name: Data definition and manipulation
+  description: Creating, altering and dropping schema objects and inserting, updating and deleting data
+    with SQL DDL and DML statements.
+  evidence:
+  - c2
+  - o2
+  share: 0.0833333
+  level: introductory
+  kind: language
+  technology: SQL
+- key: database_querying
+  name: Database querying
+  description: Writing SELECT queries in SQL, including joins, aggregation, grouping, subqueries and set
+    operations, to retrieve data from a relational database.
+  evidence:
+  - c2
+  - o2
+  share: 0.1458333
+  level: intermediate
+  kind: language
+  technology: SQL
+- key: er_conceptual_design
+  name: Entity-Relationship conceptual design
+  description: Requirement analysis and conceptual database design using the Entity-Relationship model.
+  evidence:
+  - c4
+  share: 0.125
+  level: introductory
+  kind: technique
+  technology: null
+- key: logical_database_design
+  name: Logical database design
+  description: Translating a conceptual Entity-Relationship schema into a logical relational schema.
+  evidence:
+  - c4
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: null
+- key: transaction_management
+  name: Transaction management and scheduling
+  description: Transactions, their ACID properties, and the transaction manager and scheduler that control
+    concurrent execution and serializability.
+  evidence:
+  - c3
+  share: 0.0833333
+  level: intermediate
+  kind: concept
+  technology: null
+- key: recovery_management
+  name: Recovery management
+  description: Mechanisms, such as logging and checkpointing, that restore database consistency after
+    failures.
+  evidence:
+  - c3
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: null
+- key: query_processing_access_methods
+  name: Query optimization and access methods
+  description: How the query optimizer chooses execution plans and how access methods such as indexes
+    support efficient data retrieval.
+  evidence:
+  - c3
+  share: 0.1041667
+  level: intermediate
+  kind: technique
+  technology: null
+- key: storage_and_buffer_management
+  name: Storage and cache management
+  description: The storage manager and cache (buffer) manager that organize data on disk and in memory
+    for a DBMS.
+  evidence:
+  - c3
+  share: 0.0625
+  level: intermediate
+  kind: concept
+  technology: null
+- key: nosql_systems
+  name: NoSQL systems
+  description: An introduction to non-relational NoSQL architectures and data models, such as key-value,
+    document, column-family and graph stores.
+  evidence:
+  - c5
+  - o3
+  share: 0.0625
+  level: introductory
+  kind: concept
+  technology: null
+not_topics: []

@@ -1,0 +1,142 @@
+format: extraction/1
+course: '77780'
+title: Embedded Systems Programming and Internet of Things
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 33.1
+  usage:
+    prompt_tokens: 8450
+    completion_tokens: 7857
+    cache_read_tokens: 3708
+    thinking_tokens: 4870
+  created: '2026-11-04T18:17:36+00:00'
+topics:
+- key: embedded_hardware_basics
+  name: Embedded hardware basics
+  description: 'Core hardware building blocks of embedded and IoT systems: microcontrollers, SoCs, sensors,
+    actuators and their supporting electronics.'
+  evidence:
+  - c1.1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: super_loop_event_driven_architectures
+  name: Super-loop and event-driven architectures
+  description: Structuring embedded firmware as a polling super-loop and as event-driven control flow,
+    and comparing their trade-offs.
+  evidence:
+  - c2.1
+  - c2.4
+  share: 0.08
+  level: introductory
+  kind: technique
+  technology: null
+- key: finite_state_machines
+  name: Finite state machines
+  description: Modelling embedded control logic with time-driven and event-driven finite state machines.
+  evidence:
+  - c2.2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: tasks_and_rtos_architectures
+  name: Tasks and real-time operating systems
+  description: The task abstraction and architectures built on a real-time operating system, including
+    scheduling and concurrency for embedded software.
+  evidence:
+  - c2.3
+  - c2.5
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: networked_embedded_communication
+  name: Networked embedded communication and message passing
+  description: Models, architectures, communication protocols and wireless technologies for networks of
+    embedded systems, together with message passing models.
+  evidence:
+  - c3.1
+  - c3.2
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: iot_architectures_platforms
+  name: IoT architectures and platforms
+  description: Basic layered architectures of IoT systems and the platforms that support them.
+  evidence:
+  - c3.4
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: mobile_app_integration
+  name: Mobile system integration and app programming
+  description: Integrating embedded and IoT devices with mobile systems and programming mobile apps that
+    communicate with them, as practised on Android.
+  evidence:
+  - c3.3
+  - c5.3
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: Android
+- key: web_of_things
+  name: Web of Things
+  description: The Web of Things approach to exposing IoT devices and services through standard web technologies.
+  evidence:
+  - c4.1
+  share: 0.04
+  level: intermediate
+  kind: concept
+  technology: null
+- key: digital_twins_mirror_worlds
+  name: Digital twins and mirror worlds
+  description: Digital twins as virtual counterparts of physical systems and the links from IoT to augmented
+    and mixed reality mirror worlds.
+  evidence:
+  - c4.2
+  - c4.3
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: microcontroller_platform_lab
+  name: Microcontroller platform lab
+  description: Using a microcontroller board to read sensors and drive actuators in lab exercises, starting
+    from the Arduino UNO.
+  evidence:
+  - c5.1
+  share: 0.08
+  level: introductory
+  kind: tool
+  technology: Arduino UNO
+- key: embedded_program_structure
+  name: Embedded program structure and C++ basics
+  description: Writing microcontroller programs in C++ within the Wiring framework, covering the language
+    basics and the setup/loop program structure.
+  evidence:
+  - c5.1
+  - c5.1.1
+  share: 0.08
+  level: introductory
+  kind: language
+  technology: C++
+- key: soc_iot_platform_lab
+  name: SoC IoT platform programming with FreeRTOS
+  description: Developing IoT applications on the ESP32 SoC running the FreeRTOS real-time operating system
+    in lab exercises.
+  evidence:
+  - c5.2
+  share: 0.14
+  level: intermediate
+  kind: tool
+  technology: ESP32
+not_topics: []

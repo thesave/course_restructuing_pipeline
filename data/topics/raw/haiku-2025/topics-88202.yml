@@ -1,0 +1,148 @@
+format: extraction/1
+course: '88202'
+title: Machine Learning
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 0
+  seconds: 0.0
+  usage: {}
+  created: '2026-11-04T18:18:19+00:00'
+copied_from: '81610'
+topics:
+- key: ml_problem_settings
+  name: Machine learning problem settings
+  description: Defines AI and machine learning and the supervised, unsupervised, classification and regression
+    problem settings that the course builds on.
+  evidence:
+  - c1
+  - c2
+  - c3
+  - o1.1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: bayesian_classifiers
+  name: Bayesian classifiers
+  description: Covers Bayes decision theory and probabilistic classifiers that assign labels by estimating
+    class posterior probabilities.
+  evidence:
+  - c4
+  - o1.2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: k_nearest_neighbor
+  name: k-nearest neighbor classification
+  description: Covers the k-nearest neighbor classifier, its distance-based decision rule and the effect
+    of the choice of k.
+  evidence:
+  - c4
+  - o1.2
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: support_vector_machines
+  name: Support vector machines
+  description: Covers maximum-margin linear classifiers, soft margins and kernel-based non-linear support
+    vector machines.
+  evidence:
+  - c4
+  - o1.2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: multiclassifier_ensembles
+  name: Multiclassifier ensembles
+  description: Covers combining several classifiers and multiclass strategies to improve classification
+    performance.
+  evidence:
+  - c4
+  - o1.2
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: clustering_algorithms
+  name: Clustering algorithms
+  description: Covers unsupervised clustering with K-means and with expectation-maximization for mixture
+    models.
+  evidence:
+  - c5
+  - o1.2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: dimensionality_reduction
+  name: Dimensionality reduction
+  description: Covers reducing feature dimensionality with principal component analysis and discriminant
+    analysis.
+  evidence:
+  - c5
+  - o1.2
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: neural_networks_deep_learning
+  name: Neural networks and introduction to deep learning
+  description: Covers feedforward neural networks, their training, and the introduction of deep learning
+    as learning multi-layer representations.
+  evidence:
+  - c6
+  - c7
+  - o1.2
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+- key: convolutional_neural_networks
+  name: Convolutional neural networks
+  description: Covers convolutional layers, pooling and convolutional architectures for image and grid-structured
+    data.
+  evidence:
+  - c8
+  - o1.2
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: null
+- key: recurrent_neural_networks
+  name: Recurrent neural networks
+  description: Covers recurrent architectures that model sequential data through hidden state across time
+    steps.
+  evidence:
+  - c9
+  - o1.2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: transformers_large_language_models
+  name: Transformers and large language models
+  description: Covers the attention-based transformer architecture and its use in large language models.
+  evidence:
+  - c10
+  - o1.2
+  share: 0.1
+  level: advanced
+  kind: technique
+  technology: null
+- key: reinforcement_learning
+  name: Reinforcement learning
+  description: Covers learning from rewards through agents, environments, value functions and policies.
+  evidence:
+  - c11
+  share: 0.08
+  level: advanced
+  kind: technique
+  technology: null
+not_topics: []

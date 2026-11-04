@@ -1,0 +1,172 @@
+format: extraction/1
+course: 08574-B
+title: Operating Systems
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 24.1
+  usage:
+    prompt_tokens: 8086
+    completion_tokens: 5515
+    cache_read_tokens: 3708
+    thinking_tokens: 2364
+  created: '2026-11-04T18:09:03+00:00'
+topics:
+- key: os_history_and_definition
+  name: Operating system definition and history
+  description: What an operating system is, its role as resource manager and interface, and how OS design
+    evolved from batch systems to modern multitasking systems.
+  evidence:
+  - c1.1
+  - o1
+  share: 0.03
+  level: introductory
+  kind: concept
+  technology: null
+- key: os_structure
+  name: Operating system structure
+  description: Architectural organisation of operating systems (monolithic, layered, microkernel, modular)
+    and how kernel and user space are separated.
+  evidence:
+  - c1.3
+  - o1
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: concurrent_programming
+  name: Concurrent programming
+  description: Processes and threads as concurrent activities, and the synchronisation primitives (mutual
+    exclusion, semaphores, monitors) used to coordinate them safely.
+  evidence:
+  - c1.2
+  - o1
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: process_scheduling
+  name: Process scheduling
+  description: CPU scheduling policies and algorithms for multitasking systems, and the criteria used
+    to compare them.
+  evidence:
+  - c1.4
+  - o1
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: resource_management
+  name: Resource management and deadlock
+  description: Allocation of shared system resources among competing processes, including deadlock conditions,
+    prevention, avoidance and detection.
+  evidence:
+  - c1.5
+  - o1
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: central_memory_management
+  name: Central memory management
+  description: Main memory allocation techniques such as paging, segmentation, virtual memory and page
+    replacement.
+  evidence:
+  - c1.6
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: secondary_memory_management
+  name: Secondary memory management
+  description: Management of disk storage, including disk scheduling and block allocation on secondary
+    memory devices.
+  evidence:
+  - c1.7
+  - o1
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: file_system_design
+  name: File system design
+  description: Logical and physical organisation of files and directories, access methods, and the implementation
+    of file systems on storage.
+  evidence:
+  - c1.8
+  - o1
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: os_security
+  name: Operating system security
+  description: Protection mechanisms, access control and security threats addressed by operating systems.
+  evidence:
+  - c1.9
+  - o1
+  share: 0.04
+  level: intermediate
+  kind: concept
+  technology: null
+- key: low_level_programming
+  name: Low-level systems programming
+  description: Core C constructs used to write system-level programs, including pointers, memory handling
+    and compilation for the OS laboratory assignments.
+  evidence:
+  - c2.1
+  - o2
+  share: 0.09
+  level: introductory
+  kind: language
+  technology: C
+- key: system_calls
+  name: System calls
+  description: The interface through which user programs request kernel services, how calls are invoked
+    and how they are used to program the operating system.
+  evidence:
+  - c2.2
+  - o2
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: programming_tools
+  name: Software development tools
+  description: Tools used to build and maintain OS-level programs, such as compilers, build automation,
+    and debugging utilities.
+  evidence:
+  - c2.3
+  - o2
+  share: 0.06
+  level: introductory
+  kind: tool
+  technology: null
+- key: shell_scripting
+  name: Shell scripting
+  description: Writing Unix shell scripts to automate administration and development tasks, using variables,
+    control flow and pipelines.
+  evidence:
+  - c2.4
+  - o2
+  share: 0.07
+  level: introductory
+  kind: language
+  technology: Unix shell
+- key: scripting_programming
+  name: Scripting with Python
+  description: Core Python constructs and their use for scripting and programming operating system tasks
+    in the course.
+  evidence:
+  - c2.5
+  - o2
+  share: 0.06
+  level: introductory
+  kind: language
+  technology: Python
+not_topics: []

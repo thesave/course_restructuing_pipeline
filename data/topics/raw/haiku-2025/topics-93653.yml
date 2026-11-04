@@ -1,0 +1,144 @@
+format: extraction/1
+course: '93653'
+title: Iot And Big Data For Smart Agricultural Systems
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 20.1
+  usage:
+    prompt_tokens: 3309
+    completion_tokens: 4558
+    cache_read_tokens: 1854
+    thinking_tokens: 3236
+  created: '2026-11-04T18:25:19+00:00'
+topics:
+- key: computer_fundamentals
+  name: Computer fundamentals and digital representation
+  description: Basic computer science concepts, computer architecture, and how information is represented
+    digitally in a computer.
+  evidence:
+  - c1
+  - c2
+  - c3
+  - c4
+  - o1
+  share: 0.075
+  level: introductory
+  kind: concept
+  technology: null
+- key: iot_and_smart_sensors
+  name: IoT concepts and smart sensors
+  description: Internet of Things definitions and architecture, the operating principles of sensors, and
+    smart sensors used for data acquisition in agriculture.
+  evidence:
+  - c5
+  - c6
+  - c7
+  - o1
+  share: 0.125
+  level: introductory
+  kind: concept
+  technology: null
+- key: iot_data_transfer_technologies
+  name: Data transfer technologies for open-field agriculture
+  description: Wireless and networking technologies used to transfer sensor data from open fields to processing
+    infrastructures.
+  evidence:
+  - c8
+  - o1
+  share: 0.075
+  level: intermediate
+  kind: technique
+  technology: null
+- key: cloud_and_parallel_computing
+  name: Cloud computing and parallel computing
+  description: Cloud and fog computing infrastructures for data elaboration and the parallel computing
+    principles used to process large data volumes.
+  evidence:
+  - c9
+  - c13
+  - o1
+  share: 0.075
+  level: intermediate
+  kind: concept
+  technology: null
+- key: big_data_concepts
+  name: Big data definition and characteristics
+  description: The definition of big data and its main characteristics as the basis for analysing large
+    and heterogeneous datasets.
+  evidence:
+  - c11
+  - c12
+  - o1
+  share: 0.075
+  level: introductory
+  kind: concept
+  technology: null
+- key: artificial_intelligence_and_machine_learning
+  name: Artificial intelligence and machine learning
+  description: Core ideas of artificial intelligence and machine learning and their role as references
+    for analysing IoT and big data.
+  evidence:
+  - c14
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: data_analysis_tools_visualization
+  name: Data analysis tools and visualization
+  description: Software tools for analysing, elaborating and visualising data, with a hands-on laboratory
+    on data analytics and visualisation.
+  evidence:
+  - c15
+  - c17
+  - c18
+  - o2
+  share: 0.15
+  level: intermediate
+  kind: tool
+  technology: null
+- key: smart_agriculture_applications
+  name: IoT and big data applications in agriculture
+  description: Examples of IoT and big data/AI applications for monitoring soil properties, weather conditions
+    and crops, and their use cases in smart agriculture.
+  evidence:
+  - c10
+  - c16
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: iot_field_projects
+  name: Design of IoT field projects
+  description: Designing and implementing two IoT practical applications on a sample plot for arboriculture
+    and extensive culture, including the field work.
+  evidence:
+  - c18.1
+  - c19
+  - o2
+  share: 0.175
+  level: intermediate
+  kind: technique
+  technology: null
+- key: iot_service_industry_perspective
+  name: IoT services industry perspective
+  description: Seminar delivered by an IoT service supplier on how IoT services for agriculture are provided
+    and applied in practice.
+  evidence:
+  - c20
+  - c21
+  - o1
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+not_topics:
+- id: c22
+  reason: Describes a collaboration with the course Crop Sensing, Data Harvesting and Robot Technologies;
+    it is an organisational arrangement and the teaching content belongs to that other course.

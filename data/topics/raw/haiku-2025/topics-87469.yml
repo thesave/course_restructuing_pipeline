@@ -1,0 +1,125 @@
+format: extraction/1
+course: '87469'
+title: Decision Making with Constraint Programming
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 11.5
+  usage:
+    prompt_tokens: 3210
+    completion_tokens: 2310
+    cache_read_tokens: 1854
+    thinking_tokens: 1133
+  created: '2026-11-04T18:20:23+00:00'
+topics:
+- key: cp_overview_applications
+  name: Constraint programming overview and applications
+  description: Introduces constraint programming as a decision-support technology and surveys its successful
+    applications in science, business and industry.
+  evidence:
+  - c1
+  - o2
+  - o3
+  - o4
+  - o5
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: constraint_modeling
+  name: Constraint modeling techniques
+  description: Covers how to formulate combinatorial decision problems as constraint satisfaction and
+    optimization models, using variables, domains and constraints.
+  evidence:
+  - c2
+  - o1
+  - o7
+  share: 0.15
+  level: intermediate
+  kind: technique
+  technology: null
+- key: local_consistency_propagation
+  name: Local consistency and constraint propagation
+  description: Explains local consistency notions such as arc and bounds consistency and the propagation
+    algorithms that enforce them to prune variable domains.
+  evidence:
+  - c3
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: global_constraints
+  name: Global constraints
+  description: Studies reusable global constraints that capture common combinatorial structures and the
+    specialised propagation algorithms that make them effective.
+  evidence:
+  - c4
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: tree_search_branching
+  name: Tree search, branching and restarts
+  description: Covers constructive tree search combined with propagation, branching heuristics, randomization
+    and search restarts for solving constraint problems.
+  evidence:
+  - c5
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: constrained_optimization
+  name: Constrained optimization problems
+  description: Shows how optimization objectives are added to constraint models and how branch-and-bound
+    style search finds optimal solutions.
+  evidence:
+  - c6
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: constraint_based_scheduling
+  name: Constraint-based scheduling
+  description: Models scheduling problems with interval variables, cumulative and disjunctive resource
+    constraints and solves them with CP techniques.
+  evidence:
+  - c7
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: heuristic_search_methods
+  name: Heuristic search methods
+  description: Presents metaheuristic and local search methods for combinatorial problems as an alternative
+    or complement to complete constraint-based search.
+  evidence:
+  - c8
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: hybrid_cp_heuristic_search
+  name: Hybrid CP and heuristic search
+  description: Explains how constraint propagation and tree search are combined with heuristic and local
+    search methods in hybrid solving approaches.
+  evidence:
+  - c9
+  share: 0.08
+  level: advanced
+  kind: technique
+  technology: null
+- key: advanced_cp_research_topics
+  name: Advanced and emerging CP topics
+  description: Surveys advanced and current research directions in constraint programming beyond the core
+    techniques covered in the course.
+  evidence:
+  - c10
+  share: 0.09
+  level: advanced
+  kind: concept
+  technology: null
+not_topics: []

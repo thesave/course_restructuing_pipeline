@@ -1,0 +1,138 @@
+format: extraction/1
+course: '57828'
+title: Informatics
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 35.7
+  usage:
+    prompt_tokens: 3887
+    completion_tokens: 7929
+    cache_read_tokens: 1854
+    thinking_tokens: 6759
+  created: '2026-11-04T18:14:17+00:00'
+topics:
+- key: computing_fundamentals
+  name: Computing fundamentals
+  description: Digital information, computational thinking, algorithms, the computer as a general executor
+    of algorithms, programming principles with visual block programming, and the basic hardware architecture
+    and software layers of a computer.
+  evidence:
+  - c3
+  - c3.1
+  - c3.2
+  - c3.3
+  - c3.4
+  - c3.5
+  - c3.6
+  - c3.7
+  - c4
+  - c4.1
+  - c4.2
+  - c4.3
+  - c4.4
+  - o1.1
+  share: 0.25
+  level: introductory
+  kind: concept
+  technology: null
+- key: operating_system_and_files
+  name: Operating systems, files and security
+  description: Functions of an operating system, the hierarchical file system and file formats, file management
+    in the Windows operating system and its utilities, and basic IT security and data protection.
+  evidence:
+  - c4.5
+  - c4.6
+  - c4.7
+  - c5
+  - c5.1
+  - c5.2
+  - c5.3
+  - c5.4
+  - o1.2
+  share: 0.17
+  level: introductory
+  kind: concept
+  technology: Windows
+- key: word_processing
+  name: Word processing
+  description: Editing professional documents with tables, headers, notes and images, saving in text formats,
+    exporting to PDF or PDF/A, and printing and archiving.
+  evidence:
+  - c6
+  - c6.1
+  - c6.2
+  - c6.3
+  - c6.4
+  - c6.5
+  - o1.3
+  share: 0.12
+  level: introductory
+  kind: tool
+  technology: null
+- key: spreadsheets
+  name: Spreadsheets for data processing
+  description: Structure of a spreadsheet, cells, formulas and functions, tables and charts, filters,
+    sorting and conditional formatting, data import/export, and printing, used to solve data-processing
+    problems and produce reports.
+  evidence:
+  - c7
+  - c7.1
+  - c7.2
+  - c7.3
+  - c7.4
+  - c7.5
+  - c7.6
+  - o1.3
+  - o1.4
+  share: 0.17
+  level: introductory
+  kind: tool
+  technology: null
+- key: databases
+  name: Databases and structured archives
+  description: Basic database concepts of tables, records and keys, designing and creating a database
+    for structured data management, and importing and exporting its data.
+  evidence:
+  - c8
+  - c8.1
+  - c8.2
+  - c8.3
+  - o1.3
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: networks_web_and_cloud
+  name: Networks, the web and cloud services
+  description: Computer networks, the client-server model, the history and protocol stacks of the Internet,
+    web applications, browsing with institutional portals, searching for information online, and cloud
+    tools for collaboration and storage.
+  evidence:
+  - c9
+  - c9.1
+  - c9.2
+  - c9.3
+  - c9.4
+  - c9.5
+  - c9.6
+  - c9.7
+  - o1.5
+  share: 0.17
+  level: introductory
+  kind: concept
+  technology: null
+not_topics:
+- id: c1
+  reason: Motivational framing on the role of digital technologies in the prevention technician profession;
+    no separate teachable content.
+- id: c2
+  reason: Motivational framing on the importance of information technologies for the profession; no separate
+    teachable content.
+- id: c4.8
+  reason: Contextual remark on the relevance of IT for the technical-healthcare sector, framing rather
+    than a teachable topic.

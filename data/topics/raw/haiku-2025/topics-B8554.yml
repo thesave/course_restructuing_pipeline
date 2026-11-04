@@ -1,0 +1,162 @@
+format: extraction/1
+course: B8554
+title: SISTEMI SOFTWARE A OGGETTI T
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 36.6
+  usage:
+    prompt_tokens: 8689
+    completion_tokens: 8750
+    cache_read_tokens: 3708
+    thinking_tokens: 5334
+  created: '2026-11-04T18:33:17+00:00'
+topics:
+- key: programming_paradigms
+  name: Programming language paradigms
+  description: Basic concepts of programming languages and the imperative, functional, logic and object-oriented
+    language families.
+  evidence:
+  - c1
+  - c2
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: oo_design_multilanguage
+  name: Object-oriented design across languages
+  description: Object-oriented software design in a multi-language perspective, covering singleton objects,
+    abstract data types, classes and objects, compared across Java, C#, Scala and Kotlin.
+  evidence:
+  - c3
+  - o2.1
+  - o3
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: classes_objects_construction
+  name: Classes, objects and construction in Java
+  description: Java classes, instances, object construction and deletion, and the basic architecture of
+    the Java language and platform.
+  evidence:
+  - c4
+  - o2.3
+  share: 0.1
+  level: introductory
+  kind: language
+  technology: Java
+- key: inheritance_polymorphism
+  name: Inheritance and polymorphism in Java
+  description: Inheritance between Java classes and polymorphic dispatch of methods on object references.
+  evidence:
+  - c4
+  - o2.2
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: Java
+- key: abstract_classes_interfaces
+  name: Abstract classes, interfaces and multiple inheritance
+  description: Abstract classes and interfaces in Java as tools for abstraction, and how multiple inheritance
+    is handled.
+  evidence:
+  - c5
+  - o2.2
+  share: 0.08
+  level: intermediate
+  kind: language
+  technology: Java
+- key: lambda_functional_interfaces
+  name: Lambda expressions and functional interfaces
+  description: Lambda expressions and functional interfaces in Java, with comparison to their counterparts
+    in other object-oriented languages.
+  evidence:
+  - c7
+  - o2.5
+  share: 0.08
+  level: intermediate
+  kind: language
+  technology: Java
+- key: exceptions_handling
+  name: Exceptions and exception handling
+  description: Exceptions as a control mechanism and how to throw, catch and propagate them in Java.
+  evidence:
+  - c9
+  share: 0.06
+  level: intermediate
+  kind: language
+  technology: Java
+- key: io_streams_serialization
+  name: I/O streams, file access and serialization
+  description: Reading and writing data through I/O streams, file access, and object serialization in
+    Java.
+  evidence:
+  - c10
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: Java
+- key: lists_and_hashmaps
+  name: Lists and hashmaps
+  description: The list and hashmap data structures, their operations and their use in medium-size Java
+    applications.
+  evidence:
+  - c11
+  - o2.4
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: Java
+- key: trees_and_algorithms
+  name: Trees and related algorithms
+  description: Tree data structures and the algorithms that operate on them, studied in depth.
+  evidence:
+  - c11
+  - o2.4
+  share: 0.09
+  level: advanced
+  kind: technique
+  technology: Java
+- key: functional_streams
+  name: Functional programming and Java streams
+  description: Introduction to functional programming in general and to the Java streams API for processing
+    collections.
+  evidence:
+  - c13
+  - o2.5
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: Java
+- key: event_driven_gui
+  name: Event-driven GUIs
+  description: Basic elements for building simple graphical user interfaces based on event-driven programming
+    and event listeners.
+  evidence:
+  - c15
+  - o2.6
+  share: 0.14
+  level: intermediate
+  kind: tool
+  technology: JavaFX
+not_topics:
+- id: c6
+  reason: Lists only a number of lecture and lab hours (30h + 12h lab) with no title or description of
+    the content, so no teachable topic can be identified.
+- id: c8
+  reason: Lists only hours (12h + 6h lab) with no title or description of the content, so no teachable
+    topic can be identified.
+- id: c12
+  reason: Lists only hours (20h + 12h lab) with no title or description of the content, so no teachable
+    topic can be identified.
+- id: c14
+  reason: Lists only hours (3h) with no title or description of the content, so no teachable topic can
+    be identified.
+- id: c16
+  reason: Lists only hours (10h + 10h lab) with no title or description of the content, so no teachable
+    topic can be identified.

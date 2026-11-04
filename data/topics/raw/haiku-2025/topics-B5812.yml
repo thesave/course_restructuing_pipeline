@@ -1,0 +1,133 @@
+format: extraction/1
+course: B5812
+title: Cybersecurity Governance
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 15.2
+  usage:
+    prompt_tokens: 3060
+    completion_tokens: 3324
+    cache_read_tokens: 1854
+    thinking_tokens: 2055
+  created: '2026-11-04T18:32:06+00:00'
+topics:
+- key: digital_landscape_and_threats
+  name: Digital landscape, objectives and cyber threats
+  description: Describes the current digital landscape and the priority objectives of public and private
+    entities, along with the cyber threats and internal vulnerabilities that endanger them.
+  evidence:
+  - c2
+  - o1
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: cyber_risk_assessment
+  name: Cyber risk assessment
+  description: Covers how cyber risks are assessed so that organisations can rank intervention priorities
+    for prevention, detection and response.
+  evidence:
+  - c3
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: cyber_risk_management_phases
+  name: Prevention, detection and response phases
+  description: Explains how cyber risk management is organised into the prevention, detection and response
+    phases and what each phase requires.
+  evidence:
+  - c3
+  - c4
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: strategic_cybersecurity_governance
+  name: Strategic cybersecurity governance
+  description: Addresses the strategic level of cyber risk management for states and organisations, including
+    high-level priorities and policy choices.
+  evidence:
+  - c1
+  - c4
+  - c5
+  share: 0.11
+  level: intermediate
+  kind: concept
+  technology: null
+- key: management_level_cyber_risk
+  name: Management-level cyber risk management
+  description: Covers the management level of cyber risk management, in which strategic objectives are
+    translated into organisational processes and resource decisions.
+  evidence:
+  - c4
+  - c6
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: operational_cybersecurity_controls
+  name: Operational cybersecurity controls
+  description: Covers the operational level of cyber risk management, in which technical and day-to-day
+    countermeasures are implemented and run.
+  evidence:
+  - c4
+  - c7
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: disinformation_risks
+  name: Disinformation as a cyber risk
+  description: Examines disinformation as a cyber-related risk to information systems and society and
+    the countermeasures used against it.
+  evidence:
+  - c8
+  - c9
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: cyber_conflict
+  name: Cyber conflict
+  description: Examines cyber conflict between states and its implications for security, deterrence and
+    the countermeasures available to governments and organisations.
+  evidence:
+  - c8
+  - c10
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: smart_society_risks
+  name: Smart society risks
+  description: Covers the cyber risks and countermeasures arising from smart society systems that connect
+    public services, infrastructures and citizens through digital technologies.
+  evidence:
+  - c8
+  - c11
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: ai_cyber_risks_and_countermeasures
+  name: Artificial intelligence cyber risks and countermeasures
+  description: Covers the cybersecurity risks posed by artificial intelligence and the countermeasures
+    for managing them.
+  evidence:
+  - c8
+  - c12
+  share: 0.11
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics:
+- id: c13
+  reason: Organisational rule about the permitted use of AI tools in coursework (must be declared and
+    results shared), not a teachable topic.

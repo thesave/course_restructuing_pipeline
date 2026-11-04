@@ -1,0 +1,129 @@
+format: extraction/1
+course: '91685'
+title: History of Informatics and Computing Systems
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 19.5
+  usage:
+    prompt_tokens: 3322
+    completion_tokens: 4247
+    cache_read_tokens: 1854
+    thinking_tokens: 3015
+  created: '2026-11-04T18:23:46+00:00'
+topics:
+- key: prehistory_of_computing
+  name: Prehistory of computing
+  description: The mechanical, logical and theoretical ideas that预 prepared computing before 1945, such
+    as early calculating machines, Babbage's engines and Boolean logic.
+  evidence:
+  - c7
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: stored_program_architecture
+  name: Stored-program architecture
+  description: The main ideas behind the first programmable electronic computers and the stored-program
+    model that became the basis of the modern computer.
+  evidence:
+  - c8
+  - c2
+  - o1
+  share: 0.15
+  level: intermediate
+  kind: concept
+  technology: null
+- key: electronic_calculator_market
+  name: Electronic calculators and the 1950s market
+  description: How calculating machines and early commercial computers found customers in the 1950s and
+    what this meant for the computing industry.
+  evidence:
+  - c9
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: mainframe_computing_and_discipline
+  name: Mainframes and the birth of computing as a discipline
+  description: The mainframe era of the 1950s and 1960s and how it led to computing being recognised as
+    an academic discipline with its own methods and identity.
+  evidence:
+  - c10
+  - o2
+  share: 0.14
+  level: introductory
+  kind: concept
+  technology: null
+- key: programming_language_evolution
+  name: Evolution of programming languages
+  description: The development of high-level programming languages from the 1950s to the early 1980s,
+    their design principles and their influence on later languages.
+  evidence:
+  - c5
+  - c4
+  - o2
+  share: 0.18
+  level: intermediate
+  kind: concept
+  technology: null
+- key: operating_systems_evolution
+  name: Evolution of operating systems
+  description: The progression of operating systems from batch processing to multiprogramming and time-sharing,
+    and how they shaped architectures and languages.
+  evidence:
+  - c4
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: minicomputers_and_microprocessors
+  name: Minicomputers and microprocessors
+  description: The shift from large mainframes to minicomputers and then to single-chip microprocessors,
+    and the architectural changes this brought.
+  evidence:
+  - c11
+  - c4
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: computer_communication_collaboration
+  name: Computer communication and collaboration
+  description: Early networking, remote access and tools for communication and collaboration between computer
+    users, and their influence on contemporary computing.
+  evidence:
+  - c12
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: personal_computers
+  name: Personal computers
+  description: The emergence of affordable personal computers in the late 1970s and early 1980s and their
+    impact on software, users and the computing industry.
+  evidence:
+  - c13
+  - o2
+  share: 0.11
+  level: introductory
+  kind: concept
+  technology: null
+not_topics:
+- id: c1
+  reason: Course-scope statement announcing that milestones will be presented; no teachable content of
+    its own.
+- id: c3
+  reason: Defines the reference period (1945 to early 1980s); scope information only, used to bound the
+    topics above.
+- id: c6
+  reason: Introductory remark on the meaning of doing computer science history; organisational framing
+    rather than a topic.

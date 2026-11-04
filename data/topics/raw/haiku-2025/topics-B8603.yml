@@ -1,0 +1,104 @@
+format: extraction/1
+course: B8603
+title: Machine Translation and Artificial Intelligence for Language Services
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 13.7
+  usage:
+    prompt_tokens: 3168
+    completion_tokens: 2790
+    cache_read_tokens: 1854
+    thinking_tokens: 1777
+  created: '2026-11-04T18:33:25+00:00'
+topics:
+- key: history_of_machine_translation
+  name: History of machine translation
+  description: Main phases of machine translation development, from rule-based and statistical systems
+    to neural and recent AI-based approaches.
+  evidence:
+  - c1.1
+  - o1
+  share: 0.075
+  level: introductory
+  kind: concept
+  technology: null
+- key: mt_principles
+  name: Principles of machine translation
+  description: Intuitive grounding of statistical and neural MT, including encoder-decoder architectures,
+    attention and how sequence-to-sequence models produce translations.
+  evidence:
+  - c1.2
+  share: 0.175
+  level: intermediate
+  kind: concept
+  technology: null
+- key: mt_evaluation_metrics
+  name: Evaluation of machine translation
+  description: Applying and interpreting automatic and quality-based metrics for machine-produced translations,
+    such as BLEU and related measures, and their limits.
+  evidence:
+  - c1.3
+  share: 0.15
+  level: intermediate
+  kind: technique
+  technology: null
+- key: training_data_preparation
+  name: Gathering and cleaning MT training data
+  description: Collecting parallel corpora for MT training and cleaning, filtering and preparing them
+    before model training.
+  evidence:
+  - c1.4
+  share: 0.15
+  level: intermediate
+  kind: technique
+  technology: null
+- key: mt_model_setup_maintenance
+  name: Setting up and maintaining MT models
+  description: Configuring, training, evaluating and updating a machine translation model over time, including
+    retraining with new data.
+  evidence:
+  - c1.4
+  share: 0.15
+  level: intermediate
+  kind: technique
+  technology: null
+- key: specialised_mt_software
+  name: Specialised MT software and utilities
+  description: Hands-on use of specialised machine translation software and supporting utilities for translation
+    workflows.
+  evidence:
+  - c1.5
+  share: 0.125
+  level: introductory
+  kind: tool
+  technology: null
+- key: critical_mt_productivity
+  name: Critical use of MT and productivity
+  description: Critical assessment of MT system output and use of pre-editing and post-editing workflows,
+    with ethical standards, to boost translation productivity.
+  evidence:
+  - c1.6
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: prompt_engineering_ai_translation
+  name: Prompt design and engineering for AI translation
+  description: Designing and refining prompts for AI language models to obtain reliable translation and
+    language-service outputs.
+  evidence:
+  - o1
+  share: 0.075
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Introductory heading ('In this course, the student will learn'); its teachable content is covered
+    by items c1.1 to c1.6.

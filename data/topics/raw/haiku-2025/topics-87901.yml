@@ -1,0 +1,111 @@
+format: extraction/1
+course: '87901'
+title: Methods and Advanced Technologies for Interpreting
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 19.4
+  usage:
+    prompt_tokens: 4517
+    completion_tokens: 3985
+    cache_read_tokens: 1854
+    thinking_tokens: 2821
+  created: '2026-11-04T18:20:43+00:00'
+topics:
+- key: speech_to_text_theory
+  name: Speech-to-text interpreting theory
+  description: Theoretical introduction to producing written text from public speeches in real time, including
+    the rationale and principles of speech-to-text interpreting (STTI).
+  evidence:
+  - c4
+  - c6
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: speech_recognition_live_subtitles
+  name: Speech recognition for live intralingual subtitles
+  description: Use of speaker-independent (DIT.tafono) and speaker-dependent (Dragon NaturallySpeaking)
+    speech recognition software to produce live intralingual subtitles, with practical exercises on written
+    and audiovisual material, including the face-to-face part of the InTeCo course.
+  evidence:
+  - c5
+  - c6
+  - c7
+  - c8
+  - c13
+  share: 0.22
+  level: intermediate
+  kind: technique
+  technology: null
+- key: realtime_subtitles_deaf_audiences
+  name: Real-time subtitling for audiovisual products
+  description: Techniques for producing real-time subtitles for audiovisual programmes, especially for
+    deaf and hard-of-hearing viewers.
+  evidence:
+  - c9
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ict_resources_interpreters
+  name: ICT resources for interpreters
+  description: Traditional and electronic information and ICT resources needed to prepare for and carry
+    out the interpretation of oral speeches.
+  evidence:
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: terminography_foundations
+  name: Terminology and terminography foundations
+  description: Basic terminology skills and terminography tools required for interpreting, including the
+    use of glossaries and terminological resources.
+  evidence:
+  - c4
+  - o2
+  - o3
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: cai_tools_booth
+  name: Computer-assisted interpreting tools in the booth
+  description: Use of CAI tools to look up terminological resources during interpretation in the booth,
+    focusing on InterpretBank.
+  evidence:
+  - c10
+  - c4
+  - o1
+  - o2
+  share: 0.25
+  level: intermediate
+  kind: tool
+  technology: InterpretBank
+- key: terminology_database_building
+  name: Building terminology databases
+  description: Autonomous construction of terminology databases and glossaries needed for interpreting
+    oral speeches, including transferring this expertise to other professional fields.
+  evidence:
+  - o4
+  share: 0.15
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Organisational remark that the course appears in both curricula under different names.
+- id: c2
+  reason: Course name for each curriculum; no teachable content.
+- id: c3
+  reason: Heading for the InConf curriculum section; its content is covered by the items it encloses.
+- id: c11
+  reason: Heading for the InTeCo curriculum section; its content is covered by the items it encloses.
+- id: c12
+  reason: Organisational description of the InTeCo platform-based and face-to-face split and how hours
+    are borrowed; no teachable content.

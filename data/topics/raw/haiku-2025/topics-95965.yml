@@ -1,0 +1,128 @@
+format: extraction/1
+course: '95965'
+title: Artificial Intelligence and Machine Learning for Business
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 28.9
+  usage:
+    prompt_tokens: 7598
+    completion_tokens: 6457
+    cache_read_tokens: 3708
+    thinking_tokens: 3915
+  created: '2026-11-04T18:27:12+00:00'
+topics:
+- key: decision_support_systems
+  name: Decision support systems
+  description: Covers the dynamic-systems and sustainability view of decisions, the structure of the decision-making
+    process, classic and next-generation decision support systems, and evidence-based operational techniques
+    for building them.
+  evidence:
+  - c1
+  - c1.1
+  - c1.2
+  - c1.3
+  - c1.4
+  share: 0.1458
+  level: introductory
+  kind: concept
+  technology: null
+- key: mathematical_models_for_business
+  name: Mathematical models for business
+  description: Covers the methods for developing mathematical models of business problems and turning
+    them into usable data-science models.
+  evidence:
+  - c2
+  - c2.1
+  share: 0.0833
+  level: intermediate
+  kind: technique
+  technology: null
+- key: predictive_algorithms
+  name: Classification, regression and clustering
+  description: Covers the main classification, regression and clustering algorithms used to predict outcomes
+    and group business data.
+  evidence:
+  - c2.2
+  share: 0.125
+  level: intermediate
+  kind: technique
+  technology: null
+- key: data_mining_and_exploration
+  name: Data mining and data exploration
+  description: Covers data mining and automatic learning methods together with operational tools for exploring
+    business data.
+  evidence:
+  - c2.3
+  - c2.4
+  share: 0.1458
+  level: intermediate
+  kind: technique
+  technology: null
+- key: machine_learning_framework
+  name: Machine learning framework
+  description: Covers the methodological and functional framework of learning systems, giving the student
+    the basic knowledge of machine learning models and their use.
+  evidence:
+  - c3
+  - c3.1
+  - o1
+  share: 0.0833
+  level: intermediate
+  kind: concept
+  technology: null
+- key: machine_learning_tools
+  name: Machine learning operational tools
+  description: Covers the operational tools used to build and run machine learning workflows in practice.
+  evidence:
+  - c3.2
+  share: 0.0625
+  level: intermediate
+  kind: tool
+  technology: null
+- key: esg_analytics_platforms
+  name: ESG analytics platforms and monitoring
+  description: Covers analytical platforms for data science from an ESG perspective and the co-design
+    of monitoring systems for ESG business performance.
+  evidence:
+  - c3.3
+  - c7
+  share: 0.1042
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ml_business_applications
+  name: Machine learning business applications
+  description: Covers applications of machine learning to concrete business cases, with emphasis on selecting
+    suitable methods for real problems.
+  evidence:
+  - c4
+  - o2
+  share: 0.0833
+  level: intermediate
+  kind: technique
+  technology: null
+- key: supervised_learning_practice
+  name: Supervised learning predictions and recommendations
+  description: Covers practical supervised learning for making predictions and recommendations on business
+    data.
+  evidence:
+  - c6
+  share: 0.1042
+  level: intermediate
+  kind: technique
+  technology: null
+- key: e_governance_tools
+  name: E-governance operational tools
+  description: Covers the operational tools of e-governance applied to business.
+  evidence:
+  - c5
+  share: 0.0626
+  level: introductory
+  kind: tool
+  technology: null
+not_topics: []

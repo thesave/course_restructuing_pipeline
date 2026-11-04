@@ -1,0 +1,160 @@
+format: extraction/1
+course: '17628'
+title: Concurrent and Distributed Programming
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 37.6
+  usage:
+    prompt_tokens: 9437
+    completion_tokens: 8619
+    cache_read_tokens: 3708
+    thinking_tokens: 5418
+  created: '2026-11-04T18:10:36+00:00'
+topics:
+- key: concurrency_concepts_and_design
+  name: Concurrency concepts and design
+  description: Basic concurrency concepts and models, the main aspects of concurrent systems, and methods
+    and architectures for designing and developing concurrent programs.
+  evidence:
+  - c1.1
+  - c1.2
+  - c1.4
+  - c1.4.1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: shared_memory_synchronization
+  name: Shared memory synchronization
+  description: Interaction through shared memory and the synchronization constructs semaphores and monitors
+    used to coordinate threads.
+  evidence:
+  - c1.5
+  - c1.5.1
+  - c2
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: formal_modelling_verification
+  name: Formal modelling and verification of concurrent systems
+  description: Modelling concurrent systems with Petri Nets, Statecharts and Activity Diagrams, specifying
+    liveness and safety properties in LTL, and verifying them by model checking with Java PathFinder.
+  evidence:
+  - c1.3
+  - c1.3.1
+  - c1.3.2
+  - c2.1
+  - c2.3
+  share: 0.14
+  level: advanced
+  kind: technique
+  technology: null
+- key: thread_based_concurrency
+  name: Multi-threaded programming
+  description: Basic thread mechanisms and libraries, and the implementation of monitors, for multi-threaded
+    programming in Java.
+  evidence:
+  - c2.2
+  - c2.2.1
+  - c2.2.2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: Java
+- key: task_based_async_programming
+  name: Task-oriented asynchronous programming
+  description: Asynchronous programming based on tasks and futures, and the Java Executors framework for
+    running tasks.
+  evidence:
+  - c2.4
+  - c2.5
+  - c2.5.1
+  - c2.8
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: Java
+- key: event_loop_async_programming
+  name: Event-loop asynchronous programming
+  description: Event-driven asynchronous programming with event loops, using continuation passing style,
+    promises and async/await in JavaScript, Node.js and Vert.x.
+  evidence:
+  - c2.6
+  - c2.6.1
+  - c2.9
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: JavaScript
+- key: reactive_programming
+  name: Reactive programming
+  description: Reactive programming with observable streams, reactive extensions (Rx) and RxJava.
+  evidence:
+  - c2.7
+  - c2.7.1
+  - c2.10
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: message_passing_channels
+  name: Channel-based message passing
+  description: Message-passing concurrency models with synchronous and asynchronous channels, and channel-based
+    programming in Go.
+  evidence:
+  - c2.11
+  - c2.12
+  - c2.12.1
+  - c2.13
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: actor_model
+  name: Actor model with Akka
+  description: The actor model of concurrency and its implementation in the Akka framework in Java or
+    Scala, including actor-based distributed programming.
+  evidence:
+  - c2.12.2
+  - c2.14
+  - c2.18
+  - c2.22
+  share: 0.1
+  level: advanced
+  kind: technique
+  technology: Akka
+- key: distributed_programming_foundations
+  name: Distributed programming foundations
+  description: Transition from concurrent to distributed programming, covering distributed algorithms,
+    and an introduction to service-oriented and cloud computing.
+  evidence:
+  - c2.15
+  - c2.16
+  - c2.17
+  - c2.21
+  share: 0.08
+  level: advanced
+  kind: concept
+  technology: null
+- key: message_middleware_rpc
+  name: Message-oriented middleware and RPC
+  description: Distributed application programming with message-oriented middleware and RPC-like models,
+    implemented with RabbitMQ and Java RMI.
+  evidence:
+  - c2.19
+  - c2.20
+  - c2.23
+  share: 0.12
+  level: advanced
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Organisational overview saying the course has four parts; its content is covered by the topics
+    of the sub-items.

@@ -1,0 +1,130 @@
+format: extraction/1
+course: '93478'
+title: COMPUTER VISION
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 12.2
+  usage:
+    prompt_tokens: 3533
+    completion_tokens: 2893
+    cache_read_tokens: 1854
+    thinking_tokens: 1700
+  created: '2026-11-04T18:25:06+00:00'
+topics:
+- key: image_formation_acquisition
+  name: Image formation and acquisition
+  description: Geometry of image formation, lenses, field of view and depth of field, and image sampling
+    and quantization.
+  evidence:
+  - c3
+  - o2
+  share: 0.08333
+  level: introductory
+  kind: concept
+  technology: null
+- key: spatial_filtering
+  name: Spatial filtering
+  description: Convolution and correlation of images, and mean, Gaussian, median and bilateral filters
+    for smoothing and noise reduction.
+  evidence:
+  - c4
+  - o2
+  share: 0.10417
+  level: introductory
+  kind: technique
+  technology: null
+- key: edge_detection
+  name: Edge detection
+  description: Image gradients, non-maxima suppression, Laplacian of Gaussian, and the Canny edge detector.
+  evidence:
+  - c5
+  - o2
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: null
+- key: local_invariant_features
+  name: Local invariant features
+  description: Feature detectors and descriptors, including Harris corners, scale-invariant features and
+    SIFT.
+  evidence:
+  - c6
+  - o2
+  share: 0.10417
+  level: intermediate
+  kind: technique
+  technology: null
+- key: camera_calibration
+  name: Camera calibration
+  description: Projective coordinates, the perspective projection matrix, intrinsic and extrinsic camera
+    parameters, and Zhang's calibration algorithm.
+  evidence:
+  - c7
+  - o2
+  share: 0.08333
+  level: intermediate
+  kind: technique
+  technology: null
+- key: convolutional_networks_recall
+  name: Convolutional networks recall
+  description: Filters, striding and padding, pooling and normalization layers, and successful CNN architectures.
+  evidence:
+  - c8
+  - o3
+  share: 0.10417
+  level: intermediate
+  kind: concept
+  technology: null
+- key: attention_and_transformers
+  name: Attention and transformers
+  description: Self-attention as used in recurrent networks, the Transformer architecture, and the Vision
+    Transformer.
+  evidence:
+  - c9
+  - o3
+  share: 0.10417
+  level: advanced
+  kind: concept
+  technology: null
+- key: object_detection
+  name: Object detection
+  description: Two-stage, one-stage and anchor-free detectors, the RoI pooling operator, and feature pyramid
+    networks.
+  evidence:
+  - c10
+  - o1
+  share: 0.125
+  level: advanced
+  kind: technique
+  technology: null
+- key: semantic_segmentation
+  name: Semantic segmentation
+  description: Fully convolutional networks, transposed and dilated convolutions, RoI Align, and semantic,
+    instance and panoptic segmentation.
+  evidence:
+  - c11
+  - o1
+  share: 0.125
+  level: advanced
+  kind: technique
+  technology: null
+- key: metric_learning
+  name: Metric learning
+  description: Deep metric learning with contrastive and triplet losses and its application to recognition
+    and identification tasks.
+  evidence:
+  - c12
+  share: 0.10417
+  level: advanced
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: General course overview statement without specific teachable content.
+- id: c2
+  reason: Heading that introduces the list of contents; its content is covered by the items c3 to c12.

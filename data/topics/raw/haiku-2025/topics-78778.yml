@@ -1,0 +1,183 @@
+format: extraction/1
+course: '78778'
+title: Intelligent Systems M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 16.1
+  usage:
+    prompt_tokens: 3171
+    completion_tokens: 3534
+    cache_read_tokens: 1854
+    thinking_tokens: 1616
+  created: '2026-11-04T18:17:50+00:00'
+topics:
+- key: non_linear_planning
+  name: Non-linear planning
+  description: Partial-order planners that interleave subgoals and handle goal interactions, such as threats
+    and conflicts, instead of building linear action sequences.
+  evidence:
+  - c1.1
+  - o2
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: conditional_planning
+  name: Conditional planning
+  description: Planning under incomplete information or nondeterministic actions, producing plans with
+    branches that depend on observed conditions.
+  evidence:
+  - c1.2
+  - o2
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: graph_based_planning
+  name: Graph-based planning
+  description: Planning graphs and graph-search methods (such as GraphPlan) that build a reachability
+    structure over action and fact layers to find plans.
+  evidence:
+  - c1.3
+  - o2
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: robot_planning
+  name: Planning for robotics
+  description: Application of AI planning techniques to robot task and motion planning, connecting abstract
+    plans to the physical actions of a robot.
+  evidence:
+  - c1.4
+  - o1
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: constraint_programming
+  name: Constraint programming and global constraints
+  description: Modelling problems as constraint satisfaction and optimization problems and using global
+    constraints (such as all-different or cumulative) to prune the search space.
+  evidence:
+  - c2.1
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: constraint_search_strategies
+  name: Search strategies for constraint problems
+  description: Systematic and heuristic search methods for solving constraint problems, including backtracking,
+    variable and value ordering, and propagation-based search.
+  evidence:
+  - c2.2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: optimization_applications
+  name: Optimization applications
+  description: Use of constraint-based and optimization techniques to model and solve real-life problems
+    such as scheduling, assignment or resource allocation.
+  evidence:
+  - c2.3
+  - o1
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ant_colony_optimization
+  name: Ant colony optimization
+  description: Swarm-based metaheuristic in which artificial ants build solutions guided by pheromone
+    trails, with its update rules and typical applications.
+  evidence:
+  - c3.1
+  - o2
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: bee_colony_optimization
+  name: Bee colony optimization
+  description: Swarm-based metaheuristic inspired by the foraging behaviour of honeybees, with employed,
+    onlooker and scout bees exploring and exploiting solutions.
+  evidence:
+  - c3.2
+  - o2
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: particle_swarm_optimization
+  name: Particle swarm optimization
+  description: Population-based optimization in which particles move through the search space updating
+    their velocities from personal and global best positions.
+  evidence:
+  - c3.3
+  - o2
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: decision_trees_random_forests
+  name: Decision trees and random forests
+  description: Symbolic classifiers that learn decision trees from data by splitting on attributes, and
+    ensembles of such trees combined as random forests.
+  evidence:
+  - c4.1.1
+  - o2
+  share: 0.09
+  level: introductory
+  kind: technique
+  technology: null
+- key: neural_networks
+  name: Neural networks
+  description: Sub-symbolic learning with artificial neural networks, covering architecture, activation
+    functions, training by backpropagation and their use for classification and prediction.
+  evidence:
+  - c4.1.2
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: bayesian_methods
+  name: Bayesian approaches
+  description: Probabilistic reasoning and learning with Bayes' theorem, including naive Bayes classifiers
+    and Bayesian networks under uncertainty.
+  evidence:
+  - c4.1.3
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: inductive_logic_programming
+  name: Inductive logic programming
+  description: Learning first-order logic rules from examples and background knowledge, combining machine
+    learning with logic programming.
+  evidence:
+  - c4.1.4
+  - o2
+  share: 0.07
+  level: advanced
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Section heading for planning; its content is covered by the sub-items c1.1 to c1.4.
+- id: c2
+  reason: Section heading for optimization; its content is covered by the sub-items c2.1 to c2.3.
+- id: c3
+  reason: Section heading for swarm intelligence; its content is covered by the sub-items c3.1 to c3.3.
+- id: c4
+  reason: Section heading for machine learning; its content is covered by c4.1 and its sub-items.
+- id: c4.1
+  reason: Subsection heading (symbolic and sub-symbolic approaches) that groups c4.1.1 to c4.1.4, which
+    carry the teachable content.

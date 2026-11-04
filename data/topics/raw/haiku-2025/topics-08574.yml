@@ -1,0 +1,129 @@
+format: extraction/1
+course: 08574
+title: Operating Systems
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 17.5
+  usage:
+    prompt_tokens: 2990
+    completion_tokens: 3784
+    cache_read_tokens: 1854
+    thinking_tokens: 2614
+  created: '2026-11-04T18:08:58+00:00'
+topics:
+- key: os_overview_and_structure
+  name: Operating system overview and structure
+  description: What an operating system does, its main services, kernel organisation and the interface
+    it offers to applications.
+  evidence:
+  - c1
+  - c3
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: computer_architecture_review
+  name: Computer architecture review for operating systems
+  description: Summary of CPU, memory hierarchy, interrupts and I/O hardware that the operating system
+    relies on.
+  evidence:
+  - c2
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: processes_and_threads
+  name: Processes and threads
+  description: Process abstraction, process states, context switching, and the difference between processes
+    and threads.
+  evidence:
+  - c4
+  share: 0.11
+  level: intermediate
+  kind: concept
+  technology: null
+- key: concurrency_and_communication
+  name: Concurrency and communication
+  description: Mutual exclusion, synchronisation primitives such as semaphores and monitors, and interprocess
+    communication via shared memory and message passing.
+  evidence:
+  - c5
+  share: 0.11
+  level: intermediate
+  kind: concept
+  technology: null
+- key: object_oriented_concurrent_programming
+  name: Object-oriented concurrent and distributed programming in Java
+  description: Using Java's object-oriented features to write concurrent programs and to program distributed
+    services at different levels of abstraction.
+  evidence:
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: Java
+- key: cpu_scheduling
+  name: CPU scheduling
+  description: Scheduling criteria and algorithms for allocating the processor to ready processes, including
+    their evaluation.
+  evidence:
+  - c6
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: memory_management
+  name: Memory management
+  description: Allocation strategies, address translation, paging and segmentation, and virtual memory.
+  evidence:
+  - c7
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: file_systems
+  name: File systems
+  description: File abstraction, directory structures, file allocation methods and file system implementation.
+  evidence:
+  - c8
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: distributed_systems_concepts
+  name: Distributed systems concepts
+  description: Principles of distributed systems such as transparency, failures, coordination and the
+    organisation of distributed services.
+  evidence:
+  - c9
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: distributed_communication
+  name: Distributed communication
+  description: Communication between distributed components through message passing, remote invocation
+    and sockets.
+  evidence:
+  - c10
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: protection_and_security
+  name: Protection, security and cryptography
+  description: Protection mechanisms, access control, security threats and the basic cryptographic techniques
+    used to protect operating system resources.
+  evidence:
+  - c11
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

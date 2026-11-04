@@ -1,0 +1,157 @@
+format: extraction/1
+course: '72940'
+title: Computational Models And Languages M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 27.8
+  usage:
+    prompt_tokens: 8317
+    completion_tokens: 6466
+    cache_read_tokens: 3708
+    thinking_tokens: 3451
+  created: '2026-11-04T18:16:25+00:00'
+topics:
+- key: computability_turing_machines
+  name: Computability and Turing machines
+  description: Turing machines as a model of computation and the basic foundations of computability, including
+    what is and is not computable.
+  evidence:
+  - c2
+  - o1
+  share: 0.078125
+  level: introductory
+  kind: concept
+  technology: null
+- key: formal_grammars_chomsky
+  name: Formal grammars and the Chomsky hierarchy
+  description: Definition of formal grammars and the Chomsky classification of languages by grammar type,
+    relating each class to the machines that recognise it.
+  evidence:
+  - c3
+  - o2
+  share: 0.0625
+  level: introductory
+  kind: concept
+  technology: null
+- key: lexical_analysis
+  name: Lexical analysis
+  description: Recognising tokens of a programming language from regular languages, the first phase of
+    translating source code.
+  evidence:
+  - c3
+  - o2
+  share: 0.046875
+  level: intermediate
+  kind: technique
+  technology: null
+- key: top_down_parsing
+  name: Top-down syntactic analysis
+  description: Top-down parsing techniques for context-free languages, used to build the syntax analysis
+    of a language from its grammar.
+  evidence:
+  - c3
+  - o2
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: null
+- key: bottom_up_parsing
+  name: Bottom-up syntactic analysis
+  description: Bottom-up parsing techniques for context-free languages, reducing input to the grammar
+    start symbol during syntactic analysis.
+  evidence:
+  - c3
+  - o2
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: null
+- key: formal_semantics_methods
+  name: Formal semantics of programming languages
+  description: Overview of the main methods for the formal description of the semantic aspects of a language,
+    beyond its syntax.
+  evidence:
+  - c3
+  - o2
+  share: 0.046875
+  level: advanced
+  kind: concept
+  technology: null
+- key: interpreter_compiler_structure
+  name: Structure of interpreters and compilers
+  description: The organisation of interpreters and compilers and their run-time support, illustrated
+    with Java examples.
+  evidence:
+  - c4
+  - o1
+  - o3
+  share: 0.125
+  level: intermediate
+  kind: concept
+  technology: Java
+- key: language_engineering_tools
+  name: Parser generators and model-driven language engineering
+  description: Using parser generator tools to build language front ends and an introduction to model-driven
+    language definition with Xtext.
+  evidence:
+  - c4
+  - c5
+  - o2
+  share: 0.140625
+  level: intermediate
+  kind: tool
+  technology: null
+- key: recursion_tail_calls
+  name: Iterative vs recursive models and tail recursion
+  description: Comparison of iterative and recursive computational models and the optimisation of tail
+    recursion.
+  evidence:
+  - c6
+  - o1
+  share: 0.0625
+  level: introductory
+  kind: technique
+  technology: null
+- key: functional_programming_lambda
+  name: Functional programming, closures and lambda calculus
+  description: Basic concepts of functional programming, closures, models of function evaluation and an
+    introduction to lambda calculus.
+  evidence:
+  - c6
+  - o1
+  - o3
+  share: 0.078125
+  level: intermediate
+  kind: concept
+  technology: null
+- key: prototype_object_model
+  name: Prototype-based object model in JavaScript
+  description: JavaScript as an example of a dynamic functional language with a prototype-based object
+    model.
+  evidence:
+  - c7
+  - o3
+  share: 0.09375
+  level: intermediate
+  kind: language
+  technology: JavaScript
+- key: jvm_blended_languages
+  name: Scala and Kotlin on the Java platform
+  description: Scala and Kotlin as blended languages combining object-oriented and functional paradigms
+    on the Java platform.
+  evidence:
+  - c8
+  - o3
+  share: 0.140625
+  level: intermediate
+  kind: language
+  technology: null
+not_topics:
+- id: c1
+  reason: General statement of the course aims and approach; it names no teachable content beyond what
+    the topics already cover.

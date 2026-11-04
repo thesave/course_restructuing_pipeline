@@ -1,0 +1,110 @@
+format: extraction/1
+course: '72778'
+title: High-Performance Computing
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 13.1
+  usage:
+    prompt_tokens: 3265
+    completion_tokens: 2567
+    cache_read_tokens: 1854
+    thinking_tokens: 1507
+  created: '2026-11-04T18:15:44+00:00'
+topics:
+- key: parallel_algorithms_models
+  name: Parallel algorithms and models of computation
+  description: Principles of designing parallel algorithms and the abstract models of computation (such
+    as PRAM and work-depth) used to reason about them.
+  evidence:
+  - c1
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: parallel_architectures
+  name: HPC architectures and Flynn's taxonomy
+  description: Classification of parallel machines by Flynn's taxonomy and the organisation of shared-memory,
+    distributed-memory and GPU-based architectures.
+  evidence:
+  - c2
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: parallel_programming_patterns
+  name: Parallel programming patterns
+  description: The recurring parallel patterns (embarrassingly parallel, stencil, work farm, scan, reduce)
+    and how to recognise and apply them in programs.
+  evidence:
+  - c3
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: shared_memory_programming
+  name: Shared-memory programming
+  description: Writing multithreaded C programs for shared-memory machines with OpenMP directives, covering
+    parallel regions, work sharing, data scope and synchronisation.
+  evidence:
+  - c4
+  - o1
+  - o2
+  share: 0.17
+  level: intermediate
+  kind: technique
+  technology: OpenMP
+- key: distributed_memory_programming
+  name: Distributed-memory programming
+  description: Writing C programs for distributed-memory clusters with MPI, covering process ranks, point-to-point
+    and collective communication, and data decomposition.
+  evidence:
+  - c5
+  - o1
+  - o2
+  share: 0.19
+  level: intermediate
+  kind: technique
+  technology: MPI
+- key: general_purpose_gpu_programming
+  name: General-purpose GPU programming
+  description: Programming GPUs for general-purpose computation, including the kernel and thread-hierarchy
+    model, memory spaces and host-device data transfer.
+  evidence:
+  - c6
+  - c2
+  - o1
+  - o2
+  share: 0.15
+  level: intermediate
+  kind: technique
+  technology: CUDA
+- key: simd_vectorization
+  name: SIMD programming and vectorization
+  description: Exploiting data-level parallelism on a single core through compiler intrinsics or GCC auto-vectorization.
+  evidence:
+  - c7
+  - o1
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: GCC
+- key: parallel_performance_evaluation
+  name: Parallel performance evaluation
+  description: Measuring, benchmarking and interpreting the speedup and efficiency of parallel programs
+    and the factors that limit them.
+  evidence:
+  - c8
+  - o2
+  share: 0.16
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

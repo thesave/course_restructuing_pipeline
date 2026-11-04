@@ -1,0 +1,94 @@
+format: extraction/1
+course: '96995'
+title: Programmable Networking
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 19.8
+  usage:
+    prompt_tokens: 7011
+    completion_tokens: 4217
+    cache_read_tokens: 3708
+    thinking_tokens: 2416
+  created: '2026-11-04T18:28:02+00:00'
+topics:
+- key: network_namespaces
+  name: Network namespaces and virtual switches
+  description: Creating isolated network stacks with Linux namespaces and connecting them through virtual
+    bridges and virtual switches.
+  evidence:
+  - c1.1
+  - o1
+  share: 0.1458
+  level: intermediate
+  kind: concept
+  technology: Linux
+- key: cloud_network_virtualization
+  name: Virtual networking in cloud computing
+  description: How container and cloud platforms such as Docker and OpenStack provide virtual networks
+    for workloads, and how they are programmed and automated.
+  evidence:
+  - c1.2
+  - o2
+  share: 0.1458
+  level: intermediate
+  kind: concept
+  technology: null
+- key: sdn_architecture
+  name: Software defined networking architecture
+  description: The separation of the control plane from the data plane and the architectural components
+    of software defined networks.
+  evidence:
+  - c2.1
+  - o2
+  share: 0.1042
+  level: introductory
+  kind: concept
+  technology: null
+- key: southbound_control_protocol
+  name: Southbound control protocol
+  description: The OpenFlow southbound protocol between controller and switches, including flow tables,
+    match-action rules and controller-switch messages.
+  evidence:
+  - c2.2
+  share: 0.1458
+  level: intermediate
+  kind: concept
+  technology: OpenFlow
+- key: sdn_programming
+  name: SDN programming with OpenFlow
+  description: Writing controller applications that install and manage OpenFlow flow rules to program
+    network forwarding behavior.
+  evidence:
+  - c2.3
+  - o2
+  share: 0.125
+  level: intermediate
+  kind: technique
+  technology: OpenFlow
+- key: data_plane_programming_language
+  name: Data plane programming language
+  description: The constructs of the P4 language for describing packet parsing, match-action tables and
+    processing pipelines in programmable switches.
+  evidence:
+  - c3.1
+  - o3
+  share: 0.1667
+  level: intermediate
+  kind: language
+  technology: P4
+- key: switch_behavior_programming
+  name: Programming switch behavior with P4
+  description: Writing and testing P4 programs that define the forwarding behavior of programmable switches.
+  evidence:
+  - c3.2
+  - o1
+  share: 0.1667
+  level: intermediate
+  kind: technique
+  technology: P4
+not_topics: []

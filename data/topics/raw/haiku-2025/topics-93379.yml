@@ -1,0 +1,164 @@
+format: extraction/1
+course: '93379'
+title: Digital Culture
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 18.0
+  usage:
+    prompt_tokens: 3569
+    completion_tokens: 4413
+    cache_read_tokens: 1854
+    thinking_tokens: 2792
+  created: '2026-11-04T18:24:32+00:00'
+topics:
+- key: digital_paradigm_shift
+  name: Digital paradigm shift
+  description: The contrast between analog and digital representation and the IT revolution as a new paradigm
+    underlying digital culture.
+  evidence:
+  - c1.1
+  - o1
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: societal_impact_of_digitalization
+  name: Societal impact of digitalization
+  description: How digitalization transforms astronomical, ecological, political, economic, social and
+    individual spheres of reality.
+  evidence:
+  - c1.2
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: decision_making_and_forecasting
+  name: Decision-making and forecasting
+  description: The effects of the digital revolution on the phases of decision-making and methods for
+    predicting the future under complexity.
+  evidence:
+  - c1.3
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: digital_intelligence_dimensions
+  name: Dimensions of digital intelligence
+  description: 'The characteristics of digital intelligence and its six dimensions: data acquisition,
+    memory, processing, representation, activation and adaptation.'
+  evidence:
+  - c1.4
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_concepts_and_acquisition
+  name: Data concepts and acquisition
+  description: The concept of data and the methods for constructing, acquiring and storing digital data.
+  evidence:
+  - c1.5
+  - c2.1
+  share: 0.07
+  level: introductory
+  kind: technique
+  technology: null
+- key: digital_memory_architectures
+  name: Digital memory and logical architectures
+  description: The fundamental properties of digital memory and the four types of logical data architecture.
+  evidence:
+  - c1.6
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: machine_learning_methods
+  name: Machine learning methods
+  description: The main machine learning methods and algorithms, practiced in a hands-on machine learning
+    laboratory.
+  evidence:
+  - c1.7
+  - c2.2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: time_series_analysis
+  name: Time series analysis
+  description: Methods for analysing time-ordered digital data to detect patterns and support prediction.
+  evidence:
+  - c1.7
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: text_analysis
+  name: Text analysis
+  description: Methods for extracting information from textual data as part of digital intelligence.
+  evidence:
+  - c1.7
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: data_visualization_and_storytelling
+  name: Data visualization and storytelling
+  description: Infographic communication techniques, principles of data visualization and the storytelling
+    of data for decision-makers.
+  evidence:
+  - c1.8
+  - c2.3
+  share: 0.1
+  level: introductory
+  kind: technique
+  technology: null
+- key: automatic_decision_systems
+  name: Automatic decision systems
+  description: The characteristics of activation and the logical-functional architecture of automatic
+    decision systems.
+  evidence:
+  - c1.9
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: decision_quality_monitoring
+  name: Decision quality monitoring
+  description: The adaptation dimension of digital intelligence and methods for monitoring the quality
+    of automated decision-making processes.
+  evidence:
+  - c1.10
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: llms_and_generative_ai
+  name: LLMs and generative AI platforms
+  description: Large language models and generative AI platforms, their use and their role in digital
+    intelligence.
+  evidence:
+  - c2.4
+  share: 0.09
+  level: intermediate
+  kind: tool
+  technology: null
+- key: artificial_agents_for_business
+  name: Artificial agents for business processes
+  description: The use of artificial agents to improve productivity and business processes, including
+    managerial applications in HR, operations and marketing.
+  evidence:
+  - c2.5
+  - o2
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Module heading for Module 1; its lessons are covered by the child items c1.1 to c1.10.
+- id: c2
+  reason: Module heading for Module 2; its activities are covered by the child items c2.1 to c2.5.

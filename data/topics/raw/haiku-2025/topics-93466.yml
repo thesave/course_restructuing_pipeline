@@ -1,0 +1,126 @@
+format: extraction/1
+course: '93466'
+title: FONDAMENTI DI CYBERSECURITY
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 20.2
+  usage:
+    prompt_tokens: 7712
+    completion_tokens: 4558
+    cache_read_tokens: 3708
+    thinking_tokens: 2366
+  created: '2026-11-04T18:24:39+00:00'
+topics:
+- key: security_testing
+  name: Security testing and exploitation
+  description: Vulnerability assessment, penetration testing, and the patching and exploitation of known
+    vulnerabilities in computer systems.
+  evidence:
+  - c1
+  - c2
+  - c16
+  - o1
+  - o3
+  share: 0.15
+  level: intermediate
+  kind: technique
+  technology: null
+- key: reverse_engineering
+  name: Reverse engineering
+  description: Analysing compiled software and binaries to understand their behaviour and discover security
+    flaws.
+  evidence:
+  - c17
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: anonymity_networks
+  name: Anonymity networks and the dark web
+  description: The architecture and anonymity guarantees of onion routing networks and the dark web they
+    give access to.
+  evidence:
+  - c3
+  - o3
+  share: 0.05
+  level: introductory
+  kind: tool
+  technology: TOR
+- key: stream_ciphers
+  name: Stream ciphers
+  description: The one-time pad as a perfect-secrecy benchmark, the design of stream ciphers, and their
+    real-world instantiations.
+  evidence:
+  - c4
+  - c5
+  - c6
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: symmetric_key_block_ciphers
+  name: Symmetric-key cryptosystems and block ciphers
+  description: Secret-key cryptographic systems and the DES and AES block ciphers, with their structure
+    and security.
+  evidence:
+  - c7
+  - c9
+  - c10
+  - o2
+  share: 0.16
+  level: intermediate
+  kind: concept
+  technology: null
+- key: public_key_cryptography
+  name: Public-key cryptography and digital signatures
+  description: Public-key cryptosystems and the RSA algorithm, including its mathematical foundations
+    and its use for digital signatures.
+  evidence:
+  - c8
+  - c11
+  - o2
+  share: 0.16
+  level: intermediate
+  kind: concept
+  technology: null
+- key: public_key_infrastructure
+  name: Public-key infrastructures
+  description: The organisation of certificates, certification authorities and trust chains that make
+    public-key cryptography usable at scale.
+  evidence:
+  - c12
+  - o2
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: access_control
+  name: Access control
+  description: Authentication, authorization and access control mechanisms that protect the confidentiality
+    and integrity of systems.
+  evidence:
+  - c15
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: wireless_and_radio_security
+  name: Wireless and radio network security
+  description: The security of WiFi networks and attacks on radio communications using software-defined
+    radio.
+  evidence:
+  - c13
+  - c14
+  - o3
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

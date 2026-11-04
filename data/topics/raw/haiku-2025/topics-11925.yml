@@ -1,0 +1,117 @@
+format: extraction/1
+course: '11925'
+title: Computer Architecture
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 11.7
+  usage:
+    prompt_tokens: 2921
+    completion_tokens: 2357
+    cache_read_tokens: 1854
+    thinking_tokens: 1357
+  created: '2026-11-04T18:09:29+00:00'
+topics:
+- key: computer_system_organization
+  name: Computer system organisation
+  description: Overview of how computer systems are organised into hardware and software layers and the
+    main architectural levels of a computer.
+  evidence:
+  - c1
+  - o1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: binary_information_representation
+  name: Binary representation of information
+  description: How numbers, characters and other data are encoded as binary digits, including base conversion
+    and binary arithmetic.
+  evidence:
+  - c2
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: boolean_algebra_logic_gates
+  name: Boolean algebra and logic gates
+  description: Boolean algebra laws and simplification, and the basic logic gates used to implement them.
+  evidence:
+  - c3
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: combinational_circuits
+  name: Combinational circuits
+  description: Design of combinational digital circuits such as adders, multiplexers and decoders built
+    from logic gates.
+  evidence:
+  - c3
+  - o1
+  - o2
+  share: 0.12
+  level: introductory
+  kind: technique
+  technology: null
+- key: sequential_circuits
+  name: Sequential circuits
+  description: Design of sequential digital circuits with memory elements such as latches, flip-flops,
+    registers and counters.
+  evidence:
+  - c3
+  - o1
+  - o2
+  share: 0.12
+  level: introductory
+  kind: technique
+  technology: null
+- key: cpu_memory_bus
+  name: Memory, CPU and bus
+  description: Internal structure of the central processing unit, main memory and system bus, and how
+    they interact during program execution.
+  evidence:
+  - c4
+  - o1
+  share: 0.14
+  level: introductory
+  kind: concept
+  technology: null
+- key: isa_assembly_programming
+  name: ISA level and assembly programming
+  description: The instruction set architecture level and writing, reading and executing assembly language
+    programs.
+  evidence:
+  - c5
+  - o2
+  share: 0.22
+  level: intermediate
+  kind: language
+  technology: null
+- key: operating_system_basics
+  name: Operating system basics
+  description: Introductory overview of the role of the operating system in managing hardware resources
+    and running programs.
+  evidence:
+  - c6
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: high_level_language_mapping
+  name: Mapping high-level languages to architecture
+  description: How constructs of high-level programming languages are translated into assembly and machine-level
+    code, linking them to the correspondence between high-level and assembly languages.
+  evidence:
+  - c7
+  - o1
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

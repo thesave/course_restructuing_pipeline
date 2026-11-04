@@ -1,0 +1,146 @@
+format: extraction/1
+course: 29227-A
+title: Foundations of Informatics T
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 15.7
+  usage:
+    prompt_tokens: 2995
+    completion_tokens: 3410
+    cache_read_tokens: 1854
+    thinking_tokens: 2146
+  created: '2026-11-04T18:12:20+00:00'
+topics:
+- key: linux_operating_system
+  name: GNU/Linux operating system
+  description: Using a GNU/Linux environment and its shell to work on the computing system used throughout
+    the course.
+  evidence:
+  - c1
+  - o1
+  share: 0.06
+  level: introductory
+  kind: tool
+  technology: GNU/Linux
+- key: language_fundamentals
+  name: C++ language fundamentals
+  description: The alphabet, lexicon, syntax and semantics of C++ and the structure of a basic program.
+  evidence:
+  - c2
+  - c3
+  - o2
+  share: 0.1
+  level: introductory
+  kind: language
+  technology: C++
+- key: variables_and_operators
+  name: Variables and operators
+  description: Declaring and using typed variables and applying arithmetic, relational and logical operators
+    in C++.
+  evidence:
+  - c4
+  share: 0.08
+  level: introductory
+  kind: language
+  technology: C++
+- key: flow_control
+  name: Flow control constructs
+  description: Conditional statements and loops that control the execution order of C++ programs.
+  evidence:
+  - c5
+  share: 0.08
+  level: introductory
+  kind: language
+  technology: C++
+- key: functions_and_arrays
+  name: Functions and arrays
+  description: Defining and calling C++ functions with parameters and return values, and storing data
+    in arrays.
+  evidence:
+  - c6
+  share: 0.12
+  level: intermediate
+  kind: language
+  technology: C++
+- key: classes
+  name: Classes
+  description: Defining C++ classes with data members, member functions and constructors to model data
+    and behaviour.
+  evidence:
+  - c7
+  share: 0.1
+  level: intermediate
+  kind: language
+  technology: C++
+- key: polymorphism
+  name: Polymorphism
+  description: Function overloading, inheritance and templates as ways to write generic and reusable C++
+    code.
+  evidence:
+  - c8
+  share: 0.1
+  level: intermediate
+  kind: language
+  technology: C++
+- key: numerical_analysis_foundations
+  name: Numerical analysis foundations
+  description: Basic principles of numerical analysis, such as representation and approximation errors,
+    for computing with numbers on a computer.
+  evidence:
+  - c9
+  - o4
+  - o3
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: function_approximation
+  name: Approximation of functions
+  description: Approximating functions by simpler functions, such as polynomial interpolation, to evaluate
+    them numerically.
+  evidence:
+  - c10
+  - o4
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: derivative_approximation
+  name: Approximation of derivatives
+  description: Finite-difference formulas for approximating first and higher derivatives and their error
+    behaviour.
+  evidence:
+  - c11
+  - o4
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: zero_finding
+  name: Approximation of zeros
+  description: Iterative methods, such as bisection and Newton's method, for finding the roots of nonlinear
+    equations.
+  evidence:
+  - c12
+  - o4
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: numerical_integration
+  name: Approximation of integrals
+  description: Quadrature rules, such as the trapezoidal and Simpson rules, for approximating definite
+    integrals.
+  evidence:
+  - c13
+  - o4
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

@@ -1,0 +1,155 @@
+format: extraction/1
+course: B5059
+title: Interaction Media Design
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 21.3
+  usage:
+    prompt_tokens: 4881
+    completion_tokens: 4829
+    cache_read_tokens: 1854
+    thinking_tokens: 3126
+  created: '2026-11-04T18:31:03+00:00'
+topics:
+- key: cognitive_emotional_design_goals
+  name: Cognitive and emotional goals of interactive media
+  description: Covers the cognitive and emotional aims that interactive cultural heritage applications
+    pursue, such as engagement, memory, empathy, authenticity, embodiment, curiosity and a sense of belonging,
+    and how design principles relate to cognitive science.
+  evidence:
+  - c3
+  - c6.1
+  - c6.1.1
+  - o1
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: human_computer_interaction
+  name: Human-computer interaction basics
+  description: Introduces the basics of interaction, interaction principles, how people interact with
+    systems, and the WIMP paradigm alongside device-based and natural interaction.
+  evidence:
+  - c6.2
+  - c6.2.1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: digital_image_fundamentals
+  name: Digital images and media representation
+  description: Covers how media such as images, audio, video and 3D are acquired and processed, including
+    analog versus digital signals, the electromagnetic spectrum, colour and human vision, pixels, bit
+    depth, intensity and range images, and common file formats (JPG, TIFF, GIF, PNG, RAW), with RAW processing
+    in RawTherapee.
+  evidence:
+  - c2
+  - c6.3
+  - c6.3.1
+  - o2
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: digital_photography
+  name: Digital photography
+  description: Teaches the camera and exposure principles behind digital photography, namely focus, SLR/DSLR
+    operation, shutter speed, aperture and f-number, luminance, focal length, depth of field and ISO.
+  evidence:
+  - c6.3
+  - c6.3.1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: computer_graphics_3d
+  name: Computer graphics and 3D models
+  description: Covers non-interactive and interactive computer graphics, 3D model representation, 3D file
+    formats, image-based modelling from photographs, and the software used to create them.
+  evidence:
+  - c6.4
+  - c6.4.1
+  - o1
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: panoramas_virtual_tours
+  name: Panoramas and virtual tours
+  description: Teaches how to create panoramic images and navigable virtual tours of cultural spaces using
+    the Pano2VR tool.
+  evidence:
+  - c6.4.1
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: Pano2VR
+- key: user_centred_design_concepts
+  name: User-centred design concepts
+  description: Introduces the core user-centred design concepts used in interactive media design, including
+    the PACT framework, ergonomics, mental models, personas, metaphors, requirements and the design brief.
+  evidence:
+  - c3
+  - c6.5
+  - c6.5.1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: design_research_methods
+  name: Design research and envisioning methods
+  description: Covers the methods used to understand visitors and envision designs, namely card sorting,
+    visitor box, role-play scenarios, cultural probes and storyboards.
+  evidence:
+  - c6.5.1
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: interactive_storytelling
+  name: Interactive storytelling
+  description: Teaches how to design interactive narratives and simple videogames for cultural heritage
+    using the Twine tool.
+  evidence:
+  - c6.4.1
+  - c6.5.1
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: Twine
+- key: cultural_heritage_design_process
+  name: Cultural heritage design process
+  description: Walks through the hands-on interactive media design process for cultural heritage, from
+    context definition and target audience through institutional goals, design brief, disruption and evaluation,
+    ending with the ten golden rules.
+  evidence:
+  - c6.6
+  - c7
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: low_fidelity_prototyping
+  name: Ideation and low-fidelity prototyping
+  description: Covers the ideation and envisionment step of the design process, including storyboarding,
+    virtual tour prototypes and low-fidelity prototypes.
+  evidence:
+  - c7
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Course scope statement that introduces the subject area without its own teachable content; the
+    content is covered by the topics.
+- id: c4
+  reason: Organisational information about the exam structure.
+- id: c5
+  reason: Organisational information about the other module and its teacher.

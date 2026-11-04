@@ -1,0 +1,172 @@
+format: extraction/1
+course: '75969'
+title: Basic Informatics
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 30.6
+  usage:
+    prompt_tokens: 9277
+    completion_tokens: 7341
+    cache_read_tokens: 3708
+    thinking_tokens: 4255
+  created: '2026-11-04T18:17:21+00:00'
+topics:
+- key: digital_humanities_projects
+  name: Computing in the humanities
+  description: How computer science technologies are applied to humanities research and how digital projects
+    on humanities studies are designed and organised.
+  evidence:
+  - c4
+  - c5
+  - o2
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_structures_and_collections
+  name: Data structures and data collections
+  description: How information is organised in data structures and how humanities data collections are
+    represented and managed.
+  evidence:
+  - c7
+  - c11
+  - o1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: computational_thinking
+  name: Computers and computational thinking
+  description: What a computer is, the principles of computational thinking, and the historical development
+    of computing with Charles Babbage's Analytical Machine.
+  evidence:
+  - c8
+  - c9
+  - c10
+  - o1
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: algorithms_and_computability
+  name: Algorithms, flowcharts and computability
+  description: How algorithms are defined and represented with flowcharts, how a first algorithm is written,
+    and what limits exist to computation, with Ada Lovelace and Alan Turing.
+  evidence:
+  - c12
+  - c13
+  - c14
+  - c15
+  - c16
+  - c17
+  - o1
+  share: 0.15
+  level: introductory
+  kind: technique
+  technology: null
+- key: programming_languages
+  name: Programming and visual languages
+  description: What a language is in the sense of formal languages, the main kinds of programming languages,
+    and visual languages, with Noam Chomsky and Grace Hopper.
+  evidence:
+  - c18
+  - c19
+  - c20
+  - c21
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: hypertext_and_world_wide_web
+  name: Hypertext, the World Wide Web and browsers
+  description: The historical origins of hypertext and the World Wide Web, the structure of URLs, and
+    the role of web browsers in accessing web resources.
+  evidence:
+  - c22
+  - c23
+  - c24
+  - c25
+  - c26
+  - c27
+  - o2
+  share: 0.11
+  level: introductory
+  kind: concept
+  technology: null
+- key: communication_protocols_and_http
+  name: Communication protocols and HTTP
+  description: What a communication protocol is and how the Hypertext Transfer Protocol and web servers
+    handle client requests for web pages.
+  evidence:
+  - c28
+  - c29
+  - c30
+  - c31
+  - o2
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: internet_architecture
+  name: 'The Internet: packets, IP, DNS and routers'
+  description: The birth and architecture of the Internet, packet-based communication, the Internet Protocol,
+    and the roles of DNS and routers.
+  evidence:
+  - c32
+  - c33
+  - c34
+  - c35
+  - c36
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: information_transfer_and_tcp
+  name: Information transfer and TCP
+  description: How information is measured in bits and bytes, how the Transmission Control Protocol works,
+    and other Internet protocols, with a full scenario of a webpage request.
+  evidence:
+  - c37
+  - c38
+  - c39
+  - c40
+  - c41
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: markup_languages
+  name: Markup languages, HTML and CSS
+  description: Markup languages and digital editions, the structure and main elements of HTML webpages,
+    and the separation of markup from presentation through CSS.
+  evidence:
+  - c6
+  - c42
+  - c43
+  - c44
+  - c45
+  - c46
+  - o2
+  share: 0.13
+  level: introductory
+  kind: language
+  technology: HTML
+not_topics:
+- id: c1
+  reason: Organisational remark on the number and format of lectures.
+- id: c2
+  reason: Describes the format of each lecture (historical context and people); the historical context
+    is covered within each topic.
+- id: c3
+  reason: Introductory heading listing the lecture topics; the topics it introduces are covered by the
+    items below.
+- id: c47
+  reason: Describes tutorial sessions whose specific subjects are not defined in the syllabus.

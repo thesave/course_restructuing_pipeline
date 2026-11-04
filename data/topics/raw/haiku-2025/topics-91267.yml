@@ -1,0 +1,134 @@
+format: extraction/1
+course: '91267'
+title: Multi-Agent Systems
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 25.3
+  usage:
+    prompt_tokens: 7485
+    completion_tokens: 5761
+    cache_read_tokens: 3708
+    thinking_tokens: 3266
+  created: '2026-11-04T18:23:40+00:00'
+topics:
+- key: agent_concepts
+  name: Agent concepts and autonomy
+  description: Core definitions of agents and multi-agent systems, the drivers for intelligent distributed
+    systems, the notion of autonomy, and the function and use of agents in MAS.
+  evidence:
+  - c1
+  - c2
+  - c3
+  - c4
+  - o1
+  share: 0.15
+  level: introductory
+  kind: concept
+  technology: null
+- key: artefacts_for_agents
+  name: Artefacts for agents
+  description: Artefacts as first-class environment entities that agents use, perceive and act on, and
+    how they support the design of multi-agent systems.
+  evidence:
+  - c3
+  - o1
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: reasoning_agents
+  name: Automated reasoning and reasoning agents
+  description: Automated reasoning techniques and the architecture of agents that deliberate and reason
+    to choose their actions.
+  evidence:
+  - c4
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: mas_coordination
+  name: Coordination of multi-agent systems
+  description: Mechanisms by which multiple agents coordinate their activities and resolve interactions
+    to reach collective goals.
+  evidence:
+  - c4
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: self_organisation
+  name: Self-organising and nature-inspired coordination
+  description: Self-organising systems and nature-inspired coordination models that let collective behaviour
+    emerge without central control.
+  evidence:
+  - c4
+  - o1
+  share: 0.1
+  level: advanced
+  kind: concept
+  technology: null
+- key: mas_simulation
+  name: Simulation with multi-agent systems
+  description: Introduction to using multi-agent systems to build and run simulations of complex socio-technical
+    phenomena.
+  evidence:
+  - c4
+  - o1
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: agent_platform_programming
+  name: Agent platform programming with JADE
+  description: Overview of multi-agent technologies and programming agents with the JADE Java-based platform,
+    including agent lifecycle, messaging and behaviours.
+  evidence:
+  - c5
+  - c6
+  - o1
+  share: 0.15
+  level: intermediate
+  kind: tool
+  technology: JADE
+- key: bdi_agent_programming
+  name: Programming intentional BDI agents
+  description: Programming BDI intentional agents in the AgentSpeak-based Jason language through hands-on
+    exercises.
+  evidence:
+  - c6
+  - o1
+  share: 0.13
+  level: intermediate
+  kind: language
+  technology: Jason
+- key: literature_review_methods
+  name: Scientific literature sources and systematic reviews
+  description: Scientific competences for locating literature on intelligent and autonomous systems and
+    conducting a systematic literature review.
+  evidence:
+  - c7
+  - c8
+  - o1
+  share: 0.07
+  level: introductory
+  kind: technique
+  technology: null
+- key: scientific_survey_methodology
+  name: Methodology for scientific surveys
+  description: A structured methodology for planning, conducting and writing a scientific survey of a
+    research area.
+  evidence:
+  - c9
+  - o1
+  share: 0.06
+  level: introductory
+  kind: technique
+  technology: null
+not_topics: []

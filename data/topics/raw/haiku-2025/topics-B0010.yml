@@ -1,0 +1,144 @@
+format: extraction/1
+course: B0010
+title: Software Architecture and Platforms
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 17.7
+  usage:
+    prompt_tokens: 3536
+    completion_tokens: 4231
+    cache_read_tokens: 1854
+    thinking_tokens: 2823
+  created: '2026-11-04T18:28:48+00:00'
+topics:
+- key: architecture_fundamentals
+  name: Architecture fundamentals
+  description: Defines software architecture and architectural thinking, the role and responsibilities
+    of the software architect, and the basic concepts and design principles that underpin architectural
+    decisions.
+  evidence:
+  - c1.1
+  - c1.2
+  - c2.1
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: architectural_styles_and_patterns
+  name: Architectural styles and patterns
+  description: Covers architectural styles and patterns, illustrated with the layered architecture and
+    clean architecture, and how they structure components and dependencies.
+  evidence:
+  - c2.2
+  - c2.3
+  - o3.2
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: service_based_architectures
+  name: Service-based architectures
+  description: Covers service-oriented architecture, REST-based services and microservices, including
+    their design, trade-offs and application to concrete contexts.
+  evidence:
+  - c2.3
+  - o2
+  share: 0.14
+  level: intermediate
+  kind: concept
+  technology: null
+- key: event_driven_architecture
+  name: Event-driven architecture
+  description: Covers event-driven architectures, in which components communicate through published and
+    consumed events, and their applications in concrete systems.
+  evidence:
+  - c2.3
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: architecturally_significant_requirements
+  name: Architecturally significant requirements
+  description: Covers how architecturally significant requirements and quality attributes are identified,
+    analysed and related to the organisation and its architecture.
+  evidence:
+  - c3.1
+  - o3.1
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: architecture_design_and_evaluation
+  name: Architecture design, evaluation and documentation
+  description: Covers the lifecycle activities of designing, implementing, evaluating, documenting and
+    evolving a software architecture, including documenting it with standard notations such as UML.
+  evidence:
+  - c3.2
+  - o3.2
+  - o3.3
+  - o3.4
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: domain_driven_design
+  name: Domain-driven design
+  description: Covers how domain-driven design principles shape software architectures, such as modelling
+    the business domain and structuring systems around it.
+  evidence:
+  - c3.3
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: devops_and_deployment
+  name: DevOps and architecture deployment
+  description: Covers how software architectures are deployed, operated and managed within DevOps practices
+    and continuous delivery pipelines.
+  evidence:
+  - c3.4
+  - o3.3
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: iot_and_digital_twins
+  name: IoT, cyber-physical systems and digital twins
+  description: Covers pervasive computing, the Internet of Things and Web of Things, cyber-physical systems
+    and the architecture of digital twins.
+  evidence:
+  - c4.1
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: cloud_enterprise_architectures
+  name: Enterprise applications and cloud computing
+  description: Covers the architecture of enterprise applications and cloud-computing architectures and
+    how they are applied in practice.
+  evidence:
+  - c4.2
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: intelligent_agents_and_cognitive_architectures
+  name: Intelligent agents and cognitive architectures
+  description: Covers the architecture of autonomous and intelligent systems, with a focus on intelligent
+    agents and cognitive architectures.
+  evidence:
+  - c4.3
+  share: 0.08
+  level: advanced
+  kind: concept
+  technology: null
+not_topics: []

@@ -1,0 +1,135 @@
+format: extraction/1
+course: '96346'
+title: INFORMATICA
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 17.3
+  usage:
+    prompt_tokens: 3287
+    completion_tokens: 3321
+    cache_read_tokens: 1854
+    thinking_tokens: 2161
+  created: '2026-11-04T18:27:30+00:00'
+topics:
+- key: computational_problem_solving
+  name: Computational problem solving and abstract machines
+  description: 'Core ideas of computer science: how problems are analysed and turned into algorithms,
+    and how abstract machines model computation.'
+  evidence:
+  - c1
+  - o1
+  - o2
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: execution_model
+  name: The Python machine
+  description: How Python programs are executed, including the runtime model of the interpreter and how
+    the computer's structure supports running code.
+  evidence:
+  - c2
+  - c3
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: Python
+- key: names_and_scopes
+  name: Names and visibility
+  description: How variables and other names are bound to objects in Python and which parts of a program
+    can see them (scope and visibility rules).
+  evidence:
+  - c2
+  - c4
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: Python
+- key: functions
+  name: Functions
+  description: Defining and calling Python functions, parameters and return values, and using functions
+    to decompose programs.
+  evidence:
+  - c2
+  - c5
+  share: 0.12
+  level: introductory
+  kind: technique
+  technology: Python
+- key: mutability
+  name: Modifiable and non-modifiable objects
+  description: The distinction between mutable and immutable Python objects and its consequences for aliasing
+    and function arguments.
+  evidence:
+  - c2
+  - c6
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: Python
+- key: data_types
+  name: Basic data types
+  description: Python's built-in types for numbers, strings, lists, dictionaries and similar collections,
+    and the operations on them.
+  evidence:
+  - c2
+  - c7
+  - o2
+  share: 0.15
+  level: introductory
+  kind: language
+  technology: Python
+- key: binary_trees
+  name: Binary trees as abstract data types
+  description: 'Binary trees as an abstract data type: representation, construction and traversal operations,
+    implemented in Python.'
+  evidence:
+  - c2
+  - c8
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: sorting_algorithms
+  name: Classes of sorting algorithms
+  description: Main classes of sorting algorithms, their design ideas and their implementation for solving
+    simple problems.
+  evidence:
+  - c9
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: computational_complexity
+  name: Computational complexity overview
+  description: Overview of how the running time and resource use of algorithms are measured and compared,
+    using asymptotic notation.
+  evidence:
+  - c9
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: computability_limits
+  name: Limits of effective procedures
+  description: The limits of algorithmic computation, including the existence of problems that cannot
+    be solved by any algorithm.
+  evidence:
+  - c10
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics:
+- id: c11
+  reason: Laboratory activity that applies the other topics in practice; it has no separate teachable
+    content and is covered by the topics it supports.

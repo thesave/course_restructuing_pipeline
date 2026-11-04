@@ -1,0 +1,163 @@
+format: extraction/1
+course: '88325'
+title: Computer and Network Security Lab T
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 20.1
+  usage:
+    prompt_tokens: 3730
+    completion_tokens: 4600
+    cache_read_tokens: 1854
+    thinking_tokens: 3050
+  created: '2026-11-04T18:21:11+00:00'
+topics:
+- key: security_foundations
+  name: Security foundations
+  description: Core security properties of information and systems, the definitions of threat, vulnerability,
+    exploit and risk, and how attacks are classified and their impact assessed, with pointers to formal
+    models, frameworks and certifications.
+  evidence:
+  - c2.1
+  - c2.2
+  - c2.3
+  - c2.4
+  - o1
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: vulnerability_origins_and_kill_chain
+  name: Vulnerability origins and the cyber kill chain
+  description: Where software and configuration vulnerabilities come from and how they are identified,
+    together with the cyber kill chain as a model of the stages of an attack.
+  evidence:
+  - c3.1
+  - c3.2
+  - o2
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: enumeration_and_credential_attacks
+  name: Enumeration, scanning and brute forcing
+  description: Techniques for enumerating services and hosts, scanning networks, and brute forcing credentials
+    during an offensive assessment.
+  evidence:
+  - c3.3
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: privilege_escalation
+  name: Privilege escalation through misconfiguration
+  description: Exploitation of configuration mistakes in operating systems and services to escalate privileges
+    from a low-privileged foothold to higher access.
+  evidence:
+  - c3.4
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: web_application_exploitation
+  name: Web application exploitation
+  description: Exploiting web application vulnerabilities such as cross-site scripting, path traversal
+    and code injection, and the defenses that counter them.
+  evidence:
+  - c3.5
+  - o2
+  - o3
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: binary_exploitation
+  name: Binary code exploitation
+  description: Exploiting memory-corruption vulnerabilities in compiled code through buffer overflows,
+    shellcoding and return-to-libc attacks.
+  evidence:
+  - c3.6
+  - o2
+  share: 0.12
+  level: advanced
+  kind: technique
+  technology: null
+- key: cryptography_essentials
+  name: Cryptography essentials
+  description: Fundamental cryptographic primitives and their use for confidentiality, integrity and authentication
+    in secure computing.
+  evidence:
+  - c4.1
+  - o1
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: data_protection_and_secure_channels
+  name: Data protection and secure communication
+  description: Protecting stored data through anonymization and encryption, and protecting data in transit
+    through secure communication protocols and VPNs.
+  evidence:
+  - c4.2
+  - c4.3
+  - o3
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: host_hardening_and_physical_security
+  name: Host hardening and physical security
+  description: Physical protection of computing equipment and basic hardening of operating systems to
+    reduce their attack surface.
+  evidence:
+  - c5.1
+  - c5.2
+  - o3
+  share: 0.08
+  level: introductory
+  kind: technique
+  technology: null
+- key: authentication_and_access_control
+  name: Authentication and access control
+  description: Authentication mechanisms and access control models (such as discretionary, mandatory and
+    role-based control) and how they are implemented in systems.
+  evidence:
+  - c5.3
+  - c5.4
+  - o3
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: network_firewalls
+  name: Network firewalls
+  description: Network-based prevention of attacks through firewall architectures and filtering rules.
+  evidence:
+  - c5.5
+  - o3
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: attack_detection_and_incident_response
+  name: Attack detection and incident response
+  description: Detecting attacks with IDS, IPS and SIEM systems, and responding to and recovering from
+    security incidents.
+  evidence:
+  - c5.6
+  - c5.7
+  - o3
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Course goal and overview statement; organisational description with no teachable content of
+    its own.

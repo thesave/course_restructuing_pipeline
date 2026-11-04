@@ -1,0 +1,95 @@
+format: extraction/1
+course: '28796'
+title: Elements of Databases
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 16.8
+  usage:
+    prompt_tokens: 7077
+    completion_tokens: 3396
+    cache_read_tokens: 3708
+    thinking_tokens: 1632
+  created: '2026-11-04T18:12:08+00:00'
+topics:
+- key: structured_semistructured_unstructured_data
+  name: Structured, semi-structured and unstructured data
+  description: Compares the structured, semi-structured and unstructured data models and how they relate
+    to the relational and XML worlds.
+  evidence:
+  - c1
+  - o1.1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: limits_of_relational_querying
+  name: Limits of SQL
+  description: Examines what the relational model and SQL cannot express or handle well, motivating XML-oriented
+    querying.
+  evidence:
+  - c2
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: SQL
+- key: xml_querying
+  name: SQL/XML and XQuery
+  description: Introduces the central constructors of SQL/XML and the XQuery language for querying and
+    constructing XML data.
+  evidence:
+  - c3
+  - o1.1
+  share: 0.2
+  level: intermediate
+  kind: language
+  technology: XQuery
+- key: ir_boolean_vector_models
+  name: Boolean and vector space retrieval models
+  description: Covers the Boolean and vector space information retrieval models, including term weighting
+    and document ranking by similarity.
+  evidence:
+  - c4
+  - o1.2
+  share: 0.15
+  level: intermediate
+  kind: technique
+  technology: null
+- key: web_retrieval_pagerank
+  name: Web information retrieval and PageRank
+  description: Explains web information retrieval and the PageRank link-analysis algorithm for ranking
+    web pages.
+  evidence:
+  - c4
+  - o1.2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: data_warehousing_olap
+  name: Data warehousing and OLAP
+  description: Teaches the design and development of data warehouses and multidimensional analysis with
+    OLAP operations.
+  evidence:
+  - c5
+  - o1.3
+  share: 0.2
+  level: intermediate
+  kind: technique
+  technology: null
+- key: data_mining_machine_learning
+  name: Data mining with machine learning
+  description: Introduces basic data mining techniques from machine learning and their use in conducting
+    a data analysis project.
+  evidence:
+  - c5
+  - o1.4
+  share: 0.19
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

@@ -1,0 +1,124 @@
+format: extraction/1
+course: 27311-A
+title: Humanistic IT
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 23.2
+  usage:
+    prompt_tokens: 7546
+    completion_tokens: 4963
+    cache_read_tokens: 3708
+    thinking_tokens: 2676
+  created: '2026-11-04T18:10:28+00:00'
+topics:
+- key: digital_information_representation
+  name: Digital representation of information
+  description: The concept of information and how humanistic data such as text and numbers are encoded
+    and processed automatically by computers.
+  evidence:
+  - o1
+  - c1
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: interactive_program_design
+  name: Designing and testing interactive programs
+  description: Writing, running and testing small complete interactive programs built from sequential
+    execution and basic control structures.
+  evidence:
+  - c2
+  - c4
+  - c6
+  share: 0.1
+  level: introductory
+  kind: technique
+  technology: Python
+- key: data_types_and_variables
+  name: Numbers, strings, variables and assignment
+  description: Integers, floating-point numbers and strings in Python, together with variables, assignment
+    statements and expressions.
+  evidence:
+  - c3
+  share: 0.12
+  level: introductory
+  kind: language
+  technology: Python
+- key: lists_and_sequences
+  name: Lists
+  description: Creating, accessing, modifying and traversing lists as the basic collection type in Python.
+  evidence:
+  - c3
+  share: 0.08
+  level: introductory
+  kind: language
+  technology: Python
+- key: conditionals_and_loops
+  name: Conditional execution and loops
+  description: Selective execution with conditional statements and iterative control with loops to repeat
+    operations, applied to processing data and text.
+  evidence:
+  - c4
+  - c5
+  share: 0.14
+  level: introductory
+  kind: language
+  technology: Python
+- key: user_defined_functions
+  name: User-defined functions
+  description: Defining, calling and parameterising functions to structure programs into reusable blocks.
+  evidence:
+  - c4
+  share: 0.1
+  level: introductory
+  kind: language
+  technology: Python
+- key: object_oriented_classes
+  name: Classes and object-oriented programming
+  description: Defining classes, creating objects and using object-oriented concepts such as attributes
+    and methods to model data in programs.
+  evidence:
+  - c4
+  - c6
+  share: 0.12
+  level: intermediate
+  kind: language
+  technology: Python
+- key: string_text_processing
+  name: String manipulation and text processing
+  description: Techniques for manipulating strings to produce, analyse and modify texts in digital form.
+  evidence:
+  - c5
+  - c6
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: files_and_text_documents
+  name: Files and automated text documents
+  description: Reading and writing files, and creating and automatically processing text documents, so
+    that texts and resources can be stored in digital format.
+  evidence:
+  - c3
+  - c5
+  - c6
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: modules_and_libraries
+  name: Modules and libraries
+  description: Importing and using standard and external Python libraries to extend programs with ready-made
+    functionality.
+  evidence:
+  - c3
+  share: 0.07
+  level: introductory
+  kind: language
+  technology: Python
+not_topics: []

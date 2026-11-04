@@ -1,0 +1,69 @@
+format: extraction/1
+course: 96346-B
+title: Computer Science
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 0
+  seconds: 0.0
+  usage: {}
+  created: '2026-11-04T18:08:40+00:00'
+copied_from: 07276-B
+topics:
+- key: binary_representation_and_logic
+  name: Binary representation and Boolean logic
+  description: Positional number systems, conversion between decimal and binary, binary arithmetic on
+    the four operations, and the basics of Boolean algebra and logical functions.
+  evidence:
+  - c2.1
+  - c2.2
+  - c4
+  - o1
+  - o2
+  share: 0.3
+  level: introductory
+  kind: concept
+  technology: null
+- key: computer_systems_and_algorithms
+  name: Computer systems and algorithms
+  description: The hardware structure of a computer (CPU, internal and mass memory, I/O peripherals),
+    the software layers (operating system and applications), and the basic principles of algorithms and
+    programming.
+  evidence:
+  - c3
+  - c5
+  - o3
+  - o4
+  share: 0.3
+  level: introductory
+  kind: concept
+  technology: null
+- key: medical_3d_modeling_and_imaging
+  name: Digital imaging and 3D modeling for medicine
+  description: Digital coding of images and the main image formats, plus 3D modeling, segmentation and
+    additive-printing technologies and materials used to design customised medical devices.
+  evidence:
+  - c2.3
+  - c7.1
+  - c7.2
+  - c7.3
+  - c7.4
+  - o5
+  share: 0.4
+  level: introductory
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Course introduction and historical overview; no separate technique to teach within the 1-ECTS
+    allocation.
+- id: c1.1
+  reason: History of computer science and the birth of the Internet; historical context only.
+- id: c1.2
+  reason: Introductory overview of artificial intelligence and its medical applications; context only.
+- id: c6
+  reason: IT lab exercise on general office software (Word, Excel, PowerPoint) and research data-management
+    rules; practical usage guidance outside the core topics of this course.

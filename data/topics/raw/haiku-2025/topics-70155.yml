@@ -1,0 +1,215 @@
+format: extraction/1
+course: '70155'
+title: Data Bases
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 36.4
+  usage:
+    prompt_tokens: 9933
+    completion_tokens: 9266
+    cache_read_tokens: 3708
+    thinking_tokens: 4870
+  created: '2026-11-04T18:15:36+00:00'
+topics:
+- key: database_fundamentals
+  name: Database fundamentals
+  description: Core notions of data, information, databases and database management systems, and the purpose
+    of using a DBMS instead of ad hoc files.
+  evidence:
+  - c2
+  - c10.1
+  share: 0.04
+  level: introductory
+  kind: concept
+  technology: null
+- key: relational_model
+  name: Relational model and integrity constraints
+  description: Basic concepts of the relational model (relations, tuples, attributes), integrity constraints,
+    and the definition of keys.
+  evidence:
+  - c2
+  - c11.1
+  - o1.1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: relational_dbms_features
+  name: Features of relational DBMSs
+  description: Characteristics of relational DBMSs and the main functionalities of the languages used
+    to perform CRUD operations on data.
+  evidence:
+  - c2
+  - c11.2
+  share: 0.04
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_definition_and_modification
+  name: Data definition and modification in SQL
+  description: Creating, altering and dropping relational tables and constraints in SQL, and inserting,
+    updating and deleting data.
+  evidence:
+  - c3
+  - c11.3
+  - o1.1
+  share: 0.08
+  level: introductory
+  kind: language
+  technology: SQL
+- key: relational_querying
+  name: Querying relational databases in SQL
+  description: Writing SELECT queries in SQL, including joins, grouping, aggregation and nested queries
+    over relational databases.
+  evidence:
+  - c3
+  - c11.3
+  - o1.1
+  share: 0.1
+  level: intermediate
+  kind: language
+  technology: SQL
+- key: views_and_transactions
+  name: Views and transactions in SQL
+  description: Defining views in SQL and using transactions to group operations and preserve data consistency.
+  evidence:
+  - c3
+  - c11.3
+  - o1.1
+  share: 0.07
+  level: intermediate
+  kind: language
+  technology: SQL
+- key: nosql_and_big_data
+  name: NoSQL and big data technologies
+  description: Alternatives to the relational model such as NoSQL databases (e.g., MongoDB, Cassandra)
+    and technologies for big data management, covered at an overview level.
+  evidence:
+  - c4
+  - c11.4
+  - c14.1
+  share: 0.04
+  level: intermediate
+  kind: concept
+  technology: null
+- key: database_design_methodology
+  name: Database design methodology
+  description: Application of the traditional software engineering phases to data design, from requirements
+    analysis through the design phases, with the methodologies and tools used.
+  evidence:
+  - c5
+  - c6
+  share: 0.05
+  level: introductory
+  kind: technique
+  technology: null
+- key: conceptual_design_er
+  name: Conceptual design with the E/R model
+  description: Requirements gathering and analysis and building conceptual schemas with the Entity-Relationship
+    model, including design strategies and quality assessment.
+  evidence:
+  - c12.1
+  - c5
+  - o1.2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: logical_design_translation
+  name: Logical design and E/R to relational translation
+  description: Restructuring E/R schemas, translating them into the relational model, and analysing the
+    quality of the resulting logical schemas.
+  evidence:
+  - c12.2
+  - o1.2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: normalization_techniques
+  name: Normalization techniques
+  description: Normal forms (third normal form and Boyce-Codd) and decomposition of relations into normal
+    form.
+  evidence:
+  - c12.3
+  - o1.2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: physical_design_and_storage
+  name: Physical design and data storage
+  description: Physical database design choices, including indexes, data storage techniques and performance
+    analysis of data models.
+  evidence:
+  - c12.4
+  - c6
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: data_mining_overview
+  name: Data mining overview and applications
+  description: General concepts of data mining, its role in creating models from stored data, and its
+    application scenarios in industrial and business contexts.
+  evidence:
+  - c7
+  - c8
+  - c13.1
+  share: 0.04
+  level: introductory
+  kind: concept
+  technology: null
+- key: classification_and_clustering
+  name: Classification and clustering algorithms
+  description: Supervised classification and prediction methods and unsupervised clustering algorithms
+    for building models from database data.
+  evidence:
+  - c7
+  - c13.2
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: web_information_systems
+  name: Web information systems
+  description: Main features of Web Information Systems and the process of processing a project to implement
+    an information system.
+  evidence:
+  - c9
+  - o1.3
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: server_side_database_integration
+  name: Web applications with PHP and MySQL
+  description: Server-side scripting in PHP that interfaces web applications with a MySQL relational database
+    through SQL.
+  evidence:
+  - c14.2
+  - c14.1
+  - c9
+  share: 0.05
+  level: intermediate
+  kind: language
+  technology: PHP
+not_topics:
+- id: c1
+  reason: Overview of how the course is divided into four parts; organisational description with no teachable
+    content of its own.
+- id: c10
+  reason: Section heading 'Summary of course topics'; its sub-items are covered by topics.
+- id: c11
+  reason: Section heading 'Models and Languages for Databases'; its sub-items are covered by topics.
+- id: c12
+  reason: Section heading 'Database Design'; its sub-items are covered by topics.
+- id: c13
+  reason: Section heading 'Introduction to Data Mining'; its sub-items are covered by topics.
+- id: c14
+  reason: Section heading 'DBMS for Applications'; its sub-items are covered by topics.

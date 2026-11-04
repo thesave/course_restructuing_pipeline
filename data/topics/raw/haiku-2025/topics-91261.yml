@@ -1,0 +1,159 @@
+format: extraction/1
+course: '91261'
+title: Artificial Intelligence in Industry
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 19.5
+  usage:
+    prompt_tokens: 3285
+    completion_tokens: 4625
+    cache_read_tokens: 1854
+    thinking_tokens: 3021
+  created: '2026-11-04T18:23:15+00:00'
+topics:
+- key: industrial_problem_modeling
+  name: Mathematical modeling of industrial problems
+  description: Formulating real industrial problems as mathematical models, framing them end to end and
+    adapting the formulation to each case's peculiarities.
+  evidence:
+  - c6.1
+  - c4
+  - o1
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: anomaly_detection
+  name: Anomaly detection in time series
+  description: Detecting abnormal behaviour in industrial time series with predictive and diagnostic models,
+    and handling the challenges that arise in such use cases.
+  evidence:
+  - c3.1
+  - c6.2
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: rul_estimation
+  name: Remaining useful life estimation
+  description: Estimating the remaining useful life of industrial equipment from time-series data using
+    predictive models.
+  evidence:
+  - c3.2
+  - c6.2
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: rul_maintenance_policies
+  name: RUL-based maintenance policies
+  description: Designing maintenance decision policies that use remaining useful life estimates to schedule
+    interventions.
+  evidence:
+  - c3.3
+  share: 0.08
+  level: advanced
+  kind: technique
+  technology: null
+- key: combinatorial_optimization
+  name: Combinatorial optimization
+  description: Modeling and solving combinatorial optimization problems that arise in industrial planning
+    and decision making.
+  evidence:
+  - c6.3
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: production_resource_planning
+  name: Production and resource management planning
+  description: Planning production and allocating resources in industrial settings as optimization problems,
+    covering their typical challenges.
+  evidence:
+  - c3.4
+  - c3.8
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: fair_recommender_systems
+  name: Recommendation systems with fairness constraints
+  description: Building recommendation systems that respect fairness constraints and the trade-offs they
+    impose on accuracy and exposure.
+  evidence:
+  - c3.5
+  share: 0.08
+  level: advanced
+  kind: technique
+  technology: null
+- key: power_network_management
+  name: Power network management
+  description: Managing power networks through optimization and learning methods, addressing the operational
+    problems that arise in energy distribution.
+  evidence:
+  - c3.6
+  share: 0.08
+  level: advanced
+  kind: technique
+  technology: null
+- key: epidemic_control
+  name: Epidemic control
+  description: Modeling the spread of epidemics and designing control interventions under resource and
+    policy constraints.
+  evidence:
+  - c3.7
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: probabilistic_models_ml_integration
+  name: Integrating probabilistic models and machine learning
+  description: Combining probabilistic models with machine learning components in a single solution pipeline.
+  evidence:
+  - c6.4
+  - c5
+  share: 0.08
+  level: advanced
+  kind: technique
+  technology: null
+- key: constraints_ml_integration
+  name: Integrating constraints and machine learning
+  description: Combining constraint-based reasoning with machine learning so that learned models operate
+    within hard problem constraints.
+  evidence:
+  - c6.5
+  - c5
+  share: 0.08
+  level: advanced
+  kind: technique
+  technology: null
+- key: optimization_ml_integration
+  name: Integrating combinatorial optimization and machine learning
+  description: Combining combinatorial optimization solvers with machine learning models through integration
+    schemes, both simple and advanced.
+  evidence:
+  - c6.6
+  - c5
+  share: 0.09
+  level: advanced
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Describes the delivery format (use-case-based teaching), not a teachable subject.
+- id: c2
+  reason: States the goals of the course (critical thinking, problem solving skills); no teachable content
+    of its own.
+- id: c3
+  reason: Heading listing the example use cases; each sub-item is covered by its own topic.
+- id: c6
+  reason: Heading listing the methods; each sub-item is covered by its own topic.
+- id: c7
+  reason: Organisational remark about seminars by industry experts; a delivery format rather than a topic.
+- id: c8
+  reason: Organisational remark that course contents may change to suit students; no teachable content.

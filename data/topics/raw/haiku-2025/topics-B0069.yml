@@ -1,0 +1,175 @@
+format: extraction/1
+course: B0069
+title: Artificial Intelligence for Digital Innovation
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 20.2
+  usage:
+    prompt_tokens: 3068
+    completion_tokens: 4626
+    cache_read_tokens: 1854
+    thinking_tokens: 2985
+  created: '2026-11-04T18:29:10+00:00'
+topics:
+- key: ai_foundations
+  name: Foundations of Artificial Intelligence
+  description: Definitions, history and the symbolic versus sub-symbolic division of artificial intelligence,
+    framing the rest of the course.
+  evidence:
+  - c3
+  - o1
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: intelligent_agents
+  name: Intelligent Agents
+  description: The agent abstraction, task environments (PEAS), environment properties, agent architectures
+    and rationality.
+  evidence:
+  - c4
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: search_problems
+  name: Search Problems
+  description: Formulating problems as state-space search and applying uninformed and heuristic search
+    algorithms.
+  evidence:
+  - c5
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: constraint_satisfaction
+  name: Constraint Satisfaction Problems
+  description: Modelling problems as variables, domains and constraints and solving them with backtracking
+    and constraint propagation.
+  evidence:
+  - c5
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: knowledge_representation
+  name: Knowledge Representation
+  description: Symbolic formalisms for representing knowledge about a domain, such as logic-based representations
+    and ontologies.
+  evidence:
+  - c6
+  - o1
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: automated_reasoning
+  name: Automated Reasoning
+  description: Inference over knowledge bases, including logical deduction and automated proof methods
+    for symbolic AI systems.
+  evidence:
+  - c6
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: supervised_learning
+  name: Supervised Machine Learning
+  description: Learning predictive models from labelled data for regression and classification, including
+    training mechanisms and model evaluation.
+  evidence:
+  - c9
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: unsupervised_learning
+  name: Unsupervised Learning
+  description: Discovering structure in unlabelled data through methods such as clustering and dimensionality
+    reduction.
+  evidence:
+  - c11
+  - o1
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: deep_learning
+  name: Deep Learning
+  description: Neural network architectures and their training with gradient-based optimisation for supervised
+    prediction tasks.
+  evidence:
+  - c10
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: generative_ai
+  name: Generative AI
+  description: Models that learn data distributions and generate new content, such as variational autoencoders,
+    GANs and diffusion models.
+  evidence:
+  - c11
+  share: 0.06
+  level: advanced
+  kind: technique
+  technology: null
+- key: reinforcement_learning
+  name: Reinforcement Learning
+  description: Learning decision policies from rewards through interaction with an environment, based
+    on Markov decision processes and value-based methods.
+  evidence:
+  - c11
+  share: 0.06
+  level: advanced
+  kind: technique
+  technology: null
+- key: natural_language_processing
+  name: Natural Language Processing
+  description: Core NLP tasks and text representations such as tokenisation, embeddings and sequence processing
+    of human language.
+  evidence:
+  - c12
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: language_models
+  name: Language Models
+  description: Statistical and neural language models, including transformer-based large language models
+    and their training and use.
+  evidence:
+  - c12
+  share: 0.07
+  level: advanced
+  kind: concept
+  technology: null
+- key: ai_ethics_safety
+  name: AI Ethics, Safety and Societal Impact
+  description: Ethical, safety, economic and social implications of deploying artificial intelligence
+    systems.
+  evidence:
+  - c13
+  - o1
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+not_topics:
+- id: c1
+  reason: Structural statement that the course is divided into two parts; no teachable content.
+- id: c2
+  reason: Framing sentence introducing the first part; its listed sub-items are covered by the topics
+    that cite them.
+- id: c7
+  reason: Framing sentence introducing the second part; its listed sub-items are covered by the topics
+    that cite them.
+- id: c8
+  reason: Framing heading listing the second-part topics; each listed item is cited by its own topic.

@@ -1,0 +1,152 @@
+format: extraction/1
+course: '03716'
+title: Digital Design Principles and Computer Architecture
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 15.4
+  usage:
+    prompt_tokens: 3282
+    completion_tokens: 3119
+    cache_read_tokens: 1854
+    thinking_tokens: 1709
+  created: '2026-11-04T18:08:06+00:00'
+topics:
+- key: binary_information_encoding
+  name: Binary encoding of information
+  description: How numbers, characters and other information are represented as binary codes, including
+    the number systems and encoding schemes used in digital systems.
+  evidence:
+  - c1
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: combinational_logic_networks
+  name: Combinational logic networks
+  description: Analysis and synthesis of combinational logic networks, from Boolean specification to gate-level
+    implementation.
+  evidence:
+  - c2
+  - o2
+  share: 0.12
+  level: introductory
+  kind: technique
+  technology: null
+- key: sequential_logic_networks
+  name: Synchronous and asynchronous sequential networks
+  description: Analysis and synthesis of asynchronous and synchronous sequential logic networks, including
+    memory elements, clocking and timing behaviour.
+  evidence:
+  - c2
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: finite_state_machines
+  name: Finite state machine model
+  description: The finite state machine model for describing and designing sequential behaviour, including
+    state transition and output specification and their implementation.
+  evidence:
+  - c3
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: von_neumann_architecture
+  name: Von Neumann computer architecture
+  description: General operating principles of computers and the Von Neumann organisation, and the main
+    hardware components that make up a computer system.
+  evidence:
+  - c4
+  - c5
+  - c8
+  - o3
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: program_execution_model
+  name: Program execution model
+  description: How a stored program is fetched, decoded and executed step by step by the processor, and
+    how control flow proceeds.
+  evidence:
+  - c6
+  - o3
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: memory_and_io_addressing
+  name: Memory and I/O device addressing
+  description: How memory locations and input/output devices are addressed and accessed by the processor.
+  evidence:
+  - c7
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: instruction_set_architecture
+  name: Instruction set architecture and machine language
+  description: The instruction set architecture as the interface between hardware and software, and the
+    general properties of machine languages and instruction formats.
+  evidence:
+  - c9
+  - c10
+  - o3
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: risc_and_cisc_architectures
+  name: RISC and CISC architectures
+  description: Comparison of register-register (RISC) and memory-register (CISC) architecture styles and
+    their implications for instruction design.
+  evidence:
+  - c11
+  - o3
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: computer_performance_evaluation
+  name: Computer performance measurement and architectural impact
+  description: Methods for measuring computer performance and how architectural choices affect performance.
+  evidence:
+  - c12
+  - c13
+  - o3
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: cpu_datapath_and_control
+  name: CPU internal structure and sequential implementation (DLX)
+  description: The internal structure of a CPU datapath and control unit and its implementation with a
+    sequential organisation, using the DLX architecture as the case study.
+  evidence:
+  - c14
+  - o3
+  share: 0.12
+  level: advanced
+  kind: technique
+  technology: DLX
+- key: microprocessor_system_design
+  name: Design of microprocessor-based systems
+  description: Methods and tools for designing simple microprocessor-based systems, integrating processor,
+    memory and peripherals with awareness of abstraction and project complexity.
+  evidence:
+  - c15
+  - o1
+  - o4
+  share: 0.11
+  level: advanced
+  kind: technique
+  technology: null
+not_topics: []

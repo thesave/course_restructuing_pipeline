@@ -1,0 +1,163 @@
+format: extraction/1
+course: '92858'
+title: Autonomous and Adaptive Systems M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 16.4
+  usage:
+    prompt_tokens: 3612
+    completion_tokens: 3878
+    cache_read_tokens: 1854
+    thinking_tokens: 2162
+  created: '2026-11-04T18:24:00+00:00'
+topics:
+- key: intelligent_agents_autonomy
+  name: Intelligent agents and autonomy
+  description: Defines intelligent agents and intelligent machines and contrasts automatic with autonomous
+    decision-making in adaptive system design.
+  evidence:
+  - c1
+  - o1
+  share: 0.0469
+  level: introductory
+  kind: concept
+  technology: null
+- key: multi_armed_bandits
+  name: Multi-armed bandits
+  description: Covers the exploration-exploitation trade-off in the multi-armed bandit setting and its
+    standard action-selection strategies.
+  evidence:
+  - c2
+  share: 0.0625
+  level: introductory
+  kind: technique
+  technology: null
+- key: monte_carlo_tabular_rl
+  name: Monte Carlo and tabular reinforcement learning
+  description: Covers Monte Carlo methods and tabular reinforcement learning algorithms for estimating
+    values and learning policies over discrete state-action spaces.
+  evidence:
+  - c2
+  share: 0.0938
+  level: intermediate
+  kind: technique
+  technology: null
+- key: function_approximation_rl
+  name: Function approximation in reinforcement learning
+  description: Covers approximating value functions with parametric function approximators so reinforcement
+    learning scales to large or continuous state spaces.
+  evidence:
+  - c2
+  share: 0.0938
+  level: intermediate
+  kind: technique
+  technology: null
+- key: policy_gradient_methods
+  name: Policy-based reinforcement learning
+  description: Covers learning parameterised policies directly by gradient ascent on expected return,
+    including the policy gradient theorem and its basic algorithms.
+  evidence:
+  - c2
+  share: 0.0938
+  level: intermediate
+  kind: technique
+  technology: null
+- key: rl_applications_games_robotics
+  name: Reinforcement learning applications
+  description: Surveys how reinforcement learning is applied to games, classic control problems and robotics,
+    and the practical issues these domains raise.
+  evidence:
+  - c3
+  share: 0.0781
+  level: intermediate
+  kind: concept
+  technology: null
+- key: multi_agent_game_theory
+  name: Algorithmic game theory for multi-agent systems
+  description: Introduces algorithmic game theory for multi-agent learning, covering cooperation, coordination
+    and social dilemmas.
+  evidence:
+  - c4
+  share: 0.0781
+  level: intermediate
+  kind: concept
+  technology: null
+- key: multi_agent_rl
+  name: Multi-agent reinforcement learning
+  description: Covers learning in multi-agent environments where several reinforcement learning agents
+    interact, learn concurrently and may cooperate or compete.
+  evidence:
+  - c4
+  share: 0.0625
+  level: advanced
+  kind: technique
+  technology: null
+- key: bio_inspired_adaptive_systems
+  name: Bio-inspired adaptive systems
+  description: Covers adaptive systems inspired by biological mechanisms and the theories and methods
+    used to design them.
+  evidence:
+  - c5
+  share: 0.0625
+  level: intermediate
+  kind: concept
+  technology: null
+- key: generative_learning_creativity
+  name: Generative learning and AI creativity
+  description: Covers generative models that produce new content and the questions of creativity raised
+    by machines that create.
+  evidence:
+  - c6
+  share: 0.0625
+  level: intermediate
+  kind: concept
+  technology: null
+- key: llm_agentic_systems
+  name: Agentic AI systems based on foundation models
+  description: Covers the design of agentic AI systems built on large language and foundation models,
+    including their planning, tool use and interaction loops.
+  evidence:
+  - c7
+  share: 0.0938
+  level: advanced
+  kind: technique
+  technology: null
+- key: rlhf_dpo_training
+  name: 'Preference-based training: RLHF and DPO'
+  description: Covers training language models from human feedback with reinforcement learning from human
+    feedback and with direct preference optimization.
+  evidence:
+  - c7
+  share: 0.0625
+  level: advanced
+  kind: technique
+  technology: null
+- key: ai_safety_open_problems
+  name: AI safety and open problems
+  description: Covers open problems in advanced AI, including safety, value alignment, controllability,
+    super-intelligence and self-awareness.
+  evidence:
+  - c8
+  share: 0.0469
+  level: advanced
+  kind: concept
+  technology: null
+- key: ethics_philosophy_ai
+  name: Ethical and philosophical implications of autonomous systems
+  description: Discusses the ethical, societal and philosophical implications of AI and autonomous systems.
+  evidence:
+  - c9
+  - o2
+  share: 0.0625
+  level: introductory
+  kind: concept
+  technology: null
+not_topics:
+- id: c10
+  reason: Lab sessions that revisit implementation aspects of the techniques already covered in the other
+    topics; they teach no separate subject.

@@ -1,0 +1,120 @@
+format: extraction/1
+course: '28040'
+title: Information Technology
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 19.5
+  usage:
+    prompt_tokens: 7490
+    completion_tokens: 4138
+    cache_read_tokens: 3708
+    thinking_tokens: 1893
+  created: '2026-11-04T18:11:35+00:00'
+topics:
+- key: computational_problem_solving
+  name: Computational problem solving
+  description: Introduces computer science as a discipline and the basic approach of formulating problems
+    so that they can be solved by an effective procedure.
+  evidence:
+  - c1
+  - o2
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: abstract_machines
+  name: Abstract machines
+  description: Explains the notion of an abstract machine as a model of computation and presents the Python
+    machine as the execution model used to run programs.
+  evidence:
+  - c2
+  - c3
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: basic_data_types
+  name: Basic data types and mutability
+  description: Covers Python's basic data types, the distinction between immutable and mutable objects,
+    and their use in solving simple problems.
+  evidence:
+  - c4
+  - o1
+  share: 0.12
+  level: introductory
+  kind: language
+  technology: Python
+- key: functions_and_scope
+  name: Functions, names and visibility
+  description: Covers defining and calling Python functions, binding of names, and the rules of visibility
+    and scope.
+  evidence:
+  - c4
+  - o1
+  share: 0.13
+  level: introductory
+  kind: language
+  technology: Python
+- key: classes_and_objects
+  name: Classes and objects
+  description: Introduces object-oriented programming in Python through the definition of classes, instantiation
+    of objects, attributes and methods.
+  evidence:
+  - c5
+  - o1
+  share: 0.11
+  level: intermediate
+  kind: concept
+  technology: Python
+- key: abstract_data_types
+  name: Abstract data types as classes
+  description: Shows how abstract data types are specified and implemented as Python classes, separating
+    interface from representation to design reusable data structures.
+  evidence:
+  - c6
+  - o2
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: sorting_algorithms
+  name: Sorting algorithms
+  description: Presents the design and analysis of algorithms that order collections, implemented and
+    compared in the course.
+  evidence:
+  - c7
+  - o2
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: computational_complexity
+  name: Introduction to computational complexity
+  description: Introduces the measurement of the resources needed by algorithms as a function of input
+    size and the classification of algorithms by growth rate.
+  evidence:
+  - c8
+  - o2
+  share: 0.13
+  level: intermediate
+  kind: concept
+  technology: null
+- key: undecidability
+  name: Limitations of effective procedures and undecidability
+  description: Explains the limits of what can be computed by effective procedures, including the existence
+    of non-decidable problems.
+  evidence:
+  - c9
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics:
+- id: c10
+  reason: Organisational remark about the lab activity and the presence of teaching assistants; it describes
+    how the course is run rather than teachable content.

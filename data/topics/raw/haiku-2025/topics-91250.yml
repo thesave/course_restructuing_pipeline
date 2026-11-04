@@ -1,0 +1,107 @@
+format: extraction/1
+course: '91250'
+title: DEEP LEARNING
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 11.6
+  usage:
+    prompt_tokens: 3240
+    completion_tokens: 2342
+    cache_read_tokens: 1854
+    thinking_tokens: 1381
+  created: '2026-11-04T18:22:29+00:00'
+topics:
+- key: neural_networks_backpropagation
+  name: Neural networks and backpropagation
+  description: Feedforward neural networks as function approximators and the backpropagation algorithm
+    used to train them by gradient-based optimisation.
+  evidence:
+  - c1
+  - c2
+  - o2
+  share: 0.125
+  level: introductory
+  kind: technique
+  technology: null
+- key: convolutional_networks
+  name: Convolutional neural networks
+  description: Convolutional architectures for grid-structured data such as images, covering convolution,
+    pooling and the classic networks used for image classification.
+  evidence:
+  - c2
+  - o3
+  share: 0.15
+  level: intermediate
+  kind: concept
+  technology: null
+- key: recurrent_networks
+  name: Recurrent neural networks
+  description: Recurrent architectures that process sequences and their use for text processing and other
+    sequence tasks.
+  evidence:
+  - c2
+  - o3
+  share: 0.125
+  level: intermediate
+  kind: concept
+  technology: null
+- key: deep_learning_applications
+  name: Deep learning applications in vision and language
+  description: Applying deep architectures to concrete tasks such as localization, segmentation, style
+    transfer and natural language processing, including classification and data mining problems.
+  evidence:
+  - c2
+  - o4
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: visualizing_hidden_units
+  name: Visualizing hidden neural units
+  description: Techniques for inspecting and interpreting the behaviour of hidden units in trained networks,
+    including deep dreams and inceptionism.
+  evidence:
+  - c3
+  - o3
+  share: 0.1
+  level: advanced
+  kind: technique
+  technology: null
+- key: adversarial_examples
+  name: Adversarial examples and fooling networks
+  description: Methods for crafting inputs that fool trained neural networks and the reasons such vulnerabilities
+    arise.
+  evidence:
+  - c4
+  - o3
+  share: 0.075
+  level: intermediate
+  kind: technique
+  technology: null
+- key: generative_models
+  name: Generative models and diffusion models
+  description: Modern generative techniques for synthesising data, including recent diffusion models.
+  evidence:
+  - c4
+  - o3
+  share: 0.125
+  level: advanced
+  kind: technique
+  technology: null
+- key: deep_reinforcement_learning
+  name: Deep reinforcement learning
+  description: Introduction to deep reinforcement learning for designing adaptive agents for video games,
+    autonomous driving and other complex decision-making settings.
+  evidence:
+  - c5
+  - o3
+  share: 0.2
+  level: advanced
+  kind: technique
+  technology: null
+not_topics: []

@@ -1,0 +1,114 @@
+format: extraction/1
+course: 48693-A
+title: Computer Science for Cultural Heritage
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 14.9
+  usage:
+    prompt_tokens: 4413
+    completion_tokens: 3009
+    cache_read_tokens: 1854
+    thinking_tokens: 1902
+  created: '2026-11-04T18:13:46+00:00'
+topics:
+- key: digital_humanities_foundations
+  name: Digital Humanities foundations
+  description: Introduces the field of Digital Humanities and the critical use of computing to study cultural
+    heritage, illustrated with applied cases and research projects across historical, artistic, archaeological
+    and documentary disciplines.
+  evidence:
+  - c1
+  - o1
+  - o3
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: research_data_lifecycle
+  name: Research data lifecycle management
+  description: Covers how humanities data is managed across every stage of a Digital Humanities project,
+    from creation and organisation to preservation and reuse, following institutional research data management
+    guidelines.
+  evidence:
+  - c2
+  - o4
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: fair_data_principles
+  name: FAIR data principles
+  description: Explains the Findable, Accessible, Interoperable and Reusable principles and how to design
+    a digital cultural heritage resource that applies them.
+  evidence:
+  - c3
+  - o4
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: metadata_and_interoperability
+  name: Metadata and interoperability
+  description: Teaches the models, languages and practices for describing cultural heritage resources
+    with metadata so that they can be exchanged and integrated across systems.
+  evidence:
+  - c3
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: digital_text_and_document_analysis
+  name: Digital transposition and analysis of texts and documents
+  description: Covers the digital transcription and representation of texts and documents and the computational
+    methods used to analyse them.
+  evidence:
+  - o2
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: databases_and_web_databases
+  name: Databases and web databases
+  description: Covers the creation and management of databases for humanities data and their publication
+    as web databases.
+  evidence:
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: virtual_heritage_3d_reconstruction
+  name: 3D acquisition and virtual reconstruction
+  description: Covers the three-dimensional acquisition of historical and archaeological contexts and
+    their virtual reconstruction through computer graphics.
+  evidence:
+  - o2
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+- key: image_processing_virtual_restoration
+  name: Image processing and virtual restoration
+  description: Covers image processing techniques applied to cultural heritage artefacts for virtual restoration.
+  evidence:
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: gis_historical_cartography
+  name: GIS and historical cartography
+  description: Covers the use of Geographic Information Systems and the analysis of historical maps for
+    spatial study of heritage.
+  evidence:
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

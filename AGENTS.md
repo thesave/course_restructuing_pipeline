@@ -12,10 +12,12 @@ The pipeline design, with the steps that exist and those still proposed, is in
 0.pipeline design/analysis-pipeline.mmd overall schema (render.sh -> pdf|png|drawio)
 0.pipeline design/upstream-proposal.md  design of the courses -> topics stages
 evidence/                               stage 1: citable syllabus items and course facts
+extraction/                             stage 2: per-course topic extraction (Claude Code or model servers)
 network_analysis/                       topic affinity (co-teaching, embeddings, consensus)
 modules_engine/                         constraint solver for modules, review page, rendering
 data/courses/2025/                      course corpus (syllabi and course facts)
 data/evidence/2025/                     stage 1 output, report and reviewer overrides
+data/topics/raw/<run>/                  stage 2 output, one folder per extraction run
 data/modules-engine/<area>/             engine inputs and runs (none yet)
 first-attempt/                          artefacts of the first attempt, reference only
 ```
@@ -38,8 +40,9 @@ feasibility.
   commit `bf1a5c5`; `data/courses/README.md` describes the fields. It is the
   input of the new upstream stages, which re-extract topics from the syllabi,
   so the topics of the source project's restructuring attempts are not
-  imported. Of those stages, only evidence preparation (stage 1) exists so
-  far. Until topic extraction exists, `modules_engine prepare` and
+  imported. Of those stages, evidence preparation (stage 1) and per-course
+  topic extraction (stage 2, not yet run on the corpus) exist so far. Until
+  canonical topics exist, `modules_engine prepare` and
   `network_analysis` still read an attempt directory of the source project
   (`data/restructuring/attempt-*/topics-global.yml`), as a bridge.
 - `first-attempt/programming-languages/` keeps the prototype area of the
@@ -134,6 +137,76 @@ found across courses.
   point at the same items.
 
 Tests are in `tests/test_evidence.py`.
+
+## `extraction/`
+
+Stage 2 of the upstream design: one request per course, with no global topic
+list, to a model served by OpenAI-compatible servers (llama.cpp, Ollama, LM
+Studio, vLLM), or by headless Claude Code on this machine; it uses only the
+standard library. The corpus run uses `endpoints-haiku.yml` (Claude Haiku 5.5
+through Claude Code, effort medium): on a pilot of ten service courses it
+followed the granularity, evidence and key rules better than local Gemma 4
+26B-A4B and Qwen3.6 35B-A3B on Ollama, which were then dropped.
+
+- `.venv/bin/python -m extraction check ENDPOINTS` lists what each endpoint
+  serves. `.venv/bin/python -m extraction run data/evidence/2025 data/topics/raw/<run> --endpoints ENDPOINTS [--course ID ...] [--service] [--limit N] [--max-attempts 3] [--force]`
+  extracts the selected courses (all by default) and writes
+  `topics-<course>.yml` (`format: extraction/1`, with `run` metadata: model,
+  endpoint, prompt digest, request fields, attempts, seconds, token usage),
+  `failed-<course>.yml` (errors and the last reply) and `run.yml` (per-course
+  status and per-server throughput, rewritten after every course).
+- The endpoints file (`extraction/endpoints.example.yml`) names a logical
+  `model` (recorded and part of the cache key), the `endpoints` with their
+  `workers`, the `request` fields added to every body (temperature, seed,
+  max_tokens, chat_template_kwargs) and the `timeout`. Every endpoint must
+  serve the same model file with the same settings. Workers of all endpoints
+  take courses from one queue, so faster servers do more; a connection
+  failure returns the course to the queue, and an endpoint's workers stop
+  after `max_endpoint_failures` consecutive failures.
+- An endpoint with `provider: claude-cli` (`claude_cli.py`) starts one
+  `claude -p` process per request, billed to the claude.ai login of Claude
+  Code (`check` shows it), with the system prompt replacing Claude Code's, no
+  tools, the reply schema as `--json-schema`, and, for isolation, an empty
+  working folder, `CLAUDE_CODE_DISABLE_CLAUDE_MDS=1`, `--setting-sources
+  project`, `--strict-mcp-config` and `--disable-slash-commands` (without them
+  the user's global CLAUDE.md reaches the model). The model is a Claude id
+  (checked against the one that served the reply); the only request field is
+  `effort`, because Claude Haiku 5.5 refuses temperature and seed. A retry
+  sends the earlier replies and their problems in one new message. Failed
+  structured output counts against the course; other errors (usage limits
+  included) return it to the queue, so an exhausted usage window stops the
+  run, and a later run resumes it.
+- The prompt (`prompts/system.txt`, `prompts/course.txt`) shows the numbered
+  outcome and content items, the credits with the expected number of topics
+  (topics of 4 to 8 hours, so credits to twice the credits), the programmes
+  and a truncated bibliography; prerequisites are not shown. Replies are
+  constrained by the JSON schema of `models.Extraction` (references inlined)
+  and checked by `prompt.validate_extraction`: existing ids, every content leaf
+  cited (directly or through an enclosing heading) or listed in `not_topics`,
+  snake_case unique keys, positive shares adding up to 1 within 0.1, and a
+  topic count within half the credits to three times the credits. A rejected
+  reply goes back with the problems, up to `--max-attempts` requests.
+- Requests are cached in `data/.cache/extraction/` (gitignored) by the exact
+  model name, request fields, schema and messages, so prompt changes
+  invalidate them by themselves and an interrupted run resumes; courses with a
+  topics file are skipped unless `--force`. Courses with the same syllabus
+  (`same_syllabus_as`) are extracted once and the topics copied when they
+  validate against the sibling's evidence (`copied_from`).
+- Replies written outside the program, such as by Claude Code sub-agents
+  (about three times the tokens of `claude-cli`), use the same prompt, checks and output: `extraction prompt EVIDENCE_DIR OUT_DIR [--course ID ...] [--service] [--limit N]`
+  writes `requests/request-<course>.md` (system prompt, course message and
+  reply schema; one per group of shared syllabi, listed in
+  `requests/groups.yml`), and `extraction ingest EVIDENCE_DIR OUT_DIR COURSE REPLY --model NAME`
+  checks a reply (code fences allowed), prints the same problem list a server
+  run sends back and exits 1, or writes `topics-<course>.yml` (endpoint
+  `claude-code-subagent`, attempts counted from the rejected replies kept in
+  `.attempts/`), copies it to shared-syllabus courses and updates `run.yml`.
+  The attempt limit is the caller's to respect.
+- Batched servers are not bit-for-bit deterministic even at temperature 0, and
+  different backends (Metal, CPU) differ slightly, so each topics file records
+  the endpoint that produced it.
+
+Tests are in `tests/test_extraction.py` (fake backends, a local HTTP server and a fake `claude` script).
 
 ## `network_analysis/`
 

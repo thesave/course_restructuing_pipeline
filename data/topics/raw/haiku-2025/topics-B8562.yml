@@ -1,0 +1,215 @@
+format: extraction/1
+course: B8562
+title: SISTEMI CONCORRENTI E PARALLELI M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 37.5
+  usage:
+    prompt_tokens: 4274
+    completion_tokens: 9431
+    cache_read_tokens: 1854
+    thinking_tokens: 7248
+  created: '2026-11-04T18:33:25+00:00'
+topics:
+- key: concurrency_fundamentals
+  name: Concurrency and parallelism fundamentals
+  description: Defines concurrent versus parallel execution, the general models of process interaction,
+    the kinds of interaction between processes, the properties of concurrent programs (safety, liveness),
+    and an overview of concurrent programming languages.
+  evidence:
+  - c1
+  - c1.1
+  - c2
+  - c2.8
+  - c2.9
+  - c2.10
+  - c2.11
+  - c2.12
+  - c2.13
+  share: 0.047
+  level: introductory
+  kind: concept
+  technology: null
+- key: computer_architecture_parallelism
+  name: Von Neumann model and its extensions
+  description: Explains the limitations of the Von Neumann architecture and how caches, instruction-level
+    parallelism and hardware multithreading extend it to exploit parallelism.
+  evidence:
+  - c2.4
+  - c2.5
+  share: 0.047
+  level: introductory
+  kind: concept
+  technology: null
+- key: parallel_architectures_taxonomy
+  name: Parallel architectures and Flynn's taxonomy
+  description: Surveys parallel hardware organisations (multiprocessors, multicomputers, clusters, HPC
+    systems, GPUs) and classifies them with Flynn's taxonomy.
+  evidence:
+  - c2.3
+  - c2.6
+  - c2.7
+  share: 0.0625
+  level: intermediate
+  kind: concept
+  technology: null
+- key: threads_and_semaphores
+  name: Threads, shared memory and semaphores
+  description: Covers the shared memory model, thread characteristics and implementation, and semaphores
+    with their properties, use cases and implementation for synchronizing threads.
+  evidence:
+  - c2.1
+  - c2.14
+  - c3
+  - c3.1
+  - c3.2
+  share: 0.093
+  level: intermediate
+  kind: concept
+  technology: null
+- key: thread_library_programming
+  name: Shared memory programming with pthreads
+  description: Shows how to write multithreaded C programs with the POSIX pthread library, including thread
+    creation and synchronization primitives.
+  evidence:
+  - c4
+  share: 0.0625
+  level: intermediate
+  kind: tool
+  technology: C
+- key: message_passing_primitives
+  name: Message passing model and communication primitives
+  description: Introduces the message passing model, channels, and the semantics and implementation of
+    send and receive communication primitives.
+  evidence:
+  - c2.2
+  - c5
+  - c6
+  - c7
+  share: 0.078
+  level: intermediate
+  kind: concept
+  technology: null
+- key: guarded_commands_rendezvous
+  name: Guarded commands and rendezvous
+  description: Explains guarded commands for non-deterministic selection and the rendezvous and remote
+    procedure call mechanisms for synchronous message-based interaction.
+  evidence:
+  - c8
+  - c9
+  share: 0.047
+  level: advanced
+  kind: concept
+  technology: null
+- key: distributed_sync_algorithms
+  name: Synchronization algorithms in distributed systems
+  description: Presents algorithms for achieving mutual exclusion and synchronization among processes
+    in distributed environments without shared memory.
+  evidence:
+  - c10
+  share: 0.047
+  level: advanced
+  kind: technique
+  technology: null
+- key: message_passing_languages
+  name: Concurrent programming with message passing languages
+  description: Applies message passing concurrency constructs in Google Go (goroutines and channels) and
+    Ada (tasks and rendezvous) to write concurrent programs.
+  evidence:
+  - c11
+  share: 0.0625
+  level: intermediate
+  kind: language
+  technology: Go, Ada
+- key: os_kernel_multithreading
+  name: Operating system support for concurrency
+  description: Describes software support for concurrency in operating systems, including process management
+    and interaction mechanisms in uniprocessor kernels and the SMP and loosely-coupled multiprocessor
+    extensions.
+  evidence:
+  - c12
+  - c14
+  - c14.1
+  - c14.2
+  share: 0.078
+  level: advanced
+  kind: concept
+  technology: null
+- key: virtualization
+  name: Hardware virtualization
+  description: Covers the goals and solutions of hardware virtualization, the implementation of virtual
+    machine monitors (full virtualization and paravirtualization), and a case study of the Xen hypervisor.
+  evidence:
+  - c13
+  - c13.1
+  - c13.2
+  - c13.3
+  share: 0.0625
+  level: intermediate
+  kind: concept
+  technology: null
+- key: hpc_systems
+  name: HPC hardware, software and workload management
+  description: Covers HPC system architecture models and real examples, operating system features for
+    HPC infrastructures, the parallel programming context of HPC, and tools for workload management.
+  evidence:
+  - c14.3
+  - c15
+  - c15.1
+  - c15.2
+  - c15.3
+  - c15.4
+  share: 0.078
+  level: advanced
+  kind: concept
+  technology: null
+- key: parallel_performance_evaluation
+  name: Parallel performance evaluation and scalability
+  description: Introduces methodologies and metrics for parallel performance, speedup and efficiency,
+    strong and weak scalability, and Amdahl's and Gustafson's laws.
+  evidence:
+  - c16
+  - c17
+  - c18
+  - c19
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: null
+- key: message_passing_programming
+  name: Parallel programming with MPI
+  description: Teaches the development of parallel applications on HPC systems using the MPI message passing
+    library.
+  evidence:
+  - c20
+  - c20.1
+  share: 0.047
+  level: intermediate
+  kind: tool
+  technology: MPI
+- key: shared_memory_programming
+  name: Parallel programming with OpenMP
+  description: Teaches the development of shared memory parallel applications with OpenMP directives and
+    runtime constructs.
+  evidence:
+  - c20.2
+  share: 0.0625
+  level: intermediate
+  kind: tool
+  technology: OpenMP
+- key: hybrid_parallel_programming
+  name: Hybrid parallel programming
+  description: Combines message passing across nodes with shared memory parallelism within nodes to program
+    multi-level HPC systems.
+  evidence:
+  - c20.3
+  share: 0.0625
+  level: advanced
+  kind: technique
+  technology: MPI, OpenMP
+not_topics: []

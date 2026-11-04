@@ -1,0 +1,100 @@
+format: extraction/1
+course: '58437'
+title: Parallel Calculus
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 11.2
+  usage:
+    prompt_tokens: 3321
+    completion_tokens: 2420
+    cache_read_tokens: 1854
+    thinking_tokens: 1507
+  created: '2026-11-04T18:13:59+00:00'
+topics:
+- key: parallel_computation_models
+  name: Parallel computation models and algorithms
+  description: Abstract models of parallel computation and the design and analysis of parallel algorithms
+    on them.
+  evidence:
+  - c1
+  - o1
+  share: 0.1458
+  level: intermediate
+  kind: concept
+  technology: null
+- key: hpc_architectures
+  name: HPC architectures
+  description: 'Flynn''s taxonomy and the main high performance computing architectures: shared memory,
+    distributed memory and GPGPU.'
+  evidence:
+  - c2
+  - o1
+  share: 0.1042
+  level: introductory
+  kind: concept
+  technology: null
+- key: parallel_programming_patterns
+  name: Parallel programming patterns
+  description: Recurring parallel patterns (embarrassingly parallel, stencil, work farm, scan, reduce)
+    and how to apply them to problems.
+  evidence:
+  - c3
+  share: 0.125
+  level: intermediate
+  kind: technique
+  technology: null
+- key: shared_memory_programming
+  name: Shared-memory programming
+  description: Writing multithreaded parallel programs in C with OpenMP directives on shared-memory machines.
+  evidence:
+  - c4
+  - o1
+  share: 0.1667
+  level: intermediate
+  kind: technique
+  technology: OpenMP
+- key: distributed_memory_programming
+  name: Distributed-memory programming
+  description: Writing message-passing parallel programs in C with MPI for distributed-memory clusters.
+  evidence:
+  - c5
+  - o1
+  share: 0.1667
+  level: intermediate
+  kind: technique
+  technology: MPI
+- key: gpgpu_programming
+  name: GPGPU programming
+  description: Programming graphics processing units for general-purpose parallel computation.
+  evidence:
+  - c6
+  - o1
+  share: 0.1458
+  level: intermediate
+  kind: technique
+  technology: null
+- key: simd_vectorization
+  name: SIMD vectorization
+  description: Exploiting SIMD parallelism through compiler intrinsics or GCC auto-vectorization.
+  evidence:
+  - c7
+  - o1
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: GCC
+- key: performance_evaluation
+  name: Parallel performance evaluation
+  description: Measuring and interpreting the speedup and efficiency of parallel programs.
+  evidence:
+  - c8
+  share: 0.0833
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

@@ -1,0 +1,149 @@
+format: extraction/1
+course: B8905
+title: Foundations of Programming
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 19.1
+  usage:
+    prompt_tokens: 3317
+    completion_tokens: 4126
+    cache_read_tokens: 1854
+    thinking_tokens: 2925
+  created: '2026-11-04T18:33:36+00:00'
+topics:
+- key: variables_and_types
+  name: Variables, types and assignment
+  description: Numbers (integers and floats), string literals, variable assignment, built-in type-conversion
+    functions and sequential execution of statements in Python.
+  evidence:
+  - c3
+  - c4
+  - c5
+  - o2
+  - o6
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: Python
+- key: string_manipulation
+  name: String manipulation
+  description: Creating, indexing, slicing, concatenating and transforming strings in Python programs.
+  evidence:
+  - c3
+  - c6
+  - o2
+  share: 0.08
+  level: introductory
+  kind: technique
+  technology: Python
+- key: conditional_execution
+  name: Conditional execution
+  description: Selective execution with if, if-else and elif statements, including boolean conditions
+    and nested choices in Python.
+  evidence:
+  - c4
+  - c5
+  - c6
+  - o2
+  - o3
+  - o6
+  - o7
+  share: 0.13
+  level: introductory
+  kind: technique
+  technology: Python
+- key: iterative_execution
+  name: Iterative execution with loops
+  description: Repeating actions with for and while loops, range() and loop control, to process sequences
+    and repeat computations in Python.
+  evidence:
+  - c4
+  - c5
+  - c6
+  - o2
+  - o3
+  - o6
+  - o7
+  share: 0.13
+  level: introductory
+  kind: technique
+  technology: Python
+- key: functions_and_modules
+  name: Functions and modules
+  description: Defining and calling user-defined functions with parameters and return values, and importing
+    standard modules and libraries in Python.
+  evidence:
+  - c3
+  - c4
+  - c5
+  - o2
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: Python
+- key: lists
+  name: Lists
+  description: Creating, accessing, modifying and iterating over lists as sequences of values in Python.
+  evidence:
+  - c3
+  - c5
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: Python
+- key: input_output_and_files
+  name: Input, output and files
+  description: Reading user input with input(), printing output, and reading from and writing to files
+    in Python.
+  evidence:
+  - c3
+  - c5
+  share: 0.06
+  level: introductory
+  kind: technique
+  technology: Python
+- key: turtle_graphics
+  name: Turtle graphics and animation
+  description: Drawing basic geometric shapes and simple animations by controlling a turtle with the Python
+    turtle module.
+  evidence:
+  - c5
+  - o4
+  - o5
+  share: 0.09
+  level: introductory
+  kind: tool
+  technology: Python
+- key: classes_and_objects
+  name: Classes and objects
+  description: Defining classes, creating objects, and using attributes and methods to apply basic object-oriented
+    programming in Python.
+  evidence:
+  - c4
+  - c5
+  - c7
+  share: 0.11
+  level: intermediate
+  kind: concept
+  technology: Python
+- key: interactive_program_design
+  name: Design and testing of interactive programs
+  description: Designing, implementing and testing small but complete interactive programs that combine
+    control structures, functions and objects to solve a computational problem.
+  evidence:
+  - c2
+  - c7
+  - o7
+  - o8
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: Python
+not_topics:
+- id: c1
+  reason: General statement of the course aim; it names no teachable content.

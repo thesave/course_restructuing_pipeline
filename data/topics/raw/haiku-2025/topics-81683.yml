@@ -1,0 +1,161 @@
+format: extraction/1
+course: '81683'
+title: Internet of Things
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 24.9
+  usage:
+    prompt_tokens: 4072
+    completion_tokens: 5897
+    cache_read_tokens: 1854
+    thinking_tokens: 4204
+  created: '2026-11-04T18:18:45+00:00'
+topics:
+- key: iot_introduction
+  name: Introduction to IoT and pervasive computing
+  description: Definitions of IoT and pervasive computing, its application areas such as Industry 4.0,
+    smart homes, intelligent transport and wearables, and the enabling technologies of an IoT system viewed
+    as a data-oriented path from sensing to AI processing.
+  evidence:
+  - c1
+  - c2
+  - c3
+  - c4.1
+  - o1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: sensors_and_actuators
+  name: Sensors, actuators and data acquisition
+  description: Sensor and actuator principles, the basics of electronic circuit design, and sensing and
+    data acquisition policies for IoT devices.
+  evidence:
+  - c5.1
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: wireless_iot_technologies
+  name: Wireless communication technologies for IoT
+  description: Wireless encoding and M2M communication over WPAN (BLE, IEEE 802.15.4, Z-Wave), WLAN and
+    LP-WAN (LoRa, LoRaWAN) technologies for connecting constrained IoT devices.
+  evidence:
+  - c5.2
+  - c5.3
+  - o1
+  share: 0.14
+  level: intermediate
+  kind: concept
+  technology: null
+- key: iot_network_routing
+  name: IoT network architectures and routing
+  description: Network architectures for constrained IoT devices, including IPv6 over low-power networks
+    via 6LoWPAN and the RPL routing protocol.
+  evidence:
+  - c5.4
+  - o1
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: embedded_systems_programming
+  name: Embedded systems programming and sensor interfacing
+  description: Architecture of embedded IoT boards and their programming in C++ and MicroPython, interfacing
+    sensors and actuators through serial protocols, and building examples with Arduino and ESP-IDF.
+  evidence:
+  - c6.1
+  - c6.2
+  - c6.3
+  - o2
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+- key: iot_data_acquisition_protocols
+  name: Data acquisition protocols and streaming with Kafka
+  description: Application-layer protocols for IoT data acquisition (CoAP, MQTT, HTTP) and the Kafka framework
+    for streaming sensor data to the cloud.
+  evidence:
+  - c7.1
+  - c7.2
+  - o2
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: web_of_things_semantics
+  name: Web of Things and semantic standards
+  description: Web of Things and Semantic Web standards that enable machine-to-machine interoperability
+    and the description of IoT resources.
+  evidence:
+  - c7.3
+  - o3
+  share: 0.05
+  level: advanced
+  kind: concept
+  technology: null
+- key: time_series_databases
+  name: Time-series storage and visualization
+  description: Storing and processing sensor data in time-series databases with InfluxDB, and visualizing
+    time series with the Grafana tool.
+  evidence:
+  - c8.1
+  - c8.2
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: tool
+  technology: InfluxDB
+- key: time_series_forecasting
+  name: Time-series forecasting
+  description: Forecasting sensor time series with statistical methods and with AI/machine-learning techniques.
+  evidence:
+  - c8.3
+  - c8.4
+  - o2
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+- key: tinyml_edge_ai
+  name: Edge AI and TinyML
+  description: Running machine-learning inference on resource-constrained edge devices using TinyML techniques.
+  evidence:
+  - c8.5
+  - o2
+  share: 0.06
+  level: advanced
+  kind: technique
+  technology: null
+- key: edge_fog_cloud_architectures
+  name: Edge, fog and cloud architectures
+  description: Data storage and processing architectures that distribute computation across edge, fog
+    and cloud computing layers for IoT systems.
+  evidence:
+  - c9.1
+  - o3
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: iot_platforms
+  name: IoT cloud platforms
+  description: Overview of commercial and open IoT platforms such as AWS IoT, Watson IoT and ThingSpeak,
+    and how they are used to build IoT applications.
+  evidence:
+  - c9.2
+  - o4
+  share: 0.05
+  level: introductory
+  kind: tool
+  technology: null
+not_topics:
+- id: c4
+  reason: Heading titled 'Summary of course contents' that restates the content list; its only child c4.1
+    is covered by the introduction topic.

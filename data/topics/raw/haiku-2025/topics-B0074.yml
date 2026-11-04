@@ -1,0 +1,103 @@
+format: extraction/1
+course: B0074
+title: PIATTAFORME PER LA TRASFORMAZIONE DIGITALE
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 13.9
+  usage:
+    prompt_tokens: 3037
+    completion_tokens: 2945
+    cache_read_tokens: 1854
+    thinking_tokens: 2044
+  created: '2026-11-04T18:29:19+00:00'
+topics:
+- key: cognitive_models_software_development
+  name: Cognitive models of software development
+  description: Cognitive models that explain how people develop software and how they guide production
+    processes.
+  evidence:
+  - c2
+  - o1
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: machine_learning_prediction_models
+  name: Machine learning for prediction and quality models
+  description: Applying machine learning to build prediction and software quality models within development
+    processes.
+  evidence:
+  - c2
+  - o1
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ai_tools_software_development
+  name: AI tools in software development
+  description: Opportunities and limitations of applying artificial intelligence tools to the software
+    development process.
+  evidence:
+  - c2
+  - o1
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: software_engineering_for_ai
+  name: Software engineering principles for AI systems
+  description: How software engineering principles guide the development of artificial intelligence-based
+    systems.
+  evidence:
+  - o1
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: data_analytics_platform_tools
+  name: Software tools for data analytics platforms
+  description: Selecting and managing software tools for increasingly complex data analytics platforms,
+    and keeping the resulting systems evolvable.
+  evidence:
+  - c3
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: blockchain_principles_applications
+  name: Blockchain principles and applications
+  description: The principles of blockchain systems and their applications in software and production.
+  evidence:
+  - o1
+  share: 0.16
+  level: introductory
+  kind: concept
+  technology: null
+- key: cryptocurrencies_software_issues
+  name: Cryptocurrencies and related software issues
+  description: The role and potential of cryptocurrencies and the issues they raise when developing software
+    systems.
+  evidence:
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: integrated_production_product_models
+  name: Integrated production and product models
+  description: Building complex production and product models that combine AI, blockchain, cryptocurrencies
+    and other leading sectors, in response to the rethinking of software development processes and application
+    areas.
+  evidence:
+  - c1
+  - o1
+  share: 0.12
+  level: advanced
+  kind: technique
+  technology: null
+not_topics: []

@@ -1,0 +1,129 @@
+format: extraction/1
+course: '28011'
+title: Logic Design T
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 21.7
+  usage:
+    prompt_tokens: 7501
+    completion_tokens: 4943
+    cache_read_tokens: 3708
+    thinking_tokens: 2437
+  created: '2026-11-04T18:10:56+00:00'
+topics:
+- key: digital_systems_introduction
+  name: Introduction to digital systems
+  description: Motivation for digital circuits and systems, from basic networks up to processors and memories,
+    and the reference models used to describe them.
+  evidence:
+  - c1
+  - c3.1
+  - o1
+  share: 0.04
+  level: introductory
+  kind: concept
+  technology: null
+- key: boolean_algebra
+  name: Boolean functions and algebra
+  description: Boolean variables and functions, their representations, and the axioms and identities of
+    Boolean algebra used to simplify them.
+  evidence:
+  - c3.2
+  - o1
+  share: 0.14
+  level: introductory
+  kind: concept
+  technology: null
+- key: binary_information_coding
+  name: Binary representation and coding
+  description: Representation of numbers and other information with binary digits, and binary coding schemes.
+  evidence:
+  - c3.2
+  - c3.3
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: logic_networks_switching_algebra
+  name: Logic networks and switching algebra
+  description: Logic networks built from gates, switching algebra for their analysis and synthesis, and
+    the electrical properties of logic families.
+  evidence:
+  - c3.4
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: combinational_circuits
+  name: Combinational components and circuits
+  description: Analysis and synthesis of combinational circuits, including encoders, decoders, multiplexers
+    and similar standard components.
+  evidence:
+  - c3.5
+  - o1
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: sequential_elements
+  name: Sequential components and circuits
+  description: Latches, flip-flops and shift registers as storage elements, and how they behave in synchronous
+    and asynchronous sequential circuits.
+  evidence:
+  - c3.6
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: finite_state_machines
+  name: Finite-state machines and asynchronous networks
+  description: Specification, state minimisation and synthesis of finite-state machines, and the analysis
+    of asynchronous sequential networks.
+  evidence:
+  - c3.6
+  - o1
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: hardware_description_language
+  name: Hardware description language constructs
+  description: Syntax and constructs of the Verilog language for describing combinational and sequential
+    digital circuits.
+  evidence:
+  - c2
+  share: 0.12
+  level: intermediate
+  kind: language
+  technology: Verilog
+- key: programmable_logic_design_flow
+  name: Programmable logic and design flow
+  description: Programmable logic devices and the design flow from a hardware description to their implementation.
+  evidence:
+  - c2
+  - c3.7
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: processors_memories_io
+  name: Processors, memories and I/O interfaces
+  description: Basic elements of processors, memories and input/output interfaces and how they combine
+    into digital systems.
+  evidence:
+  - c1
+  - c3.8
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics:
+- id: c3
+  reason: Structural heading 'Course Outline'; its sub-items are covered by the topics above.

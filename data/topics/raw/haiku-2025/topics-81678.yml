@@ -1,0 +1,156 @@
+format: extraction/1
+course: '81678'
+title: Laboratory of Making
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 24.5
+  usage:
+    prompt_tokens: 3682
+    completion_tokens: 5693
+    cache_read_tokens: 1854
+    thinking_tokens: 4141
+  created: '2026-11-04T18:18:44+00:00'
+topics:
+- key: circuit_fundamentals
+  name: Circuit fundamentals and lab instruments
+  description: Electric current, voltage, power and energy, Kirchhoff's and Ohm's laws, passive components
+    (resistors, capacitors, inductors, transformers), diodes and transistors, and measurement with multimeter,
+    oscilloscope and logic analyzer.
+  evidence:
+  - c1.2
+  - c1.3
+  - c1.4
+  share: 0.14
+  level: introductory
+  kind: concept
+  technology: null
+- key: digital_electronics
+  name: Digital electronics
+  description: Binary logic, logic gates and combinational and sequential digital circuits as the basis
+    for processing data in embedded hardware.
+  evidence:
+  - c1.5
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: fpga_hdl_design
+  name: FPGA and HDL design
+  description: Describing digital hardware in Verilog and simulating and implementing it on FPGAs using
+    a development workbench.
+  evidence:
+  - c1.7
+  share: 0.07
+  level: intermediate
+  kind: language
+  technology: Verilog
+- key: radio_waves
+  name: Radio waves and radio transmission
+  description: Principles of radio wave propagation and the basics of radio transmission for wireless
+    communication between things.
+  evidence:
+  - c1.6
+  - o9
+  share: 0.04
+  level: intermediate
+  kind: concept
+  technology: null
+- key: microcontroller_programming
+  name: Microcontrollers and Arduino
+  description: Architecture of microcontrollers and programming Arduino boards to read sensors, drive
+    actuators and interface peripherals.
+  evidence:
+  - c2.2
+  - o1
+  - o2
+  - o8
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: Arduino
+- key: single_board_computers
+  name: Single-board computers and systems-on-chip
+  description: Using Raspberry Pi single-board computers and systems-on-chip to run software that processes
+    data and communicates in a digital thing.
+  evidence:
+  - c2.3
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: tool
+  technology: Raspberry Pi
+- key: serial_communication_protocols
+  name: Serial communication protocols
+  description: Principles and use of the serial buses OneWire, I2C, SPI and UART for connecting sensors
+    and peripherals to a microcontroller.
+  evidence:
+  - c2.4
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: actuator_control
+  name: Motor control with H-bridges
+  description: Driving electric motors as actuators, including direction and speed control through H-bridge
+    circuits.
+  evidence:
+  - c2.5
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: rfid_identification
+  name: Radio Frequency Identification
+  description: Principles of RFID tags and readers and their use for identifying objects wirelessly.
+  evidence:
+  - c2.6
+  share: 0.04
+  level: intermediate
+  kind: concept
+  technology: null
+- key: voip_telephony
+  name: VoIP telephony with Asterisk
+  description: Setting up a VoIP telephone exchange with the Asterisk software to route and manage voice
+    calls over IP networks.
+  evidence:
+  - c2.7
+  share: 0.05
+  level: intermediate
+  kind: tool
+  technology: Asterisk
+- key: digital_fabrication
+  name: 'Digital fabrication: additive and subtractive manufacturing'
+  description: Operating principles of 3D printers and subtractive CNC machines such as mills and laser
+    cutters, and writing software to drive them from design to physical prototype.
+  evidence:
+  - c2.8
+  - o3
+  - o4
+  - o5
+  - o10
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: making_pedagogy
+  name: Making as pedagogy and problem solving
+  description: The digital artisan and making paradigm, and designing teaching methods for computer science
+    and constructive problem-solving techniques based on making.
+  evidence:
+  - c1.1
+  - o6
+  - o7
+  - o11
+  - o12
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+not_topics:
+- id: c2.1
+  reason: Introductory sentence announcing the Module 2 topics; it has no teachable content of its own.

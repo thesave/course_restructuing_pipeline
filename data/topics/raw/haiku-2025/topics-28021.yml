@@ -1,0 +1,144 @@
+format: extraction/1
+course: '28021'
+title: Software Engineering T
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 24.9
+  usage:
+    prompt_tokens: 8007
+    completion_tokens: 5541
+    cache_read_tokens: 3708
+    thinking_tokens: 2960
+  created: '2026-11-04T18:11:15+00:00'
+topics:
+- key: software_engineering_foundations
+  name: Software engineering foundations
+  description: Definition of software engineering and the nature of a software product, including the
+    software quality factors used to judge it.
+  evidence:
+  - c1
+  - c2
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: software_development_lifecycle
+  name: Software development lifecycle
+  description: The phases of software development from feasibility study through requirements, design,
+    implementation, integration and system testing, operation and maintenance, and evolutionary process
+    models.
+  evidence:
+  - c2
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: object_oriented_modeling
+  name: Object-oriented modeling
+  description: Object-oriented analysis and design using UML diagrams as the modeling language for describing
+    software systems.
+  evidence:
+  - c3
+  - o1
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: UML
+- key: requirements_elicitation_validation
+  name: Requirements elicitation and validation
+  description: Gathering, validating and specifying software requirements, including domain analysis and
+    the transition to requirement analysis.
+  evidence:
+  - c4
+  share: 0.08
+  level: introductory
+  kind: technique
+  technology: null
+- key: use_cases_and_scenarios
+  name: Use cases and scenarios
+  description: Describing system functionality from the user's perspective through use cases and their
+    scenarios.
+  evidence:
+  - c4
+  share: 0.07
+  level: introductory
+  kind: technique
+  technology: null
+- key: problem_analysis_models
+  name: Problem analysis models
+  description: Building static and dynamic models of the problem domain and defining the logical architecture
+    of the problem.
+  evidence:
+  - c5
+  - o1
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: system_architecture_design
+  name: System architecture design
+  description: Designing the architecture of a software system, decomposing it into components and their
+    relationships.
+  evidence:
+  - c6
+  - o2
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: design_quality_problems
+  name: Design quality problems
+  description: The principles behind rigidity, fragility and immobility of software and how they affect
+    design quality and change.
+  evidence:
+  - c7
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: design_patterns
+  name: Design patterns
+  description: Reusable object-oriented design solutions, their structure, purpose and application to
+    recurring design problems.
+  evidence:
+  - c8
+  - o2
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+- key: application_framework
+  name: Application framework
+  description: Introduction to the .NET framework as a platform for developing and running software applications.
+  evidence:
+  - c9
+  share: 0.04
+  level: introductory
+  kind: tool
+  technology: .NET
+- key: language_constructs
+  name: Language constructs
+  description: Core constructs of the C# programming language used to implement software modules within
+    the .NET framework.
+  evidence:
+  - c9
+  - o2
+  share: 0.13
+  level: introductory
+  kind: language
+  technology: C#
+- key: version_control_systems
+  name: Version control systems
+  description: Using version control systems to track, store and manage changes to software source code.
+  evidence:
+  - c10
+  share: 0.04
+  level: introductory
+  kind: technique
+  technology: null
+not_topics: []

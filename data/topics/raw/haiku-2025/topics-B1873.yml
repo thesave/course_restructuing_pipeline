@@ -1,0 +1,126 @@
+format: extraction/1
+course: B1873
+title: Machine Learning for Humanities
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 27.2
+  usage:
+    prompt_tokens: 10804
+    completion_tokens: 5994
+    cache_read_tokens: 3708
+    thinking_tokens: 3543
+  created: '2026-11-04T18:29:53+00:00'
+topics:
+- key: ml_fundamentals
+  name: Machine learning fundamentals
+  description: Core ML concepts, the types of ML tasks, the components of an ML workflow, and the foundational
+    mathematics needed to follow the course.
+  evidence:
+  - c7.1
+  - c3.1
+  - o1
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: linear_models
+  name: Linear regression and linear classification
+  description: Linear regression and linear classification as worked-out supervised learning models, implemented
+    from scratch in NumPy.
+  evidence:
+  - c7.1
+  - c7.2
+  - c3.3
+  - o1
+  share: 0.12
+  level: introductory
+  kind: technique
+  technology: null
+- key: multilayer_perceptron
+  name: Multi-layer perceptron
+  description: The multi-layer perceptron as the basic neural network model, worked out and implemented
+    in NumPy.
+  evidence:
+  - c7.2
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: deep_learning_frameworks
+  name: Deep learning frameworks
+  description: Using a deep learning library to build and train ML models, and finding and choosing ML
+    software libraries for a given task.
+  evidence:
+  - c7.3
+  - c7.4
+  - c3.2
+  - c3.3
+  share: 0.08
+  level: intermediate
+  kind: tool
+  technology: PyTorch
+- key: convolutional_networks
+  name: Machine vision with convolutional and residual networks
+  description: Image-based ML tasks and the convolutional and residual network architectures used to solve
+    them, with an implemented image task.
+  evidence:
+  - c7.3
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: transformers_nlp
+  name: Natural language processing with transformers
+  description: Main natural language processing tasks and the Transformer architecture, applied to text-based
+    tasks.
+  evidence:
+  - c7.4
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: generative_llms
+  name: Generative AI and large language models
+  description: Generative AI models with a focus on large language models, and how LLMs are used in practice.
+  evidence:
+  - c7.5
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: retrieval_augmented_generation
+  name: Retrieval augmented generation
+  description: Retrieval Augmented Generation as a way to combine LLMs with external documents, implemented
+    as a chatbot.
+  evidence:
+  - c7.5
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ml_cultural_heritage_applications
+  name: Machine learning for Arts, Humanities and GLAM
+  description: Examples of ML applications to cultural heritage and GLAM collections, and critical evaluation
+    of when and with what preconditions and implications ML can be used in such tasks.
+  evidence:
+  - c1
+  - c4
+  - c5
+  - c6
+  - c3.4
+  - o2
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+not_topics:
+- id: c2
+  reason: Describes the course format (lectures plus laboratory activities), not teachable content.
+- id: c8
+  reason: Organisational remark that the topic list may change.

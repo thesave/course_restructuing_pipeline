@@ -1,0 +1,130 @@
+format: extraction/1
+course: '72945'
+title: Real-Time Systems M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 14.0
+  usage:
+    prompt_tokens: 3235
+    completion_tokens: 3199
+    cache_read_tokens: 1854
+    thinking_tokens: 1841
+  created: '2026-11-04T18:16:22+00:00'
+topics:
+- key: real_time_systems_fundamentals
+  name: Real-time systems fundamentals
+  description: Defining features of real-time systems, their typical application domains, and the distinction
+    between hard and soft real-time tasks.
+  evidence:
+  - c1
+  - c2
+  share: 0.0625
+  level: introductory
+  kind: concept
+  technology: null
+- key: task_models_temporal_parameters
+  name: Task models and temporal parameters
+  description: Temporal parameters (release time, deadline, period, worst-case execution time) and reference
+    models for periodic, sporadic and aperiodic tasks.
+  evidence:
+  - c3
+  share: 0.078125
+  level: introductory
+  kind: concept
+  technology: null
+- key: scheduling_approaches
+  name: Clock-driven and priority-driven scheduling
+  description: The two main approaches to real-time scheduling, clock-driven (table-based) and priority-driven,
+    and their trade-offs.
+  evidence:
+  - c4
+  share: 0.0625
+  level: intermediate
+  kind: concept
+  technology: null
+- key: fixed_priority_scheduling
+  name: Fixed-priority scheduling (RM and DM)
+  description: Rate-monotonic and deadline-monotonic algorithms for scheduling hard real-time periodic
+    and sporadic tasks with static priorities.
+  evidence:
+  - c5
+  share: 0.109375
+  level: intermediate
+  kind: technique
+  technology: null
+- key: dynamic_priority_scheduling
+  name: Dynamic-priority scheduling (EDF and LSTF)
+  description: Earliest-deadline-first and least-slack-time-first algorithms for scheduling hard real-time
+    tasks with dynamic priorities.
+  evidence:
+  - c5
+  share: 0.09375
+  level: intermediate
+  kind: technique
+  technology: null
+- key: aperiodic_server_strategies
+  name: Server-based aperiodic task scheduling
+  description: Polling, deferrable, priority exchange, sporadic, constant utilization and total bandwidth
+    servers for improving response time of soft real-time aperiodic tasks.
+  evidence:
+  - c6
+  share: 0.140625
+  level: advanced
+  kind: technique
+  technology: null
+- key: shared_resource_access_protocols
+  name: Shared resource access protocols
+  description: Priority inheritance, priority ceiling, immediate priority ceiling and stack resource policy
+    protocols for controlling access to shared resources and bounding blocking.
+  evidence:
+  - c7
+  share: 0.125
+  level: advanced
+  kind: technique
+  technology: null
+- key: utilization_based_analysis
+  name: Processor-utilization schedulability analysis
+  description: Pre-run-time schedulability tests based on processor utilization bounds for static- and
+    dynamic-priority systems.
+  evidence:
+  - c8
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: null
+- key: response_time_analysis
+  name: Response-time analysis
+  description: Computing worst-case response times of tasks under static priorities to verify schedulability
+    before run time.
+  evidence:
+  - c8
+  share: 0.09375
+  level: intermediate
+  kind: technique
+  technology: null
+- key: processor_demand_analysis
+  name: Processor-demand analysis
+  description: Schedulability verification by comparing processor demand against available time over intervals,
+    used for dynamic-priority systems.
+  evidence:
+  - c8
+  share: 0.0625
+  level: advanced
+  kind: technique
+  technology: null
+- key: industrial_automation_design_patterns
+  name: Design patterns for industrial automation
+  description: Application of the course's theoretical and methodological issues to recurring design patterns
+    in industrial automation systems.
+  evidence:
+  - c9
+  share: 0.109375
+  level: advanced
+  kind: technique
+  technology: null
+not_topics: []

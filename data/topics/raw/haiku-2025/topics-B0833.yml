@@ -1,0 +1,176 @@
+format: extraction/1
+course: B0833
+title: Computer Security Laboratory T
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 23.7
+  usage:
+    prompt_tokens: 3812
+    completion_tokens: 5585
+    cache_read_tokens: 1854
+    thinking_tokens: 3966
+  created: '2026-11-04T18:29:40+00:00'
+topics:
+- key: security_fundamentals
+  name: Security fundamentals and risk
+  description: Core security properties of information and systems, the definitions of threat, vulnerability,
+    exploit and risk, attack methods and their impact, and the role of formal models, frameworks and certifications.
+  evidence:
+  - c2
+  - c2.1
+  - c2.2
+  - c2.3
+  - c2.4
+  - o1
+  - o2
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: penetration_testing_methodology
+  name: Penetration testing methodology and reconnaissance
+  description: The origins of vulnerabilities and how to find them, the cyber kill chain as a red-team
+    attack model, and the enumeration, scanning and brute forcing of credentials used to probe a target.
+  evidence:
+  - c3
+  - c3.1
+  - c3.2
+  - c3.3
+  - o2
+  - o3
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: privilege_escalation
+  name: Privilege escalation through misconfigurations
+  description: Exploiting configuration mistakes in an operating system or service to obtain higher privileges
+    than those granted to the attacker.
+  evidence:
+  - c3
+  - c3.4
+  - o3
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: web_application_exploitation
+  name: Web application exploitation
+  description: Exploiting web application vulnerabilities such as cross-site scripting, path traversal
+    and code injection, and measuring their effects.
+  evidence:
+  - c3
+  - c3.5
+  - o3
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: binary_exploitation
+  name: Binary code exploitation
+  description: Exploiting memory-corruption vulnerabilities in compiled code through buffer overflows,
+    shellcode injection and return-to-libc attacks.
+  evidence:
+  - c3
+  - c3.6
+  - o3
+  share: 0.12
+  level: advanced
+  kind: technique
+  technology: null
+- key: cryptography_and_data_protection
+  name: Cryptography and data-at-rest protection
+  description: Cryptography essentials (symmetric, asymmetric, hashing and their use) and the anonymization
+    and encryption of stored data.
+  evidence:
+  - c4
+  - c4.1
+  - c4.2
+  - o1
+  - o2
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: secure_communication_vpn
+  name: Secure communication protocols and VPNs
+  description: Protocols that protect data in transit, such as TLS-based channels, and the construction
+    and use of virtual private networks.
+  evidence:
+  - c4
+  - c4.3
+  - o2
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: system_hardening_and_physical_security
+  name: System hardening and physical security
+  description: Physical protection of computing infrastructure and the basic hardening of operating systems
+    to reduce their attack surface.
+  evidence:
+  - c5
+  - c5.1
+  - c5.2
+  - o2
+  share: 0.05
+  level: introductory
+  kind: technique
+  technology: null
+- key: authentication_and_access_control
+  name: Authentication and access control models
+  description: Authentication mechanisms that verify identities and the access control models (such as
+    DAC, MAC and RBAC) and their implementation.
+  evidence:
+  - c5
+  - c5.3
+  - c5.4
+  - o2
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: firewalls_and_network_prevention
+  name: Firewalls and network-based attack prevention
+  description: Configuring firewalls to filter network traffic and prevent network-based attacks.
+  evidence:
+  - c5
+  - c5.5
+  - o2
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: intrusion_detection_and_siem
+  name: Attack detection with IDS, IPS and SIEM
+  description: Detecting and blocking attacks with intrusion detection and prevention systems and aggregating
+    security events with SIEM platforms.
+  evidence:
+  - c5
+  - c5.6
+  - o2
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: incident_response_and_recovery
+  name: Incident response and recovery
+  description: The process of handling a security incident, from containment of its effects to recovery
+    of affected systems.
+  evidence:
+  - c5
+  - c5.7
+  - o2
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Statement of the course goal and overview; it describes the aim of the course rather than teachable
+    content.

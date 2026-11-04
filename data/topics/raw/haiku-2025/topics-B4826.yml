@@ -1,0 +1,108 @@
+format: extraction/1
+course: B4826
+title: Informatics for the Humanities
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 21.2
+  usage:
+    prompt_tokens: 3513
+    completion_tokens: 4515
+    cache_read_tokens: 1854
+    thinking_tokens: 3510
+  created: '2026-11-04T18:30:35+00:00'
+topics:
+- key: computer_systems
+  name: Computer systems fundamentals
+  description: Basic concepts of computer science, including what the discipline is, hardware versus software,
+    information systems, software and data, and how a computer's architecture works.
+  evidence:
+  - c4.1
+  - c4.2
+  - c4.3
+  - c4.4
+  - c4.7
+  - o1
+  share: 0.2
+  level: introductory
+  kind: concept
+  technology: null
+- key: algorithms_and_data_structures
+  name: Algorithms and data structures
+  description: Describing algorithms with flowchart diagrams and organising data in a program using lists,
+    queues, stacks, sets, dictionaries, graphs, trees, vectors and tensors.
+  evidence:
+  - c4.5
+  - c4.6
+  - o1
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: internet_and_web
+  name: Internet, networks and web pages
+  description: How computer networks are classified (LAN, MAN, WAN), layered through the ISO/OSI stack
+    and connected via communication protocols, and how web pages are built with HTML on the World Wide
+    Web.
+  evidence:
+  - c5.1
+  - c5.2
+  - c5.3
+  - c5.4
+  - c5.5
+  - o3
+  share: 0.2
+  level: introductory
+  kind: concept
+  technology: HTML
+- key: scripting_for_text_analysis
+  name: Scripting for text analysis
+  description: Introduction to programming languages and Python scripting, combined with regular expressions
+    to automatically find words and word patterns in text.
+  evidence:
+  - c6.1
+  - c6.2
+  - c6.3
+  - o2
+  share: 0.2
+  level: introductory
+  kind: language
+  technology: Python
+- key: machine_learning_overview
+  name: Machine learning overview
+  description: A high-level overview of what machine learning is and how it is applied to text, without
+    hands-on implementation.
+  evidence:
+  - c6.4
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: collaborative_writing_and_bibliography
+  name: Collaborative writing and bibliographies
+  description: Using word processors, LaTeX with Overleaf, and Google Docs or OneDrive for collaborative
+    document writing, and building bibliographies from Scholar, Scopus and search engines.
+  evidence:
+  - c7
+  - c8
+  - c9
+  - c10
+  - c11
+  - o4
+  share: 0.23
+  level: introductory
+  kind: tool
+  technology: null
+not_topics:
+- id: c1
+  reason: Describes the delivery mode (online via Teams), an organisational remark rather than teachable
+    content.
+- id: c2
+  reason: General description of the course structure and aims; no teachable content of its own.
+- id: c3
+  reason: Introductory heading announcing the list of units and lessons; its content is covered by the
+    listed items.

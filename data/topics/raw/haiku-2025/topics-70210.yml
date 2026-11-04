@@ -1,0 +1,62 @@
+format: extraction/1
+course: '70210'
+title: Lab-based Course on Computer Graphics
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 12.4
+  usage:
+    prompt_tokens: 3369
+    completion_tokens: 2447
+    cache_read_tokens: 1854
+    thinking_tokens: 1838
+  created: '2026-11-04T18:15:18+00:00'
+topics:
+- key: computer_hardware_and_os
+  name: Computer hardware and operating systems
+  description: Overview of the main hardware components (CPU, RAM, mass storage, graphics card, input/output
+    devices) and of the operating system, with the methods to work with applications and common operating
+    systems for graphic work.
+  evidence:
+  - c2
+  - c3
+  - c5
+  - o1
+  share: 0.2
+  level: introductory
+  kind: concept
+  technology: null
+- key: raster_graphics
+  name: Raster graphics and image formats
+  description: Representation of digital raster images through pixels, colour space, image and device
+    resolution, and lossy and lossless compression, with the most common raster formats and their main
+    features, practised in Adobe Photoshop.
+  evidence:
+  - c6
+  - o2.1
+  share: 0.35
+  level: introductory
+  kind: concept
+  technology: null
+- key: vector_graphics_technical_drawing
+  name: Vector graphics and technical drawing
+  description: Creation and editing of vector drawings in a CAD application, covering drawing tools, graphic
+    primitives, modify tools, layers, line styles and weights, print and layout design, and vector and
+    vector/raster formats, practised in AutoCAD to represent buildings and technical drawings.
+  evidence:
+  - c7
+  - o2.2
+  - o2.3
+  share: 0.45
+  level: introductory
+  kind: technique
+  technology: AutoCAD
+not_topics:
+- id: c1
+  reason: Statement of the course's general purpose; no teachable content.
+- id: c4
+  reason: Heading introducing the list of topics taught in c5 to c7; it has no content of its own.

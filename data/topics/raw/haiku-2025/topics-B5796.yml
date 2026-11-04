@@ -1,0 +1,186 @@
+format: extraction/1
+course: B5796
+title: Scalable and Reliable Services M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 0
+  seconds: 0.0
+  usage: {}
+  created: '2026-11-04T18:28:07+00:00'
+copied_from: '97431'
+topics:
+- key: cloud_computing_fundamentals
+  name: Cloud computing fundamentals
+  description: Cloud service models and deployment options, and how cloud provider platforms are architected
+    internally.
+  evidence:
+  - c2
+  - c3
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: service_quality_and_lifecycle
+  name: Service quality attributes and lifecycle
+  description: Performance, scalability, reliability and security requirements of digital services, and
+    the end-to-end lifecycle from design through deployment, testing and operation.
+  evidence:
+  - c4
+  - c5
+  - o1
+  - o2
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: reliability_risks_and_spofs
+  name: Reliability risks and single points of failure
+  description: Identifying sources of outages, critical dependencies, bottlenecks and single points of
+    failure through data gathering and analysis.
+  evidence:
+  - c6.1
+  - c6.2
+  - o3
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: scalable_architecture_design
+  name: Scalable and reliable architecture design
+  description: Assessing design maturity and applying architectural principles for reliability and scalability,
+    including the AKF scale cube model.
+  evidence:
+  - c6.3
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: cloud_migration
+  name: Migration to cloud
+  description: Strategies and steps for moving existing services and workloads to cloud platforms.
+  evidence:
+  - c6.4
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: critical_data_management
+  name: Critical data management
+  description: Strategy, governance and management practices for critical data in scalable and reliable
+    services.
+  evidence:
+  - c6.5
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: multicloud_implementation
+  name: Implementation alternatives on multi-clouds
+  description: Comparing implementation alternatives on single cloud platforms and across multiple clouds.
+  evidence:
+  - c6.6
+  share: 0.05
+  level: advanced
+  kind: technique
+  technology: null
+- key: secure_devops_deployment
+  name: Secure and robust software production and DevOps
+  description: Practices for producing secure, robust software and for deploying it through DevOps pipelines.
+  evidence:
+  - c7.1
+  - c7.2
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: cloud_platform_labs
+  name: Deploying services on cloud platforms
+  description: Hands-on labs deploying and operating services on cloud platforms.
+  evidence:
+  - c7.3
+  share: 0.07
+  level: intermediate
+  kind: tool
+  technology: null
+- key: benchmarking
+  name: Benchmarking
+  description: Designing and running benchmarks to measure and compare the performance of services and
+    systems.
+  evidence:
+  - c8.1
+  share: 0.04
+  level: intermediate
+  kind: technique
+  technology: null
+- key: performance_and_stress_testing
+  name: Performance and stress testing
+  description: Planning and executing performance tests and stress tests to find limits, bottlenecks and
+    failure behaviour under load.
+  evidence:
+  - c8.2
+  - c8.3
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: organisational_roles_and_leadership
+  name: Roles, leadership and scalable organisations
+  description: Roles and responsibilities, leaders and managers, and how people and processes combine
+    to run scalable and reliable organisations.
+  evidence:
+  - c9.1
+  - c9.2
+  - c9.3
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: capacity_planning
+  name: Capacity planning
+  description: Forecasting resource needs and planning capacity to sustain performance and justify investment
+    in business services.
+  evidence:
+  - c9.4
+  - o4
+  share: 0.04
+  level: intermediate
+  kind: technique
+  technology: null
+- key: complexity_and_change_management
+  name: Complexity and change management
+  description: Understanding and managing system complexity and controlling changes to running services.
+  evidence:
+  - c9.5
+  - c9.6
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: performance_monitoring_and_warning_signs
+  name: Performance monitoring and warning signs
+  description: Monitoring service performance in operation and recognising early warning signs of degradation.
+  evidence:
+  - c10.1
+  - c10.2
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: incident_and_crisis_management
+  name: Incident and crisis management
+  description: Handling operational incidents and escalating to crisis management when outages become
+    severe.
+  evidence:
+  - c10.3
+  - c10.4
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Course introduction with no teachable content of its own.

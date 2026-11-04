@@ -1,0 +1,147 @@
+format: extraction/1
+course: '66858'
+title: Software Engineering
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 25.1
+  usage:
+    prompt_tokens: 7427
+    completion_tokens: 5665
+    cache_read_tokens: 3708
+    thinking_tokens: 3081
+  created: '2026-11-04T18:14:42+00:00'
+topics:
+- key: software_process_models
+  name: Software process models
+  description: Introduction to software engineering as a discipline and the models that structure the
+    software development process.
+  evidence:
+  - c1
+  - c2
+  - o1
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: use_case_modeling
+  name: Use case modeling
+  description: Capturing functional requirements as UML use case diagrams and textual use case descriptions,
+    with an introduction to the UML notation.
+  evidence:
+  - c4
+  - c5
+  - o1
+  share: 0.09
+  level: introductory
+  kind: technique
+  technology: UML
+- key: analysis_and_domain_modeling
+  name: Analysis and domain modeling
+  description: Building the analysis model of a system and its domain model that represents the relevant
+    concepts of the application domain.
+  evidence:
+  - c3
+  - c7
+  - o1
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: null
+- key: class_diagrams
+  name: Class diagrams
+  description: Representing the static structure of a system with UML class diagrams, including classes,
+    attributes, operations and associations.
+  evidence:
+  - c4
+  - c6
+  - o1
+  share: 0.1
+  level: introductory
+  kind: technique
+  technology: UML
+- key: activity_diagrams
+  name: Activity diagrams
+  description: Modeling workflows and the behaviour of processes and use cases with UML activity diagrams.
+  evidence:
+  - c8
+  - o1
+  share: 0.07
+  level: introductory
+  kind: technique
+  technology: UML
+- key: interaction_diagrams
+  name: Interaction diagrams
+  description: Modeling how objects collaborate by exchanging messages through UML sequence and communication
+    diagrams.
+  evidence:
+  - c9
+  - o1
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: UML
+- key: oo_principles_and_grasp
+  name: Object-oriented principles and GRASP
+  description: Principles of object-oriented design and the GRASP guidelines for assigning responsibilities
+    to classes and objects in order to obtain high-quality designs.
+  evidence:
+  - c10
+  - c11
+  - o1
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: design_patterns
+  name: Design patterns
+  description: Common object-oriented design patterns and modern patterns and frameworks used to solve
+    recurring design problems.
+  evidence:
+  - c11.1
+  - c11.3
+  - o1
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: null
+- key: agile_development
+  name: Agile software development
+  description: Agile principles and iterative practices for developing software incrementally in close
+    collaboration with stakeholders.
+  evidence:
+  - c11.2
+  - o2
+  share: 0.07
+  level: introductory
+  kind: technique
+  technology: null
+- key: software_testing
+  name: Software testing levels
+  description: Unit, integration and acceptance testing as levels of verification that support the development
+    of reliable software.
+  evidence:
+  - c11.4
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: continuous_integration
+  name: Build automation and continuous integration
+  description: Automating software builds and integrating code continuously with build automation tools
+    and continuous integration practices.
+  evidence:
+  - c11.5
+  - c11.6
+  - o2
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

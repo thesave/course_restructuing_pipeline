@@ -1,0 +1,115 @@
+format: extraction/1
+course: '37085'
+title: Principles, Models and Applications for Distributed Systems M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 24.0
+  usage:
+    prompt_tokens: 7380
+    completion_tokens: 5322
+    cache_read_tokens: 3708
+    thinking_tokens: 2925
+  created: '2026-11-04T18:12:44+00:00'
+topics:
+- key: distributed_systems_architectures
+  name: Distributed systems architectures
+  description: Core definitions of distributed systems and the main architectural styles used to organise
+    their components.
+  evidence:
+  - c1.1
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: processes_virtualization_scalability
+  name: Processes, threads, virtualization and scalability
+  description: How processes and threads execute in distributed nodes, how virtualization abstracts resources,
+    and how systems are made to scale.
+  evidence:
+  - c1.2
+  share: 0.11
+  level: intermediate
+  kind: concept
+  technology: null
+- key: dns_and_http
+  name: DNS and HTTP protocols
+  description: Name resolution with the Domain Name System and request-response communication with the
+    Hypertext Transfer Protocol.
+  evidence:
+  - c1.3
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: sockets_apis_and_rpc
+  name: Sockets, APIs and remote procedure call
+  description: Inter-process communication through socket programming, application programming interfaces
+    and remote procedure call.
+  evidence:
+  - c1.4
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+- key: programming_fundamentals
+  name: Introductory programming with Python
+  description: Basic language constructs and programming practice in Python needed to implement the distributed
+    system examples and labs of the course.
+  evidence:
+  - c1.5
+  share: 0.09
+  level: introductory
+  kind: language
+  technology: Python
+- key: cloud_service_orchestration
+  name: Cloud computing and service orchestration
+  description: Cloud computing models and the orchestration of services and containers, illustrated with
+    OpenStack and Kubernetes.
+  evidence:
+  - c2.1
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: network_function_virtualization
+  name: Network Function Virtualization
+  description: Replacing dedicated network hardware with virtualized network functions deployed and managed
+    on standard infrastructure.
+  evidence:
+  - c2.2
+  share: 0.11
+  level: intermediate
+  kind: concept
+  technology: null
+- key: open_ran_architecture
+  name: Open RAN architecture
+  description: The open, disaggregated radio access network architecture defined by O-RAN and its interfaces
+    between radio and control components.
+  evidence:
+  - c2.2
+  share: 0.09
+  level: advanced
+  kind: concept
+  technology: null
+- key: software_defined_networking_netconf
+  name: Software-Defined Networking and NETCONF
+  description: Separation of the network control plane from forwarding in SDN, and configuration of network
+    devices through the NETCONF protocol.
+  evidence:
+  - c2.3
+  share: 0.15
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics:
+- id: c1.6
+  reason: Practical lab exercises applying the topics of Module 1; their hours are distributed across
+    the topics above rather than forming a topic of their own.
+- id: c2.4
+  reason: Practical lab exercises applying the topics of Module 2; their hours are distributed across
+    the topics above rather than forming a topic of their own.

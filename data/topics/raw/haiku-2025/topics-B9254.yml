@@ -1,0 +1,62 @@
+format: extraction/1
+course: B9254
+title: Basic IT Skills
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 15.6
+  usage:
+    prompt_tokens: 3360
+    completion_tokens: 3159
+    cache_read_tokens: 1854
+    thinking_tokens: 2533
+  created: '2026-11-04T18:33:41+00:00'
+topics:
+- key: office_productivity_suite
+  name: Office productivity suite
+  description: Creating, formatting and structuring text documents with styles, indexes and bibliographies,
+    building professional presentations, and organising data with formulas, functions and charts in spreadsheets.
+  evidence:
+  - c4.2
+  - c4.3
+  - o1
+  share: 0.5
+  level: introductory
+  kind: tool
+  technology: Microsoft Office
+- key: computer_fundamentals_and_security
+  name: Computer fundamentals and digital security
+  description: Basic concepts of hardware, software, networks, computer architecture and operating systems,
+    together with recognising common threats such as viruses, malware and phishing and protecting devices,
+    data and digital identity.
+  evidence:
+  - c4.1
+  - c4.5
+  share: 0.25
+  level: introductory
+  kind: concept
+  technology: null
+- key: online_collaboration_and_ai_tools
+  name: Online collaboration and AI tools
+  description: Professional email, cloud storage and teamwork platforms, plus the basics of artificial
+    intelligence tools and medical informatics software and their practical use in a professional context.
+  evidence:
+  - c4.4
+  - c4.6
+  - o2
+  share: 0.25
+  level: introductory
+  kind: tool
+  technology: null
+not_topics:
+- id: c1
+  reason: Organisational remark placing the course within the Integrated Course B9090 - Soft Skills.
+- id: c2
+  reason: Mapping to ESEVT Day One Competences; administrative information, not teaching content.
+- id: c3
+  reason: General course aim statement; the teachable content is covered by the specific items c4.1 to
+    c4.6.

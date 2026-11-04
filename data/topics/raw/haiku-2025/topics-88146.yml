@@ -1,0 +1,85 @@
+format: extraction/1
+course: '88146'
+title: Fundamentals of Computer Programming P2
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 7.7
+  usage:
+    prompt_tokens: 2778
+    completion_tokens: 1411
+    cache_read_tokens: 1854
+    thinking_tokens: 681
+  created: '2026-11-04T18:20:51+00:00'
+topics:
+- key: logic_design_principles
+  name: Logic design principles
+  description: 'Combinational and sequential digital logic: Boolean algebra, logic gates, and the design
+    of basic logic circuits that underlie computer hardware.'
+  evidence:
+  - c1
+  - o1
+  share: 0.2
+  level: introductory
+  kind: concept
+  technology: null
+- key: computer_system_organization
+  name: Computer system structure and organization
+  description: The main components of a computer system (processor, memory, input/output) and how they
+    are organized and interconnected by buses.
+  evidence:
+  - c2
+  - o1
+  share: 0.15
+  level: introductory
+  kind: concept
+  technology: null
+- key: memory_devices
+  name: Memory devices
+  description: Types of computer memory devices, their physical organization and characteristics, and
+    how they are addressed and used within the memory hierarchy.
+  evidence:
+  - c3
+  share: 0.15
+  level: introductory
+  kind: concept
+  technology: null
+- key: cpu_and_machine_language
+  name: CPU and machine language
+  description: The internal structure and operation of the Central Processing Unit (fetch-decode-execute
+    cycle, registers, datapath) and the machine language instructions it executes.
+  evidence:
+  - c4
+  - o1
+  - o2
+  share: 0.3
+  level: intermediate
+  kind: concept
+  technology: null
+- key: interrupts
+  name: Interrupts
+  description: How interrupts signal asynchronous events to the processor, including interrupt handling,
+    service routines and their interaction with program execution.
+  evidence:
+  - c5
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: hardware_software_interaction
+  name: Hardware/software interaction
+  description: Practical laboratory experiments that examine how software drives hardware, linking machine-level
+    behaviour to program execution.
+  evidence:
+  - c6
+  - o2
+  - o3
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

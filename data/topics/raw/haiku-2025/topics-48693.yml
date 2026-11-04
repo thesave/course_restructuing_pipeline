@@ -1,0 +1,104 @@
+format: extraction/1
+course: '48693'
+title: Computer Science for Cultural Heritage
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 10.2
+  usage:
+    prompt_tokens: 3066
+    completion_tokens: 2216
+    cache_read_tokens: 1854
+    thinking_tokens: 1309
+  created: '2026-11-04T18:13:43+00:00'
+topics:
+- key: communication_semiotics
+  name: Communication and semiotics of cultural heritage
+  description: Principles of communication and the semiotics of the sign, applied to strategies for communicating
+    cultural heritage to different audiences.
+  evidence:
+  - c1
+  - o1
+  share: 0.14
+  level: introductory
+  kind: concept
+  technology: null
+- key: digital_images
+  name: Digital images
+  description: Representation, acquisition and handling of digital images as a medium for documenting
+    and communicating cultural heritage objects.
+  evidence:
+  - c1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: photogrammetry
+  name: Photogrammetry
+  description: Principles of photogrammetry and its application to reconstructing three-dimensional cultural
+    heritage objects from photographs.
+  evidence:
+  - c1
+  - o2
+  share: 0.16
+  level: intermediate
+  kind: technique
+  technology: null
+- key: structured_light_scanning
+  name: Structured-light 3D scanning
+  description: Principles of structured-light 3D scanning and its use for capturing the geometry of cultural
+    heritage objects.
+  evidence:
+  - c1
+  - o2
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+- key: three_d_modeling
+  name: Three-dimensional modeling
+  description: Building digital 3D models from scanned or photogrammetric data, including their use for
+    virtual restoration of heritage objects.
+  evidence:
+  - c1
+  - o2
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: three_d_printing
+  name: Three-dimensional printing
+  description: Producing physical replicas of cultural heritage objects from 3D models through 3D printing.
+  evidence:
+  - c1
+  share: 0.08
+  level: introductory
+  kind: technique
+  technology: null
+- key: virtual_tours
+  name: Virtual tours
+  description: Designing and producing virtual tours that present cultural heritage sites and objects
+    to remote audiences.
+  evidence:
+  - c1
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: gis_web_applications
+  name: GIS and GIS-based web applications
+  description: Fundamentals of geographic information systems and their deployment in web applications
+    for spatial communication of heritage data.
+  evidence:
+  - c1
+  - o1
+  share: 0.15
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

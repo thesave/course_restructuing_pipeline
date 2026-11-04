@@ -1,0 +1,107 @@
+format: extraction/1
+course: '65094'
+title: ADVANCED PROGRAMMING
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 22.6
+  usage:
+    prompt_tokens: 7482
+    completion_tokens: 4878
+    cache_read_tokens: 3708
+    thinking_tokens: 2955
+  created: '2026-11-04T18:14:22+00:00'
+topics:
+- key: programming_fundamentals
+  name: Programming fundamentals
+  description: 'Core syntax and program structure in Python: variables, basic data types, operators, control
+    structures, and defining and calling functions.'
+  evidence:
+  - c1
+  - c2
+  - o1
+  share: 0.14
+  level: introductory
+  kind: language
+  technology: Python
+- key: data_containers_and_files
+  name: Data containers and file handling
+  description: Python's built-in collections (lists, tuples, dictionaries) and reading and writing data
+    files.
+  evidence:
+  - c2
+  share: 0.1
+  level: introductory
+  kind: language
+  technology: Python
+- key: array_computing
+  name: Array computing with NumPy
+  description: Creating and manipulating NumPy arrays and using vectorised operations to process large
+    numerical datasets efficiently.
+  evidence:
+  - c3
+  - c4
+  share: 0.13
+  level: intermediate
+  kind: tool
+  technology: NumPy
+- key: tabular_data_analysis
+  name: Tabular data analysis with Pandas
+  description: Loading, cleaning, selecting, grouping and summarising tabular datasets with Pandas data
+    frames.
+  evidence:
+  - c3
+  - c4
+  share: 0.11
+  level: intermediate
+  kind: tool
+  technology: Pandas
+- key: data_visualization
+  name: Data visualization with Matplotlib
+  description: Producing and customising plots and graphical representations of datasets and their properties
+    with Matplotlib.
+  evidence:
+  - c3
+  - c4
+  - c6
+  share: 0.09
+  level: introductory
+  kind: tool
+  technology: Matplotlib
+- key: statistical_analysis
+  name: Statistical analysis of datasets
+  description: Computing major statistical properties of physical datasets with SciPy and Scikit-Learn
+    and comparing the results with theoretical predictions.
+  evidence:
+  - c3
+  - c6
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: SciPy
+- key: numerical_pde_modeling
+  name: Numerical modeling of physical equations
+  description: Solving the d'Alembert wave, heat and transport equations with basic numerical modelling
+    methods implemented in Python.
+  evidence:
+  - c5
+  - c6
+  share: 0.25
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: shell_automation
+  name: Shell commands and workflow automation
+  description: Basic shell commands used to organise, run and automate series of scripts and scientific
+    workflows.
+  evidence:
+  - c7
+  share: 0.06
+  level: introductory
+  kind: tool
+  technology: Unix shell
+not_topics: []

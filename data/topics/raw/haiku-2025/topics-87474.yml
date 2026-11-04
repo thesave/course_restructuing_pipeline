@@ -1,0 +1,156 @@
+format: extraction/1
+course: '87474'
+title: Distributed Systems
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 26.3
+  usage:
+    prompt_tokens: 3474
+    completion_tokens: 6217
+    cache_read_tokens: 1854
+    thinking_tokens: 4759
+  created: '2026-11-04T18:20:43+00:00'
+topics:
+- key: distributed_systems_foundations
+  name: Distributed systems foundations
+  description: Definitions, goals, historical roots and the main kinds of distributed systems, including
+    how computation is distributed across space and time.
+  evidence:
+  - c2.1
+  - c2.4
+  - c2.5
+  - c2.6
+  - o1
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: dependability_and_cap
+  name: Dependability and the CAP theorem
+  description: Failure models and dependability properties of distributed systems, and the availability-consistency
+    trade-off expressed by the CAP theorem.
+  evidence:
+  - c2.3
+  - c1.1
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: replication_consistency
+  name: Replication and consistency
+  description: Replicating data and services across nodes and the consistency models that govern what
+    clients observe.
+  evidence:
+  - c2.2
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: consensus_and_ledgers
+  name: Consensus and distributed ledgers
+  description: The consensus problem among unreliable processes and distributed ledger technology with
+    blockchain as a middleware for trust among parties.
+  evidence:
+  - c1.2
+  - c1.3
+  share: 0.1
+  level: advanced
+  kind: concept
+  technology: null
+- key: logical_time
+  name: Logical time and logical clocks
+  description: Ordering events in distributed systems without a global clock, using logical clocks and
+    time-related computation models.
+  evidence:
+  - c2.9
+  - c1.5
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: distributed_system_modelling
+  name: Modelling distributed systems
+  description: Software and system architectures, process algebra for formal modelling, and the tools
+    and diagrams used to model distributed systems.
+  evidence:
+  - c2.7
+  - c2.8
+  - c3.2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: agents_and_coordination
+  name: Agents and coordination models
+  description: Agents for distributed systems and coordination models such as Linda tuple spaces, including
+    simple agents built in JADE.
+  evidence:
+  - c2.10
+  - c2.11
+  - c1.6
+  - c1.7
+  share: 0.13
+  level: intermediate
+  kind: concept
+  technology: null
+- key: code_mobility
+  name: Code mobility and computing with space
+  description: Moving code between nodes at run time and the spatial aspects of computation, such as location
+    and physical distribution.
+  evidence:
+  - c1.8
+  - c2.12
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: infrastructure_and_interaction_patterns
+  name: Infrastructure components and interaction patterns
+  description: Infrastructural components of distributed systems, interaction patterns between them, and
+    basic mechanisms such as naming and message exchange.
+  evidence:
+  - c3.1
+  - c3.3
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: socket_communication
+  name: Socket-based communication
+  description: Stream- and packet-based communication between processes using sockets, implemented in
+    Python.
+  evidence:
+  - c3.4
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: remote_invocation_and_serialization
+  name: Remote invocation, serialization and REST
+  description: Anatomy of remote procedure calls, data presentation with serialization and deserialization,
+    and the Representational State Transfer (REST) style for remote interaction.
+  evidence:
+  - c3.5
+  - c3.6
+  - c1.4
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: distributed_system_design_project
+  name: Guided design and implementation of a distributed system
+  description: Step-by-step design and implementation of a complete distributed system from scratch, applying
+    the methods and technologies of the course.
+  evidence:
+  - c3.7
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

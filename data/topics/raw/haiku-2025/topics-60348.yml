@@ -1,0 +1,135 @@
+format: extraction/1
+course: '60348'
+title: Informatics
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 27.6
+  usage:
+    prompt_tokens: 8254
+    completion_tokens: 6277
+    cache_read_tokens: 3708
+    thinking_tokens: 3821
+  created: '2026-11-04T18:14:23+00:00'
+topics:
+- key: computer_hardware_architecture
+  name: Computer hardware and architecture
+  description: Describes the main hardware components of a personal computer and of different computer
+    types, including the CPU, memories, input/output devices and performance measures.
+  evidence:
+  - c1
+  - c2
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: operating_systems_and_software
+  name: Operating systems and software
+  description: Covers the types of software, the role of the operating system and application programs
+    from the user's point of view, and the programming environments used to write programs.
+  evidence:
+  - c3
+  - c4
+  - c5
+  - c6
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: networks_internet_and_security
+  name: Networks, internet and data security
+  description: Introduces local and wide area networks, networking concepts, e-mail and web access, and
+    the basics of protecting data.
+  evidence:
+  - c7
+  - c8
+  - c9
+  - c10
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: algorithms_and_complexity
+  name: Algorithms and computational complexity
+  description: Explains how to define and design an algorithm to solve a problem, the notion of data types
+    at the algorithmic level, and the basic elements of computational complexity.
+  evidence:
+  - c11
+  - o1.2
+  - o1.3
+  share: 0.14
+  level: introductory
+  kind: technique
+  technology: null
+- key: data_types
+  name: Data types in R
+  description: Presents the data types available in R (such as vectors, matrices, lists and data frames)
+    and how they are created and manipulated.
+  evidence:
+  - c12
+  - o1.4
+  share: 0.12
+  level: introductory
+  kind: language
+  technology: R
+- key: structured_programming
+  name: Structured programming
+  description: 'Introduces the principles of structured programming: sequence, iteration and choice constructs,
+    and the decomposition of programs into procedures and functions.'
+  evidence:
+  - c13
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: structured_programming_constructs
+  name: Structured programming constructs in R
+  description: Applies sequence, iteration, choice, functions and procedures using the constructs of the
+    R language, practised in laboratory sessions.
+  evidence:
+  - c14
+  - c18
+  - o1.4
+  share: 0.14
+  level: intermediate
+  kind: language
+  technology: R
+- key: random_number_generation
+  name: Random value generation
+  description: Covers how to generate and use random values in R for simple statistical computations and
+    simulations.
+  evidence:
+  - c15
+  - o1.3
+  share: 0.06
+  level: introductory
+  kind: tool
+  technology: R
+- key: program_design
+  name: Program design
+  description: Covers the design of programs from a problem statement, translating an algorithm into a
+    structured program plan.
+  evidence:
+  - c16
+  - o1.5
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: program_implementation_and_testing
+  name: Program implementation and testing
+  description: Covers writing R programs that implement a designed algorithm and checking them through
+    testing, in laboratory activity.
+  evidence:
+  - c17
+  - c18
+  - o1.5
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: R
+not_topics: []

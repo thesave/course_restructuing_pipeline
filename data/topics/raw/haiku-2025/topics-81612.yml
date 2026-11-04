@@ -1,0 +1,125 @@
+format: extraction/1
+course: '81612'
+title: Programming and Development paradigms
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 18.0
+  usage:
+    prompt_tokens: 3666
+    completion_tokens: 3857
+    cache_read_tokens: 1854
+    thinking_tokens: 2758
+  created: '2026-11-04T18:18:20+00:00'
+topics:
+- key: code_quality_refactoring
+  name: Code quality and refactoring
+  description: Rules for clean, readable and effective code, and systematic restructuring of existing
+    code without changing its behaviour.
+  evidence:
+  - c1.1
+  - c1.3
+  - o1
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: design_patterns
+  name: Advanced design and architectural patterns
+  description: The role of design patterns across programming paradigms, plus advanced design and architectural
+    patterns applied to complex systems.
+  evidence:
+  - c1.2
+  - c4.6
+  - o4
+  - o5
+  share: 0.14
+  level: advanced
+  kind: technique
+  technology: null
+- key: testing_and_tdd
+  name: Agile testing, unit testing and test-driven development
+  description: Agile testing approaches, unit testing, and the test-driven development cycle of writing
+    tests before code.
+  evidence:
+  - c1.4
+  - c4.4
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: continuous_integration_delivery
+  name: Continuous integration and delivery
+  description: Automating the build, test and release pipeline so that software changes are integrated
+    and delivered continuously.
+  evidence:
+  - c4.5
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: software_methodologies
+  name: Software development methodologies and documentation
+  description: Software process models from waterfall to agile, the SCRUM framework, and documenting a
+    software project.
+  evidence:
+  - c4.1
+  - c4.2
+  - c4.3
+  - o2
+  share: 0.11
+  level: introductory
+  kind: concept
+  technology: null
+- key: functional_programming_foundations
+  name: Functional programming and lambda calculus
+  description: Functions as first-class values, the principles of functional programming, and the lambda
+    calculus as its theoretical basis.
+  evidence:
+  - c2.1
+  - c2.2
+  - o3
+  share: 0.11
+  level: intermediate
+  kind: concept
+  technology: null
+- key: object_functional_integration
+  name: Object-oriented and functional integration in Scala
+  description: Combining the object-oriented and functional layers of Scala to write programs that mix
+    both paradigms.
+  evidence:
+  - c2.3
+  - o4
+  share: 0.14
+  level: intermediate
+  kind: language
+  technology: Scala
+- key: advanced_type_system
+  name: Advanced typing in Scala
+  description: Advanced type constructs of Scala, such as parametric and abstract types, used to make
+    programs safer and more expressive.
+  evidence:
+  - c2.3
+  - o4
+  share: 0.08
+  level: advanced
+  kind: language
+  technology: Scala
+- key: logic_programming
+  name: Logic programming with Prolog and Java integration
+  description: Declarative logic programming in Prolog, including unification, backtracking and calling
+    Prolog from Java.
+  evidence:
+  - c3.1
+  - c3.2
+  - o3
+  share: 0.15
+  level: introductory
+  kind: language
+  technology: Prolog
+not_topics: []

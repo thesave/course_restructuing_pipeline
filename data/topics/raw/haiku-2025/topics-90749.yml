@@ -1,0 +1,164 @@
+format: extraction/1
+course: '90749'
+title: Computing Education
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 18.3
+  usage:
+    prompt_tokens: 4297
+    completion_tokens: 4070
+    cache_read_tokens: 1854
+    thinking_tokens: 2460
+  created: '2026-11-04T18:22:10+00:00'
+topics:
+- key: cs_discipline_history_ethics
+  name: Computer science as a scientific discipline
+  description: The historical, epistemological and ethical foundations of computer science as a scientific
+    field, and the reasons why it should be taught.
+  evidence:
+  - c1.1
+  - c2.1
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: technological_aspects_teaching
+  name: Teaching computer architecture, operating systems and networks
+  description: How to introduce the technological foundations of computing (computer architecture, operating
+    systems and networks) to school students.
+  evidence:
+  - c2.2
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: learning_theories_constructivism
+  name: 'Learning theories: constructivism and constructionism'
+  description: Pedagogical learning paradigms and theories, with focus on constructivism and constructionism
+    as applied to teaching computer science.
+  evidence:
+  - c1.2
+  - c3.2
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: big_ideas_computational_thinking
+  name: Big ideas and computational thinking
+  description: The big ideas of CS education and the notions of coding and computational thinking, and
+    how they relate to computer science as a discipline.
+  evidence:
+  - c3.1
+  - c3.4
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: teaching_programming_algorithms
+  name: Teaching programming, algorithms and data structures
+  description: Approaches to teaching programming, algorithms and data structures, including top-down
+    and bottom-up strategies and the educational impact of choosing a programming language.
+  evidence:
+  - c3.3
+  - c3.5
+  - c3.5.1
+  - c1.3
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: programming_difficulties_misconceptions
+  name: Cognitive difficulties and misconceptions in programming
+  description: The main cognitive difficulties and misconceptions students face when learning programming,
+    and strategies to overcome them.
+  evidence:
+  - c1.4
+  - c3.5.2
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: unplugged_dramatization_activities
+  name: Unplugged and dramatization activities
+  description: Teaching computer science without computers through unplugged activities and dramatization
+    (role-play) of algorithms and processes.
+  evidence:
+  - c2.3
+  - c2.3.1
+  - c3.6
+  - c3.6.1
+  share: 0.08
+  level: introductory
+  kind: technique
+  technology: null
+- key: physical_computing_tinkering
+  name: Physical computing and tinkering
+  description: Using making and tinkering with physical computing devices and related software tools to
+    teach computer science concepts.
+  evidence:
+  - c1.5
+  - c2.3
+  - c2.3.2
+  share: 0.08
+  level: introductory
+  kind: technique
+  technology: null
+- key: program_comprehension_debugging
+  name: Program comprehension, debugging others' code and machine state display
+  description: Exercises that develop program comprehension and debugging skills on others' code, including
+    displaying the machine status while a program runs.
+  evidence:
+  - c3.6
+  - c3.6.2
+  - c3.6.3
+  - c3.6.4
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: programming_assessment
+  name: Assessment methodologies for programming
+  description: Methods for evaluating student learning and assessing programming competences in computer
+    science courses.
+  evidence:
+  - c3.7
+  - o3
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: curricula_textbooks_design
+  name: School curricula and study path design
+  description: National and international computer science curricula and textbooks, and how to build study
+    paths consistent with them for different school levels.
+  evidence:
+  - c1.6
+  - c3.8
+  - o2
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: software_licenses_education
+  name: Software licenses in education
+  description: Free software versus proprietary software licences and their implications for teaching
+    computer science.
+  evidence:
+  - c2.4
+  share: 0.04
+  level: introductory
+  kind: concept
+  technology: null
+not_topics:
+- id: c1
+  reason: Section heading listing the course objectives; each sub-item is covered by the topics above.
+- id: c2
+  reason: Module heading; its sub-items are covered by the topics above.
+- id: c3
+  reason: Module heading; its sub-items are covered by the topics above.

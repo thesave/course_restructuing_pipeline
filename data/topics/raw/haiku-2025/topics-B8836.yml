@@ -1,0 +1,115 @@
+format: extraction/1
+course: B8836
+title: Universal Semantics
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 12.6
+  usage:
+    prompt_tokens: 3275
+    completion_tokens: 2653
+    cache_read_tokens: 1854
+    thinking_tokens: 1542
+  created: '2026-11-04T18:33:27+00:00'
+topics:
+- key: semantic_universals
+  name: Semantic universals
+  description: The cross-linguistic, cross-modal and cross-cultural invariants of meaning that the course
+    uses as its object of investigation.
+  evidence:
+  - c1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: pattern_abstraction_methods
+  name: Abstraction methods for pattern discovery
+  description: Inductive pattern discovery and deductive pattern finding as methods for abstracting and
+    interpreting signals from physical, social or cognitive environments, drawing on philosophy, cognitive
+    science, semiotics and computer science.
+  evidence:
+  - c1
+  - o1
+  - o2
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: multimodal_meaning_data_analysis
+  name: Data-driven analysis of multimodal meaning
+  description: Data-driven methods for analysing meaning-making processes that combine several modalities
+    such as language, image, gesture and sound.
+  evidence:
+  - c2
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: perspectivization
+  name: Perspectivization
+  description: The theory of how meaning is framed from a perspective, with its formal representation
+    and the extraction of perspectives from data.
+  evidence:
+  - c3
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: theory_of_mind
+  name: Theory of mind
+  description: The cognitive capacity to attribute mental states to others, studied both theoretically
+    and through computational and empirical analysis.
+  evidence:
+  - c3
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: conceptual_blending
+  name: Conceptual blending
+  description: Conceptual blending as a cognitive mechanism for combining mental spaces to produce new
+    meaning, examined with theoretical frameworks and analytical methods.
+  evidence:
+  - c3
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: neurocognitive_semantics
+  name: Neurocognitive grounding of meaning
+  description: How meaning is grounded in neurocognitive systems and in grounded world models, including
+    empirical findings from cognitive science.
+  evidence:
+  - c1
+  - o2
+  share: 0.08
+  level: advanced
+  kind: concept
+  technology: null
+- key: computational_analysis_practice
+  name: Hands-on computational semantic analysis
+  description: Practical computational analysis of semantic phenomena that combines theoretical frameworks
+    with hands-on data processing and modelling.
+  evidence:
+  - c1
+  - c3
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: semantic_investigation_project
+  name: Integrated semantic investigation project
+  description: A dedicated project in which students design a theoretically grounded investigation and
+    carry it out with appropriate analysis techniques.
+  evidence:
+  - c4
+  - o1
+  share: 0.12
+  level: advanced
+  kind: technique
+  technology: null
+not_topics: []

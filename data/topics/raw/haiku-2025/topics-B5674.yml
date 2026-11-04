@@ -1,0 +1,85 @@
+format: extraction/1
+course: B5674
+title: Management of Digital Media
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 11.5
+  usage:
+    prompt_tokens: 2988
+    completion_tokens: 2226
+    cache_read_tokens: 1854
+    thinking_tokens: 1505
+  created: '2026-11-04T18:31:17+00:00'
+topics:
+- key: digital_media_transformation
+  name: Digital transformation of media industries
+  description: How the digital revolution has reshaped the creation, distribution and consumption of media
+    content and what this means for creative industries.
+  evidence:
+  - c1
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: digital_media_economics
+  name: Economics of digital media
+  description: The economic principles and business models that govern digital media markets, including
+    how new digital landscapes change competition and revenue logic.
+  evidence:
+  - c2
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: value_chain_analysis
+  name: Media value chain analysis
+  description: Method for decomposing a media industry into its successive value-creating stages and analysing
+    how value is captured at each stage.
+  evidence:
+  - c4
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: music_industry_structure
+  name: Music industry value chain and players
+  description: The value chain of the music industry, the typologies of players operating along it and
+    how they are structured and changing in the digital era.
+  evidence:
+  - c3
+  - c4
+  - o1
+  share: 0.25
+  level: intermediate
+  kind: concept
+  technology: null
+- key: video_industry_structure
+  name: Video industry value chain and players
+  description: The value chain of the video industry, the typologies of players operating along it and
+    how they are structured and changing in the digital era.
+  evidence:
+  - c3
+  - c4
+  - o1
+  share: 0.25
+  level: intermediate
+  kind: concept
+  technology: null
+- key: technology_and_consumer_market_dynamics
+  name: Technological change and consumer habits in media markets
+  description: How technological evolution and shifts in consumer habits drive the dynamics and structure
+    of music and video markets.
+  evidence:
+  - c4
+  - o1
+  share: 0.2
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

@@ -1,0 +1,211 @@
+format: extraction/1
+course: '81917'
+title: Interaction Multimedia Services
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 54.8
+  usage:
+    prompt_tokens: 12863
+    completion_tokens: 13519
+    cache_read_tokens: 3708
+    thinking_tokens: 9485
+  created: '2026-11-04T18:19:19+00:00'
+topics:
+- key: computer_science_and_web_foundations
+  name: Computer science and web foundations
+  description: Introduction to computer science, cloud and virtualization, algorithms and programming
+    languages, web basics, HTML, and an overview of artificial intelligence and machine learning.
+  evidence:
+  - c1.1.1
+  - c1.1.2
+  - c1.1.3
+  - c1.2.1
+  - c1.2.2
+  - c1.2.3
+  - o1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: scripting_basics_and_events
+  name: Scripting basics and event-driven programming
+  description: Variables, instructions, functions and event-driven programming in JavaScript, practised
+    through lab exercises that design simple algorithms, web sites and mobile apps.
+  evidence:
+  - c1.3.1
+  - c1.3.2
+  - c1.3.3
+  - c1.3.4
+  - c1.5
+  - o1
+  share: 0.09
+  level: introductory
+  kind: language
+  technology: JavaScript
+- key: cybersecurity_fundamentals
+  name: Cybersecurity fundamentals
+  description: Threat actors, social engineering, password management, data backup and application security
+    for web and mobile systems.
+  evidence:
+  - c1.4.1
+  - c1.4.2
+  - c1.4.3
+  - c1.4.4
+  - c1.4.5
+  - c1.4.6
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: ip_and_privacy_law
+  name: Intellectual property and privacy law
+  description: Principles of intellectual property and privacy law, including online privacy and digital
+    rights.
+  evidence:
+  - c1.1.4
+  - c1.1.5
+  - c1.4.7
+  share: 0.03
+  level: introductory
+  kind: concept
+  technology: null
+- key: user_centered_design_and_design_thinking
+  name: User-centered design and design thinking
+  description: Introduction to HCI and UX, user-centered design, design frameworks such as the Double
+    Diamond, and the full Design Thinking process (empathize, define, ideate, prototype, test) applied
+    in a workshop.
+  evidence:
+  - c2.3
+  - c2.4
+  - c2.5.1
+  - c2.5.2
+  - c3.1
+  - c3.2
+  - c3.3
+  - c4.1
+  - c4.3
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: user_research_methods
+  name: Qualitative user research methods
+  description: Qualitative research techniques for problem exploration, including semi-structured interviews,
+    contextual inquiry, user observation and the creation of a user research plan within the first diamond
+    of the Double Diamond.
+  evidence:
+  - c3.4
+  - c4.4
+  - c4.5.1
+  - c4.5.2
+  - c5.1
+  - c5.2
+  - c5.3
+  - c5.4
+  - c5.5
+  - c5.6
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: personas_and_problem_synthesis
+  name: Persona, experience map and problem synthesis
+  description: Synthesizing research findings into proto personas, personas, experience maps and empathy
+    maps, and defining problems through empathy mapping, point-of-view statements, how-might-we questions
+    and why-how laddering.
+  evidence:
+  - c6.1
+  - c6.2
+  - c6.3
+  - c6.4.1
+  - c6.4.2
+  - c6.5.1
+  - c6.5.2
+  - c6.6
+  - c6.7.1
+  - c6.7.2
+  - c7.1
+  - c7.2
+  - c7.3
+  - c12.5.2
+  - c12.5.3
+  - c12.5.4
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ideation_and_concept_design
+  name: Creative ideation and concept design
+  description: Creative ideation methods such as guided brainstorming and SCAMPER, linking insights to
+    a defined design challenge and a preliminary service concept idea.
+  evidence:
+  - c8.1
+  - c8.2
+  - c8.3
+  - c8.4
+  - c8.5.1
+  - c8.5.2
+  - c8.6.1
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: null
+- key: service_visualization_and_blueprint
+  name: Service visualization and blueprinting
+  description: Visual service modelling with user journey maps contextualized by personas, ecosystem maps
+    and service blueprints, used to prepare prototype specifications in the second diamond of the Double
+    Diamond.
+  evidence:
+  - c8.7
+  - c8.8.1
+  - c8.8.2
+  - c9.1
+  - c9.2
+  - c9.3
+  - c9.4
+  - c10.1
+  - c10.2.1
+  - c10.2.2
+  - c10.2.3
+  - c10.3.1
+  - c12.5.5
+  - c12.5.6
+  - c12.5.7
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: usability_testing_and_quantitative_research
+  name: Usability testing and quantitative research
+  description: Quantitative research methodologies, survey design, statistical data analysis and usability
+    testing principles, applied to test the service concept and iterate it based on the results.
+  evidence:
+  - c10.4
+  - c10.5.1
+  - c10.5.2
+  - c11.1
+  - c11.2
+  - c11.3
+  - c11.4
+  - c12.1
+  - c12.2
+  - c12.3
+  - c12.4
+  - c12.5.1
+  - c12.5.8
+  share: 0.19
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c2.1
+  reason: Module title label only, no teachable content.
+- id: c2.2
+  reason: Organisational information on lesson duration and session format.
+- id: c4.2
+  reason: States that the workshop has no deliverable; organisational remark.

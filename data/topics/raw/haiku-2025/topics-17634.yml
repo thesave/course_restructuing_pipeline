@@ -1,0 +1,89 @@
+format: extraction/1
+course: '17634'
+title: Computer Vision
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 9.5
+  usage:
+    prompt_tokens: 2770
+    completion_tokens: 1904
+    cache_read_tokens: 1854
+    thinking_tokens: 1138
+  created: '2026-11-04T18:10:10+00:00'
+topics:
+- key: color_models
+  name: Color models
+  description: Representations of color in images (such as RGB, HSV and related models) and how they are
+    converted and used in image processing.
+  evidence:
+  - c1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: image_convolution
+  name: Image convolution and filtering
+  description: Convolution of images with kernels for smoothing, sharpening and edge-related filtering.
+  evidence:
+  - c1
+  share: 0.13
+  level: introductory
+  kind: technique
+  technology: null
+- key: mathematical_morphology
+  name: Mathematical morphology and digital topology
+  description: Binary and grayscale morphological operations (erosion, dilation, opening, closing) and
+    the digital topology concepts needed to analyse image regions and connectivity.
+  evidence:
+  - c1
+  share: 0.13
+  level: introductory
+  kind: technique
+  technology: null
+- key: image_segmentation
+  name: Image segmentation
+  description: Techniques for partitioning an image into meaningful regions or objects, separating foreground
+    from background.
+  evidence:
+  - c2
+  share: 0.16
+  level: intermediate
+  kind: technique
+  technology: null
+- key: object_detection
+  name: Object detection
+  description: Methods for locating and classifying objects in still images by producing bounding boxes
+    or equivalent detections.
+  evidence:
+  - c2
+  share: 0.16
+  level: intermediate
+  kind: technique
+  technology: null
+- key: video_object_tracking
+  name: Video object detection and tracking
+  description: Detecting objects across video frames and following their positions over time with tracking
+    algorithms.
+  evidence:
+  - c3
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: object_recognition
+  name: Object recognition in images and videos
+  description: Recognising and identifying object categories or instances from image and video data, including
+    the main algorithmic approaches to recognition.
+  evidence:
+  - c4
+  - o1
+  share: 0.2
+  level: advanced
+  kind: technique
+  technology: null
+not_topics: []

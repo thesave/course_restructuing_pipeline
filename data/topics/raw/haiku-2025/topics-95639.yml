@@ -1,0 +1,171 @@
+format: extraction/1
+course: '95639'
+title: Industry 4.0
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 23.6
+  usage:
+    prompt_tokens: 3832
+    completion_tokens: 5470
+    cache_read_tokens: 1854
+    thinking_tokens: 3887
+  created: '2026-11-04T18:26:33+00:00'
+topics:
+- key: industry_4_0_foundations
+  name: Industry 4.0 foundations and drivers
+  description: History, cross-disciplinary drivers, trends and the transition towards Industry 5.0 and
+    human-centred paradigms.
+  evidence:
+  - c1
+  - c2
+  - c4
+  - c4.1
+  - c6.3
+  - o2.1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: digital_transformation_business_impact
+  name: Business and societal impact of digital transformation
+  description: Business models, organisational and societal implications of technology-driven transformation,
+    and relating technology choices to business needs and constraints.
+  evidence:
+  - c3
+  - c4.1
+  - c7.3
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: constrained_sensing_devices
+  name: Sensing and identification in constrained environments
+  description: Resource-constrained sensing, identification and processing methods and embedded devices
+    used in Industry 4.0 systems.
+  evidence:
+  - c2
+  - c6
+  - c6.1
+  - o2.2
+  share: 0.09
+  level: introductory
+  kind: technique
+  technology: null
+- key: iot_communication_protocols
+  name: IoT connectivity and communication protocols
+  description: Communication technologies and connectivity protocols used in Industrial IoT, and their
+    selection for constrained industrial scenarios.
+  evidence:
+  - c2
+  - c6.2
+  - o2.2
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: industrial_iot_architectures_standards
+  name: Industrial IoT reference architectures and standards
+  description: Scalable reference architectures, interoperability standards, and their integration with
+    service-oriented architectures, APIs, web and cloud.
+  evidence:
+  - c2
+  - c6
+  - c6.2
+  - c6.3
+  - o2.2
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: edge_cloud_iot_processing
+  name: Edge versus cloud data processing for IoT
+  description: Trade-offs between edge and cloud processing and data management for industrial IoT, and
+    building end-to-end cloud/edge components.
+  evidence:
+  - c2
+  - c6.2
+  - c7.1
+  - c7.2
+  - o2.2
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: industrial_ai_data_analytics
+  name: AI and data-driven approaches in industry
+  description: AI techniques and data-driven methods applied to industrial IoT data in Industry 4.0 settings.
+  evidence:
+  - c2
+  - c6.2
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: digital_twins_web_of_things
+  name: Digital Twins and Web of Things
+  description: 'State-of-the-art directions: Digital Twin concepts and the Web of Things principles for
+    making physical assets accessible on the web.'
+  evidence:
+  - c2
+  - c6.3
+  - o2.3
+  share: 0.12
+  level: advanced
+  kind: concept
+  technology: null
+- key: classic_image_representation
+  name: Classic image representation for computer vision
+  description: Classical techniques for image representation and feature extraction underpinning computer
+    vision tasks.
+  evidence:
+  - o1
+  - o2.5
+  - o2.6
+  share: 0.07
+  level: introductory
+  kind: technique
+  technology: null
+- key: deep_learning_computer_vision
+  name: Deep learning for object detection and classification
+  description: Deep learning based solutions for object detection and image classification and their industrial
+    applications.
+  evidence:
+  - o2.5
+  - o2.6
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: industrial_iot_case_studies
+  name: Industrial IoT application domains and case studies
+  description: Main application domains of IoT and Industrial IoT, illustrated with a real-world industrial
+    case study.
+  evidence:
+  - c3
+  - o2.4
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: iot_prototyping_design
+  name: Designing and prototyping IoT solutions
+  description: Ideating, designing, implementing and presenting end-to-end IoT prototypes integrating
+    sensing, communication, data processing and cloud/edge components, with evaluation of the models and
+    technologies.
+  evidence:
+  - c5
+  - c5.1
+  - c7
+  - c7.1
+  - c7.2
+  - o2.7
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

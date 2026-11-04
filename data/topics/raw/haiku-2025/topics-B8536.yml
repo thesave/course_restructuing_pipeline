@@ -1,0 +1,133 @@
+format: extraction/1
+course: B8536
+title: 'Computer-Aided Human Translation: CAT, MT and AI'
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 13.1
+  usage:
+    prompt_tokens: 4644
+    completion_tokens: 2777
+    cache_read_tokens: 1854
+    thinking_tokens: 1531
+  created: '2026-11-04T18:32:53+00:00'
+topics:
+- key: cat_concepts
+  name: Computer-assisted translation concepts
+  description: Theoretical introduction to what computer-assisted translation is, how CAT differs from
+    human translation alone, and the workflow it supports.
+  evidence:
+  - c2
+  - o1
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: cat_tools_overview
+  name: Common CAT tools
+  description: Hands-on presentation and use of the main proprietary and free CAT environments (Trados
+    Studio, MemoQ, MateCat) and their basic working interface.
+  evidence:
+  - c3
+  - o1
+  share: 0.1
+  level: introductory
+  kind: tool
+  technology: null
+- key: translation_memory_management
+  name: Translation memory creation and management
+  description: Creating, populating, maintaining and reusing translation memories, including segment matching
+    and leveraging previous translations.
+  evidence:
+  - c4
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: translation_file_formats
+  name: Translating common file formats
+  description: Handling the main document and file formats in CAT workflows, including extracting, translating
+    and returning translatable content without corrupting the file.
+  evidence:
+  - c4
+  share: 0.07
+  level: introductory
+  kind: technique
+  technology: null
+- key: translation_quality_assurance
+  name: Quality assurance of target texts
+  description: Running QA checks on translated output (terminology, consistency, tags, numbers, omissions)
+    and correcting the errors they flag to vouch for quality.
+  evidence:
+  - c4
+  - o1
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: cat_project_management
+  name: Translation project management with CAT
+  description: Planning and managing complex translation projects involving several professionals, with
+    CAT tools, workflows and task allocation.
+  evidence:
+  - c5
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: mt_cat_integration
+  name: Integrating machine translation into CAT
+  description: Connecting machine translation engines with CAT environments so that MT suggestions and
+    outputs enter the translation workflow.
+  evidence:
+  - c8
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: post_editing
+  name: Machine translation post-editing
+  description: Light and full post-editing of raw MT and generative AI output, choosing the intervention
+    level according to task, post-editor profile, text type and audience, and applying strategies to reach
+    the required target quality.
+  evidence:
+  - c7
+  - c9
+  - c10
+  - o1
+  share: 0.18
+  level: intermediate
+  kind: technique
+  technology: null
+- key: generative_ai_in_cat
+  name: Generative AI functions in CAT tools
+  description: Generative AI features built into CAT software to speed up drafting, revision and workflow
+    steps, and their advantages for translation and revision.
+  evidence:
+  - c6
+  - c7
+  - c8
+  - o1
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: prompting_for_translation
+  name: Basic prompting for translation
+  description: Basic prompting techniques for AI-based translation tools to improve raw MT output and
+    to support post-editing.
+  evidence:
+  - c11
+  - o1
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Organisational description of the module and its place in the course; no teachable content.

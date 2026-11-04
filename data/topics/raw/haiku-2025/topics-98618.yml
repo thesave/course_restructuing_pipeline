@@ -1,0 +1,131 @@
+format: extraction/1
+course: '98618'
+title: '"Document Digitization Techniques "'
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 16.3
+  usage:
+    prompt_tokens: 4028
+    completion_tokens: 3475
+    cache_read_tokens: 1854
+    thinking_tokens: 2200
+  created: '2026-11-04T18:28:15+00:00'
+topics:
+- key: digital_heritage_context
+  name: Digital heritage context
+  description: The issues and problems of digital scenarios for cultural heritage, including the relation
+    between digital image production and traditional iconography and the long-term conservation of large
+    iconographic collections.
+  evidence:
+  - c1.1
+  - c2.1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: digital_image_representation
+  name: Digital image representation and resolution
+  description: How analogue scenes and images are converted into digital images, and how optical and interpolated
+    resolution determine image detail.
+  evidence:
+  - c1.2
+  - c1.4
+  - o2
+  share: 0.14
+  level: introductory
+  kind: concept
+  technology: null
+- key: scanning_devices_and_calibration
+  name: Scanning devices and scanner calibration
+  description: The acquisition devices for documents (flatbed and planetary scanners, digital cameras,
+    digital backs) and the procedure for calibrating a scanner.
+  evidence:
+  - c1.3
+  - c1.5
+  - o2
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: digitising_printed_and_handwritten_text
+  name: Digitising printed and handwritten text
+  description: Practical methods for digitising printed and handwritten textual documents, applying the
+    acquisition and processing technologies to textual sources.
+  evidence:
+  - c1.6
+  - c2.2
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: image_quality_verification
+  name: Digital image quality verification
+  description: Methodologies for checking the quality of digital images using histograms, value distributions
+    and information content, following the PND guidelines.
+  evidence:
+  - c1.7
+  - c2.3
+  - o1
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: image_formats_storage_visualisation
+  name: Image formats, storage and visualisation
+  description: Digital image file formats, the storage of digital image files, and how images are visualised
+    on different media.
+  evidence:
+  - c1.8
+  - c1.9
+  - c1.10
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: technical_metadata_and_nomenclature
+  name: Technical metadata and nomenclature
+  description: The function of technical metadata and the use of naming conventions to structure the logical
+    organisation of digital files and collections.
+  evidence:
+  - c1.11
+  - c1.12
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: digital_collection_sizing
+  name: Digital collection storage dimensioning
+  description: Estimating the storage space required by a digital collection and the uncertainty involved
+    in that estimate.
+  evidence:
+  - c1.13
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: digitisation_guidelines_and_tenders
+  name: Digitisation guidelines and tender specifications
+  description: Critical analysis of the PND digitisation guidelines and of technical specifications for
+    digitisation tenders, including drafting specifications for a digitisation project.
+  evidence:
+  - c1.14
+  - c1.15
+  - c2.2
+  - c2.3
+  share: 0.14
+  level: advanced
+  kind: concept
+  technology: null
+not_topics:
+- id: c2.4
+  reason: Generic communication skill objective (illustrating technical issues with rigour), not a teachable
+    content item; it is practised through the other topics.
+- id: c2.5
+  reason: Generic learning skill objective (independent in-depth exploration), not a teachable content
+    item.

@@ -1,0 +1,135 @@
+format: extraction/1
+course: '73435'
+title: Project Management
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 14.1
+  usage:
+    prompt_tokens: 3265
+    completion_tokens: 3223
+    cache_read_tokens: 1854
+    thinking_tokens: 2023
+  created: '2026-11-04T18:16:50+00:00'
+topics:
+- key: project_fundamentals
+  name: Project, program and portfolio fundamentals
+  description: Introduces project management and defines projects, programs and portfolios and how they
+    differ.
+  evidence:
+  - c1
+  - c2
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: scope_quality_resources
+  name: Scope, quality and resources
+  description: Defines project scope, quality and resources and the interdependence between these three
+    constraints.
+  evidence:
+  - c3
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: pmbok_framework
+  name: PMBOK framework and project management processes
+  description: Defines project management and the process and knowledge-area structure of the PMBOK Guide.
+  evidence:
+  - c4
+  - c5
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: project_knowledge_areas
+  name: Project management knowledge areas
+  description: Covers the management of integration, scope, time, cost, quality, human resources, communications,
+    risk, procurement and stakeholders.
+  evidence:
+  - c6
+  share: 0.15
+  level: intermediate
+  kind: technique
+  technology: null
+- key: project_life_cycles
+  name: Project life cycles and agile approaches
+  description: Compares traditional, incremental, iterative and adaptive (agile) project life cycles and
+    how each is managed.
+  evidence:
+  - c7
+  - o1.1
+  share: 0.14
+  level: intermediate
+  kind: concept
+  technology: null
+- key: scoping_process_group
+  name: Scoping process group
+  description: Covers the activities of the scoping process group that define and establish what the project
+    will deliver.
+  evidence:
+  - c8
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: planning_process_group
+  name: Planning process group
+  description: Covers the planning process group, in which the project plan, schedule, budget and other
+    management plans are developed.
+  evidence:
+  - c9
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: executing_process_group
+  name: Launching and executing process group
+  description: Covers the launching and executing process group, in which planned work is carried out
+    and the team is managed.
+  evidence:
+  - c10
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: monitoring_controlling_process_group
+  name: Monitoring and controlling process group
+  description: Covers the monitoring and controlling process group, which tracks performance and manages
+    changes against the plan.
+  evidence:
+  - c11
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: closing_process_group
+  name: Closing process group
+  description: Covers the closing process group, in which a project or phase is formally completed and
+    handed over.
+  evidence:
+  - c12
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: project_management_tools_practice
+  name: Project management tools and practical exercises
+  description: Introduces software tools used in project management and applies the methods through practical
+    exercises.
+  evidence:
+  - o1.2
+  - c13
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c14
+  reason: Seminars are organisational teaching formats; their content is not specified and is not a separate
+    topic.

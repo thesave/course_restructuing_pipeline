@@ -1,0 +1,145 @@
+format: extraction/1
+course: 28011-A
+title: Logic Design T
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 22.0
+  usage:
+    prompt_tokens: 3777
+    completion_tokens: 4904
+    cache_read_tokens: 1854
+    thinking_tokens: 3354
+  created: '2026-11-04T18:10:50+00:00'
+topics:
+- key: digital_systems_and_codes
+  name: Digital systems and binary codes
+  description: Design layers and block description of a digital machine, signal classification, logic
+    circuits as switch networks and logic gates, binary representation of text and numbers, and the classification
+    of digital circuits.
+  evidence:
+  - c2
+  - c3
+  - o2
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: boolean_algebra
+  name: Boolean algebra
+  description: Switching (Boolean) algebra operations, expressions, and equivalence theorems used to manipulate
+    logic functions, together with their truth-table and logic-diagram representations.
+  evidence:
+  - c4
+  - o2
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: combinational_design_forms
+  name: Canonical forms and combinational analysis
+  description: Design and analysis of combinational circuits through canonical and standard forms (sum
+    of products, product of sums) and the transient and steady-state behavior of real combinational networks.
+  evidence:
+  - c4
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: karnaugh_map_minimization
+  name: Karnaugh map minimization
+  description: Gate-level minimization of combinational functions with Karnaugh maps, applied to the graphical
+    analysis and synthesis of simple combinational circuits.
+  evidence:
+  - c5
+  - o2
+  share: 0.06
+  level: introductory
+  kind: technique
+  technology: null
+- key: standard_combinational_circuits
+  name: Decoders, multiplexers and programmable logic
+  description: Standard combinational building blocks (decoders, multiplexers, encoders) used for design
+    via decoders and OR gates and via Shannon's expansion, plus ROMs as programmable combinational circuits
+    and the three-state buffer.
+  evidence:
+  - c6
+  - o3
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: binary_arithmetic_alu
+  name: Binary arithmetic and the ALU
+  description: Unsigned and two's-complement signed binary arithmetic, half and full adders, n-bit adders,
+    and the arithmetic-logic unit built from them.
+  evidence:
+  - c7
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: asynchronous_circuit_behavior
+  name: Asynchronous circuit behavior and hazards
+  description: Asynchronous sequential circuits seen as combinational logic with direct feedback, their
+    possible undesired behaviors, the constraints for correct use, and techniques to remove such behaviors
+    a priori.
+  evidence:
+  - c8
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: asynchronous_fsm_design
+  name: Asynchronous finite state machine design
+  description: Describing asynchronous behavior with finite state machines via state diagrams and state
+    tables, and the formal design and analysis of asynchronous sequential circuits.
+  evidence:
+  - c8
+  - o3
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: latches_flip_flops
+  name: Latches and flip-flops
+  description: 'Binary memory elements: the asynchronous SR and D latches and the D flip-flop, their behavior
+    and their use as storage elements.'
+  evidence:
+  - c9
+  - o3
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: synchronous_sequential_design
+  name: Synchronous sequential circuit design
+  description: Synchronous sequential circuits built from feedback loops over flip-flops, clock period
+    selection under timing constraints, and the formal design method for circuits with D flip-flops.
+  evidence:
+  - c10
+  - o3
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+- key: registers_and_counters
+  name: Registers, shift registers and counters
+  description: Standard synchronous circuits (registers, shift registers, counters) and their use in the
+    direct synthesis of medium-complexity synchronous networks, combined with memory elements and combinational
+    blocks.
+  evidence:
+  - c11
+  - o3
+  share: 0.16
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Organisational remark about the course calendar (semester and dates), with no teachable content.

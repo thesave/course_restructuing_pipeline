@@ -1,0 +1,141 @@
+format: extraction/1
+course: 91250-B
+title: Deep Learning
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 14.3
+  usage:
+    prompt_tokens: 3462
+    completion_tokens: 3150
+    cache_read_tokens: 1854
+    thinking_tokens: 1863
+  created: '2026-11-04T18:22:24+00:00'
+topics:
+- key: artificial_neural_networks
+  name: Artificial neural networks
+  description: Introduction to deep learning as a field and the architecture, units, activations and expressive
+    power of feedforward artificial neural networks.
+  evidence:
+  - c1
+  - c3
+  - o1
+  share: 0.1042
+  level: introductory
+  kind: concept
+  technology: null
+- key: linear_algebra_and_autodiff
+  name: Linear algebra, calculus and automatic differentiation
+  description: Vectors, matrices, tensors and the calculus (gradients, chain rule, Jacobians) needed to
+    express neural networks and compute their derivatives automatically.
+  evidence:
+  - c2
+  - o2.1
+  share: 0.0833
+  level: introductory
+  kind: technique
+  technology: null
+- key: backpropagation
+  name: Backpropagation
+  description: The backpropagation algorithm for computing gradients of a neural network's loss with respect
+    to its parameters through the chain rule.
+  evidence:
+  - c4
+  - o2.1
+  share: 0.0833
+  level: intermediate
+  kind: technique
+  technology: null
+- key: optimization_algorithms
+  name: Optimization algorithms
+  description: Gradient-based optimizers for training deep networks, such as stochastic gradient descent
+    and adaptive methods, and how to tune them.
+  evidence:
+  - c5
+  - o2.1
+  share: 0.1042
+  level: intermediate
+  kind: technique
+  technology: null
+- key: convolutional_networks
+  name: Convolutional neural networks
+  description: Convolution and pooling layers, CNN architectures and their use for image and other grid-structured
+    data.
+  evidence:
+  - c6
+  - o2.2
+  share: 0.125
+  level: intermediate
+  kind: technique
+  technology: null
+- key: recurrent_networks
+  name: Recurrent neural networks
+  description: Recurrent architectures for sequential data, including the handling of sequence dependencies
+    and the training difficulties of recurrent models.
+  evidence:
+  - c7
+  - o2.2
+  share: 0.0833
+  level: intermediate
+  kind: technique
+  technology: null
+- key: transformers
+  name: Transformers
+  description: The transformer architecture based on self-attention and its use for sequence modelling
+    as an alternative to recurrent networks.
+  evidence:
+  - c8
+  - o2.3
+  share: 0.1042
+  level: intermediate
+  kind: technique
+  technology: null
+- key: autoencoders
+  name: Autoencoders
+  description: Encoder-decoder networks that learn compressed latent representations of data and their
+    variants for reconstruction and representation learning.
+  evidence:
+  - c9
+  - o2.3
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: null
+- key: generative_models
+  name: Generative models
+  description: Deep generative models that learn data distributions in order to sample new data, covering
+    the main families and their training objectives.
+  evidence:
+  - c10
+  - o2.3
+  share: 0.1042
+  level: advanced
+  kind: concept
+  technology: null
+- key: reinforcement_learning
+  name: Reinforcement learning
+  description: Learning by interaction with an environment through rewards, covering the agent-environment
+    formalism and deep reinforcement learning methods.
+  evidence:
+  - c11
+  - o2.3
+  share: 0.1042
+  level: advanced
+  kind: technique
+  technology: null
+- key: natural_language_processing
+  name: Natural language processing
+  description: A practical application of deep learning to text, applying the course's sequence and attention
+    models to language tasks.
+  evidence:
+  - c12
+  - o2.2
+  share: 0.0417
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

@@ -1,0 +1,196 @@
+format: extraction/1
+course: B5722
+title: Embedded Sensors
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 53.0
+  usage:
+    prompt_tokens: 5922
+    completion_tokens: 12838
+    cache_read_tokens: 1854
+    thinking_tokens: 10590
+  created: '2026-11-04T18:32:02+00:00'
+topics:
+- key: sensor_fundamentals_modeling
+  name: Sensor fundamentals and ideal modeling
+  description: Sensors as information classifiers, signals and interfaces, and the ideal quasi-static
+    sensor model with sensitivity, acquisition chains and bandwidth.
+  evidence:
+  - c1.2
+  - c2.2
+  - c2.4
+  - o1
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: measurement_uncertainty
+  name: Measurement, random signals and uncertainty
+  description: DC and AC measurement characterization, distributions and estimation, random and ergodic
+    signals with power and correlations, random and systematic errors, resolution versus uncertainty,
+    and propagation of errors.
+  evidence:
+  - c2.3
+  - c2.5
+  - c2.6
+  - o2
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: adc_quantization
+  name: ADC quantization and acquisition resolution
+  description: Time and amplitude quantization in the A/D converter, number of resolution levels, effective
+    number of bits, the information-theory link, and the role of bandwidth, oversampling and anti-aliasing
+    filters.
+  evidence:
+  - c2.4
+  - c2.8
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: noise_detection_limits
+  name: Noise, detection limits and SNR
+  description: Comparing signal with noise, minimum detectable signal, signal-to-noise ratio and dynamic
+    range, together with the physical origins of thermal, shot and flicker noise and circuit noise density
+    in OPAMPs.
+  evidence:
+  - c2.7
+  - c3.2
+  - c6.7
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: resistive_magnetic_sensors
+  name: Resistive and magnetic sensors
+  description: Resistance-based transducers including strain gauges, RTDs/PRTs, NTC/PTC thermistors and
+    magnetic sensors, with their interface circuits and examples.
+  evidence:
+  - c3.3
+  - c3.4
+  - c3.5
+  - c3.6
+  - c3.7
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: capacitive_lockin_sensing
+  name: Capacitive sensing and lock-in techniques
+  description: Capacitive sensor readout with Kelvin guard ring, charge amplifiers, differential sensing
+    and correlated double sampling, plus lock-in and chopper detection for complex impedance measurement.
+  evidence:
+  - c3.8
+  - c3.9
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: photodetection_optics
+  name: Photodetection, pixel sensors and optics
+  description: Photodiode readout modes, passive and active CMOS pixel sensors with correlated double
+    sampling, photon-electron transduction with quantum efficiency and responsivity, and basics of geometrical
+    optics, microscopy and AFM.
+  evidence:
+  - c3.10
+  - c6.5
+  - c6.6
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: sensor_networks_buses
+  name: Sensor networks, buses and wireless communication
+  description: Embedded sensor networks, wired I2C and SPI interfaces, and wireless sensor communications
+    and networks for sensor systems.
+  evidence:
+  - c3.11
+  - c4.3
+  - c4.4
+  - o4
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: feedback_design_tradeoffs
+  name: Feedback sensor design and trade-offs
+  description: Design of feedback sensor systems and the trade-offs among sensor performance parameters,
+    illustrated with design examples.
+  evidence:
+  - c2.9
+  - c2.10
+  - o3
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: predictive_multivariate_models
+  name: Predictive models and multivariate analysis
+  description: Predictive models for sensor data, validation with measured-versus-predicted plots, correlation
+    matrices and scatter plots, dimensionality reduction with PCA, and PLS, applied to embedded spectral
+    sensors.
+  evidence:
+  - c5.1
+  - c5.2
+  - c5.3
+  - c5.4
+  - c5.5
+  - o2
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: electrochemical_biosensing
+  name: Electrochemical biosensing interfaces
+  description: Ion-electron transduction at biological interfaces, electrical polarization of matter,
+    metal-liquid interfacial states, electrical models of electrode interfaces and electrochemical impedance
+    spectroscopy, with a hands-on laboratory experience.
+  evidence:
+  - c6.3
+  - c6.4
+  - c6.8
+  - c6.10
+  share: 0.16
+  level: advanced
+  kind: technique
+  technology: null
+- key: nanosensors
+  name: Nanotechnology and nanosensors
+  description: Introduction to nanotechnology and nanoscale sensing structures such as nanopores, nanotubes,
+    nanowires, graphene and nanodots.
+  evidence:
+  - c6.9
+  share: 0.12
+  level: advanced
+  kind: concept
+  technology: null
+not_topics:
+- id: c1.1
+  reason: Program heading listing the course titles per degree; no teachable content.
+- id: c1.1.1
+  reason: Course title label for the Electronics and Information Engineering version.
+- id: c1.1.2
+  reason: Course title label for the Biomedical Engineering version.
+- id: c1.1.3
+  reason: Course title label for the Computer Science and Engineering version.
+- id: c2.1
+  reason: Course introduction and an example of research; organisational, no teachable content.
+- id: c3.1
+  reason: Organisational note saying the section is optional for this course's students.
+- id: c4.1
+  reason: Organisational note saying the section is optional for some degree programmes.
+- id: c4.2
+  reason: Organisational note continuing the optional-section remark.
+- id: c6.1
+  reason: Program heading for the Part II biomedical nanotechnology section.
+- id: c6.1.1
+  reason: Course title label for the Biomedical Engineering version of Part II.
+- id: c6.2
+  reason: Statement of purpose for Part II; framing only, the teachable content is covered by the topics.

@@ -1,0 +1,125 @@
+format: extraction/1
+course: '85573'
+title: Usability and User Experience
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 13.5
+  usage:
+    prompt_tokens: 3324
+    completion_tokens: 3013
+    cache_read_tokens: 1854
+    thinking_tokens: 1811
+  created: '2026-11-04T18:20:12+00:00'
+topics:
+- key: hci_ux_background
+  name: HCI to UX background
+  description: The evolution of the discipline from Human-Computer Interaction to User Experience Design
+    and the scope of human, computer and their interaction.
+  evidence:
+  - c2
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: ux_quality_dimensions
+  name: UX quality dimensions
+  description: The dimensions of practicality, experience, affection, meaning and value, and the qualities
+    of ease of use, usefulness and efficiency that underpin a positive user experience.
+  evidence:
+  - o1
+  - o2
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: usability_analysis_with_users
+  name: Usability analysis with users
+  description: Methods for analysing usability with the participation of target users, such as interviews,
+    observation and usability testing.
+  evidence:
+  - c3
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: usability_analysis_without_users
+  name: Usability analysis without users
+  description: Methods for analysing usability without direct user participation, such as expert inspection
+    and heuristic-based evaluation.
+  evidence:
+  - c3
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: user_goal_oriented_design
+  name: User- and goal-oriented design
+  description: Usability design methodologies that centre the process on user characteristics, needs and
+    goals, and keep technical implementation aligned with audience expectations, within UX process standards.
+  evidence:
+  - c3
+  - o3
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: usability_evaluation_metrics
+  name: Usability evaluation metrics
+  description: Defining metrics and criteria to assess whether and how well a software system satisfies
+    the expectations of its target audience.
+  evidence:
+  - c3
+  - o3
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: usability_guidelines_principles
+  name: Usability guidelines and principles
+  description: The historical development and content of the guidelines and principles on which concrete
+    usability design is based.
+  evidence:
+  - c4
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: usability_design_patterns
+  name: Usability design patterns
+  description: Reusable interface design patterns and methods that apply usability guidelines to concrete
+    design problems.
+  evidence:
+  - c4
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: web_mobile_usability
+  name: Web and mobile app usability
+  description: Usability problems and design practices specific to web applications and mobile apps.
+  evidence:
+  - c4
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ux_for_ai_systems
+  name: UX design for AI systems
+  description: Applying user experience design principles to complex systems such as AI systems, in an
+    optional short module for Artificial Intelligence students.
+  evidence:
+  - c5
+  share: 0.1
+  level: advanced
+  kind: concept
+  technology: null
+not_topics:
+- id: c1
+  reason: Lead-in sentence announcing that the course is divided into parts; the parts themselves (c2
+    to c5) carry the content and are cited by the topics.

@@ -1,0 +1,109 @@
+format: extraction/1
+course: '99195'
+title: Cyber-Physical Systems Programming M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 16.8
+  usage:
+    prompt_tokens: 3358
+    completion_tokens: 3584
+    cache_read_tokens: 1854
+    thinking_tokens: 2517
+  created: '2026-11-04T18:28:31+00:00'
+topics:
+- key: cross_compilation
+  name: Cross-compilation and embedded software toolchain
+  description: Building software for a different target machine, covering compilers, bootloaders, system
+    calls and how application code reaches the CPS hardware.
+  evidence:
+  - c1
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: baremetal_firmware
+  name: Baremetal firmware development
+  description: Writing firmware that runs directly on the microcontroller without an OS, covering the
+    C runtime, the call stack and emulator-based baremetal programming on QEMU.
+  evidence:
+  - c2
+  - c7
+  share: 0.15
+  level: intermediate
+  kind: technique
+  technology: C
+- key: device_drivers
+  name: Device driver development
+  description: Writing drivers that connect sensors and actuators to the processor, both in baremetal
+    code and as sensor drivers inside FreeRTOS or Crazyflie, including debugging them.
+  evidence:
+  - c2
+  - c3
+  - c7
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: C
+- key: real_time_operating_systems
+  name: Real-time operating systems for CPS
+  description: Architecture and configuration of RTOSes such as FreeRTOS, NuttX, Zephyr, seL4, PikeOS
+    and automotive RTOSes, for real-time control and sensor data processing.
+  evidence:
+  - c1
+  - c3
+  - o1
+  share: 0.18
+  level: intermediate
+  kind: concept
+  technology: null
+- key: middleware_dds
+  name: Middleware for CPS communication (DDS, micro-ROS)
+  description: Publish-subscribe middleware such as DDS, XRCE-DDS and micro-ROS for communication between
+    CPS components on constrained devices.
+  evidence:
+  - c1
+  - c4
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: drone_application_programming
+  name: Drone application programming
+  description: Developing control and autonomous-flight applications on the Crazyflie drone, including
+    setting up its development environment.
+  evidence:
+  - c5
+  - c7
+  share: 0.15
+  level: intermediate
+  kind: technique
+  technology: Crazyflie
+- key: cps_cybersecurity
+  name: Cybersecurity for CPS
+  description: Security mechanisms for CPS firmware and communication, including trusted execution environments,
+    trusted platform modules for firmware signing and verification, and control flow integrity.
+  evidence:
+  - c6
+  - o1
+  share: 0.11
+  level: advanced
+  kind: concept
+  technology: null
+- key: ai_for_autonomous_cps
+  name: AI for autonomous CPS
+  description: Neural networks and deep reinforcement learning as used for decision-making in autonomous
+    cyber-physical systems.
+  evidence:
+  - c6
+  share: 0.09
+  level: advanced
+  kind: technique
+  technology: null
+not_topics: []

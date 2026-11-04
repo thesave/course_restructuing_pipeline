@@ -1,0 +1,150 @@
+format: extraction/1
+course: B5474
+title: ARCHITETTURE SOFTWARE A MICROSERVIZI
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 30.6
+  usage:
+    prompt_tokens: 8801
+    completion_tokens: 7092
+    cache_read_tokens: 3708
+    thinking_tokens: 4260
+  created: '2026-11-04T18:31:32+00:00'
+topics:
+- key: enterprise_soa_architecture
+  name: Enterprise SOA architecture
+  description: Service-oriented architecture as a style for large software systems spanning multiple organizations,
+    including enterprise software systems and their architectural abstractions.
+  evidence:
+  - c1
+  - c2
+  - c3
+  - c5
+  - c9.1
+  - o1
+  share: 0.08333
+  level: introductory
+  kind: concept
+  technology: null
+- key: business_process_modeling
+  name: Business process modeling with BPMN
+  description: Modeling business processes with BPMN and business process management, including integrating
+    the services that compose a process.
+  evidence:
+  - c4
+  - c9.2
+  - o1
+  share: 0.125
+  level: introductory
+  kind: technique
+  technology: BPMN
+- key: service_modeling
+  name: Service modeling with UML
+  description: Modeling services and their interfaces with UML to reason about the design and properties
+    of service-based systems.
+  evidence:
+  - c2
+  - c3
+  - c4
+  share: 0.08333
+  level: intermediate
+  kind: technique
+  technology: UML
+- key: service_choreographies
+  name: Service choreographies
+  description: Describing the interaction between processes and services, and between different services,
+    through choreographies.
+  evidence:
+  - c4
+  - c9.3
+  share: 0.08333
+  level: intermediate
+  kind: concept
+  technology: null
+- key: web_service_protocols
+  name: SOAP and WSDL web services
+  description: Implementing and describing web services with the SOAP protocol and WSDL interface definitions.
+  evidence:
+  - c6
+  - c9.4
+  share: 0.08333
+  level: intermediate
+  kind: technique
+  technology: SOAP
+- key: rest_and_grpc_apis
+  name: RESTful APIs and gRPC
+  description: Designing RESTful web APIs and gRPC remote services, including serialization with Protobuf.
+  evidence:
+  - c6
+  - c9.4
+  share: 0.08333
+  level: intermediate
+  kind: technique
+  technology: null
+- key: microservices_properties_tradeoffs
+  name: Microservices properties and trade-offs
+  description: Strengths and weaknesses of microservice applications and how to build systems that are
+    both scalable and reliable.
+  evidence:
+  - c7
+  - c9.5
+  share: 0.08333
+  level: intermediate
+  kind: concept
+  technology: null
+- key: microservice_design_patterns
+  name: Microservice design patterns
+  description: Designing and implementing microservice architectures in the service-oriented style by
+    applying specific design patterns.
+  evidence:
+  - c5
+  - c9.5
+  - o2
+  share: 0.10417
+  level: advanced
+  kind: technique
+  technology: null
+- key: containerization
+  name: Containerization with Docker
+  description: Packaging and running microservices as containers using Docker within virtualized infrastructures.
+  evidence:
+  - c6
+  - c9.6
+  - o2
+  share: 0.0625
+  level: intermediate
+  kind: tool
+  technology: Docker
+- key: orchestration_and_service_mesh
+  name: Container orchestration and service mesh
+  description: Deploying and managing distributed containers with Kubernetes and adding a service mesh
+    such as Linkerd for microservice communication.
+  evidence:
+  - c6
+  - c9.6
+  - o2
+  share: 0.10417
+  level: advanced
+  kind: tool
+  technology: Kubernetes
+- key: rapid_service_prototyping
+  name: Rapid prototyping of services in Jolie
+  description: Rapid prototyping of service-oriented solutions and web service examples using the Jolie
+    language.
+  evidence:
+  - c8
+  - c9.7
+  - o2
+  share: 0.10417
+  level: intermediate
+  kind: language
+  technology: Jolie
+not_topics:
+- id: c9
+  reason: Overview heading that introduces the list of main topics; its items c9.1–c9.7 are cited directly
+    by topics.

@@ -1,0 +1,163 @@
+format: extraction/1
+course: '77933'
+title: Multimedia Data Management M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 30.5
+  usage:
+    prompt_tokens: 3507
+    completion_tokens: 7595
+    cache_read_tokens: 1854
+    thinking_tokens: 5982
+  created: '2026-11-04T18:17:41+00:00'
+topics:
+- key: mm_data_and_content_representation
+  name: Multimedia data and content representation
+  description: Covers the basics of multimedia data management and applications, the coding formats used
+    to store MM data, and how the content of images, audio and video is represented.
+  evidence:
+  - c2
+  - c3
+  - c3.1
+  - c3.2
+  - c3.3
+  - o1
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: mm_description_and_similarity
+  name: Description models and similarity measures
+  description: Covers models for describing complex multimedia objects and the similarity measures used
+    to compare MM content.
+  evidence:
+  - c4.1
+  - c4.2
+  share: 0.13
+  level: intermediate
+  kind: concept
+  technology: null
+- key: mm_database_systems
+  name: Multimedia database management systems
+  description: Covers the architecture and role of database management systems designed to store and manage
+    multimedia data.
+  evidence:
+  - c4.3
+  - o2
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: mm_query_and_sequential_retrieval
+  name: Query formulation and sequential retrieval
+  description: Covers the paradigms for formulating multimedia queries and the sequential scan approach
+    to retrieving MM data.
+  evidence:
+  - c5.1
+  - c5.2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: index_based_mm_retrieval
+  name: Index-based multimedia retrieval
+  description: Covers index structures and techniques that make retrieval of multimedia data efficient
+    compared with sequential search.
+  evidence:
+  - c5.3
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: automatic_semantic_annotation
+  name: Automatic semantic annotation of multimedia
+  description: Covers automatic techniques that attach semantic annotations to multimedia data to support
+    search and understanding.
+  evidence:
+  - c6
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: browsing_and_user_interfaces
+  name: Browsing multimedia collections and user interfaces
+  description: Covers how users browse large MM collections and the design of user interfaces for interacting
+    with MM systems.
+  evidence:
+  - c7
+  - c8.1
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: visualization_and_dimensionality_reduction
+  name: Visualization paradigms and dimensionality reduction
+  description: Covers visualization paradigms for presenting MM results and dimensionality reduction techniques
+    used to project high-dimensional features for display.
+  evidence:
+  - c8.2
+  - c8.3
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: relevance_feedback_and_result_quality
+  name: Result quality and relevance feedback
+  description: Covers how the quality and relevance of retrieved multimedia results are measured and improved
+    through relevance feedback techniques.
+  evidence:
+  - c9.1
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: web_search_engines
+  name: Web search engines
+  description: Covers the architecture and working principles of web search engines applied to multimedia
+    content.
+  evidence:
+  - c10.1
+  - o2
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: social_graphs_semantic_web
+  name: Graph-based data, semantic Web and social networks
+  description: Covers graph-based representations of multimedia data in the semantic Web and social networks
+    and how they support MM data management.
+  evidence:
+  - c10.2
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: recommender_systems
+  name: Web recommender systems
+  description: Covers the principles and techniques of recommender systems that suggest multimedia content
+    to users on the web.
+  evidence:
+  - c10.3
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Course motivation statement describing general goals, not a teachable content unit.
+- id: c9.2
+  reason: Use cases and demos of applications, comparable to case studies, with no dedicated teachable
+    content.
+- id: c11
+  reason: Empty 'N.B.' heading that introduces only the notes that follow.
+- id: c12
+  reason: Organisational remark on exam requirements for specific degree programmes.
+- id: c13
+  reason: Organisational remark on the language of the final exam.

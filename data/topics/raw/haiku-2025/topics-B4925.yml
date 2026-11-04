@@ -1,0 +1,87 @@
+format: extraction/1
+course: B4925
+title: IMMERSIVE TECHNOLOGIES FOR FASHION
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 19.8
+  usage:
+    prompt_tokens: 2868
+    completion_tokens: 4060
+    cache_read_tokens: 1854
+    thinking_tokens: 3273
+  created: '2026-11-04T18:30:42+00:00'
+topics:
+- key: augmented_reality_fundamentals
+  name: Augmented reality fundamentals
+  description: Core principles of augmented reality, including how digital content is overlaid on the
+    physical world and what hardware and tracking it requires.
+  evidence:
+  - c4
+  - o1
+  share: 0.14
+  level: introductory
+  kind: concept
+  technology: null
+- key: virtual_reality_fundamentals
+  name: Virtual reality fundamentals
+  description: Core principles of virtual reality, including how fully simulated 3D environments are created,
+    perceived and interacted with.
+  evidence:
+  - c4
+  - o1
+  share: 0.14
+  level: introductory
+  kind: concept
+  technology: null
+- key: immersive_platforms_solutions
+  name: Immersive platforms and solutions
+  description: Survey of augmented and virtual reality platforms and ready-made solutions, and how to
+    choose among them for a fashion application.
+  evidence:
+  - c5
+  - o1
+  share: 0.2
+  level: introductory
+  kind: tool
+  technology: null
+- key: fashion_immersive_use_cases
+  name: Fashion immersive use cases
+  description: Discussion of representative real-world adoptions of immersive technologies in fashion
+    and the scenarios where they have high potential.
+  evidence:
+  - c3
+  - o3
+  share: 0.2
+  level: introductory
+  kind: concept
+  technology: null
+- key: immersive_ecommerce_design
+  name: Immersive e-commerce solution design
+  description: Methods for adopting augmented and virtual reality in the design of advanced fashion e-commerce
+    solutions.
+  evidence:
+  - o2
+  - o3
+  share: 0.18
+  level: intermediate
+  kind: technique
+  technology: null
+- key: immersive_data_fashion
+  name: Data-driven immersive technologies for fashion
+  description: The use of data in immersive technologies applied to fashion, as the central focus of the
+    course.
+  evidence:
+  - c1
+  share: 0.14
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics:
+- id: c2
+  reason: Structural lead-in announcing how the content is organised; it has no teachable content of its
+    own.

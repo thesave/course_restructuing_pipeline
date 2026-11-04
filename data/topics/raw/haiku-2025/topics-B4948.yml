@@ -1,0 +1,81 @@
+format: extraction/1
+course: B4948
+title: Cognitive Sematics for Artificial Intelligence
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 12.7
+  usage:
+    prompt_tokens: 3383
+    completion_tokens: 2601
+    cache_read_tokens: 1854
+    thinking_tokens: 1804
+  created: '2026-11-04T18:30:50+00:00'
+topics:
+- key: interdisciplinary_foundations
+  name: Interdisciplinary foundations of cognitive semiotics
+  description: Introduces how semiotics, ontology, artificial intelligence and cognitive science combine
+    to study meaning in cognitive systems and artificial agents.
+  evidence:
+  - c1
+  - o1
+  share: 0.15
+  level: introductory
+  kind: concept
+  technology: null
+- key: semiotic_interpretation_multimodal
+  name: Semiotic interpretation of multimodal data
+  description: Covers the principles of interpreting multimodal data and content (for example text, images
+    and other signs) as semiotic objects with meaning.
+  evidence:
+  - o1
+  share: 0.2
+  level: intermediate
+  kind: concept
+  technology: null
+- key: formal_ontological_methods
+  name: Formal and ontological methods for interpretation
+  description: Teaches formal and ontological methods used to represent and reason about the entities
+    and relations involved in semiotic interpretation.
+  evidence:
+  - o1
+  share: 0.2
+  level: intermediate
+  kind: technique
+  technology: null
+- key: computational_semiotic_methods
+  name: Computational methods for semiotic analysis
+  description: Covers computational techniques applied to the semiotic interpretation of multimodal data,
+    and how to apply them in practice.
+  evidence:
+  - o1
+  share: 0.15
+  level: advanced
+  kind: technique
+  technology: null
+- key: ontological_levels_interpretation
+  name: Interpretation across ontological levels
+  description: Examines how semiotic interpretations differ and must be analysed across different ontological
+    levels of the entities concerned.
+  evidence:
+  - o2
+  share: 0.15
+  level: advanced
+  kind: concept
+  technology: null
+- key: four_e_cognition
+  name: '4E cognition: embodied, enactive, embedded, extended'
+  description: Presents the 4E approach to cognition, in which mind and meaning are embodied, enactive,
+    embedded in environments and extended beyond the brain, as the framework for the course.
+  evidence:
+  - o3
+  - c1
+  share: 0.15
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

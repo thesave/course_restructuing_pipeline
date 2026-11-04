@@ -1,0 +1,64 @@
+format: extraction/1
+course: '78510'
+title: Informatics
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 12.4
+  usage:
+    prompt_tokens: 2846
+    completion_tokens: 2404
+    cache_read_tokens: 1854
+    thinking_tokens: 1857
+  created: '2026-11-04T18:17:34+00:00'
+topics:
+- key: computer_systems_and_software
+  name: Computer systems and software
+  description: Introduction to computer science from a user's perspective and its history, computer architecture
+    (CPU, memories, I/O devices), programming languages and software, and the taxonomy of operating systems,
+    with a brief look at the Italian health system.
+  evidence:
+  - c1
+  - c2
+  - c3
+  - c4
+  - o1
+  share: 0.4
+  level: introductory
+  kind: concept
+  technology: null
+- key: internet_and_world_wide_web
+  name: Internet and the World Wide Web
+  description: How computer networks are classified and how the Internet and the World Wide Web work as
+    services used by health-care professionals.
+  evidence:
+  - c4
+  - c5
+  share: 0.2
+  level: introductory
+  kind: concept
+  technology: null
+- key: it_security_and_cryptography
+  name: IT security, data protection and digital signature
+  description: Security principles and data protection, cryptography basics, digital signatures and certified
+    email.
+  evidence:
+  - c6
+  share: 0.2
+  level: introductory
+  kind: concept
+  technology: null
+- key: spreadsheet_applications
+  name: Spreadsheet applications with Excel
+  description: Practical use of Microsoft Excel as a spreadsheet tool for everyday professional work.
+  evidence:
+  - c7
+  share: 0.2
+  level: introductory
+  kind: tool
+  technology: Microsoft Excel
+not_topics: []

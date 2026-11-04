@@ -1,0 +1,164 @@
+format: extraction/1
+course: '81609'
+title: Languages, Compilers and Computational Models
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 11.4
+  usage:
+    prompt_tokens: 3216
+    completion_tokens: 2614
+    cache_read_tokens: 1854
+    thinking_tokens: 1151
+  created: '2026-11-04T18:18:01+00:00'
+topics:
+- key: regular_languages
+  name: Regular languages and finite automata
+  description: Finite state automata and regular expressions, and the equivalence between the two as models
+    of regular languages.
+  evidence:
+  - c1.1
+  - c1.2
+  - o1.1
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: context_free_grammars_pushdown
+  name: Context-free grammars and pushdown automata
+  description: Context-free grammars as a generative model of languages and pushdown automata as their
+    recognizers, including the relationship between the two.
+  evidence:
+  - c1.3
+  - c1.4
+  - o1.1
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: turing_machines_computability
+  name: Turing machines and computability
+  description: Turing machines as a general computational model and the classes of recursive and recursively
+    enumerable languages with their relation to Turing machines.
+  evidence:
+  - c1.5
+  - c1.6
+  - o1.1
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: propositional_logic
+  name: Propositional logic
+  description: Syntax, semantics, and reasoning in propositional logic, including truth tables and proof
+    methods.
+  evidence:
+  - c2.1
+  - o1.1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: predicate_logic
+  name: Predicate logic
+  description: First-order predicate logic with quantifiers, its semantics, and its use for formal reasoning
+    about properties.
+  evidence:
+  - c2.2
+  - o1.1
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: lexical_analysis
+  name: Lexical analysis
+  description: Design of lexical analyzers (scanners) that turn source text into tokens, based on regular
+    specifications.
+  evidence:
+  - c3.1
+  - o1.2
+  share: 0.07
+  level: introductory
+  kind: technique
+  technology: null
+- key: syntactic_analysis
+  name: Syntactic analysis (parsing)
+  description: Parsing techniques that check the syntactic structure of a program against a context-free
+    grammar and build its parse tree.
+  evidence:
+  - c3.2
+  - o1.2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: static_program_checking
+  name: Static program checking
+  description: Compile-time checks of programs such as type checking and semantic analysis performed without
+    executing the code.
+  evidence:
+  - c3.3
+  - o1.2
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: code_generation
+  name: Code generation
+  description: Translation of checked program representations into target code, covering the final phase
+    of a compiler.
+  evidence:
+  - c3.4
+  - o1.2
+  share: 0.07
+  level: advanced
+  kind: technique
+  technology: null
+- key: transition_systems
+  name: Transition systems
+  description: Modelling of system behaviour as transition systems, with states, actions and executions.
+  evidence:
+  - c4.1
+  - o1.3
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: temporal_logics
+  name: Temporal logics and property verification
+  description: Temporal logics for specifying properties of system behaviour over time and their use in
+    verifying those properties on transition systems.
+  evidence:
+  - c4.2
+  - o1.3
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: concurrent_finite_state_processes
+  name: Concurrent finite state processes
+  description: Finite state process models of concurrent systems with synchronization and interleaving
+    of their behaviours.
+  evidence:
+  - c4.3
+  - o1.3
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: petri_nets
+  name: Petri nets
+  description: Petri nets as a model of concurrent and distributed systems, covering their firing semantics
+    and analysis of their behaviour.
+  evidence:
+  - c4.4
+  - o1.3
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

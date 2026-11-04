@@ -1,0 +1,162 @@
+format: extraction/1
+course: '85728'
+title: Real Time OS M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 41.7
+  usage:
+    prompt_tokens: 3364
+    completion_tokens: 9869
+    cache_read_tokens: 1854
+    thinking_tokens: 8301
+  created: '2026-11-04T18:20:41+00:00'
+topics:
+- key: systems_programming_review
+  name: Systems programming review in C
+  description: Review of the C constructs needed for systems and embedded code, such as pointers, structs,
+    and memory access.
+  evidence:
+  - c4
+  share: 0.05
+  level: introductory
+  kind: language
+  technology: C
+- key: os_kernel_processes_memory
+  name: General-purpose OS fundamentals
+  description: Architecture of a general-purpose OS covering the kernel and shell, processes and threads,
+    virtual memory, and input/output handling.
+  evidence:
+  - c2
+  - c3
+  - c5
+  - c6
+  - o2
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: real_time_systems_fundamentals
+  name: Real-time systems fundamentals
+  description: Introduction to real-time system requirements, hard versus soft deadlines, and the role
+    of an RTOS in meeting timing constraints.
+  evidence:
+  - c7
+  - c8
+  - o2
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: bare_metal_embedded_programming
+  name: Bare-metal embedded programming
+  description: Programming embedded devices without an OS, covering device bootstrapping and access to
+    hardware peripherals.
+  evidence:
+  - c9
+  - c10
+  - c13
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: interrupt_handling
+  name: Interrupt handling and ISRs
+  description: Interrupt mechanisms on embedded processors and the design of interrupt service routines.
+  evidence:
+  - c11
+  - c16
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: memory_allocation_strategies
+  name: Static and dynamic memory allocation
+  description: Static versus dynamic memory allocation in embedded systems and heap management strategies
+    suited to real-time constraints.
+  evidence:
+  - c12
+  - c17
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: task_scheduling_priorities
+  name: FreeRTOS tasks, scheduling and priorities
+  description: Creating and managing FreeRTOS tasks and how the kernel schedules them according to their
+    priorities.
+  evidence:
+  - c14
+  - c15
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: FreeRTOS
+- key: inter_task_communication
+  name: Inter-task communication
+  description: Mechanisms by which RTOS tasks exchange data and signals, such as queues and message passing
+    in FreeRTOS.
+  evidence:
+  - c19
+  - c20
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: FreeRTOS
+- key: synchronization_concurrency_hazards
+  name: Synchronization and concurrency hazards
+  description: Critical sections, mutexes and semaphores for concurrent access, including critical sections
+    in ISRs and the hazards of starvation, deadlock and priority inversion.
+  evidence:
+  - c21
+  - c22
+  - c23
+  - c25
+  - o2
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: FreeRTOS
+- key: software_hardware_timers
+  name: Software and hardware timers
+  description: Software timers managed by the RTOS and hardware timers on the microcontroller, used for
+    periodic and delayed actions.
+  evidence:
+  - c24
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: FreeRTOS
+- key: smp_overview
+  name: Symmetric multiprocessing overview
+  description: Overview of symmetric multiprocessing in RTOS, covering how multiple cores share the scheduling
+    and resources.
+  evidence:
+  - c26
+  share: 0.04
+  level: advanced
+  kind: concept
+  technology: null
+- key: other_rtos_platforms
+  name: 'Other RTOS platforms: NuttX and Zephyr'
+  description: Architecture and use of the alternative RTOS platforms NuttX and Zephyr compared with FreeRTOS.
+  evidence:
+  - c27
+  - c28
+  - c29
+  share: 0.17
+  level: intermediate
+  kind: tool
+  technology: null
+not_topics:
+- id: c1
+  reason: Introductory sentence for the first part of the course; its content is covered by the topics
+    below.
+- id: c18
+  reason: Introductory sentence for the second part of the course; its content is covered by the topics
+    below.

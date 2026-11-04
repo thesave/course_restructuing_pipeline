@@ -1,0 +1,147 @@
+format: extraction/1
+course: '95646'
+title: Virtualized Systems
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 34.9
+  usage:
+    prompt_tokens: 8662
+    completion_tokens: 8340
+    cache_read_tokens: 3708
+    thinking_tokens: 5362
+  created: '2026-11-04T18:27:03+00:00'
+topics:
+- key: shell_scripting
+  name: Shell scripting and local system management
+  description: Writing Bash scripts to automate tasks, together with a recap of managing a local Linux
+    system.
+  evidence:
+  - c2
+  - c3
+  - o1
+  share: 0.1
+  level: introductory
+  kind: language
+  technology: Bash
+- key: secure_communication_protocols
+  name: Secure communication protocols
+  description: Overview of communication security for information systems, server farms and networks,
+    covering SSH, TLS/SSL and DTLS and their utilities.
+  evidence:
+  - c4
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: nat_firewalls_and_proxying
+  name: NAT, firewalls and proxying
+  description: Network address translation with Linux iptables/netfilter, NAT traversal with STUN, TURN
+    and ICE, and proxying with SOCKS.
+  evidence:
+  - c4
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: distributed_storage
+  name: Distributed filesystems and block storage
+  description: Accessing remote storage through distributed filesystems (NFS) and block storage (iSCSI).
+  evidence:
+  - c5
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: virtualization_fundamentals
+  name: Virtualization fundamentals
+  description: Basic principles of virtualization, the platforms that provide it, the concept of container
+    and its application areas.
+  evidence:
+  - c1
+  - c6
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: cloud_computing_models
+  name: Cloud service models and on-premise cloud platforms
+  description: Cloud service types (IaaS, PaaS, SaaS) and on-premise cloud platforms such as OpenStack
+    and Proxmox.
+  evidence:
+  - c7
+  - c8
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: microservices_architectures
+  name: Microservices architectures and continuous development
+  description: Language-independent, component-based microservices architectures with message buses, their
+    local and cloud examples, and continuous development of distributed applications.
+  evidence:
+  - c10
+  - c16
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: infrastructure_as_code
+  name: Infrastructure as Code
+  description: The Infrastructure as Code model for creating and configuring virtual machines by code,
+    with Vagrant, cloud-init, Ansible and Terraform.
+  evidence:
+  - c1
+  - c9
+  - c13
+  - o1
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: container_management
+  name: Container images, networking and multi-container applications
+  description: The Docker API, virtual networks between containers, building images with Dockerfile, and
+    running multi-container applications with Docker Compose and Docker Swarm.
+  evidence:
+  - c11
+  share: 0.12
+  level: intermediate
+  kind: tool
+  technology: Docker
+- key: container_orchestration
+  name: Container orchestration
+  description: Orchestrating virtual machines, services and containers on clusters or on a single node
+    (minikube).
+  evidence:
+  - c12
+  share: 0.08
+  level: intermediate
+  kind: tool
+  technology: Kubernetes
+- key: serverless_faas
+  name: Serverless and Function-as-a-Service
+  description: Introduction to serverless systems and the FaaS model on Azure Functions, AWS Lambda and
+    Google Cloud Functions.
+  evidence:
+  - c14
+  share: 0.04
+  level: intermediate
+  kind: concept
+  technology: null
+- key: identity_management
+  name: Identity management
+  description: Identity management platforms and protocols on Windows (Active Directory, LDAP) and Linux
+    (Kerberos, OpenLDAP).
+  evidence:
+  - c15
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

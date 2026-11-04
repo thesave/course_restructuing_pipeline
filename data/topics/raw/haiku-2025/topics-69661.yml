@@ -1,0 +1,139 @@
+format: extraction/1
+course: '69661'
+title: Image Processing And Computer Vision M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 17.3
+  usage:
+    prompt_tokens: 3846
+    completion_tokens: 3939
+    cache_read_tokens: 1854
+    thinking_tokens: 2519
+  created: '2026-11-04T18:14:59+00:00'
+topics:
+- key: digital_image_fundamentals
+  name: Digital image fundamentals
+  description: Basic definitions of image processing and computer vision, an overview of application domains,
+    and image sensing, sampling and quantization.
+  evidence:
+  - c1
+  - c2
+  share: 0.0625
+  level: introductory
+  kind: concept
+  technology: null
+- key: image_formation_geometry
+  name: Image formation geometry
+  description: Pinhole camera model, perspective projection, projective coordinates and the projection
+    matrix, stereo geometry, lenses, field of view and depth of field.
+  evidence:
+  - c2
+  share: 0.0833
+  level: intermediate
+  kind: concept
+  technology: null
+- key: camera_calibration
+  name: Camera calibration
+  description: Intrinsic and extrinsic parameters, lens distortion, planar-target calibration with homography
+    estimation (Zhang's method), image rectification and stereo calibration.
+  evidence:
+  - c2
+  share: 0.0833
+  level: intermediate
+  kind: technique
+  technology: null
+- key: image_filtering
+  name: Image filtering
+  description: Convolution and correlation, mean and Gaussian smoothing, median, bilateral and non-local
+    means filtering.
+  evidence:
+  - c3
+  share: 0.0833
+  level: intermediate
+  kind: technique
+  technology: null
+- key: segmentation_blob_analysis
+  name: Segmentation and blob analysis
+  description: Gray-level histograms, global and adaptive thresholding, colour-based segmentation, binary
+    morphology, and connected-component labeling with blob analysis.
+  evidence:
+  - c4
+  share: 0.1042
+  level: intermediate
+  kind: technique
+  technology: null
+- key: local_features
+  name: Local features
+  description: Edge detection with image gradients, Sobel and Canny, Harris corners, scale-invariant keypoint
+    detectors and SIFT descriptors, and kd-tree-based feature matching.
+  evidence:
+  - c5
+  share: 0.125
+  level: intermediate
+  kind: technique
+  technology: null
+- key: template_matching
+  name: Template and shape matching
+  description: Pattern matching with SSD, SAD, NCC and ZNCC similarity measures, and shape-based matching.
+  evidence:
+  - c6
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: null
+- key: hough_transform
+  name: Hough transform
+  description: Hough transform for analytic shapes and the Generalized Hough Transform for detecting arbitrary
+    shapes through voting.
+  evidence:
+  - c6
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: null
+- key: local_feature_object_detection
+  name: Object detection with local features
+  description: Object detection by matching local invariant features, using Hough-based voting and least-squares
+    similarity estimation.
+  evidence:
+  - c6
+  share: 0.0417
+  level: intermediate
+  kind: technique
+  technology: null
+- key: neural_network_classifiers
+  name: Neural network classifiers for images
+  description: Machine learning basics, image classification, linear classifiers, fully connected neural
+    networks and convolutional neural networks.
+  evidence:
+  - c7
+  share: 0.125
+  level: intermediate
+  kind: concept
+  technology: null
+- key: cnn_architectures_transfer
+  name: CNN architectures and transfer learning
+  description: Successful CNN classification architectures (AlexNet, VGG, Inception, ResNet) and reusing
+    pretrained networks through transfer learning.
+  evidence:
+  - c7
+  share: 0.0833
+  level: intermediate
+  kind: concept
+  technology: null
+- key: cnn_object_detection
+  name: CNN object detection
+  description: 'Deep learning object detectors based on region proposals and feature pyramids: R-CNN,
+    Faster R-CNN, Feature Pyramid Network and YOLO.'
+  evidence:
+  - c7
+  share: 0.0833
+  level: advanced
+  kind: technique
+  technology: null
+not_topics: []

@@ -1,0 +1,113 @@
+format: extraction/1
+course: '75835'
+title: Web Technologies
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 20.0
+  usage:
+    prompt_tokens: 7626
+    completion_tokens: 4300
+    cache_read_tokens: 3708
+    thinking_tokens: 2159
+  created: '2026-11-04T18:17:10+00:00'
+topics:
+- key: web_standards_evolution
+  name: Web principles and standardization
+  description: Origins and evolution of the World Wide Web and the bodies and processes that standardize
+    its technologies.
+  evidence:
+  - c3.1
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: web_protocols_and_rest
+  name: Web architecture, HTTP, URIs and REST APIs
+  description: URIs, the HTTP request-response protocol, REST architectural principles and the design
+    of web APIs.
+  evidence:
+  - c3.2
+  - o1
+  share: 0.14
+  level: intermediate
+  kind: concept
+  technology: null
+- key: markup_languages
+  name: Markup languages and XML
+  description: Principles of markup languages, XML document structure, and well-formedness and validity
+    of XML documents.
+  evidence:
+  - c3.3
+  - o1
+  share: 0.09
+  level: introductory
+  kind: language
+  technology: XML
+- key: document_authoring
+  name: Web document authoring with HTML
+  description: Writing structured web documents with HTML elements, attributes and semantics, and checking
+    them for correctness.
+  evidence:
+  - c3.4
+  - o1
+  share: 0.14
+  level: introductory
+  kind: language
+  technology: HTML
+- key: visual_styling
+  name: Visual styling with CSS
+  description: Applying CSS selectors, the cascade, the box model and layout rules to control the visual
+    appearance of web pages.
+  evidence:
+  - c3.5
+  - o1
+  share: 0.12
+  level: introductory
+  kind: language
+  technology: CSS
+- key: client_side_scripting
+  name: JavaScript and Ajax
+  description: JavaScript programming in the browser, DOM manipulation, and asynchronous data exchange
+    with servers via Ajax.
+  evidence:
+  - c3.6
+  - o1
+  share: 0.16
+  level: intermediate
+  kind: language
+  technology: JavaScript
+- key: server_side_backend
+  name: Server-side development with Node.js
+  description: Building server-side web applications and backend services with Node.js and related server-side
+    frameworks.
+  evidence:
+  - c4.1
+  - o1
+  share: 0.16
+  level: intermediate
+  kind: tool
+  technology: Node.js
+- key: client_side_frameworks
+  name: Introduction to client-side frameworks
+  description: Overview of component-based client-side frameworks (Vue, React, Angular) and their role
+    in building interactive web applications.
+  evidence:
+  - c4.2
+  - o1
+  share: 0.11
+  level: intermediate
+  kind: tool
+  technology: null
+not_topics:
+- id: c1
+  reason: General course description stating the emphasis on theory and practice; no teachable content
+    of its own.
+- id: c2
+  reason: Organisational remark on how lectures are split into two parts and the optional second part
+    for students taking the course by mutuazione.

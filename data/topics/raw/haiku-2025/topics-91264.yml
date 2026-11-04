@@ -1,0 +1,101 @@
+format: extraction/1
+course: '91264'
+title: User Experience Design
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 14.9
+  usage:
+    prompt_tokens: 3281
+    completion_tokens: 3246
+    cache_read_tokens: 1854
+    thinking_tokens: 2237
+  created: '2026-11-04T18:23:13+00:00'
+topics:
+- key: hci_to_ux_scope
+  name: 'From HCI to UX design: scope and evolution'
+  description: Historical evolution of the discipline from Human-Computer Interaction to User Experience
+    Design and the scope of the human, the computer and their interaction.
+  evidence:
+  - c2
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: user_centered_design_process
+  name: User- and goal-oriented design process
+  description: Standards and methodologies for managing the UX design process, centred on users and goals,
+    and keeping the functional analysis of the software connected to the audience's needs and expectations.
+  evidence:
+  - c3
+  - o2
+  share: 0.18
+  level: intermediate
+  kind: technique
+  technology: null
+- key: usability_analysis_with_users
+  name: Usability analysis with users
+  description: Methods for involving users in usability analysis, such as observation, interviews and
+    user testing, to understand their needs and check the usability of a system.
+  evidence:
+  - c3
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: expert_usability_evaluation
+  name: Usability analysis without users
+  description: Expert-based usability evaluation methods carried out without user participation, such
+    as heuristic evaluation and cognitive walkthrough.
+  evidence:
+  - c3
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: usability_guidelines_patterns
+  name: Usability guidelines, patterns and methods
+  description: The historical framework of usability guidelines, design patterns and methods on which
+    concrete usability design decisions are based.
+  evidence:
+  - c4
+  share: 0.14
+  level: intermediate
+  kind: concept
+  technology: null
+- key: web_mobile_usability
+  name: Usability of web applications and mobile apps
+  description: Usability problems and design considerations specific to web applications and mobile apps.
+  evidence:
+  - c4
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: ux_dimensions_metrics
+  name: UX dimensions and evaluation metrics
+  description: The dimensions of practicality, experience, affection, meaning and value, and the metrics
+    used to evaluate whether a software system satisfies audience expectations.
+  evidence:
+  - o1
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: ux_for_ai_systems
+  name: UX design for complex and AI systems
+  description: Application of user experience design principles to complex systems, in particular AI systems.
+  evidence:
+  - c5
+  share: 0.08
+  level: advanced
+  kind: concept
+  technology: null
+not_topics:
+- id: c1
+  reason: Structural statement that the course is divided into parts; it names no teachable content.

@@ -1,0 +1,193 @@
+format: extraction/1
+course: '28623'
+title: Foundations of Informatics and Laboratory
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 39.7
+  usage:
+    prompt_tokens: 8549
+    completion_tokens: 9513
+    cache_read_tokens: 3708
+    thinking_tokens: 5829
+  created: '2026-11-04T18:12:05+00:00'
+topics:
+- key: computer_science_foundations
+  name: Foundations of computer science and computers
+  description: What computer science studies and how computer hardware and its basic architecture are
+    organised.
+  evidence:
+  - c1
+  - c2
+  share: 0.0417
+  level: introductory
+  kind: concept
+  technology: null
+- key: networking_basics
+  name: Introduction to computer networking
+  description: Basic concepts of computer networks, how computers are interconnected and how they communicate.
+  evidence:
+  - c3
+  share: 0.0417
+  level: introductory
+  kind: concept
+  technology: null
+- key: operating_systems_intro
+  name: Introduction to operating systems
+  description: Role of the operating system as an intermediary between programs and hardware, and its
+    main services.
+  evidence:
+  - c4
+  share: 0.0417
+  level: introductory
+  kind: concept
+  technology: null
+- key: algorithm_design_methodology
+  name: Algorithms and problem-solving design methodology
+  description: What an algorithm is, how algorithms relate to programming languages, and a method for
+    designing solutions to small-scale problems.
+  evidence:
+  - c5
+  - c7
+  - o2
+  share: 0.0729
+  level: introductory
+  kind: technique
+  technology: null
+- key: functions_and_procedures
+  name: Functions, procedures and software components
+  description: Building software from modular components by defining, calling and passing data to functions
+    and procedures in C.
+  evidence:
+  - c6
+  - c11
+  share: 0.0729
+  level: intermediate
+  kind: technique
+  technology: C
+- key: data_types
+  name: Data types in C
+  description: Basic built-in data types of C, their representation, and their use in variable declarations
+    and expressions.
+  evidence:
+  - c8
+  share: 0.0625
+  level: introductory
+  kind: language
+  technology: C
+- key: console_input_output
+  name: Console input and output
+  description: Reading values from the keyboard and printing results to the screen with the standard C
+    input/output functions.
+  evidence:
+  - c9
+  share: 0.0521
+  level: introductory
+  kind: language
+  technology: C
+- key: expressions_and_control_flow
+  name: Expressions and control statements
+  description: Operators and expressions in C, and conditional and iterative control statements that govern
+    program flow.
+  evidence:
+  - c10
+  share: 0.0938
+  level: introductory
+  kind: language
+  technology: C
+- key: recursion
+  name: Recursive function invocation
+  description: Defining and invoking functions that call themselves, with base and recursive cases, on
+    introductory examples.
+  evidence:
+  - c12
+  share: 0.0521
+  level: intermediate
+  kind: technique
+  technology: null
+- key: activation_records_runtime
+  name: Activation records and run-time model
+  description: How function calls are supported at run time through activation records on the call stack.
+  evidence:
+  - c13
+  share: 0.052
+  level: intermediate
+  kind: concept
+  technology: null
+- key: arrays_strings_matrices
+  name: Arrays, strings and matrices
+  description: Declaring, indexing and processing one-dimensional arrays, character strings and two-dimensional
+    matrices in C.
+  evidence:
+  - c14
+  - c15
+  share: 0.0729
+  level: intermediate
+  kind: language
+  technology: C
+- key: file_io
+  name: Text and binary file handling
+  description: Opening, reading, writing and closing text and binary files in C.
+  evidence:
+  - c16
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: C
+- key: dynamic_memory_allocation
+  name: Dynamic memory allocation
+  description: Allocating and releasing memory at run time in C and the management of dynamically created
+    data.
+  evidence:
+  - c17
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: C
+- key: command_line_usage
+  name: Unix commands and console
+  description: Using the Unix shell and basic command-line commands to work with files and compile and
+    run programs.
+  evidence:
+  - c18
+  share: 0.0417
+  level: introductory
+  kind: tool
+  technology: Unix
+- key: programming_lab_practice
+  name: Hands-on programming laboratory
+  description: Practising C programming through many guided lab exercises and examples that accompany
+    the theory lectures, using a high-level language and its development environment.
+  evidence:
+  - c19
+  - o1
+  share: 0.0625
+  level: introductory
+  kind: technique
+  technology: C
+- key: sorting_numerical_algorithms
+  name: Sorting and numerical algorithms
+  description: Implementing and analysing well-known sorting algorithms and basic numerical computation
+    algorithms in C.
+  evidence:
+  - c19
+  - o2
+  share: 0.0729
+  level: intermediate
+  kind: technique
+  technology: null
+- key: algorithm_complexity_intuition
+  name: Intuitive computational complexity
+  description: Informal notions of how the running time of an algorithm grows with the size of its input.
+  evidence:
+  - c19
+  - o2
+  share: 0.0416
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

@@ -1,0 +1,248 @@
+format: extraction/1
+course: B1703
+title: Introduction to Programming
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 54.0
+  usage:
+    prompt_tokens: 11068
+    completion_tokens: 13773
+    cache_read_tokens: 3708
+    thinking_tokens: 8875
+  created: '2026-11-04T18:30:14+00:00'
+topics:
+- key: computational_thinking
+  name: Computational thinking
+  description: The mindset of decomposing problems and using abstraction to reason about them in computational
+    terms, introduced as the course's foundation.
+  evidence:
+  - c8.1
+  - c8.4
+  share: 0.0417
+  level: introductory
+  kind: concept
+  technology: null
+- key: computers_and_machines
+  name: Computers and early machines
+  description: What a computer is at a conceptual level, and the history of the first machines and their
+    programmers.
+  evidence:
+  - c8.2
+  - c8.7
+  share: 0.0417
+  level: introductory
+  kind: concept
+  technology: null
+- key: programming_languages
+  name: Programming languages
+  description: How programming languages differ from natural languages and how they evolved historically.
+  evidence:
+  - c8.3
+  - c8.11
+  - c8.12
+  share: 0.0417
+  level: introductory
+  kind: concept
+  technology: null
+- key: algorithms_and_flowcharts
+  name: Algorithms and flowcharts
+  description: The definition of an algorithm and the design of simple algorithms with flowcharts built
+    from input, process, decision and output steps.
+  evidence:
+  - c8.5
+  - c8.6
+  - c8.8
+  - c8.9
+  - o2
+  share: 0.0625
+  level: introductory
+  kind: technique
+  technology: null
+- key: basic_constructs
+  name: Basic programming constructs
+  description: Setting up the Python environment and writing first programs with variables, assignments
+    and conditional statements, practised in laboratory sessions on the primary constructs.
+  evidence:
+  - c4
+  - c8.10
+  - c8.13
+  - c8.14
+  - c8.21
+  share: 0.0729
+  level: introductory
+  kind: language
+  technology: Python
+- key: loops
+  name: Loops
+  description: Iteration in Python with for and while constructs and their use in repeating computations.
+  evidence:
+  - c8.19
+  - c8.21
+  share: 0.0521
+  level: introductory
+  kind: language
+  technology: Python
+- key: brute_force_search
+  name: Brute-force search
+  description: The brute-force design strategy illustrated by linear search over a sequence.
+  evidence:
+  - c8.18
+  - c8.20
+  share: 0.0417
+  level: introductory
+  kind: technique
+  technology: null
+- key: lists_and_ordered_structures
+  name: Lists and ordered structures
+  description: Ordered data structures as a concept and their practical use through Python lists.
+  evidence:
+  - c8.15
+  - c8.16
+  - c8.17
+  - c8.30
+  share: 0.0729
+  level: introductory
+  kind: concept
+  technology: Python
+- key: sets_and_dictionaries
+  name: Sets and dictionaries
+  description: Unordered data structures, including the idea of potentially infinite structures, and their
+    implementation through Python sets and dictionaries.
+  evidence:
+  - c8.22
+  - c8.23
+  - c8.24
+  - c8.25
+  - c8.34
+  share: 0.0728
+  level: intermediate
+  kind: concept
+  technology: Python
+- key: recursion
+  name: Recursion
+  description: The principle of recursive definitions and recursive algorithms, with examples from linguistics,
+    physics and programming.
+  evidence:
+  - c8.26
+  - c8.27
+  - c8.28
+  - c8.29
+  share: 0.0625
+  level: intermediate
+  kind: concept
+  technology: null
+- key: divide_and_conquer
+  name: Divide and conquer
+  description: The divide-and-conquer algorithm strategy applied to large-scale sorting and the Fibonacci
+    sequence.
+  evidence:
+  - c8.31
+  - c8.32
+  - c8.33
+  - o2
+  share: 0.0521
+  level: intermediate
+  kind: technique
+  technology: null
+- key: trees
+  name: Trees
+  description: Hierarchical data structures and their use for genealogies and document markup.
+  evidence:
+  - c8.35
+  - c8.36
+  - c8.37
+  share: 0.052
+  level: intermediate
+  kind: concept
+  technology: null
+- key: graphs
+  name: Graphs
+  description: Graph structures and classic graph problems, introduced through the historical Königsberg
+    bridges problem.
+  evidence:
+  - c8.35
+  - c8.38
+  - c8.39
+  share: 0.0417
+  level: intermediate
+  kind: concept
+  technology: null
+- key: csv_and_json_files
+  name: Reading CSV and JSON files
+  description: Reading and processing structured data stored in CSV and JSON files in Python.
+  evidence:
+  - c8.40
+  share: 0.0417
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: strings
+  name: Strings
+  description: Python string constructs, from basic operations to advanced features.
+  evidence:
+  - c9.1
+  share: 0.0417
+  level: introductory
+  kind: language
+  technology: Python
+- key: regular_expressions
+  name: Regular expressions
+  description: Pattern matching over text with regular expressions and their use in Python.
+  evidence:
+  - c9.2
+  share: 0.0417
+  level: intermediate
+  kind: language
+  technology: Python
+- key: arrays_and_matrices
+  name: Arrays and matrices
+  description: Creating and manipulating arrays and matrices with the NumPy library.
+  evidence:
+  - c9.3
+  share: 0.0625
+  level: intermediate
+  kind: tool
+  technology: NumPy
+- key: tabular_data_manipulation
+  name: Tabular data manipulation
+  description: Loading, transforming and analysing tabular data with the Pandas library.
+  evidence:
+  - c9.4
+  share: 0.0625
+  level: intermediate
+  kind: tool
+  technology: Pandas
+- key: data_visualisation
+  name: Data visualisation
+  description: Principles and practice of producing charts to explore and communicate data.
+  evidence:
+  - c9.5
+  share: 0.0416
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Organisational remark on the two-block structure of the course.
+- id: c2
+  reason: Organisational description of the first block as a series of lectures.
+- id: c3
+  reason: Describes the lecture format with historical anecdotes and named contributors; no separate teachable
+    content.
+- id: c5
+  reason: Describes the format of the second block as hands-on sessions; its content is covered by the
+    module 2 topics.
+- id: c6
+  reason: Describes the format of hands-on sessions using existing tools; the tools and concepts are covered
+    by the module 2 topics.
+- id: c7
+  reason: Heading for the list of lectures.
+- id: c8
+  reason: Heading for the first block; its lectures are covered by the topics citing c8.x items.
+- id: c9
+  reason: Heading for the second block; its items are covered by the topics citing c9.x items.

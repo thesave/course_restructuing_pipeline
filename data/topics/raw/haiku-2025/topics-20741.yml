@@ -1,0 +1,57 @@
+format: extraction/1
+course: '20741'
+title: Information Processing Systems
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 9.0
+  usage:
+    prompt_tokens: 2918
+    completion_tokens: 1538
+    cache_read_tokens: 1854
+    thinking_tokens: 988
+  created: '2026-11-04T18:10:14+00:00'
+topics:
+- key: lis_his_computerization
+  name: Computerization of laboratory and hospital information systems
+  description: Why computerization matters in clinical laboratories, the roles of Laboratory and Hospital
+    Information Systems, and the hub-and-spoke architecture that connects laboratories to central systems.
+  evidence:
+  - c1
+  - c2
+  - c3
+  - o1
+  share: 0.35
+  level: introductory
+  kind: concept
+  technology: null
+- key: laboratory_workflow_tracking_archiving
+  name: Laboratory workflow tracking and data archiving
+  description: How workflows in Clinical Pathology, Pathological Anatomy and Transfusion Medicine are
+    tracked and configured (tests, instruments, departments, user authorization, registry changes) and
+    how their data is archived.
+  evidence:
+  - c4
+  - c6
+  - o1
+  share: 0.35
+  level: intermediate
+  kind: technique
+  technology: null
+- key: patient_data_errors_non_compliance
+  name: Patient data errors, non-compliance management and new professional roles
+  description: Handling non-compliance from errors in patient entry (wrong records, wrong sampling dates)
+    and their consequences for the EHR, repeated sampling and delays, together with the evolving roles
+    of the Biomedical Laboratory Technician and the System Administrator.
+  evidence:
+  - c5
+  - c7
+  share: 0.3
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

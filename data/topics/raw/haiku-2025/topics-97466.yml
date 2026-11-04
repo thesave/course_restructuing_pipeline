@@ -1,0 +1,194 @@
+format: extraction/1
+course: '97466'
+title: Digital represention of the Landscape Project
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 38.9
+  usage:
+    prompt_tokens: 11847
+    completion_tokens: 9044
+    cache_read_tokens: 3708
+    thinking_tokens: 5526
+  created: '2026-11-04T18:28:30+00:00'
+topics:
+- key: digital_graphic_formats
+  name: Digital graphic formats
+  description: Distinction between raster and vector graphics and the management of common graphic file
+    formats and basic image editing for landscape representation.
+  evidence:
+  - c8
+  - c13
+  - c13.1
+  - c12.1
+  - o4
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: digital_representation_landscape_design
+  name: Digital representation in landscape design
+  description: Overview of the software used across the course, the role of digital representation in
+    landscape design, and its critical, cultural and communicative value, including the evolution of graphic
+    tools.
+  evidence:
+  - c1
+  - c2
+  - c5
+  - c10
+  - c11
+  - c12
+  - c12.1
+  - c12.2
+  - c13.2
+  - c13.4
+  - o1
+  - o2
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: landscape_visual_perception
+  name: Landscape visual perception and reading
+  description: Principles of environmental and visual perception, site interpretation as knowledge, and
+    the morphological and conceptual reading of landscape signs and their graphic translation.
+  evidence:
+  - c14
+  - c15
+  - c16
+  - c16.1
+  - c16.2
+  - c16.3
+  - c16.4
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: landscape_survey_methods
+  name: Landscape survey and digital surveying
+  description: Methods and digital techniques for surveying existing landscape conditions, including photographic
+    documentation and the use of scale in project representation.
+  evidence:
+  - c13.3
+  - c17
+  - c17.1
+  - c17.3
+  - c17.4
+  share: 0.1
+  level: introductory
+  kind: technique
+  technology: null
+- key: sketch_to_digital_drawing
+  name: From sketching to digital drawing
+  description: Drawing tools and techniques progressing from manual sketching to digital drawing for landscape
+    design.
+  evidence:
+  - c17
+  - c17.2
+  share: 0.06
+  level: introductory
+  kind: technique
+  technology: null
+- key: vegetation_representation
+  name: Vegetation representation in landscape design
+  description: Graphic techniques for representing trees, shrubs and planting in landscape design drawings.
+  evidence:
+  - c17
+  - c17.5
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: cad_interface_and_layers
+  name: CAD interface, units and layers
+  description: Navigation of the AutoCAD interface and toolbars, drawing units, layer management, line
+    types, the Properties panel, and object snap and grip editing.
+  evidence:
+  - c8
+  - c18
+  - c19
+  - c20
+  - c20.1
+  - c21
+  - c21.1
+  - c21.2
+  - c21.3
+  - o5
+  share: 0.12
+  level: introductory
+  kind: tool
+  technology: AutoCAD
+- key: cad_blocks_annotation_images
+  name: CAD blocks, text, dimensions and images
+  description: Creating and modifying blocks, adding texts and dimensions, and inserting and managing
+    raster images in AutoCAD drawings.
+  evidence:
+  - c21
+  - c21.4
+  - c21.5
+  - c21.6
+  share: 0.1
+  level: intermediate
+  kind: tool
+  technology: AutoCAD
+- key: print_layouts_and_output
+  name: Print layouts and print files
+  description: Setting up print layouts and sheets in AutoCAD and preparing print files for final output.
+  evidence:
+  - c21
+  - c21.7
+  - c29
+  - c29.3
+  share: 0.07
+  level: intermediate
+  kind: tool
+  technology: AutoCAD
+- key: sheet_organization_and_libraries
+  name: Layout sheet structure and graphic libraries
+  description: Structuring and sequencing layout sheets (pagination, layout, headers) and building and
+    maintaining organised graphic libraries for landscape projects.
+  evidence:
+  - c4
+  - c22
+  - c23
+  - c24
+  - c24.1
+  - c24.2
+  - c25
+  - c25.1
+  - c25.2
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: survey_design_drawing_workshop
+  name: Digital drawing and sheet production workshop
+  description: Applied workshop in which students digitally draw a site survey and related design, create
+    graphic and photographic materials, sequence the final layout sheets and produce print files.
+  evidence:
+  - c7
+  - c9
+  - c26
+  - c27
+  - c28
+  - c28.1
+  - c28.2
+  - c29
+  - c29.1
+  - c29.2
+  - o3
+  - o6
+  share: 0.17
+  level: advanced
+  kind: technique
+  technology: null
+not_topics:
+- id: c3
+  reason: General statement of course aims restating the topics covered elsewhere; no separate teachable
+    content.
+- id: c6
+  reason: Lead-in phrase 'They will be able to:' whose content is carried by c7–c9.

@@ -1,0 +1,83 @@
+format: extraction/1
+course: '81942'
+title: Scalable and Cloud Programming
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 17.3
+  usage:
+    prompt_tokens: 7150
+    completion_tokens: 3491
+    cache_read_tokens: 3708
+    thinking_tokens: 1867
+  created: '2026-11-04T18:19:20+00:00'
+topics:
+- key: concurrency_distribution_problems
+  name: Problems of concurrent and distributed programs
+  description: Analysis of the core difficulties in building highly concurrent and distributed applications,
+    such as coordination, shared state, and partial failures.
+  evidence:
+  - c1
+  - o1.1
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: mapreduce_model
+  name: MapReduce and scalable data parallelism
+  description: The MapReduce programming model and other scalable approaches to parallelizing and distributing
+    both data and processes across many machines.
+  evidence:
+  - c2
+  share: 0.2
+  level: intermediate
+  kind: technique
+  technology: null
+- key: functional_programming
+  name: Functional programming for scalable systems
+  description: Functional style in Scala (immutability, higher-order functions, collections, and pattern
+    matching) as a basis for writing scalable programs.
+  evidence:
+  - c3
+  - o1.2
+  share: 0.14
+  level: intermediate
+  kind: language
+  technology: Scala
+- key: object_oriented_design
+  name: Object-oriented design for scalable applications
+  description: Object-oriented constructs in Scala (classes, traits, and modules) used together with functional
+    style to structure applications that scale and deploy across different computing resources.
+  evidence:
+  - o1.2
+  share: 0.08
+  level: intermediate
+  kind: language
+  technology: Scala
+- key: distributed_data_processing
+  name: Distributed data processing with Spark
+  description: Developing and running distributed data-processing applications on the Spark platform,
+    using its functional data-parallel abstractions.
+  evidence:
+  - c3
+  - o1.3
+  share: 0.26
+  level: intermediate
+  kind: tool
+  technology: Spark
+- key: cloud_application_deployment
+  name: Cloud deployment of scalable applications
+  description: Running and deploying scalable applications on cloud platforms, namely Amazon Web Services
+    and Google Cloud Platform.
+  evidence:
+  - c4
+  - o1.3
+  share: 0.2
+  level: intermediate
+  kind: tool
+  technology: null
+not_topics: []

@@ -1,0 +1,130 @@
+format: extraction/1
+course: B2696
+title: 'Language, Technology, Research I: Computational Thinking'
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 28.3
+  usage:
+    prompt_tokens: 8263
+    completion_tokens: 6098
+    cache_read_tokens: 3708
+    thinking_tokens: 3551
+  created: '2026-11-04T18:30:22+00:00'
+topics:
+- key: computational_thinking_introduction
+  name: Introduction to computational thinking
+  description: Introduces computational thinking as a problem-solving approach, its core terms and concepts,
+    and its relevance to language and intercultural professionals.
+  evidence:
+  - c3
+  - o1
+  share: 0.0625
+  level: introductory
+  kind: concept
+  technology: null
+- key: decomposition_and_pattern_recognition
+  name: Decomposition and pattern recognition
+  description: Teaches how to break a large problem into smaller parts and how to spot regularities across
+    those parts that can be exploited in a solution.
+  evidence:
+  - c4
+  - c5
+  - o1
+  share: 0.1042
+  level: introductory
+  kind: technique
+  technology: null
+- key: abstraction
+  name: Abstraction
+  description: Covers how to remove irrelevant detail from a problem and model it with the essential features,
+    as used in computer science and in building reusable solutions.
+  evidence:
+  - c6
+  - o1
+  share: 0.0833
+  level: introductory
+  kind: concept
+  technology: null
+- key: algorithmic_thinking
+  name: Algorithmic thinking
+  description: Covers designing step-by-step procedures that solve a class of problems and reasoning about
+    their correctness and steps.
+  evidence:
+  - c7
+  share: 0.0833
+  level: introductory
+  kind: technique
+  technology: null
+- key: programming_introduction
+  name: Introduction to programming
+  description: Introduces the basic idea of expressing algorithms as programs and writing and running
+    simple scripts to solve problems.
+  evidence:
+  - c8
+  - o2
+  share: 0.0833
+  level: introductory
+  kind: technique
+  technology: null
+- key: computational_notebooks
+  name: Computational notebooks
+  description: Teaches how to write, run and document code and text in Jupyter notebooks as an environment
+    for exploratory computing.
+  evidence:
+  - c9
+  share: 0.0625
+  level: introductory
+  kind: tool
+  technology: Jupyter
+- key: basic_operations
+  name: Basic operations on data
+  description: Covers basic operations on variables and the common data types and data structures used
+    for numerical and textual data.
+  evidence:
+  - c10
+  - o2
+  share: 0.125
+  level: introductory
+  kind: concept
+  technology: null
+- key: text_processing
+  name: Text processing with scripts
+  description: Teaches how to process and manipulate textual data with scripts and core libraries, as
+    used in language and translation work.
+  evidence:
+  - c11
+  - o2
+  share: 0.1667
+  level: intermediate
+  kind: technique
+  technology: null
+- key: methods_functions
+  name: Methods and functions
+  description: Covers defining and calling reusable methods and functions to structure and reuse code.
+  evidence:
+  - c12
+  share: 0.125
+  level: intermediate
+  kind: concept
+  technology: null
+- key: classes_objects
+  name: Classes and objects
+  description: Introduces classes and objects as the minimum object-oriented background needed for later
+    natural language processing and machine translation fine-tuning lessons.
+  evidence:
+  - c13
+  share: 0.1042
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics:
+- id: c1
+  reason: Course-level framing of the aims; the teachable content is covered by the topics above.
+- id: c2
+  reason: Describes the course's emphasis on large-scale problems and custom solutions beyond standard
+    software, a scope statement rather than a separate teachable unit.

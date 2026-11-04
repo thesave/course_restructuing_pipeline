@@ -1,0 +1,158 @@
+format: extraction/1
+course: '84401'
+title: Context-Aware Systems
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 23.3
+  usage:
+    prompt_tokens: 3628
+    completion_tokens: 5511
+    cache_read_tokens: 1854
+    thinking_tokens: 4107
+  created: '2026-11-04T18:19:41+00:00'
+topics:
+- key: context_aware_fundamentals
+  name: Context and context-aware systems
+  description: Definitions of context and context-aware systems, and the main application use cases that
+    motivate adaptive behaviour.
+  evidence:
+  - c3
+  - c11
+  - c11.1
+  - c11.2
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: localization_techniques
+  name: Localization technologies
+  description: Techniques and sensing technologies for localizing users and devices, as used in location-aware
+    applications.
+  evidence:
+  - c4
+  - c12.2
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: spatial_data_management
+  name: Spatial data management and location intelligence
+  description: Storage and management of geospatial data in spatial database systems, extracting location
+    intelligence from it, and the privacy issues it raises.
+  evidence:
+  - c4
+  - c12.4
+  - c12.5
+  - c12.6
+  share: 0.11
+  level: intermediate
+  kind: concept
+  technology: null
+- key: location_services_and_mapping
+  name: Location-based services and mapping APIs
+  description: Design of location-based services and the use of mapping APIs to visualize geospatial data
+    on maps.
+  evidence:
+  - c12
+  - c12.1
+  - c12.3
+  - c4
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: har_architectures_algorithms
+  name: Human activity recognition architectures and algorithms
+  description: Architectures and algorithmic pipelines for recognizing human activity from sensor data
+    in activity-aware systems.
+  evidence:
+  - c13
+  - c13.1
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: har_supervised_learning
+  name: Supervised learning for activity recognition
+  description: Application of supervised AI techniques to train and evaluate human activity recognition
+    models.
+  evidence:
+  - c13.2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: context_aware_architectures
+  name: Context-aware software architectures and middleware
+  description: Reference software architectures, system typologies and middleware for deploying adaptive
+    and ubiquitous applications and services.
+  evidence:
+  - c3
+  - o3
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: mobile_edge_computing
+  name: Mobile edge computing
+  description: Principles and application examples of mobile edge computing architectures for distributed
+    context-aware systems.
+  evidence:
+  - c5
+  - c14
+  - c14.1
+  - o1
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: mobility_aware_task_allocation
+  name: Mobility-aware task allocation and service migration
+  description: Metrics for allocating workloads based on user or device location and migrating services
+    as users and devices move.
+  evidence:
+  - c5
+  - c9
+  - c14.4
+  share: 0.1
+  level: advanced
+  kind: technique
+  technology: null
+- key: software_containerization
+  name: Software containerization with Docker
+  description: Modularizing edge services as software containers with Docker, including building and running
+    containerized services.
+  evidence:
+  - c6
+  - c7
+  - c14.2
+  share: 0.09
+  level: intermediate
+  kind: tool
+  technology: Docker
+- key: container_orchestration
+  name: Container orchestration
+  description: Orchestration of services and workloads across nodes using Docker Swarm and Kubernetes.
+  evidence:
+  - c8
+  - c14.3
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: General course overview describing the subject area, without teachable content of its own.
+- id: c2
+  reason: Organisational description of the two course blocks; the blocks' content is covered by the topics
+    above.
+- id: c10
+  reason: Organisational remark about final-week industry seminars, not a teachable topic.

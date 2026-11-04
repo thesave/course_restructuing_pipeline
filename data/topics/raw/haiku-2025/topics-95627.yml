@@ -1,0 +1,237 @@
+format: extraction/1
+course: '95627'
+title: Software Engineering
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 46.4
+  usage:
+    prompt_tokens: 5997
+    completion_tokens: 10905
+    cache_read_tokens: 1854
+    thinking_tokens: 8809
+  created: '2026-11-04T18:26:19+00:00'
+topics:
+- key: software_engineering_foundations
+  name: Software engineering foundations
+  description: Core definitions of computer science, algorithms, software and software engineering, the
+    role of software in digital transformation, SE phases, development methodologies including agile and
+    Scrum, and basic principles of decomposition, modularity, abstraction, separation of concerns and
+    interfaces.
+  evidence:
+  - c1
+  - c2
+  - c3
+  - c4
+  - c5
+  - c12
+  - c13
+  - o1
+  - o4
+  share: 0.0833
+  level: introductory
+  kind: concept
+  technology: null
+- key: development_environment
+  name: Development environment and runtime
+  description: Working with the command line, shells, terminals and processes, plus project structure,
+    runtimes, libraries, dependencies, package managers, and the difference between compiled and interpreted
+    languages, with Python recap examples.
+  evidence:
+  - c6
+  - c7
+  - c8
+  - c9
+  - c10
+  - c11
+  share: 0.0833
+  level: introductory
+  kind: technique
+  technology: null
+- key: distributed_version_control
+  name: Distributed version control with Git
+  description: 'Git concepts and workflows for DVCS: repositories, commits, branches, merges, local operations,
+    configuration and ignore files, commit practices, and team collaboration through GitHub (forks, pull
+    requests, issues, remotes, conflict handling and branching strategies).'
+  evidence:
+  - c14
+  - c15
+  - c16
+  - c17
+  - c18
+  - c19
+  - c20
+  - c21
+  - c22
+  - c23
+  - o5
+  share: 0.125
+  level: intermediate
+  kind: tool
+  technology: Git
+- key: object_oriented_programming
+  name: Object-oriented programming in Python
+  description: Motivations and principles of OOP in Python, including classes, objects, encapsulation
+    and visibility, equality, hashing and immutability, string representation, and inheritance, polymorphism
+    and operator overloading, compared with other programming paradigms.
+  evidence:
+  - c24
+  - c25
+  - c26
+  - c27
+  - c28
+  - c29
+  - c30
+  - c31
+  share: 0.125
+  level: intermediate
+  kind: concept
+  technology: Python
+- key: software_modelling
+  name: Software modelling with UML
+  description: Modelling in science, engineering and computer science, and modelling software with UML
+    diagrams (class, sequence, activity, state, component, deployment, use-case) generated via PlantUML.
+  evidence:
+  - c32
+  - c33
+  - c34
+  - c35
+  - c36
+  - c37
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: null
+- key: software_testing_quality
+  name: Software testing and quality assurance
+  description: Quality definitions, types and purposes of testing (unit, integration, system, acceptance),
+    automated test suites with pytest and unittest, test-driven development, static analysis, code coverage
+    and technical debt.
+  evidence:
+  - c38
+  - c39
+  - c40
+  - c41
+  - c42
+  - c43
+  - c44
+  - c45
+  share: 0.1042
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: build_automation_versioning
+  name: Build automation, packaging and versioning
+  description: Build life-cycle and build tools in the Python ecosystem (pip, venv, Poetry), packaging
+    and distributing projects via pyproject.toml and PyPI, and versioning practices including SemVer and
+    Conventional Commits.
+  evidence:
+  - c46
+  - c47
+  - c48
+  - c49
+  - c50
+  - c51
+  - c52
+  - c53
+  - c54
+  share: 0.0833
+  level: intermediate
+  kind: technique
+  technology: Poetry
+- key: distributed_systems_and_apis
+  name: Distributed systems and web APIs
+  description: Definitions and architectures of distributed systems (layered and hexagonal), their infrastructure
+    and protocols, and web services with RESTful API principles, HTML/HTTP/JSON basics, OpenAPI documentation
+    and Python implementation, with an enterprise view of SOA, microservices and cloud computing.
+  evidence:
+  - c55
+  - c56
+  - c57
+  - c58
+  - c59
+  - c60
+  - c61
+  - c62
+  - c63
+  - c64
+  - c65
+  - c66
+  - c67
+  - o2
+  - o3
+  share: 0.1042
+  level: intermediate
+  kind: concept
+  technology: null
+- key: domain_driven_design
+  name: Domain-driven design
+  description: Core DDD notions (domain, context, model, ubiquitous language), the philosophy of applying
+    DDD, building blocks such as entities, value objects, aggregates and repositories, and patterns like
+    bounded contexts, anti-corruption layers and domain events.
+  evidence:
+  - c68
+  - c69
+  - c70
+  - c71
+  - c72
+  share: 0.0625
+  level: intermediate
+  kind: concept
+  technology: null
+- key: continuous_integration_delivery
+  name: Continuous integration and delivery
+  description: Integration problems and the concepts of continuous integration, abstract CI pipeline design,
+    GitHub Actions workflows from simple to matrix builds, automated release and versioning, and handling
+    secrets in CI/CD pipelines.
+  evidence:
+  - c73
+  - c74
+  - c75
+  - c76
+  - c77
+  - c78
+  - c79
+  - c80
+  - c81
+  - c82
+  - o5
+  share: 0.0833
+  level: intermediate
+  kind: tool
+  technology: GitHub Actions
+- key: software_licensing
+  name: Software licensing
+  description: What software licences are and why they are needed, copyright versus copyleft, ownership
+    versus licensing, proprietary versus free software, free as in speech versus free as in beer, common
+    licences such as MIT, Apache and GPL, and criteria for choosing one.
+  evidence:
+  - c83
+  - c84
+  - c85
+  - c86
+  - c87
+  - c88
+  - c89
+  - c90
+  share: 0.0417
+  level: introductory
+  kind: concept
+  technology: null
+- key: intelligent_systems
+  name: Intelligent and multi-agent systems
+  description: Basic definitions, problems and applications of intelligent systems, and multi-agent systems
+    models, technologies and methodologies for engineering intelligent systems; no dedicated content items
+    are listed, so this topic rests on the learning outcomes alone.
+  evidence:
+  - o6
+  - o7
+  share: 0.0417
+  level: introductory
+  kind: concept
+  technology: null
+not_topics: []

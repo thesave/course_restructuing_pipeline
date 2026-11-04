@@ -1,0 +1,142 @@
+format: extraction/1
+course: '37760'
+title: Systems Simulation
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 17.0
+  usage:
+    prompt_tokens: 3389
+    completion_tokens: 3761
+    cache_read_tokens: 1854
+    thinking_tokens: 2371
+  created: '2026-11-04T18:12:44+00:00'
+topics:
+- key: systems_models_classification
+  name: Classification of systems and models
+  description: Categories of systems and models (static/dynamic, deterministic/stochastic, discrete/continuous)
+    and how they guide the choice of a simulation approach.
+  evidence:
+  - c1
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: discrete_event_simulation
+  name: Discrete event simulation
+  description: Discrete event models and the techniques for executing them, such as event scheduling,
+    the simulation clock and event list management.
+  evidence:
+  - c2
+  - c6
+  share: 0.15
+  level: introductory
+  kind: technique
+  technology: null
+- key: queueing_models
+  name: Queueing systems and networks
+  description: Analytical modelling of queueing systems and queueing networks and their use for performance
+    estimation of computer and communication systems.
+  evidence:
+  - c3
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: random_variate_generation
+  name: Random number and variate generation
+  description: Generation of pseudo-random numbers and transformation of uniform streams into random variates
+    with prescribed distributions for stochastic simulation.
+  evidence:
+  - c5
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: experiments_and_output_analysis
+  name: Simulation experiment design and output analysis
+  description: Planning of simulation experiments and the statistical analysis of input and output data,
+    including warm-up, replications and confidence intervals.
+  evidence:
+  - c4
+  - c11
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: verification_validation_testing
+  name: Verification, validation and testing of simulation models
+  description: Methods to check that a simulation model is correctly implemented and sufficiently faithful
+    to the real system, including testing practices.
+  evidence:
+  - c12
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: simulator_design_implementation
+  name: Design and implementation of simulators
+  description: Architecture and implementation of simulators and simulation tools, from design of the
+    core engine to the software construction of a simulation model.
+  evidence:
+  - c10
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: agent_based_simulation
+  name: Agent-based simulation
+  description: Modelling of systems as collections of autonomous interacting agents and the simulation
+    of their emergent collective behaviour.
+  evidence:
+  - c7
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: machine_learning_and_digital_twins
+  name: Simulation with machine learning and digital twins
+  description: Combination of simulation with machine learning techniques and the use of simulation models
+    as digital twins of physical systems.
+  evidence:
+  - c8
+  - c9
+  share: 0.07
+  level: advanced
+  kind: concept
+  technology: null
+- key: parallel_distributed_simulation
+  name: Parallel and distributed simulation
+  description: Introduction to executing simulations on parallel and distributed platforms, including
+    synchronisation issues and the motivations for distribution.
+  evidence:
+  - c13
+  share: 0.05
+  level: advanced
+  kind: technique
+  technology: null
+- key: complex_systems_analysis
+  name: Analysis and evaluation of complex systems
+  description: Methods for analysing and evaluating complex systems, including social systems, through
+    simulation-based assessment.
+  evidence:
+  - c14
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: virtual_reality_introduction
+  name: Introduction to virtual reality
+  description: Basic principles of virtual reality systems, such as immersion, perception and interaction,
+    and their relation to simulation.
+  evidence:
+  - c15
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+not_topics: []

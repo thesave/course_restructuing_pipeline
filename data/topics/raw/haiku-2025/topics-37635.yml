@@ -1,0 +1,248 @@
+format: extraction/1
+course: '37635'
+title: Data Structure and Algorithms
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 0
+  seconds: 0.0
+  usage: {}
+  created: '2026-11-04T18:09:53+00:00'
+copied_from: 11929-A
+topics:
+- key: algorithm_analysis_foundations
+  name: Algorithm analysis foundations
+  description: Design and analysis of algorithms, the cost model and the basic techniques for computing
+    the computational cost and judging the correctness and efficiency of an algorithm.
+  evidence:
+  - c1
+  - c2
+  - o1.2
+  - o1.4
+  - o1.6
+  - o1.7
+  share: 0.0625
+  level: introductory
+  kind: concept
+  technology: null
+- key: orders_of_growth
+  name: Orders of growth
+  description: Asymptotic notation and the estimation of the order of magnitude of algorithm running time
+    and space.
+  evidence:
+  - c3
+  - o1.5
+  share: 0.0416
+  level: introductory
+  kind: concept
+  technology: null
+- key: recurrence_equations
+  name: Recurrence equations
+  description: Formulating and solving recurrence equations to compute the cost of recursive algorithms.
+  evidence:
+  - c4
+  share: 0.0416
+  level: intermediate
+  kind: technique
+  technology: null
+- key: elementary_sorting
+  name: Elementary comparison sorting
+  description: Selection sort and insertion sort, their correctness and their quadratic cost.
+  evidence:
+  - c5
+  - o1.1
+  share: 0.0313
+  level: introductory
+  kind: technique
+  technology: null
+- key: divide_and_conquer_sorting
+  name: Merge sort and quicksort
+  description: The efficient comparison-based sorting algorithms merge sort and quicksort, with their
+    analysis.
+  evidence:
+  - c5
+  share: 0.0521
+  level: intermediate
+  kind: technique
+  technology: null
+- key: linear_time_sorting
+  name: Counting sort and radix sort
+  description: Non-comparison sorting algorithms counting sort and radix sort and the conditions under
+    which they run in linear time.
+  evidence:
+  - c5
+  share: 0.0313
+  level: intermediate
+  kind: technique
+  technology: null
+- key: linear_data_structures
+  name: Lists, stacks and queues
+  description: Elementary linear data structures (lists, queues, stacks) and the basic algorithms operating
+    on them.
+  evidence:
+  - c6
+  - o1.1
+  share: 0.0416
+  level: introductory
+  kind: concept
+  technology: null
+- key: trees
+  name: Trees
+  description: Tree terminology, representations and basic properties of general trees.
+  evidence:
+  - c7
+  share: 0.0416
+  level: introductory
+  kind: concept
+  technology: null
+- key: tree_traversals
+  name: Tree traversals
+  description: Preorder, inorder and postorder visits of trees and their applications.
+  evidence:
+  - c8
+  share: 0.0313
+  level: introductory
+  kind: technique
+  technology: null
+- key: binary_search_trees
+  name: Binary search trees and balanced trees
+  description: Binary search trees with their operations and the balanced binary search trees that guarantee
+    logarithmic cost.
+  evidence:
+  - c9
+  share: 0.0521
+  level: intermediate
+  kind: concept
+  technology: null
+- key: dictionaries_and_hashing
+  name: Dictionaries and hash tables
+  description: The dictionary abstract data type and its implementation with hash tables, including collision
+    handling and hash functions.
+  evidence:
+  - c10
+  - c11
+  share: 0.0521
+  level: intermediate
+  kind: concept
+  technology: null
+- key: heaps_priority_queues
+  name: Heaps and priority queues
+  description: Binary heaps, priority queues built on them and the HeapSort algorithm.
+  evidence:
+  - c12
+  share: 0.0521
+  level: intermediate
+  kind: concept
+  technology: null
+- key: union_find
+  name: Union-find structures
+  description: Disjoint-set (union-find) structures with their operations and their efficient implementations.
+  evidence:
+  - c13
+  share: 0.0313
+  level: intermediate
+  kind: concept
+  technology: null
+- key: divide_and_conquer
+  name: Divide and conquer design
+  description: The divide-and-conquer design technique applied to the design and analysis of algorithms.
+  evidence:
+  - c14
+  share: 0.0417
+  level: intermediate
+  kind: technique
+  technology: null
+- key: greedy_algorithms
+  name: Greedy algorithms
+  description: The greedy design technique, its correctness proofs and its typical applications.
+  evidence:
+  - c14
+  share: 0.0416
+  level: intermediate
+  kind: technique
+  technology: null
+- key: dynamic_programming
+  name: Dynamic programming
+  description: The dynamic programming design technique, based on overlapping subproblems and memoization
+    or tabulation.
+  evidence:
+  - c14
+  share: 0.0521
+  level: intermediate
+  kind: technique
+  technology: null
+- key: graph_representation
+  name: Graphs and their representations
+  description: Basic graph terminology and the adjacency list and adjacency matrix representations.
+  evidence:
+  - c15
+  share: 0.0313
+  level: introductory
+  kind: concept
+  technology: null
+- key: graph_traversal
+  name: Depth-first and breadth-first visits
+  description: Depth-first search and breadth-first search visits of graphs and their applications.
+  evidence:
+  - c16
+  share: 0.0416
+  level: intermediate
+  kind: technique
+  technology: null
+- key: minimum_spanning_trees
+  name: Minimum spanning trees
+  description: The Prim and Kruskal algorithms for computing minimum spanning trees of weighted graphs.
+  evidence:
+  - c17
+  share: 0.0521
+  level: intermediate
+  kind: technique
+  technology: null
+- key: shortest_paths
+  name: Shortest paths in graphs
+  description: The Bellman-Ford, Dijkstra and Floyd-Warshall algorithms for single-source and all-pairs
+    shortest paths.
+  evidence:
+  - c17
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: null
+- key: p_np_classes
+  name: P and NP complexity classes
+  description: The complexity classes P and NP, the notion of polynomial-time decision problems and the
+    NP-hard class.
+  evidence:
+  - c18
+  - c19
+  - o1.3
+  share: 0.0416
+  level: advanced
+  kind: concept
+  technology: null
+- key: np_completeness
+  name: NP-completeness
+  description: NP-complete problems, polynomial-time reductions and the proof of NP-completeness of classic
+    problems.
+  evidence:
+  - c20
+  - o1.3
+  share: 0.0416
+  level: advanced
+  kind: concept
+  technology: null
+- key: object_oriented_programming
+  name: Object-oriented programming in Java
+  description: The object-oriented paradigm and Java notions used to implement and use the data structures
+    studied in the course.
+  evidence:
+  - c21
+  - o1.8
+  share: 0.0313
+  level: introductory
+  kind: language
+  technology: Java
+not_topics: []

@@ -1,0 +1,152 @@
+format: extraction/1
+course: '69731'
+title: Computer Architecture
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 20.6
+  usage:
+    prompt_tokens: 2851
+    completion_tokens: 4582
+    cache_read_tokens: 1854
+    thinking_tokens: 3205
+  created: '2026-11-04T18:15:07+00:00'
+topics:
+- key: computer_history
+  name: History of computers
+  description: Historical development of computing machines and the milestones that led to modern computer
+    architectures.
+  evidence:
+  - c1
+  share: 0.0416
+  level: introductory
+  kind: concept
+  technology: null
+- key: number_systems
+  name: Number systems and binary arithmetic
+  description: Positional number systems (binary, octal, hexadecimal), conversions between them, and integer
+    representation including two's complement.
+  evidence:
+  - c2
+  share: 0.0625
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_representation
+  name: Data representation and information coding
+  description: Coding of characters, text and other information in binary, including floating-point representation
+    and basic error-detecting codes.
+  evidence:
+  - c2
+  share: 0.0625
+  level: introductory
+  kind: concept
+  technology: null
+- key: von_neumann_organization
+  name: Computer organization and the von Neumann model
+  description: Main components of a computer (CPU, registers, control unit, buses) and the stored-program
+    execution model.
+  evidence:
+  - c3
+  share: 0.09375
+  level: introductory
+  kind: concept
+  technology: null
+- key: memory_systems
+  name: Memory systems
+  description: Organization of primary and secondary memory, addressing, and how memory is connected to
+    the processor.
+  evidence:
+  - c3
+  share: 0.0625
+  level: introductory
+  kind: concept
+  technology: null
+- key: io_and_peripherals
+  name: Input/output and peripherals
+  description: Peripheral devices, the interfaces that connect them to the computer, and mechanisms for
+    data transfer such as interrupts and polling.
+  evidence:
+  - c3
+  share: 0.0625
+  level: introductory
+  kind: concept
+  technology: null
+- key: instruction_set_architecture
+  name: Instruction set architecture level
+  description: 'The ISA level as the interface between hardware and software: instruction formats, addressing
+    modes, registers and the execution cycle.'
+  evidence:
+  - c4
+  - o2
+  share: 0.0833
+  level: intermediate
+  kind: concept
+  technology: null
+- key: assembly_programming
+  name: Assembly language programming
+  description: Writing and understanding assembly programs, covering instructions, data definition, control
+    flow, subroutines and the assembly process.
+  evidence:
+  - c4
+  - o2
+  - o3
+  share: 0.1042
+  level: intermediate
+  kind: language
+  technology: null
+- key: boolean_algebra
+  name: Boolean algebra
+  description: Boolean variables, operators, axioms and identities, and their use to simplify logical
+    expressions.
+  evidence:
+  - c5
+  share: 0.0625
+  level: introductory
+  kind: concept
+  technology: null
+- key: combinational_logic
+  name: Combinational logic circuits
+  description: Logic gates and the design and analysis of combinational circuits such as adders, multiplexers
+    and decoders.
+  evidence:
+  - c6
+  share: 0.0833
+  level: intermediate
+  kind: technique
+  technology: null
+- key: sequential_logic
+  name: Sequential logic circuits
+  description: Latches, flip-flops and clocked sequential circuits such as registers and counters, which
+    store state.
+  evidence:
+  - c6
+  share: 0.0729
+  level: intermediate
+  kind: technique
+  technology: null
+- key: real_architectures
+  name: Examples of real computer architectures
+  description: Study of concrete processor and computer architectures and how they realize the concepts
+    of the course.
+  evidence:
+  - c7
+  share: 0.1042
+  level: intermediate
+  kind: concept
+  technology: null
+- key: parallel_architectures
+  name: Parallel architectures
+  description: Architectures that execute several operations or programs at once, such as pipelining,
+    multiprocessors and multicomputers.
+  evidence:
+  - c8
+  share: 0.1042
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

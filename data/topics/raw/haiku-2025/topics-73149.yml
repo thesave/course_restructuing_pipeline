@@ -1,0 +1,111 @@
+format: extraction/1
+course: '73149'
+title: Logic for Informatics
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 13.5
+  usage:
+    prompt_tokens: 2979
+    completion_tokens: 2954
+    cache_read_tokens: 1854
+    thinking_tokens: 1960
+  created: '2026-11-04T18:16:36+00:00'
+topics:
+- key: propositional_calculus
+  name: Propositional calculus
+  description: Syntax, truth-table semantics, and proof-based verification of propositional formulas,
+    practised in the lab on computational platforms.
+  evidence:
+  - c1
+  - c4
+  - o1
+  - o2
+  share: 0.16
+  level: introductory
+  kind: concept
+  technology: null
+- key: syllogistic_logic
+  name: Syllogistic logic
+  description: Categorical propositions, Aristotelian syllogisms, their validity and their formalisation.
+  evidence:
+  - c1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: first_order_logic
+  name: First-order logic
+  description: Predicate logic syntax and semantics, quantifiers, formalisation of statements, and verification
+    of first-order propositions, practised in the lab.
+  evidence:
+  - c1
+  - c4
+  - o1
+  - o2
+  share: 0.16
+  level: introductory
+  kind: concept
+  technology: null
+- key: information_entropy
+  name: Information and entropy
+  description: Fundamental notions of information and entropy as introduced in the second part of the
+    course.
+  evidence:
+  - c2
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: computability_turing_machines
+  name: Computability and Turing machines
+  description: Fundamental notions of computability, with Turing machines as the formal model of computation.
+  evidence:
+  - c2
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: knowledge_representation_reasoning
+  name: Knowledge representation for automated reasoning
+  description: Techniques for representing knowledge in logical form so that it can be used by automated
+    reasoning systems.
+  evidence:
+  - c2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: modal_epistemic_logic
+  name: Modal and epistemic logic
+  description: Modal operators, possible-worlds semantics, and epistemic logic for reasoning about knowledge.
+  evidence:
+  - c3
+  share: 0.14
+  level: intermediate
+  kind: concept
+  technology: null
+- key: action_logic
+  name: Action logic
+  description: Logics that formalise actions and their effects on states, building on modal logic.
+  evidence:
+  - c3
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: imperative_programming_constructs
+  name: Fundamental constructs of imperative programming
+  description: The basic constructs of imperative programming (assignment, sequencing, conditionals, loops)
+    as reached through action logic.
+  evidence:
+  - c3
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

@@ -1,0 +1,145 @@
+format: extraction/1
+course: '91721'
+title: Laboratory of Virtual Reality and Advanced Reality
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 20.9
+  usage:
+    prompt_tokens: 3234
+    completion_tokens: 4629
+    cache_read_tokens: 1854
+    thinking_tokens: 3272
+  created: '2026-11-04T18:23:54+00:00'
+topics:
+- key: ar_vr_introduction
+  name: Introduction to AR and VR
+  description: Definitions, history and the basic idea of virtual and augmented reality as the foundation
+    for the rest of the course.
+  evidence:
+  - c1
+  - o1
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: real_time_graphics_ar_vr
+  name: Computer graphics for AR and VR
+  description: Real-time rendering principles, including the graphics pipeline, stereoscopic rendering
+    and the constraints imposed by head-mounted displays.
+  evidence:
+  - c2
+  - o1
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: perception_and_3d_ui_design
+  name: Perception, human factors and 3D UI design
+  description: Human perception and human factors that shape 3D user interfaces, together with strategies
+    for designing, developing and evaluating them.
+  evidence:
+  - c3
+  - o1
+  - o2
+  share: 0.11
+  level: intermediate
+  kind: concept
+  technology: null
+- key: interaction_techniques_ar_vr
+  name: Interaction techniques in AR and VR
+  description: Techniques for selection and manipulation, travel, navigation, wayfinding, system control
+    and symbolic input in immersive environments.
+  evidence:
+  - c4
+  - o2
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+- key: sensory_output_devices
+  name: Sensory output devices
+  description: Output hardware for the visual, auditory, haptic, vestibular and olfactory channels and
+    how each one is used to convey virtual stimuli.
+  evidence:
+  - c5
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: tracking_and_input_devices
+  name: Tracking systems and input devices
+  description: Tracking technologies that capture user position and orientation, and the input devices
+    used to interact with virtual environments.
+  evidence:
+  - c6
+  - o1
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: vr_content_standards_design
+  name: VR content standards and design
+  description: Standards and design practices for creating VR content so that it can be produced, exchanged
+    and interacted with consistently.
+  evidence:
+  - c7
+  - o2
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: vr_software_platforms
+  name: VR software platforms
+  description: Software platforms for VR, covering VR runtime systems, real-time physics engines, distributed
+    and collaborative virtual environments, and game engines.
+  evidence:
+  - c8
+  - o1
+  share: 0.13
+  level: intermediate
+  kind: tool
+  technology: null
+- key: mixed_reality_continuum
+  name: Mixed reality continuum and technologies
+  description: The mixed reality continuum from AR to VR and the technologies that combine real and virtual
+    content.
+  evidence:
+  - c9
+  - o1
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: avatars_in_virtual_environments
+  name: Avatars in virtual environments
+  description: Representation of users as avatars in virtual environments, including their design and
+    their role in presence and interaction.
+  evidence:
+  - c10
+  - o2
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: ar_vr_applications_and_future
+  name: Applications and future of AR and VR
+  description: Representative application domains of AR and VR and the expected future directions of the
+    field.
+  evidence:
+  - c11
+  - c12
+  - o1
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+not_topics:
+- id: c13
+  reason: Exercises and demonstrations are practical sessions that apply the topics above rather than
+    a teachable content item of their own.

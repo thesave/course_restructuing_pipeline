@@ -1,0 +1,119 @@
+format: extraction/1
+course: B3567
+title: INTRODUCTION TO QUANTUM COMPUTING
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 17.1
+  usage:
+    prompt_tokens: 3051
+    completion_tokens: 3701
+    cache_read_tokens: 1854
+    thinking_tokens: 2502
+  created: '2026-11-04T18:30:13+00:00'
+topics:
+- key: linear_algebra_hilbert_spaces
+  name: Linear algebra and complex Hilbert spaces
+  description: Vector spaces, inner products, unitary and Hermitian operators, and the Dirac notation
+    needed to describe quantum states and their evolution.
+  evidence:
+  - c1.2
+  - o1
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: qubits_quantum_paradigm
+  name: Qubits and the quantum computing paradigm
+  description: Overview of quantum computing as an alternative computing paradigm, and the qubit as a
+    unit of information with its state-vector representation, superposition, and measurement.
+  evidence:
+  - c1.1
+  - c1.3
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: quantum_circuit_model
+  name: Quantum circuit model
+  description: The quantum circuit as a computational model, covering quantum gates as unitary transformations,
+    universal gate sets, and circuit composition and measurement.
+  evidence:
+  - c1.4
+  - o1
+  share: 0.12
+  level: introductory
+  kind: technique
+  technology: null
+- key: oracle_algorithms
+  name: Oracle-based quantum algorithms
+  description: The Deutsch, Bernstein-Vazirani and Simon algorithms, which exploit quantum parallelism
+    and interference to solve oracle problems faster than classical methods.
+  evidence:
+  - c1.5
+  - c2.2
+  - o1
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: search_and_factoring_algorithms
+  name: Grover search and Shor factoring
+  description: Grover's amplitude-amplification search algorithm and Shor's factoring and period-finding
+    algorithm, including the quantum Fourier transform they rely on.
+  evidence:
+  - c2.2
+  - o1
+  share: 0.16
+  level: intermediate
+  kind: technique
+  technology: null
+- key: quantum_computational_complexity
+  name: Quantum computational complexity
+  description: Complexity classes for quantum computation such as BQP and their relation to classical
+    classes, used to assess the power of quantum algorithms.
+  evidence:
+  - c2.1
+  share: 0.07
+  level: advanced
+  kind: concept
+  technology: null
+- key: quantum_error_correction
+  name: Quantum error correction
+  description: Principles of protecting quantum information from decoherence and gate errors through quantum
+    error-correcting codes and fault-tolerance.
+  evidence:
+  - c2.3
+  - o2
+  share: 0.13
+  level: advanced
+  kind: technique
+  technology: null
+- key: quantum_protocols
+  name: Quantum protocols and quantum cryptography
+  description: Quantum communication and cryptographic protocols that use entanglement and quantum measurement
+    to achieve tasks such as secure key distribution.
+  evidence:
+  - c2.4
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: quantum_programming_languages
+  name: Quantum programming and graphical languages
+  description: Overview of languages and frameworks for writing quantum programs and the graphical languages
+    used to specify and reason about quantum circuits.
+  evidence:
+  - c2.5
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: language
+  technology: null
+not_topics: []

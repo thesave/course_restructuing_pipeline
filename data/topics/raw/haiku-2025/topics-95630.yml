@@ -1,0 +1,147 @@
+format: extraction/1
+course: '95630'
+title: Big Data and Cloud Platforms
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 17.9
+  usage:
+    prompt_tokens: 3699
+    completion_tokens: 4273
+    cache_read_tokens: 1854
+    thinking_tokens: 2847
+  created: '2026-11-04T18:25:52+00:00'
+topics:
+- key: big_data_architectures
+  name: Big data hardware and software architectures
+  description: Hardware infrastructures, cluster-based software architectures and the application areas
+    and challenges of big data systems.
+  evidence:
+  - c1.1
+  - o1.1
+  - o1.2
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: distributed_file_systems
+  name: Distributed file systems
+  description: How data is stored and replicated across the nodes of a cluster in distributed file systems.
+  evidence:
+  - c1.2
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: nosql_databases
+  name: NoSQL and new-generation databases
+  description: Data models, storage techniques and fundamentals of NoSQL database systems designed for
+    big data.
+  evidence:
+  - c1.2
+  - o1.3
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: mapreduce_paradigm
+  name: MapReduce programming paradigm
+  description: The map and reduce programming model for batch processing of large datasets in parallel.
+  evidence:
+  - c1.3
+  - o1.4
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: spark_application_design
+  name: Spark application design and optimization
+  description: Principles for designing and optimizing data-processing applications with Apache Spark.
+  evidence:
+  - c1.4
+  - o1.4
+  - o1.9
+  share: 0.14
+  level: intermediate
+  kind: tool
+  technology: Apache Spark
+- key: stream_processing
+  name: Stream processing architectures and algorithms
+  description: Architectures and algorithms for handling continuous streams of data in real time.
+  evidence:
+  - c1.5
+  - o1.4
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: data_platforms
+  name: Data platforms and ecosystems
+  description: The shift from single databases to integrated data ecosystems and modern data platforms.
+  evidence:
+  - c2.1
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: cloud_computing_fundamentals
+  name: Cloud computing fundamentals and service taxonomy
+  description: The definition of cloud computing and the taxonomy of cloud service models.
+  evidence:
+  - c2.2
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: cloud_data_and_iot_services
+  name: Cloud platform data and IoT services
+  description: Overview of the main cloud platforms and their services for data platforms, big data management
+    and IoT applications, and how to choose among them.
+  evidence:
+  - c2.3
+  - o1.6
+  - o1.7
+  share: 0.13
+  level: intermediate
+  kind: tool
+  technology: null
+- key: cloud_billing_models
+  name: Cloud billing models and cost estimation
+  description: The billing models behind cloud services and how to estimate the cost of a solution for
+    project management and quotations.
+  evidence:
+  - c2.4
+  - o1.8
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: cluster_migration_to_cloud
+  name: Cluster migration to the cloud
+  description: Comparing on-premises clusters with cloud deployments and the design patterns for migrating
+    and deploying big data solutions in the cloud.
+  evidence:
+  - c2.4
+  - o1.5
+  share: 0.03
+  level: intermediate
+  kind: technique
+  technology: null
+- key: cloud_deployment_labs
+  name: Hands-on cloud deployment of case studies
+  description: Practical deployment of real big data case studies on a cloud provider in laboratory sessions.
+  evidence:
+  - c2.5
+  - o1.9
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c3
+  reason: Seminars given by companies working with cloud and big data platforms; guest talks with no fixed
+    teachable content of their own.

@@ -1,0 +1,146 @@
+format: extraction/1
+course: '81676'
+title: Digital Forensic
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 28.4
+  usage:
+    prompt_tokens: 8570
+    completion_tokens: 6846
+    cache_read_tokens: 3708
+    thinking_tokens: 4080
+  created: '2026-11-04T18:18:48+00:00'
+topics:
+- key: forensic_investigation_process
+  name: Forensic investigation process
+  description: The forensic profession, the phases of a digital investigation, and the setup of the investigator's
+    office and forensic laboratory.
+  evidence:
+  - c1
+  - c2
+  - o1
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: evidence_acquisition_and_scene_processing
+  name: Evidence acquisition and scene processing
+  description: Identifying, collecting and acquiring digital data from devices, maintaining the chain
+    of custody, and processing crime and incident scenes.
+  evidence:
+  - c3
+  - c4
+  - o3
+  share: 0.12
+  level: introductory
+  kind: technique
+  technology: null
+- key: command_line_forensics
+  name: Command-line forensics
+  description: Examining Windows systems and using command-line interface tools to collect and analyse
+    forensic evidence.
+  evidence:
+  - c5
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: Windows
+- key: forensic_tools
+  name: Forensic tools
+  description: Hands-on use of current digital forensics software tools to manage common investigation
+    scenarios on computers, tablets and smartphones.
+  evidence:
+  - c6
+  - o2
+  share: 0.07
+  level: intermediate
+  kind: tool
+  technology: null
+- key: file_systems_and_file_recovery
+  name: File systems and file recovery
+  description: Linux and macOS file systems and the recovery of deleted graphics files.
+  evidence:
+  - c7
+  - c8
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: evidence_analysis_and_validation
+  name: Evidence analysis and validation
+  description: Analysing digital evidence and validating the methods and results of a forensic examination.
+  evidence:
+  - c9
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: network_live_and_vm_forensics
+  name: Network, live and virtual machine forensics
+  description: Investigating virtual machines, acquiring data from live systems, and analysing wired and
+    wireless network evidence.
+  evidence:
+  - c10
+  - o2
+  share: 0.1
+  level: advanced
+  kind: technique
+  technology: null
+- key: email_and_social_media
+  name: E-mail and social media investigation
+  description: Collecting and analysing evidence from e-mail accounts and social media platforms.
+  evidence:
+  - c11
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: mobile_device_forensics
+  name: Mobile device forensics
+  description: Acquiring and analysing data from smartphones and tablets.
+  evidence:
+  - c12
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: cloud_forensics
+  name: Cloud forensics
+  description: Concepts and challenges of acquiring and analysing digital evidence stored in cloud environments.
+  evidence:
+  - c13
+  share: 0.05
+  level: advanced
+  kind: concept
+  technology: null
+- key: forensic_report_writing
+  name: Forensic report writing
+  description: Drafting final investigation reports and the conceptual instruments that make them appropriate
+    and complete.
+  evidence:
+  - c14
+  - o4
+  share: 0.08
+  level: introductory
+  kind: technique
+  technology: null
+- key: expert_testimony_and_ethics
+  name: Expert testimony and ethics
+  description: The role of the digital forensic expert witness in legal proceedings and the ethical obligations
+    that govern it.
+  evidence:
+  - c15
+  - c16
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

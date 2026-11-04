@@ -1,0 +1,133 @@
+format: extraction/1
+course: '85445'
+title: Information Modelling and Web Technologies
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 23.2
+  usage:
+    prompt_tokens: 7424
+    completion_tokens: 5393
+    cache_read_tokens: 3708
+    thinking_tokens: 2895
+  created: '2026-11-04T18:20:17+00:00'
+topics:
+- key: data_structures_representation
+  name: Data structures and digital representation
+  description: Approaches to modelling data structures and representing data digitally, from raw data
+    to information, for permanent and robust storage and management.
+  evidence:
+  - c1.1
+  - o1
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: web_protocol_stack
+  name: Web protocol stack
+  description: The layered protocols underlying the web, as covered in the course's web fundamentals.
+  evidence:
+  - c1.2
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: character_encodings
+  name: Character encodings
+  description: How characters are encoded as bytes for web content, and how encodings are declared and
+    handled so documents display correctly.
+  evidence:
+  - c1.2
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: http_and_uri
+  name: HTTP and URI
+  description: The HTTP request-response model and the structure and use of URIs for identifying and addressing
+    web resources.
+  evidence:
+  - c1.3
+  - o2
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: web_document_markup
+  name: Web document markup
+  description: Writing structured web documents in HTML and checking them for correctness and universal
+    web publication.
+  evidence:
+  - c1.3
+  - o3
+  share: 0.12
+  level: introductory
+  kind: language
+  technology: HTML
+- key: visual_styling
+  name: Visual styling of web documents
+  description: Designing the visual presentation of web documents with Cascading Style Sheets.
+  evidence:
+  - c1.3
+  - o3
+  share: 0.1
+  level: introductory
+  kind: language
+  technology: CSS
+- key: structured_data_markup
+  name: Structured data markup
+  description: Representing structured data with XML documents and their syntactic rules.
+  evidence:
+  - c1.3
+  share: 0.08
+  level: intermediate
+  kind: language
+  technology: XML
+- key: client_side_scripting
+  name: Client-side scripting
+  description: Core JavaScript constructs and client-side scripting for web pages and web applications.
+  evidence:
+  - c1.4
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: language
+  technology: JavaScript
+- key: ajax_communication
+  name: Ajax asynchronous communication
+  description: Asynchronous client-server communication in the browser with Ajax, to build simple distributed
+    web applications.
+  evidence:
+  - c1.4
+  - o3
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: JavaScript
+- key: data_exchange_format
+  name: Data exchange format
+  description: Representing and exchanging structured data between client and server in JSON.
+  evidence:
+  - c1.4
+  share: 0.05
+  level: introductory
+  kind: language
+  technology: JSON
+- key: client_side_frameworks
+  name: Client-side JavaScript frameworks
+  description: Using modern JavaScript frameworks to build client-side web applications.
+  evidence:
+  - c1.4
+  - o2
+  share: 0.05
+  level: advanced
+  kind: tool
+  technology: JavaScript
+not_topics:
+- id: c1
+  reason: Enclosing heading that only introduces the list of topics; its teachable content is carried
+    by c1.1 to c1.4.

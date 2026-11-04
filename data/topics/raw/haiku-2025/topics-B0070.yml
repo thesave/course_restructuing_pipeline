@@ -1,0 +1,132 @@
+format: extraction/1
+course: B0070
+title: METODOLOGIE E TECNICHE DI SIMULAZIONE
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 19.7
+  usage:
+    prompt_tokens: 3638
+    completion_tokens: 4359
+    cache_read_tokens: 1854
+    thinking_tokens: 3108
+  created: '2026-11-04T18:29:16+00:00'
+topics:
+- key: semantic_web_foundations
+  name: Semantic Web foundations
+  description: The Semantic Web vision and its core standards for representing linked data, including
+    URIs, RDF triples and RDFS vocabularies.
+  evidence:
+  - c4.1
+  - c2
+  - o1
+  - o3
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: ontology_engineering
+  name: Ontology design and engineering with OWL
+  description: Principles of building ontologies with OWL (classes, properties, individuals and axioms),
+    covering modelling choices and the design of ontologies for knowledge graphs.
+  evidence:
+  - c4.1
+  - c2
+  - o3
+  share: 0.15
+  level: intermediate
+  kind: technique
+  technology: OWL
+- key: knowledge_graph_design
+  name: Knowledge graph modelling
+  description: Theoretical foundations of ontology-based knowledge graph modelling, including how entities,
+    relations and schemas are combined to design and build knowledge graphs.
+  evidence:
+  - c1
+  - c2
+  - o3
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: knowledge_graph_querying
+  name: Querying knowledge graphs with SPARQL
+  description: Methods and practical use of the SPARQL query language and query engine to explore and
+    retrieve information from RDF knowledge graphs.
+  evidence:
+  - c1
+  - c2
+  - c5.1
+  - o3
+  share: 0.13
+  level: intermediate
+  kind: language
+  technology: SPARQL
+- key: ontology_diagramming
+  name: Ontology diagramming with Graffoo
+  description: Visual modelling of ontologies using the Graffoo tool and its OWL diagram notation.
+  evidence:
+  - c5.2
+  - o3
+  share: 0.05
+  level: introductory
+  kind: tool
+  technology: Graffoo
+- key: version_control_collaboration
+  name: Version control and collaboration on GitHub
+  description: Use of GitHub to store, version and share course project artefacts such as ontologies,
+    queries and code.
+  evidence:
+  - c5.3
+  share: 0.03
+  level: introductory
+  kind: tool
+  technology: GitHub
+- key: ai_paradigms_overview
+  name: Overview of artificial intelligence methods
+  description: Survey of AI applications and methods, contrasting knowledge-based AI with machine learning-based
+    AI.
+  evidence:
+  - c4.2
+  - o2
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: large_language_models
+  name: Large Language Models
+  description: Characteristics of LLMs and their practical use through models such as GPT, Llama, Mistral,
+    Mixtral and Gemini.
+  evidence:
+  - c3
+  - c5.4
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: prompting_techniques
+  name: Prompting techniques
+  description: Main prompting techniques for eliciting desired behaviour from LLMs.
+  evidence:
+  - c3
+  - c4.3
+  - o4
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: prompting_with_knowledge_graphs
+  name: Combining prompting with knowledge graphs
+  description: Using prompting techniques together with knowledge graphs to ground and enhance LLM interactions.
+  evidence:
+  - o4
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

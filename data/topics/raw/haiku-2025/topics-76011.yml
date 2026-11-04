@@ -1,0 +1,128 @@
+format: extraction/1
+course: '76011'
+title: Multimedia Technologies in Archaelogy
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 25.3
+  usage:
+    prompt_tokens: 10970
+    completion_tokens: 5993
+    cache_read_tokens: 3708
+    thinking_tokens: 3164
+  created: '2026-11-04T18:17:18+00:00'
+topics:
+- key: multimedia_cultural_heritage_context
+  name: Multimedia technologies in cultural heritage
+  description: Critical overview of how multimedia and digital information technologies have developed
+    and are used in cultural heritage and archaeology, including networked, server-based and metadata-driven
+    information systems.
+  evidence:
+  - c3.1
+  - o1
+  - o2
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: archaeological_survey_workflow
+  name: Archaeological survey and reconstruction workflow
+  description: The logical-operational framework of the key phases needed to survey, document, analyse
+    and virtually reconstruct an archaeological context.
+  evidence:
+  - c3.2
+  share: 0.06
+  level: introductory
+  kind: technique
+  technology: null
+- key: total_station_gnss_surveying
+  name: Total station and GNSS surveying
+  description: Use of total stations and GNSS receivers to acquire accurate positional and topographic
+    data on archaeological sites.
+  evidence:
+  - c4.1
+  share: 0.12
+  level: introductory
+  kind: technique
+  technology: null
+- key: terrestrial_laser_scanning
+  name: Terrestrial laser scanning
+  description: Acquisition of dense 3D point clouds of archaeological sites and objects with laser scanners.
+  evidence:
+  - c4.1
+  - c4.3
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: digital_photogrammetry
+  name: Digital photogrammetry
+  description: Image-based acquisition of 3D data from overlapping photographs for documenting archaeological
+    contexts.
+  evidence:
+  - c4.1
+  - c4.3
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: site_documentation_challenges
+  name: Challenges of documenting archaeological sites
+  description: Main difficulties in documenting archaeological sites, related to their spatial extent
+    and preservation conditions.
+  evidence:
+  - c4.2
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: point_cloud_processing
+  name: Processing 3D models from point clouds
+  description: Workflows for turning point clouds from laser scanning and photogrammetry into processed
+    3D models.
+  evidence:
+  - c4.3
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: scientific_virtual_reconstruction
+  name: Scientific virtual reconstruction methodology
+  description: Principles and step-by-step methodology for producing scientifically rigorous virtual reconstructions
+    of archaeological objects and contexts, based on documented evidence and illustrated by case studies,
+    with digital surveying as their accuracy foundation.
+  evidence:
+  - c5.1
+  - c5.2
+  - c5.3
+  - c5.4
+  - c5.6
+  share: 0.16
+  level: intermediate
+  kind: concept
+  technology: null
+- key: reconstruction_graphics_presentation
+  name: 2D drawing, 3D modelling and public presentation
+  description: Generating 2D vector drawings and 3D reconstructed models with computer graphics tools,
+    and planning how to present the final reconstruction to the public.
+  evidence:
+  - c5.5
+  share: 0.18
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Stray fragment ('T') with no teachable content.
+- id: c2
+  reason: General overview of the three-part course structure, not a topic itself.
+- id: c3
+  reason: Part heading; its content is covered by sub-items c3.1 and c3.2.
+- id: c4
+  reason: Part heading; its content is covered by sub-items c4.1 to c4.3.
+- id: c5
+  reason: Part heading; its content is covered by sub-items c5.1 to c5.6.

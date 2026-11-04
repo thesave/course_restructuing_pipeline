@@ -1,0 +1,180 @@
+format: extraction/1
+course: '84531'
+title: Infrastructures For Cloud Computing and Big Data M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 33.5
+  usage:
+    prompt_tokens: 11473
+    completion_tokens: 8260
+    cache_read_tokens: 3708
+    thinking_tokens: 4703
+  created: '2026-11-04T18:19:54+00:00'
+topics:
+- key: distributed_system_models
+  name: Distributed system models
+  description: Classification of distributed systems and the distinction between client/server and message-exchange
+    models, with their goals and implications, plus parallelization models.
+  evidence:
+  - c2
+  - c9
+  - c9.2
+  - o2
+  share: 0.0781
+  level: introductory
+  kind: concept
+  technology: null
+- key: cloud_models_and_architecture
+  name: Cloud models and architecture
+  description: Service and cloud deployment models, data centers, multicloud systems and resource federation,
+    and the internal design of cloud systems.
+  evidence:
+  - c1
+  - c9.2
+  - c9.3
+  share: 0.0781
+  level: introductory
+  kind: concept
+  technology: null
+- key: middleware_for_distributed_systems
+  name: Middleware for distributed systems
+  description: Definitions, categories, basic organization and architectural patterns of middleware for
+    developing and managing large distributed and cloud systems.
+  evidence:
+  - c4
+  - c9.3
+  - c15
+  - o3
+  share: 0.0625
+  level: intermediate
+  kind: concept
+  technology: null
+- key: consistency_models_cap_base
+  name: Consistency models, CAP and BASE
+  description: Different degrees of consistency and their impact on service properties, as framed by the
+    CAP theorem and BASE principles.
+  evidence:
+  - c10
+  - o1
+  share: 0.0625
+  level: intermediate
+  kind: concept
+  technology: null
+- key: replication_strategies
+  name: Replication strategies and protocols
+  description: Replication models, strategies and protocols used to keep data copies in distributed systems
+    consistent and available.
+  evidence:
+  - c3
+  - c11
+  share: 0.0781
+  level: intermediate
+  kind: technique
+  technology: null
+- key: group_communication
+  name: Group and many-to-many communication
+  description: Models, protocols and algorithms for group communication and many-to-many message exchange
+    among distributed processes.
+  evidence:
+  - c3
+  - c12
+  share: 0.0781
+  level: intermediate
+  kind: technique
+  technology: null
+- key: qos_systems
+  name: Quality of service systems and protocols
+  description: Systems and protocols that provide quality-of-service guarantees in large distributed and
+    cloud systems.
+  evidence:
+  - c3
+  - c13
+  share: 0.0625
+  level: intermediate
+  kind: concept
+  technology: null
+- key: multicast_and_mom
+  name: Multicast and message-oriented middleware
+  description: Multicast communication and message-oriented middleware (MOM), including very thin MOM
+    environments.
+  evidence:
+  - c14
+  - c15.2
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: null
+- key: distributed_object_middleware
+  name: Distributed object middleware and its operating environment
+  description: The CORBA middleware and its operating environment for distributed object communication.
+  evidence:
+  - c15.1
+  share: 0.0625
+  level: intermediate
+  kind: tool
+  technology: CORBA
+- key: iaas_cloud_platform
+  name: Open-source IaaS cloud platform
+  description: A widely deployed open-source IaaS cloud platform, its components and how it manages cloud
+    infrastructure.
+  evidence:
+  - c15.3
+  share: 0.0625
+  level: intermediate
+  kind: tool
+  technology: OpenStack
+- key: nosql_data_storage
+  name: NoSQL global data storage
+  description: Non-traditional NoSQL data storage for global infrastructures, illustrated with Cassandra
+    and MongoDB.
+  evidence:
+  - c5
+  - c16
+  - c16.1
+  share: 0.0938
+  level: intermediate
+  kind: technique
+  technology: null
+- key: batch_big_data_processing
+  name: Batch big data processing
+  description: Batch processing of big data with the Map-Reduce paradigm and Spark on scalable global
+    infrastructures.
+  evidence:
+  - c6
+  - c16.2
+  share: 0.0938
+  level: intermediate
+  kind: technique
+  technology: null
+- key: stream_processing_systems
+  name: Stream processing systems
+  description: Streaming big data processing with Storm and S4.
+  evidence:
+  - c16.2
+  share: 0.0781
+  level: intermediate
+  kind: technique
+  technology: null
+- key: effective_design_principles
+  name: Effective design principles for distributed projects
+  description: Main properties to consider when designing effective distributed and big data applications
+    using the covered middleware and infrastructures.
+  evidence:
+  - c16.3
+  - o3
+  share: 0.0469
+  level: advanced
+  kind: concept
+  technology: null
+not_topics:
+- id: c7
+  reason: Exhortation to be competent through personal reflection; no teachable content of its own.
+- id: c8
+  reason: Lead-in sentence introducing the list of topics; no content.
+- id: c9.1
+  reason: Organisational presentation of the class and general information, not teachable content.

@@ -1,0 +1,61 @@
+format: extraction/1
+course: 07276-C
+title: Computer Science
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 16.3
+  usage:
+    prompt_tokens: 2928
+    completion_tokens: 3297
+    cache_read_tokens: 1854
+    thinking_tokens: 2788
+  created: '2026-11-04T18:08:39+00:00'
+topics:
+- key: computer_systems_and_os
+  name: Computer systems and operating systems
+  description: Basic computer architecture and operating system concepts, together with configuring and
+    using a PC connected to the Internet.
+  evidence:
+  - c1
+  - c2
+  share: 0.2
+  level: introductory
+  kind: concept
+  technology: null
+- key: spreadsheets_and_search_engines
+  name: Spreadsheets and search engines
+  description: Using spreadsheets for data organisation and calculation, and using search engines effectively
+    for research.
+  evidence:
+  - c3
+  share: 0.2
+  level: introductory
+  kind: tool
+  technology: null
+- key: information_systems_and_databases
+  name: Information systems, networks, web and databases
+  description: Firm information systems, network and Web infrastructure, and relational databases queried
+    with SQL.
+  evidence:
+  - c4
+  - c5
+  share: 0.4
+  level: intermediate
+  kind: concept
+  technology: null
+- key: medical_devices_and_ai_in_physiotherapy
+  name: Medical devices and AI in physiotherapy
+  description: Overview of medical devices and of applications of artificial intelligence in the medical
+    and physiotherapy context.
+  evidence:
+  - c6
+  share: 0.2
+  level: introductory
+  kind: concept
+  technology: null
+not_topics: []

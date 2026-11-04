@@ -1,0 +1,203 @@
+format: extraction/1
+course: '28020'
+title: Operating Systems T
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 32.6
+  usage:
+    prompt_tokens: 9221
+    completion_tokens: 8268
+    cache_read_tokens: 3708
+    thinking_tokens: 4255
+  created: '2026-11-04T18:11:21+00:00'
+topics:
+- key: process_management
+  name: Process management
+  description: Process states, the process representation in UNIX/Linux, process scheduling and management,
+    and the commands and system calls that operate on processes.
+  evidence:
+  - c1
+  share: 0.083
+  level: intermediate
+  kind: concept
+  technology: UNIX
+- key: cpu_scheduling
+  name: CPU scheduling
+  description: Scheduling queues, preemption and the dispatcher, scheduling criteria, the classic algorithms
+    (FCFS, SJF, priority, round-robin, multilevel queues), and the schedulers of UNIX, Linux and Windows
+    XP.
+  evidence:
+  - c2
+  - c2.1
+  - c2.2
+  - c2.3
+  - c2.4
+  - o1
+  share: 0.096
+  level: intermediate
+  kind: technique
+  technology: null
+- key: mutual_exclusion
+  name: Mutual exclusion and critical sections
+  description: The critical-section problem, mutual exclusion among processes sharing memory, and hardware
+    support for it through test-and-set.
+  evidence:
+  - c3.1
+  - c3.3
+  - c8.1
+  - o2
+  share: 0.069
+  level: intermediate
+  kind: technique
+  technology: null
+- key: semaphores
+  name: Semaphores
+  description: Semaphores as the shared-memory synchronization primitive, including their wait and signal
+    operations and their use to solve synchronization and mutual exclusion problems.
+  evidence:
+  - c3.2
+  - c8.2
+  - o2
+  share: 0.069
+  level: intermediate
+  kind: technique
+  technology: null
+- key: monitors
+  name: Monitors
+  description: The monitor construct for process synchronization, with its encapsulation of shared data,
+    mutual exclusion and condition variables.
+  evidence:
+  - c8.3
+  share: 0.042
+  level: intermediate
+  kind: concept
+  technology: null
+- key: thread_synchronization
+  name: Thread synchronization
+  description: Synchronization between Java threads using the language's locking and monitor mechanisms
+    to protect shared data.
+  evidence:
+  - c8.4
+  - o2
+  share: 0.042
+  level: intermediate
+  kind: technique
+  technology: Java
+- key: message_passing_ipc
+  name: Message passing between processes
+  description: Interprocess communication by message passing, covering direct and indirect communication,
+    symmetric and asymmetric addressing, and message buffering.
+  evidence:
+  - c4.1
+  - o2
+  share: 0.042
+  level: intermediate
+  kind: concept
+  technology: null
+- key: pipes_fifos_signals
+  name: Pipes, FIFOs and signals
+  description: Communication and synchronization between UNIX processes through pipes, named pipes (FIFOs)
+    and signals.
+  evidence:
+  - c4.2
+  - o2
+  share: 0.056
+  level: intermediate
+  kind: technique
+  technology: UNIX
+- key: file_system_implementation
+  name: File system implementation
+  description: General file system concepts and how a file system is implemented on storage.
+  evidence:
+  - c5.1
+  - o1
+  share: 0.042
+  level: intermediate
+  kind: concept
+  technology: null
+- key: file_system_organization
+  name: UNIX file system organization
+  description: The logical and physical organization of the UNIX file system, and the commands and system
+    calls used to manage and access files and directories.
+  evidence:
+  - c5.2
+  - o1
+  share: 0.083
+  level: intermediate
+  kind: concept
+  technology: UNIX
+- key: contiguous_memory_allocation
+  name: Address binding and contiguous allocation
+  description: Address spaces and address binding, and contiguous memory allocation with single and multiple
+    partitions, including fragmentation.
+  evidence:
+  - c6.1
+  - c6.2
+  - o1
+  share: 0.083
+  level: intermediate
+  kind: technique
+  technology: null
+- key: paging_segmentation_memory
+  name: Paging, segmentation and UNIX memory management
+  description: Non-contiguous memory allocation through paging and segmentation with virtual memory, and
+    how UNIX/Linux manage memory.
+  evidence:
+  - c6.3
+  - c6.4
+  - o1
+  share: 0.083
+  level: intermediate
+  kind: technique
+  technology: null
+- key: shell_filters_redirection
+  name: Shell basics, filters and redirection
+  description: Introduction to the Linux bash shell, shell filter commands, and piping and redirection
+    of input and output.
+  evidence:
+  - c7.1
+  - c7.2
+  - c7.3
+  share: 0.056
+  level: introductory
+  kind: tool
+  technology: Bash
+- key: shell_scripting
+  name: Shell scripting
+  description: Metacharacter expansion, control structures and writing shell command files (scripts) in
+    bash.
+  evidence:
+  - c7.4
+  - c7.5
+  - c7.6
+  share: 0.056
+  level: intermediate
+  kind: language
+  technology: Bash
+- key: io_architecture_drivers
+  name: I/O subsystem architecture and device drivers
+  description: The architecture of the operating system's I/O subsystem and the role of device drivers.
+  evidence:
+  - c9.1
+  - c9.2
+  - o1
+  share: 0.042
+  level: intermediate
+  kind: concept
+  technology: null
+- key: io_transfer_techniques
+  name: Device I/O control techniques
+  description: Programmed I/O, interrupt-driven I/O and DMA as methods for managing device operations.
+  evidence:
+  - c9.3
+  - o1
+  share: 0.056
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

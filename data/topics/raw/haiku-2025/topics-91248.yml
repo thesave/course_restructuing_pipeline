@@ -1,0 +1,244 @@
+format: extraction/1
+course: '91248'
+title: Fundamentals of Artificial Intelligence and Knowledge Representation
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 41.8
+  usage:
+    prompt_tokens: 9907
+    completion_tokens: 11044
+    cache_read_tokens: 3708
+    thinking_tokens: 5703
+  created: '2026-11-04T18:22:48+00:00'
+topics:
+- key: ai_introduction
+  name: Introduction to artificial intelligence
+  description: Historical development of AI, its main application fields, and the architecture of knowledge-based
+    systems.
+  evidence:
+  - c3.1
+  share: 0.03125
+  level: introductory
+  kind: concept
+  technology: null
+- key: state_space_search
+  name: State-space problem solving and search
+  description: Modelling problems as states, forward and backward reasoning, and uninformed and informed
+    search strategies.
+  evidence:
+  - c3.2
+  share: 0.0729167
+  level: intermediate
+  kind: technique
+  technology: null
+- key: game_playing
+  name: Game playing and adversarial search
+  description: Search methods for two-player games, such as minimax and alpha-beta pruning, applied to
+    AI game-playing agents.
+  evidence:
+  - c3.2
+  share: 0.0416667
+  level: intermediate
+  kind: technique
+  technology: null
+- key: constraint_satisfaction
+  name: Constraint satisfaction problems
+  description: Formulating problems as variables, domains and constraints, and solving them with backtracking
+    and constraint propagation.
+  evidence:
+  - c3.2
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: null
+- key: local_search_metaheuristics
+  name: Local search and metaheuristics
+  description: Iterative improvement methods for optimisation problems, including hill climbing and general
+    metaheuristics.
+  evidence:
+  - c3.3
+  share: 0.0520833
+  level: intermediate
+  kind: technique
+  technology: null
+- key: branch_and_bound_relaxation
+  name: Decomposition, relaxation and branch-and-bound
+  description: Solving problems by decomposition, constraint relaxation and branch-and-bound pruning of
+    the search space.
+  evidence:
+  - c3.3
+  share: 0.0416667
+  level: intermediate
+  kind: technique
+  technology: null
+- key: classical_planning
+  name: Classical planning
+  description: Representing planning problems and computing plans with linear and partial-order planning.
+  evidence:
+  - c3.4
+  share: 0.0625
+  level: intermediate
+  kind: technique
+  technology: null
+- key: graphplan
+  name: Graph-based planning (GraphPlan)
+  description: Building and searching planning graphs to synthesise plans with the GraphPlan algorithm.
+  evidence:
+  - c3.4
+  share: 0.03125
+  level: advanced
+  kind: technique
+  technology: null
+- key: scheduling
+  name: Scheduling
+  description: Modelling and solving scheduling problems with AI search and planning techniques.
+  evidence:
+  - c3.4
+  share: 0.03125
+  level: intermediate
+  kind: technique
+  technology: null
+- key: knowledge_representation_reasoning
+  name: Knowledge representation and reasoning
+  description: Introduction to the principles of representing knowledge formally and drawing inferences
+    from it.
+  evidence:
+  - c4.1
+  share: 0.03125
+  level: introductory
+  kind: concept
+  technology: null
+- key: semantic_networks_ontologies
+  name: Semantic networks and ontologies
+  description: Representing terminological knowledge with semantic networks and the foundations of ontologies.
+  evidence:
+  - c4.2
+  share: 0.0416667
+  level: introductory
+  kind: concept
+  technology: null
+- key: description_logics
+  name: Description logics
+  description: Logic-based representation of concepts, roles and individuals, and reasoning over terminological
+    knowledge bases.
+  evidence:
+  - c4.2
+  share: 0.0520833
+  level: intermediate
+  kind: concept
+  technology: null
+- key: action_event_representation
+  name: Representing actions, situations and events
+  description: Formal representation of actions, their effects, situations and events in a knowledge base.
+  evidence:
+  - c4.3
+  share: 0.03125
+  level: intermediate
+  kind: concept
+  technology: null
+- key: logic_programming
+  name: Logic programming in Prolog
+  description: 'Logic programming in Prolog: clauses, unification, resolution and the core constructs
+    of the language.'
+  evidence:
+  - c4.4
+  share: 0.0729167
+  level: intermediate
+  kind: language
+  technology: Prolog
+- key: meta_interpreters_dcg
+  name: Meta-interpreters and definite clause grammars
+  description: Writing Prolog meta-interpreters to extend or inspect inference, and parsing with definite
+    clause grammars (DCG).
+  evidence:
+  - c4.4
+  share: 0.0416667
+  level: intermediate
+  kind: technique
+  technology: Prolog
+- key: planning_temporal_reasoning
+  name: Planning and temporal reasoning in Prolog
+  description: Implementing planning in Prolog and reasoning about time with the Event Calculus.
+  evidence:
+  - c4.3
+  - c4.4
+  share: 0.0416667
+  level: advanced
+  kind: technique
+  technology: Prolog
+- key: probabilistic_logic_programming
+  name: Probabilistic logic programming (LPAD)
+  description: Logic programs with probabilistic annotated disjunctions (LPAD) for representing and reasoning
+    with uncertain knowledge.
+  evidence:
+  - c4.4
+  share: 0.03125
+  level: advanced
+  kind: language
+  technology: LPAD
+- key: forward_chaining_rete
+  name: Forward chaining and the RETE algorithm
+  description: Rule-based forward-chaining inference and the RETE algorithm for efficient pattern matching
+    in production systems.
+  evidence:
+  - c4.5
+  share: 0.0416667
+  level: intermediate
+  kind: technique
+  technology: null
+- key: production_rule_engines
+  name: Production rule engines with Drools
+  description: Writing and executing business rules with the Drools rule engine.
+  evidence:
+  - c4.5
+  share: 0.03125
+  level: intermediate
+  kind: tool
+  technology: Drools
+- key: probabilistic_reasoning_basics
+  name: Reasoning under uncertainty
+  description: Probability queries and the notion of independence as a basis for reasoning with uncertain
+    knowledge.
+  evidence:
+  - c5.1
+  share: 0.0416667
+  level: introductory
+  kind: concept
+  technology: null
+- key: bayesian_networks
+  name: Bayesian networks
+  description: Representing joint probability distributions with Bayesian networks and reasoning about
+    their structure.
+  evidence:
+  - c5.2
+  share: 0.0520833
+  level: intermediate
+  kind: concept
+  technology: null
+- key: bayesian_inference
+  name: Exact and approximate inference in Bayesian networks
+  description: Exact inference algorithms and approximate sampling-based inference for answering queries
+    on Bayesian networks.
+  evidence:
+  - c5.2
+  share: 0.0625
+  level: advanced
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: General course overview; its themes are covered by the topics listed above.
+- id: c2
+  reason: Organisational remark on hands-on labs and seminars; the lab work applies the topics above and
+    has no separate teaching content.
+- id: c3
+  reason: Module 1 heading; its items are covered by the topics above.
+- id: c4
+  reason: Module 2 heading; its items are covered by the topics above.
+- id: c5
+  reason: Module 3 heading; its items are covered by the topics above.

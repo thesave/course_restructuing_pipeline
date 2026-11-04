@@ -1,0 +1,169 @@
+format: extraction/1
+course: B5793
+title: Cybersecurity M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 15.4
+  usage:
+    prompt_tokens: 3045
+    completion_tokens: 3543
+    cache_read_tokens: 1854
+    thinking_tokens: 1934
+  created: '2026-11-04T18:32:01+00:00'
+topics:
+- key: cybersecurity_goals
+  name: Cybersecurity goals
+  description: Defines the core security objectives of confidentiality, integrity and availability of
+    information and services, and why availability matters.
+  evidence:
+  - c2
+  - o1
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: threat_landscape_and_actors
+  name: Threat landscape and threat actors
+  description: Surveys the current cyber scenario and analyses the types of threat actors, their motivations
+    and the most dangerous threats to society and organisations.
+  evidence:
+  - c1
+  - c4
+  - o2
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: offensive_and_defensive_security
+  name: Offensive and defensive security
+  description: Contrasts offensive security (attack-oriented testing) with defensive security (protection,
+    detection and response) and how the two complement each other.
+  evidence:
+  - c3
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: vulnerabilities_human_and_technical
+  name: Human and technological vulnerabilities
+  description: Examines the main sources of vulnerability in systems, covering both human factors and
+    technological weaknesses, and why every digital activity is exposed.
+  evidence:
+  - c5
+  - o1
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: top_down_security_approach
+  name: Top-down approach to cybersecurity
+  description: Presents a top-down methodology that starts from business objectives and organisational
+    context before deriving technical security controls.
+  evidence:
+  - c6
+  share: 0.04
+  level: intermediate
+  kind: technique
+  technology: null
+- key: cyber_risk_management
+  name: Cyber risk management
+  description: Covers the process of identifying, assessing, treating and monitoring cyber risks within
+    an organisation.
+  evidence:
+  - c7
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: qualitative_and_quantitative_risk_evaluation
+  name: Qualitative and quantitative risk evaluation
+  description: Teaches methods to evaluate cyber risks using qualitative scales and quantitative measures
+    such as expected loss estimation.
+  evidence:
+  - c8
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: security_strategies_policies_technologies
+  name: Security strategies, policies and technologies
+  description: Covers modern defensive strategies, security policies and the technologies used to design
+    and build secure systems.
+  evidence:
+  - c9
+  - o3
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: security_assessment_and_validation
+  name: Security assessment and validation
+  description: Describes how to assess and validate the security of systems and controls to verify that
+    defences work as intended.
+  evidence:
+  - c10
+  - o3
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: cyber_threat_intelligence
+  name: Cyber threat intelligence
+  description: Explains how to collect, analyse and use threat information to anticipate and evaluate
+    the most dangerous cyber threats.
+  evidence:
+  - c11
+  - o2
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: machine_learning_for_security
+  name: Machine learning for cybersecurity
+  description: Explores the application of machine learning techniques to detect and respond to cyber
+    threats, along with their limitations.
+  evidence:
+  - c12
+  - o3
+  share: 0.07
+  level: advanced
+  kind: technique
+  technology: null
+- key: zero_trust_architecture
+  name: Zero Trust architecture
+  description: Introduces the Zero Trust security model, which removes implicit trust and continuously
+    verifies every access request.
+  evidence:
+  - c12
+  - o3
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: deception_technologies
+  name: Deception technologies
+  description: Covers defensive deception techniques such as honeypots and decoys that mislead attackers
+    and reveal their activities.
+  evidence:
+  - c12
+  - o3
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: cybersecurity_competences_and_jobs
+  name: Cybersecurity competences and jobs
+  description: Outlines the skills required and the professional roles available in the cybersecurity
+    field.
+  evidence:
+  - c13
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+not_topics: []

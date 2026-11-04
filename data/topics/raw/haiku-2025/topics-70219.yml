@@ -1,0 +1,163 @@
+format: extraction/1
+course: '70219'
+title: Object-Oriented Programming
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 24.2
+  usage:
+    prompt_tokens: 7716
+    completion_tokens: 5463
+    cache_read_tokens: 3708
+    thinking_tokens: 2413
+  created: '2026-11-04T18:15:31+00:00'
+topics:
+- key: oop_principles
+  name: Object-oriented programming principles
+  description: Core ideas of the object-oriented paradigm and the basic principles of object-oriented
+    software design.
+  evidence:
+  - c1
+  - o1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: development_toolchain
+  name: Development tools and environment setup
+  description: Overview of the Java language and platform and setting up the JDK, VSCode and Git as the
+    development environment.
+  evidence:
+  - c2
+  - c10
+  share: 0.05
+  level: introductory
+  kind: tool
+  technology: Java
+- key: classes_and_objects
+  name: Classes, objects and methods
+  description: Defining classes with fields and methods, and creating objects through instantiation in
+    Java.
+  evidence:
+  - c3
+  - o1
+  share: 0.12
+  level: introductory
+  kind: language
+  technology: Java
+- key: inheritance_and_polymorphism
+  name: Inheritance and polymorphism
+  description: Extending classes to reuse code and using dynamic dispatch and overriding to write polymorphic
+    code in Java.
+  evidence:
+  - c4
+  - o1
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: Java
+- key: interfaces_and_abstract_classes
+  name: Interfaces and abstract classes
+  description: Using interfaces and abstract classes to specify contracts and achieve reuse and decoupling
+    in Java.
+  evidence:
+  - c4
+  - o1
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: Java
+- key: generics
+  name: Generics
+  description: Writing type-parameterized classes and methods with generics in Java, including bounded
+    types and type safety.
+  evidence:
+  - c5
+  share: 0.05
+  level: intermediate
+  kind: language
+  technology: Java
+- key: annotations
+  name: Annotations
+  description: Declaring and using annotations in Java to attach metadata to program elements.
+  evidence:
+  - c5
+  share: 0.03
+  level: intermediate
+  kind: language
+  technology: Java
+- key: exception_handling
+  name: Exception handling
+  description: Throwing, catching and declaring exceptions to handle errors in Java programs.
+  evidence:
+  - c5
+  share: 0.05
+  level: intermediate
+  kind: language
+  technology: Java
+- key: inner_classes_and_lambdas
+  name: Inner classes and lambda expressions
+  description: Nested and anonymous inner classes and lambda expressions with functional interfaces in
+    Java.
+  evidence:
+  - c5
+  share: 0.06
+  level: intermediate
+  kind: language
+  technology: Java
+- key: standard_library_basics
+  name: Basic Java libraries
+  description: Using the core Java standard library for building programs, such as strings, collections
+    and utility classes.
+  evidence:
+  - c6
+  share: 0.1
+  level: intermediate
+  kind: tool
+  technology: Java
+- key: io_management
+  name: Input and output management
+  description: Reading and writing data with Java I/O streams and readers/writers.
+  evidence:
+  - c7
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: Java
+- key: graphical_user_interfaces
+  name: Graphical user interfaces and events
+  description: Building graphical user interfaces in Java and handling user events through listeners and
+    callbacks.
+  evidence:
+  - c7
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: Java
+- key: concurrent_programming
+  name: Concurrent programming with threads
+  description: Creating and synchronizing threads in Java to run concurrent tasks safely.
+  evidence:
+  - c8
+  - o1
+  share: 0.1
+  level: advanced
+  kind: technique
+  technology: Java
+- key: design_patterns
+  name: Design patterns and effective programming
+  description: Overview of basic object-oriented design patterns and techniques for writing effective,
+    maintainable code.
+  evidence:
+  - c9
+  - o1
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

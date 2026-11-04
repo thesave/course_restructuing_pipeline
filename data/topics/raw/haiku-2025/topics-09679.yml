@@ -1,0 +1,119 @@
+format: extraction/1
+course: 09679
+title: Data Base Sistems
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 15.3
+  usage:
+    prompt_tokens: 3208
+    completion_tokens: 2872
+    cache_read_tokens: 1854
+    thinking_tokens: 1855
+  created: '2026-11-04T18:09:13+00:00'
+topics:
+- key: information_systems_foundations
+  name: Information systems foundations
+  description: Core definitions and role of information systems in organizations, as introduced in the
+    course opening.
+  evidence:
+  - c1
+  share: 0.0625
+  level: introductory
+  kind: concept
+  technology: null
+- key: application_portfolio_classification
+  name: IS classification and application portfolio
+  description: Classification of information systems and software modules, and management of the company's
+    application portfolio.
+  evidence:
+  - c2
+  - c3
+  - o1.2
+  share: 0.1042
+  level: intermediate
+  kind: concept
+  technology: null
+- key: enterprise_systems
+  name: Enterprise systems (CIM, ERP, CRM)
+  description: Functions, architecture and role in the organization of manufacturing (CIM), enterprise
+    resource planning (ERP) and customer relationship management (CRM) systems.
+  evidence:
+  - c4
+  - c5
+  - c6
+  share: 0.1667
+  level: intermediate
+  kind: concept
+  technology: null
+- key: is_design_methods
+  name: IS design methods and architectural analysis
+  description: Methods for designing information systems and for analysing their architecture.
+  evidence:
+  - c7
+  - c14
+  share: 0.1042
+  level: intermediate
+  kind: technique
+  technology: null
+- key: business_process_reengineering
+  name: Resources, processes and business process reengineering
+  description: Analysis of organizational resources and processes and the methodology for redesigning
+    them through business process reengineering (BPR).
+  evidence:
+  - c8
+  - c10
+  - o1.3
+  share: 0.125
+  level: intermediate
+  kind: technique
+  technology: null
+- key: is_planning
+  name: Information systems planning
+  description: Planning of the information system in line with organizational strategy and managerial
+    priorities.
+  evidence:
+  - c9
+  - o1.1
+  share: 0.0833
+  level: intermediate
+  kind: technique
+  technology: null
+- key: feasibility_cost_benefit
+  name: Feasibility study and cost-benefit analysis
+  description: Carrying out feasibility studies of IS projects and evaluating their costs and benefits.
+  evidence:
+  - c11
+  - c13
+  - o1.3
+  share: 0.1042
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ict_project_management
+  name: ICT project management and risk analysis
+  description: Scope definition, risk analysis and management of ICT projects.
+  evidence:
+  - c12
+  - c15
+  - c16
+  - o1.1
+  share: 0.1667
+  level: intermediate
+  kind: technique
+  technology: null
+- key: master_data_management
+  name: Database integration and master data management
+  description: Integration of heterogeneous databases and the management of master data projects.
+  evidence:
+  - c17
+  - o1.4
+  share: 0.0833
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

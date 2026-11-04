@@ -1,0 +1,189 @@
+format: extraction/1
+course: 08574-A
+title: Operating Systems
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 31.9
+  usage:
+    prompt_tokens: 8301
+    completion_tokens: 7674
+    cache_read_tokens: 3708
+    thinking_tokens: 3821
+  created: '2026-11-04T18:09:09+00:00'
+topics:
+- key: os_introduction_history
+  name: Operating systems introduction and history
+  description: Definition, role and main functions of an operating system, and how OS design evolved from
+    early batch systems to modern systems.
+  evidence:
+  - c1
+  - o1
+  share: 0.0313
+  level: introductory
+  kind: concept
+  technology: null
+- key: programming_language_basics
+  name: ANSI C language basics
+  description: 'Core ANSI C syntax and semantics: data types, operators, control flow, functions, and
+    compiling and running simple programs.'
+  evidence:
+  - c2
+  share: 0.0625
+  level: introductory
+  kind: language
+  technology: C
+- key: pointers_and_dynamic_memory
+  name: Pointers and memory in C
+  description: Pointers, arrays, structs and dynamic memory allocation in ANSI C, as needed to write systems-level
+    programs.
+  evidence:
+  - c2
+  share: 0.0625
+  level: intermediate
+  kind: language
+  technology: C
+- key: command_line_scripting
+  name: Shell and shell scripting
+  description: Using the command-line shell and writing shell scripts for file handling, process control
+    and basic system administration tasks.
+  evidence:
+  - c3
+  - o2
+  share: 0.0833
+  level: introductory
+  kind: tool
+  technology: Shell
+- key: processes_and_threads
+  name: Processes and threads
+  description: Process and thread abstractions, their states, creation and termination, and the difference
+    between single- and multi-threaded execution.
+  evidence:
+  - c4
+  share: 0.0625
+  level: intermediate
+  kind: concept
+  technology: null
+- key: concurrent_programming
+  name: Concurrent programming
+  description: Principles of concurrent execution, race conditions, critical sections and synchronization
+    primitives such as mutexes and semaphores.
+  evidence:
+  - c5
+  share: 0.0729
+  level: intermediate
+  kind: concept
+  technology: null
+- key: deadlock_starvation_busy_waiting
+  name: Deadlock, starvation and busy waiting
+  description: Conditions and detection or prevention of deadlock, and the problems of starvation and
+    busy waiting in concurrent systems.
+  evidence:
+  - c6
+  share: 0.0521
+  level: intermediate
+  kind: concept
+  technology: null
+- key: interprocess_communication
+  name: Inter-process communication
+  description: Mechanisms by which processes exchange data and synchronize, such as pipes, message queues,
+    shared memory and signals.
+  evidence:
+  - c7
+  share: 0.0417
+  level: intermediate
+  kind: technique
+  technology: null
+- key: cpu_scheduling
+  name: CPU scheduling
+  description: CPU scheduling criteria and algorithms (FCFS, SJF, round robin, priority) and their trade-offs
+    in multiprogrammed systems.
+  evidence:
+  - c8
+  share: 0.0729
+  level: intermediate
+  kind: technique
+  technology: null
+- key: memory_management
+  name: Memory management
+  description: Main memory management, including contiguous and paged allocation, segmentation and address
+    binding.
+  evidence:
+  - c9
+  share: 0.0728
+  level: intermediate
+  kind: concept
+  technology: null
+- key: virtual_memory
+  name: Virtual memory
+  description: Virtual address spaces, demand paging, page replacement algorithms and thrashing.
+  evidence:
+  - c9
+  share: 0.0729
+  level: intermediate
+  kind: concept
+  technology: null
+- key: file_systems
+  name: Secondary memory management and file systems
+  description: Disk structure, disk scheduling, file system organization, directories, allocation methods
+    and free-space management.
+  evidence:
+  - c10
+  share: 0.0833
+  level: intermediate
+  kind: concept
+  technology: null
+- key: io_management
+  name: I/O management
+  description: I/O hardware, device drivers, polling versus interrupts, DMA and the layers of the I/O
+    subsystem.
+  evidence:
+  - c11
+  share: 0.0521
+  level: intermediate
+  kind: concept
+  technology: null
+- key: linux_and_windows_case_study
+  name: Linux and Windows case study
+  description: Comparison of the architecture and design choices of the Linux and Windows operating systems.
+  evidence:
+  - c12
+  share: 0.0417
+  level: intermediate
+  kind: concept
+  technology: null
+- key: kernel_internals
+  name: Linux kernel internals
+  description: Internal structure of the Linux kernel, including process management, system calls, modules
+    and kernel administration procedures.
+  evidence:
+  - c13
+  - o2
+  share: 0.0625
+  level: advanced
+  kind: concept
+  technology: Linux
+- key: virtualization_and_cloud_services
+  name: Virtualization and cloud service models
+  description: Concepts of hardware and OS-level virtualization and the IaaS and PaaS cloud service models.
+  evidence:
+  - c14
+  share: 0.0313
+  level: intermediate
+  kind: concept
+  technology: null
+- key: containers_and_orchestration
+  name: Containers, Docker and Kubernetes
+  description: Container technology, building and running containers with Docker, and orchestrating them
+    with Kubernetes.
+  evidence:
+  - c14
+  share: 0.0417
+  level: intermediate
+  kind: tool
+  technology: Docker
+not_topics: []

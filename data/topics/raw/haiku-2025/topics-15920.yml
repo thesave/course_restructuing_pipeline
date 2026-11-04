@@ -1,0 +1,41 @@
+format: extraction/1
+course: '15920'
+title: Computer Lab
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 8.5
+  usage:
+    prompt_tokens: 2902
+    completion_tokens: 1368
+    cache_read_tokens: 1854
+    thinking_tokens: 1068
+  created: '2026-11-04T18:09:58+00:00'
+topics:
+- key: spreadsheet_calculations
+  name: Spreadsheet calculations
+  description: Building spreadsheets with cells, formulas, functions and basic data handling in Excel,
+    with the equivalent operations in Google Sheets.
+  evidence:
+  - c1
+  - o5
+  share: 0.75
+  level: introductory
+  kind: tool
+  technology: Excel
+- key: database_fundamentals
+  name: Database fundamentals
+  description: Introductory outline of what databases are, how data is organised in them, and when they
+    are useful for simple problems.
+  evidence:
+  - c1
+  - o2
+  share: 0.25
+  level: introductory
+  kind: concept
+  technology: null
+not_topics: []

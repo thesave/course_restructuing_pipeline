@@ -1,0 +1,150 @@
+format: extraction/1
+course: '14015'
+title: Cryptography
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 18.0
+  usage:
+    prompt_tokens: 3066
+    completion_tokens: 3973
+    cache_read_tokens: 1854
+    thinking_tokens: 2497
+  created: '2026-11-04T18:10:01+00:00'
+topics:
+- key: mathematical_foundations
+  name: Mathematical foundations of cryptography
+  description: Modular arithmetic, number theory and computational hardness assumptions that underpin
+    modern cryptography, introduced alongside the historical background of the field.
+  evidence:
+  - c1
+  - o1.1
+  - o1.4
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: information_theory
+  name: Information theory and data compression
+  description: Entropy, basic results of information theory and data compression, and the connection between
+    these results and cryptographic secrecy such as perfect secrecy.
+  evidence:
+  - o1.5
+  - o1.6
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: secret_key_cryptography
+  name: Secret key cryptography
+  description: Symmetric ciphers, block and stream ciphers and their modes of operation, as the basic
+    secret-key cryptographic algorithms.
+  evidence:
+  - c2
+  - o1.2
+  share: 0.12
+  level: introductory
+  kind: technique
+  technology: null
+- key: public_key_cryptography
+  name: Public key cryptography
+  description: Public-key algorithms such as RSA, Diffie-Hellman and ElGamal, covering key pairs, key
+    exchange and encryption based on hard mathematical problems.
+  evidence:
+  - c3
+  - o1.2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: security_fundamentals
+  name: Security goals and threats
+  description: Fundamental security issues arising in computer systems, the confidentiality goal and the
+    threat models that motivate cryptographic protection.
+  evidence:
+  - c4
+  - o1.4
+  - o1.4.1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: authentication_and_integrity
+  name: Authentication and integrity
+  description: Message authentication codes, cryptographic hash functions and authentication protocols
+    that protect message integrity and verify the identity of parties.
+  evidence:
+  - c5
+  - c6
+  - o1.3
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: digital_signatures
+  name: Digital signatures
+  description: Construction and verification of digital signatures using public-key primitives, and their
+    use for non-repudiation and integrity of data.
+  evidence:
+  - c7
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ssl_tls_protocol
+  name: SSL/TLS secure channels
+  description: The SSL/TLS protocol for securing network communications, showing how secret-key, public-key
+    and certificate mechanisms combine into a cryptographic protocol.
+  evidence:
+  - c8
+  - o1.3
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: pgp_email_security
+  name: PGP secure email
+  description: The PGP scheme for securing electronic mail, combining encryption, signatures and key management
+    for end-to-end message protection.
+  evidence:
+  - c9
+  - o1.3
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: digital_certificates_pki
+  name: Digital certificates and PKI
+  description: Digital certificates, certification authorities and public key infrastructure, explaining
+    how public keys are bound to identities and validated.
+  evidence:
+  - c10
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: distributed_trust_mechanisms
+  name: Distributed trust mechanisms
+  description: Trust models that do not rely on a single certification authority, such as web of trust
+    and other decentralised approaches to establishing trust in keys.
+  evidence:
+  - c11
+  share: 0.06
+  level: advanced
+  kind: concept
+  technology: null
+- key: post_quantum_cryptography
+  name: Post-quantum cryptography
+  description: Cryptographic schemes designed to resist attacks by quantum computers, and the motivation
+    for replacing RSA and discrete-logarithm based primitives.
+  evidence:
+  - c12
+  share: 0.07
+  level: advanced
+  kind: concept
+  technology: null
+not_topics: []

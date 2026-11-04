@@ -1,0 +1,164 @@
+format: extraction/1
+course: B2133
+title: Big Data Analytics and Text Mining
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 57.6
+  usage:
+    prompt_tokens: 10918
+    completion_tokens: 13730
+    cache_read_tokens: 3708
+    thinking_tokens: 9673
+  created: '2026-11-04T18:30:37+00:00'
+topics:
+- key: transformer_language_models
+  name: Transformer language models
+  description: Covers the Transformer architecture, neural language modeling foundations, pre-training
+    and fine-tuning techniques, and decoding strategies for text generation.
+  evidence:
+  - c1.3
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: llm_scaling_and_alignment
+  name: LLM scaling, prompting and alignment
+  description: Covers scaling laws for large language models, prompting versus fine-tuning, instruction
+    fine-tuning and preference alignment.
+  evidence:
+  - c1.4
+  share: 0.08
+  level: advanced
+  kind: concept
+  technology: null
+- key: efficient_llm_inference
+  name: Efficient LLM architectures and compression
+  description: Covers efficient attention mechanisms (BigBird, Performer, key-value caching, multi-query
+    attention), mixture-of-experts, and compression and quantization methods such as GPTQ, AWQ and GGUF.
+  evidence:
+  - c1.4
+  - c1.5
+  share: 0.1
+  level: advanced
+  kind: technique
+  technology: null
+- key: parameter_efficient_fine_tuning
+  name: Parameter-efficient fine-tuning
+  description: Covers methods that adapt large models with few trainable parameters, such as LoRA, QLoRA,
+    GaLore and prompt tuning, and their comparison with prompting and full fine-tuning on dialogue summarization.
+  evidence:
+  - c1.5
+  - c1.8
+  share: 0.08
+  level: advanced
+  kind: technique
+  technology: null
+- key: vision_language_models
+  name: Vision-language models
+  description: Covers multimodal large language models that combine visual and textual inputs, with visual
+    question answering as the reference task.
+  evidence:
+  - c1.5
+  - c1.8
+  share: 0.05
+  level: advanced
+  kind: concept
+  technology: null
+- key: retrieval_augmented_generation
+  name: Retrieval-augmented generation and agents
+  description: Covers retrieval-augmented generation with chunking strategies, architectures and vector
+    databases for conversational question answering, together with LLM agents that call tools and large
+    action models.
+  evidence:
+  - c1.6
+  - c1.9
+  share: 0.12
+  level: advanced
+  kind: technique
+  technology: null
+- key: knowledge_graphs_for_llms
+  name: Knowledge graphs and graph-enhanced language models
+  description: Covers graph neural networks, graph embedding and injection into language models, graph
+    verbalization into prompts, and GraphRAG with structured query generation over knowledge graphs and
+    DBMSs.
+  evidence:
+  - c1.6
+  - c1.10
+  - c1.11
+  share: 0.1
+  level: advanced
+  kind: technique
+  technology: null
+- key: applied_llm_case_studies
+  name: Applied LLM case studies
+  description: Covers lab-based application of LLM pipelines to enterprise and real-world tasks such as
+    lay summarization, legal and medical question answering and multi-source question answering, built
+    with Python, PyTorch, Hugging Face and LlamaIndex.
+  evidence:
+  - c1.7
+  - c1.8
+  - c1.9
+  - c1.10
+  - c1.11
+  - c1.12
+  - o2
+  share: 0.06
+  level: advanced
+  kind: technique
+  technology: null
+- key: big_data_mining
+  name: Data mining in big data environments
+  description: Covers the principles of mining large data sets in parallel environments and the MapReduce
+    paradigm of maps and reductions that structures such programs.
+  evidence:
+  - c2.1
+  - c2.2
+  - o1
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: mapreduce_implementation
+  name: Hadoop implementation of MapReduce
+  description: Covers the Hadoop implementation of the MapReduce model and how MapReduce jobs run on a
+    distributed cluster.
+  evidence:
+  - c2.3
+  share: 0.07
+  level: intermediate
+  kind: tool
+  technology: Hadoop
+- key: spark_python_api
+  name: Spark Python API
+  description: Covers writing parallel data-processing programs with the Python API of Apache Spark, with
+    worked examples.
+  evidence:
+  - c2.4
+  share: 0.1
+  level: intermediate
+  kind: tool
+  technology: PySpark
+- key: distributed_machine_learning
+  name: Distributed machine learning with MLlib
+  description: Covers the Machine Learning Library of Spark for training and applying machine learning
+    models on distributed data.
+  evidence:
+  - c2.5
+  share: 0.08
+  level: intermediate
+  kind: tool
+  technology: Spark MLlib
+not_topics:
+- id: c1
+  reason: Heading for Module 1; its content is covered by the cited items c1.3 to c1.12.
+- id: c1.1
+  reason: General framing of the module's focus; the topics above cover its actual content.
+- id: c1.2
+  reason: Pointers to course resources and repositories, not teachable content.
+- id: c2
+  reason: Heading for Module 2; its content is covered by the cited items c2.1 to c2.5.

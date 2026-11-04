@@ -28,6 +28,14 @@ see `requirements-embeddings.txt`.
 # check data/evidence/2025/report.md and record corrections in overrides.yml there
 .venv/bin/python -m evidence prepare data/courses/2025 data/evidence/2025
 
+# Stage 2: per-course topic extraction with Claude Haiku 5.5 through headless
+# Claude Code (logged in with a claude.ai subscription)
+.venv/bin/python -m extraction check endpoints-haiku.yml
+.venv/bin/python -m extraction run data/evidence/2025 data/topics/raw/haiku-2025 \
+    --endpoints endpoints-haiku.yml
+# or with a local model on one or more OpenAI-compatible servers (llama.cpp, Ollama)
+cp extraction/endpoints.example.yml endpoints.yml   # then edit the URLs and workers
+
 # Solve the first attempt's prototype area and review the proposal in the browser
 D=first-attempt/programming-languages
 .venv/bin/python -m modules_engine solve $D/topics.yml $D/dependencies.yml \

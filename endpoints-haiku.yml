@@ -1,0 +1,19 @@
+# Endpoints for `python -m extraction` (see extraction/endpoints.example.yml).
+
+# Claude Haiku 5.5 through headless Claude Code on this machine (`claude -p`),
+# billed to the claude.ai subscription it is logged in with; check the login
+# with `python -m extraction check endpoints-haiku.yml`.
+model: claude-haiku-5-5
+
+endpoints:
+  - provider: claude-cli
+    # Parallel `claude -p` processes; usage-limit errors put courses back in the
+    # queue and, repeated, stop the run, which resumes where it stopped.
+    workers: 4
+
+request:
+  # Haiku 5.5 thinks adaptively and refuses temperature and seed, so uncached
+  # runs vary slightly; the cache keeps reruns stable.
+  effort: medium
+
+timeout: 600

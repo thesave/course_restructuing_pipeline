@@ -1,0 +1,148 @@
+format: extraction/1
+course: '93468'
+title: Distributed Software Systems
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 33.3
+  usage:
+    prompt_tokens: 8621
+    completion_tokens: 8341
+    cache_read_tokens: 3708
+    thinking_tokens: 5446
+  created: '2026-11-04T18:25:06+00:00'
+topics:
+- key: distributed_systems_introduction
+  name: Introduction to distributed systems
+  description: Definitions, goals, historical roots, and the main kinds of distributed systems, including
+    the notions of computation in space and time.
+  evidence:
+  - c2.1
+  - c2.4
+  - c2.5
+  - c2.6
+  - o2
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: replication_consistency_dependability
+  name: Replication, consistency and dependability
+  description: Replicating data and services, consistency models, the CAP theorem trade-offs between availability
+    and consistency, and dependability under failures.
+  evidence:
+  - c2.2
+  - c2.3
+  - c1.1
+  - o3
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: consensus_and_ledgers
+  name: Consensus and distributed ledgers
+  description: The consensus problem among unreliable processes and how distributed ledger technology
+    and blockchain can serve as middleware for agreement.
+  evidence:
+  - c1.2
+  - c1.3
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: logical_time_and_clocks
+  name: Computing with time and logical clocks
+  description: Notions of time in distributed systems, the lack of a global clock, and logical clocks
+    used to order events.
+  evidence:
+  - c2.9
+  - c1.5
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: architectures_and_modelling
+  name: Architectures and formal modelling of distributed systems
+  description: Software and system architectures, interaction patterns and infrastructural components,
+    architectural diagrams and tools, and process algebra for modelling distributed behaviour.
+  evidence:
+  - c2.7
+  - c2.8
+  - c3.1
+  - c3.2
+  - o4
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: agents_and_code_mobility
+  name: Agents, code mobility and spatial computing
+  description: Software agents for distributed systems, simple agents built with the JADE platform, code
+    mobility, and computing with space.
+  evidence:
+  - c2.10
+  - c1.6
+  - c1.8
+  - c2.12
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: JADE
+- key: tuple_space_coordination
+  name: Tuple-space coordination models
+  description: Coordination of distributed components through shared tuple spaces, following the Linda
+    coordination model.
+  evidence:
+  - c2.11
+  - c1.7
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: Linda
+- key: stream_packet_communication
+  name: Stream and packet communication with sockets
+  description: Stream- and packet-based interaction between processes implemented with sockets in Python.
+  evidence:
+  - c3.4
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: remote_procedure_calls_serialization
+  name: Remote procedure calls and data serialization
+  description: Basic distributed mechanisms, the anatomy of remote procedure calls, and data presentation
+    with serialization and deserialization tools.
+  evidence:
+  - c3.3
+  - c3.5
+  - c3.6
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: rest_web_services
+  name: Representational State Transfer (REST)
+  description: Designing and using REST-based web services for service-based distributed applications.
+  evidence:
+  - c1.4
+  - o4
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: guided_design_distributed_system
+  name: Guided design of a distributed system
+  description: Hands-on guided design and implementation of a complete distributed system from scratch,
+    applying the course technologies to a practical case study.
+  evidence:
+  - c3.7
+  - o5
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

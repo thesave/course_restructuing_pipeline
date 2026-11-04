@@ -1,0 +1,156 @@
+format: extraction/1
+course: '98735'
+title: Python Coding and Data Science
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 27.6
+  usage:
+    prompt_tokens: 8679
+    completion_tokens: 6562
+    cache_read_tokens: 3708
+    thinking_tokens: 3492
+  created: '2026-11-04T18:28:35+00:00'
+topics:
+- key: programming_fundamentals
+  name: Programming fundamentals
+  description: Core concepts of programming languages, including syntax, semantics, variables, data types,
+    operators and control flow.
+  evidence:
+  - c1.1
+  - c1.2
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: environment_setup
+  name: Python environment and running scripts
+  description: Rationale for using Python in data science, installing and configuring a Python environment,
+    and running Python scripts.
+  evidence:
+  - c2.1
+  - c2.2
+  - c2.3
+  share: 0.04
+  level: introductory
+  kind: tool
+  technology: Python
+- key: syntax_and_program_structure
+  name: Python language basics
+  description: Basic Python syntax and program structure for writing first programs.
+  evidence:
+  - c2.4
+  share: 0.07
+  level: introductory
+  kind: language
+  technology: Python
+- key: data_types_and_structures
+  name: Python data types and data structures
+  description: Python primitive types, built-in data structures such as lists, tuples, dictionaries and
+    sets, their manipulation, and example algorithms that use them.
+  evidence:
+  - c3.1
+  - c3.2
+  - c3.3
+  - c3.4
+  share: 0.13
+  level: introductory
+  kind: language
+  technology: Python
+- key: file_and_os_interaction
+  name: File management and operating system interaction
+  description: Reading and writing files and interacting with the operating system from Python programs.
+  evidence:
+  - c4.1
+  - c4.2
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: oop_and_exception_handling
+  name: Object-oriented programming and exception handling
+  description: Fundamental object-oriented concepts such as classes and objects, together with handling
+    runtime errors through exceptions in Python.
+  evidence:
+  - c5.1
+  - c5.2
+  share: 0.08
+  level: intermediate
+  kind: language
+  technology: Python
+- key: library_modules_packages
+  name: Standard and third-party libraries
+  description: Importing and using Python modules, standard library components and third-party packages.
+  evidence:
+  - c6.1
+  share: 0.03
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: numerical_arrays
+  name: Numerical arrays and matrices
+  description: Creating and manipulating arrays and matrices, performing mathematical and statistical
+    operations, reshaping arrays, and using advanced array functions.
+  evidence:
+  - c6.2
+  - c6.2.1
+  - c6.2.2
+  - c6.2.3
+  - c6.2.4
+  share: 0.11
+  level: intermediate
+  kind: tool
+  technology: NumPy
+- key: data_analysis_dataframes
+  name: Data analysis with DataFrames
+  description: Using Series and DataFrame structures to read and write data, clean and manipulate it,
+    and visualise results for financial data analysis.
+  evidence:
+  - c6.3
+  - c6.3.1
+  - c6.3.2
+  - c6.3.3
+  - c6.3.4
+  share: 0.16
+  level: intermediate
+  kind: tool
+  technology: pandas
+- key: machine_learning_concepts
+  name: Machine learning concepts
+  description: Introduction to machine learning and the distinction between supervised and unsupervised
+    learning.
+  evidence:
+  - c6.4.1
+  - c6.4.2
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: ml_model_workflow
+  name: Scikit-Learn modelling workflow
+  description: Building machine learning models with the Scikit-Learn workflow, illustrated with worked
+    examples.
+  evidence:
+  - c6.4
+  - c6.4.3
+  - c6.4.4
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: Scikit-Learn
+- key: big_data_processing
+  name: Big data processing with Spark
+  description: Introduction to Apache Spark and fundamental PySpark operations for big data processing.
+  evidence:
+  - c6.5
+  - c6.5.1
+  - c6.5.2
+  share: 0.1
+  level: advanced
+  kind: tool
+  technology: PySpark
+not_topics: []

@@ -1,0 +1,122 @@
+format: extraction/1
+course: '27311'
+title: Humanistic IT
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 24.0
+  usage:
+    prompt_tokens: 7743
+    completion_tokens: 5145
+    cache_read_tokens: 3708
+    thinking_tokens: 2771
+  created: '2026-11-04T18:10:34+00:00'
+topics:
+- key: digital_information_representation
+  name: Information and digital representation
+  description: The concept of information and the methods for representing humanistic data in digital
+    form and processing them automatically.
+  evidence:
+  - o1
+  - c1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: digital_resource_design_process
+  name: Design process for digital resources
+  description: Conception, design and implementation of Web-oriented humanistic digital resources, including
+    choosing the appropriate tools and languages for the intended model.
+  evidence:
+  - c1
+  - c2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: project_management_plan
+  name: Digital project management plan
+  description: 'Managing a digital humanities project through its phases: brief, benchmark, project document,
+    production, development, testing and promotion.'
+  evidence:
+  - c4
+  share: 0.12
+  level: introductory
+  kind: technique
+  technology: null
+- key: character_encoding_formats
+  name: Character encoding and file formats
+  description: Character encoding standards and file formats used to produce and store textual and digital
+    content for the Web.
+  evidence:
+  - c5
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: web_content_production
+  name: Web content production principles
+  description: Principles for writing usable Web content and structuring pages, text and multimedia elements.
+  evidence:
+  - c5
+  share: 0.1
+  level: introductory
+  kind: technique
+  technology: null
+- key: structured_markup_documents
+  name: Structured markup documents
+  description: Structuring documents with XML and XHTML markup, including their syntax and well-formedness
+    rules.
+  evidence:
+  - c6
+  share: 0.12
+  level: intermediate
+  kind: language
+  technology: XML/XHTML
+- key: web_page_structure_and_style
+  name: Web page structure and styling
+  description: Writing HTML5 documents and styling them with CSS to build Web pages.
+  evidence:
+  - c6
+  share: 0.14
+  level: introductory
+  kind: language
+  technology: HTML5/CSS
+- key: interface_design_mockup
+  name: Interface design and mockups
+  description: 'Designing Web interfaces: producing a mockup, organising filters and facets, positioning
+    elements and building responsive layouts.'
+  evidence:
+  - c7
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: web_distribution_frameworks
+  name: Web distribution frameworks
+  description: Using front-end frameworks such as Boilerplate and Bootstrap to build and distribute Web
+    resources.
+  evidence:
+  - c8
+  share: 0.08
+  level: intermediate
+  kind: tool
+  technology: Bootstrap
+- key: developer_tools
+  name: Developer tools for Web production
+  description: Selected software tools supporting developers in producing and testing digital humanities
+    Web resources.
+  evidence:
+  - c9
+  share: 0.06
+  level: intermediate
+  kind: tool
+  technology: null
+not_topics:
+- id: c3
+  reason: Lead-in heading listing the course topics; it has no teachable content of its own and its sub-items
+    c4–c9 are covered by the topics above.

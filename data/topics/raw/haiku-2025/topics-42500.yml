@@ -1,0 +1,143 @@
+format: extraction/1
+course: '42500'
+title: Semantic Web
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 36.1
+  usage:
+    prompt_tokens: 8237
+    completion_tokens: 8391
+    cache_read_tokens: 3708
+    thinking_tokens: 5332
+  created: '2026-11-04T18:13:48+00:00'
+topics:
+- key: kg_web_of_data
+  name: Knowledge graphs and the Web of Data
+  description: Introduces knowledge graphs as a way to structure web data, covering the Semantic Web vision,
+    Linked Open Data principles and how resources are published and linked on the web.
+  evidence:
+  - c5
+  - o1
+  share: 0.103448
+  level: introductory
+  kind: concept
+  technology: null
+- key: graph_data_model
+  name: RDF data model and embedded metadata
+  description: Teaches the RDF graph data model (triples, IRIs, literals, blank nodes) and how metadata
+    is embedded in web pages through RDFa and microformats.
+  evidence:
+  - c6
+  - o1
+  share: 0.137931
+  level: introductory
+  kind: concept
+  technology: RDF
+- key: schema_entailment_inference
+  name: RDFS schemas and logical inference
+  description: Covers the RDFS vocabulary for classes and properties, and the logical inference rules
+    that derive new facts from RDF data.
+  evidence:
+  - c6
+  - o1
+  share: 0.103448
+  level: intermediate
+  kind: concept
+  technology: RDFS
+- key: graph_querying
+  name: Querying RDF graphs with SPARQL
+  description: Teaches writing SPARQL queries against RDF data, including querying a public knowledge
+    graph such as DBpedia.
+  evidence:
+  - c7
+  - o2
+  share: 0.137931
+  level: intermediate
+  kind: language
+  technology: SPARQL
+- key: ontology_modeling
+  name: Knowledge representation with OWL ontologies
+  description: Teaches modelling domain knowledge as OWL ontologies, with classes, properties, restrictions
+    and the reasoning they enable.
+  evidence:
+  - c8
+  - o1
+  share: 0.155172
+  level: intermediate
+  kind: technique
+  technology: OWL
+- key: kg_applications
+  name: Knowledge graph applications
+  description: Covers building applications on knowledge graphs, including ontology-based design, programming
+    against KGs, visualisation and analytics.
+  evidence:
+  - c9
+  - o2
+  share: 0.189655
+  level: intermediate
+  kind: technique
+  technology: null
+- key: kg_embeddings_completion
+  name: Knowledge graph embeddings and completion
+  description: Introduces vector embedding methods for knowledge graph entities and relations and their
+    use to predict missing facts (KG completion).
+  evidence:
+  - c10.1
+  - o2
+  share: 0.051724
+  level: advanced
+  kind: technique
+  technology: null
+- key: ontology_alignment
+  name: Knowledge graph mapping and alignment
+  description: Covers methods for mapping and aligning schemas and entities across knowledge graphs and
+    ontologies.
+  evidence:
+  - c10.1
+  - o2
+  share: 0.034483
+  level: intermediate
+  kind: technique
+  technology: null
+- key: semantic_search
+  name: Semantic search
+  description: Covers retrieving resources by meaning rather than keywords, using knowledge graph and
+    ontology information to improve search results.
+  evidence:
+  - c10.1
+  - o2
+  share: 0.034483
+  level: intermediate
+  kind: technique
+  technology: null
+- key: graph_machine_learning
+  name: Graph machine learning
+  description: Introduces machine learning methods that operate directly on graph-structured data such
+    as knowledge graphs.
+  evidence:
+  - c10.2
+  share: 0.051724
+  level: advanced
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Course-level aims statement describing the overall scope; the content it names is covered by
+    the topics.
+- id: c2
+  reason: Motivational statement about the growth of web content; no specific teachable content beyond
+    the topics listed.
+- id: c3
+  reason: Course-level aims statement about understanding formal assumptions and developing skills; covered
+    by the topics.
+- id: c4
+  reason: Structural heading introducing Module 1 (48 hours); its sub-items c5 to c9 are cited by the
+    topics.
+- id: c10
+  reason: Structural heading introducing Module 2 (10 hours); its sub-items c10.1 and c10.2 are cited
+    by the topics.

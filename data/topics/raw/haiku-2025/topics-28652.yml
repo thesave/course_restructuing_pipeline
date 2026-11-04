@@ -1,0 +1,202 @@
+format: extraction/1
+course: '28652'
+title: IT Systems T-1
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 39.1
+  usage:
+    prompt_tokens: 8946
+    completion_tokens: 9482
+    cache_read_tokens: 3708
+    thinking_tokens: 5467
+  created: '2026-11-04T18:12:05+00:00'
+topics:
+- key: information_systems_fundamentals
+  name: Information systems and DBMS fundamentals
+  description: Introduces enterprise information systems, the role of database management systems, and
+    the basic concepts of relational databases.
+  evidence:
+  - c1
+  - c2
+  - o1
+  share: 0.0278
+  level: introductory
+  kind: concept
+  technology: null
+- key: relational_model
+  name: Relational model and relational algebra
+  description: Covers the basic definitions of the relational model (relations, keys, integrity constraints)
+    and the relational algebra operators used to express queries.
+  evidence:
+  - c3
+  share: 0.0556
+  level: introductory
+  kind: concept
+  technology: null
+- key: normal_forms
+  name: Normal forms
+  description: Explains functional dependencies and the normal forms used to check and improve the quality
+    of relational schemata through normalization.
+  evidence:
+  - c3
+  share: 0.0556
+  level: intermediate
+  kind: technique
+  technology: null
+- key: data_definition_manipulation
+  name: Data definition and manipulation
+  description: Teaches the Data Definition Language to create and alter schemata and the Data Manipulation
+    Language to insert, update and delete data.
+  evidence:
+  - c4
+  share: 0.0556
+  level: introductory
+  kind: language
+  technology: SQL
+- key: queries_and_views
+  name: Queries and views
+  description: Covers simple and complex queries, including grouping, aggregation and nested subqueries,
+    and the definition and use of views.
+  evidence:
+  - c5
+  share: 0.0972
+  level: intermediate
+  kind: language
+  technology: SQL
+- key: database_application_development
+  name: Database application development
+  description: Shows how database statements are embedded and executed from application programs to build
+    database-backed applications.
+  evidence:
+  - c6
+  share: 0.0556
+  level: intermediate
+  kind: technique
+  technology: SQL
+- key: relational_dbms_technology
+  name: Relational DBMS technology
+  description: Describes the internal architecture of relational database systems and the main components
+    that execute and store data.
+  evidence:
+  - c7
+  share: 0.0694
+  level: intermediate
+  kind: concept
+  technology: null
+- key: concurrency_and_transactions
+  name: Concurrency control and transactions
+  description: Explains transactions and their properties, and the mechanisms such as locking and serializability
+    that control concurrent access to shared data.
+  evidence:
+  - c8
+  share: 0.0694
+  level: intermediate
+  kind: concept
+  technology: null
+- key: recovery_after_failures
+  name: Recovery after failures
+  description: Covers techniques such as logging and checkpoints that restore a consistent database state
+    after system malfunctions.
+  evidence:
+  - c9
+  share: 0.0556
+  level: intermediate
+  kind: technique
+  technology: null
+- key: parallel_and_replicated_architectures
+  name: Parallel and replicated architectures
+  description: Introduces advanced database architectures based on parallel processing and data replication.
+  evidence:
+  - c10
+  share: 0.0417
+  level: advanced
+  kind: concept
+  technology: null
+- key: distributed_databases
+  name: Distributed databases
+  description: Covers distributed database design through data fragmentation and the execution of transactions
+    across distributed sites.
+  evidence:
+  - c11
+  - c12
+  share: 0.0556
+  level: advanced
+  kind: concept
+  technology: null
+- key: physical_organization_and_optimization
+  name: Physical organization and query optimization
+  description: Explains physical data structures such as B+tree indexes, join algorithms, and how the
+    query optimizer chooses execution plans.
+  evidence:
+  - c13
+  share: 0.0556
+  level: intermediate
+  kind: technique
+  technology: null
+- key: requirements_analysis
+  name: Requirements analysis
+  description: Covers analysing enterprise organization and collecting information system requirements
+    as the first phase of design.
+  evidence:
+  - c14
+  - c15
+  share: 0.0417
+  level: introductory
+  kind: technique
+  technology: null
+- key: design_methodologies
+  name: Information system design methodologies
+  description: Presents the design methodologies that structure the development of information systems
+    from requirements to implementation.
+  evidence:
+  - c19
+  share: 0.0417
+  level: intermediate
+  kind: technique
+  technology: null
+- key: conceptual_data_modeling_er
+  name: Conceptual data modeling with ER
+  description: Teaches the Entity-Relationship model and how to build conceptual data schemata from requirements.
+  evidence:
+  - c16
+  share: 0.0694
+  level: introductory
+  kind: technique
+  technology: null
+- key: dataflow_and_workflow_schemata
+  name: Data-flow diagrams and workflows
+  description: Covers data-flow diagrams and workflow schemata to model the flow and operations of information
+    in an organization.
+  evidence:
+  - c17
+  - c18
+  share: 0.0417
+  level: introductory
+  kind: technique
+  technology: null
+- key: integrated_data_function_design
+  name: Integrated data and function design
+  description: Covers the integrated design of data and functions and the translation of conceptual schemata
+    into relational logical schemata.
+  evidence:
+  - c20
+  share: 0.0694
+  level: intermediate
+  kind: technique
+  technology: null
+- key: erp_system_design
+  name: Design with ERP systems
+  description: Introduces how enterprise resource planning systems are used and configured as part of
+    information system design.
+  evidence:
+  - c21
+  share: 0.0414
+  level: intermediate
+  kind: tool
+  technology: null
+not_topics: []

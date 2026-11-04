@@ -1,0 +1,106 @@
+format: extraction/1
+course: B0061
+title: Computer Methods for Digital Transformation
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 22.9
+  usage:
+    prompt_tokens: 5836
+    completion_tokens: 4294
+    cache_read_tokens: 3708
+    thinking_tokens: 3073
+  created: '2026-11-04T18:28:56+00:00'
+topics:
+- key: digital_transformation_context
+  name: Digital transformation context
+  description: Introduces what digital transformation means for organisations and public bodies and why
+    software-based services are central to it.
+  evidence:
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: digital_service_design
+  name: Digital service and product design
+  description: Covers how a new digital service or product is conceived and shaped around its users and
+    its intended value before it is built.
+  evidence:
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: requirements_definition_analysis
+  name: Requirements definition and analysis
+  description: Covers eliciting, defining and analysing the requirements of a new service or digital product
+    so that they can be used as a basis for development.
+  evidence:
+  - o2
+  share: 0.15
+  level: introductory
+  kind: technique
+  technology: null
+- key: agile_product_ownership
+  name: Agile product ownership
+  description: Covers the role of the product owner in an agile setting, including managing the product
+    backlog and prioritising work to deliver value.
+  evidence:
+  - o2
+  share: 0.15
+  level: intermediate
+  kind: technique
+  technology: null
+- key: collaborative_it_development
+  name: Collaborative IT development process
+  description: Covers the social and collaborative principles that guide how teams of developers, analysts
+    and stakeholders build software services and products together.
+  evidence:
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: digital_transformation_planning
+  name: Planning digital transformation
+  description: Covers the methods used to plan software-based digital transformation initiatives, including
+    defining goals, scope and steps of the project.
+  evidence:
+  - o1
+  share: 0.12
+  level: introductory
+  kind: technique
+  technology: null
+- key: digital_transformation_evaluation
+  name: Evaluating digital transformation
+  description: Covers the methods used to evaluate software-based digital transformations and their services,
+    including assessing outcomes and impact.
+  evidence:
+  - o1
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: practical_case_exercises
+  name: Hands-on application exercises
+  description: Applies the planning, requirements, design and evaluation methods to practical exercises
+    carried out in class on realistic cases.
+  evidence:
+  - o1
+  share: 0.1
+  level: introductory
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Organisational remark that the course is taught in Italian; it describes the language of instruction,
+    not teachable content.
+- id: c2
+  reason: Only a pointer to an Italian description that is not provided ('See the Italian description'),
+    so it contains no teachable content of its own; the topics above are derived from the learning outcomes
+    instead.

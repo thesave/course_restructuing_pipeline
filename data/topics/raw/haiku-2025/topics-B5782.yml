@@ -1,0 +1,193 @@
+format: extraction/1
+course: B5782
+title: Algorithms and Data Structures for Computational Biology
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 23.8
+  usage:
+    prompt_tokens: 3878
+    completion_tokens: 5747
+    cache_read_tokens: 1854
+    thinking_tokens: 3810
+  created: '2026-11-04T18:31:56+00:00'
+topics:
+- key: asymptotic_complexity_analysis
+  name: Asymptotic complexity analysis
+  description: Computational complexity as a function of input size, with big-O, big-Omega and big-Theta
+    notation used to analyse and compare algorithms.
+  evidence:
+  - c2.1
+  - o1
+  - o3
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: sorting_algorithms
+  name: Sorting algorithms
+  description: Comparison-based sorting (insertion, merge, quick sort) with the lower bound on comparisons,
+    and linear-time sorting by counting sort and radix sort.
+  evidence:
+  - c2.2
+  share: 0.08
+  level: introductory
+  kind: technique
+  technology: null
+- key: elementary_data_structures
+  name: Elementary data structures
+  description: Arrays, linked lists, stacks and queues, their operations and their typical uses.
+  evidence:
+  - c2.3
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: tree_structures
+  name: Tree structures
+  description: Binary trees and general trees as hierarchical data structures, with their representation
+    and traversal operations.
+  evidence:
+  - c2.4
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: hash_tables
+  name: Hash tables
+  description: Hash-based dictionaries, including hash functions, collision handling and the expected
+    cost of lookup and insertion.
+  evidence:
+  - c2.4
+  share: 0.03
+  level: intermediate
+  kind: concept
+  technology: null
+- key: graph_data_structures
+  name: Graph data structures
+  description: Representation of graphs and the basic operations on them, as needed for later graph-based
+    algorithms.
+  evidence:
+  - c2.4
+  share: 0.04
+  level: intermediate
+  kind: concept
+  technology: null
+- key: divide_and_conquer
+  name: Divide and conquer
+  description: The divide-and-conquer paradigm for recursive problem solving, with brute force as the
+    baseline it is compared against.
+  evidence:
+  - c2.5
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: dynamic_programming
+  name: Dynamic programming
+  description: Solving problems with overlapping subproblems by memoisation or tabulation of optimal substructure.
+  evidence:
+  - c2.5
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: greedy_algorithms
+  name: Greedy algorithms
+  description: The greedy paradigm, which makes locally optimal choices, and the conditions under which
+    it yields optimal solutions.
+  evidence:
+  - c2.5
+  share: 0.04
+  level: intermediate
+  kind: technique
+  technology: null
+- key: handling_hard_problems
+  name: Handling hard problems
+  description: 'Approaches to NP-hard problems: approximation algorithms, branch-and-bound and heuristics,
+    with their guarantees and trade-offs.'
+  evidence:
+  - c2.6
+  share: 0.06
+  level: advanced
+  kind: technique
+  technology: null
+- key: exact_string_matching
+  name: Exact string matching
+  description: Algorithms that find all occurrences of a pattern exactly within a text.
+  evidence:
+  - c3.1
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: approximate_string_matching
+  name: Approximate string matching
+  description: Algorithms that find occurrences of a pattern within a text allowing a bounded number of
+    errors or edits.
+  evidence:
+  - c3.1
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: pairwise_sequence_alignment
+  name: Pairwise sequence alignment
+  description: Global and local alignment of two biological sequences using dynamic programming and scoring
+    schemes.
+  evidence:
+  - c3.2
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: multiple_sequence_alignment
+  name: Multiple sequence alignment
+  description: Aligning three or more biological sequences simultaneously and the algorithmic approaches
+    used to do so.
+  evidence:
+  - c3.2
+  share: 0.04
+  level: advanced
+  kind: technique
+  technology: null
+- key: suffix_data_structures
+  name: Suffix data structures
+  description: Suffix tries, suffix trees and suffix arrays, their construction and their use for efficient
+    string processing.
+  evidence:
+  - c3.3
+  share: 0.09
+  level: advanced
+  kind: concept
+  technology: null
+- key: burrows_wheeler_transform
+  name: Burrows-Wheeler transform
+  description: The reversible Burrows-Wheeler string transformation, its inversion, and its applications
+    in sequence indexing and compression.
+  evidence:
+  - c3.4
+  share: 0.07
+  level: advanced
+  kind: technique
+  technology: null
+- key: sequence_assembly
+  name: Sequence assembly
+  description: Assembling sequence reads using overlap graphs and a greedy algorithm for the shortest
+    common superstring problem.
+  evidence:
+  - c3.5
+  share: 0.05
+  level: advanced
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Course overview stating that the course has two parts; no teachable content of its own.
+- id: c3.6
+  reason: Presentation format (pseudocode and Python implementations) applied across the topics rather
+    than a separate subject.

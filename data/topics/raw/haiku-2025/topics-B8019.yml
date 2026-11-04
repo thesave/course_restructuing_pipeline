@@ -1,0 +1,172 @@
+format: extraction/1
+course: B8019
+title: PROGRAMMING THE INTERNET OF THINGS M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 24.0
+  usage:
+    prompt_tokens: 3579
+    completion_tokens: 5624
+    cache_read_tokens: 1854
+    thinking_tokens: 3827
+  created: '2026-11-04T18:32:27+00:00'
+topics:
+- key: smart_spaces_introduction
+  name: Smart spaces introduction
+  description: Defines smart spaces, traces their historical vision from science fiction to the Internet
+    of Things, and surveys the constraints, requirements and challenges they impose.
+  evidence:
+  - c4.1
+  - c4.2
+  - c4.3
+  - o1
+  share: 0.09375
+  level: introductory
+  kind: concept
+  technology: null
+- key: things_vs_iot_applications
+  name: Things, IoT and IoT applications
+  description: Explains the distinction between a Thing, the Internet of Things as a networked system,
+    and IoT applications built on top of them.
+  evidence:
+  - c4.4
+  - c4.5
+  share: 0.046875
+  level: introductory
+  kind: concept
+  technology: null
+- key: sensors_actuators_devices
+  name: Sensors, actuators and complex devices
+  description: Introduces sensors, actuators and complex devices as the physical interaction elements
+    that IoT software reads from and controls.
+  evidence:
+  - c4.6
+  share: 0.0625
+  level: introductory
+  kind: concept
+  technology: null
+- key: thing_identification
+  name: Thing identification with RFID, QR codes and beacons
+  description: Covers identification technologies for things, namely RFID tags, QR codes and beacons,
+    and how they are used to recognise physical objects in software.
+  evidence:
+  - c4.7
+  share: 0.03125
+  level: introductory
+  kind: concept
+  technology: null
+- key: iot_development_platforms
+  name: IoT development platforms
+  description: Presents the Raspberry Pi, Arduino and Mbed OS platforms as hosts for building and programming
+    IoT things.
+  evidence:
+  - c4.8
+  share: 0.046875
+  level: introductory
+  kind: tool
+  technology: null
+- key: smart_house_deployment
+  name: Gator Tech smart house deployment
+  description: Examines the Gator Tech Smart House as a real-world smart space deployed as an assistive
+    environment for graceful aging, and how its components fit together.
+  evidence:
+  - c4.9
+  - c4.10
+  - o5
+  share: 0.125
+  level: introductory
+  kind: concept
+  technology: null
+- key: service_oriented_device_architecture
+  name: Service-Oriented Device Architecture (SODA)
+  description: Describes the SODA architecture, which exposes IoT devices as services within a service-oriented
+    IoT architecture.
+  evidence:
+  - c4.11
+  - c4.12
+  - o2
+  share: 0.125
+  level: intermediate
+  kind: concept
+  technology: null
+- key: middleware_architecture
+  name: Atlas SODA architecture and middleware
+  description: Explains the Atlas 1.0 implementation of the SODA architecture and its middleware layer
+    that connects devices and applications.
+  evidence:
+  - c4.13
+  - o4
+  share: 0.09375
+  level: advanced
+  kind: concept
+  technology: Atlas
+- key: thing_architecture
+  name: Atlas IoT thing architecture
+  description: Covers the Atlas 2.0 architecture of an individual IoT thing, including how its software
+    is structured and exposed as a service.
+  evidence:
+  - c4.14
+  - o4
+  share: 0.09375
+  level: advanced
+  kind: concept
+  technology: Atlas
+- key: soda_application_model
+  name: SODA application programming model
+  description: Presents the SODA application model, which describes how IoT applications are programmed
+    and composed over service-oriented devices.
+  evidence:
+  - c4.15
+  - c4.16
+  - o2
+  - o3
+  share: 0.09375
+  level: intermediate
+  kind: concept
+  technology: null
+- key: safety_mechanisms
+  name: Safety concerns and mechanisms in SODA
+  description: Discusses safety risks in SODA-based smart spaces and the mechanisms the architecture provides
+    to address them.
+  evidence:
+  - c4.17
+  share: 0.0625
+  level: intermediate
+  kind: concept
+  technology: null
+- key: device_description_language
+  name: Atlas device description language (IoT-DDL)
+  description: Teaches the syntax and use of the IoT-DDL language for describing the devices, services
+    and interfaces of an Atlas IoT thing.
+  evidence:
+  - c4.18
+  - o3
+  share: 0.0625
+  level: advanced
+  kind: language
+  technology: IoT-DDL
+- key: transactional_model
+  name: IoTranx IoT transactional model
+  description: Introduces the IoTranx transactional model for coordinating multi-step interactions among
+    IoT things and applications with transactional guarantees.
+  evidence:
+  - c4.19
+  share: 0.0625
+  level: advanced
+  kind: concept
+  technology: IoTranx
+not_topics:
+- id: c1
+  reason: Course scope statement (software and architectural perspective), not teachable content in itself.
+- id: c2
+  reason: Scope exclusion stating hardware and wireless communication are not emphasised; no content to
+    teach.
+- id: c3
+  reason: Positioning note relative to other IoT courses; organisational remark.
+- id: c4
+  reason: Overview heading listing the five course parts; its content is covered by the topics above.

@@ -1,0 +1,109 @@
+format: extraction/1
+course: '41169'
+title: Theoretical Computer Science
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 12.1
+  usage:
+    prompt_tokens: 3007
+    completion_tokens: 2404
+    cache_read_tokens: 1854
+    thinking_tokens: 1427
+  created: '2026-11-04T18:12:57+00:00'
+topics:
+- key: problems_and_algorithms
+  name: Problems, algorithms and the limits of computation
+  description: Formal definition of computational problems and algorithms, and the distinction between
+    what is computable and what is efficiently computable.
+  evidence:
+  - c1
+  - c2
+  - o2
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: turing_machines
+  name: Turing machines
+  description: The Turing machine as a formal model of computation, its variants, and its use as a universal
+    model for algorithms.
+  evidence:
+  - c3
+  - o1
+  share: 0.16
+  level: introductory
+  kind: concept
+  technology: null
+- key: recursive_and_re_problems
+  name: Recursive and recursively enumerable problems
+  description: Decidable (recursive) and semi-decidable (recursively enumerable) problems, their closure
+    properties, and the undecidability results such as the halting problem.
+  evidence:
+  - c4
+  - o1
+  share: 0.15
+  level: intermediate
+  kind: concept
+  technology: null
+- key: complexity_classes
+  name: Complexity classes and time bounds
+  description: Measuring resource use as a function of input size and defining time-bounded complexity
+    classes.
+  evidence:
+  - c5
+  - o1
+  share: 0.13
+  level: intermediate
+  kind: concept
+  technology: null
+- key: p_and_np_classes
+  name: The classes P and NP
+  description: The polynomial-time class P and the nondeterministic polynomial-time class NP, with their
+    characterisations and examples of problems in each.
+  evidence:
+  - c6
+  - o1
+  share: 0.14
+  level: intermediate
+  kind: concept
+  technology: null
+- key: np_completeness_and_p_vs_np
+  name: NP-completeness and the P vs. NP question
+  description: NP-complete problems, polynomial-time reductions used to prove NP-completeness, and the
+    open P versus NP question and its implications.
+  evidence:
+  - c7
+  - o1
+  - o2
+  share: 0.16
+  level: intermediate
+  kind: concept
+  technology: null
+- key: space_complexity_classes
+  name: Space complexity classes
+  description: Classes defined by bounded memory usage, such as L, PSPACE and their relations to time-based
+    classes.
+  evidence:
+  - c8
+  - o1
+  share: 0.08
+  level: advanced
+  kind: concept
+  technology: null
+- key: oracle_classes_and_hierarchies
+  name: Oracle classes, class hierarchies and functional classes
+  description: Relativised computation with oracles, complexity class hierarchies, and classes of functions
+    rather than decision problems.
+  evidence:
+  - c9
+  - o1
+  share: 0.08
+  level: advanced
+  kind: concept
+  technology: null
+not_topics: []

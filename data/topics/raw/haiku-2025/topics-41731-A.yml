@@ -1,0 +1,119 @@
+format: extraction/1
+course: 41731-A
+title: Web-related Technologies
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 13.4
+  usage:
+    prompt_tokens: 2822
+    completion_tokens: 2899
+    cache_read_tokens: 1854
+    thinking_tokens: 1836
+  created: '2026-11-04T18:13:10+00:00'
+topics:
+- key: http_protocol
+  name: HTTP protocol
+  description: Request-response model, methods, status codes and headers of the HTTP protocol that underpins
+    web communication.
+  evidence:
+  - c1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: mime_and_character_encodings
+  name: MIME types and character encodings
+  description: How MIME media types label document content and how character encodings such as Unicode
+    represent text on the web.
+  evidence:
+  - c1
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: uri_identifiers
+  name: URI identifiers
+  description: Structure and syntax of Uniform Resource Identifiers and their role in locating web resources.
+  evidence:
+  - c2
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: html_markup
+  name: HTML5 markup
+  description: Markup fundamentals and the HTML5 elements used to structure and represent web documents.
+  evidence:
+  - c1
+  - c2
+  - o1
+  share: 0.15
+  level: introductory
+  kind: language
+  technology: HTML5
+- key: style_sheets
+  name: CSS3 style sheets
+  description: Selectors, the cascade and CSS3 properties used to style and lay out HTML documents.
+  evidence:
+  - c2
+  - o1
+  share: 0.12
+  level: introductory
+  kind: language
+  technology: CSS3
+- key: json_data_format
+  name: JSON data format
+  description: Syntax and use of JSON as a lightweight format for exchanging structured data on the web.
+  evidence:
+  - c2
+  share: 0.05
+  level: introductory
+  kind: language
+  technology: null
+- key: server_side_web_applications
+  name: Server-side web applications with PHP
+  description: Building server-side web applications in PHP, including request handling, dynamic page
+    generation and server-side logic.
+  evidence:
+  - c3
+  - o1
+  share: 0.18
+  level: intermediate
+  kind: language
+  technology: PHP
+- key: client_side_scripting
+  name: Client-side scripting with JavaScript
+  description: Writing JavaScript that runs in the browser to manipulate documents and handle user interaction
+    in web applications.
+  evidence:
+  - c4
+  - o1
+  share: 0.18
+  level: intermediate
+  kind: language
+  technology: JavaScript
+- key: human_computer_interaction_ux
+  name: HCI techniques and user experience
+  description: Human-computer interaction methods and user experience design principles applied to designing
+    web interfaces.
+  evidence:
+  - c5
+  share: 0.07
+  level: introductory
+  kind: technique
+  technology: null
+- key: web_accessibility_usability
+  name: Web accessibility and usability
+  description: Principles and evaluation practices for making websites accessible and usable for all users.
+  evidence:
+  - c5
+  share: 0.07
+  level: introductory
+  kind: technique
+  technology: null
+not_topics: []

@@ -1,0 +1,138 @@
+format: extraction/1
+course: 93034-A
+title: Foundations of Computer Science T
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 13.8
+  usage:
+    prompt_tokens: 3105
+    completion_tokens: 2926
+    cache_read_tokens: 1854
+    thinking_tokens: 1687
+  created: '2026-11-04T18:24:00+00:00'
+topics:
+- key: computer_science_foundations
+  name: Introduction to computer science
+  description: Core notions of computer science and computing systems, including how computational problems
+    are approached and solved with algorithms.
+  evidence:
+  - c3.1
+  - o5
+  share: 0.04
+  level: introductory
+  kind: concept
+  technology: null
+- key: development_environment
+  name: Terminal, Python interpreter and Jupyter notebooks
+  description: Working with a terminal emulator, the Python interpreter and interactive Jupyter notebooks
+    as the basic tools for developing and running programs.
+  evidence:
+  - c3.2
+  - c3.3
+  - o1
+  share: 0.08
+  level: introductory
+  kind: tool
+  technology: Python
+- key: structured_programming
+  name: Structured programming in Python
+  description: Sequential, conditional and iterative control flow used to translate a problem into a structured,
+    step-by-step algorithm implemented in Python.
+  evidence:
+  - c3.4
+  - o3
+  - o4
+  share: 0.17
+  level: introductory
+  kind: technique
+  technology: Python
+- key: functions
+  name: Functions
+  description: Defining and calling Python functions, passing parameters and returning values to decompose
+    programs into reusable parts.
+  evidence:
+  - c3.5
+  - o4
+  share: 0.12
+  level: introductory
+  kind: technique
+  technology: Python
+- key: collections
+  name: Collections
+  description: Python collection types such as lists, tuples, dictionaries and sets, and how they are
+    created, accessed and traversed.
+  evidence:
+  - c3.6
+  - o3
+  share: 0.12
+  level: introductory
+  kind: language
+  technology: Python
+- key: operating_system_and_hardware
+  name: Operating system and hardware
+  description: Basic architecture of computing hardware and the role of the operating system in running
+    programs on a computer.
+  evidence:
+  - c3.7
+  - o5
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: vector_computation
+  name: Vector computations
+  description: Expressing numerical computations over whole arrays of values as vector operations instead
+    of explicit loops in Python.
+  evidence:
+  - c3.8
+  - o4
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: functional_programming
+  name: Functional programming elements
+  description: Functional style in Python, including pure functions, higher-order functions and anonymous
+    functions applied to collections.
+  evidence:
+  - c3.9
+  - o3
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: object_oriented_programming
+  name: Object-oriented programming elements
+  description: Classes, objects, attributes and methods in Python as a way to structure programs around
+    data and behaviour.
+  evidence:
+  - c3.10
+  - o3
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: Python
+- key: numerical_methods
+  name: Numerical methods in Python
+  description: Solving numerical problems with Python by implementing standard numerical algorithms as
+    the main application focus of the course.
+  evidence:
+  - c3.11
+  - c4
+  - o1
+  - o4
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: Python
+not_topics:
+- id: c1
+  reason: Administrative note that the target language changed from C to Python; it defines the technology
+    used but teaches no content itself.
+- id: c2
+  reason: Organisational remark that the other learning outcomes are unchanged.

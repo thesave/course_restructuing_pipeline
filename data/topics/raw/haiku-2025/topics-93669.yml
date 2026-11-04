@@ -1,0 +1,172 @@
+format: extraction/1
+course: '93669'
+title: Intelligent Systems Engineering
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 20.3
+  usage:
+    prompt_tokens: 3422
+    completion_tokens: 4832
+    cache_read_tokens: 1854
+    thinking_tokens: 3140
+  created: '2026-11-04T18:25:21+00:00'
+topics:
+- key: ai_foundations_and_autonomy
+  name: AI foundations and autonomy
+  description: Historical and conceptual overview of artificial intelligence, the drivers behind intelligent
+    systems, and the definitions of autonomy in natural and artificial systems.
+  evidence:
+  - c2.1
+  - c2.2
+  - c2.4
+  - c1.2
+  - o1
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: intelligent_agent_architectures
+  name: Intelligent agent architectures
+  description: The agent abstraction for engineering intelligent systems and the architectures of reasoning
+    agents that perceive, deliberate and act.
+  evidence:
+  - c2.3
+  - c2.6
+  - o2
+  - o4
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: agentspeak_programming
+  name: Programming intentional agents in AgentSpeak and Jason
+  description: Writing belief-desire-intention agents in the AgentSpeak(L) language using the Jason interpreter,
+    including exercises on beliefs, plans and goals.
+  evidence:
+  - c1.3
+  - c4.5
+  - o5
+  share: 0.13
+  level: intermediate
+  kind: language
+  technology: Jason
+- key: knowledge_representation_and_logic
+  name: Knowledge representation and logic
+  description: Formal ways of representing knowledge about an environment and the logical foundations
+    of computation used to encode it.
+  evidence:
+  - c4.1
+  - c2.7
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: automated_reasoning_and_inference
+  name: Automated reasoning and inference
+  description: Techniques for deriving new conclusions automatically from a knowledge base through inference
+    procedures.
+  evidence:
+  - c2.5
+  - c4.2
+  - o3
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: planning_with_strips
+  name: Planning with STRIPS
+  description: Automated planning for intelligent agents, covering planning problems and the STRIPS representation
+    of actions, states and goals.
+  evidence:
+  - c2.8
+  - c4.4
+  - o3
+  - o5
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: self_organisation_and_coordination
+  name: Self-organisation and nature-inspired coordination
+  description: Self-organising systems and nature-inspired mechanisms that coordinate many agents without
+    central control.
+  evidence:
+  - c2.9
+  - c2.10
+  - o4
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: multi_agent_simulation
+  name: Simulation of multi-agent systems
+  description: Introduction to building and running simulations of systems composed of interacting agents.
+  evidence:
+  - c2.12
+  - o5
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: conversational_and_language_systems
+  name: Conversational and language systems
+  description: Interaction with autonomous systems through conversation, covering natural language processing
+    and the evaluation of systems such as ChatGPT beyond the Turing test.
+  evidence:
+  - c2.11
+  - c1.4
+  - c1.1
+  - o1
+  share: 0.11
+  level: intermediate
+  kind: concept
+  technology: null
+- key: perception_and_actuation
+  name: Perception and actuation
+  description: How intelligent systems sense their environment and act upon it, linking sensors and effectors
+    to the agent's reasoning.
+  evidence:
+  - c4.3
+  - o5
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: explainable_ai
+  name: Explainable artificial intelligence
+  description: Gentle introduction to explainability of AI systems, covering why and how intelligent systems
+    should explain their decisions.
+  evidence:
+  - c4.6
+  - o1
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: scientific_literature_review
+  name: Scientific literature review
+  description: Locating sources of scientific literature on intelligent systems and conducting a systematic
+    literature review as a methodology for scientific surveys.
+  evidence:
+  - c3.1
+  - c3.2
+  - o1
+  share: 0.06
+  level: introductory
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Section heading for case studies; its items c1.1–c1.4 are cited by topics.
+- id: c2
+  reason: Section heading for general issues; its items c2.1–c2.12 are cited by topics.
+- id: c3
+  reason: Section heading for scientific competences; its items c3.1–c3.2 are cited by a topic.
+- id: c4
+  reason: Section heading for technologies; its items c4.1–c4.6 are cited by topics.

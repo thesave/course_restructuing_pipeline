@@ -1,0 +1,159 @@
+format: extraction/1
+course: 95631-A
+title: Machine Learning and Data Mining
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 44.3
+  usage:
+    prompt_tokens: 4120
+    completion_tokens: 10508
+    cache_read_tokens: 1854
+    thinking_tokens: 8915
+  created: '2026-11-04T18:26:25+00:00'
+topics:
+- key: knowledge_discovery_crisp_dm
+  name: Knowledge discovery process and CRISP-DM
+  description: Covers the data mining application areas, the knowledge discovery process, how to design
+    a mining project, and the CRISP-DM methodology applied to real datasets and use cases.
+  evidence:
+  - c4.1
+  - c4.2
+  - c4.3
+  - c4.4
+  - c6.2
+  - o1.2
+  share: 0.07
+  level: introductory
+  kind: technique
+  technology: null
+- key: data_preparation_quality
+  name: Data understanding, preparation and quality
+  description: Covers data types and their features, basic statistical analysis, data quality issues,
+    data acquisition, and preprocessing with attribute selection, creation and feature extraction.
+  evidence:
+  - c4.5
+  - c4.6
+  - c4.7
+  - c4.8
+  - c4.9
+  - c6.3
+  - c6.4
+  share: 0.12
+  level: introductory
+  kind: technique
+  technology: null
+- key: decision_trees_bayesian_classification
+  name: Classification with decision trees and Bayesian networks
+  description: Covers how decision trees and Bayesian networks are built and used for classification,
+    within the general overview of data mining techniques.
+  evidence:
+  - c4.11
+  - c4.12
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: association_rules
+  name: Association rules
+  description: Covers mining frequent itemsets and association rules from transactional data and evaluating
+    their interestingness.
+  evidence:
+  - c4.12.1
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: clustering_outlier_detection
+  name: Clustering, similarity measures and outlier detection
+  description: Covers measuring similarities and dissimilarities between data objects, clustering methods,
+    and detecting outliers in datasets.
+  evidence:
+  - c4.10
+  - c4.12.2
+  - c4.12.3
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: model_validation_interpretation
+  name: Model validation and output interpretation
+  description: Covers validating data mining and machine learning models, modeling choices, and understanding
+    and interpreting the results obtained.
+  evidence:
+  - c4.12.4
+  - c6.5
+  - c6.6
+  - o1.3
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: practical_data_analysis_lab
+  name: Practical data analysis with Weka
+  description: Hands-on analysis of real datasets and case studies using the Weka software, including
+    interpreting the results.
+  evidence:
+  - c4.12.5
+  - c4.12.6
+  - o1.3
+  share: 0.05
+  level: intermediate
+  kind: tool
+  technology: Weka
+- key: text_representation_classification
+  name: Text representation, retrieval and classification
+  description: Covers representing text for retrieval and classification, text classification, and opinion
+    mining.
+  evidence:
+  - c5.1
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: transformer_language_models
+  name: Language models and transformers
+  description: Covers neural language models, transformer architectures, efficient attention mechanisms,
+    retrieval-augmented generation with vector databases, and advanced multimodal, graph and neuro-symbolic
+    methods for trustworthy AI.
+  evidence:
+  - c5.2
+  - c5.3
+  share: 0.12
+  level: advanced
+  kind: concept
+  technology: null
+- key: generative_llm_applications
+  name: Generative LLMs, prompting and adaptation
+  description: Covers generative large language models, prompt engineering, evaluation, compression and
+    quantization, parameter-efficient fine-tuning, and labs building applications such as summarization,
+    information extraction and chatbots with open source tools.
+  evidence:
+  - c5.4
+  - c5.5
+  share: 0.12
+  level: advanced
+  kind: technique
+  technology: null
+- key: neural_networks_deep_learning
+  name: Neural networks and deep learning
+  description: Introduces the basic principles of neural networks and deep learning models and their use
+    on machine learning tasks.
+  evidence:
+  - c6.1
+  - o1.1
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics:
+- id: c1
+  reason: Describes the course organisation into two modules; no teachable content.
+- id: c2
+  reason: States which student groups share the first module; organisational remark.
+- id: c3
+  reason: States that the second module is specific to each degree; organisational remark.

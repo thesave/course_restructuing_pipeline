@@ -1,0 +1,68 @@
+format: extraction/1
+course: '88016'
+title: Statistics
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 15.4
+  usage:
+    prompt_tokens: 6398
+    completion_tokens: 2971
+    cache_read_tokens: 3708
+    thinking_tokens: 1838
+  created: '2026-11-04T18:20:44+00:00'
+topics:
+- key: study_designs_and_statistical_basics
+  name: Study designs and statistical basics
+  description: Introduces the main experimental and observational study designs in biomedical research
+    and the basic role and purpose of statistics in them.
+  evidence:
+  - c1
+  - c2
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: descriptive_statistics
+  name: Descriptive statistics
+  description: Covers univariate and bivariate description of data through frequency tables, graphical
+    representations, mean, median and mode, and measures of variability.
+  evidence:
+  - c3
+  - c5
+  - c6
+  - c7
+  - o1
+  share: 0.4
+  level: introductory
+  kind: technique
+  technology: null
+- key: inferential_statistics
+  name: Inferential statistics and statistical tests
+  description: Covers probability and inference from samples, confidence intervals, precision and bias,
+    and the main statistical tests with their practical applications in clinical and biomedical settings.
+  evidence:
+  - c4
+  - c7
+  - c8
+  - o1
+  share: 0.35
+  level: intermediate
+  kind: technique
+  technology: null
+- key: data_processing
+  name: Data processing with Excel
+  description: Practical use of a spreadsheet to enter, organise and process data for the statistical
+    analyses covered in the course.
+  evidence:
+  - c9
+  share: 0.15
+  level: introductory
+  kind: tool
+  technology: Excel
+not_topics: []

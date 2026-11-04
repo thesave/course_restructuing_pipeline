@@ -1,0 +1,141 @@
+format: extraction/1
+course: B8563
+title: SISTEMI DI ELABORAZIONE ACCELERATA M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 20.5
+  usage:
+    prompt_tokens: 3653
+    completion_tokens: 4626
+    cache_read_tokens: 1854
+    thinking_tokens: 3326
+  created: '2026-11-04T18:33:14+00:00'
+topics:
+- key: parallel_computing_hpc_architectures
+  name: Parallel computing and HPC architectures
+  description: Principles of parallel computing and the main HPC platforms (multi-core CPUs, GPUs, embedded
+    systems), with the course's focus on computer vision and AI workloads.
+  evidence:
+  - c1
+  - c2
+  - c2.1
+  - c2.2
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: simd_vectorization
+  name: SIMD vectorization
+  description: Single-instruction multiple-data extensions on CPUs, their programming model and how computations
+    are vectorized to exploit them.
+  evidence:
+  - c3
+  - c3.1
+  - o2
+  - o3
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: multithreading_principles
+  name: Multi-threading principles
+  description: Principles of multi-threaded execution on CPUs, including threads, concurrency and parallel
+    execution of computations.
+  evidence:
+  - c3
+  - c3.2
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: gpu_architecture_execution_model
+  name: GPU architecture and execution model
+  description: Internal organization of modern GPUs (streaming multiprocessors, cores, threads and warps)
+    and how kernels are executed on them.
+  evidence:
+  - c4
+  - c4.2
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: gpu_programming_model
+  name: GPU programming model
+  description: 'The CUDA C programming model for GPUs: kernels, thread hierarchy, grids and blocks, and
+    writing and launching GPU code.'
+  evidence:
+  - c4
+  - c4.1
+  - o3
+  share: 0.14
+  level: intermediate
+  kind: language
+  technology: CUDA C
+- key: gpu_memory_hierarchy
+  name: GPU memory hierarchy
+  description: The organization of GPU memory spaces (global, shared, constant, registers) and their use
+    in CUDA programs to optimize data access.
+  evidence:
+  - c4
+  - c4.3
+  - o3
+  share: 0.11
+  level: intermediate
+  kind: concept
+  technology: CUDA C
+- key: gpu_software_ecosystem
+  name: GPU software ecosystem
+  description: The CUDA ecosystem of libraries and applications for accelerating computations in scientific,
+    AI and data-processing domains.
+  evidence:
+  - c4
+  - c4.4
+  - o4
+  share: 0.07
+  level: intermediate
+  kind: tool
+  technology: CUDA
+- key: floating_point_arithmetic
+  name: Floating-point arithmetic
+  description: Encoding of real numbers in floating-point format (IEEE 754), rounding, precision and error
+    issues, and floating-point computation.
+  evidence:
+  - c5
+  - c6
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: fixed_point_arithmetic
+  name: Fixed-point arithmetic
+  description: Encoding of real numbers in fixed-point format and computations with it, as an alternative
+    numerical format for efficient hardware.
+  evidence:
+  - c5
+  - c7
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: fpga_architecture
+  name: FPGA architecture
+  description: 'Field-programmable gate arrays as an emerging acceleration technology: their architecture
+    and their role in heterogeneous computing.'
+  evidence:
+  - c8
+  - c8.1
+  - o2
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

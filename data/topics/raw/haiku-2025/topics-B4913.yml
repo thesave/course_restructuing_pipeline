@@ -1,0 +1,179 @@
+format: extraction/1
+course: B4913
+title: ALGORITMI E STRUTTURE DATI
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 23.7
+  usage:
+    prompt_tokens: 3481
+    completion_tokens: 5981
+    cache_read_tokens: 1854
+    thinking_tokens: 4283
+  created: '2026-11-04T18:30:38+00:00'
+topics:
+- key: basic_data_structures
+  name: Basic data structures
+  description: Abstract data types and implementations of lists, stacks, queues and trees, with their
+    operations and costs.
+  evidence:
+  - c1
+  - o1
+  share: 0.0971
+  level: introductory
+  kind: concept
+  technology: null
+- key: computational_complexity
+  name: Computational complexity analysis
+  description: Asymptotic notation, recurrences and the time and space complexity evaluation of algorithms.
+  evidence:
+  - c2
+  - o1
+  share: 0.0972
+  level: introductory
+  kind: technique
+  technology: null
+- key: sorting_and_searching
+  name: Sorting and searching algorithms
+  description: Comparison-based sorting algorithms and searching methods, including binary search, with
+    their complexity.
+  evidence:
+  - c3
+  - c4
+  share: 0.0833
+  level: introductory
+  kind: technique
+  technology: null
+- key: dictionaries_and_balanced_trees
+  name: Sets, dictionaries and balanced search trees
+  description: Set and dictionary abstract data types implemented with binary search trees and red-black
+    trees.
+  evidence:
+  - c4
+  share: 0.0833
+  level: intermediate
+  kind: concept
+  technology: null
+- key: heaps_and_priority_queues
+  name: Heaps and priority queues
+  description: Heap structures and their use to implement priority queues and heapsort.
+  evidence:
+  - c5
+  share: 0.0556
+  level: intermediate
+  kind: concept
+  technology: null
+- key: hash_tables
+  name: Hash tables
+  description: Hash functions, collision resolution and the expected cost of dictionary operations on
+    hash tables.
+  evidence:
+  - c5
+  share: 0.0417
+  level: intermediate
+  kind: technique
+  technology: null
+- key: union_find
+  name: Union-find data structures
+  description: Disjoint-set structures with union and find operations and their efficient implementations.
+  evidence:
+  - c5
+  share: 0.0278
+  level: intermediate
+  kind: technique
+  technology: null
+- key: divide_and_conquer
+  name: Divide and conquer
+  description: The divide et impera design paradigm applied to well-known problems and analysed with recurrences.
+  evidence:
+  - c6
+  - o1
+  share: 0.0556
+  level: intermediate
+  kind: technique
+  technology: null
+- key: greedy_algorithms
+  name: Greedy algorithms
+  description: The greedy design method, its correctness conditions and its application to classic optimisation
+    problems.
+  evidence:
+  - c6
+  share: 0.0556
+  level: intermediate
+  kind: technique
+  technology: null
+- key: dynamic_programming
+  name: Dynamic programming
+  description: Design of algorithms by decomposing problems into overlapping subproblems solved once and
+    stored in tables.
+  evidence:
+  - c6
+  share: 0.0833
+  level: intermediate
+  kind: technique
+  technology: null
+- key: backtracking_and_local_search
+  name: Backtracking and local search
+  description: Systematic exploration of solution spaces with backtracking and iterative improvement with
+    local search, as named in the learning outcomes.
+  evidence:
+  - o1
+  share: 0.0417
+  level: intermediate
+  kind: technique
+  technology: null
+- key: graph_traversal
+  name: Graph representation and traversal
+  description: Graph representations and the depth-first and breadth-first visits with their applications
+    such as connectivity and elementary graph algorithms.
+  evidence:
+  - c7
+  - c8
+  share: 0.0694
+  level: intermediate
+  kind: technique
+  technology: null
+- key: minimum_spanning_tree
+  name: Minimum spanning tree
+  description: Algorithms that compute minimum spanning trees of weighted graphs and their correctness.
+  evidence:
+  - c8
+  share: 0.0556
+  level: intermediate
+  kind: technique
+  technology: null
+- key: shortest_paths
+  name: Shortest path algorithms
+  description: Single-source shortest path algorithms on weighted graphs and their complexity.
+  evidence:
+  - c8
+  share: 0.0694
+  level: intermediate
+  kind: technique
+  technology: null
+- key: np_completeness
+  name: Computational complexity classes and NP-completeness
+  description: The classes P, NP and NP-hard and the basic notions of NP-completeness theory.
+  evidence:
+  - c9
+  - o1
+  share: 0.0556
+  level: intermediate
+  kind: concept
+  technology: null
+- key: algorithm_design_tradeoffs
+  name: Algorithm and data structure trade-offs
+  description: Illustration of the trade-offs and synergies between algorithms and data structures and
+    the methodologies for designing efficient solutions under given requirements.
+  evidence:
+  - o2
+  - o1
+  share: 0.0278
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

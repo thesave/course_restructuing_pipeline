@@ -1,0 +1,134 @@
+format: extraction/1
+course: '90147'
+title: Artificial intelligence
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 17.4
+  usage:
+    prompt_tokens: 3576
+    completion_tokens: 3749
+    cache_read_tokens: 1854
+    thinking_tokens: 2522
+  created: '2026-11-04T18:21:46+00:00'
+topics:
+- key: history_of_ai
+  name: History of artificial intelligence
+  description: The emergence and development of AI from its origins to its main phases, including the
+    early symbolic period, the winters and the revival, as an introduction to the field.
+  evidence:
+  - c1
+  - c4
+  - c6.1
+  - o1
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: epistemology_of_cognitive_science
+  name: Epistemology of AI and cognitive science
+  description: Epistemological questions about how AI and classical and new cognitive science explain
+    mind and cognition, such as the symbolic versus connectionist approaches and the nature of computational
+    models of the mind.
+  evidence:
+  - c2
+  - c5
+  - c6.4
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: ai_ethics
+  name: Ethics of AI and robotics
+  description: Philosophical and ethical issues raised by AI, cognitive science and robotics, including
+    questions of machine agency, responsibility and the moral status of artificial systems.
+  evidence:
+  - c5
+  - c6.4
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: problem_solving_search
+  name: Problem solving and search
+  description: Formulating problems as state-space search and applying uninformed and heuristic search
+    strategies to find solutions.
+  evidence:
+  - c3
+  - c6.2
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: automated_planning
+  name: Automated planning
+  description: Representing planning problems with actions, states and goals and generating plans automatically
+    with classical planning methods.
+  evidence:
+  - c3
+  - c6.2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: knowledge_representation
+  name: Knowledge representation and concepts
+  description: Representing knowledge and concepts in formal structures such as logic, semantic networks
+    and ontologies, and reasoning over them.
+  evidence:
+  - c3
+  - c6.3
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: machine_learning
+  name: Machine learning
+  description: Principles of learning from data, including supervised and unsupervised learning and the
+    evaluation of learned models.
+  evidence:
+  - c3
+  share: 0.08
+  level: introductory
+  kind: technique
+  technology: null
+- key: neural_networks
+  name: Neural networks and recent AI trends
+  description: Artificial neural networks, their training and their role in recent developments of AI.
+  evidence:
+  - c3
+  - c6.3
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: null
+- key: natural_language_processing
+  name: Natural language processing
+  description: Computational methods for processing and generating natural language, including the main
+    tasks and approaches of the field.
+  evidence:
+  - c3
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: robotics_and_hci
+  name: Robotics and human-computer interaction
+  description: Robotics as an application of AI and the implications of AI for human-computer interaction
+    and the design of interactive systems.
+  evidence:
+  - c3
+  - c4
+  - c6.4
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+not_topics:
+- id: c6
+  reason: Structural outline of the four course parts; its parts c6.1–c6.4 are covered by the topics that
+    cite them.

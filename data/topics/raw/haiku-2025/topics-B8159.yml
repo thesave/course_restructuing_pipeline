@@ -1,0 +1,249 @@
+format: extraction/1
+course: B8159
+title: INFORMATICA
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 31.2
+  usage:
+    prompt_tokens: 10506
+    completion_tokens: 7927
+    cache_read_tokens: 3708
+    thinking_tokens: 3481
+  created: '2026-11-04T18:32:47+00:00'
+topics:
+- key: binary_information_coding
+  name: Coding of information
+  description: Representing data in binary, including binary numbers and character codes such as ASCII
+    and Unicode.
+  evidence:
+  - c1
+  - c1.1
+  - c1.2
+  - c1.3
+  - o1
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: operating_systems
+  name: Operating systems
+  description: Single-user, multi-user and client/server operating system models and their roles in a
+    computer system.
+  evidence:
+  - c2
+  - c2.1
+  - c2.2
+  - c2.3
+  - o1
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: computer_architecture
+  name: Computer architecture
+  description: The Von Neumann architecture and the fetch cycle that executes instructions on a computer.
+  evidence:
+  - c3
+  - c3.1
+  - c3.2
+  - o1
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: networks_and_internet
+  name: Computer networks and the Internet
+  description: Local and geographic networks, network interconnection, Internet communication protocols
+    and the Domain Name System.
+  evidence:
+  - c4
+  - c4.1
+  - c4.2
+  - c4.3
+  - c5
+  - c5.1
+  - c5.2
+  - o1
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_structures
+  name: R data structures
+  description: Vectors, lists, matrices and data frames in R, with their creation, indexing and manipulation
+    for statistical data.
+  evidence:
+  - c6
+  - c6.1
+  - c6.2
+  - c6.3
+  - c6.4
+  - o2
+  - o2.1
+  - o2.2
+  share: 0.11
+  level: introductory
+  kind: language
+  technology: R
+- key: control_flow_and_functions
+  name: Control flow and functions in R
+  description: Conditional and looping instructions and user-defined function definition in R.
+  evidence:
+  - c6
+  - c6.6
+  - c6.7
+  - o2
+  - o2.1
+  - o2.2
+  share: 0.08
+  level: introductory
+  kind: language
+  technology: R
+- key: file_io_and_graphics
+  name: File input/output, graphics and packages in R
+  description: Reading and writing files, producing graphics and loading packages in R for data processing
+    and presentation.
+  evidence:
+  - c6
+  - c6.5
+  - c6.8
+  - o2
+  - o2.1
+  - o2.2
+  share: 0.05
+  level: introductory
+  kind: tool
+  technology: R
+- key: relational_data_model
+  name: Relational model of data
+  description: Attributes, relation and database schemas, and tuples, relations and databases in the relational
+    data model.
+  evidence:
+  - c7
+  - c7.1
+  - c7.2
+  - c7.3
+  - o1
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: relational_algebra
+  name: Relational algebra
+  description: Formal operators of relational algebra used to express queries over relations.
+  evidence:
+  - c7.4
+  - o1
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: integrity_constraints
+  name: Integrity constraints
+  description: Keys, superkeys and referential integrity as rules that keep relational data consistent.
+  evidence:
+  - c8
+  - c8.1
+  - c8.2
+  - o1
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: basic_queries
+  name: Basic SQL queries
+  description: General characteristics of SQL, expressions, basic predicates, and SELECT-FROM-WHERE queries
+    including BETWEEN, LIKE and IS NULL.
+  evidence:
+  - c9
+  - c9.1
+  - c9.2
+  - c9.4
+  - c9.5
+  - o2
+  - o2.2
+  share: 0.08
+  level: introductory
+  kind: language
+  technology: SQL
+- key: joins_and_subqueries
+  name: SQL joins and subqueries
+  description: Joins, subselects, subqueries with IN and quantified predicates, and correlated subqueries
+    in SQL.
+  evidence:
+  - c9
+  - c9.3
+  - c9.6
+  - c9.7
+  - c9.8
+  - c9.11
+  - o2
+  - o2.2
+  share: 0.09
+  level: intermediate
+  kind: language
+  technology: SQL
+- key: grouping_and_aggregation
+  name: SQL grouping and aggregate functions
+  description: GROUP BY and HAVING clauses together with column (aggregate) functions in SQL.
+  evidence:
+  - c9
+  - c9.9
+  - c9.10
+  - o2
+  - o2.1
+  - o2.2
+  share: 0.05
+  level: intermediate
+  kind: language
+  technology: SQL
+- key: outer_joins_and_set_operations
+  name: SQL outer joins and set operations
+  description: Outer joins and set operations (UNION, INTERSECT, EXCEPT) with full-select in SQL.
+  evidence:
+  - c9
+  - c9.12
+  - c9.13
+  - o2
+  - o2.2
+  share: 0.05
+  level: intermediate
+  kind: language
+  technology: SQL
+- key: table_definition_and_constraints
+  name: SQL table definition and constraints
+  description: CREATE TABLE statements and the PRIMARY KEY, UNIQUE and FOREIGN KEY constraints in SQL.
+  evidence:
+  - c9
+  - c9.14
+  - c9.15
+  - o1
+  - o2.2
+  share: 0.05
+  level: intermediate
+  kind: language
+  technology: SQL
+- key: data_manipulation_and_access_control
+  name: SQL data modification, access control and views
+  description: INSERT, UPDATE and DELETE statements, GRANT and REVOKE privileges, and CREATE VIEW in SQL.
+  evidence:
+  - c9
+  - c9.16
+  - c9.17
+  - c9.18
+  - o2.2
+  share: 0.05
+  level: intermediate
+  kind: language
+  technology: SQL
+not_topics:
+- id: c10
+  reason: Laboratory practice that applies the R and SQL topics above; it has no separate teachable content
+    of its own.
+- id: c11
+  reason: Organisational remark about the computers students use for exercises, not teaching content.

@@ -1,0 +1,164 @@
+format: extraction/1
+course: '90477'
+title: Machine Learning Systems For Data Science
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 0
+  seconds: 0.0
+  usage: {}
+  created: '2026-11-04T18:19:58+00:00'
+copied_from: '85189'
+topics:
+- key: programming_fundamentals
+  name: 'Programming fundamentals: expressions, branching and loops'
+  description: Core paradigm of the language covering expressions, branching instructions and repetitive
+    instructions (loops).
+  evidence:
+  - c1.1
+  - c1.2
+  - c2.1
+  - o1
+  share: 0.07
+  level: introductory
+  kind: language
+  technology: Python
+- key: collections_and_comprehensions
+  name: Collections and comprehensions
+  description: Tuples, lists, sets and dictionaries, together with list, set and dictionary comprehensions
+    for building and transforming them.
+  evidence:
+  - c1.1
+  - o1
+  share: 0.09
+  level: introductory
+  kind: language
+  technology: Python
+- key: numerical_arrays
+  name: Numerical computation with arrays
+  description: Array-based numerical computation with NumPy as a base for data representation and machine
+    learning.
+  evidence:
+  - c1.3
+  - o1
+  share: 0.08
+  level: introductory
+  kind: tool
+  technology: NumPy
+- key: tabular_data_manipulation
+  name: Tabular data manipulation
+  description: Loading, representing and manipulating tabular data for data management and analysis with
+    pandas.
+  evidence:
+  - c1.3
+  - o1
+  share: 0.08
+  level: intermediate
+  kind: tool
+  technology: Pandas
+- key: notebook_development_environments
+  name: Notebook and collaborative development environments
+  description: Working with Jupyter Notebook, Google Colab, GitLab and Hugging Face, including IDE setup
+    and sharing of data analyses.
+  evidence:
+  - c1.5
+  - c2.3
+  - o1
+  share: 0.06
+  level: introductory
+  kind: tool
+  technology: Jupyter
+- key: machine_learning_fundamentals
+  name: Supervised and unsupervised learning fundamentals
+  description: Core principles of supervised and unsupervised machine learning, including how models are
+    trained and evaluated.
+  evidence:
+  - c1.4
+  - o1
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: deep_neural_networks
+  name: Deep neural networks
+  description: Architecture and training of fully connected deep neural networks as the basis of supervised
+    deep learning.
+  evidence:
+  - c1.4
+  - o1
+  share: 0.11
+  level: intermediate
+  kind: concept
+  technology: null
+- key: convolutional_networks
+  name: Convolutional neural networks
+  description: Convolutional network architectures and their use for image analysis.
+  evidence:
+  - c1.4
+  - c2.2
+  - o1
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: recurrent_networks_lstm
+  name: Recurrent networks and LSTM
+  description: Recurrent neural networks and Long Short-Term Memory units for sequential data such as
+    text and time series.
+  evidence:
+  - c1.4
+  - c2.2
+  - o1
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: transformer_models
+  name: Transformer models
+  description: The transformer architecture and its use for text analysis and other sequence tasks.
+  evidence:
+  - c1.4
+  - c2.2
+  - o1
+  share: 0.07
+  level: advanced
+  kind: concept
+  technology: null
+- key: generative_models
+  name: Generative models
+  description: Generative models such as autoencoders and generative adversarial networks (GANs) and how
+    they learn to produce new data.
+  evidence:
+  - c1.4
+  - o1
+  share: 0.07
+  level: advanced
+  kind: concept
+  technology: null
+- key: deep_learning_frameworks
+  name: Deep learning frameworks and ML libraries
+  description: Using Python deep learning frameworks such as PyTorch and TensorFlow, and their libraries,
+    to define, train and use machine learning models.
+  evidence:
+  - c2.1
+  - c2.2
+  - o1
+  share: 0.08
+  level: intermediate
+  kind: tool
+  technology: PyTorch
+- key: applied_data_science_projects
+  name: Applied data science projects on real datasets
+  description: Applying data science practices to build models and solve problems using real-world datasets
+    provided in the course.
+  evidence:
+  - c2.4
+  - o1
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

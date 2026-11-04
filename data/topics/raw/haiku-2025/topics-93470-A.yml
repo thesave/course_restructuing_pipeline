@@ -1,0 +1,128 @@
+format: extraction/1
+course: 93470-A
+title: Cybersecurity
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 16.1
+  usage:
+    prompt_tokens: 2959
+    completion_tokens: 3664
+    cache_read_tokens: 1854
+    thinking_tokens: 2488
+  created: '2026-11-04T18:24:59+00:00'
+topics:
+- key: cybersecurity_foundations
+  name: Cybersecurity foundations and goals
+  description: Covers the cyber scenario, the historical motivations for cybersecurity, the goals of security
+    and availability of information and services, and the distinction between defensive and offensive
+    security.
+  evidence:
+  - c1
+  - c2
+  - c3
+  - o1
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: threat_actors_motivations
+  name: Threat actors and motivations
+  description: Covers the types of attackers targeting systems and their motivations, and how these shape
+    the threat landscape.
+  evidence:
+  - c4
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: vulnerabilities_human_technological
+  name: Human and technological vulnerabilities
+  description: Covers the main classes of human and technological weaknesses that expose data, software,
+    components and networks to attack.
+  evidence:
+  - c5
+  - o1
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: cyber_risk_management
+  name: Cyber risk management
+  description: Covers the process of identifying, qualitatively and quantitatively evaluating, and treating
+    cyber risks.
+  evidence:
+  - c7
+  - c8
+  share: 0.16
+  level: intermediate
+  kind: technique
+  technology: null
+- key: security_governance_strategies
+  name: Security governance, strategies and policies
+  description: Covers the top-down approach to cybersecurity and how strategies, policies and technical
+    controls are defined and combined.
+  evidence:
+  - c6
+  - c9
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: security_assessment_validation
+  name: Security assessment and validation
+  description: Covers methods for assessing and validating the security of systems and verifying that
+    controls work as intended.
+  evidence:
+  - c10
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: cyber_threat_intelligence
+  name: Cyber threat intelligence
+  description: Covers collecting, analysing and sharing information about threats to support defensive
+    decisions.
+  evidence:
+  - c11
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: zero_trust_architecture
+  name: Zero Trust architecture
+  description: Covers the Zero Trust security model, which removes implicit trust and continuously verifies
+    access to resources.
+  evidence:
+  - c12
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: deception_techniques
+  name: Deception techniques
+  description: Covers deception-based defence, such as honeypots and decoys, used to detect and mislead
+    attackers.
+  evidence:
+  - c12
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: machine_learning_for_security
+  name: Machine learning for cybersecurity
+  description: Covers the application of machine learning methods to detect and analyse cyber threats
+    and their limits in security settings.
+  evidence:
+  - c12
+  share: 0.08
+  level: advanced
+  kind: technique
+  technology: null
+not_topics:
+- id: c13
+  reason: Career orientation on competences and jobs in cybersecurity; it has no teachable technical content.

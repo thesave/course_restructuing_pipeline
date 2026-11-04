@@ -1,0 +1,132 @@
+format: extraction/1
+course: '89988'
+title: Elements of Informatics
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 28.4
+  usage:
+    prompt_tokens: 7832
+    completion_tokens: 6694
+    cache_read_tokens: 3708
+    thinking_tokens: 3984
+  created: '2026-11-04T18:21:35+00:00'
+topics:
+- key: computational_problem_solving
+  name: Computational problem solving
+  description: How computational tools are used to solve problems, and the distinction between declarative
+    and imperative knowledge.
+  evidence:
+  - c1.1
+  - c1.2
+  - o1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: programming_languages_and_tools
+  name: High-level languages and scripting
+  description: Overview of high-level programming languages, development tools and scripting languages,
+    and where they fit in computing.
+  evidence:
+  - c1.3
+  - c1.6
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: interpreters_compilers_and_debugging
+  name: Interpreters, compilers and debugging
+  description: How source code is executed by interpreters or compiled into machine code, and the role
+    of debugging in finding and fixing program errors.
+  evidence:
+  - c1.4
+  - c1.5
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: syntax_and_expressions
+  name: Interpreter, variables and expressions
+  description: Using the Python interpreter to write statements and expressions with variables, including
+    the representation of signed numbers and Python's design approach.
+  evidence:
+  - c1.7
+  - c1.8
+  - c1.9
+  - o3
+  share: 0.11
+  level: introductory
+  kind: language
+  technology: Python
+- key: functions_and_control_flow
+  name: Functions, conditionals, iteration and recursion
+  description: Defining and calling Python functions, controlling execution with conditionals and loops,
+    and writing recursive functions, including reading code written by others.
+  evidence:
+  - c1.10
+  - o3
+  - o4
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: data_types_and_tables
+  name: Data types, tables and data export
+  description: Python built-in data types and tables, exporting data to CSV files and creating spreadsheets.
+  evidence:
+  - c1.10
+  share: 0.11
+  level: introductory
+  kind: language
+  technology: Python
+- key: object_oriented_programming
+  name: Object-oriented programming
+  description: Core concepts and notation of object-oriented programming, such as classes and objects,
+    as used in Python.
+  evidence:
+  - c1.11
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: Python
+- key: scientific_libraries
+  name: Graphical and scientific Python libraries
+  description: Using Python modules for graphics and for scientific and numerical computation.
+  evidence:
+  - c2.1
+  - o3
+  share: 0.13
+  level: intermediate
+  kind: tool
+  technology: Python
+- key: astronomical_data_catalogs
+  name: Astronomical data catalogs and correlation
+  description: Browsing and analysing astronomical data catalogs in ASCII and FITS formats, selecting
+    samples and performing correlation analysis.
+  evidence:
+  - c2.1
+  share: 0.15
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: statistical_data_modelling
+  name: Statistical data modelling for astronomical problems
+  description: Applying statistical methods for data modelling to solve simple astronomical problems,
+    mapping physical problems into computational solutions.
+  evidence:
+  - c2.1
+  - o5
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: Python
+not_topics:
+- id: c1
+  reason: Module 1 heading only; its teachable content is covered by the items c1.1 to c1.11.
+- id: c2
+  reason: Module 2 heading only; its teachable content is covered by item c2.1.

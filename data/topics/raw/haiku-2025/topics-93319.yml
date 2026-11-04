@@ -1,0 +1,106 @@
+format: extraction/1
+course: '93319'
+title: INTRODUZIONE ALL'APPRENDIMENTO AUTOMATICO
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 13.9
+  usage:
+    prompt_tokens: 3170
+    completion_tokens: 3189
+    cache_read_tokens: 1854
+    thinking_tokens: 2156
+  created: '2026-11-04T18:24:14+00:00'
+topics:
+- key: parametric_models_loss_optimization
+  name: Parametric models, loss functions and optimization
+  description: The typical machine learning workflow of defining a parametric class of models, choosing
+    a loss function to compare them, and optimizing parameters to select the best model, across supervised,
+    unsupervised and reinforcement tasks.
+  evidence:
+  - c2
+  - o1
+  share: 0.14
+  level: introductory
+  kind: concept
+  technology: null
+- key: probabilistic_learning_entropy_likelihood
+  name: Probabilistic approach, entropy and likelihood
+  description: The probabilistic view of learning, including entropy as a measure of uncertainty and likelihood
+    as the criterion for fitting model parameters to data.
+  evidence:
+  - c3
+  - c4
+  share: 0.16
+  level: intermediate
+  kind: concept
+  technology: null
+- key: discriminative_vs_generative_models
+  name: Discriminative vs generative models
+  description: The distinction between models that learn the conditional distribution of labels given
+    inputs and models that learn the joint distribution of inputs and labels, with their respective uses.
+  evidence:
+  - c3
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: gradient_descent
+  name: Gradient descent
+  description: The iterative gradient descent technique for minimizing a loss function by updating parameters
+    along the negative gradient.
+  evidence:
+  - c4
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: image_processing_basics
+  name: Image processing basics
+  description: The rudiments of image representation and processing needed to use images as test data
+    for learning algorithms.
+  evidence:
+  - o2
+  share: 0.08
+  level: introductory
+  kind: technique
+  technology: null
+- key: neural_networks_layers
+  name: Neural networks and layers
+  description: Introduction to neural networks as stacked layers of parameterized units, trained for learning
+    tasks, forming the basis of deep learning.
+  evidence:
+  - c5
+  share: 0.18
+  level: intermediate
+  kind: concept
+  technology: null
+- key: convolutional_networks
+  name: Convolutional neural networks
+  description: The convolutional network architecture, with its convolutional layers, as a key neural
+    model for image data.
+  evidence:
+  - c5
+  share: 0.14
+  level: intermediate
+  kind: concept
+  technology: null
+- key: image_classification_transformation
+  name: Simple models for image classification and transformation
+  description: Application of simple neural models to basic image classification and image transformation
+    problems, with practical experiments.
+  evidence:
+  - c6
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Overview of how the course is structured in two parts; it describes organisation rather than
+    teachable content, and the two parts are covered by the topics above.

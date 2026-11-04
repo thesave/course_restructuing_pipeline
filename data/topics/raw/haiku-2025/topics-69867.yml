@@ -1,0 +1,131 @@
+format: extraction/1
+course: '69867'
+title: Web Services and Applications
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 30.0
+  usage:
+    prompt_tokens: 7430
+    completion_tokens: 6940
+    cache_read_tokens: 3708
+    thinking_tokens: 4325
+  created: '2026-11-04T18:15:22+00:00'
+topics:
+- key: web_architectures_and_stacks
+  name: Web architectures and solution stacks
+  description: Comparing client-server web architectures and the main full-stack solution stacks, with
+    their trade-offs for building web sites, rich applications and web services.
+  evidence:
+  - c1
+  - o1
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: browser_and_web_server
+  name: Web browser and web server operation
+  description: How a web browser and a web server process HTTP requests and responses and which client-side
+    and server-side technologies each one supports.
+  evidence:
+  - c2
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: mvc_mvvm_web_patterns
+  name: MVC and MVVM patterns for the Web
+  description: The Model-View-Controller and Model-View-ViewModel architectural patterns and how they
+    are applied to structuring web applications.
+  evidence:
+  - c3
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: single_language_full_stack
+  name: JavaScript everywhere paradigm
+  description: Using JavaScript as a single language on both client and server side in web development,
+    including the core language features needed for this approach.
+  evidence:
+  - c4
+  share: 0.1
+  level: intermediate
+  kind: language
+  technology: JavaScript
+- key: full_stack_solution_families
+  name: MEVN, MEAN and MERN stacks
+  description: The JavaScript-based full-stack families MEVN, MEAN and MERN, how their components fit
+    together and how they differ from each other.
+  evidence:
+  - c5
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: server_side_backend_development
+  name: Server-side backend development with Express
+  description: Building server-side web services and back-ends with Node.js and the Express.js framework,
+    including routing and handling of HTTP requests.
+  evidence:
+  - c5
+  - o1
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: Node.js
+- key: document_databases
+  name: Document databases with MongoDB
+  description: Storing and querying application data as documents in MongoDB and connecting it to a Node.js
+    back-end.
+  evidence:
+  - c5
+  share: 0.08
+  level: intermediate
+  kind: tool
+  technology: MongoDB
+- key: reactive_spa_frontend
+  name: Vue.js front-end development
+  description: Building reactive single-page front-ends and components with the Vue.js framework.
+  evidence:
+  - c6
+  - o1
+  share: 0.13
+  level: intermediate
+  kind: tool
+  technology: Vue.js
+- key: component_rich_app_frontend
+  name: Angular front-end development
+  description: Building component-based rich internet applications with the Angular framework.
+  evidence:
+  - c6
+  - o1
+  share: 0.13
+  level: intermediate
+  kind: tool
+  technology: Angular
+- key: component_ui_frontend
+  name: React front-end development
+  description: Building user interfaces from components with the React library and its state handling.
+  evidence:
+  - c6
+  - o1
+  share: 0.13
+  level: intermediate
+  kind: tool
+  technology: React
+- key: superset_web_languages
+  name: Superset languages for the Web
+  description: The superset languages TypeScript, SASS and SCSS that extend JavaScript and CSS with static
+    typing and stylesheet features.
+  evidence:
+  - c7
+  share: 0.05
+  level: intermediate
+  kind: language
+  technology: null
+not_topics: []

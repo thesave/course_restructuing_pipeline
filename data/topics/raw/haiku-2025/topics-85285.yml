@@ -1,0 +1,178 @@
+format: extraction/1
+course: '85285'
+title: Programming
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 25.7
+  usage:
+    prompt_tokens: 8282
+    completion_tokens: 6193
+    cache_read_tokens: 3708
+    thinking_tokens: 2654
+  created: '2026-11-04T18:19:59+00:00'
+topics:
+- key: programming_fundamentals
+  name: Programming fundamentals
+  description: Introduction to programming with an interpreted language, covering the interpreter, basic
+    syntax and the first constructs needed to write and run simple programs.
+  evidence:
+  - c1
+  - o3
+  share: 0.05
+  level: introductory
+  kind: language
+  technology: Python
+- key: numerical_programs
+  name: Simple numerical programs
+  description: Writing short programs that compute with numbers, using control flow, loops and numerical
+    approximation methods.
+  evidence:
+  - c2
+  share: 0.07
+  level: introductory
+  kind: technique
+  technology: Python
+- key: functions_scoping
+  name: Functions, scoping and abstraction
+  description: Defining and calling functions, understanding variable scope and environments, and using
+    functions as abstraction mechanisms.
+  evidence:
+  - c3
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: Python
+- key: structured_types_higher_order
+  name: Structured types and higher-order functions
+  description: Working with structured types such as lists, tuples and dictionaries, the consequences
+    of mutability, and functions that take or return functions.
+  evidence:
+  - c4
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: Python
+- key: testing_debugging
+  name: Testing and debugging
+  description: Designing tests for programs and systematically locating and fixing defects.
+  evidence:
+  - c5
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: exceptions_assertions
+  name: Exceptions and assertions
+  description: Handling run-time errors with exceptions and checking program invariants with assertions.
+  evidence:
+  - c6
+  share: 0.04
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: object_oriented_programming
+  name: Classes and object-oriented programming
+  description: Defining classes, creating objects with attributes and methods, and organising programs
+    around data abstraction.
+  evidence:
+  - c7
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: Python
+- key: algorithmic_complexity
+  name: Algorithmic complexity
+  description: A simplified introduction to measuring how the running time of an algorithm grows with
+    the size of its input.
+  evidence:
+  - c8
+  - o2
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: null
+- key: simple_algorithms_data_structures
+  name: Simple algorithms and data structures
+  description: Basic algorithms and data structures for searching, sorting and organising data, and their
+    implementation in Python.
+  evidence:
+  - c9
+  - o2
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: dynamic_programming
+  name: Dynamic programming
+  description: Solving problems with overlapping subproblems by storing and reusing intermediate results,
+    with implementation examples.
+  evidence:
+  - c10
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: stochastic_programs_probability
+  name: Stochastic programs and probability distributions
+  description: Writing programs that use random choices and modelling random outcomes through probability
+    and probability distributions.
+  evidence:
+  - c11
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: Python
+- key: monte_carlo_simulation
+  name: Monte Carlo simulation
+  description: Estimating quantities by repeated random trials, implemented as simulation programs.
+  evidence:
+  - c12
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: sampling_confidence_intervals
+  name: Sampling and confidence intervals
+  description: Drawing samples from populations and quantifying the uncertainty of estimates with confidence
+    intervals.
+  evidence:
+  - c13
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: experimental_data_analysis
+  name: Understanding experimental data
+  description: Fitting models to experimental observations, plotting results and interpreting what the
+    data show.
+  evidence:
+  - c14
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: statistical_pitfalls
+  name: Misuse of statistics
+  description: Recognising common errors and misleading conclusions in the statistical analysis of data.
+  evidence:
+  - c15
+  share: 0.04
+  level: intermediate
+  kind: concept
+  technology: null
+- key: machine_learning_overview
+  name: Overview of machine learning
+  description: A brief survey of machine learning ideas and how simple learning methods are applied to
+    data.
+  evidence:
+  - c16
+  share: 0.03
+  level: intermediate
+  kind: concept
+  technology: Python
+not_topics: []

@@ -1,0 +1,89 @@
+format: extraction/1
+course: B5026
+title: Introduction to Computability and Complexity
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 10.1
+  usage:
+    prompt_tokens: 2919
+    completion_tokens: 1983
+    cache_read_tokens: 1854
+    thinking_tokens: 1173
+  created: '2026-11-04T18:30:48+00:00'
+topics:
+- key: turing_machines
+  name: Turing machines
+  description: Turing machines as the formal model of computation, including their definition, examples
+    of machines and the notion of computable functions and languages.
+  evidence:
+  - c1
+  share: 0.15
+  level: introductory
+  kind: concept
+  technology: null
+- key: undecidability
+  name: Undecidability
+  description: Undecidable problems such as the halting problem, proved by diagonalisation and reductions,
+    and the limits of what algorithms can compute.
+  evidence:
+  - c1
+  share: 0.15
+  level: intermediate
+  kind: concept
+  technology: null
+- key: polynomial_time_complexity
+  name: Polynomial time computability
+  description: Time complexity measures, the classes P and NP, and the notion of polynomial-time algorithms
+    and decision problems.
+  evidence:
+  - c1
+  share: 0.15
+  level: intermediate
+  kind: concept
+  technology: null
+- key: np_completeness
+  name: NP-completeness
+  description: NP-completeness and polynomial-time reductions between problems, with classic NP-complete
+    problems and the P versus NP question.
+  evidence:
+  - c1
+  share: 0.15
+  level: intermediate
+  kind: concept
+  technology: null
+- key: pac_learning
+  name: PAC learning
+  description: The probably approximately correct (PAC) learning framework, defining learnability of concept
+    classes from samples with bounds on error and confidence.
+  evidence:
+  - c2
+  share: 0.15
+  level: intermediate
+  kind: concept
+  technology: null
+- key: uniform_convergence
+  name: Learning via uniform convergence
+  description: Learning through uniform convergence of empirical risk to true risk over a hypothesis class,
+    and the sample complexity bounds that follow.
+  evidence:
+  - c2
+  share: 0.12
+  level: advanced
+  kind: technique
+  technology: null
+- key: vc_dimension
+  name: VC dimension
+  description: The Vapnik-Chervonenkis dimension as a combinatorial measure of hypothesis class complexity
+    and its role in characterising PAC learnability.
+  evidence:
+  - c2
+  share: 0.13
+  level: advanced
+  kind: concept
+  technology: null
+not_topics: []

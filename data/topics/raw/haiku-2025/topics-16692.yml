@@ -1,0 +1,83 @@
+format: extraction/1
+course: '16692'
+title: Laboratory of Informatics
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 12.7
+  usage:
+    prompt_tokens: 3079
+    completion_tokens: 2423
+    cache_read_tokens: 2710
+    thinking_tokens: 1720
+  created: '2026-11-04T18:10:05+00:00'
+topics:
+- key: iteration_and_recursion
+  name: Iteration and recursion in C
+  description: Designing and structuring iterative and recursive algorithms in C, including recursive
+    function design and tracing of call stacks.
+  evidence:
+  - c2
+  - c1
+  - o2
+  share: 0.25
+  level: intermediate
+  kind: technique
+  technology: C
+- key: complexity_analysis
+  name: Recursive algorithms and complexity analysis
+  description: Analysing the time complexity of iterative and recursive algorithms to compare their efficiency.
+  evidence:
+  - c1
+  share: 0.083
+  level: intermediate
+  kind: concept
+  technology: null
+- key: linked_lists
+  name: Linked lists and list algorithms
+  description: 'Implementing dynamic linked lists in C and algorithms on them: insertion, deletion, search
+    and sorting.'
+  evidence:
+  - c1
+  - c2
+  - o2
+  share: 0.292
+  level: intermediate
+  kind: technique
+  technology: C
+- key: tree_data_structures
+  name: Tree data structures
+  description: Introduction to tree data structures as advanced data structures alongside lists, including
+    their structure and recursive traversal.
+  evidence:
+  - c1
+  share: 0.125
+  level: intermediate
+  kind: concept
+  technology: null
+- key: file_io_persistence
+  name: File I/O and data persistence
+  description: Managing standard input/output and storing and retrieving data persistently on files in
+    C.
+  evidence:
+  - c2
+  - o2
+  share: 0.167
+  level: intermediate
+  kind: technique
+  technology: C
+- key: separate_compilation_linking
+  name: Compiling and linking modules from the command line
+  description: Compiling separate C source modules and linking them into an executable using command-line
+    tools.
+  evidence:
+  - c3
+  share: 0.083
+  level: introductory
+  kind: tool
+  technology: C
+not_topics: []

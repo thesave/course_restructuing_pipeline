@@ -1,0 +1,167 @@
+format: extraction/1
+course: '40720'
+title: Data Mining
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 46.5
+  usage:
+    prompt_tokens: 10185
+    completion_tokens: 10813
+    cache_read_tokens: 3708
+    thinking_tokens: 7265
+  created: '2026-11-04T18:13:31+00:00'
+topics:
+- key: knowledge_discovery_process
+  name: Knowledge discovery process and CRISP-DM
+  description: Covers the knowledge discovery process, the application areas of data mining, how to design
+    a data mining project and the CRISP-DM methodology applied to real datasets.
+  evidence:
+  - c4.1
+  - c4.2
+  - c4.3
+  - c4.4
+  - c6.2
+  - o1.2
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_understanding_quality
+  name: Data understanding, data types and data quality
+  description: Covers understanding and describing data, the features of different data types, basic statistical
+    analysis of data and assessment of data quality.
+  evidence:
+  - c4.5
+  - c4.6
+  - c4.7
+  - c4.8
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_preprocessing
+  name: Data acquisition, preprocessing and feature engineering
+  description: Covers acquiring and processing data, selecting and creating attributes, and feature extraction
+    as preparation steps before modelling.
+  evidence:
+  - c4.9
+  - c6.3
+  - c6.4
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: similarity_and_clustering
+  name: Similarity measures and clustering
+  description: Covers measuring similarities and dissimilarities between data objects and using them to
+    group objects with clustering algorithms.
+  evidence:
+  - c4.10
+  - c4.12.2
+  - o1.1
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: classification_trees_bayesian
+  name: Classification with decision trees and Bayesian networks
+  description: Covers supervised classification using decision trees and Bayesian networks, together with
+    the understanding and validation of the resulting models, within the overview of data mining techniques.
+  evidence:
+  - c4.11
+  - c4.12
+  - c4.12.4
+  - o1.1
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: association_rules_outlier_detection
+  name: Association rules and outlier detection
+  description: Covers mining association rules from transactional data and detecting outliers as anomalous
+    objects in a dataset.
+  evidence:
+  - c4.12.1
+  - c4.12.3
+  - o1.1
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: hands_on_mining_experiments
+  name: Hands-on data mining experiments
+  description: Covers running classification, clustering and association experiments with the open-source
+    Weka software and interpreting their results.
+  evidence:
+  - c4.12.5
+  - o1.3
+  share: 0.04
+  level: introductory
+  kind: tool
+  technology: Weka
+- key: text_mining_retrieval
+  name: Text representation, retrieval and opinion mining
+  description: Covers representing texts for mining, information retrieval, text classification and opinion
+    mining.
+  evidence:
+  - c5.1
+  - o1.1
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: advanced_language_models
+  name: Transformers, large language models and retrieval-augmented generation
+  description: Covers transformer language models and efficient attention, vision-language models, graph
+    machine learning and neuro-symbolic methods for trustworthy AI, generative LLMs with prompt engineering,
+    evaluation, compression and parameter-efficient fine-tuning, and retrieval-augmented generation with
+    vector databases.
+  evidence:
+  - c5.2
+  - c5.3
+  - c5.4
+  - o1.1
+  share: 0.14
+  level: advanced
+  kind: concept
+  technology: null
+- key: llm_application_labs
+  name: Applied NLP labs with LLM frameworks
+  description: Covers hands-on Python labs building text summarization, information extraction, chatbot
+    and function-call generation systems with Hugging Face, LangChain, LlamaIndex and Milvus.
+  evidence:
+  - c5.5
+  - o1.3
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: neural_networks_deep_learning
+  name: Neural networks, deep learning and model output interpretation
+  description: Covers the basics of neural networks and deep learning, building predictive models on real
+    datasets, and understanding and interpreting model outputs.
+  evidence:
+  - c6.1
+  - c6.5
+  - c6.6
+  - o1.1
+  - o1.3
+  share: 0.16
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics:
+- id: c1
+  reason: Organisational remark on how the course is split into two modules.
+- id: c2
+  reason: Organisational remark on which students attend the shared first module.
+- id: c3
+  reason: Organisational remark that the second module differs by degree programme.
+- id: c4.12.6
+  reason: Case studies analysis is an application exercise, not a separate teachable topic; it is covered
+    by the technique topics it applies.

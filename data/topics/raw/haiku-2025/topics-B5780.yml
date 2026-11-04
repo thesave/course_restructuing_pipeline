@@ -1,0 +1,151 @@
+format: extraction/1
+course: B5780
+title: Computational Methods for Bioinformatics
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 24.4
+  usage:
+    prompt_tokens: 7651
+    completion_tokens: 5742
+    cache_read_tokens: 3708
+    thinking_tokens: 2784
+  created: '2026-11-04T18:31:51+00:00'
+topics:
+- key: variables_and_expressions
+  name: Variables, expressions and statements
+  description: Variables, operators, expressions and basic statements for writing and running simple Python
+    programs.
+  evidence:
+  - c1.1
+  - o2
+  share: 0.07
+  level: introductory
+  kind: language
+  technology: Python
+- key: conditionals_and_iteration
+  name: Conditionals and iteration
+  description: Branching with if/elif/else and repetition with while and for loops in Python.
+  evidence:
+  - c1.1
+  share: 0.07
+  level: introductory
+  kind: language
+  technology: Python
+- key: functions
+  name: Functions
+  description: Defining and calling Python functions with parameters, return values and scope.
+  evidence:
+  - c1.1
+  share: 0.08
+  level: introductory
+  kind: language
+  technology: Python
+- key: recursion
+  name: Recursion
+  description: Writing recursive functions in Python, with base cases and recursive decomposition of problems.
+  evidence:
+  - c1.1
+  share: 0.05
+  level: intermediate
+  kind: concept
+  technology: Python
+- key: strings
+  name: Strings
+  description: Creating, indexing, slicing and processing text strings in Python, including sequence strings
+    used for biological data.
+  evidence:
+  - c1.1
+  share: 0.05
+  level: introductory
+  kind: language
+  technology: Python
+- key: lists_and_tuples
+  name: Lists and tuples
+  description: 'Ordered sequence collections in Python: creating, modifying, iterating over lists and
+    the immutability of tuples.'
+  evidence:
+  - c1.1
+  share: 0.07
+  level: introductory
+  kind: language
+  technology: Python
+- key: dictionaries
+  name: Dictionaries
+  description: 'Key-value mappings in Python: creating, accessing, updating and iterating over dictionaries.'
+  evidence:
+  - c1.1
+  share: 0.05
+  level: introductory
+  kind: language
+  technology: Python
+- key: file_handling
+  name: File handling
+  description: Reading from and writing to text files in Python, including processing line-based data.
+  evidence:
+  - c1.1
+  share: 0.05
+  level: introductory
+  kind: language
+  technology: Python
+- key: object_oriented_programming
+  name: Object-oriented programming
+  description: Classes, objects, attributes, methods and basic object-oriented design in Python.
+  evidence:
+  - c1.1
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: Python
+- key: command_line_basics
+  name: Command-line basics
+  description: Introduction to the Linux command line and shell for navigating the file system and running
+    tools.
+  evidence:
+  - c1.2
+  share: 0.04
+  level: introductory
+  kind: tool
+  technology: Linux
+- key: dynamic_programming
+  name: Dynamic programming
+  description: 'The dynamic programming paradigm: decomposing problems into overlapping subproblems, memoisation
+    and tabulation, and its theoretical basis.'
+  evidence:
+  - c1.2
+  - o3
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: pairwise_alignment_algorithms
+  name: Pairwise sequence alignment algorithms
+  description: Global, local and semiglobal pairwise alignment of biological sequences using dynamic programming,
+    including scoring schemes and their theoretical basis.
+  evidence:
+  - c1.2
+  - o3
+  share: 0.15
+  level: intermediate
+  kind: technique
+  technology: null
+- key: alignment_implementation
+  name: Implementing alignment algorithms in Python
+  description: Writing Python programs that implement global, local and semiglobal pairwise alignment
+    algorithms.
+  evidence:
+  - c1.2
+  - o2
+  - o3
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: Python
+not_topics:
+- id: c1
+  reason: Organisational overview stating that the course has two modules; the actual content is in c1.1
+    and c1.2.

@@ -1,0 +1,120 @@
+format: extraction/1
+course: '95644'
+title: Computer Networks and Network Programming
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 13.1
+  usage:
+    prompt_tokens: 2978
+    completion_tokens: 3059
+    cache_read_tokens: 1854
+    thinking_tokens: 1911
+  created: '2026-11-04T18:26:32+00:00'
+topics:
+- key: layered_network_architecture
+  name: Layered network architecture
+  description: Protocols, client-server and peer models, protocol layering and the service models they
+    provide in computer networks.
+  evidence:
+  - c3
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: network_application_principles
+  name: Network application principles
+  description: Basic principles of designing network applications and their implementation in laboratory
+    projects reflecting today's Internet.
+  evidence:
+  - c1
+  - c2
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: protocol_traffic_analysis
+  name: Protocol traffic analysis
+  description: Capturing and analysing network traffic traces with Wireshark to inspect, debug and understand
+    protocol behaviour.
+  evidence:
+  - c4
+  share: 0.08
+  level: introductory
+  kind: tool
+  technology: Wireshark
+- key: ip_addressing_and_routing
+  name: IP addressing, forwarding and routing
+  description: IP addressing, datagram forwarding in routers and the routing process that determines paths
+    across the Internet.
+  evidence:
+  - c5
+  share: 0.14
+  level: intermediate
+  kind: concept
+  technology: null
+- key: icmp_dhcp_nat
+  name: ICMP, DHCP and NAT
+  description: The support protocols ICMP for error and diagnostic messages, DHCP for automatic host configuration
+    and NAT for address translation.
+  evidence:
+  - c5
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: transport_multiplexing_udp
+  name: Transport multiplexing and UDP
+  description: Transport-layer services, multiplexing and demultiplexing of segments, and the connectionless
+    UDP protocol.
+  evidence:
+  - c6
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: reliable_data_transfer
+  name: Reliable data transfer
+  description: Principles of building reliable data transfer over an unreliable channel, using acknowledgements,
+    retransmissions and sequence numbers.
+  evidence:
+  - c6
+  share: 0.11
+  level: intermediate
+  kind: concept
+  technology: null
+- key: tcp_connection_oriented
+  name: Connection-oriented communication and TCP
+  description: Connection-oriented communication and the TCP protocol, including connection setup and
+    teardown and reliable byte-stream transport.
+  evidence:
+  - c6
+  share: 0.13
+  level: intermediate
+  kind: concept
+  technology: null
+- key: tcp_congestion_control
+  name: TCP congestion control
+  description: Mechanisms by which TCP regulates its sending rate to avoid and recover from network congestion.
+  evidence:
+  - c6
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: cybersecurity_basics
+  name: Cybersecurity basics
+  description: Authentication, authorization, digital signatures and certificates as the basic security
+    mechanisms for network applications.
+  evidence:
+  - c7
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

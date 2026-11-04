@@ -1,0 +1,168 @@
+format: extraction/1
+course: 00819
+title: Programming
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 22.3
+  usage:
+    prompt_tokens: 2978
+    completion_tokens: 4862
+    cache_read_tokens: 1854
+    thinking_tokens: 3409
+  created: '2026-11-04T18:08:13+00:00'
+topics:
+- key: development_environment
+  name: Development environment and first C++ programs
+  description: Setting up and using a C++ development environment to write, compile, run and debug a first
+    program.
+  evidence:
+  - c1
+  - c4
+  - o1
+  share: 0.0625
+  level: introductory
+  kind: tool
+  technology: C++
+- key: algorithm_design
+  name: Algorithms and programs
+  description: Expressing a problem solution as an algorithm and translating it into a structured program,
+    with the basic principles of programming.
+  evidence:
+  - c2
+  - o1
+  - o3
+  share: 0.052083
+  level: introductory
+  kind: technique
+  technology: null
+- key: data_types
+  name: Data types, variables and assignment
+  description: Built-in C++ data types, variable declaration, initialisation and assignment statements.
+  evidence:
+  - c2
+  - o2
+  share: 0.072917
+  level: introductory
+  kind: language
+  technology: C++
+- key: input_output
+  name: Input and output
+  description: Reading data from the keyboard and writing results to the console using C++ streams.
+  evidence:
+  - c2
+  - o2
+  share: 0.052083
+  level: introductory
+  kind: language
+  technology: C++
+- key: selection_and_iteration
+  name: Conditionals and iteration
+  description: Conditional statements and loop constructs used to control the flow of execution in C++
+    programs.
+  evidence:
+  - c2
+  - o2
+  share: 0.083333
+  level: introductory
+  kind: language
+  technology: C++
+- key: functions
+  name: Functions
+  description: Defining and calling C++ functions, parameter passing and return values.
+  evidence:
+  - c2
+  - o2
+  share: 0.083333
+  level: introductory
+  kind: language
+  technology: C++
+- key: recursion
+  name: Recursion and recursive functions
+  description: Designing recursive solutions, base and recursive cases, and implementing recursive functions
+    in C++.
+  evidence:
+  - c2
+  - o2
+  share: 0.072917
+  level: intermediate
+  kind: technique
+  technology: C++
+- key: vectors_and_records
+  name: Vectors and records
+  description: Storing collections of values in vectors and grouping heterogeneous fields in records (structs)
+    in C++.
+  evidence:
+  - c2
+  - o2
+  share: 0.072917
+  level: intermediate
+  kind: language
+  technology: C++
+- key: pointers_and_dynamic_memory
+  name: Pointers and dynamic memory allocation
+  description: Pointers, addresses, and allocating and releasing heap memory at run time in C++.
+  evidence:
+  - c2
+  - o2
+  share: 0.083333
+  level: intermediate
+  kind: language
+  technology: C++
+- key: linked_lists_and_queues
+  name: Linked lists and queues
+  description: Implementing dynamic linked lists and queues with pointers and node structures in C++.
+  evidence:
+  - c2
+  - o2
+  share: 0.072917
+  level: intermediate
+  kind: technique
+  technology: C++
+- key: binary_trees
+  name: Trees
+  description: Representing and manipulating dynamic tree data structures, such as binary trees, with
+    recursive operations in C++.
+  evidence:
+  - c2
+  - o2
+  share: 0.072917
+  level: intermediate
+  kind: technique
+  technology: C++
+- key: classes_and_objects
+  name: Classes and methods
+  description: Defining C++ classes with data members, member methods, constructors and encapsulation.
+  evidence:
+  - c3
+  - o2
+  share: 0.083333
+  level: intermediate
+  kind: language
+  technology: C++
+- key: method_overloading
+  name: Overloading
+  description: Overloading functions and methods in C++ classes, with several definitions sharing one
+    name.
+  evidence:
+  - c3
+  - o2
+  share: 0.052083
+  level: intermediate
+  kind: language
+  technology: C++
+- key: inheritance
+  name: Inheritance
+  description: Deriving classes from base classes in C++, reusing and extending their members.
+  evidence:
+  - c3
+  - o2
+  share: 0.083334
+  level: intermediate
+  kind: concept
+  technology: C++
+not_topics: []

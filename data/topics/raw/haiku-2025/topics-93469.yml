@@ -1,0 +1,129 @@
+format: extraction/1
+course: '93469'
+title: Human Data Science
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 14.5
+  usage:
+    prompt_tokens: 3357
+    completion_tokens: 3223
+    cache_read_tokens: 1854
+    thinking_tokens: 1968
+  created: '2026-11-04T18:24:54+00:00'
+topics:
+- key: human_centric_data_science
+  name: Human-centric data science
+  description: Framing of data science as integrating human perspectives with algorithms, and why traditional
+    computational criteria are insufficient for judging ML-based systems.
+  evidence:
+  - c1
+  - o1
+  - o2
+  - o4
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: logical_vs_probabilistic_inference
+  name: Logical versus probabilistic inference
+  description: Comparison of deductive inference (Modus Ponens and Modus Tollens) with Bayesian updating
+    as models of human reasoning and decision-making under uncertainty.
+  evidence:
+  - c3
+  share: 0.11
+  level: intermediate
+  kind: concept
+  technology: null
+- key: data_reliability_and_sampling
+  name: Data reliability and sampling bias
+  description: Assessing whether data support conclusions through regression, hypothesis testing, confidence
+    intervals and the detection of sampling bias.
+  evidence:
+  - c4
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+- key: variance_based_analytics
+  name: Variance-based analytics
+  description: Partitioning variance, assessing reliability and checking data integrity to separate signal
+    from noise in complex human domains.
+  evidence:
+  - c5
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: datification_of_human_behavior
+  name: Datification of human behavior
+  description: How human behavior and interaction are transformed into data, and the risks of misinterpreting
+    the resulting data.
+  evidence:
+  - c6
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_deluge_and_filtering
+  name: Data deluge and filtering
+  description: Coping with information profusion and big data misuse, and the necessity of filtering and
+    critical data thinking, including the role of data quality.
+  evidence:
+  - c8
+  - o4
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: human_centric_forecasting
+  name: Predictive and prescient intelligence
+  description: The promises and limits of forecasting human-centric events, and what can and cannot be
+    predicted about people.
+  evidence:
+  - c7
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: cognitive_augmentation_models
+  name: Models as cognitive augmentation
+  description: Machine learning and deep learning architectures understood as augmenting human cognition
+    rather than replacing it, including how training data quality shapes model behavior.
+  evidence:
+  - c9
+  - o3
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: human_machine_feedback_loops
+  name: Human-machine collaboration workflows
+  description: Designing action-feedback loops and collaborative workflows that keep humans in the loop
+    and preserve their agency and oversight over models.
+  evidence:
+  - c10
+  - o3
+  - o4
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: null
+- key: human_factors_and_elsi
+  name: Human factors and ELSI
+  description: Ethical, legal and social implications of algorithm-driven decisions, including the human
+    factors that shape their impact.
+  evidence:
+  - c11
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+not_topics:
+- id: c2
+  reason: Introductory heading for the case studies; its content is covered by the topics derived from
+    c3–c11.

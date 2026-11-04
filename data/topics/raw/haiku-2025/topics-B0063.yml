@@ -1,0 +1,112 @@
+format: extraction/1
+course: B0063
+title: Programming Laboratory
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 15.0
+  usage:
+    prompt_tokens: 3129
+    completion_tokens: 3159
+    cache_read_tokens: 1854
+    thinking_tokens: 2101
+  created: '2026-11-04T18:28:50+00:00'
+topics:
+- key: algorithms_and_programming_languages
+  name: Algorithms and programming languages
+  description: What algorithms are, how programming languages are classified, and why they are needed
+    to instruct computers, with the basic programming tools (editor, compiler, development environment).
+  evidence:
+  - c1.1
+  - o1
+  - o2
+  - o3
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_formats
+  name: Data models and formats for the Web
+  description: Basic data types and common data representation formats such as JSON and CSV used for exchanging
+    data on the Web.
+  evidence:
+  - c1.2
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_types_and_control_flow
+  name: Python data types and control flow
+  description: Python's basic data types, comparison operators, conditional statements and iterative constructs,
+    with their syntax and semantics.
+  evidence:
+  - c1.3
+  - o3
+  - o4
+  share: 0.2
+  level: introductory
+  kind: language
+  technology: Python
+- key: functions_testing_debugging
+  name: Functions, exception handling, testing and debugging
+  description: Defining and calling Python functions, handling exceptions, and testing and debugging small
+    programs.
+  evidence:
+  - c1.3
+  - o4
+  - o5
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: Python
+- key: data_manipulation_with_dataframes
+  name: Data exploration and manipulation with DataFrames
+  description: Exploring data with Pandas Series and DataFrames, including indexing, selection, aggregation
+    and sorting.
+  evidence:
+  - c1.4
+  - o5
+  share: 0.18
+  level: intermediate
+  kind: tool
+  technology: Pandas
+- key: statistical_data_visualization
+  name: Data visualization with relational, distribution and categorical plots
+  description: Producing relational, distribution and categorical plots to visualise data with the Seaborn
+    library.
+  evidence:
+  - c1.5
+  - o5
+  share: 0.1
+  level: intermediate
+  kind: tool
+  technology: Seaborn
+- key: machine_learning_fundamentals
+  name: Machine learning fundamentals
+  description: Problem types (classification, regression, clustering), learning types such as supervised
+    and unsupervised learning, and performance evaluation through validation.
+  evidence:
+  - c1.6
+  share: 0.13
+  level: intermediate
+  kind: concept
+  technology: null
+- key: classifiers_and_neural_networks
+  name: Classifiers and neural networks
+  description: Building and applying classifiers and neural networks in Python to solve machine learning
+    problems.
+  evidence:
+  - c1.6
+  - o5
+  share: 0.13
+  level: intermediate
+  kind: technique
+  technology: Python
+not_topics:
+- id: c1
+  reason: Course-level heading that only groups c1.1–c1.6; each of its sub-items is covered by a topic
+    above.

@@ -1,0 +1,159 @@
+format: extraction/1
+course: '66860'
+title: Mobile Applications Laboratory
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 44.1
+  usage:
+    prompt_tokens: 8254
+    completion_tokens: 10589
+    cache_read_tokens: 3708
+    thinking_tokens: 7474
+  created: '2026-11-04T18:15:05+00:00'
+topics:
+- key: mobile_devices_pervasive_computing
+  name: Mobile devices and pervasive computing
+  description: Technological characteristics of mobile devices (hardware, sensors, wireless connectivity,
+    maps and location) and the pervasive-computing scenarios they enable, including wireless execution
+    issues.
+  evidence:
+  - c1
+  - c19
+  - o3
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: hybrid_native_web_apps
+  name: Hybrid, native and Web apps
+  description: Comparison of hybrid, native and Web mobile applications and of the cross-platform frameworks
+    Flutter and React Native that build on these approaches.
+  evidence:
+  - c2
+  - c23
+  - c24
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: mobile_platform_architecture
+  name: Mobile platform setup and architecture
+  description: Setup of the Android and iOS development environments and the architecture and main components
+    of each platform.
+  evidence:
+  - c3
+  - c4
+  - c10
+  - c11
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: object_oriented_basics
+  name: Kotlin language for Android
+  description: Kotlin language constructs (types, functions, classes, null safety, control flow) as used
+    to write Android applications.
+  evidence:
+  - c5
+  share: 0.07
+  level: introductory
+  kind: language
+  technology: Kotlin
+- key: activities_intents_navigation
+  name: Android activities, intents and fragments navigation
+  description: Android activity lifecycle, starting activities and passing data through explicit and implicit
+    intents, and navigating between screens with fragments and the navigation component.
+  evidence:
+  - c6
+  - c9
+  - c18
+  - o2
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: Android
+- key: views_layouts_resources
+  name: Android views, layouts, events and resources
+  description: Building Android user interfaces with views and layouts, handling user events, and organising
+    application resources such as strings, images and dimensions.
+  evidence:
+  - c7
+  - c8
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: Android
+- key: background_work_and_data
+  name: Background work and data management on Android
+  description: Running background work outside the main thread with Android background-work APIs and persisting
+    application data locally on Android.
+  evidence:
+  - c16
+  - c17
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: Android
+- key: optionals_and_type_safety
+  name: Swift language for iOS
+  description: Swift language constructs (types, optionals, functions, classes, control flow) as used
+    to write iOS applications.
+  evidence:
+  - c12
+  share: 0.07
+  level: introductory
+  kind: language
+  technology: Swift
+- key: interface_builder_and_outlets
+  name: Storyboards, UIKit and targets/actions/outlets
+  description: Designing iOS interfaces with storyboards and UIKit, and connecting interface elements
+    to code through targets, actions and outlets.
+  evidence:
+  - c13
+  - c14
+  - o2
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: UIKit
+- key: declarative_programmatic_ui
+  name: Programmatic and declarative user interfaces
+  description: Building user interfaces in code with declarative toolkits, namely Jetpack Compose for
+    Android and SwiftUI for iOS.
+  evidence:
+  - c20
+  - c21
+  share: 0.09
+  level: intermediate
+  kind: technique
+  technology: null
+- key: model_view_controller
+  name: Model-View-Controller architecture
+  description: Architectural design patterns, in particular Model-View-Controller, used to structure mobile
+    applications and separate data, presentation and control logic.
+  evidence:
+  - c15
+  - o3
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: unit_and_ui_testing
+  name: Unit and UI testing
+  description: Writing and running unit tests and UI tests, plus debugging, to verify mobile applications.
+  evidence:
+  - c22
+  - o2
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

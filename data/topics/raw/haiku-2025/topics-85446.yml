@@ -1,0 +1,141 @@
+format: extraction/1
+course: '85446'
+title: Knowledge Representation and Extraction
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 19.2
+  usage:
+    prompt_tokens: 3519
+    completion_tokens: 4276
+    cache_read_tokens: 1854
+    thinking_tokens: 2886
+  created: '2026-11-04T18:20:17+00:00'
+topics:
+- key: philosophical_foundations_of_knowledge
+  name: Philosophical and cognitive foundations of knowledge
+  description: Foundational philosophical and cognitive views on what knowledge is and how it can be represented
+    and interpreted as data and content.
+  evidence:
+  - c5
+  - o1
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: description_logic_reasoning
+  name: Description logic and automated reasoning
+  description: Computational logic for representing knowledge as machine-queryable data, with description
+    logic formalisms, automated reasoning and generalised inferences.
+  evidence:
+  - c1
+  - c3
+  - o2
+  share: 0.13
+  level: intermediate
+  kind: concept
+  technology: null
+- key: knowledge_graphs_and_linked_data
+  name: Knowledge graphs and linked data
+  description: Modelling knowledge as knowledge graphs and publishing it as linked data within Semantic
+    Web frameworks.
+  evidence:
+  - c3
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: ontology_design_patterns
+  name: Ontology design patterns
+  description: Designing and reusing ontology design patterns as modular knowledge patterns for building
+    ontologies.
+  evidence:
+  - c3
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: rule_based_knowledge_extraction
+  name: Rule-based knowledge extraction
+  description: Extracting knowledge from arbitrary text and content using linguistic patterns, heuristics
+    and graph-based data analysis.
+  evidence:
+  - c4
+  - o2
+  share: 0.1
+  level: introductory
+  kind: technique
+  technology: null
+- key: web_scraping
+  name: Web scraping for knowledge extraction
+  description: Collecting data from Web pages by scraping them as a source for knowledge extraction.
+  evidence:
+  - c4
+  - c6
+  share: 0.06
+  level: introductory
+  kind: technique
+  technology: null
+- key: generative_ai_knowledge_extraction
+  name: Generative AI for knowledge extraction
+  description: Using statistical generative AI models to extract structured data from arbitrary content,
+    tested and applied on Web data.
+  evidence:
+  - c4
+  - c6
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: null
+- key: neurosymbolic_hybridization
+  name: Neurosymbolic hybridization of extraction methods
+  description: Combining rule-based heuristics with statistical generative AI and logic-based reasoning
+    to improve knowledge extraction and grounded world models.
+  evidence:
+  - c4
+  - c5
+  share: 0.1
+  level: advanced
+  kind: concept
+  technology: null
+- key: knowledge_requirements_analysis
+  name: Knowledge requirements analysis and planning
+  description: Analysing a customer's knowledge requirements and producing a plan to satisfy them with
+    representation and extraction methods that are optimal for the task.
+  evidence:
+  - c5
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: semantic_web_software_tooling
+  name: Semantic technology software components
+  description: Hands-on use of software components and applications for semantic technologies, introduced
+    to make students accustomed to them.
+  evidence:
+  - c6
+  - c7
+  share: 0.08
+  level: introductory
+  kind: tool
+  technology: null
+- key: humanities_social_science_applications
+  name: Knowledge methods for humanities and social sciences
+  description: Applying knowledge representation and extraction methods to examples from multiple domains,
+    with a focus on social sciences and humanities.
+  evidence:
+  - c6
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+not_topics:
+- id: c2
+  reason: Heading introducing the course themes; its content is covered by the topics citing c3 to c7.

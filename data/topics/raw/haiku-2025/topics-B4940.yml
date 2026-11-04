@@ -1,0 +1,98 @@
+format: extraction/1
+course: B4940
+title: DATA SCIENCE FOR FASHION SYSTEM
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 13.1
+  usage:
+    prompt_tokens: 2865
+    completion_tokens: 2609
+    cache_read_tokens: 1854
+    thinking_tokens: 1708
+  created: '2026-11-04T18:30:48+00:00'
+topics:
+- key: fashion_data_science_use_cases
+  name: Data science use cases in fashion
+  description: Representative examples of data science adoption across the fashion system, with a focus
+    on identifying scenarios and designing advanced e-commerce solutions where these techniques have high
+    potential.
+  evidence:
+  - c3
+  - o2
+  - o3
+  share: 0.16
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_science_workflow
+  name: Data science workflow
+  description: The end-to-end data science workflow (data sources, data understanding, data preparation,
+    modeling, evaluation and deployment) as an overall process model applied to fashion e-commerce.
+  evidence:
+  - c4
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: data_sources_and_understanding
+  name: Data sources and data understanding
+  description: Identifying and collecting data sources relevant to fashion businesses and exploring their
+    structure, content and quality to understand them before analysis.
+  evidence:
+  - c4
+  share: 0.14
+  level: introductory
+  kind: technique
+  technology: null
+- key: data_preparation
+  name: Data preparation
+  description: Cleaning, transforming and integrating raw fashion and commerce data into a form suitable
+    for modeling.
+  evidence:
+  - c4
+  share: 0.16
+  level: introductory
+  kind: technique
+  technology: null
+- key: predictive_modeling
+  name: Modeling for data science applications
+  description: Selecting and applying modeling techniques to prepared data to address fashion e-commerce
+    problems.
+  evidence:
+  - c4
+  share: 0.18
+  level: introductory
+  kind: technique
+  technology: null
+- key: model_evaluation
+  name: Model evaluation
+  description: Assessing the quality and business usefulness of data science models before they are adopted.
+  evidence:
+  - c4
+  share: 0.12
+  level: introductory
+  kind: technique
+  technology: null
+- key: model_deployment
+  name: Model deployment
+  description: Putting validated data science models into operation within fashion e-commerce solutions
+    and their practical integration.
+  evidence:
+  - c4
+  share: 0.16
+  level: introductory
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Course framing statement describing the general focus; no teachable content of its own, covered
+    by the topics below.
+- id: c2
+  reason: Structural lead-in that introduces the two parts (use cases and workflow); no teachable content
+    of its own.

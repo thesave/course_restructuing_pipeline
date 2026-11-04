@@ -1,0 +1,148 @@
+format: extraction/1
+course: '72938'
+title: Foundations Of Artificial Intelligence T
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 23.7
+  usage:
+    prompt_tokens: 8234
+    completion_tokens: 5382
+    cache_read_tokens: 3708
+    thinking_tokens: 2531
+  created: '2026-11-04T18:16:03+00:00'
+topics:
+- key: ai_introduction
+  name: Introduction to Artificial Intelligence
+  description: History of AI, its main application fields, and the general picture of knowledge-based
+    systems and their architectural organisation.
+  evidence:
+  - c5
+  - o1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: state_space_search
+  name: State-space problem solving and search
+  description: Representing problems as states, forward and backward reasoning, and uninformed and informed
+    search strategies.
+  evidence:
+  - c6
+  - o1
+  - o2
+  share: 0.16
+  level: introductory
+  kind: technique
+  technology: null
+- key: game_playing
+  name: Game playing
+  description: Modelling two-player games as search problems and choosing moves against an opponent.
+  evidence:
+  - c6
+  - o2
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: constraint_satisfaction
+  name: Constraint satisfaction problems
+  description: Formulating problems as variables, domains and constraints and solving them by constraint-propagation
+    and search methods.
+  evidence:
+  - c6
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ai_planning
+  name: Automated planning
+  description: Formulating planning problems as sequences of actions that move from an initial state to
+    a goal state and searching for such plans.
+  evidence:
+  - c6
+  - o2
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: first_order_logic
+  name: First-order predicate logic for knowledge representation
+  description: Representing knowledge with first-order predicate logic, its syntax, semantics and use
+    for inference in knowledge-based systems.
+  evidence:
+  - c7
+  - o3
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: production_rule_systems
+  name: Production rule systems
+  description: Representing knowledge as condition-action rules and running forward or backward inference
+    over them.
+  evidence:
+  - c7
+  - o3
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: knowledge_based_systems
+  name: Knowledge-based systems and formal ontologies
+  description: Architecture of knowledge-based systems (knowledge base, inference engine) and an introduction
+    to formal ontologies as a way to structure knowledge.
+  evidence:
+  - c7
+  - c5
+  - o3
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: logic_programming
+  name: From logic to logic programming
+  description: The passage from logic to logic programming, and how Prolog programs act as solvers via
+    unification and resolution.
+  evidence:
+  - c2
+  - c8
+  - o3
+  share: 0.13
+  level: introductory
+  kind: language
+  technology: Prolog
+- key: logic_program_design
+  name: Designing logic programs
+  description: Designing and developing simple Prolog programs to implement AI systems and solve problems.
+  evidence:
+  - c8
+  - o4
+  share: 0.13
+  level: introductory
+  kind: technique
+  technology: Prolog
+- key: meta_interpreters
+  name: Meta-predicates and meta-interpreters
+  description: Meta-predicates and meta-interpreters in Prolog, used to inspect and control the execution
+    of Prolog programs.
+  evidence:
+  - c8
+  - o3
+  share: 0.06
+  level: advanced
+  kind: technique
+  technology: Prolog
+not_topics:
+- id: c1
+  reason: General course overview that restates the topics listed below; it has no teachable content of
+    its own.
+- id: c3
+  reason: Seminars on specific AI topics are planned but not specified, so they yield no defined topic.
+- id: c4
+  reason: Organisational remark that this course prepares for the Intelligent Systems course.

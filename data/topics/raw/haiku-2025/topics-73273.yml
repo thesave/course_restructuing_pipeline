@@ -1,0 +1,132 @@
+format: extraction/1
+course: '73273'
+title: Informatic Tecnologies for Fashion
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 27.2
+  usage:
+    prompt_tokens: 7659
+    completion_tokens: 6120
+    cache_read_tokens: 3708
+    thinking_tokens: 3522
+  created: '2026-11-04T18:16:52+00:00'
+topics:
+- key: it_foundations_and_networks
+  name: IT foundations and how networks work
+  description: Defining information technology and explaining how computer networks, the Internet and
+    the Web transmit data between devices.
+  evidence:
+  - c1
+  - c2
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: digital_information_representation
+  name: Digital representation of information and multimedia
+  description: How text, numbers, images, sound and video are encoded as bits and manipulated digitally.
+  evidence:
+  - c5
+  - c6
+  share: 0.11
+  level: introductory
+  kind: concept
+  technology: null
+- key: algorithmic_thinking
+  name: Algorithmic thinking
+  description: Decomposing problems and expressing step-by-step procedures as algorithms, without tying
+    them to a programming language.
+  evidence:
+  - c7
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+- key: web_page_markup
+  name: Writing web pages with markup
+  description: Structuring web pages with HTML markup elements and attributes, as practised in the laboratory
+    sessions.
+  evidence:
+  - c3
+  - c10
+  share: 0.12
+  level: introductory
+  kind: language
+  technology: HTML
+- key: web_search_and_seo
+  name: Finding information on the web and SEO
+  description: Strategies for searching the web effectively and techniques for improving a site's visibility
+    in search engine results.
+  evidence:
+  - c4
+  - c10
+  share: 0.08
+  level: introductory
+  kind: technique
+  technology: null
+- key: website_builders
+  name: Building websites with WIX and Weebly
+  description: Creating and publishing fashion-oriented websites with no-code website builder platforms.
+  evidence:
+  - c10
+  share: 0.07
+  level: introductory
+  kind: tool
+  technology: WIX/Weebly
+- key: immersive_web_scenes
+  name: Immersive web scenes with A-Frame and Glitch
+  description: Building simple virtual reality scenes for the web with the A-Frame framework and deploying
+    them on the Glitch platform.
+  evidence:
+  - c10
+  share: 0.09
+  level: intermediate
+  kind: tool
+  technology: A-Frame
+- key: spreadsheets
+  name: Spreadsheets with Excel
+  description: Using Excel to organise, calculate and analyse data in fashion-related office tasks.
+  evidence:
+  - c10
+  - o2
+  share: 0.14
+  level: introductory
+  kind: tool
+  technology: Excel
+- key: fashion_3d_modeling
+  name: 3D modelling software for fashion
+  description: Overview of 3D garment and fashion design software, Clo3D and Style3D, and their role in
+    the fashion sector.
+  evidence:
+  - c11
+  share: 0.07
+  level: introductory
+  kind: tool
+  technology: Clo3D
+- key: emerging_technologies_ai_vr_ar
+  name: Artificial intelligence, virtual and augmented reality
+  description: A brief conceptual overview of artificial intelligence, virtual reality and augmented reality
+    and their applications.
+  evidence:
+  - c12
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: digital_society_privacy_security
+  name: Digital society, privacy and security
+  description: Social implications of information technology together with digital privacy and security
+    risks and protections.
+  evidence:
+  - c8
+  - c9
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+not_topics: []

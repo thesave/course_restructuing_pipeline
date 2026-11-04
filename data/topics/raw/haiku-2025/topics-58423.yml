@@ -1,0 +1,149 @@
+format: extraction/1
+course: '58423'
+title: Internet Architecture
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 20.5
+  usage:
+    prompt_tokens: 2944
+    completion_tokens: 4599
+    cache_read_tokens: 1854
+    thinking_tokens: 3227
+  created: '2026-11-04T18:14:06+00:00'
+topics:
+- key: internetworking_fundamentals
+  name: Internetworking fundamentals
+  description: Basic principles of interconnecting networks and the layered architecture that lets the
+    Internet function as a single network of networks.
+  evidence:
+  - c1
+  - o1
+  share: 0.06
+  level: introductory
+  kind: concept
+  technology: null
+- key: lan_wan_man_link_protocols
+  name: LAN, WAN and MAN link-layer protocols
+  description: Communication protocols used in local, wide and metropolitan area networks, including Ethernet,
+    IEEE 802.11, HDLC and PPP.
+  evidence:
+  - c2
+  - c7
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: mac_and_address_resolution
+  name: MAC layer and address resolution
+  description: Medium access control and the mapping between IP and link-layer addresses through ARP and
+    RARP.
+  evidence:
+  - c3
+  - c7
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ip_and_icmp
+  name: Internet Protocol and ICMP
+  description: The IP datagram service, addressing and forwarding of packets, and the ICMP control messages
+    that report errors and diagnose connectivity.
+  evidence:
+  - c7
+  - c11
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: internet_structure
+  name: Internet structure
+  description: The organisation of the Internet into access networks, Internet service providers, autonomous
+    systems and their interconnections.
+  evidence:
+  - c4
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: routing_in_internet
+  name: Routing in the Internet
+  description: Algorithms and protocols that compute paths between networks, such as link-state and distance-vector
+    routing and inter-domain routing.
+  evidence:
+  - c5
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: transport_tcp_udp
+  name: 'Transport layer: TCP and UDP'
+  description: Process-to-process communication through UDP and the reliable, congestion-controlled byte-stream
+    service of TCP.
+  evidence:
+  - c3
+  - c7
+  - c11
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: world_wide_web_http
+  name: World Wide Web and HTTP
+  description: The web architecture, URLs, and the HTTP request-response protocol used between browsers
+    and web servers.
+  evidence:
+  - c6
+  - c7
+  - c8
+  - c11
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: email_protocols
+  name: Email protocols
+  description: Electronic mail architecture and the SMTP, POP and IMAP protocols for sending and retrieving
+    messages.
+  evidence:
+  - c7
+  - c8
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: client_server_p2p_applications
+  name: Client-server, P2P and remote services
+  description: Application architectures such as client-server and peer-to-peer file sharing, plus news,
+    chat, Telnet and FTP services.
+  evidence:
+  - c6
+  - c7
+  - c8
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: network_security_privacy
+  name: Network security and privacy
+  description: Brief overview of threats, security mechanisms and privacy issues in Internet communications.
+  evidence:
+  - c9
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+- key: wireless_networking
+  name: Wireless networking and the Internet
+  description: Brief overview of wireless links and how wireless access networks connect to the Internet.
+  evidence:
+  - c10
+  share: 0.06
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

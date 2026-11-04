@@ -1,0 +1,94 @@
+format: extraction/1
+course: '84339'
+title: Advanced Database Systems
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 15.0
+  usage:
+    prompt_tokens: 7171
+    completion_tokens: 3135
+    cache_read_tokens: 3708
+    thinking_tokens: 1412
+  created: '2026-11-04T18:19:27+00:00'
+topics:
+- key: nosql_data_models
+  name: NoSQL data models
+  description: 'Non-relational data models in this course: document-based, graph-based and column-oriented
+    stores, with their structure and typical use cases.'
+  evidence:
+  - c1.1
+  - o1
+  share: 0.14
+  level: introductory
+  kind: concept
+  technology: null
+- key: nosql_architectures
+  name: NoSQL architectures
+  description: Architecture of non-relational DBMSs, covering clustering, sharding and data persistence.
+  evidence:
+  - c1.2
+  - o1
+  share: 0.14
+  level: intermediate
+  kind: concept
+  technology: null
+- key: nosql_data_design
+  name: Data design for NoSQL
+  description: Methods for designing data structures and schemas in NoSQL DBMSs, driven by the data model
+    and access patterns.
+  evidence:
+  - c1.3
+  - o1
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: null
+- key: nosql_laboratory
+  name: NoSQL laboratory practice
+  description: Hands-on laboratory exercises applying NoSQL design concepts to a document store.
+  evidence:
+  - c1.4
+  - o2
+  share: 0.14
+  level: introductory
+  kind: tool
+  technology: MongoDB
+- key: database_administration
+  name: Relational database administration
+  description: Administrative tasks for relational DBMSs, such as managing the database server, users
+    and storage.
+  evidence:
+  - c2.1
+  - o1
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: database_programming_active
+  name: Database programming and active databases
+  description: Server-side programming of relational databases (such as stored procedures and functions)
+    and active behaviour through triggers and event-condition-action rules.
+  evidence:
+  - c2.2
+  - o1
+  share: 0.16
+  level: intermediate
+  kind: technique
+  technology: null
+- key: resource_provisioning_optimization
+  name: Provisioning and resource optimization
+  description: Sizing and provisioning of relational DBMS resources and tuning them for performance, including
+    physical design and resource allocation.
+  evidence:
+  - c2.3
+  - o1
+  share: 0.16
+  level: advanced
+  kind: technique
+  technology: null
+not_topics: []

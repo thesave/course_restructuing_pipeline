@@ -1,0 +1,130 @@
+format: extraction/1
+course: 11929-B
+title: Algorithm and Data Structures
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 13.9
+  usage:
+    prompt_tokens: 3193
+    completion_tokens: 2898
+    cache_read_tokens: 1854
+    thinking_tokens: 1768
+  created: '2026-11-04T18:09:43+00:00'
+topics:
+- key: complexity_analysis
+  name: Algorithm efficiency and complexity analysis
+  description: Measuring algorithm efficiency through time and space cost, and estimating it with asymptotic
+    notation (Big O) and related bounds.
+  evidence:
+  - c4.1
+  - c4.2
+  - o2
+  share: 0.12
+  level: introductory
+  kind: concept
+  technology: null
+- key: recursion_divide_and_conquer
+  name: Recursion and divide-and-conquer
+  description: Designing recursive algorithms, analysing their cost through recurrences, and applying
+    the divide-and-conquer strategy.
+  evidence:
+  - c4.3
+  - o1
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: search_algorithms
+  name: Search algorithms
+  description: Algorithms for finding elements in data collections, such as linear and binary search,
+    and their cost.
+  evidence:
+  - c4.4
+  - o1
+  share: 0.08
+  level: introductory
+  kind: technique
+  technology: null
+- key: sorting_algorithms
+  name: Sorting algorithms
+  description: Comparison-based sorting algorithms, their correctness, and their time complexity.
+  evidence:
+  - c4.5
+  - o1
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: null
+- key: elementary_data_structures
+  name: Stacks, queues and lists
+  description: Abstract data types and implementations of stacks, queues and linked lists, with their
+    operations and costs.
+  evidence:
+  - c4.6
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: hash_tables
+  name: Hash tables
+  description: Hash functions, collision resolution and the average-case cost of dictionary operations
+    in hash tables.
+  evidence:
+  - c4.7
+  - o1
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: graphs_and_traversal
+  name: Graphs and graph traversal
+  description: Graph representations and traversal algorithms such as breadth-first and depth-first search
+    and their applications.
+  evidence:
+  - c4.8
+  - o1
+  share: 0.11
+  level: intermediate
+  kind: concept
+  technology: null
+- key: binary_search_trees
+  name: Binary search trees
+  description: Binary search tree structure and the search, insertion and deletion operations with their
+    cost depending on tree height.
+  evidence:
+  - c4.9
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: programming_language_basics
+  name: Programming in Python
+  description: Introduction to the Python language as a second perspective for implementing and using
+    the course's algorithms and data structures.
+  evidence:
+  - c1
+  - c3
+  share: 0.15
+  level: introductory
+  kind: language
+  technology: Python
+- key: algorithm_implementation
+  name: Implementing algorithms in C
+  description: Translating pseudocode algorithms and data structures into working C programs during the
+    exercises.
+  evidence:
+  - c2
+  - o2
+  share: 0.04
+  level: introductory
+  kind: language
+  technology: C
+not_topics: []

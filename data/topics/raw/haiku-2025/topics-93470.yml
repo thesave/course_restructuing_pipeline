@@ -1,0 +1,153 @@
+format: extraction/1
+course: '93470'
+title: Cybersecurity
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 14.6
+  usage:
+    prompt_tokens: 3558
+    completion_tokens: 3377
+    cache_read_tokens: 1854
+    thinking_tokens: 2001
+  created: '2026-11-04T18:25:01+00:00'
+topics:
+- key: security_basics_threats_risks
+  name: Computer security basics and threat modelling
+  description: Core terminology of computer and network security (threats, risks, attacks, assets) and
+    the derivation of security functional requirements.
+  evidence:
+  - c1
+  - o1
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: symmetric_cryptography
+  name: Cryptography basics and symmetric encryption
+  description: Introduction to cryptographic principles and symmetric encryption schemes and their use
+    for confidentiality.
+  evidence:
+  - c2
+  - o2
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: public_key_and_signatures
+  name: Public-key encryption, digital signatures and key management
+  description: Public-key cryptosystems, their use for encryption and digital signatures, and the management
+    of cryptographic keys over their lifecycle.
+  evidence:
+  - c2
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: user_authentication
+  name: User authentication
+  description: Mechanisms for authenticating users (credentials, passwords, tokens and related weaknesses)
+    and the typical problems that affect authentication systems.
+  evidence:
+  - c3
+  - o1
+  share: 0.09
+  level: introductory
+  kind: technique
+  technology: null
+- key: access_control
+  name: Access control
+  description: Models and mechanisms for controlling which subjects may access which resources, including
+    policy models and their enforcement.
+  evidence:
+  - c4
+  - o1
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: malicious_software
+  name: Malicious software
+  description: Types of malware (viruses, worms, trojans, and similar), how they spread and how they are
+    detected and countered.
+  evidence:
+  - c5
+  - o1
+  - o3
+  share: 0.09
+  level: intermediate
+  kind: concept
+  technology: null
+- key: dos_ddos_attacks
+  name: Denial-of-service and DDoS attacks
+  description: Denial-of-Service and Distributed Denial-of-Service attack techniques, their impact on
+    availability, and mitigation strategies.
+  evidence:
+  - c6
+  - o3
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: secure_software_development
+  name: Security in software design and implementation
+  description: Security considerations in the design and implementation of software, aimed at building
+    systems that are secure by design.
+  evidence:
+  - c7
+  - o4
+  share: 0.08
+  level: intermediate
+  kind: technique
+  technology: null
+- key: risk_assessment_management
+  name: Security risk assessment and management
+  description: Security management processes, including risk analysis, risk evaluation, risk treatment
+    and auditing of security controls.
+  evidence:
+  - c8
+  - o3
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: null
+- key: security_policies_social_engineering
+  name: Security policies and social engineering
+  description: Design and implementation of security policies, and the human-in-the-loop dimension including
+    social engineering attacks and countermeasures.
+  evidence:
+  - c8
+  - o3
+  share: 0.07
+  level: intermediate
+  kind: concept
+  technology: null
+- key: computer_forensics
+  name: Computer forensics and anti-forensics
+  description: Basic computer forensics investigation methods and the techniques used to hinder forensic
+    analysis.
+  evidence:
+  - c9
+  - o4
+  share: 0.06
+  level: intermediate
+  kind: technique
+  technology: null
+- key: device_hardening
+  name: Hardening of computing devices
+  description: Procedures for reducing the attack surface of computing devices and systems exposed to
+    the Internet through configuration hardening.
+  evidence:
+  - c10
+  - o5
+  - o3
+  share: 0.07
+  level: intermediate
+  kind: technique
+  technology: null
+not_topics: []

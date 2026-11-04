@@ -1,0 +1,95 @@
+format: extraction/1
+course: 91250-A
+title: Deep Learning
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 11.1
+  usage:
+    prompt_tokens: 3200
+    completion_tokens: 2277
+    cache_read_tokens: 1854
+    thinking_tokens: 1473
+  created: '2026-11-04T18:22:17+00:00'
+topics:
+- key: neural_networks_backpropagation
+  name: Neural networks and backpropagation
+  description: Feedforward neural network topologies and the backpropagation algorithm used to train them.
+  evidence:
+  - c1
+  - c2
+  - o2
+  share: 0.15
+  level: introductory
+  kind: technique
+  technology: null
+- key: convolutional_networks
+  name: Convolutional networks for vision
+  description: Convolutional architectures and their use for image classification, localization, segmentation
+    and style transfer.
+  evidence:
+  - c2
+  - o2
+  - o3
+  share: 0.18
+  level: intermediate
+  kind: concept
+  technology: null
+- key: recurrent_networks_sequences
+  name: Recurrent networks for sequences
+  description: Recurrent neural network architectures and their application to text and other sequential
+    data.
+  evidence:
+  - c2
+  - o2
+  share: 0.13
+  level: intermediate
+  kind: concept
+  technology: null
+- key: visualizing_hidden_units
+  name: Visualizing hidden neural units
+  description: Techniques for inspecting and visualizing the behaviour of hidden units, including deep
+    dreams and inceptionism.
+  evidence:
+  - c3
+  - o2
+  share: 0.11
+  level: intermediate
+  kind: technique
+  technology: null
+- key: adversarial_examples
+  name: Fooling neural networks
+  description: Adversarial techniques that craft inputs to mislead trained neural networks.
+  evidence:
+  - c4
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: generative_models_diffusion
+  name: Generative models and diffusion
+  description: Modern generative techniques for producing data, with emphasis on recent diffusion models.
+  evidence:
+  - c4
+  - o2
+  share: 0.15
+  level: advanced
+  kind: technique
+  technology: null
+- key: deep_reinforcement_learning
+  name: Deep reinforcement learning
+  description: Introduction to deep reinforcement learning for designing adaptive agents in video games,
+    autonomous driving and similar settings.
+  evidence:
+  - c5
+  - o2
+  share: 0.18
+  level: advanced
+  kind: technique
+  technology: null
+not_topics: []

@@ -1,0 +1,140 @@
+format: extraction/1
+course: '90157'
+title: Open Science
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 20.2
+  usage:
+    prompt_tokens: 3695
+    completion_tokens: 4256
+    cache_read_tokens: 1854
+    thinking_tokens: 3005
+  created: '2026-11-04T18:21:53+00:00'
+topics:
+- key: open_science_principles
+  name: Open Science principles and history
+  description: Theoretical, historical and social foundations of the Open Science movement and the common
+    practices used to set up Open Science projects.
+  evidence:
+  - c6.1
+  - c3
+  - c5
+  - o1
+  share: 0.111
+  level: introductory
+  kind: concept
+  technology: null
+- key: reproducibility
+  name: Reproducibility
+  description: Concepts and practices that let other researchers reproduce computational and experimental
+    results, using shared code, data and documentation.
+  evidence:
+  - c6.2
+  - c3
+  - c5
+  share: 0.111
+  level: introductory
+  kind: concept
+  technology: null
+- key: fair_open_data
+  name: FAIR principles and open data
+  description: The FAIR principles (Findable, Accessible, Interoperable, Reusable) for research data and
+    the tools and techniques for gathering, analysing and reusing open data from different domains.
+  evidence:
+  - c6.3
+  - c3
+  - c5
+  - o2
+  share: 0.111
+  level: intermediate
+  kind: concept
+  technology: null
+- key: open_methodology
+  name: Open methodology
+  description: Making research methods, protocols and workflows transparent and openly shared so that
+    they can be inspected, reused and adapted.
+  evidence:
+  - c6.4
+  - c3
+  - c5
+  share: 0.111
+  level: intermediate
+  kind: concept
+  technology: null
+- key: open_peer_review
+  name: Open peer review
+  description: Models of transparent peer review, including open identities, open reports and open participation,
+    and their effects on scholarly quality and trust.
+  evidence:
+  - c6.5
+  - c3
+  - c5
+  share: 0.111
+  level: introductory
+  kind: concept
+  technology: null
+- key: open_source_software
+  name: Open source software
+  description: Principles of open source software development, licensing and collaborative production
+    of research code, with hands-on use of existing tools.
+  evidence:
+  - c6.6
+  - c3
+  - c5
+  share: 0.111
+  level: introductory
+  kind: concept
+  technology: null
+- key: open_access_publishing
+  name: Open access publishing
+  description: Routes to free access to scholarly publications (green, gold and related models), their
+    historical development and their economic and legal implications.
+  evidence:
+  - c6.7
+  - c3
+  - c5
+  share: 0.111
+  level: introductory
+  kind: concept
+  technology: null
+- key: open_metrics
+  name: Open metrics
+  description: Open, transparent and alternative ways of measuring research output and impact beyond traditional
+    citation-based indicators.
+  evidence:
+  - c6.8
+  - c3
+  - c5
+  share: 0.111
+  level: intermediate
+  kind: concept
+  technology: null
+- key: open_infrastructures
+  name: Open infrastructures
+  description: Open infrastructures and services for scholarly communication and research data, and the
+    hands-on use of existing platforms to share and publish research.
+  evidence:
+  - c6.9
+  - c3
+  - c5
+  - o2
+  share: 0.112
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics:
+- id: c1
+  reason: 'Course organisation: nine lectures plus a wrap-up and a requirement of active participation;
+    no teachable content.'
+- id: c2
+  reason: 'Lecture format: each lecture has three parts; a organisational description, not a subject.'
+- id: c4
+  reason: 'Teaching activity: structured discussion of an assigned article, a method applied across the
+    lecture topics rather than a subject in itself.'
+- id: c6.10
+  reason: Wrap-up session that closes the course; it introduces no new teachable content.

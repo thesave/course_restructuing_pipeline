@@ -1,0 +1,130 @@
+format: extraction/1
+course: '91602'
+title: Computer Architectures
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 21.1
+  usage:
+    prompt_tokens: 8464
+    completion_tokens: 5099
+    cache_read_tokens: 3708
+    thinking_tokens: 2362
+  created: '2026-11-04T18:23:43+00:00'
+topics:
+- key: von_neumann_architecture
+  name: Von Neumann architecture and performance
+  description: The Von Neumann model of a computer, PC and bus cycles, hardware organisation, performance
+    measures and the history of computers.
+  evidence:
+  - c1
+  - o1
+  share: 0.08
+  level: introductory
+  kind: concept
+  technology: null
+- key: instruction_set_architectures
+  name: Instruction set architecture principles
+  description: General ISA features (instruction encoding, addressing modes, instruction classes, procedure
+    calls) and the taxonomy of register-register (RISC) versus memory-register (CISC) designs.
+  evidence:
+  - c2
+  - o1
+  share: 0.1
+  level: introductory
+  kind: concept
+  technology: null
+- key: combinational_logic_components
+  name: Logic design building blocks
+  description: 'Digital building blocks used in CPUs: the ALU, three-state drivers and distributed multiplexing,
+    register files, transceivers, latches and edge-triggered registers.'
+  evidence:
+  - c3
+  share: 0.08
+  level: intermediate
+  kind: concept
+  technology: null
+- key: risc_execution_environment
+  name: DLX instruction set and execution environment
+  description: The DLX execution environment, its instruction set and formats, stack-based procedure calls
+    and code examples.
+  evidence:
+  - c4
+  - o3
+  share: 0.1
+  level: intermediate
+  kind: language
+  technology: DLX
+- key: sequential_cpu_design
+  name: Sequential CPU datapath and controller
+  description: Structure of a non-pipelined CPU, with datapath and controller design, the DLX datapath,
+    controller state machine, interrupt handling and clock cycles per instruction.
+  evidence:
+  - c5
+  - o2
+  share: 0.12
+  level: intermediate
+  kind: concept
+  technology: null
+- key: pipelined_cpu_design
+  name: Pipelined CPU design and hazards
+  description: General pipelining principles and metrics, the pipelined DLX datapath, data and control
+    hazards, stalls, forwarding and branch prediction.
+  evidence:
+  - c6
+  - o2
+  share: 0.14
+  level: advanced
+  kind: technique
+  technology: null
+- key: ia32_architecture
+  name: Intel IA-32 architecture and segmentation
+  description: The Intel Architecture execution environment, segmentation with logical and physical addresses,
+    its instruction set and code examples compared with DLX.
+  evidence:
+  - c7
+  - o1
+  share: 0.08
+  level: intermediate
+  kind: language
+  technology: Intel IA-32
+- key: memory_system_interfacing
+  name: Memory interfacing to the system bus
+  description: Connecting ROM and RAM chips to the system bus, address decoding and memory mapping for
+    8-bit and wider data buses, wait states and READY circuit design.
+  evidence:
+  - c8
+  - o2
+  - o3
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: io_port_interfacing
+  name: I/O port interfacing and handling
+  description: General model of I/O ports, access to internal port registers, interfacing ports to 8-bit
+    and multi-byte buses, and I/O handling by polling and interrupts with code examples.
+  evidence:
+  - c9
+  - o2
+  - o3
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: interrupt_system
+  name: Interrupt system and PIC
+  description: Classes of interrupts (hardware, software and exceptions), handling hardware interrupts
+    through a Programmable Interrupt Controller and vectored interrupts.
+  evidence:
+  - c10
+  - o2
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+not_topics: []

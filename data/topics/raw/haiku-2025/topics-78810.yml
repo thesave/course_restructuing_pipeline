@@ -1,0 +1,206 @@
+format: extraction/1
+course: '78810'
+title: Real Time Systems for Automation M
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 1
+  seconds: 22.4
+  usage:
+    prompt_tokens: 3486
+    completion_tokens: 5300
+    cache_read_tokens: 1854
+    thinking_tokens: 3344
+  created: '2026-11-04T18:18:04+00:00'
+topics:
+- key: language_basics
+  name: Python language basics
+  description: Core Python syntax, data types, control flow, functions and modules, with hands-on lab
+    practice.
+  evidence:
+  - c2
+  share: 0.0833
+  level: introductory
+  kind: language
+  technology: Python
+- key: object_oriented_programming
+  name: Object-oriented programming in Python
+  description: Classes, objects, inheritance and related OOP constructs as implemented in Python.
+  evidence:
+  - c2
+  share: 0.0833
+  level: intermediate
+  kind: language
+  technology: Python
+- key: os_structure
+  name: Operating system overview and structures
+  description: Role of the operating system, its main components and how these are organised in system
+    structures.
+  evidence:
+  - c3
+  share: 0.0333
+  level: introductory
+  kind: concept
+  technology: null
+- key: processes_and_threads
+  name: Processes and threads
+  description: Process and thread abstractions, their life cycle, state and the difference between them.
+  evidence:
+  - c3
+  - o1.1
+  share: 0.0667
+  level: introductory
+  kind: concept
+  technology: null
+- key: cpu_scheduling
+  name: CPU scheduling
+  description: General CPU scheduling policies and criteria for allocating the processor to processes
+    or threads.
+  evidence:
+  - c3
+  - o1.1
+  share: 0.0667
+  level: intermediate
+  kind: technique
+  technology: null
+- key: process_synchronisation
+  name: Process synchronisation
+  description: Critical sections, race conditions and synchronisation primitives that coordinate concurrent
+    processes.
+  evidence:
+  - c3
+  - o1.1
+  share: 0.0667
+  level: intermediate
+  kind: concept
+  technology: null
+- key: deadlocks
+  name: Deadlocks
+  description: Conditions for deadlock and methods to prevent, avoid, detect or recover from it.
+  evidence:
+  - c3
+  share: 0.0333
+  level: intermediate
+  kind: concept
+  technology: null
+- key: memory_and_io
+  name: Memory management and I/O systems
+  description: Memory management concepts and the organisation of input/output in the operating system.
+  evidence:
+  - c3
+  share: 0.0667
+  level: intermediate
+  kind: concept
+  technology: null
+- key: shell_usage
+  name: Linux shell usage
+  description: Using the Linux command-line shell to run commands, manage processes and write simple scripts.
+  evidence:
+  - c4
+  share: 0.025
+  level: introductory
+  kind: tool
+  technology: Linux
+- key: system_call_programming
+  name: System call programming
+  description: Writing programs that use POSIX system calls for process control and file/resource operations.
+  evidence:
+  - c4
+  - o1.2
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: POSIX
+- key: thread_synchronization
+  name: Multithreading and thread synchronisation
+  description: Creating POSIX threads and coordinating them with synchronisation mechanisms such as mutexes
+    and semaphores.
+  evidence:
+  - c4
+  - o1.2
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: POSIX
+- key: real_time_concepts
+  name: Real-time systems basic concepts
+  description: Definition of real-time systems, hard and soft timing constraints, and the main system
+    models and terminology.
+  evidence:
+  - c5
+  - o1.1
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: aperiodic_task_scheduling
+  name: Aperiodic task scheduling
+  description: Scheduling of aperiodic and sporadic tasks in real-time systems, including server-based
+    approaches.
+  evidence:
+  - c5
+  - o1.3
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: clock_driven_scheduling
+  name: Clock-driven scheduling of periodic tasks
+  description: Static, time-table based scheduling of periodic tasks driven by a clock.
+  evidence:
+  - c5
+  - o1.3
+  share: 0.0333
+  level: intermediate
+  kind: technique
+  technology: null
+- key: priority_driven_scheduling
+  name: Priority-driven scheduling of periodic tasks
+  description: Fixed and dynamic priority assignment and schedulability analysis for periodic tasks, such
+    as rate-monotonic and EDF.
+  evidence:
+  - c5
+  - o1.3
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: resource_access_protocols
+  name: Resource access protocols
+  description: Protocols that control access to shared resources in real-time tasks to bound priority
+    inversion and blocking.
+  evidence:
+  - c5
+  - o1.3
+  share: 0.0667
+  level: advanced
+  kind: technique
+  technology: null
+- key: real_time_os_programming
+  name: Real-time programming with vxWorks
+  description: Developing and running real-time applications on vxWorks using the Workbench development
+    environment.
+  evidence:
+  - c6
+  - o1.2
+  share: 0.0583
+  level: intermediate
+  kind: tool
+  technology: vxWorks
+- key: metascheduler_design
+  name: Metascheduler for hard real-time tasks
+  description: Designing and implementing a metascheduler that schedules hard real-time periodic tasks
+    sharing resources.
+  evidence:
+  - c6
+  - o1.3
+  share: 0.0667
+  level: advanced
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Organisational remark about the course being divided into modules; no teachable content.

@@ -1,0 +1,124 @@
+format: extraction/1
+course: B0385
+title: Natural Language Processing
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 0
+  seconds: 0.0
+  usage: {}
+  created: '2026-11-04T18:22:55+00:00'
+copied_from: '91258'
+topics:
+- key: nlp_fundamentals_corpora
+  name: NLP fundamentals and corpora
+  description: Overview of the NLP field and its core tasks, with tokenisation and building and analysing
+    text corpora as the basis for models.
+  evidence:
+  - c2
+  - o1
+  share: 0.075
+  level: introductory
+  kind: concept
+  technology: null
+- key: bag_of_words_vector_space
+  name: Bag-of-words and vector space model
+  description: Representing documents as word count or term vectors in a vector space and computing similarities
+    between them.
+  evidence:
+  - c3
+  - o1
+  share: 0.15
+  level: introductory
+  kind: technique
+  technology: null
+- key: naive_bayes_classifier
+  name: Naive Bayes classification
+  description: The Naive Bayes probabilistic classifier applied to text tasks such as topic identification
+    and sentiment analysis.
+  evidence:
+  - c4
+  - o1
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: ml_training_evaluation
+  name: Training and evaluation of machine learning models
+  description: Splitting data, training supervised models and measuring their performance on text classification
+    problems.
+  evidence:
+  - c7
+  - o1
+  share: 0.075
+  level: intermediate
+  kind: concept
+  technology: null
+- key: distributional_word_vectors
+  name: Distributional word vectors and counts
+  description: Building word vectors from co-occurrence counts and how such count-based representations
+    capture meaning.
+  evidence:
+  - c5
+  - c6
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: latent_semantic_analysis
+  name: Latent semantic analysis
+  description: Reducing a document-term matrix with singular value decomposition to uncover latent semantic
+    dimensions.
+  evidence:
+  - c8
+  share: 0.05
+  level: intermediate
+  kind: technique
+  technology: null
+- key: neural_networks_basics
+  name: Introduction to neural networks
+  description: Basic architecture, training and learning principles of feed-forward neural networks as
+    applied to text inputs.
+  evidence:
+  - c9
+  share: 0.1
+  level: intermediate
+  kind: concept
+  technology: null
+- key: word_embeddings
+  name: Word embeddings
+  description: Dense learned word representations and their use as inputs to neural models for NLP tasks.
+  evidence:
+  - c10
+  share: 0.1
+  level: intermediate
+  kind: technique
+  technology: null
+- key: cnn_for_text
+  name: Convolutional neural networks for text
+  description: Applying convolutional neural networks to text to extract local n-gram patterns for classification.
+  evidence:
+  - c12
+  share: 0.075
+  level: intermediate
+  kind: technique
+  technology: null
+- key: recurrent_nn_for_text
+  name: Recurrent neural networks and sequence representations for text
+  description: Moving from fixed document representations to sequences and modelling text with recurrent
+    neural networks.
+  evidence:
+  - c11
+  - c13
+  share: 0.175
+  level: advanced
+  kind: technique
+  technology: null
+not_topics:
+- id: c1
+  reason: Preamble stating that the course structure may be adapted; no teachable content.
+- id: c14
+  reason: Vague closing item ('Beyond') with no specific content to teach.

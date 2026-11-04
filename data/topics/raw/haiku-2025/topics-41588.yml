@@ -1,0 +1,130 @@
+format: extraction/1
+course: '41588'
+title: INTRODUZIONE ALL'ANALISI DEI DATI
+run:
+  model: claude-haiku-5-5
+  endpoint: claude-cli
+  prompt: 571f731f6572
+  request:
+    effort: medium
+  attempts: 2
+  seconds: 26.9
+  usage:
+    prompt_tokens: 7854
+    completion_tokens: 6162
+    cache_read_tokens: 3708
+    thinking_tokens: 3488
+  created: '2026-11-04T18:13:12+00:00'
+topics:
+- key: programming_algorithms_basics
+  name: Programming and algorithms basics
+  description: Core ideas of programming, including what an algorithm is, how algorithms are expressed
+    and how basic data structures organise data.
+  evidence:
+  - c2.1
+  share: 0.07
+  level: introductory
+  kind: concept
+  technology: null
+- key: language_basics
+  name: Language basics and control flow
+  description: 'Python''s core syntax in this course: primitive data types, control flow (conditionals
+    and loops), defining and calling functions, and importing libraries.'
+  evidence:
+  - c2.2
+  - o1
+  share: 0.18
+  level: introductory
+  kind: language
+  technology: Python
+- key: builtin_data_structures
+  name: Built-in data structures
+  description: Python's built-in collections (lists, tuples, dictionaries, sets) and how to create, index,
+    iterate over and modify them.
+  evidence:
+  - c2.2
+  - o1
+  share: 0.08
+  level: introductory
+  kind: language
+  technology: Python
+- key: data_analytics_overview
+  name: Types of data analytics and analysis pipelines
+  description: The types of data analytics (diagnostic, predictive, prescriptive and others), their enabling
+    techniques, and how to design a data pipeline from acquisition to analysis and valorisation.
+  evidence:
+  - o2
+  - o3
+  share: 0.05
+  level: introductory
+  kind: concept
+  technology: null
+- key: biological_data_types
+  name: Biological data types and applications
+  description: The kinds of data produced in biology and the data structures suited to them, together
+    with the main applications of data analytics in biology.
+  evidence:
+  - c3.1
+  - o4
+  share: 0.09
+  level: introductory
+  kind: concept
+  technology: null
+- key: numerical_arrays
+  name: Numerical arrays
+  description: Creating and manipulating n-dimensional numerical arrays for vectorised computation with
+    NumPy.
+  evidence:
+  - c3.5
+  share: 0.05
+  level: intermediate
+  kind: tool
+  technology: NumPy
+- key: tabular_data_handling
+  name: Tabular data handling
+  description: Loading, inspecting, cleaning and transforming tabular biological datasets using pandas
+    DataFrames and Series.
+  evidence:
+  - c3.1
+  - c3.5
+  share: 0.1
+  level: intermediate
+  kind: tool
+  technology: pandas
+- key: descriptive_analytics
+  name: Descriptive analytics and data visualisation
+  description: Summarising and plotting numerical, categorical and other biological data types with descriptive
+    statistics and matplotlib charts.
+  evidence:
+  - c3.2
+  - c3.5
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: matplotlib
+- key: predictive_modeling
+  name: Regression and classification models
+  description: Building, fitting and evaluating regression and classification models for predictive analysis
+    with scikit-learn.
+  evidence:
+  - c3.3
+  - c3.5
+  share: 0.14
+  level: intermediate
+  kind: technique
+  technology: scikit-learn
+- key: statistical_tests_variable_selection
+  name: Statistical tests and variable importance
+  description: Applying statistical hypothesis tests and model analysis to identify the variables that
+    matter most in a biological dataset, using SciPy.
+  evidence:
+  - c3.4
+  - c3.5
+  share: 0.12
+  level: intermediate
+  kind: technique
+  technology: SciPy
+not_topics:
+- id: c1
+  reason: Overview of how the course is divided into two parts; organisational description with no teachable
+    content of its own, the parts are covered by c2 and c3.
